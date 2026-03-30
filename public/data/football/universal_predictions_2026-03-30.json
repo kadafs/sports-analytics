@@ -3508,8 +3508,8 @@
       "league": "Brasileiro Women",
       "country": "Brazil",
       "date": "2026-03-30",
-      "away_team": "S\u00e3o Paulo W",
-      "home_team": "Atl\u00e9tico Mineiro W",
+      "away_team": "São Paulo W",
+      "home_team": "Atlético Mineiro W",
       "status": "NS",
       "kickoff": "2026-03-30 22:00",
       "xg_home": 0.75,
@@ -3725,7 +3725,7 @@
             "rank": 5,
             "team": {
               "id": 9982,
-              "name": "S\u00e3o Paulo W",
+              "name": "São Paulo W",
               "logo": "https://media.api-sports.io/football/teams/9982.png"
             },
             "points": 10,
@@ -4085,7 +4085,7 @@
             "rank": 13,
             "team": {
               "id": 18727,
-              "name": "Atl\u00e9tico Mineiro W",
+              "name": "Atlético Mineiro W",
               "logo": "https://media.api-sports.io/football/teams/18727.png"
             },
             "points": 4,
@@ -8548,11 +8548,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:38:55.175143+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -8582,7 +8582,10 @@
           "rank": null,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 1222,
@@ -8612,11 +8615,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:38:55.180981+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -8646,7 +8649,10 @@
           "rank": null,
           "form": 1
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 236,
@@ -8676,11 +8682,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:39:04.171290+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -9521,7 +9527,10 @@
           "rank": 11,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.94,
+      "signed_delta": 1.94,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 82,
@@ -9551,11 +9560,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:39:12.737401+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10015,7 +10024,7 @@
             "rank": 11,
             "team": {
               "id": 20487,
-              "name": "N\u00fcrnberg",
+              "name": "Nürnberg",
               "logo": "https://media.api-sports.io/football/teams/20487.png"
             },
             "points": 19,
@@ -10216,7 +10225,10 @@
           "rank": 6,
           "form": 11
         }
-      }
+      },
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 10,
@@ -10374,11 +10386,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:40:24.654921+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10408,7 +10420,10 @@
           "rank": null,
           "form": 0
         }
-      }
+      },
+      "total_delta": 2.55,
+      "signed_delta": 2.55,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 10,
@@ -10438,11 +10453,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:40:24.669918+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10472,7 +10487,10 @@
           "rank": null,
           "form": 0
         }
-      }
+      },
+      "total_delta": 1.45,
+      "signed_delta": -1.45,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 10,
@@ -10480,7 +10498,7 @@
       "country": "World",
       "date": "2026-03-30",
       "away_team": "Tunisia U23",
-      "home_team": "C\u00f4te d'Ivoire U20",
+      "home_team": "Côte d'Ivoire U20",
       "status": "1H",
       "kickoff": "2026-03-30 16:00",
       "xg_home": 0.943,
@@ -10502,11 +10520,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:40:24.673329+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10536,7 +10554,10 @@
           "rank": null,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 10,
@@ -10630,11 +10651,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:40:24.688389+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10664,14 +10685,17 @@
           "rank": null,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 10,
       "league": "Friendlies",
       "country": "World",
       "date": "2026-03-30",
-      "away_team": "C\u00f4te d'Ivoire U20",
+      "away_team": "Côte d'Ivoire U20",
       "home_team": "Morocco U23",
       "status": "NS",
       "kickoff": "2026-03-30 17:00",
@@ -10800,7 +10824,7 @@
       "country": "World",
       "date": "2026-03-30",
       "away_team": "Moss",
-      "home_team": "Stab\u00e6k II",
+      "home_team": "Stabæk II",
       "status": "CANC",
       "kickoff": "2026-03-30 14:15",
       "xg_home": 1.234,
@@ -10886,11 +10910,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:41:01.623284+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10920,7 +10944,10 @@
           "rank": null,
           "form": 3
         }
-      }
+      },
+      "total_delta": 1.55,
+      "signed_delta": 1.55,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 542,
@@ -10950,11 +10977,11 @@
       "predicted_result": "DRAW",
       "mode": "full",
       "timestamp": "2026-03-30T16:41:25.776262+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -11885,7 +11912,10 @@
           "rank": 7,
           "form": 11
         }
-      }
+      },
+      "total_delta": 0.37,
+      "signed_delta": -0.37,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 542,
@@ -11915,11 +11945,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:41:25.829933+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -12850,7 +12880,10 @@
           "rank": 17,
           "form": 5
         }
-      }
+      },
+      "total_delta": 0.5,
+      "signed_delta": 0.5,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 542,
@@ -13845,11 +13878,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:41:38.875403+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -13879,7 +13912,10 @@
           "rank": null,
           "form": 4
         }
-      }
+      },
+      "total_delta": 2.45,
+      "signed_delta": 2.45,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 895,
@@ -14078,7 +14114,7 @@
       "league": "Liga Femenina",
       "country": "Colombia",
       "date": "2026-03-30",
-      "away_team": "Atl\u00e9tico Nacional W",
+      "away_team": "Atlético Nacional W",
       "home_team": "Junior W",
       "status": "NS",
       "kickoff": "2026-03-30 21:00",
@@ -14142,7 +14178,7 @@
       "league": "Liga Femenina",
       "country": "Colombia",
       "date": "2026-03-30",
-      "away_team": "Atl\u00e9tico Bucaramanga W",
+      "away_team": "Atlético Bucaramanga W",
       "home_team": "Millonarios W",
       "status": "NS",
       "kickoff": "2026-03-30 22:15",
@@ -17428,7 +17464,7 @@
             "rank": 2,
             "team": {
               "id": 14868,
-              "name": "Am\u00e9rica W",
+              "name": "América W",
               "logo": "https://media.api-sports.io/football/teams/14868.png"
             },
             "points": 33,
@@ -17743,7 +17779,7 @@
             "rank": 9,
             "team": {
               "id": 14869,
-              "name": "Ju\u00e1rez W",
+              "name": "Juárez W",
               "logo": "https://media.api-sports.io/football/teams/14869.png"
             },
             "points": 21,
@@ -17833,7 +17869,7 @@
             "rank": 11,
             "team": {
               "id": 14878,
-              "name": "Mazatl\u00e1n W",
+              "name": "Mazatlán W",
               "logo": "https://media.api-sports.io/football/teams/14878.png"
             },
             "points": 18,
@@ -17878,7 +17914,7 @@
             "rank": 12,
             "team": {
               "id": 14877,
-              "name": "Le\u00f3n W",
+              "name": "León W",
               "logo": "https://media.api-sports.io/football/teams/14877.png"
             },
             "points": 15,
@@ -17923,7 +17959,7 @@
             "rank": 13,
             "team": {
               "id": 14874,
-              "name": "Atl\u00e9tico San Luis W",
+              "name": "Atlético San Luis W",
               "logo": "https://media.api-sports.io/football/teams/14874.png"
             },
             "points": 12,
@@ -18103,7 +18139,7 @@
             "rank": 17,
             "team": {
               "id": 14871,
-              "name": "Quer\u00e9taro W",
+              "name": "Querétaro W",
               "logo": "https://media.api-sports.io/football/teams/14871.png"
             },
             "points": 4,
@@ -18483,7 +18519,7 @@
             "rank": 6,
             "team": {
               "id": 3667,
-              "name": "Xelaj\u00fa",
+              "name": "Xelajú",
               "logo": "https://media.api-sports.io/football/teams/3667.png"
             },
             "points": 28,
@@ -18573,7 +18609,7 @@
             "rank": 8,
             "team": {
               "id": 3644,
-              "name": "Mictl\u00e1n",
+              "name": "Mictlán",
               "logo": "https://media.api-sports.io/football/teams/3644.png"
             },
             "points": 24,
@@ -18618,7 +18654,7 @@
             "rank": 9,
             "team": {
               "id": 3657,
-              "name": "Cob\u00e1n Imperial",
+              "name": "Cobán Imperial",
               "logo": "https://media.api-sports.io/football/teams/3657.png"
             },
             "points": 23,
@@ -19341,7 +19377,7 @@
       "league": "Liga de Ascenso",
       "country": "Costa-Rica",
       "date": "2026-03-30",
-      "away_team": "Escorpiones Bel\u00e9n",
+      "away_team": "Escorpiones Belén",
       "home_team": "Futbol Consultants Moravia",
       "status": "FT",
       "kickoff": "2026-03-30 00:00",
@@ -19558,7 +19594,7 @@
             "rank": 5,
             "team": {
               "id": 19737,
-              "name": "AD Sarch\u00ed",
+              "name": "AD Sarchí",
               "logo": "https://media.api-sports.io/football/teams/19737.png"
             },
             "points": 16,
@@ -19783,7 +19819,7 @@
             "rank": 1,
             "team": {
               "id": 17377,
-              "name": "Escorpiones Bel\u00e9n",
+              "name": "Escorpiones Belén",
               "logo": "https://media.api-sports.io/football/teams/17377.png"
             },
             "points": 29,
@@ -20143,7 +20179,7 @@
             "rank": 9,
             "team": {
               "id": 20804,
-              "name": "Lim\u00f3n Black Star",
+              "name": "Limón Black Star",
               "logo": "https://media.api-sports.io/football/teams/20804.png"
             },
             "points": 0,
@@ -21063,7 +21099,7 @@
             "rank": 3,
             "team": {
               "id": 20468,
-              "name": "C\u00e9leste",
+              "name": "Céleste",
               "logo": "https://media.api-sports.io/football/teams/20468.png"
             },
             "points": 39,
@@ -21603,7 +21639,7 @@
             "rank": 15,
             "team": {
               "id": 26889,
-              "name": "Martin P\u00eacheur",
+              "name": "Martin Pêcheur",
               "logo": "https://media.api-sports.io/football/teams/26889.png"
             },
             "points": 0,
@@ -22523,7 +22559,7 @@
             "rank": 3,
             "team": {
               "id": 20468,
-              "name": "C\u00e9leste",
+              "name": "Céleste",
               "logo": "https://media.api-sports.io/football/teams/20468.png"
             },
             "points": 39,
@@ -23063,7 +23099,7 @@
             "rank": 15,
             "team": {
               "id": 26889,
-              "name": "Martin P\u00eacheur",
+              "name": "Martin Pêcheur",
               "logo": "https://media.api-sports.io/football/teams/26889.png"
             },
             "points": 0,
@@ -23137,7 +23173,7 @@
       "country": "Guinea",
       "date": "2026-03-30",
       "away_team": "ASFAG",
-      "home_team": "Loubha T\u00e9lim\u00e9l\u00e9",
+      "home_team": "Loubha Télimélé",
       "status": "NS",
       "kickoff": "2026-03-30 16:00",
       "xg_home": 1.233,
@@ -23159,11 +23195,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:43:12.649460+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -23193,14 +23229,17 @@
           "rank": null,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.5,
+      "signed_delta": 1.5,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 378,
       "league": "Ligue 1",
       "country": "Guinea",
       "date": "2026-03-30",
-      "away_team": "Afrique Football \u00c9lite",
+      "away_team": "Afrique Football Élite",
       "home_team": "Wakirya",
       "status": "NS",
       "kickoff": "2026-03-30 16:00",
@@ -23223,11 +23262,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:43:12.652236+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -23257,7 +23296,10 @@
           "rank": null,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.29,
+      "signed_delta": -0.29,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 403,
@@ -23287,11 +23329,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:43:26.715618+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -23391,7 +23433,7 @@
             "rank": 3,
             "team": {
               "id": 5287,
-              "name": "Gor\u00e9e",
+              "name": "Gorée",
               "logo": "https://media.api-sports.io/football/teams/5287.png"
             },
             "points": 33,
@@ -23571,7 +23613,7 @@
             "rank": 7,
             "team": {
               "id": 5288,
-              "name": "G\u00e9n\u00e9ration Foot",
+              "name": "Génération Foot",
               "logo": "https://media.api-sports.io/football/teams/5288.png"
             },
             "points": 27,
@@ -23751,7 +23793,7 @@
             "rank": 11,
             "team": {
               "id": 5553,
-              "name": "Gu\u00e9diawaye",
+              "name": "Guédiawaye",
               "logo": "https://media.api-sports.io/football/teams/5553.png"
             },
             "points": 22,
@@ -23886,7 +23928,7 @@
             "rank": 14,
             "team": {
               "id": 5290,
-              "name": "La Lingu\u00e8re",
+              "name": "La Linguère",
               "logo": "https://media.api-sports.io/football/teams/5290.png"
             },
             "points": 20,
@@ -24042,7 +24084,10 @@
           "rank": 6,
           "form": 6
         }
-      }
+      },
+      "total_delta": 1.82,
+      "signed_delta": -1.82,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 403,
@@ -24050,7 +24095,7 @@
       "country": "Senegal",
       "date": "2026-03-30",
       "away_team": "Sonacos",
-      "home_team": "Gor\u00e9e",
+      "home_team": "Gorée",
       "status": "1H",
       "kickoff": "2026-03-30 16:30",
       "xg_home": 1.812,
@@ -24072,11 +24117,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:43:26.719479+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -24176,7 +24221,7 @@
             "rank": 3,
             "team": {
               "id": 5287,
-              "name": "Gor\u00e9e",
+              "name": "Gorée",
               "logo": "https://media.api-sports.io/football/teams/5287.png"
             },
             "points": 33,
@@ -24356,7 +24401,7 @@
             "rank": 7,
             "team": {
               "id": 5288,
-              "name": "G\u00e9n\u00e9ration Foot",
+              "name": "Génération Foot",
               "logo": "https://media.api-sports.io/football/teams/5288.png"
             },
             "points": 27,
@@ -24536,7 +24581,7 @@
             "rank": 11,
             "team": {
               "id": 5553,
-              "name": "Gu\u00e9diawaye",
+              "name": "Guédiawaye",
               "logo": "https://media.api-sports.io/football/teams/5553.png"
             },
             "points": 22,
@@ -24671,7 +24716,7 @@
             "rank": 14,
             "team": {
               "id": 5290,
-              "name": "La Lingu\u00e8re",
+              "name": "La Linguère",
               "logo": "https://media.api-sports.io/football/teams/5290.png"
             },
             "points": 20,
@@ -24827,7 +24872,10 @@
           "rank": 15,
           "form": 3
         }
-      }
+      },
+      "total_delta": 2.27,
+      "signed_delta": -2.27,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 909,
@@ -27599,7 +27647,7 @@
       "league": "Nasjonal U19 Champions League",
       "country": "Norway",
       "date": "2026-03-30",
-      "away_team": "Stab\u00e6k U19",
+      "away_team": "Stabæk U19",
       "home_team": "KFUM U19",
       "status": "FT",
       "kickoff": "2026-03-30 14:30",
@@ -27636,7 +27684,7 @@
             "rank": 1,
             "team": {
               "id": 16559,
-              "name": "Lillestr\u00f8m U19",
+              "name": "Lillestrøm U19",
               "logo": "https://media.api-sports.io/football/teams/16559.png"
             },
             "points": 14,
@@ -27861,7 +27909,7 @@
             "rank": 6,
             "team": {
               "id": 16563,
-              "name": "Stab\u00e6k U19",
+              "name": "Stabæk U19",
               "logo": "https://media.api-sports.io/football/teams/16563.png"
             },
             "points": 10,
@@ -27906,7 +27954,7 @@
             "rank": 7,
             "team": {
               "id": 16569,
-              "name": "\u00c5sane U19",
+              "name": "Åsane U19",
               "logo": "https://media.api-sports.io/football/teams/16569.png"
             },
             "points": 10,
@@ -27996,7 +28044,7 @@
             "rank": 9,
             "team": {
               "id": 16568,
-              "name": "V\u00e5lerenga U19",
+              "name": "Vålerenga U19",
               "logo": "https://media.api-sports.io/football/teams/16568.png"
             },
             "points": 10,
@@ -28176,7 +28224,7 @@
             "rank": 13,
             "team": {
               "id": 16566,
-              "name": "Troms\u00f8 U19",
+              "name": "Tromsø U19",
               "logo": "https://media.api-sports.io/football/teams/16566.png"
             },
             "points": 9,
@@ -28266,7 +28314,7 @@
             "rank": 15,
             "team": {
               "id": 16565,
-              "name": "Str\u00f8msgodset U19",
+              "name": "Strømsgodset U19",
               "logo": "https://media.api-sports.io/football/teams/16565.png"
             },
             "points": 8,
@@ -28716,7 +28764,7 @@
             "rank": 25,
             "team": {
               "id": 16553,
-              "name": "Bod\u00f8 / Glimt U19",
+              "name": "Bodø / Glimt U19",
               "logo": "https://media.api-sports.io/football/teams/16553.png"
             },
             "points": 2,
@@ -33592,11 +33640,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:44:59.937573+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -34056,7 +34104,7 @@
             "rank": 11,
             "team": {
               "id": 1144,
-              "name": "\u00c1guilas Doradas",
+              "name": "Águilas Doradas",
               "logo": "https://media.api-sports.io/football/teams/1144.png"
             },
             "points": 19,
@@ -34527,7 +34575,10 @@
           "rank": 5,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.14,
+      "signed_delta": -0.14,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 239,
@@ -35021,7 +35072,7 @@
             "rank": 11,
             "team": {
               "id": 1144,
-              "name": "\u00c1guilas Doradas",
+              "name": "Águilas Doradas",
               "logo": "https://media.api-sports.io/football/teams/1144.png"
             },
             "points": 19,
@@ -37070,7 +37121,7 @@
       "country": "Argentina",
       "date": "2026-03-30",
       "away_team": "Canuelas",
-      "home_team": "Deportivo Mu\u00f1iz",
+      "home_team": "Deportivo Muñiz",
       "status": "NS",
       "kickoff": "2026-03-30 18:30",
       "xg_home": 0.904,
@@ -37130,7 +37181,7 @@
     },
     {
       "league_id": 268,
-      "league": "Primera Divisi\u00f3n - Apertura",
+      "league": "Primera División - Apertura",
       "country": "Uruguay",
       "date": "2026-03-30",
       "away_team": "Danubio",
@@ -39305,7 +39356,7 @@
             "rank": 15,
             "team": {
               "id": 16612,
-              "name": "Ciudad de Bol\u00edvar",
+              "name": "Ciudad de Bolívar",
               "logo": "https://media.api-sports.io/football/teams/16612.png"
             },
             "points": 6,
@@ -40025,7 +40076,7 @@
             "rank": 13,
             "team": {
               "id": 3969,
-              "name": "Club Atl\u00e9tico G\u00fcemes",
+              "name": "Club Atlético Güemes",
               "logo": "https://media.api-sports.io/football/teams/3969.png"
             },
             "points": 6,
@@ -42290,7 +42341,7 @@
             "rank": 1,
             "team": {
               "id": 18702,
-              "name": "V\u00e9lez S\u00e1rsfield Res.",
+              "name": "Vélez Sársfield Res.",
               "logo": "https://media.api-sports.io/football/teams/18702.png"
             },
             "points": 13,
@@ -42425,7 +42476,7 @@
             "rank": 4,
             "team": {
               "id": 18699,
-              "name": "Talleres C\u00f3rdoba Res.",
+              "name": "Talleres Córdoba Res.",
               "logo": "https://media.api-sports.io/football/teams/18699.png"
             },
             "points": 11,
@@ -42560,7 +42611,7 @@
             "rank": 7,
             "team": {
               "id": 18678,
-              "name": "Atl\u00e9tico Tucum\u00e1n Res.",
+              "name": "Atlético Tucumán Res.",
               "logo": "https://media.api-sports.io/football/teams/18678.png"
             },
             "points": 10,
@@ -42785,7 +42836,7 @@
             "rank": 12,
             "team": {
               "id": 18701,
-              "name": "Uni\u00f3n Santa Fe Res.",
+              "name": "Unión Santa Fe Res.",
               "logo": "https://media.api-sports.io/football/teams/18701.png"
             },
             "points": 7,
@@ -43145,7 +43196,7 @@
             "rank": 2,
             "team": {
               "id": 18690,
-              "name": "Lan\u00fas Res.",
+              "name": "Lanús Res.",
               "logo": "https://media.api-sports.io/football/teams/18690.png"
             },
             "points": 16,
@@ -43280,7 +43331,7 @@
             "rank": 5,
             "team": {
               "id": 18688,
-              "name": "Hurac\u00e1n Res.",
+              "name": "Huracán Res.",
               "logo": "https://media.api-sports.io/football/teams/18688.png"
             },
             "points": 10,
@@ -43685,7 +43736,7 @@
             "rank": 14,
             "team": {
               "id": 18683,
-              "name": "Col\u00f3n Res.",
+              "name": "Colón Res.",
               "logo": "https://media.api-sports.io/football/teams/18683.png"
             },
             "points": 4,
@@ -43730,7 +43781,7 @@
             "rank": 15,
             "team": {
               "id": 18682,
-              "name": "Central C\u00f3rdoba SdE Res.",
+              "name": "Central Córdoba SdE Res.",
               "logo": "https://media.api-sports.io/football/teams/18682.png"
             },
             "points": 4,
@@ -43820,7 +43871,7 @@
             "rank": 17,
             "team": {
               "id": 25592,
-              "name": "San Mart\u00edn San Juan Res.",
+              "name": "San Martín San Juan Res.",
               "logo": "https://media.api-sports.io/football/teams/25592.png"
             },
             "points": 3,
@@ -43865,7 +43916,7 @@
             "rank": 18,
             "team": {
               "id": 20817,
-              "name": "Belgrano C\u00f3rdoba Res.",
+              "name": "Belgrano Córdoba Res.",
               "logo": "https://media.api-sports.io/football/teams/20817.png"
             },
             "points": 2,
@@ -44110,7 +44161,7 @@
             "rank": 4,
             "team": {
               "id": 8593,
-              "name": "Mladost \u017ddralovi",
+              "name": "Mladost Ždralovi",
               "logo": "https://media.api-sports.io/football/teams/8593.png"
             },
             "points": 38,
@@ -44155,7 +44206,7 @@
             "rank": 5,
             "team": {
               "id": 5711,
-              "name": "Kri\u017eevci",
+              "name": "Križevci",
               "logo": "https://media.api-sports.io/football/teams/5711.png"
             },
             "points": 37,
@@ -44380,7 +44431,7 @@
             "rank": 10,
             "team": {
               "id": 8599,
-              "name": "Varteks Vara\u017edin",
+              "name": "Varteks Varaždin",
               "logo": "https://media.api-sports.io/football/teams/8599.png"
             },
             "points": 23,
@@ -44470,7 +44521,7 @@
             "rank": 12,
             "team": {
               "id": 8580,
-              "name": "Grobni\u010dan \u010cavle",
+              "name": "Grobničan Čavle",
               "logo": "https://media.api-sports.io/football/teams/8580.png"
             },
             "points": 20,
@@ -46631,11 +46682,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-03-30T16:46:56.843714+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -46665,7 +46716,10 @@
           "rank": null,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 886,
@@ -56545,11 +56599,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-03-30T16:47:18.575841+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -59280,7 +59334,10 @@
           "rank": 2,
           "form": 3
         }
-      }
+      },
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 836,
@@ -59977,5 +60034,14 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-03-30T20:31:38.147698",
+  "grade_summary": {
+    "outcome_wins": 18,
+    "outcome_total": 39,
+    "outcome_pct": 46.2,
+    "btts_wins": 17,
+    "btts_total": 21,
+    "btts_pct": 81.0
+  }
 }
