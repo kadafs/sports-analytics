@@ -2,4 +2,13 @@ node_modules/
 dist/
 .env
 .env.local
-public/data/football/
+
+# Do NOT ignore public/data — these files are committed by push_to_dashboard.py
+# and Vercel reads them at build time. Keep only recent files via cleanup logic.
+*.log
+
+# Exclude runtime-generated football H2H cache files (thousands of tiny files)
+public/data/football/h2h_*.json
+
+# Exclude large generated leaderboard (rebuilt at runtime)
+public/data/football/football_leaderboard.json
