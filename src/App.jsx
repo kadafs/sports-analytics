@@ -357,12 +357,12 @@ export default function App() {
                 <option value={40}>≥ 40%</option>
               </select>
 
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 8 }}>BTTS Win %:</span>
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 8 }}>BTTS %:</span>
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
                 <option value={0}>All rates</option>
-                <option value={70}>≥ 70% Hit Rate</option>
-                <option value={60}>≥ 60% Hit Rate</option>
-                <option value={50}>≥ 50% Hit Rate</option>
+                <option value={70}>≥ 70%</option>
+                <option value={60}>≥ 60%</option>
+                <option value={50}>≥ 50%</option>
               </select>
             </>
           )}
