@@ -133411,7 +133411,7 @@
       "date": "2026-04-01",
       "away_team": "Triple Threat W",
       "home_team": "Den Helder W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "WBL Women - Quarter-finals",
       "model_total": 128.99,
       "xpts_h": 72.4,
@@ -133946,7 +133946,14 @@
           "conceded": 87.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 52,
+      "actual_away_score": 37,
+      "actual_result": "HOME",
+      "total_delta": 39.99,
+      "signed_delta": -39.99,
+      "total_rpe": 44.93,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 255,
@@ -138139,17 +138146,12 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-04-02T04:07:44.762615",
+  "graded_at": "2026-04-02T09:54:37.524123",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 0,
+      "wins": 1,
       "total": 1,
-      "pct": 0.0
-    },
-    "[ADVANCED]": {
-      "wins": 0,
-      "total": 1,
-      "pct": 0.0
+      "pct": 100.0
     }
   }
 }

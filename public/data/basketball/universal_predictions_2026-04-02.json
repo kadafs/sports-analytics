@@ -11406,7 +11406,7 @@
       "date": "2026-04-02",
       "away_team": "Halcones de Obregon",
       "home_team": "Toros Laguna",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "",
       "model_total": 179.14,
       "xpts_h": 80.8,
@@ -11944,7 +11944,14 @@
           "conceded": 116.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "total_delta": 9.86,
+      "signed_delta": 9.86,
+      "total_rpe": 5.22,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 251,
@@ -11953,7 +11960,7 @@
       "date": "2026-04-02",
       "away_team": "Caballeros de Culiacan",
       "home_team": "Angeles CDMX",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "",
       "model_total": 189.03,
       "xpts_h": 98.0,
@@ -12491,7 +12498,14 @@
           "conceded": 136.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "total_delta": 4.03,
+      "signed_delta": -4.03,
+      "total_rpe": 2.18,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 251,
@@ -12500,7 +12514,7 @@
       "date": "2026-04-02",
       "away_team": "Frayles de Guasave",
       "home_team": "Zonkeys de Tijuana",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 185.06,
       "xpts_h": 99.9,
@@ -12999,7 +13013,14 @@
           "conceded": 136.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "total_delta": 35.06,
+      "signed_delta": -35.06,
+      "total_rpe": 23.37,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 251,
@@ -13008,7 +13029,7 @@
       "date": "2026-04-02",
       "away_team": "Venados de Mazatlan",
       "home_team": "Rayos de Hermosillo",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 175.99,
       "xpts_h": 95.6,
@@ -13546,7 +13567,14 @@
           "conceded": 143.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "total_delta": 15.01,
+      "signed_delta": 15.01,
+      "total_rpe": 7.86,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 41,
@@ -31626,7 +31654,7 @@
       "date": "2026-04-02",
       "away_team": "Aktobe",
       "home_team": "Atyrau 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.75,
       "xpts_h": 86.0,
@@ -32213,7 +32241,14 @@
           "conceded": 83.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 96,
+      "actual_result": "AWAY",
+      "total_delta": 22.25,
+      "signed_delta": 22.25,
+      "total_rpe": 12.71,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 230,
@@ -46313,7 +46348,7 @@
       "date": "2026-04-02",
       "away_team": "Ringwood W",
       "home_team": "Kilsyth W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.94,
       "xpts_h": 92.1,
@@ -46820,7 +46855,14 @@
           "conceded": 112.02499999999999,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "total_delta": 14.06,
+      "signed_delta": 14.06,
+      "total_rpe": 7.99,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 210,
@@ -60740,6 +60782,12 @@
       }
     }
   ],
-  "graded_at": "2026-04-02T04:07:10.182455",
-  "grade_summary": {}
+  "graded_at": "2026-04-02T09:55:22.953833",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 3,
+      "total": 6,
+      "pct": 50.0
+    }
+  }
 }
