@@ -50,7 +50,7 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100) {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0) {
   return predictions.filter(p => {
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
@@ -58,6 +58,11 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
     
     if (country  !== 'all' && p.country        !== country)  return false
     if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
+    
+    if (sport === 'football' && filterBttsHitRate > 0) {
+      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
+      if (!stats || (stats.btts_hit_rate ?? 0) < filterBttsHitRate) return false
+    }
     
     // MAPE & Volatility Filter (Basketball only)
     if (sport === 'basketball' && (maxMape < 100 || maxVolatility < 100)) {
@@ -87,6 +92,7 @@ export default function App() {
   const [filterDecision,setFilterDecision]= useState('all')
   const [filterCountry, setFilterCountry] = useState('all')
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
+  const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
   
@@ -221,8 +227,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -262,6 +268,7 @@ export default function App() {
           setFilterDecision('all'); 
           setFilterCountry('all'); 
           setFilterDraw(0); 
+          setFilterBttsHitRate(0);
           setFilterMape(100);
           setFilterVolatility(100);
           setViewMode('matches');
@@ -348,6 +355,14 @@ export default function App() {
                 <option value={30}>≥ 30%</option>
                 <option value={35}>≥ 35%</option>
                 <option value={40}>≥ 40%</option>
+              </select>
+
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 8 }}>BTTS Win %:</span>
+              <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
+                <option value={0}>All rates</option>
+                <option value={70}>≥ 70% Hit Rate</option>
+                <option value={60}>≥ 60% Hit Rate</option>
+                <option value={50}>≥ 50% Hit Rate</option>
               </select>
             </>
           )}
