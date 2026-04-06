@@ -66333,7 +66333,7 @@
       "date": "2026-04-05",
       "away_team": "Espanol Osorno",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.86,
       "xpts_h": 75.2,
@@ -66748,7 +66748,14 @@
           "conceded": 93.625,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "total_delta": 1.86,
+      "signed_delta": -1.86,
+      "total_rpe": 1.22,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 52,
@@ -71471,7 +71478,7 @@
       "date": "2026-04-05",
       "away_team": "Obras Sanitarias",
       "home_team": "Regatas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 166.84,
       "xpts_h": 82.0,
@@ -72146,7 +72153,14 @@
           "conceded": 104.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "total_delta": 10.84,
+      "signed_delta": -10.84,
+      "total_rpe": 6.95,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 206,
@@ -72844,7 +72858,7 @@
       "date": "2026-04-05",
       "away_team": "Ferro W",
       "home_team": "El Bigua W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 137.23,
       "xpts_h": 60.8,
@@ -73517,7 +73531,14 @@
           "conceded": 77.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "total_delta": 3.23,
+      "signed_delta": -3.23,
+      "total_rpe": 2.41,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 206,
@@ -73526,7 +73547,7 @@
       "date": "2026-04-05",
       "away_team": "Instituto W",
       "home_team": "Gorriones W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 124.46,
       "xpts_h": 58.0,
@@ -74199,7 +74220,14 @@
           "conceded": 78.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 51,
+      "actual_away_score": 53,
+      "actual_result": "AWAY",
+      "total_delta": 20.46,
+      "signed_delta": -20.46,
+      "total_rpe": 19.67,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 206,
@@ -74208,7 +74236,7 @@
       "date": "2026-04-05",
       "away_team": "Avellaneda W",
       "home_team": "Quimsa W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 122.35,
       "xpts_h": 56.8,
@@ -74900,7 +74928,14 @@
           "conceded": 80.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 47,
+      "actual_away_score": 62,
+      "actual_result": "AWAY",
+      "total_delta": 13.35,
+      "signed_delta": -13.35,
+      "total_rpe": 12.25,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 1,
@@ -114918,7 +114953,7 @@
       "date": "2026-04-05",
       "away_team": "Marinos",
       "home_team": "Brillantes",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.89,
       "xpts_h": 74.2,
@@ -115440,7 +115475,14 @@
           "conceded": 106.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "total_delta": 19.89,
+      "signed_delta": -19.89,
+      "total_rpe": 13.62,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 59,
@@ -126690,17 +126732,12 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-04-06T00:50:01.605527",
+  "graded_at": "2026-04-06T03:44:54.608201",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 24,
-      "total": 36,
-      "pct": 66.7
-    },
-    "[ADVANCED]": {
-      "wins": 13,
-      "total": 17,
-      "pct": 76.5
+      "wins": 2,
+      "total": 6,
+      "pct": 33.3
     }
   }
 }
