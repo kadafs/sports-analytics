@@ -2418,7 +2418,7 @@
             {
               "position": 7,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -3100,7 +3100,7 @@
             {
               "position": 7,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -3782,7 +3782,7 @@
             {
               "position": 7,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -4464,7 +4464,7 @@
             {
               "position": 7,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -5862,7 +5862,7 @@
       "date": "2026-04-06",
       "away_team": "Criollos de Caguas",
       "home_team": "Aguada Santeros",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 173.64,
       "xpts_h": 87.9,
@@ -6023,7 +6023,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -6256,7 +6256,14 @@
           "conceded": 116.25,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 103,
+      "actual_result": "HOME",
+      "total_delta": 36.36,
+      "signed_delta": 36.36,
+      "total_rpe": 17.31,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 34,
@@ -18235,7 +18242,7 @@
       "date": "2026-04-06",
       "away_team": "Halcones de Obregon",
       "home_team": "Caballeros de Culiacan",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 192.83,
       "xpts_h": 86.3,
@@ -18773,7 +18780,14 @@
           "conceded": 122.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "total_delta": 32.83,
+      "signed_delta": -32.83,
+      "total_rpe": 20.52,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 41,
@@ -20080,7 +20094,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -20124,7 +20138,7 @@
             {
               "position": 8,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -20146,7 +20160,7 @@
             {
               "position": 9,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -20168,7 +20182,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -20212,7 +20226,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -20592,7 +20606,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -20636,7 +20650,7 @@
             {
               "position": 8,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -20658,7 +20672,7 @@
             {
               "position": 9,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -20680,7 +20694,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -20724,7 +20738,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -20952,7 +20966,7 @@
                 "winner": false
               },
               "away": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": true
               }
             },
@@ -21034,7 +21048,7 @@
             "date": "Oct 12, 2025",
             "teams": {
               "home": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "winner": false
               },
               "away": {
@@ -21059,7 +21073,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "winner": false
               }
             },
@@ -21097,7 +21111,7 @@
             "date": "Feb 14, 2026",
             "teams": {
               "home": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "winner": false
               },
               "away": {
@@ -21230,7 +21244,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -21274,7 +21288,7 @@
             {
               "position": 8,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -21296,7 +21310,7 @@
             {
               "position": 9,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -21318,7 +21332,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -21362,7 +21376,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -21590,7 +21604,7 @@
                 "winner": false
               },
               "away": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": true
               }
             },
@@ -21672,7 +21686,7 @@
             "date": "Oct 12, 2025",
             "teams": {
               "home": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "winner": false
               },
               "away": {
@@ -21697,7 +21711,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "winner": false
               }
             },
@@ -21735,7 +21749,7 @@
             "date": "Feb 14, 2026",
             "teams": {
               "home": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "winner": false
               },
               "away": {
@@ -21868,7 +21882,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -21912,7 +21926,7 @@
             {
               "position": 8,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -21934,7 +21948,7 @@
             {
               "position": 9,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -21956,7 +21970,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -22000,7 +22014,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -22591,7 +22605,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -23160,7 +23174,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -23513,7 +23527,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "winner": false
               }
             },
@@ -23729,7 +23743,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -24082,7 +24096,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "winner": false
               }
             },
@@ -24298,7 +24312,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -24408,7 +24422,7 @@
       "date": "2026-04-06",
       "away_team": "Puhuttaret W",
       "home_team": "Tapiolan Honka II W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "I Divisioona Women - Quarter-finals",
       "model_total": 124.06,
       "xpts_h": 61.0,
@@ -25039,7 +25053,14 @@
           "conceded": 73.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "total_delta": 2.94,
+      "signed_delta": 2.94,
+      "total_rpe": 2.31,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 230,
@@ -27665,7 +27686,7 @@
             "date": "Mar 14, 2026",
             "teams": {
               "home": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": true
               },
               "away": {
@@ -27926,7 +27947,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -28168,7 +28189,7 @@
             "date": "Mar 14, 2026",
             "teams": {
               "home": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": true
               },
               "away": {
@@ -28429,7 +28450,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -28539,7 +28560,7 @@
       "date": "2026-04-06",
       "away_team": "U. De Concepcion",
       "home_team": "Puente Alto",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 160.98,
       "xpts_h": 69.8,
@@ -29060,7 +29081,14 @@
           "conceded": 77.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "total_delta": 4.02,
+      "signed_delta": 4.02,
+      "total_rpe": 2.44,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 114,
@@ -29069,7 +29097,7 @@
       "date": "2026-04-06",
       "away_team": "Naviera Ulloa",
       "home_team": "CD Puerto Varas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 169.98,
       "xpts_h": 96.2,
@@ -29484,7 +29512,14 @@
           "conceded": 106.375,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "total_delta": 22.02,
+      "signed_delta": 22.02,
+      "total_rpe": 11.47,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 114,
@@ -29493,7 +29528,7 @@
       "date": "2026-04-06",
       "away_team": "Ancud",
       "home_team": "Las Animas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 167.62,
       "xpts_h": 109.6,
@@ -30053,7 +30088,14 @@
           "conceded": 114.19999999999999,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "total_delta": 4.62,
+      "signed_delta": -4.62,
+      "total_rpe": 2.83,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 224,
@@ -30062,7 +30104,7 @@
       "date": "2026-04-06",
       "away_team": "Truenos De Talca",
       "home_team": "Vila Alemana",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 159.94,
       "xpts_h": 72.2,
@@ -30678,7 +30720,14 @@
           "conceded": 77.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 70,
+      "actual_result": "AWAY",
+      "total_delta": 27.94,
+      "signed_delta": -27.94,
+      "total_rpe": 21.17,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 18,
@@ -30687,7 +30736,7 @@
       "date": "2026-04-06",
       "away_team": "La Union",
       "home_team": "Olimpico",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 176.52,
       "xpts_h": 89.9,
@@ -31382,7 +31431,14 @@
           "conceded": 107.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "total_delta": 11.52,
+      "signed_delta": -11.52,
+      "total_rpe": 6.98,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 18,
@@ -31391,7 +31447,7 @@
       "date": "2026-04-06",
       "away_team": "La Union",
       "home_team": "Olimpico",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 164.59,
       "xpts_h": 82.2,
@@ -32086,7 +32142,14 @@
           "conceded": 103.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "total_delta": 0.41,
+      "signed_delta": 0.41,
+      "total_rpe": 0.25,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 18,
@@ -33251,7 +33314,7 @@
       "date": "2026-04-06",
       "away_team": "El Talar W",
       "home_team": "Independiente Neuquen W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 141.17,
       "xpts_h": 59.1,
@@ -33943,7 +34006,14 @@
           "conceded": 84.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 50,
+      "actual_away_score": 74,
+      "actual_result": "AWAY",
+      "total_delta": 17.17,
+      "signed_delta": -17.17,
+      "total_rpe": 13.85,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 206,
@@ -40087,7 +40157,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -40219,7 +40289,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -40612,7 +40682,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -40744,7 +40814,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -40861,7 +40931,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -41010,7 +41080,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -41137,7 +41207,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -41269,7 +41339,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -41386,7 +41456,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -41535,7 +41605,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -41662,7 +41732,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -41794,7 +41864,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -41838,7 +41908,7 @@
       "date": "2026-04-06",
       "away_team": "Los Angeles Clippers",
       "home_team": "Sacramento Kings",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 239.2,
       "xpts_h": 111.2,
@@ -42587,7 +42657,14 @@
           "conceded": 116.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 109,
+      "actual_away_score": 138,
+      "actual_result": "AWAY",
+      "total_delta": 7.8,
+      "signed_delta": 7.8,
+      "total_rpe": 3.16,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 12,
@@ -42596,7 +42673,7 @@
       "date": "2026-04-06",
       "away_team": "Los Angeles Clippers",
       "home_team": "Sacramento Kings",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 239.2,
       "xpts_h": 111.2,
@@ -43345,7 +43422,14 @@
           "conceded": 116.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 109,
+      "actual_away_score": 138,
+      "actual_result": "AWAY",
+      "total_delta": 7.8,
+      "signed_delta": 7.8,
+      "total_rpe": 3.16,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 12,
@@ -43354,7 +43438,7 @@
       "date": "2026-04-06",
       "away_team": "Houston Rockets",
       "home_team": "Golden State Warriors",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 232.77,
       "xpts_h": 108.7,
@@ -44124,7 +44208,14 @@
           "conceded": 113.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 116,
+      "actual_away_score": 117,
+      "actual_result": "AWAY",
+      "total_delta": 0.23,
+      "signed_delta": 0.23,
+      "total_rpe": 0.1,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 12,
@@ -44133,7 +44224,7 @@
       "date": "2026-04-06",
       "away_team": "Houston Rockets",
       "home_team": "Golden State Warriors",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 232.77,
       "xpts_h": 108.7,
@@ -44903,7 +44994,14 @@
           "conceded": 113.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 116,
+      "actual_away_score": 117,
+      "actual_result": "AWAY",
+      "total_delta": 0.23,
+      "signed_delta": 0.23,
+      "total_rpe": 0.1,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 12,
@@ -47986,7 +48084,7 @@
       "date": "2026-04-06",
       "away_team": "Stockton Kings",
       "home_team": "South Bay Lakers",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "NBA G League - Semi-finals",
       "model_total": 239.73,
       "xpts_h": 126.1,
@@ -48945,7 +49043,14 @@
           "conceded": 137.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "total_delta": 41.73,
+      "signed_delta": -41.73,
+      "total_rpe": 21.08,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 20,
@@ -48954,7 +49059,7 @@
       "date": "2026-04-06",
       "away_team": "Stockton Kings",
       "home_team": "South Bay Lakers",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "NBA G League - Semi-finals",
       "model_total": 240.93,
       "xpts_h": 128.7,
@@ -49913,7 +50018,14 @@
           "conceded": 145.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "total_delta": 42.93,
+      "signed_delta": -42.93,
+      "total_rpe": 21.68,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 26,
@@ -54546,7 +54658,7 @@
       "date": "2026-04-06",
       "away_team": "Tulsa",
       "home_team": "Auburn",
-      "status": "After Over Time",
+      "status": "AOT",
       "stage": "NIT - Final",
       "model_total": 158.92,
       "xpts_h": 85.2,
@@ -55339,7 +55451,13 @@
           "conceded": 98.05,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 86,
+      "actual_result": "HOME",
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 111,
@@ -63316,7 +63434,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -63360,7 +63478,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -63612,7 +63730,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -63656,7 +63774,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -63908,7 +64026,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -63952,7 +64070,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -64204,7 +64322,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -64248,7 +64366,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -64468,7 +64586,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               }
             },
@@ -64550,7 +64668,7 @@
             "date": "Mar 13, 2026",
             "teams": {
               "home": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "winner": false
               },
               "away": {
@@ -64571,7 +64689,7 @@
             "date": "Mar 7, 2026",
             "teams": {
               "home": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               },
               "away": {
@@ -64770,7 +64888,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -64814,7 +64932,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -65034,7 +65152,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               }
             },
@@ -65116,7 +65234,7 @@
             "date": "Mar 13, 2026",
             "teams": {
               "home": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "winner": false
               },
               "away": {
@@ -65137,7 +65255,7 @@
             "date": "Mar 7, 2026",
             "teams": {
               "home": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               },
               "away": {
@@ -65336,7 +65454,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -65380,7 +65498,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -65738,7 +65856,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -65782,7 +65900,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -66140,7 +66258,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -66184,7 +66302,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -66300,7 +66418,7 @@
             "date": "Oct 11, 2025",
             "teams": {
               "home": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               },
               "away": {
@@ -66542,7 +66660,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -66586,7 +66704,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -66702,7 +66820,7 @@
             "date": "Oct 11, 2025",
             "teams": {
               "home": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "winner": false
               },
               "away": {
@@ -66944,7 +67062,7 @@
             {
               "position": 9,
               "team": {
-                "name": "SKN St. P\u00f6lten Basketball",
+                "name": "SKN St. Pölten Basketball",
                 "logo": ""
               },
               "games": {
@@ -66988,7 +67106,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Panthers F\u00fcrstenfeld",
+                "name": "Panthers Fürstenfeld",
                 "logo": ""
               },
               "games": {
@@ -71080,5 +71198,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-04-06T12:43:06.446905",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 3,
+      "total": 5,
+      "pct": 60.0
+    },
+    "[  SRS   ]": {
+      "wins": 10,
+      "total": 12,
+      "pct": 83.3
+    }
+  }
 }
