@@ -12,19 +12,19 @@
       "home_team": "FMP Beograd",
       "status": "Not Started",
       "stage": "7",
-      "model_total": 167.69,
-      "xpts_h": 83.9,
-      "xpts_a": 83.8,
+      "model_total": 171.93,
+      "xpts_h": 81.8,
+      "xpts_a": 90.1,
       "probs_1x2": {
-        "home": 50.5,
-        "away": 49.5
+        "home": 24.6,
+        "away": 75.4
       },
-      "predicted_result": "HOME",
+      "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 170.5,
-      "edge": -2.81,
-      "side": "UNDER",
+      "edge": 1.43,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 16.9,
@@ -32,7 +32,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.168152+00:00",
+      "timestamp": "2026-04-06T07:38:07.089819+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -438,17 +438,467 @@
           ]
         ],
         "statsH": {
-          "played": 14,
-          "win_pct": 0.429,
-          "scored": 107.8,
-          "conceded": 106.2,
+          "played": 19,
+          "win_pct": 0.368,
+          "scored": 104.5,
+          "conceded": 114.4,
           "rank": null
         },
         "statsA": {
-          "played": 14,
-          "win_pct": 0.571,
-          "scored": 108.0,
-          "conceded": 103.4,
+          "played": 20,
+          "win_pct": 0.55,
+          "scored": 110.0,
+          "conceded": 106.1,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 198,
+      "league": "ABA League",
+      "country": "Europe",
+      "date": "2026-04-06",
+      "away_team": "Spartak Subotica",
+      "home_team": "FMP Beograd",
+      "status": "Not Started",
+      "stage": "7",
+      "model_total": 171.86,
+      "xpts_h": 83.2,
+      "xpts_a": 88.7,
+      "probs_1x2": {
+        "home": 32.2,
+        "away": 67.8
+      },
+      "predicted_result": "AWAY",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "market_total": 170.5,
+      "edge": 1.36,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 16.9,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-06T07:38:07.105780+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Dubai",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.900"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 1798,
+                "against": 1539
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Partizan Belgrade",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.900"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 1849,
+                "against": 1605
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Crvena Zvezda Belgrade",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.750"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1862,
+                "against": 1707
+              },
+              "form": "LLWWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Buducnost VOLI",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.750"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1770,
+                "against": 1618
+              },
+              "form": "LWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Cedevita Olimpija",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1595,
+                "against": 1477
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "U-BT Cluj Napoca",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.579"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1755,
+                "against": 1684
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Spartak Office Shoes",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.550"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1674,
+                "against": 1651
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Bosna Royal",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.450"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1635,
+                "against": 1724
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Mega MIS",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.450"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1724,
+                "against": 1818
+              },
+              "form": "LWWWW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Igokea m:tel",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.421"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1580,
+                "against": 1699
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Zadar",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1556,
+                "against": 1569
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "FMP SoccerBet",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1601,
+                "against": 1655
+              },
+              "form": "LWLLW"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Krka Novo Mesto",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1569,
+                "against": 1632
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "BC Vienna",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1690,
+                "against": 1777
+              },
+              "form": "WLWWL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Ilirija",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1660,
+                "against": 1751
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Borac Mozzart",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1589,
+                "against": 1692
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 17,
+              "team": {
+                "name": "SC Derby",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1572,
+                "against": 1666
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 18,
+              "team": {
+                "name": "Split",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.200"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 1659,
+                "against": 1874
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 19,
+          "win_pct": 0.368,
+          "scored": 106.5,
+          "conceded": 112.1,
+          "rank": null
+        },
+        "statsA": {
+          "played": 20,
+          "win_pct": 0.55,
+          "scored": 110.5,
+          "conceded": 105.8,
           "rank": null
         }
       }
@@ -462,18 +912,18 @@
       "home_team": "Mega Basket",
       "status": "Not Started",
       "stage": "7",
-      "model_total": 169.59,
-      "xpts_h": 84.8,
-      "xpts_a": 84.8,
+      "model_total": 166.81,
+      "xpts_h": 86.7,
+      "xpts_a": 80.1,
       "probs_1x2": {
-        "home": 50.3,
-        "away": 49.7
+        "home": 71.0,
+        "away": 29.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 170.5,
-      "edge": -0.91,
+      "edge": -3.69,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -482,7 +932,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.178266+00:00",
+      "timestamp": "2026-04-06T07:38:07.123373+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -994,10 +1444,10 @@
           ]
         ],
         "statsH": {
-          "played": 13,
-          "win_pct": 0.462,
-          "scored": 107.8,
-          "conceded": 117.7,
+          "played": 20,
+          "win_pct": 0.45,
+          "scored": 111.8,
+          "conceded": 113.3,
           "rank": null
         },
         "statsA": {
@@ -1005,6 +1455,562 @@
           "win_pct": 0.37,
           "scored": 97.9,
           "conceded": 104.7,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 198,
+      "league": "ABA League",
+      "country": "Europe",
+      "date": "2026-04-06",
+      "away_team": "KK Krka Novo mesto",
+      "home_team": "Mega Basket",
+      "status": "Not Started",
+      "stage": "7",
+      "model_total": 167.41,
+      "xpts_h": 85.7,
+      "xpts_a": 81.7,
+      "probs_1x2": {
+        "home": 63.2,
+        "away": 36.8
+      },
+      "predicted_result": "HOME",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "market_total": 170.5,
+      "edge": -3.09,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 16.9,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-06T07:38:07.144985+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [
+          {
+            "date": "Oct 6, 2025",
+            "teams": {
+              "home": {
+                "name": "Partizan Belgrade",
+                "winner": true
+              },
+              "away": {
+                "name": "Krka Novo Mesto",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 84
+              },
+              "away": {
+                "total": 78
+              }
+            }
+          },
+          {
+            "date": "Oct 11, 2025",
+            "teams": {
+              "home": {
+                "name": "Krka Novo Mesto",
+                "winner": false
+              },
+              "away": {
+                "name": "U-BT Cluj Napoca",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 83
+              },
+              "away": {
+                "total": 85
+              }
+            }
+          },
+          {
+            "date": "Mar 19, 2026",
+            "teams": {
+              "home": {
+                "name": "Krka Novo Mesto",
+                "winner": false
+              },
+              "away": {
+                "name": "Mega MIS",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 82
+              }
+            }
+          },
+          {
+            "date": "Mar 13, 2026",
+            "teams": {
+              "home": {
+                "name": "Zadar",
+                "winner": false
+              },
+              "away": {
+                "name": "Krka Novo Mesto",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 72
+              }
+            }
+          },
+          {
+            "date": "Mar 7, 2026",
+            "teams": {
+              "home": {
+                "name": "Krka Novo Mesto",
+                "winner": true
+              },
+              "away": {
+                "name": "Ilirija",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 72
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Dubai",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.900"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 1798,
+                "against": 1539
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Partizan Belgrade",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.900"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 1849,
+                "against": 1605
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Crvena Zvezda Belgrade",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.750"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1862,
+                "against": 1707
+              },
+              "form": "LLWWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Buducnost VOLI",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.750"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1770,
+                "against": 1618
+              },
+              "form": "LWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Cedevita Olimpija",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1595,
+                "against": 1477
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "U-BT Cluj Napoca",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.579"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1755,
+                "against": 1684
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Spartak Office Shoes",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.550"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1674,
+                "against": 1651
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Bosna Royal",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.450"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1635,
+                "against": 1724
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Mega MIS",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.450"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1724,
+                "against": 1818
+              },
+              "form": "LWWWW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Igokea m:tel",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.421"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1580,
+                "against": 1699
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Zadar",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1556,
+                "against": 1569
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "FMP SoccerBet",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1601,
+                "against": 1655
+              },
+              "form": "LWLLW"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Krka Novo Mesto",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1569,
+                "against": 1632
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "BC Vienna",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1690,
+                "against": 1777
+              },
+              "form": "WLWWL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Ilirija",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1660,
+                "against": 1751
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Borac Mozzart",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.350"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1589,
+                "against": 1692
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 17,
+              "team": {
+                "name": "SC Derby",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1572,
+                "against": 1666
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 18,
+              "team": {
+                "name": "Split",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.200"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 1659,
+                "against": 1874
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 20,
+          "win_pct": 0.45,
+          "scored": 112.2,
+          "conceded": 111.9,
+          "rank": null
+        },
+        "statsA": {
+          "played": 20,
+          "win_pct": 0.35,
+          "scored": 99.6,
+          "conceded": 101.3,
           "rank": null
         }
       }
@@ -1038,7 +2044,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.290060+00:00",
+      "timestamp": "2026-04-06T07:38:07.317113+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1720,7 +2726,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.363744+00:00",
+      "timestamp": "2026-04-06T07:38:07.349188+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2402,7 +3408,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.410794+00:00",
+      "timestamp": "2026-04-06T07:38:07.361898+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3084,7 +4090,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.429452+00:00",
+      "timestamp": "2026-04-06T07:38:07.369932+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3746,18 +4752,18 @@
       "home_team": "Zwolle",
       "status": "Not Started",
       "stage": "27",
-      "model_total": 169.14,
-      "xpts_h": 96.3,
-      "xpts_a": 72.8,
+      "model_total": 168.86,
+      "xpts_h": 95.6,
+      "xpts_a": 73.2,
       "probs_1x2": {
-        "home": 97.5,
-        "away": 2.5
+        "home": 96.9,
+        "away": 3.1
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 165.8,
-      "edge": 3.34,
+      "edge": 3.06,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -3766,7 +4772,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.482429+00:00",
+      "timestamp": "2026-04-06T07:38:07.479277+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -4278,10 +5284,10 @@
           ]
         ],
         "statsH": {
-          "played": 14,
-          "win_pct": 0.429,
-          "scored": 104.0,
-          "conceded": 110.9,
+          "played": 26,
+          "win_pct": 0.346,
+          "scored": 103.1,
+          "conceded": 111.4,
           "rank": null
         },
         "statsA": {
@@ -4289,6 +5295,562 @@
           "win_pct": 0.138,
           "scored": 87.5,
           "conceded": 121.3,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 368,
+      "league": "BNXT League",
+      "country": "Europe",
+      "date": "2026-04-06",
+      "away_team": "Rotterdam",
+      "home_team": "Zwolle",
+      "status": "Not Started",
+      "stage": "27",
+      "model_total": 167.59,
+      "xpts_h": 92.3,
+      "xpts_a": 75.3,
+      "probs_1x2": {
+        "home": 92.1,
+        "away": 7.9
+      },
+      "predicted_result": "HOME",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "market_total": 165.8,
+      "edge": 1.79,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 15.7,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-06T07:38:07.497941+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [
+          {
+            "date": "Sep 28, 2025",
+            "teams": {
+              "home": {
+                "name": "Rotterdam City Basketball",
+                "winner": false
+              },
+              "away": {
+                "name": "Landstede Hammers",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 68
+              },
+              "away": {
+                "total": 88
+              }
+            }
+          },
+          {
+            "date": "Oct 4, 2025",
+            "teams": {
+              "home": {
+                "name": "ZZ Leiden",
+                "winner": true
+              },
+              "away": {
+                "name": "Rotterdam City Basketball",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 111
+              },
+              "away": {
+                "total": 68
+              }
+            }
+          },
+          {
+            "date": "Mar 15, 2026",
+            "teams": {
+              "home": {
+                "name": "Heroes Den Bosch",
+                "winner": true
+              },
+              "away": {
+                "name": "Rotterdam City Basketball",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 112
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "Mar 13, 2026",
+            "teams": {
+              "home": {
+                "name": "Rotterdam City Basketball",
+                "winner": false
+              },
+              "away": {
+                "name": "Heroes Den Bosch",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 71
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "Mar 7, 2026",
+            "teams": {
+              "home": {
+                "name": "Filou Oostende",
+                "winner": true
+              },
+              "away": {
+                "name": "Rotterdam City Basketball",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 102
+              },
+              "away": {
+                "total": 44
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Windrose Giants Antwerp",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 22,
+                  "percentage": "0.846"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 2500,
+                "against": 2013
+              },
+              "form": "WLLWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Filou Oostende",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 20,
+                  "percentage": "0.741"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 2419,
+                "against": 2174
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Okapi Aalstar",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 19,
+                  "percentage": "0.704"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 2570,
+                "against": 2360
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Kortrijk Spurs",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 2375,
+                "against": 2195
+              },
+              "form": "WLWLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Heroes Den Bosch",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.654"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 2245,
+                "against": 2108
+              },
+              "form": "WWLWL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Kangoeroes",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.630"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 2108,
+                "against": 2092
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Limburg United",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 16,
+                  "percentage": "0.593"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2427,
+                "against": 2197
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Donar Groningen",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.583"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1996,
+                "against": 2025
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "ZZ Leiden",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.556"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 2263,
+                "against": 2169
+              },
+              "form": "WWLWL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Brussels Basketball",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.556"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 2291,
+                "against": 2204
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Spirou Basket",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.480"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 2075,
+                "against": 2137
+              },
+              "form": "WWWLL"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Leuven Bears",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.444"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 2187,
+                "against": 2192
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Den Helder Suns",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.346"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2127,
+                "against": 2221
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "Landstede Hammers",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.346"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2081,
+                "against": 2198
+              },
+              "form": "WLWLL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Union Mons-Hainaut",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 18
+                }
+              },
+              "points": {
+                "for": 2281,
+                "against": 2474
+              },
+              "form": "LWLWL"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "LWD Basket",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.308"
+                },
+                "lose": {
+                  "total": 18
+                }
+              },
+              "points": {
+                "for": 2169,
+                "against": 2428
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 17,
+              "team": {
+                "name": "Rotterdam City Basketball",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.120"
+                },
+                "lose": {
+                  "total": 22
+                }
+              },
+              "points": {
+                "for": 1880,
+                "against": 2288
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 18,
+              "team": {
+                "name": "PrismaWorx BAL",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.074"
+                },
+                "lose": {
+                  "total": 25
+                }
+              },
+              "points": {
+                "for": 1854,
+                "against": 2373
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 26,
+          "win_pct": 0.346,
+          "scored": 104.0,
+          "conceded": 110.7,
+          "rank": null
+        },
+        "statsA": {
+          "played": 25,
+          "win_pct": 0.12,
+          "scored": 90.8,
+          "conceded": 116.0,
           "rank": null
         }
       }
@@ -4302,27 +5864,27 @@
       "home_team": "Aguada Santeros",
       "status": "Game Finished",
       "stage": "",
-      "model_total": 185.65,
-      "xpts_h": 93.7,
-      "xpts_a": 91.9,
+      "model_total": 173.64,
+      "xpts_h": 87.9,
+      "xpts_a": 85.8,
       "probs_1x2": {
-        "home": 55.8,
-        "away": 44.2
+        "home": 57.0,
+        "away": 43.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 175.1,
-      "edge": 10.55,
-      "side": "OVER",
-      "decision": "PLAY OVER",
-      "confidence": "HIGH",
+      "edge": -1.46,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
       "mbet_threshold": 4.0,
-      "model_architecture": "[  SRS   ]",
+      "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.591979+00:00",
+      "timestamp": "2026-04-06T07:38:07.528440+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -4681,17 +6243,17 @@
           ]
         ],
         "statsH": {
-          "played": 4,
-          "win_pct": 0.75,
-          "scored": 110.55,
-          "conceded": 113.94999999999999,
+          "played": 2,
+          "win_pct": 0.0,
+          "scored": 102.725,
+          "conceded": 109.0,
           "rank": null
         },
         "statsA": {
           "played": 4,
-          "win_pct": 0.5,
-          "scored": 118.4,
-          "conceded": 120.85,
+          "win_pct": 0.0,
+          "scored": 110.44999999999999,
+          "conceded": 116.25,
           "rank": null
         }
       }
@@ -4725,7 +6287,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-06T06:46:58.656436+00:00",
+      "timestamp": "2026-04-06T07:38:07.564765+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5313,7 +6875,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-06T06:46:58.701428+00:00",
+      "timestamp": "2026-04-06T07:38:07.576669+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5901,7 +7463,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-06T06:46:58.793060+00:00",
+      "timestamp": "2026-04-06T07:38:07.592218+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6489,7 +8051,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-06T06:46:58.879219+00:00",
+      "timestamp": "2026-04-06T07:38:07.610543+00:00",
       "match_center": {
         "h2h": [
           {
@@ -7077,7 +8639,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:58.982765+00:00",
+      "timestamp": "2026-04-06T07:38:07.648190+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -7783,7 +9345,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.002552+00:00",
+      "timestamp": "2026-04-06T07:38:07.653542+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8469,19 +10031,19 @@
       "home_team": "Guangzhou",
       "status": "Not Started",
       "stage": "",
-      "model_total": 179.03,
-      "xpts_h": 82.6,
-      "xpts_a": 96.4,
+      "model_total": 166.04,
+      "xpts_h": 76.9,
+      "xpts_a": 89.2,
       "probs_1x2": {
-        "home": 12.5,
-        "away": 87.5
+        "home": 15.2,
+        "away": 84.8
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 176.4,
-      "edge": 2.63,
-      "side": "OVER",
+      "edge": -10.36,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 16.2,
@@ -8489,7 +10051,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.023482+00:00",
+      "timestamp": "2026-04-06T07:38:07.666468+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -9052,10 +10614,610 @@
           "rank": null
         },
         "statsA": {
-          "played": 18,
-          "win_pct": 0.722,
-          "scored": 120.9,
-          "conceded": 103.4,
+          "played": 21,
+          "win_pct": 0.619,
+          "scored": 110.7,
+          "conceded": 95.1,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 31,
+      "league": "CBA",
+      "country": "China",
+      "date": "2026-04-06",
+      "away_team": "Zhejiang Guangsha",
+      "home_team": "Guangzhou",
+      "status": "Not Started",
+      "stage": "",
+      "model_total": 161.76,
+      "xpts_h": 77.6,
+      "xpts_a": 84.1,
+      "probs_1x2": {
+        "home": 29.5,
+        "away": 70.5
+      },
+      "predicted_result": "AWAY",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "market_total": 176.4,
+      "edge": -14.64,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 16.2,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-06T07:38:07.685048+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "Dec 13, 2025",
+            "teams": {
+              "home": {
+                "name": "Sichuan Blue Whales",
+                "winner": false
+              },
+              "away": {
+                "name": "Guangzhou Long Lions",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "Feb 3, 2026",
+            "teams": {
+              "home": {
+                "name": "Qingdao Eagles",
+                "winner": true
+              },
+              "away": {
+                "name": "Guangzhou Long Lions",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "Jan 31, 2026",
+            "teams": {
+              "home": {
+                "name": "Shandong",
+                "winner": true
+              },
+              "away": {
+                "name": "Guangzhou Long Lions",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 83
+              },
+              "away": {
+                "total": 80
+              }
+            }
+          },
+          {
+            "date": "Jan 29, 2026",
+            "teams": {
+              "home": {
+                "name": "Guangzhou Long Lions",
+                "winner": false
+              },
+              "away": {
+                "name": "Fujian SBS Xunxing Sturgeons",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "Jan 27, 2026",
+            "teams": {
+              "home": {
+                "name": "Shanghai Sharks",
+                "winner": true
+              },
+              "away": {
+                "name": "Guangzhou Long Lions",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 95
+              },
+              "away": {
+                "total": 78
+              }
+            }
+          }
+        ],
+        "recentA": [],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Shanghai Sharks",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.857"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 1987,
+                "against": 1651
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Zhejiang Lions",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.818"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 1952,
+                "against": 1712
+              },
+              "form": "WLLWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Guangdong Southern Tigers",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1988,
+                "against": 1895
+              },
+              "form": "WLLWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Shandong",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1960,
+                "against": 1833
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Zhejiang Golden Bulls",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.619"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1770,
+                "against": 1649
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Shenzhen Aviators",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.619"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 2036,
+                "against": 2005
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Beijing Ducks",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.591"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1960,
+                "against": 1830
+              },
+              "form": "WWWLL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Qingdao Eagles",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.591"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1845,
+                "against": 1779
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Ningbo Rockets",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.524"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1842,
+                "against": 1801
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Liaoning Leopards",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1820,
+                "against": 1804
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Beikong Royal Fighters",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1897,
+                "against": 2004
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Shanxi",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.476"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1871,
+                "against": 1824
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Guangzhou Long Lions",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.476"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1802,
+                "against": 1841
+              },
+              "form": "WLLLL"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "Jilin Northeast Tigers",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.381"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1726,
+                "against": 1840
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Xinjiang Flying Tigers",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.364"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1859,
+                "against": 1801
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Tianjin Pioneers",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.364"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 2039,
+                "against": 2077
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 17,
+              "team": {
+                "name": "Fujian SBS Xunxing Sturgeons",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.364"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1991,
+                "against": 2050
+              },
+              "form": "LWLLW"
+            },
+            {
+              "position": 18,
+              "team": {
+                "name": "Nanjing Tongxi Monkey Kings",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1891,
+                "against": 1995
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 19,
+              "team": {
+                "name": "Jiangsu Dragons",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.273"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 1752,
+                "against": 1958
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 20,
+              "team": {
+                "name": "Sichuan Blue Whales",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 22
+                }
+              },
+              "points": {
+                "for": 1527,
+                "against": 2166
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 21,
+          "win_pct": 0.476,
+          "scored": 110.0,
+          "conceded": 113.0,
+          "rank": null
+        },
+        "statsA": {
+          "played": 21,
+          "win_pct": 0.619,
+          "scored": 106.0,
+          "conceded": 97.5,
           "rank": null
         }
       }
@@ -9089,7 +11251,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.055121+00:00",
+      "timestamp": "2026-04-06T07:38:07.706499+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -9689,7 +11851,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.075374+00:00",
+      "timestamp": "2026-04-06T07:38:07.732162+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -10289,7 +12451,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.095146+00:00",
+      "timestamp": "2026-04-06T07:38:07.752725+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11015,7 +13177,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.134676+00:00",
+      "timestamp": "2026-04-06T07:38:07.772465+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11741,7 +13903,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.183472+00:00",
+      "timestamp": "2026-04-06T07:38:07.799824+00:00",
       "match_center": {
         "h2h": [
           {
@@ -12467,7 +14629,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.227590+00:00",
+      "timestamp": "2026-04-06T07:38:07.819743+00:00",
       "match_center": {
         "h2h": [
           {
@@ -13193,7 +15355,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.264039+00:00",
+      "timestamp": "2026-04-06T07:38:07.836457+00:00",
       "match_center": {
         "h2h": [
           {
@@ -13938,7 +16100,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.330526+00:00",
+      "timestamp": "2026-04-06T07:38:07.849774+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14683,7 +16845,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.373443+00:00",
+      "timestamp": "2026-04-06T07:38:07.872329+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -15389,7 +17551,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.434827+00:00",
+      "timestamp": "2026-04-06T07:38:07.900532+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16095,7 +18257,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T06:46:59.574355+00:00",
+      "timestamp": "2026-04-06T07:38:07.923374+00:00",
       "match_center": {
         "h2h": [
           {
@@ -16642,7 +18804,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.739802+00:00",
+      "timestamp": "2026-04-06T07:38:07.946642+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17167,7 +19329,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:46:59.818869+00:00",
+      "timestamp": "2026-04-06T07:38:07.968407+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17672,18 +19834,18 @@
       "home_team": "Anwil Wloclawek",
       "status": "Not Started",
       "stage": "25",
-      "model_total": 171.03,
-      "xpts_h": 86.4,
-      "xpts_a": 84.6,
+      "model_total": 171.17,
+      "xpts_h": 86.9,
+      "xpts_a": 84.3,
       "probs_1x2": {
-        "home": 56.0,
-        "away": 44.0
+        "home": 58.5,
+        "away": 41.5
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 169.6,
-      "edge": 1.43,
+      "edge": 1.57,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -17692,7 +19854,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.127750+00:00",
+      "timestamp": "2026-04-06T07:38:08.011667+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18167,10 +20329,522 @@
           "rank": null
         },
         "statsA": {
-          "played": 14,
-          "win_pct": 0.643,
-          "scored": 106.1,
-          "conceded": 102.7,
+          "played": 24,
+          "win_pct": 0.583,
+          "scored": 105.7,
+          "conceded": 103.3,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 72,
+      "league": "Energa Basket Liga",
+      "country": "Poland",
+      "date": "2026-04-06",
+      "away_team": "Ostrow Wielkopolski",
+      "home_team": "Anwil Wloclawek",
+      "status": "Not Started",
+      "stage": "25",
+      "model_total": 169.34,
+      "xpts_h": 85.0,
+      "xpts_a": 84.3,
+      "probs_1x2": {
+        "home": 52.3,
+        "away": 47.7
+      },
+      "predicted_result": "HOME",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "market_total": 169.6,
+      "edge": -0.26,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 14.1,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-06T07:38:08.030254+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "Oct 6, 2025",
+            "teams": {
+              "home": {
+                "name": "Anwil Wloclawek",
+                "winner": true
+              },
+              "away": {
+                "name": "GTK Gliwice",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 58
+              }
+            }
+          },
+          {
+            "date": "Oct 10, 2025",
+            "teams": {
+              "home": {
+                "name": "Anwil Wloclawek",
+                "winner": false
+              },
+              "away": {
+                "name": "Arka Gdynia",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 98
+              },
+              "away": {
+                "total": 108
+              }
+            }
+          },
+          {
+            "date": "Mar 14, 2026",
+            "teams": {
+              "home": {
+                "name": "PGE Start Lublin",
+                "winner": true
+              },
+              "away": {
+                "name": "Anwil Wloclawek",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "Mar 7, 2026",
+            "teams": {
+              "home": {
+                "name": "Anwil Wloclawek",
+                "winner": false
+              },
+              "away": {
+                "name": "Legia Warszawa",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 83
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "Feb 14, 2026",
+            "teams": {
+              "home": {
+                "name": "King Szczecin",
+                "winner": true
+              },
+              "away": {
+                "name": "Anwil Wloclawek",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 84
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          }
+        ],
+        "recentA": [],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "WKS Slask Wroclaw",
+                "logo": ""
+              },
+              "games": {
+                "played": 23,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.739"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 2079,
+                "against": 1922
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "King Szczecin",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.680"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 2080,
+                "against": 2053
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Legia Warszawa",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 16,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 2048,
+                "against": 1921
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Trefl Sopot",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.625"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 2109,
+                "against": 2013
+              },
+              "form": "WWLLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Arka Gdynia",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.625"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 2037,
+                "against": 1951
+              },
+              "form": "WWWLL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.583"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 2007,
+                "against": 2034
+              },
+              "form": "LLWWW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Dziki Warszawa",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.560"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2290,
+                "against": 2130
+              },
+              "form": "WLLWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.560"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2211,
+                "against": 2136
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.560"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2055,
+                "against": 2087
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Enea Zastal Zielona G\u00f3ra",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.520"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 2106,
+                "against": 2031
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Anwil Wloclawek",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 2120,
+                "against": 2059
+              },
+              "form": "WLLLL"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Twarde Pierniki Toru\u0144",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.417"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 2113,
+                "against": 2146
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Czarni Slupsk",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.320"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2060,
+                "against": 2169
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "PGE Start Lublin",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.320"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2040,
+                "against": 2245
+              },
+              "form": "LWLWL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "GTK Gliwice",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.200"
+                },
+                "lose": {
+                  "total": 20
+                }
+              },
+              "points": {
+                "for": 1989,
+                "against": 2225
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Miasto Szkla Krosno",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.160"
+                },
+                "lose": {
+                  "total": 21
+                }
+              },
+              "points": {
+                "for": 2035,
+                "against": 2257
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 24,
+          "win_pct": 0.5,
+          "scored": 110.8,
+          "conceded": 110.0,
+          "rank": null
+        },
+        "statsA": {
+          "played": 24,
+          "win_pct": 0.583,
+          "scored": 104.9,
+          "conceded": 101.8,
           "rank": null
         }
       }
@@ -18204,7 +20878,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.190818+00:00",
+      "timestamp": "2026-04-06T07:38:08.052232+00:00",
       "match_center": {
         "h2h": [
           {
@@ -18842,7 +21516,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.312301+00:00",
+      "timestamp": "2026-04-06T07:38:08.085943+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19480,7 +22154,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.682217+00:00",
+      "timestamp": "2026-04-06T07:38:08.130015+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20049,7 +22723,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.736070+00:00",
+      "timestamp": "2026-04-06T07:38:08.143006+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20618,7 +23292,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.757019+00:00",
+      "timestamp": "2026-04-06T07:38:08.157337+00:00",
       "match_center": {
         "h2h": [
           {
@@ -21187,7 +23861,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.790972+00:00",
+      "timestamp": "2026-04-06T07:38:08.180504+00:00",
       "match_center": {
         "h2h": [
           {
@@ -21756,7 +24430,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.846313+00:00",
+      "timestamp": "2026-04-06T07:38:08.213368+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22396,7 +25070,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.872363+00:00",
+      "timestamp": "2026-04-06T07:38:08.223362+00:00",
       "match_center": {
         "h2h": [
           {
@@ -23056,7 +25730,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.883946+00:00",
+      "timestamp": "2026-04-06T07:38:08.237146+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23696,7 +26370,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.906622+00:00",
+      "timestamp": "2026-04-06T07:38:08.253794+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24356,7 +27030,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:00.978660+00:00",
+      "timestamp": "2026-04-06T07:38:08.306247+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24881,7 +27555,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.103459+00:00",
+      "timestamp": "2026-04-06T07:38:08.362350+00:00",
       "match_center": {
         "h2h": [
           {
@@ -25384,7 +28058,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.136020+00:00",
+      "timestamp": "2026-04-06T07:38:08.376883+00:00",
       "match_center": {
         "h2h": [
           {
@@ -25887,7 +28561,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.226438+00:00",
+      "timestamp": "2026-04-06T07:38:08.448759+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26417,7 +29091,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.247262+00:00",
+      "timestamp": "2026-04-06T07:38:08.475135+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26841,7 +29515,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.268679+00:00",
+      "timestamp": "2026-04-06T07:38:08.503618+00:00",
       "match_center": {
         "h2h": [
           {
@@ -27410,7 +30084,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.660315+00:00",
+      "timestamp": "2026-04-06T07:38:08.616361+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -28035,7 +30709,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:01.957284+00:00",
+      "timestamp": "2026-04-06T07:38:08.658119+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28739,7 +31413,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.233656+00:00",
+      "timestamp": "2026-04-06T07:38:08.671524+00:00",
       "match_center": {
         "h2h": [
           {
@@ -29443,7 +32117,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.500032+00:00",
+      "timestamp": "2026-04-06T07:38:08.699198+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30021,7 +32695,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.669571+00:00",
+      "timestamp": "2026-04-06T07:38:08.765245+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30577,7 +33251,7 @@
       "date": "2026-04-06",
       "away_team": "El Talar W",
       "home_team": "Independiente Neuquen W",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 141.37,
       "xpts_h": 65.5,
@@ -30599,7 +33273,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.755863+00:00",
+      "timestamp": "2026-04-06T07:38:08.794364+00:00",
       "match_center": {
         "h2h": [
           {
@@ -31300,7 +33974,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.775399+00:00",
+      "timestamp": "2026-04-06T07:38:08.803931+00:00",
       "match_center": {
         "h2h": [
           {
@@ -31982,7 +34656,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.942152+00:00",
+      "timestamp": "2026-04-06T07:38:08.834851+00:00",
       "match_center": {
         "h2h": [
           {
@@ -32620,7 +35294,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.948993+00:00",
+      "timestamp": "2026-04-06T07:38:08.847056+00:00",
       "match_center": {
         "h2h": [
           {
@@ -33258,7 +35932,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.964286+00:00",
+      "timestamp": "2026-04-06T07:38:08.877345+00:00",
       "match_center": {
         "h2h": [
           {
@@ -33896,7 +36570,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.977769+00:00",
+      "timestamp": "2026-04-06T07:38:08.889006+00:00",
       "match_center": {
         "h2h": [
           {
@@ -34534,7 +37208,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.989980+00:00",
+      "timestamp": "2026-04-06T07:38:08.901819+00:00",
       "match_center": {
         "h2h": [
           {
@@ -35172,7 +37846,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:02.997087+00:00",
+      "timestamp": "2026-04-06T07:38:08.914150+00:00",
       "match_center": {
         "h2h": [
           {
@@ -35810,7 +38484,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.011766+00:00",
+      "timestamp": "2026-04-06T07:38:08.923550+00:00",
       "match_center": {
         "h2h": [
           {
@@ -36448,7 +39122,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.018580+00:00",
+      "timestamp": "2026-04-06T07:38:08.937642+00:00",
       "match_center": {
         "h2h": [
           {
@@ -37086,7 +39760,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.119124+00:00",
+      "timestamp": "2026-04-06T07:38:08.970337+00:00",
       "match_center": {
         "h2h": [
           {
@@ -37611,7 +40285,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.140873+00:00",
+      "timestamp": "2026-04-06T07:38:08.994523+00:00",
       "match_center": {
         "h2h": [
           {
@@ -38136,7 +40810,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.157116+00:00",
+      "timestamp": "2026-04-06T07:38:09.038796+00:00",
       "match_center": {
         "h2h": [
           {
@@ -38661,7 +41335,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.182161+00:00",
+      "timestamp": "2026-04-06T07:38:09.077019+00:00",
       "match_center": {
         "h2h": [
           {
@@ -39186,7 +41860,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.229250+00:00",
+      "timestamp": "2026-04-06T07:38:09.195330+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -39944,7 +42618,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.234310+00:00",
+      "timestamp": "2026-04-06T07:38:09.207244+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40702,7 +43376,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.248049+00:00",
+      "timestamp": "2026-04-06T07:38:09.222621+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41481,7 +44155,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.260331+00:00",
+      "timestamp": "2026-04-06T07:38:09.254782+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -42260,7 +44934,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.266252+00:00",
+      "timestamp": "2026-04-06T07:38:09.339323+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43039,7 +45713,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.279031+00:00",
+      "timestamp": "2026-04-06T07:38:09.355852+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43818,7 +46492,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.296774+00:00",
+      "timestamp": "2026-04-06T07:38:09.371337+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44576,7 +47250,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T06:47:03.307070+00:00",
+      "timestamp": "2026-04-06T07:38:09.390367+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -45312,7 +47986,7 @@
       "date": "2026-04-06",
       "away_team": "Stockton Kings",
       "home_team": "South Bay Lakers",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "NBA G League - Semi-finals",
       "model_total": 242.47,
       "xpts_h": 129.7,
@@ -45334,7 +48008,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.358187+00:00",
+      "timestamp": "2026-04-06T07:38:09.450114+00:00",
       "match_center": {
         "h2h": [
           {
@@ -46280,7 +48954,7 @@
       "date": "2026-04-06",
       "away_team": "Stockton Kings",
       "home_team": "South Bay Lakers",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "NBA G League - Semi-finals",
       "model_total": 241.0,
       "xpts_h": 128.7,
@@ -46302,7 +48976,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.374161+00:00",
+      "timestamp": "2026-04-06T07:38:09.470087+00:00",
       "match_center": {
         "h2h": [
           {
@@ -47270,7 +49944,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.418899+00:00",
+      "timestamp": "2026-04-06T07:38:09.510981+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -47976,7 +50650,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.431783+00:00",
+      "timestamp": "2026-04-06T07:38:09.528031+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -48682,7 +51356,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.448765+00:00",
+      "timestamp": "2026-04-06T07:38:09.544694+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -49388,7 +52062,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.466532+00:00",
+      "timestamp": "2026-04-06T07:38:09.589646+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -50094,7 +52768,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.479763+00:00",
+      "timestamp": "2026-04-06T07:38:09.620054+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -50800,7 +53474,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.562027+00:00",
+      "timestamp": "2026-04-06T07:38:09.655574+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51347,7 +54021,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.612508+00:00",
+      "timestamp": "2026-04-06T07:38:09.667030+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51872,7 +54546,7 @@
       "date": "2026-04-06",
       "away_team": "Tulsa",
       "home_team": "Auburn",
-      "status": "Not Started",
+      "status": "After Over Time",
       "stage": "NIT - Final",
       "model_total": 161.17,
       "xpts_h": 80.8,
@@ -51894,7 +54568,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.639481+00:00",
+      "timestamp": "2026-04-06T07:38:09.694757+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -52696,7 +55370,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.711790+00:00",
+      "timestamp": "2026-04-06T07:38:09.926696+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -52992,7 +55666,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.726090+00:00",
+      "timestamp": "2026-04-06T07:38:09.936518+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -53288,7 +55962,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.794742+00:00",
+      "timestamp": "2026-04-06T07:38:09.969202+00:00",
       "match_center": {
         "h2h": [
           {
@@ -53754,7 +56428,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.816207+00:00",
+      "timestamp": "2026-04-06T07:38:09.982714+00:00",
       "match_center": {
         "h2h": [
           {
@@ -54220,7 +56894,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.888447+00:00",
+      "timestamp": "2026-04-06T07:38:10.024238+00:00",
       "match_center": {
         "h2h": [
           {
@@ -54789,7 +57463,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.899698+00:00",
+      "timestamp": "2026-04-06T07:38:10.038678+00:00",
       "match_center": {
         "h2h": [
           {
@@ -55358,7 +58032,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.923827+00:00",
+      "timestamp": "2026-04-06T07:38:10.067043+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -55782,7 +58456,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.949183+00:00",
+      "timestamp": "2026-04-06T07:38:10.084446+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -56206,7 +58880,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:03.997704+00:00",
+      "timestamp": "2026-04-06T07:38:10.114111+00:00",
       "match_center": {
         "h2h": [
           {
@@ -56628,7 +59302,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.042580+00:00",
+      "timestamp": "2026-04-06T07:38:10.151125+00:00",
       "match_center": {
         "h2h": [
           {
@@ -57266,7 +59940,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.065540+00:00",
+      "timestamp": "2026-04-06T07:38:10.170215+00:00",
       "match_center": {
         "h2h": [
           {
@@ -57904,7 +60578,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.107464+00:00",
+      "timestamp": "2026-04-06T07:38:10.212239+00:00",
       "match_center": {
         "h2h": [
           {
@@ -58542,7 +61216,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.119001+00:00",
+      "timestamp": "2026-04-06T07:38:10.253860+00:00",
       "match_center": {
         "h2h": [
           {
@@ -59180,7 +61854,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.138433+00:00",
+      "timestamp": "2026-04-06T07:38:10.354321+00:00",
       "match_center": {
         "h2h": [
           {
@@ -59818,7 +62492,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.150020+00:00",
+      "timestamp": "2026-04-06T07:38:10.431275+00:00",
       "match_center": {
         "h2h": [
           {
@@ -60456,7 +63130,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.199490+00:00",
+      "timestamp": "2026-04-06T07:38:10.594529+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -60752,7 +63426,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.215431+00:00",
+      "timestamp": "2026-04-06T07:38:10.603464+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -61048,7 +63722,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.234964+00:00",
+      "timestamp": "2026-04-06T07:38:10.623114+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -61344,7 +64018,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.248369+00:00",
+      "timestamp": "2026-04-06T07:38:10.639531+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -61640,7 +64314,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.274784+00:00",
+      "timestamp": "2026-04-06T07:38:10.669620+00:00",
       "match_center": {
         "h2h": [
           {
@@ -62206,7 +64880,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.290719+00:00",
+      "timestamp": "2026-04-06T07:38:10.682777+00:00",
       "match_center": {
         "h2h": [
           {
@@ -62772,7 +65446,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.308161+00:00",
+      "timestamp": "2026-04-06T07:38:10.699622+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63174,7 +65848,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.329332+00:00",
+      "timestamp": "2026-04-06T07:38:10.712070+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63576,7 +66250,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.345397+00:00",
+      "timestamp": "2026-04-06T07:38:10.732289+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63978,7 +66652,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.360838+00:00",
+      "timestamp": "2026-04-06T07:38:10.743578+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64380,7 +67054,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T06:47:04.379680+00:00",
+      "timestamp": "2026-04-06T07:38:10.766261+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64932,7 +67606,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T06:47:04.389768+00:00",
+      "timestamp": "2026-04-06T07:38:10.779547+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -65463,7 +68137,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T06:47:04.395336+00:00",
+      "timestamp": "2026-04-06T07:38:10.789777+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -66015,7 +68689,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T06:47:04.400543+00:00",
+      "timestamp": "2026-04-06T07:38:10.802627+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -66567,7 +69241,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.425922+00:00",
+      "timestamp": "2026-04-06T07:38:10.826709+00:00",
       "match_center": {
         "h2h": [
           {
@@ -67045,7 +69719,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.464112+00:00",
+      "timestamp": "2026-04-06T07:38:10.843414+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -67773,7 +70447,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T06:47:04.490631+00:00",
+      "timestamp": "2026-04-06T07:38:10.869419+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
