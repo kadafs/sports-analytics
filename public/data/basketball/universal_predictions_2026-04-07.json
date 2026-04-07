@@ -1,7 +1,7 @@
 {
   "date": "2026-04-07",
   "mode": "full",
-  "total_predictions": 85,
+  "total_predictions": 86,
   "predictions": [
     {
       "league_id": 71,
@@ -32,7 +32,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:12.897575+00:00",
+      "timestamp": "2026-04-07T07:00:04.685160+00:00",
       "match_center": {
         "h2h": [
           {
@@ -230,7 +230,7 @@
             "date": "Mar 8, 2026",
             "teams": {
               "home": {
-                "name": "PGE Sp\u00f3jnia Stargard",
+                "name": "PGE Spójnia Stargard",
                 "winner": true
               },
               "away": {
@@ -296,7 +296,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Solvera Sok\u00f3\u0142 \u0141a\u0144cut",
+                "name": "Solvera Sokół Łańcut",
                 "logo": ""
               },
               "games": {
@@ -340,7 +340,7 @@
             {
               "position": 4,
               "team": {
-                "name": "PGE Sp\u00f3jnia Stargard",
+                "name": "PGE Spójnia Stargard",
                 "logo": ""
               },
               "games": {
@@ -670,7 +670,7 @@
       "date": "2026-04-07",
       "away_team": "Gigantes de Carolina",
       "home_team": "Capitanes de Arecibo",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 177.94,
       "xpts_h": 94.5,
@@ -692,7 +692,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:12.929897+00:00",
+      "timestamp": "2026-04-07T07:00:05.212135+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -874,7 +874,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -1107,7 +1107,14 @@
           "conceded": 122.125,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 123,
+      "actual_away_score": 116,
+      "actual_result": "HOME",
+      "total_delta": 61.06,
+      "signed_delta": 61.06,
+      "total_rpe": 25.55,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 76,
@@ -1116,29 +1123,29 @@
       "date": "2026-04-07",
       "away_team": "Mets de Guaynabo",
       "home_team": "Piratas de Quebradillas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 172.66,
-      "xpts_h": 85.0,
-      "xpts_a": 87.6,
+      "model_total": 176.99,
+      "xpts_h": 88.5,
+      "xpts_a": 88.5,
       "probs_1x2": {
-        "home": 41.4,
-        "away": 58.6
+        "home": 49.9,
+        "away": 50.1
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 175.1,
-      "edge": -2.44,
-      "side": "UNDER",
+      "edge": 1.89,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 4.0,
-      "model_architecture": "[  SRS   ]",
+      "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:12.961395+00:00",
+      "timestamp": "2026-04-07T07:00:05.387307+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -1192,7 +1199,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -1412,20 +1419,27 @@
           ]
         ],
         "statsH": {
-          "played": 4,
-          "win_pct": 0.0,
-          "scored": 104.4,
-          "conceded": 110.19999999999999,
+          "played": 3,
+          "win_pct": 0.667,
+          "scored": 109.225,
+          "conceded": 106.15,
           "rank": null
         },
         "statsA": {
-          "played": 4,
-          "win_pct": 0.5,
-          "scored": 111.25,
-          "conceded": 110.5,
+          "played": 3,
+          "win_pct": 1.0,
+          "scored": 118.225,
+          "conceded": 111.8875,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "total_delta": 1.99,
+      "signed_delta": -1.99,
+      "total_rpe": 1.14,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 93,
@@ -1456,7 +1470,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:12.994718+00:00",
+      "timestamp": "2026-04-07T07:00:08.527603+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1543,7 +1557,7 @@
             "date": "Sep 23, 2025",
             "teams": {
               "home": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               },
               "away": {
@@ -1568,7 +1582,7 @@
                 "winner": true
               },
               "away": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               }
             },
@@ -1912,7 +1926,7 @@
             {
               "position": 9,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -2022,7 +2036,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.013214+00:00",
+      "timestamp": "2026-04-07T07:00:08.667364+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2491,8 +2505,8 @@
       "home_team": "Jilin",
       "status": "Not Started",
       "stage": "",
-      "model_total": 166.92,
-      "xpts_h": 98.4,
+      "model_total": 167.05,
+      "xpts_h": 98.5,
       "xpts_a": 68.5,
       "probs_1x2": {
         "home": 99.4,
@@ -2501,8 +2515,8 @@
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
-      "market_total": 176.7,
-      "edge": -9.78,
+      "market_total": 176.5,
+      "edge": -9.45,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -2511,7 +2525,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.054776+00:00",
+      "timestamp": "2026-04-07T07:00:08.978798+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3217,7 +3231,7 @@
       "home_team": "Liaoning",
       "status": "Not Started",
       "stage": "",
-      "model_total": 176.74,
+      "model_total": 176.88,
       "xpts_h": 92.0,
       "xpts_a": 84.8,
       "probs_1x2": {
@@ -3227,8 +3241,8 @@
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
-      "market_total": 176.7,
-      "edge": 0.04,
+      "market_total": 176.5,
+      "edge": 0.38,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -3237,7 +3251,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.089361+00:00",
+      "timestamp": "2026-04-07T07:00:09.049143+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -3943,7 +3957,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.119916+00:00",
+      "timestamp": "2026-04-07T07:00:09.460906+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4913,7 +4927,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.134329+00:00",
+      "timestamp": "2026-04-07T07:00:09.521396+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5883,7 +5897,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.155274+00:00",
+      "timestamp": "2026-04-07T07:00:10.200200+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6264,7 +6278,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.170256+00:00",
+      "timestamp": "2026-04-07T07:00:10.312342+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6560,7 +6574,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.195296+00:00",
+      "timestamp": "2026-04-07T07:00:10.646517+00:00",
       "match_center": {
         "h2h": [
           {
@@ -7085,7 +7099,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.226858+00:00",
+      "timestamp": "2026-04-07T07:00:10.952899+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -7555,27 +7569,27 @@
       "home_team": "CSM Targu Jiu",
       "status": "Not Started",
       "stage": "28",
-      "model_total": 170.12,
-      "xpts_h": 92.8,
-      "xpts_a": 77.3,
+      "model_total": 170.19,
+      "xpts_h": 89.7,
+      "xpts_a": 80.5,
       "probs_1x2": {
-        "home": 90.1,
-        "away": 9.9
+        "home": 77.7,
+        "away": 22.3
       },
       "predicted_result": "HOME",
-      "home_source": "SRS",
-      "away_source": "SRS",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
       "market_total": 170.6,
-      "edge": -0.48,
+      "edge": -0.41,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 14.5,
-      "model_architecture": "[  SRS   ]",
+      "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.241099+00:00",
+      "timestamp": "2026-04-07T07:00:10.988046+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8021,17 +8035,17 @@
           ]
         ],
         "statsH": {
-          "played": 24,
-          "win_pct": 0.167,
-          "scored": 94.5,
-          "conceded": 119.1,
+          "played": 26,
+          "win_pct": 0.115,
+          "scored": 97.4,
+          "conceded": 117.1,
           "rank": null
         },
         "statsA": {
-          "played": 19,
+          "played": 26,
           "win_pct": 0.0,
-          "scored": 90.2,
-          "conceded": 131.4,
+          "scored": 96.3,
+          "conceded": 124.5,
           "rank": null
         }
       }
@@ -8065,7 +8079,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.255823+00:00",
+      "timestamp": "2026-04-07T07:00:11.061010+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8681,7 +8695,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.264063+00:00",
+      "timestamp": "2026-04-07T07:00:11.089836+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9297,7 +9311,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.276866+00:00",
+      "timestamp": "2026-04-07T07:00:11.114408+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9893,27 +9907,27 @@
       "home_team": "CSM Oradea",
       "status": "Not Started",
       "stage": "28",
-      "model_total": 159.94,
-      "xpts_h": 84.5,
-      "xpts_a": 75.5,
+      "model_total": 161.76,
+      "xpts_h": 84.6,
+      "xpts_a": 77.2,
       "probs_1x2": {
-        "home": 77.3,
-        "away": 22.7
+        "home": 73.2,
+        "away": 26.8
       },
       "predicted_result": "HOME",
-      "home_source": "SRS",
-      "away_source": "SRS",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
       "market_total": 170.6,
-      "edge": -10.66,
+      "edge": -8.84,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 14.5,
-      "model_architecture": "[  SRS   ]",
+      "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.293539+00:00",
+      "timestamp": "2026-04-07T07:00:11.128895+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10359,17 +10373,17 @@
           ]
         ],
         "statsH": {
-          "played": 17,
-          "win_pct": 0.765,
-          "scored": 120.6,
-          "conceded": 99.9,
+          "played": 25,
+          "win_pct": 0.84,
+          "scored": 116.6,
+          "conceded": 102.8,
           "rank": null
         },
         "statsA": {
-          "played": 24,
-          "win_pct": 0.583,
-          "scored": 106.3,
-          "conceded": 93.9,
+          "played": 25,
+          "win_pct": 0.48,
+          "scored": 105.7,
+          "conceded": 98.2,
           "rank": null
         }
       }
@@ -10403,7 +10417,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.319371+00:00",
+      "timestamp": "2026-04-07T07:00:11.566061+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10972,7 +10986,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.336225+00:00",
+      "timestamp": "2026-04-07T07:00:11.631768+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11522,7 +11536,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.375481+00:00",
+      "timestamp": "2026-04-07T07:00:12.055668+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -12122,7 +12136,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.398158+00:00",
+      "timestamp": "2026-04-07T07:00:12.094352+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12828,7 +12842,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.422386+00:00",
+      "timestamp": "2026-04-07T07:00:12.127022+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -13428,7 +13442,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.435438+00:00",
+      "timestamp": "2026-04-07T07:00:12.160146+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14154,7 +14168,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.454124+00:00",
+      "timestamp": "2026-04-07T07:00:12.222244+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -14754,7 +14768,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.495597+00:00",
+      "timestamp": "2026-04-07T07:00:12.243751+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -15354,7 +15368,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.512717+00:00",
+      "timestamp": "2026-04-07T07:00:12.266783+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16060,7 +16074,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.540768+00:00",
+      "timestamp": "2026-04-07T07:00:12.325365+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16660,7 +16674,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.581475+00:00",
+      "timestamp": "2026-04-07T07:00:12.668004+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -16934,7 +16948,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.620676+00:00",
+      "timestamp": "2026-04-07T07:00:12.747461+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17478,7 +17492,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.630091+00:00",
+      "timestamp": "2026-04-07T07:00:12.805514+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18012,7 +18026,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.644429+00:00",
+      "timestamp": "2026-04-07T07:00:12.877450+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18546,7 +18560,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.676550+00:00",
+      "timestamp": "2026-04-07T07:00:13.402887+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18970,7 +18984,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.693654+00:00",
+      "timestamp": "2026-04-07T07:00:13.873944+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -19393,7 +19407,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.711638+00:00",
+      "timestamp": "2026-04-07T07:00:14.110671+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -19837,7 +19851,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.756959+00:00",
+      "timestamp": "2026-04-07T07:00:14.357242+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -20257,20 +20271,20 @@
       "date": "2026-04-07",
       "away_team": "Union Florida W",
       "home_team": "Berazategui W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 117.21,
+      "model_total": 117.19,
       "xpts_h": 56.9,
-      "xpts_a": 60.4,
+      "xpts_a": 60.3,
       "probs_1x2": {
-        "home": 38.5,
-        "away": 61.5
+        "home": 38.8,
+        "away": 61.2
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
       "market_total": 131.8,
-      "edge": -14.59,
+      "edge": -14.61,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -20279,7 +20293,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:13.803504+00:00",
+      "timestamp": "2026-04-07T07:00:14.581360+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20920,17 +20934,24 @@
           "played": 14,
           "win_pct": 0.429,
           "scored": 75.2,
-          "conceded": 76.5,
+          "conceded": 76.6,
           "rank": null
         },
         "statsA": {
           "played": 13,
           "win_pct": 0.538,
-          "scored": 87.7,
-          "conceded": 81.3,
+          "scored": 87.6,
+          "conceded": 81.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 54,
+      "actual_away_score": 52,
+      "actual_result": "HOME",
+      "total_delta": 11.19,
+      "signed_delta": -11.19,
+      "total_rpe": 10.56,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -20939,11 +20960,11 @@
       "date": "2026-04-07",
       "away_team": "Cleveland Cavaliers",
       "home_team": "Memphis Grizzlies",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 246.56,
-      "xpts_h": 109.9,
-      "xpts_a": 136.7,
+      "model_total": 246.55,
+      "xpts_h": 109.7,
+      "xpts_a": 136.9,
       "probs_1x2": {
         "home": 0.7,
         "away": 99.3
@@ -20951,8 +20972,8 @@
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 16.76,
+      "market_total": 229.7,
+      "edge": 16.85,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "SOLID",
@@ -20961,7 +20982,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:13.853433+00:00",
+      "timestamp": "2026-04-07T07:00:14.754874+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -21677,18 +21698,25 @@
         "statsH": {
           "played": 19,
           "win_pct": 0.211,
-          "scored": 109.1,
-          "conceded": 135.1,
+          "scored": 109.0,
+          "conceded": 135.2,
           "rank": null
         },
         "statsA": {
           "played": 17,
           "win_pct": 0.647,
-          "scored": 122.9,
-          "conceded": 119.0,
+          "scored": 123.0,
+          "conceded": 118.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 126,
+      "actual_away_score": 142,
+      "actual_result": "AWAY",
+      "total_delta": 21.45,
+      "signed_delta": 21.45,
+      "total_rpe": 8.0,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 12,
@@ -21697,11 +21725,11 @@
       "date": "2026-04-07",
       "away_team": "Philadelphia 76ers",
       "home_team": "San Antonio Spurs",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 245.02,
-      "xpts_h": 139.1,
-      "xpts_a": 105.9,
+      "model_total": 244.94,
+      "xpts_h": 139.2,
+      "xpts_a": 105.8,
       "probs_1x2": {
         "home": 99.9,
         "away": 0.1
@@ -21709,8 +21737,8 @@
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 15.22,
+      "market_total": 229.7,
+      "edge": 15.24,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -21719,7 +21747,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:13.862600+00:00",
+      "timestamp": "2026-04-07T07:00:14.768408+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22435,18 +22463,25 @@
         "statsH": {
           "played": 19,
           "win_pct": 0.895,
-          "scored": 135.6,
+          "scored": 135.5,
           "conceded": 106.8,
           "rank": null
         },
         "statsA": {
           "played": 18,
           "win_pct": 0.556,
-          "scored": 119.3,
-          "conceded": 121.9,
+          "scored": 119.2,
+          "conceded": 122.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 102,
+      "actual_result": "HOME",
+      "total_delta": 27.94,
+      "signed_delta": -27.94,
+      "total_rpe": 12.88,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 12,
@@ -22455,9 +22490,9 @@
       "date": "2026-04-07",
       "away_team": "Portland Trail Blazers",
       "home_team": "Denver Nuggets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 240.82,
+      "model_total": 240.84,
       "xpts_h": 120.6,
       "xpts_a": 120.2,
       "probs_1x2": {
@@ -22467,8 +22502,8 @@
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 11.02,
+      "market_total": 229.7,
+      "edge": 11.14,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -22477,7 +22512,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:13.876667+00:00",
+      "timestamp": "2026-04-07T07:00:14.792220+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23204,7 +23239,14 @@
           "conceded": 104.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 137,
+      "actual_away_score": 132,
+      "actual_result": "HOME",
+      "total_delta": 28.16,
+      "signed_delta": 28.16,
+      "total_rpe": 10.47,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 12,
@@ -23216,17 +23258,17 @@
       "status": "Not Started",
       "stage": "",
       "model_total": 250.0,
-      "xpts_h": 123.6,
-      "xpts_a": 126.4,
+      "xpts_h": 123.5,
+      "xpts_a": 126.5,
       "probs_1x2": {
-        "home": 39.6,
-        "away": 60.4
+        "home": 39.3,
+        "away": 60.7
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 31.11,
+      "market_total": 229.7,
+      "edge": 31.13,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -23235,7 +23277,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:13.910356+00:00",
+      "timestamp": "2026-04-07T07:00:14.855623+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23951,7 +23993,7 @@
         "statsH": {
           "played": 17,
           "win_pct": 0.059,
-          "scored": 113.7,
+          "scored": 113.6,
           "conceded": 140.6,
           "rank": null
         },
@@ -23973,18 +24015,18 @@
       "home_team": "Indiana Pacers",
       "status": "Not Started",
       "stage": "",
-      "model_total": 239.65,
-      "xpts_h": 113.5,
-      "xpts_a": 126.1,
+      "model_total": 239.66,
+      "xpts_h": 113.7,
+      "xpts_a": 125.9,
       "probs_1x2": {
-        "home": 12.6,
-        "away": 87.4
+        "home": 13.4,
+        "away": 86.6
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 9.85,
+      "market_total": 229.7,
+      "edge": 9.96,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -23993,7 +24035,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:13.926340+00:00",
+      "timestamp": "2026-04-07T07:00:14.925884+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -24709,15 +24751,15 @@
         "statsH": {
           "played": 17,
           "win_pct": 0.176,
-          "scored": 118.4,
-          "conceded": 129.7,
+          "scored": 118.5,
+          "conceded": 129.6,
           "rank": null
         },
         "statsA": {
           "played": 19,
           "win_pct": 0.526,
-          "scored": 116.7,
-          "conceded": 112.6,
+          "scored": 116.6,
+          "conceded": 112.7,
           "rank": null
         }
       }
@@ -24731,18 +24773,18 @@
       "home_team": "Brooklyn Nets",
       "status": "Not Started",
       "stage": "",
-      "model_total": 227.59,
-      "xpts_h": 115.4,
-      "xpts_a": 112.2,
+      "model_total": 227.7,
+      "xpts_h": 115.3,
+      "xpts_a": 112.4,
       "probs_1x2": {
-        "home": 61.4,
-        "away": 38.6
+        "home": 60.4,
+        "away": 39.6
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": -2.21,
+      "market_total": 229.7,
+      "edge": -2.0,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -24751,7 +24793,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:14.060324+00:00",
+      "timestamp": "2026-04-07T07:00:14.949163+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -25467,14 +25509,14 @@
         "statsH": {
           "played": 18,
           "win_pct": 0.222,
-          "scored": 102.4,
-          "conceded": 123.3,
+          "scored": 102.3,
+          "conceded": 123.4,
           "rank": null
         },
         "statsA": {
           "played": 19,
           "win_pct": 0.316,
-          "scored": 106.8,
+          "scored": 106.9,
           "conceded": 128.4,
           "rank": null
         }
@@ -25489,18 +25531,18 @@
       "home_team": "Toronto Raptors",
       "status": "Not Started",
       "stage": "",
-      "model_total": 249.34,
-      "xpts_h": 132.5,
-      "xpts_a": 116.9,
+      "model_total": 249.39,
+      "xpts_h": 132.4,
+      "xpts_a": 117.0,
       "probs_1x2": {
-        "home": 92.2,
-        "away": 7.8
+        "home": 91.8,
+        "away": 8.2
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 229.8,
-      "edge": 19.54,
+      "market_total": 229.7,
+      "edge": 19.69,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -25509,7 +25551,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-06T23:02:14.247092+00:00",
+      "timestamp": "2026-04-07T07:00:15.076741+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26246,14 +26288,14 @@
         "statsH": {
           "played": 19,
           "win_pct": 0.526,
-          "scored": 122.4,
-          "conceded": 113.5,
+          "scored": 122.3,
+          "conceded": 113.6,
           "rank": null
         },
         "statsA": {
           "played": 18,
           "win_pct": 0.444,
-          "scored": 125.1,
+          "scored": 125.2,
           "conceded": 129.6,
           "rank": null
         }
@@ -26268,18 +26310,18 @@
       "home_team": "Unifacisa",
       "status": "Not Started",
       "stage": "",
-      "model_total": 170.56,
-      "xpts_h": 92.8,
-      "xpts_a": 77.8,
+      "model_total": 170.12,
+      "xpts_h": 92.6,
+      "xpts_a": 77.5,
       "probs_1x2": {
-        "home": 89.4,
-        "away": 10.6
+        "home": 89.5,
+        "away": 10.5
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 158.9,
-      "edge": 11.66,
+      "market_total": 159.2,
+      "edge": 10.92,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -26288,7 +26330,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.426408+00:00",
+      "timestamp": "2026-04-07T07:00:16.160198+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26952,15 +26994,15 @@
         "statsH": {
           "played": 12,
           "win_pct": 0.5,
-          "scored": 109.1,
-          "conceded": 98.3,
+          "scored": 109.2,
+          "conceded": 98.2,
           "rank": null
         },
         "statsA": {
           "played": 13,
           "win_pct": 0.538,
-          "scored": 104.4,
-          "conceded": 109.6,
+          "scored": 104.6,
+          "conceded": 109.7,
           "rank": null
         }
       }
@@ -26974,18 +27016,18 @@
       "home_team": "Brasilia",
       "status": "Not Started",
       "stage": "",
-      "model_total": 160.03,
-      "xpts_h": 89.3,
-      "xpts_a": 70.7,
+      "model_total": 159.38,
+      "xpts_h": 88.7,
+      "xpts_a": 70.6,
       "probs_1x2": {
-        "home": 93.9,
-        "away": 6.1
+        "home": 93.4,
+        "away": 6.6
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 158.9,
-      "edge": 1.13,
+      "market_total": 159.2,
+      "edge": 0.18,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -26994,7 +27036,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.452296+00:00",
+      "timestamp": "2026-04-07T07:00:16.200780+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -27658,14 +27700,14 @@
         "statsH": {
           "played": 15,
           "win_pct": 0.733,
-          "scored": 106.2,
-          "conceded": 85.6,
+          "scored": 105.9,
+          "conceded": 85.8,
           "rank": null
         },
         "statsA": {
           "played": 14,
           "win_pct": 0.5,
-          "scored": 107.3,
+          "scored": 107.4,
           "conceded": 107.3,
           "rank": null
         }
@@ -27680,9 +27722,9 @@
       "home_team": "Corinthians Paulista",
       "status": "Not Started",
       "stage": "",
-      "model_total": 175.1,
-      "xpts_h": 109.5,
-      "xpts_a": 65.6,
+      "model_total": 174.63,
+      "xpts_h": 109.2,
+      "xpts_a": 65.5,
       "probs_1x2": {
         "home": 100.0,
         "away": 0.0
@@ -27690,8 +27732,8 @@
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 158.9,
-      "edge": 16.2,
+      "market_total": 159.2,
+      "edge": 15.43,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -27700,7 +27742,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.511028+00:00",
+      "timestamp": "2026-04-07T07:00:16.210037+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -28364,14 +28406,14 @@
         "statsH": {
           "played": 13,
           "win_pct": 0.769,
-          "scored": 115.0,
-          "conceded": 99.0,
+          "scored": 114.8,
+          "conceded": 99.1,
           "rank": null
         },
         "statsA": {
           "played": 14,
           "win_pct": 0.071,
-          "scored": 88.8,
+          "scored": 88.7,
           "conceded": 125.8,
           "rank": null
         }
@@ -28406,7 +28448,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.651697+00:00",
+      "timestamp": "2026-04-07T07:00:16.511869+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -28964,7 +29006,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.730088+00:00",
+      "timestamp": "2026-04-07T07:00:16.800678+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -29500,7 +29542,7 @@
       "date": "2026-04-07",
       "away_team": "UConn",
       "home_team": "Michigan",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "NCAA - Final",
       "model_total": 152.02,
       "xpts_h": 77.3,
@@ -29522,7 +29564,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-06T23:02:14.797776+00:00",
+      "timestamp": "2026-04-07T07:00:16.926651+00:00",
       "match_center": {
         "h2h": [
           {
@@ -30910,18 +30952,25 @@
         "statsH": {
           "played": 10,
           "win_pct": 0.7,
-          "scored": 112.8,
-          "conceded": 84.3,
+          "scored": 112.9,
+          "conceded": 84.2,
           "rank": null
         },
         "statsA": {
           "played": 8,
           "win_pct": 0.875,
-          "scored": 102.4,
-          "conceded": 74.0,
+          "scored": 102.5,
+          "conceded": 73.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 69,
+      "actual_away_score": 63,
+      "actual_result": "HOME",
+      "total_delta": 20.02,
+      "signed_delta": -20.02,
+      "total_rpe": 15.17,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 61,
@@ -30932,27 +30981,27 @@
       "home_team": "Neptunas 2",
       "status": "Not Started",
       "stage": "NKL - Quarter-finals",
-      "model_total": 163.22,
-      "xpts_h": 83.2,
-      "xpts_a": 80.0,
+      "model_total": 161.21,
+      "xpts_h": 83.3,
+      "xpts_a": 78.0,
       "probs_1x2": {
-        "home": 60.5,
-        "away": 39.5
+        "home": 67.1,
+        "away": 32.9
       },
       "predicted_result": "HOME",
-      "home_source": "SRS",
-      "away_source": "SRS",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
       "market_total": 168.1,
-      "edge": -4.88,
+      "edge": -6.89,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 15.1,
-      "model_architecture": "[  SRS   ]",
+      "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:14.968529+00:00",
+      "timestamp": "2026-04-07T07:00:17.024994+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -31006,7 +31055,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Klaip\u0117dos Nept\u016bnas-Akvaservis",
+                "name": "Klaipėdos Neptūnas-Akvaservis",
                 "logo": ""
               },
               "games": {
@@ -31248,7 +31297,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Palangos Kur\u0161iai",
+                "name": "Palangos Kuršiai",
                 "logo": ""
               },
               "games": {
@@ -31336,17 +31385,17 @@
           ]
         ],
         "statsH": {
-          "played": 20,
-          "win_pct": 0.7,
-          "scored": 107.6,
-          "conceded": 93.8,
+          "played": 31,
+          "win_pct": 0.677,
+          "scored": 105.2,
+          "conceded": 95.1,
           "rank": null
         },
         "statsA": {
-          "played": 35,
-          "win_pct": 0.657,
-          "scored": 114.4,
-          "conceded": 101.5,
+          "played": 27,
+          "win_pct": 0.704,
+          "scored": 112.1,
+          "conceded": 105.6,
           "rank": null
         }
       }
@@ -31380,7 +31429,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.024073+00:00",
+      "timestamp": "2026-04-07T07:00:17.094492+00:00",
       "match_center": {
         "h2h": [
           {
@@ -31532,7 +31581,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Palangos Kur\u0161iai",
+                "name": "Palangos Kuršiai",
                 "winner": false
               }
             },
@@ -31723,7 +31772,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Klaip\u0117dos Nept\u016bnas-Akvaservis",
+                "name": "Klaipėdos Neptūnas-Akvaservis",
                 "logo": ""
               },
               "games": {
@@ -31965,7 +32014,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Palangos Kur\u0161iai",
+                "name": "Palangos Kuršiai",
                 "logo": ""
               },
               "games": {
@@ -32097,7 +32146,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.085810+00:00",
+      "timestamp": "2026-04-07T07:00:17.376546+00:00",
       "match_center": {
         "h2h": [
           {
@@ -32605,7 +32654,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.233508+00:00",
+      "timestamp": "2026-04-07T07:00:17.604825+00:00",
       "match_center": {
         "h2h": [
           {
@@ -33113,7 +33162,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.511301+00:00",
+      "timestamp": "2026-04-07T07:00:18.068662+00:00",
       "match_center": {
         "h2h": [
           {
@@ -33682,7 +33731,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.535971+00:00",
+      "timestamp": "2026-04-07T07:00:18.288558+00:00",
       "match_center": {
         "h2h": [
           {
@@ -34251,7 +34300,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.580912+00:00",
+      "timestamp": "2026-04-07T07:00:18.733534+00:00",
       "match_center": {
         "h2h": [
           {
@@ -34754,7 +34803,7 @@
             {
               "position": 12,
               "team": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "logo": ""
               },
               "games": {
@@ -34820,7 +34869,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.659577+00:00",
+      "timestamp": "2026-04-07T07:00:18.960274+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -35526,7 +35575,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.675193+00:00",
+      "timestamp": "2026-04-07T07:00:19.262045+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -36232,7 +36281,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.692252+00:00",
+      "timestamp": "2026-04-07T07:00:19.528442+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -36938,7 +36987,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.701585+00:00",
+      "timestamp": "2026-04-07T07:00:19.710318+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -37644,7 +37693,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.710228+00:00",
+      "timestamp": "2026-04-07T07:00:19.759945+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -38350,7 +38399,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.724157+00:00",
+      "timestamp": "2026-04-07T07:00:19.834035+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -39056,7 +39105,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.755723+00:00",
+      "timestamp": "2026-04-07T07:00:19.872970+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -39762,7 +39811,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.778499+00:00",
+      "timestamp": "2026-04-07T07:00:19.890901+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40468,7 +40517,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.797556+00:00",
+      "timestamp": "2026-04-07T07:00:19.905293+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41174,7 +41223,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.820564+00:00",
+      "timestamp": "2026-04-07T07:00:19.937780+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41880,7 +41929,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.852560+00:00",
+      "timestamp": "2026-04-07T07:00:20.434955+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -42198,7 +42247,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.931113+00:00",
+      "timestamp": "2026-04-07T07:00:20.991047+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -42558,7 +42607,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.952783+00:00",
+      "timestamp": "2026-04-07T07:00:21.439303+00:00",
       "match_center": {
         "h2h": [
           {
@@ -43193,7 +43242,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.961915+00:00",
+      "timestamp": "2026-04-07T07:00:21.572189+00:00",
       "match_center": {
         "h2h": [
           {
@@ -43809,7 +43858,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:15.988195+00:00",
+      "timestamp": "2026-04-07T07:00:21.786631+00:00",
       "match_center": {
         "h2h": [
           {
@@ -44071,6 +44120,556 @@
       }
     },
     {
+      "league_id": 388,
+      "league": "Superliga",
+      "country": "Albania",
+      "date": "2026-04-07",
+      "away_team": "Kamza Basket",
+      "home_team": "Elbasani",
+      "status": "Not Started",
+      "stage": "",
+      "model_total": 189.44,
+      "xpts_h": 75.3,
+      "xpts_a": 114.2,
+      "probs_1x2": {
+        "home": 0.3,
+        "away": 99.7
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "market_total": 171.1,
+      "edge": 18.34,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "mbet_threshold": 16.3,
+      "model_architecture": "[  SRS   ]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "lower",
+      "timestamp": "2026-04-07T07:00:22.306349+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "10.01. 13:00",
+            "teams": {
+              "home": {
+                "name": "Kamza Basket"
+              },
+              "away": {
+                "name": "Elbasani"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 125
+              },
+              "away": {
+                "total": 75
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "15.03. 12:45",
+            "teams": {
+              "home": {
+                "name": "Elbasani",
+                "winner": true
+              },
+              "away": {
+                "name": "PBC Flamurtari",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 89
+              }
+            }
+          },
+          {
+            "date": "08.03. 12:00",
+            "teams": {
+              "home": {
+                "name": "Teuta Durres",
+                "winner": true
+              },
+              "away": {
+                "name": "Elbasani",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "17.02. 12:00",
+            "teams": {
+              "home": {
+                "name": "Beselidhja",
+                "winner": true
+              },
+              "away": {
+                "name": "Elbasani",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 147
+              },
+              "away": {
+                "total": 69
+              }
+            }
+          },
+          {
+            "date": "14.02. 12:00",
+            "teams": {
+              "home": {
+                "name": "Vllaznia",
+                "winner": true
+              },
+              "away": {
+                "name": "Elbasani",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 118
+              },
+              "away": {
+                "total": 68
+              }
+            }
+          },
+          {
+            "date": "11.02. 12:00\nAOT",
+            "teams": {
+              "home": {
+                "name": "Fieri",
+                "winner": false
+              },
+              "away": {
+                "name": "Elbasani",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 96
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "15.03. 09:00",
+            "teams": {
+              "home": {
+                "name": "Partizani Tirana",
+                "winner": false
+              },
+              "away": {
+                "name": "Kamza Basket",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 107
+              }
+            }
+          },
+          {
+            "date": "08.03. 09:00",
+            "teams": {
+              "home": {
+                "name": "Kamza Basket",
+                "winner": false
+              },
+              "away": {
+                "name": "Beselidhja",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          },
+          {
+            "date": "18.02. 13:00",
+            "teams": {
+              "home": {
+                "name": "Apolonia Fier",
+                "winner": false
+              },
+              "away": {
+                "name": "Kamza Basket",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 58
+              },
+              "away": {
+                "total": 82
+              }
+            }
+          },
+          {
+            "date": "14.02. 13:30",
+            "teams": {
+              "home": {
+                "name": "Apolonia Fier",
+                "winner": false
+              },
+              "away": {
+                "name": "Kamza Basket",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "07.02. 08:30",
+            "teams": {
+              "home": {
+                "name": "Kamza Basket",
+                "winner": true
+              },
+              "away": {
+                "name": "Fieri",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 94
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Beselidhja",
+                "logo": ""
+              },
+              "games": {
+                "played": 17,
+                "win": {
+                  "total": 17,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 1986,
+                "against": 1151
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Tirana",
+                "logo": ""
+              },
+              "games": {
+                "played": 17,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.824"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 1695,
+                "against": 1332
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Vllaznia",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.778"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 1571,
+                "against": 1333
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Kamza Basket",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1653,
+                "against": 1388
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Teuta Durres",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 12,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1547,
+                "against": 1464
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Apolonia Fier",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.611"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1615,
+                "against": 1333
+              },
+              "form": "LWLLW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Skenderbeu",
+                "logo": ""
+              },
+              "games": {
+                "played": 15,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1334,
+                "against": 1213
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Elbasani",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.263"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1579,
+                "against": 2019
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Fieri",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.222"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1374,
+                "against": 1691
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Partizani Tirana",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.167"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1146,
+                "against": 1663
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Pogradeci",
+                "logo": ""
+              },
+              "games": {
+                "played": 17,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.118"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1345,
+                "against": 1759
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "PBC Flamurtari",
+                "logo": ""
+              },
+              "games": {
+                "played": 17,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.118"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1141,
+                "against": 1640
+              },
+              "form": "LLWLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 20,
+          "win_pct": 0.3,
+          "scored": 111.1,
+          "conceded": 157.4,
+          "rank": null
+        },
+        "statsA": {
+          "played": 20,
+          "win_pct": 0.55,
+          "scored": 129.1,
+          "conceded": 116.3,
+          "rank": null
+        }
+      }
+    },
+    {
       "league_id": 275,
       "league": "Superliga",
       "country": "Venezuela",
@@ -44079,18 +44678,18 @@
       "home_team": "Panteras",
       "status": "Game Postponed",
       "stage": "",
-      "model_total": 177.53,
-      "xpts_h": 83.4,
-      "xpts_a": 94.1,
+      "model_total": 177.14,
+      "xpts_h": 84.0,
+      "xpts_a": 93.2,
       "probs_1x2": {
-        "home": 22.3,
-        "away": 77.7
+        "home": 25.6,
+        "away": 74.4
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 162.3,
-      "edge": 15.23,
+      "market_total": 162.6,
+      "edge": 14.54,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -44099,7 +44698,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T23:02:16.004804+00:00",
+      "timestamp": "2026-04-07T07:00:22.953802+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44607,16 +45206,16 @@
           ]
         ],
         "statsH": {
-          "played": 11,
-          "win_pct": 0.091,
-          "scored": 107.5,
-          "conceded": 142.4,
+          "played": 12,
+          "win_pct": 0.083,
+          "scored": 107.7,
+          "conceded": 140.3,
           "rank": null
         },
         "statsA": {
           "played": 11,
           "win_pct": 0.273,
-          "scored": 112.8,
+          "scored": 113.0,
           "conceded": 128.9,
           "rank": null
         }
@@ -44631,18 +45230,18 @@
       "home_team": "Marinos",
       "status": "Game Postponed",
       "stage": "",
-      "model_total": 159.81,
-      "xpts_h": 99.7,
-      "xpts_a": 60.1,
+      "model_total": 161.69,
+      "xpts_h": 99.6,
+      "xpts_a": 62.1,
       "probs_1x2": {
-        "home": 99.8,
-        "away": 0.2
+        "home": 99.6,
+        "away": 0.4
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 162.3,
-      "edge": -2.49,
+      "market_total": 162.6,
+      "edge": -0.91,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -44651,7 +45250,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T23:02:16.021569+00:00",
+      "timestamp": "2026-04-07T07:00:23.081923+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -45159,17 +45758,17 @@
           ]
         ],
         "statsH": {
-          "played": 10,
-          "win_pct": 0.7,
-          "scored": 121.1,
-          "conceded": 105.8,
+          "played": 11,
+          "win_pct": 0.636,
+          "scored": 120.9,
+          "conceded": 107.7,
           "rank": null
         },
         "statsA": {
-          "played": 11,
-          "win_pct": 0.182,
-          "scored": 98.2,
-          "conceded": 136.0,
+          "played": 12,
+          "win_pct": 0.167,
+          "scored": 99.3,
+          "conceded": 136.2,
           "rank": null
         }
       }
@@ -45183,9 +45782,9 @@
       "home_team": "Diablos",
       "status": "Not Started",
       "stage": "",
-      "model_total": 167.49,
-      "xpts_h": 79.9,
-      "xpts_a": 87.6,
+      "model_total": 167.89,
+      "xpts_h": 80.1,
+      "xpts_a": 87.8,
       "probs_1x2": {
         "home": 29.1,
         "away": 70.9
@@ -45193,8 +45792,8 @@
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 162.3,
-      "edge": 5.19,
+      "market_total": 162.6,
+      "edge": 5.29,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -45203,7 +45802,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T23:02:16.038235+00:00",
+      "timestamp": "2026-04-07T07:00:23.235267+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -45699,8 +46298,8 @@
         "statsA": {
           "played": 10,
           "win_pct": 0.7,
-          "scored": 125.7,
-          "conceded": 110.7,
+          "scored": 125.8,
+          "conceded": 110.8,
           "rank": null
         }
       }
@@ -45714,18 +46313,18 @@
       "home_team": "Guaiqueries",
       "status": "Not Started",
       "stage": "",
-      "model_total": 160.2,
-      "xpts_h": 97.4,
-      "xpts_a": 62.8,
+      "model_total": 160.46,
+      "xpts_h": 96.6,
+      "xpts_a": 63.8,
       "probs_1x2": {
-        "home": 99.3,
-        "away": 0.7
+        "home": 99.0,
+        "away": 1.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "market_total": 162.3,
-      "edge": -2.1,
+      "market_total": 162.6,
+      "edge": -2.14,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -45734,7 +46333,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-06T23:02:16.072224+00:00",
+      "timestamp": "2026-04-07T07:00:23.365084+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -46221,10 +46820,10 @@
           ]
         ],
         "statsH": {
-          "played": 10,
-          "win_pct": 0.7,
-          "scored": 129.4,
-          "conceded": 99.3,
+          "played": 11,
+          "win_pct": 0.727,
+          "scored": 128.2,
+          "conceded": 100.6,
           "rank": null
         },
         "statsA": {
@@ -46265,7 +46864,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.095550+00:00",
+      "timestamp": "2026-04-07T07:00:23.916368+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -46993,7 +47592,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.106775+00:00",
+      "timestamp": "2026-04-07T07:00:24.104562+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -47721,7 +48320,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.124379+00:00",
+      "timestamp": "2026-04-07T07:00:24.242083+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -48449,7 +49048,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.180913+00:00",
+      "timestamp": "2026-04-07T07:00:24.586721+00:00",
       "match_center": {
         "h2h": [
           {
@@ -49131,7 +49730,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.198260+00:00",
+      "timestamp": "2026-04-07T07:00:24.742409+00:00",
       "match_center": {
         "h2h": [
           {
@@ -49659,7 +50258,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.211136+00:00",
+      "timestamp": "2026-04-07T07:00:24.775644+00:00",
       "match_center": {
         "h2h": [
           {
@@ -50206,7 +50805,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.224109+00:00",
+      "timestamp": "2026-04-07T07:00:24.820526+00:00",
       "match_center": {
         "h2h": [
           {
@@ -50734,7 +51333,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.240431+00:00",
+      "timestamp": "2026-04-07T07:00:24.967752+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51257,7 +51856,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-06T23:02:16.253570+00:00",
+      "timestamp": "2026-04-07T07:00:25.109006+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51791,5 +52390,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-04-07T08:01:35.999530",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 5,
+      "total": 5,
+      "pct": 100.0
+    },
+    "[  SRS   ]": {
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0
+    }
+  }
 }
