@@ -1967,11 +1967,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:40:32.884628+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -2902,7 +2902,10 @@
           "rank": 18,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.94,
+      "signed_delta": -1.94,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 599,
@@ -2932,11 +2935,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:40:48.170218+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -3687,7 +3690,10 @@
           "rank": 5,
           "form": 9
         }
-      }
+      },
+      "total_delta": 0.9,
+      "signed_delta": -0.9,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 599,
@@ -3717,11 +3723,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:40:48.303366+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -4472,7 +4478,10 @@
           "rank": 12,
           "form": 6
         }
-      }
+      },
+      "total_delta": 3.32,
+      "signed_delta": -3.32,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 601,
@@ -4502,11 +4511,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:41:02.766960+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -5257,7 +5266,10 @@
           "rank": 13,
           "form": 5
         }
-      }
+      },
+      "total_delta": 1.92,
+      "signed_delta": -1.92,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 601,
@@ -5287,11 +5299,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:41:02.769767+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 5,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -6042,7 +6054,10 @@
           "rank": 1,
           "form": 17
         }
-      }
+      },
+      "total_delta": 3.21,
+      "signed_delta": 3.21,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 510,
@@ -33218,11 +33233,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:44:00.433461+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -34153,7 +34168,10 @@
           "rank": 11,
           "form": 12
         }
-      }
+      },
+      "total_delta": 0.32,
+      "signed_delta": 0.32,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 80,
@@ -34183,11 +34201,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:44:00.457829+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -35118,7 +35136,10 @@
           "rank": 9,
           "form": 14
         }
-      }
+      },
+      "total_delta": 1.24,
+      "signed_delta": -1.24,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 80,
@@ -35148,11 +35169,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:44:00.472490+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -36083,7 +36104,10 @@
           "rank": 17,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.17,
+      "signed_delta": -1.17,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 80,
@@ -36113,11 +36137,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:44:00.504125+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -37048,7 +37072,10 @@
           "rank": 6,
           "form": 14
         }
-      }
+      },
+      "total_delta": 0.34,
+      "signed_delta": 0.34,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 80,
@@ -37078,11 +37105,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:44:00.590512+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 4,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -38013,7 +38040,10 @@
           "rank": 19,
           "form": 5
         }
-      }
+      },
+      "total_delta": 0.74,
+      "signed_delta": 0.74,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 646,
@@ -42276,11 +42306,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:45:59.966986+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -43211,7 +43241,10 @@
           "rank": 18,
           "form": 1
         }
-      }
+      },
+      "total_delta": 4.06,
+      "signed_delta": 4.06,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 740,
@@ -43241,11 +43274,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:45:59.969939+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -44176,7 +44209,10 @@
           "rank": 19,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.01,
+      "signed_delta": -0.01,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 740,
@@ -44206,11 +44242,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:45:59.975617+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -45141,7 +45177,10 @@
           "rank": 16,
           "form": 1
         }
-      }
+      },
+      "total_delta": 0.37,
+      "signed_delta": 0.37,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 740,
@@ -45171,11 +45210,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:45:59.980184+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -46106,7 +46145,10 @@
           "rank": 10,
           "form": 1
         }
-      }
+      },
+      "total_delta": 1.38,
+      "signed_delta": -1.38,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 740,
@@ -46136,11 +46178,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:45:59.983159+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -47071,7 +47113,10 @@
           "rank": 11,
           "form": 1
         }
-      }
+      },
+      "total_delta": 1.0,
+      "signed_delta": 1.0,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 740,
@@ -47101,11 +47146,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:46:00.002772+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -48036,7 +48081,10 @@
           "rank": 8,
           "form": 2
         }
-      }
+      },
+      "total_delta": 1.27,
+      "signed_delta": -1.27,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 740,
@@ -48066,11 +48114,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:46:00.007632+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -49001,7 +49049,10 @@
           "rank": 17,
           "form": 0
         }
-      }
+      },
+      "total_delta": 2.03,
+      "signed_delta": -2.03,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 740,
@@ -49031,11 +49082,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:46:00.076182+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -49966,7 +50017,10 @@
           "rank": 20,
           "form": 0
         }
-      }
+      },
+      "total_delta": 2.34,
+      "signed_delta": 2.34,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 16,
@@ -50130,11 +50184,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:46:48.088196+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -50615,7 +50669,10 @@
           "rank": 5,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 970,
@@ -50645,11 +50702,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:46:48.093836+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -51130,7 +51187,10 @@
           "rank": 2,
           "form": 1
         }
-      }
+      },
+      "total_delta": 2.55,
+      "signed_delta": 2.55,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 13,
@@ -57192,11 +57252,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:47:27.169903+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -58667,7 +58727,10 @@
           "rank": 1,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 13,
@@ -58697,11 +58760,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:47:27.178837+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -60172,7 +60235,10 @@
           "rank": 2,
           "form": 0
         }
-      }
+      },
+      "total_delta": 1.45,
+      "signed_delta": -1.45,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 11,
@@ -64726,11 +64792,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:08.704828+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -66201,7 +66267,10 @@
           "rank": 1,
           "form": 0
         }
-      }
+      },
+      "total_delta": 1.45,
+      "signed_delta": -1.45,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 11,
@@ -66231,11 +66300,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:08.849157+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -67706,7 +67775,10 @@
           "rank": 2,
           "form": 1
         }
-      }
+      },
+      "total_delta": 2.45,
+      "signed_delta": -2.45,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 11,
@@ -67736,11 +67808,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:08.893043+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -69211,7 +69283,10 @@
           "rank": 2,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 457,
@@ -69308,11 +69383,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:54.993377+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -70063,7 +70138,10 @@
           "rank": 8,
           "form": 10
         }
-      }
+      },
+      "total_delta": 2.43,
+      "signed_delta": -2.43,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 404,
@@ -70093,11 +70171,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:55.095784+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -70848,7 +70926,10 @@
           "rank": 9,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.29,
+      "signed_delta": -1.29,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 404,
@@ -70878,11 +70959,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:55.100740+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 3,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -71633,7 +71714,10 @@
           "rank": 1,
           "form": 19
         }
-      }
+      },
+      "total_delta": 0.42,
+      "signed_delta": -0.42,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 404,
@@ -71663,11 +71747,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:48:55.152310+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -72418,7 +72502,10 @@
           "rank": 2,
           "form": 19
         }
-      }
+      },
+      "total_delta": 0.69,
+      "signed_delta": 0.69,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 314,
@@ -72515,11 +72602,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:52:48.227982+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -72549,7 +72636,10 @@
           "rank": null,
           "form": 3
         }
-      }
+      },
+      "total_delta": 0.54,
+      "signed_delta": 0.54,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 237,
@@ -72646,11 +72736,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:53:40.277014+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -72680,7 +72770,10 @@
           "rank": null,
           "form": 7
         }
-      }
+      },
+      "total_delta": 3.17,
+      "signed_delta": -3.17,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 108,
@@ -90664,11 +90757,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:57:11.126367+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 6,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -91419,7 +91512,10 @@
           "rank": 4,
           "form": 14
         }
-      }
+      },
+      "total_delta": 2.56,
+      "signed_delta": 2.56,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 276,
@@ -97098,11 +97194,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:58:25.012889+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -97673,7 +97769,10 @@
           "rank": 1,
           "form": 19
         }
-      }
+      },
+      "total_delta": 1.8,
+      "signed_delta": -1.8,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 172,
@@ -98491,11 +98590,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:58:45.544260+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -99246,7 +99345,10 @@
           "rank": 5,
           "form": 11
         }
-      }
+      },
+      "total_delta": 0.82,
+      "signed_delta": -0.82,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 730,
@@ -99276,11 +99378,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:15.746012+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -100121,7 +100223,10 @@
           "rank": 1,
           "form": 23
         }
-      }
+      },
+      "total_delta": 1.16,
+      "signed_delta": 1.16,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 730,
@@ -100151,11 +100256,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:15.766709+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -100996,7 +101101,10 @@
           "rank": 4,
           "form": 19
         }
-      }
+      },
+      "total_delta": 1.35,
+      "signed_delta": -1.35,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 730,
@@ -101026,11 +101134,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:15.797248+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -101871,7 +101979,10 @@
           "rank": 6,
           "form": 16
         }
-      }
+      },
+      "total_delta": 0.28,
+      "signed_delta": 0.28,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 730,
@@ -101901,11 +102012,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:15.800825+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -102746,7 +102857,10 @@
           "rank": 15,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.13,
+      "signed_delta": 1.13,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 731,
@@ -102776,11 +102890,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:27.802753+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 4,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -103621,7 +103735,10 @@
           "rank": 5,
           "form": 16
         }
-      }
+      },
+      "total_delta": 0.66,
+      "signed_delta": 0.66,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 666,
@@ -103651,11 +103768,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T22:59:40.674070+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -103685,7 +103802,10 @@
           "rank": null,
           "form": 1
         }
-      }
+      },
+      "total_delta": 2.45,
+      "signed_delta": -2.45,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 845,
@@ -103715,11 +103835,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:00:07.017428+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -104470,7 +104590,10 @@
           "rank": 14,
           "form": 4
         }
-      }
+      },
+      "total_delta": 1.76,
+      "signed_delta": -1.76,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 845,
@@ -104500,11 +104623,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:00:07.018529+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -105255,7 +105378,10 @@
           "rank": 2,
           "form": 7
         }
-      }
+      },
+      "total_delta": 2.08,
+      "signed_delta": -2.08,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 845,
@@ -105285,11 +105411,11 @@
       "predicted_result": "DRAW",
       "mode": "full",
       "timestamp": "2026-04-07T23:00:07.019568+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -106040,7 +106166,10 @@
           "rank": 3,
           "form": 7
         }
-      }
+      },
+      "total_delta": 2.94,
+      "signed_delta": 2.94,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 845,
@@ -106070,11 +106199,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:00:07.020574+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -106825,7 +106954,10 @@
           "rank": 9,
           "form": 6
         }
-      }
+      },
+      "total_delta": 1.66,
+      "signed_delta": -1.66,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 576,
@@ -131309,11 +131441,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:07:06.647653+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -132244,7 +132376,10 @@
           "rank": 10,
           "form": 10
         }
-      }
+      },
+      "total_delta": 0.56,
+      "signed_delta": 0.56,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 542,
@@ -137809,11 +137944,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:09:54.113513+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -138609,7 +138744,10 @@
           "rank": 9,
           "form": 7
         }
-      }
+      },
+      "total_delta": 2.1,
+      "signed_delta": -2.1,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 701,
@@ -141835,11 +141973,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:10:55.369365+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -143400,7 +143538,10 @@
           "rank": 4,
           "form": 8
         }
-      }
+      },
+      "total_delta": 2.07,
+      "signed_delta": -2.07,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 567,
@@ -147616,11 +147757,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:11:58.426624+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -148371,7 +148512,10 @@
           "rank": 12,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.66,
+      "signed_delta": 0.66,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 50,
@@ -148401,11 +148545,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:12:07.619401+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -149516,7 +149660,10 @@
           "rank": 22,
           "form": 11
         }
-      }
+      },
+      "total_delta": 2.98,
+      "signed_delta": -2.98,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 835,
@@ -150334,11 +150481,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:12:22.320769+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -151179,7 +151326,10 @@
           "rank": 1,
           "form": 18
         }
-      }
+      },
+      "total_delta": 2.63,
+      "signed_delta": 2.63,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 754,
@@ -151209,11 +151359,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:12:32.844204+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -152684,7 +152834,10 @@
           "rank": 2,
           "form": 15
         }
-      }
+      },
+      "total_delta": 0.01,
+      "signed_delta": -0.01,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 754,
@@ -152714,11 +152867,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:12:32.922996+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -154189,7 +154342,10 @@
           "rank": 12,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.8,
+      "signed_delta": 0.8,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 755,
@@ -155727,11 +155883,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:12:49.826275+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 4,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -155761,7 +155917,10 @@
           "rank": null,
           "form": 19
         }
-      }
+      },
+      "total_delta": 0.67,
+      "signed_delta": 0.67,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 765,
@@ -157477,11 +157636,11 @@
       "predicted_result": "DRAW",
       "mode": "full",
       "timestamp": "2026-04-07T23:13:28.830466+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -158592,7 +158751,10 @@
           "rank": 2,
           "form": 10
         }
-      }
+      },
+      "total_delta": 0.07,
+      "signed_delta": -0.07,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 476,
@@ -158622,11 +158784,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:13:28.933458+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 5,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -159737,7 +159899,10 @@
           "rank": 1,
           "form": 10
         }
-      }
+      },
+      "total_delta": 4.65,
+      "signed_delta": 4.65,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 334,
@@ -168097,11 +168262,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.575530+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -168852,7 +169017,10 @@
           "rank": 2,
           "form": 13
         }
-      }
+      },
+      "total_delta": 0.29,
+      "signed_delta": 0.29,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 847,
@@ -168882,11 +169050,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.587424+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -169637,7 +169805,10 @@
           "rank": 16,
           "form": 1
         }
-      }
+      },
+      "total_delta": 1.83,
+      "signed_delta": 1.83,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 847,
@@ -170452,11 +170623,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.594639+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -171207,7 +171378,10 @@
           "rank": 12,
           "form": 9
         }
-      }
+      },
+      "total_delta": 2.27,
+      "signed_delta": -2.27,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 847,
@@ -171237,11 +171411,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.623401+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -171992,7 +172166,10 @@
           "rank": 6,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.48,
+      "signed_delta": -1.48,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 847,
@@ -172022,11 +172199,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.626431+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -172777,7 +172954,10 @@
           "rank": 5,
           "form": 9
         }
-      }
+      },
+      "total_delta": 1.17,
+      "signed_delta": -1.17,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 847,
@@ -172807,11 +172987,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.638912+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -173562,7 +173742,10 @@
           "rank": 13,
           "form": 4
         }
-      }
+      },
+      "total_delta": 2.79,
+      "signed_delta": 2.79,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 847,
@@ -173592,11 +173775,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:45.725337+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -174347,7 +174530,10 @@
           "rank": 11,
           "form": 7
         }
-      }
+      },
+      "total_delta": 2.2,
+      "signed_delta": 2.2,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 585,
@@ -175165,11 +175351,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:14:56.811095+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -175920,7 +176106,10 @@
           "rank": 6,
           "form": 10
         }
-      }
+      },
+      "total_delta": 0.44,
+      "signed_delta": 0.44,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 962,
@@ -178696,11 +178885,11 @@
       "predicted_result": "DRAW",
       "mode": "full",
       "timestamp": "2026-04-07T23:15:17.837711+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -180621,7 +180810,10 @@
           "rank": 10,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.07,
+      "signed_delta": 0.07,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 233,
@@ -180651,11 +180843,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:15:17.854030+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -182576,7 +182768,10 @@
           "rank": 13,
           "form": 5
         }
-      }
+      },
+      "total_delta": 2.83,
+      "signed_delta": -2.83,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 322,
@@ -184691,11 +184886,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:15:43.022539+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -185446,7 +185641,10 @@
           "rank": 7,
           "form": 7
         }
-      }
+      },
+      "total_delta": 1.24,
+      "signed_delta": 1.24,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 240,
@@ -186264,11 +186462,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:15:56.809555+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 4,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -187199,7 +187397,10 @@
           "rank": 7,
           "form": 13
         }
-      }
+      },
+      "total_delta": 2.12,
+      "signed_delta": 2.12,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 435,
@@ -187229,11 +187430,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:04.594729+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -188164,7 +188365,10 @@
           "rank": 5,
           "form": 11
         }
-      }
+      },
+      "total_delta": 1.27,
+      "signed_delta": -1.27,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 129,
@@ -189882,11 +190086,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:15.907702+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -191537,7 +191741,10 @@
           "rank": 9,
           "form": 3
         }
-      }
+      },
+      "total_delta": 1.24,
+      "signed_delta": -1.24,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 307,
@@ -192445,11 +192652,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:29.846222+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 6,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -193290,7 +193497,10 @@
           "rank": 14,
           "form": 8
         }
-      }
+      },
+      "total_delta": 3.12,
+      "signed_delta": 3.12,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 307,
@@ -193320,11 +193530,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:30.008353+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 4,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -194165,7 +194375,10 @@
           "rank": 8,
           "form": 10
         }
-      }
+      },
+      "total_delta": 5.29,
+      "signed_delta": 5.29,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 703,
@@ -196041,11 +196254,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:47.804371+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 5,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -196886,7 +197099,10 @@
           "rank": 5,
           "form": 14
         }
-      }
+      },
+      "total_delta": 3.35,
+      "signed_delta": 3.35,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 85,
@@ -196916,11 +197132,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:47.805660+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -197761,7 +197977,10 @@
           "rank": 13,
           "form": 8
         }
-      }
+      },
+      "total_delta": 2.63,
+      "signed_delta": -2.63,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 87,
@@ -197791,11 +198010,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:58.735233+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -198636,7 +198855,10 @@
           "rank": 5,
           "form": 13
         }
-      }
+      },
+      "total_delta": 2.1,
+      "signed_delta": -2.1,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 87,
@@ -198666,11 +198888,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:16:58.768057+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -199511,7 +199733,10 @@
           "rank": 12,
           "form": 9
         }
-      }
+      },
+      "total_delta": 1.31,
+      "signed_delta": -1.31,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 906,
@@ -199541,11 +199766,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:17.984869+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 8,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -201196,7 +201421,10 @@
           "rank": 18,
           "form": 1
         }
-      }
+      },
+      "total_delta": 1.82,
+      "signed_delta": 1.82,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 906,
@@ -201226,11 +201454,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:17.986487+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -202881,7 +203109,10 @@
           "rank": 1,
           "form": 5
         }
-      }
+      },
+      "total_delta": 1.34,
+      "signed_delta": -1.34,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 906,
@@ -202911,11 +203142,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:17.987682+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -204566,7 +204797,10 @@
           "rank": 18,
           "form": 0
         }
-      }
+      },
+      "total_delta": 0.19,
+      "signed_delta": -0.19,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 906,
@@ -204596,11 +204830,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:17.995424+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -206251,7 +206485,10 @@
           "rank": 11,
           "form": 2
         }
-      }
+      },
+      "total_delta": 0.29,
+      "signed_delta": 0.29,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 906,
@@ -206281,11 +206518,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:17.997370+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -207936,7 +208173,10 @@
           "rank": 9,
           "form": 3
         }
-      }
+      },
+      "total_delta": 1.66,
+      "signed_delta": -1.66,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 148,
@@ -207966,11 +208206,11 @@
       "predicted_result": "AWAY",
       "mode": "full",
       "timestamp": "2026-04-07T23:17:28.409398+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 4,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -208000,7 +208240,10 @@
           "rank": null,
           "form": 15
         }
-      }
+      },
+      "total_delta": 2.02,
+      "signed_delta": 2.02,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 356,
@@ -215101,11 +215344,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:18:36.081235+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -216036,7 +216279,10 @@
           "rank": 14,
           "form": 8
         }
-      }
+      },
+      "total_delta": 1.58,
+      "signed_delta": -1.58,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 427,
@@ -238348,11 +238594,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:20:53.021232+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -239103,7 +239349,10 @@
           "rank": 16,
           "form": 2
         }
-      }
+      },
+      "total_delta": 0.29,
+      "signed_delta": -0.29,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 203,
@@ -239133,11 +239382,11 @@
       "predicted_result": "DRAW",
       "mode": "full",
       "timestamp": "2026-04-07T23:21:01.909742+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -239978,7 +240227,10 @@
           "rank": 1,
           "form": 20
         }
-      }
+      },
+      "total_delta": 2.63,
+      "signed_delta": 2.63,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 450,
@@ -240008,11 +240260,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:21:19.414014+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -240853,7 +241105,10 @@
           "rank": 2,
           "form": 17
         }
-      }
+      },
+      "total_delta": 1.09,
+      "signed_delta": 1.09,
+      "accuracy_tier": "🟡 SOLID"
     },
     {
       "league_id": 450,
@@ -240883,11 +241138,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:21:19.454561+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -241728,7 +241983,10 @@
           "rank": 11,
           "form": 8
         }
-      }
+      },
+      "total_delta": 0.7,
+      "signed_delta": 0.7,
+      "accuracy_tier": "🟢 EXCELLENT"
     },
     {
       "league_id": 450,
@@ -241758,11 +242016,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:21:19.457053+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -242603,7 +242861,10 @@
           "rank": 5,
           "form": 13
         }
-      }
+      },
+      "total_delta": 1.69,
+      "signed_delta": -1.69,
+      "accuracy_tier": "🟠 MISS"
     },
     {
       "league_id": 177,
@@ -253749,11 +254010,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:22:00.701883+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -255404,7 +255665,10 @@
           "rank": 14,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 2,
@@ -255434,11 +255698,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:22:00.704311+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -257089,7 +257353,10 @@
           "rank": 3,
           "form": 7
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 3,
@@ -257119,11 +257386,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:22:08.328433+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -258774,7 +259041,10 @@
           "rank": 4,
           "form": 6
         }
-      }
+      },
+      "total_delta": 0.45,
+      "signed_delta": -0.45,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 489,
@@ -259637,11 +259907,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-07T23:22:22.613998+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -260437,7 +260707,10 @@
           "rank": 13,
           "form": 1
         }
-      }
+      },
+      "total_delta": 0.25,
+      "signed_delta": 0.25,
+      "accuracy_tier": "🎯 BULLSEYE"
     },
     {
       "league_id": 365,
@@ -262084,13 +262357,13 @@
       "accuracy_tier": "🟢 EXCELLENT"
     }
   ],
-  "graded_at": "2026-04-08T19:24:08.446345",
+  "graded_at": "2026-04-09T08:18:42.120706",
   "grade_summary": {
-    "outcome_wins": 102,
-    "outcome_total": 184,
-    "outcome_pct": 55.4,
-    "btts_wins": 48,
-    "btts_total": 80,
-    "btts_pct": 60.0
+    "outcome_wins": 144,
+    "outcome_total": 275,
+    "outcome_pct": 52.4,
+    "btts_wins": 70,
+    "btts_total": 123,
+    "btts_pct": 56.9
   }
 }
