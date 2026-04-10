@@ -832,11 +832,11 @@
       "predicted_result": "HOME",
       "mode": "full",
       "timestamp": "2026-04-09T07:24:11.095911+00:00",
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 4,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -866,7 +866,10 @@
           "rank": null,
           "form": 12
         }
-      }
+      },
+      "total_delta": 2.37,
+      "signed_delta": 2.37,
+      "accuracy_tier": "🔴 BUST"
     },
     {
       "league_id": 363,
@@ -1539,11 +1542,11 @@
       "accuracy_tier": "🔴 BUST"
     }
   ],
-  "graded_at": "2026-04-09T22:19:47.115727",
+  "graded_at": "2026-04-10T07:20:24.051308",
   "grade_summary": {
     "outcome_wins": 11,
-    "outcome_total": 21,
-    "outcome_pct": 52.4,
+    "outcome_total": 22,
+    "outcome_pct": 50.0,
     "btts_wins": 7,
     "btts_total": 10,
     "btts_pct": 70.0
