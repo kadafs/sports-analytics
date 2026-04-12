@@ -87,6 +87,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     actual_result:     primaryResult,
     accuracy_tier,
     total_delta,
+    home_team_volatility,
+    away_team_volatility,
   } = primary
 
   // Use top-level synced values first, fallback to primary model values
@@ -266,6 +268,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   <StatRow label="Win %" home={statsH.win_pct ? `${(statsH.win_pct * 100).toFixed(0)}%` : '-'} away={statsA.win_pct ? `${(statsA.win_pct * 100).toFixed(0)}%` : '-'} />
                   <StatRow label="Pts/Game (Model)" home={statsH.scored} away={statsA.scored} highlight="high" />
                   <StatRow label="Pts Allowed (Model)" home={statsH.conceded} away={statsA.conceded} highlight="low" />
+                  <StatRow label="Scoring Volatility" home={home_team_volatility != null ? home_team_volatility.toFixed(1) : '-'} away={away_team_volatility != null ? away_team_volatility.toFixed(1) : '-'} highlight="low" />
                 </div>
               </div>
             )}
