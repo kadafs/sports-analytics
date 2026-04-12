@@ -81615,7 +81615,7 @@
       "date": "2026-04-11",
       "away_team": "San Jose W",
       "home_team": "Hindu W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 128.36,
       "xpts_h": 65.1,
@@ -82307,7 +82307,14 @@
           "conceded": 81.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 55,
+      "actual_away_score": 45,
+      "actual_result": "HOME",
+      "total_delta": 28.36,
+      "signed_delta": -28.36,
+      "total_rpe": 28.36,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 206,
@@ -170686,7 +170693,7 @@
       "date": "2026-04-11",
       "away_team": "Spirou Basket W",
       "home_team": "Charleroi W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 134.79,
       "xpts_h": 66.1,
@@ -171246,7 +171253,14 @@
           "conceded": 103.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 0,
+      "actual_away_score": 20,
+      "actual_result": "AWAY",
+      "total_delta": 114.79,
+      "signed_delta": -114.79,
+      "total_rpe": 573.95,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 25,
@@ -178859,17 +178873,12 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-04-12T03:05:29.574011",
+  "graded_at": "2026-04-12T17:10:54.413726",
   "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 92,
-      "total": 139,
-      "pct": 66.2
-    },
     "[  SRS   ]": {
-      "wins": 109,
-      "total": 159,
-      "pct": 68.6
+      "wins": 2,
+      "total": 2,
+      "pct": 100.0
     }
   }
 }
