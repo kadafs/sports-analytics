@@ -120,6 +120,23 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isSRSFallback = !isAdvanced && leagueHasAdv   // ADV league but this game used SRS
   const showBadge = !isFinished && isSRSFallback
 
+  const isHomeStable = home_team_volatility != null && home_team_volatility <= 16.6
+  const isAwayStable = away_team_volatility != null && away_team_volatility <= 16.6
+  
+  const getStabilityColor = (volatility) => {
+    if (volatility == null) return 'inherit';
+    if (volatility < 14.8) return '#10b981'; // Elite (Emerald)
+    if (volatility <= 16.6) return '#38bdf8'; // Good/Stable (Sky Blue)
+    return 'inherit';
+  }
+  
+  const getStabilityTitle = (volatility) => {
+    if (volatility == null) return '';
+    if (volatility < 14.8) return `Elite Reliable (Volatility: ${volatility.toFixed(1)})`;
+    if (volatility <= 16.6) return `Stable (Volatility: ${volatility.toFixed(1)})`;
+    return '';
+  }
+
   return (
     <>
       <div
@@ -160,11 +177,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         {/* TEAMS COLUMN */}
         <div className="teams">
           <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
-            <span className="team-name" style={{ 
+            <span className="team-name" title={getStabilityTitle(home_team_volatility)} style={{ 
               fontWeight: (isGraded && finalHomeScore > finalAwayScore) ? 700 : 400,
+              color: getStabilityColor(home_team_volatility),
               flex: 'initial',
               textAlign: 'left',
-              marginRight: 6
+              marginRight: 6,
+              cursor: isHomeStable ? 'help' : 'inherit'
             }}>
               {showStageBadge && <span style={{ color: '#2563eb', width: 16, display: 'inline-block', textAlign: 'left' }}>★</span>}
               {home_team}
@@ -176,11 +195,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             )}
           </div>
           <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
-            <span className="team-name" style={{ 
+            <span className="team-name" title={getStabilityTitle(away_team_volatility)} style={{ 
               fontWeight: (isGraded && finalAwayScore > finalHomeScore) ? 700 : 400,
+              color: getStabilityColor(away_team_volatility),
               flex: 'initial',
               textAlign: 'left',
-              marginRight: 6
+              marginRight: 6,
+              cursor: isAwayStable ? 'help' : 'inherit'
             }}>
               {showStageBadge && <span className="playoff-spacer"></span>}
               {away_team}
