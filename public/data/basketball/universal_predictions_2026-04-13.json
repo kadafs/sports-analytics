@@ -2638,7 +2638,7 @@
             {
               "position": 6,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -2946,7 +2946,7 @@
       "date": "2026-04-13",
       "away_team": "Aguada Santeros",
       "home_team": "Piratas de Quebradillas",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 165.77,
       "xpts_h": 87.8,
@@ -3024,7 +3024,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -3257,7 +3257,13 @@
           "conceded": 109.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 117,
+      "actual_result": "AWAY",
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 93,
@@ -3467,7 +3473,7 @@
                 "winner": true
               },
               "away": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               }
             },
@@ -3746,7 +3752,7 @@
             {
               "position": 9,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -9944,7 +9950,7 @@
             {
               "position": 7,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -9966,7 +9972,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -10010,7 +10016,7 @@
             {
               "position": 10,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -10032,7 +10038,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -10054,7 +10060,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -14706,7 +14712,7 @@
       "date": "2026-04-13",
       "away_team": "Naviera Ulloa",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.26,
       "xpts_h": 87.6,
@@ -15017,7 +15023,14 @@
           "conceded": 108.98750000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 105,
+      "actual_result": "AWAY",
+      "total_delta": 43.74,
+      "signed_delta": 43.74,
+      "total_rpe": 21.23,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 114,
@@ -15026,7 +15039,7 @@
       "date": "2026-04-13",
       "away_team": "Catolica",
       "home_team": "Puente Alto",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 181.83,
       "xpts_h": 90.4,
@@ -15588,7 +15601,14 @@
           "conceded": 102.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "total_delta": 17.83,
+      "signed_delta": -17.83,
+      "total_rpe": 10.87,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 114,
@@ -15597,7 +15617,7 @@
       "date": "2026-04-13",
       "away_team": "Espanol Osorno",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.3,
       "xpts_h": 85.0,
@@ -16159,7 +16179,14 @@
           "conceded": 92.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "total_delta": 3.3,
+      "signed_delta": -3.3,
+      "total_rpe": 2.06,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 114,
@@ -16168,7 +16195,7 @@
       "date": "2026-04-13",
       "away_team": "Valdivia",
       "home_team": "Las Animas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.52,
       "xpts_h": 92.9,
@@ -16730,7 +16757,14 @@
           "conceded": 99.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 86,
+      "actual_result": "AWAY",
+      "total_delta": 10.48,
+      "signed_delta": 10.48,
+      "total_rpe": 6.39,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 258,
@@ -19136,7 +19170,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -19224,7 +19258,7 @@
       "date": "2026-04-13",
       "away_team": "Obera TC",
       "home_team": "Argentino",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 166.23,
       "xpts_h": 74.2,
@@ -19795,7 +19829,14 @@
           "conceded": 100.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "total_delta": 19.23,
+      "signed_delta": -19.23,
+      "total_rpe": 13.08,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 18,
@@ -19804,7 +19845,7 @@
       "date": "2026-04-13",
       "away_team": "Olimpico",
       "home_team": "San Martin",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.92,
       "xpts_h": 76.1,
@@ -20501,7 +20542,14 @@
           "conceded": 101.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "total_delta": 8.92,
+      "signed_delta": -8.92,
+      "total_rpe": 6.15,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 18,
@@ -21774,7 +21822,7 @@
       "league": "Liga Nova KBM",
       "country": "Slovenia",
       "date": "2026-04-13",
-      "away_team": "Terme Olimia Pod\u010detrtek",
+      "away_team": "Terme Olimia Podčetrtek",
       "home_team": "Rogaska",
       "status": "Not Started",
       "stage": "23",
@@ -21810,7 +21858,7 @@
                 "name": "Rogaska Crystal"
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek"
+                "name": "Terme Olimia Podčetrtek"
               }
             },
             "scores": {
@@ -21826,7 +21874,7 @@
             "date": "Oct 20, 2025",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek"
+                "name": "Terme Olimia Podčetrtek"
               },
               "away": {
                 "name": "Rogaska Crystal"
@@ -21958,7 +22006,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -21975,7 +22023,7 @@
             "date": "Oct 6, 2025",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               },
               "away": {
@@ -22000,7 +22048,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -22017,7 +22065,7 @@
             "date": "Mar 16, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               },
               "away": {
@@ -22038,11 +22086,11 @@
             "date": "Mar 9, 2026",
             "teams": {
               "home": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -22127,7 +22175,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -22259,7 +22307,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -24016,7 +24064,7 @@
       "date": "2026-04-13",
       "away_team": "Chicago Bulls",
       "home_team": "Dallas Mavericks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 250.0,
       "xpts_h": 125.7,
@@ -24767,7 +24815,14 @@
           "conceded": 133.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 149,
+      "actual_away_score": 128,
+      "actual_result": "HOME",
+      "total_delta": 27.0,
+      "signed_delta": 27.0,
+      "total_rpe": 9.75,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 12,
@@ -24776,7 +24831,7 @@
       "date": "2026-04-13",
       "away_team": "Memphis Grizzlies",
       "home_team": "Houston Rockets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 243.63,
       "xpts_h": 142.3,
@@ -25548,7 +25603,14 @@
           "conceded": 138.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 132,
+      "actual_away_score": 101,
+      "actual_result": "HOME",
+      "total_delta": 10.63,
+      "signed_delta": -10.63,
+      "total_rpe": 4.56,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -25557,7 +25619,7 @@
       "date": "2026-04-13",
       "away_team": "Golden State Warriors",
       "home_team": "Los Angeles Clippers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 234.11,
       "xpts_h": 125.6,
@@ -26308,7 +26370,14 @@
           "conceded": 123.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 110,
+      "actual_result": "HOME",
+      "total_delta": 9.11,
+      "signed_delta": -9.11,
+      "total_rpe": 4.05,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -26317,7 +26386,7 @@
       "date": "2026-04-13",
       "away_team": "Utah Jazz",
       "home_team": "Los Angeles Lakers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 249.36,
       "xpts_h": 142.1,
@@ -27068,7 +27137,14 @@
           "conceded": 137.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 131,
+      "actual_away_score": 107,
+      "actual_result": "HOME",
+      "total_delta": 11.36,
+      "signed_delta": -11.36,
+      "total_rpe": 4.77,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -27077,7 +27153,7 @@
       "date": "2026-04-13",
       "away_team": "New Orleans Pelicans",
       "home_team": "Minnesota Timberwolves",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 235.25,
       "xpts_h": 121.7,
@@ -27828,7 +27904,14 @@
           "conceded": 120.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 132,
+      "actual_away_score": 126,
+      "actual_result": "HOME",
+      "total_delta": 22.75,
+      "signed_delta": 22.75,
+      "total_rpe": 8.82,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 12,
@@ -27837,7 +27920,7 @@
       "date": "2026-04-13",
       "away_team": "Phoenix Suns",
       "home_team": "Oklahoma City Thunder",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 226.17,
       "xpts_h": 127.1,
@@ -28609,7 +28692,14 @@
           "conceded": 113.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 135,
+      "actual_result": "AWAY",
+      "total_delta": 11.83,
+      "signed_delta": 11.83,
+      "total_rpe": 4.97,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -28618,7 +28708,7 @@
       "date": "2026-04-13",
       "away_team": "Sacramento Kings",
       "home_team": "Portland Trail Blazers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 230.05,
       "xpts_h": 130.3,
@@ -29369,7 +29459,14 @@
           "conceded": 126.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 122,
+      "actual_away_score": 110,
+      "actual_result": "HOME",
+      "total_delta": 1.95,
+      "signed_delta": 1.95,
+      "total_rpe": 0.84,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 12,
@@ -29378,7 +29475,7 @@
       "date": "2026-04-13",
       "away_team": "Denver Nuggets",
       "home_team": "San Antonio Spurs",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 250.0,
       "xpts_h": 131.9,
@@ -30129,7 +30226,14 @@
           "conceded": 117.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 118,
+      "actual_away_score": 128,
+      "actual_result": "AWAY",
+      "total_delta": 4.0,
+      "signed_delta": -4.0,
+      "total_rpe": 1.63,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 397,
@@ -35407,7 +35511,7 @@
       "country": "Turkey",
       "date": "2026-04-13",
       "away_team": "Darussafaka",
-      "home_team": "Kocaeli B\u015eB Ka\u011f\u0131tspor",
+      "home_team": "Kocaeli BŞB Kağıtspor",
       "status": "Not Started",
       "stage": "33",
       "model_total": 163.83,
@@ -38017,5 +38121,7 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-04-13T08:06:39.364774",
+  "grade_summary": {}
 }
