@@ -21159,7 +21159,7 @@
       "date": "2026-04-15",
       "away_team": "Ulm",
       "home_team": "Chemnitz",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "23",
       "model_total": 163.46,
       "xpts_h": 78.1,
@@ -21834,7 +21834,14 @@
           "conceded": 100.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "total_delta": 18.46,
+      "signed_delta": -18.46,
+      "total_rpe": 12.73,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 368,
@@ -34638,7 +34645,7 @@
       "date": "2026-04-15",
       "away_team": "Syntainics MBC W",
       "home_team": "Marburg W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "DBBL Women - Semi-finals",
       "model_total": 159.54,
       "xpts_h": 76.7,
@@ -35156,7 +35163,14 @@
           "conceded": 91.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "total_delta": 5.54,
+      "signed_delta": -5.54,
+      "total_rpe": 3.6,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 78,
@@ -52030,7 +52044,7 @@
       "date": "2026-04-15",
       "away_team": "Limoges",
       "home_team": "JL Bourg",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "25",
       "model_total": 180.68,
       "xpts_h": 102.7,
@@ -52535,7 +52549,14 @@
           "conceded": 118.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "total_delta": 17.68,
+      "signed_delta": -17.68,
+      "total_rpe": 10.85,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 18,
@@ -81401,17 +81422,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-04-15T20:44:22.433099",
+  "graded_at": "2026-04-15T21:01:15.810666",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 30,
-      "total": 59,
-      "pct": 50.8
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0
     },
     "[  SRS   ]": {
-      "wins": 40,
-      "total": 57,
-      "pct": 70.2
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0
     }
   }
 }
