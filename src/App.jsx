@@ -82,7 +82,7 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
 }
 
 export default function App() {
-  const [sport,         setSport]         = useState('football')
+  const [sport,         setSport]         = useState('basketball')
   const [dates,         setDates]         = useState([])   // [{date,graded,...}]
   const [selectedDate,  setSelectedDate]  = useState(null)
   const [data,          setData]          = useState(null)

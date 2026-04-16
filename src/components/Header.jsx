@@ -35,17 +35,6 @@ export default function Header({
               className="logo-img"
             />
           </a>
-
-          <div className="sport-toggle">
-            <button 
-              className={`sport-btn ${sport === 'football' ? 'active' : ''}`}
-              onClick={() => setSport('football')}
-            >⚽ Football</button>
-            <button 
-              className={`sport-btn ${sport === 'basketball' ? 'active' : ''}`}
-              onClick={() => setSport('basketball')}
-            >🏀 Basketball</button>
-          </div>
         </div>
 
         {visible.length > 0 && (
