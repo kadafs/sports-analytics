@@ -14158,7 +14158,7 @@
       "date": "2026-04-16",
       "away_team": "Atyrau 2",
       "home_team": "Shymkent",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.7,
       "xpts_h": 98.1,
@@ -14747,7 +14747,14 @@
           "conceded": 91.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "total_delta": 11.7,
+      "signed_delta": -11.7,
+      "total_rpe": 7.85,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 396,
@@ -14756,7 +14763,7 @@
       "date": "2026-04-16",
       "away_team": "ChelSU Kostanay",
       "home_team": "Pavlodar",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.1,
       "xpts_h": 61.4,
@@ -15345,7 +15352,14 @@
           "conceded": 106.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 74,
+      "actual_result": "AWAY",
+      "total_delta": 6.1,
+      "signed_delta": -6.1,
+      "total_rpe": 4.24,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 396,
@@ -36764,7 +36778,7 @@
       "date": "2026-04-16",
       "away_team": "Izhevsk",
       "home_team": "Metallurg",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.05,
       "xpts_h": 76.6,
@@ -37373,7 +37387,14 @@
           "conceded": 100.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "total_delta": 5.95,
+      "signed_delta": 5.95,
+      "total_rpe": 3.63,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 81,
@@ -46524,12 +46545,12 @@
       }
     }
   ],
-  "graded_at": "2026-04-16T07:42:27.811191",
+  "graded_at": "2026-04-16T10:44:01.430765",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 11,
-      "total": 17,
-      "pct": 64.7
+      "wins": 3,
+      "total": 3,
+      "pct": 100.0
     }
   }
 }
