@@ -314,33 +314,41 @@ export default function App() {
 
         {/* Controls row */}
         <div className="controls-bar">
-          {!compactMode && (
-            <div style={{ display: 'flex', background: '#f1f5f9', borderRadius: 8, padding: 4, marginRight: 16 }}>
-              <button 
-                onClick={() => setViewMode('matches')}
-                style={{ padding: '4px 12px', fontSize: 13, fontWeight: 700, borderRadius: 6, background: viewMode === 'matches' ? '#fff' : 'transparent', color: viewMode === 'matches' ? '#0f172a' : '#64748b', boxShadow: viewMode === 'matches' ? '0 1px 2px rgba(0,0,0,0.05)' : 'none', border: 'none', cursor: 'pointer' }}
-              >
-                Daily Matches
-              </button>
-              <button 
-                onClick={() => setViewMode('teams')}
-                style={{ padding: '4px 12px', fontSize: 13, fontWeight: 700, borderRadius: 6, background: viewMode === 'teams' ? '#fff' : 'transparent', color: viewMode === 'teams' ? '#0f172a' : '#64748b', boxShadow: viewMode === 'teams' ? '0 1px 2px rgba(0,0,0,0.05)' : 'none', border: 'none', cursor: 'pointer' }}
-              >
-                Team Performance
-              </button>
-            </div>
-          )}
-          
-          {viewMode === 'matches' && (
-            <>
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Sort:</span>
-              {['competition', 'country', 'time'].map(s => (
-                <button key={s} className={`control-btn ${sortBy === s ? 'active' : ''}`} onClick={() => setSortBy(s)}>
-                  {s.charAt(0).toUpperCase() + s.slice(1)}
+          {sport === 'basketball' && (
+            <div style={{ display: 'flex', background: '#f1f5f9', borderRadius: 8, padding: 3, gap: 2, marginRight: 16 }}>
+              {[['all', 'All'], ['women', '♀ Women'], ['men', '♂ Men']].map(([val, label]) => (
+                <button
+                  key={val}
+                  onClick={() => setFilterWomen(val)}
+                  style={{
+                    padding: '4px 12px',
+                    fontSize: 13,
+                    fontWeight: 700,
+                    borderRadius: 6,
+                    border: 'none',
+                    cursor: 'pointer',
+                    background: filterWomen === val ? '#fff' : 'transparent',
+                    color: filterWomen === val
+                      ? (val === 'women' ? '#db2777' : val === 'men' ? '#2563eb' : '#0f172a')
+                      : '#64748b',
+                    boxShadow: filterWomen === val ? '0 1px 2px rgba(0,0,0,0.08)' : 'none',
+                    transition: 'all 0.15s'
+                  }}
+                >
+                  {label}
                 </button>
               ))}
-            </>
+            </div>
           )}
+
+          <>
+            <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Sort:</span>
+            {['competition', 'country', 'time'].map(s => (
+              <button key={s} className={`control-btn ${sortBy === s ? 'active' : ''}`} onClick={() => setSortBy(s)}>
+                {s.charAt(0).toUpperCase() + s.slice(1)}
+              </button>
+            ))}
+          </>
 
           {sport === 'football' && (
             <>
@@ -376,7 +384,7 @@ export default function App() {
             </>
           )}
 
-          {viewMode === 'matches' && sport === 'basketball' && (
+          {sport === 'basketball' && (
             <>
               <select className="filter-select" style={{ marginLeft: 12, width: '130px' }} value={filterMape} onChange={e => setFilterMape(Number(e.target.value))}>
                 <option value={100}>MAPE</option>
@@ -393,30 +401,6 @@ export default function App() {
                 <option value={9.0}>&lt; 9.0 σ (Elite)</option>
               </select>
 
-              <div style={{ display: 'flex', marginLeft: 8, background: '#f1f5f9', borderRadius: 8, padding: 3, gap: 2 }}>
-                {[['all', 'All'], ['women', '♀ Women'], ['men', '♂ Men']].map(([val, label]) => (
-                  <button
-                    key={val}
-                    onClick={() => setFilterWomen(val)}
-                    style={{
-                      padding: '3px 10px',
-                      fontSize: 12,
-                      fontWeight: 700,
-                      borderRadius: 6,
-                      border: 'none',
-                      cursor: 'pointer',
-                      background: filterWomen === val ? '#fff' : 'transparent',
-                      color: filterWomen === val
-                        ? (val === 'women' ? '#db2777' : val === 'men' ? '#2563eb' : '#0f172a')
-                        : '#64748b',
-                      boxShadow: filterWomen === val ? '0 1px 2px rgba(0,0,0,0.08)' : 'none',
-                      transition: 'all 0.15s'
-                    }}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
             </>
           )}
 
@@ -425,7 +409,7 @@ export default function App() {
           </select>
 
           <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 12 }}>
-            {data && viewMode === 'matches' && (
+            {data && (
               <div className="summary-pill">
                 <strong>{counts.total}</strong> games
                 {sport === 'football' && (
