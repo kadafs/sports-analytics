@@ -5,6 +5,11 @@ import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
 import TeamTracker from './components/TeamTracker'
 
+function isWomensLeague(league = '') {
+  const l = league.toLowerCase()
+  return l.includes('women') || l.includes('woman') || l.includes('ladies') || / w$/.test(l)
+}
+
 function groupByLeague(predictions, sport) {
   const map = new Map()
   for (const p of predictions) {
@@ -50,8 +55,10 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0) {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all') {
   return predictions.filter(p => {
+    if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
+    if (filterWomen === 'men'   &&  isWomensLeague(p.league)) return false
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
     if (decision !== 'all' && pDecision !== decision) return false
@@ -95,6 +102,7 @@ export default function App() {
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
+  const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
@@ -227,8 +235,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -271,6 +279,7 @@ export default function App() {
           setFilterBttsHitRate(0);
           setFilterMape(100);
           setFilterVolatility(100);
+          setFilterWomen('all');
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -383,6 +392,31 @@ export default function App() {
                 <option value={10.0}>&lt; 10.0 σ</option>
                 <option value={9.0}>&lt; 9.0 σ (Elite)</option>
               </select>
+
+              <div style={{ display: 'flex', marginLeft: 8, background: '#f1f5f9', borderRadius: 8, padding: 3, gap: 2 }}>
+                {[['all', 'All'], ['women', '♀ Women'], ['men', '♂ Men']].map(([val, label]) => (
+                  <button
+                    key={val}
+                    onClick={() => setFilterWomen(val)}
+                    style={{
+                      padding: '3px 10px',
+                      fontSize: 12,
+                      fontWeight: 700,
+                      borderRadius: 6,
+                      border: 'none',
+                      cursor: 'pointer',
+                      background: filterWomen === val ? '#fff' : 'transparent',
+                      color: filterWomen === val
+                        ? (val === 'women' ? '#db2777' : val === 'men' ? '#2563eb' : '#0f172a')
+                        : '#64748b',
+                      boxShadow: filterWomen === val ? '0 1px 2px rgba(0,0,0,0.08)' : 'none',
+                      transition: 'all 0.15s'
+                    }}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
             </>
           )}
 
