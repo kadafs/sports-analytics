@@ -105,7 +105,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
   // Strip out league prefixes (e.g., 'BLNO - Semi-finals' -> 'Semi-finals')
   const gameStage = gameStageRaw.includes(' - ') ? gameStageRaw.split(' - ').pop().trim() : gameStageRaw
-  const showStageBadge = gameStageRaw && !gameStageRaw.toLowerCase().includes('regular season')
+  const lowerStage = gameStageRaw.toLowerCase()
+  const showStageBadge = gameStageRaw && (lowerStage.includes('final') || lowerStage.includes('place') || lowerStage.includes('playoff') || lowerStage.includes('championship'))
 
   const tip      = predicted_result === 'HOME' ? '1' : '2'
   const isGraded = finalResult != null
