@@ -10,6 +10,12 @@ function isWomensLeague(league = '') {
   return l.includes('women') || l.includes('woman') || l.includes('ladies') || / w$/.test(l)
 }
 
+function isPlayoffGame(stage = '') {
+  if (!stage) return false
+  const s = String(stage).toLowerCase()
+  return s.includes('final') || s.includes('place') || s.includes('playoff') || s.includes('championship')
+}
+
 function groupByLeague(predictions, sport) {
   const map = new Map()
   for (const p of predictions) {
@@ -55,8 +61,9 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all') {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false) {
   return predictions.filter(p => {
+    if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
     if (filterWomen === 'men'   &&  isWomensLeague(p.league)) return false
     // Sport-specific decision mapping
@@ -103,6 +110,7 @@ export default function App() {
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
+  const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
@@ -235,8 +243,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -280,6 +288,7 @@ export default function App() {
           setFilterMape(100);
           setFilterVolatility(100);
           setFilterWomen('all');
+          setHidePlayoffs(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -401,6 +410,24 @@ export default function App() {
                 <option value={9.0}>&lt; 9.0 σ (Elite)</option>
               </select>
 
+              <button
+                onClick={() => setHidePlayoffs(!hidePlayoffs)}
+                style={{
+                  marginLeft: 8,
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 700,
+                  borderRadius: 6,
+                  border: `1px solid ${hidePlayoffs ? '#fecaca' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: hidePlayoffs ? '#fef2f2' : '#f8fafc',
+                  color: hidePlayoffs ? '#ef4444' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title={hidePlayoffs ? "Playoff games are hidden" : "Showing playoff games"}
+              >
+                {hidePlayoffs ? '❌ Playoffs Hidden' : '🏆 Playoffs Included'}
+              </button>
             </>
           )}
 
