@@ -61,7 +61,7 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false) {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false) {
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
@@ -91,6 +91,30 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
       if (maxVolatility < 100 && (targetStats.volatility_index == null || targetStats.volatility_index > maxVolatility)) return false
     }
     
+    // Smart Edge Filter (Basketball only)
+    if (sport === 'basketball' && smartEdgeFilter) {
+      // 1. Volume Check (>= 10 graded games in leaderboard)
+      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
+      if (!stats) return false
+      
+      const isAdv = p.model_architecture?.includes('ADVANCED')
+      const targetStats = isAdv ? stats.adv : stats.srs
+      if (!targetStats || (targetStats.graded_totals || 0) < 10) return false
+
+      // 2. Stability Check
+      const h_vol = p.home_team_volatility
+      const a_vol = p.away_team_volatility
+      if (h_vol == null || a_vol == null) return false
+
+      if (isWomensLeague(p.league)) {
+        // Women: Both Colored (<= 16.6)
+        if (h_vol > 16.6 || a_vol > 16.6) return false
+      } else {
+        // Men: Both Green (< 14.8)
+        if (h_vol >= 14.8 || a_vol >= 14.8) return false
+      }
+    }
+    
     return true
   })
 }
@@ -111,6 +135,7 @@ export default function App() {
   const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
+  const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
@@ -243,8 +268,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -289,6 +314,7 @@ export default function App() {
           setFilterVolatility(100);
           setFilterWomen('all');
           setHidePlayoffs(false);
+          setSmartEdgeFilter(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -427,6 +453,31 @@ export default function App() {
                 title={hidePlayoffs ? "Playoff games are hidden" : "Showing playoff games"}
               >
                 {hidePlayoffs ? '❌ Playoffs Hidden' : '🏆 Playoffs Included'}
+              </button>
+
+              <button
+                onClick={() => {
+                  setSmartEdgeFilter(!smartEdgeFilter)
+                  if (!smartEdgeFilter) {
+                    setFilterVolatility(100) // Clear standard volatility filter when activating Smart Edge
+                    setFilterWomen('all') // Ensure we see both men and women to see the full Smart Edge board
+                  }
+                }}
+                style={{
+                  marginLeft: 8,
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  borderRadius: 6,
+                  border: `1px solid ${smartEdgeFilter ? '#fef08a' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: smartEdgeFilter ? '#fef9c3' : '#f8fafc',
+                  color: smartEdgeFilter ? '#854d0e' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with ≥10 graded games"
+              >
+                {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
               </button>
             </>
           )}
