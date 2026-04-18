@@ -10,20 +10,26 @@
     {
       "date": "2026-04-17",
       "total": 132,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
+      "graded": true,
+      "graded_count": 55,
+      "grade_summary": {
+        "[ADVANCED]": {
+          "wins": 40,
+          "total": 55,
+          "pct": 72.7
+        }
+      }
     },
     {
       "date": "2026-04-16",
       "total": 87,
       "graded": true,
-      "graded_count": 73,
+      "graded_count": 83,
       "grade_summary": {
         "[ADVANCED]": {
-          "wins": 0,
-          "total": 1,
-          "pct": 0
+          "wins": 8,
+          "total": 10,
+          "pct": 80
         }
       }
     },
