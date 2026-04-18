@@ -97,9 +97,10 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
       const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
       if (!stats) return false
       
-      const isAdv = p.model_architecture?.includes('ADVANCED')
-      const targetStats = isAdv ? stats.adv : stats.srs
-      if (!targetStats || (targetStats.graded_totals || 0) < 10) return false
+      // Use max of ADV and SRS graded totals — some Women's leagues run SRS-only
+      const advGames = stats.adv?.graded_totals || 0
+      const srsGames = stats.srs?.graded_totals || 0
+      if (Math.max(advGames, srsGames) < 10) return false
 
       // 2. Stability Check
       const h_vol = p.home_team_volatility
