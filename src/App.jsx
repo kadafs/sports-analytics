@@ -61,7 +61,7 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = {}) {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false) {
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
@@ -103,10 +103,9 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
       if (Math.max(advGames, srsGames) < 15) return false
 
       // 1.5. Team Volume Check (Both teams must have >= 10 matches played)
-      const hTeamStats = teamLeaderboard?.[p.home_team]
-      const aTeamStats = teamLeaderboard?.[p.away_team]
-      const hMatches = hTeamStats ? Math.max(hTeamStats.adv?.graded_totals || 0, hTeamStats.srs?.graded_totals || 0) : 0
-      const aMatches = aTeamStats ? Math.max(aTeamStats.adv?.graded_totals || 0, aTeamStats.srs?.graded_totals || 0) : 0
+      const mc = p.match_center || {}
+      const hMatches = mc.statsH?.played || 0
+      const aMatches = mc.statsA?.played || 0
       
       if (hMatches < 10 || aMatches < 10) return false
 
@@ -277,8 +276,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
