@@ -51,7 +51,7 @@ function formatStatus(s) {
   return s.trim().substring(0, 2).toUpperCase()
 }
 
-export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = false }) {
+export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = false, teamLeaderboard = {} }) {
   const [open, setOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('stats')
 
@@ -291,6 +291,25 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   <StatRow label="Pts/Game (Model)" home={statsH.scored} away={statsA.scored} highlight="high" />
                   <StatRow label="Pts Allowed (Model)" home={statsH.conceded} away={statsA.conceded} highlight="low" />
                   <StatRow label="Scoring Volatility" home={home_team_volatility != null ? home_team_volatility.toFixed(1) : '-'} away={away_team_volatility != null ? away_team_volatility.toFixed(1) : '-'} highlight="low" />
+                  {(() => {
+                    const hStat = teamLeaderboard?.find(t => t.name === home_team);
+                    const aStat = teamLeaderboard?.find(t => t.name === away_team);
+                    const hMae = isAdvanced ? hStat?.adv?.mae : hStat?.srs?.mae;
+                    const aMae = isAdvanced ? aStat?.adv?.mae : aStat?.srs?.mae;
+                    const hDelta = isAdvanced ? hStat?.adv?.avg_signed_delta : hStat?.srs?.avg_signed_delta;
+                    const aDelta = isAdvanced ? aStat?.adv?.avg_signed_delta : aStat?.srs?.avg_signed_delta;
+                    
+                    return (
+                      <>
+                        {(hMae != null || aMae != null) && (
+                          <StatRow label="Team MAE" home={hMae != null ? hMae.toFixed(1) : '-'} away={aMae != null ? aMae.toFixed(1) : '-'} highlight="low" />
+                        )}
+                        {(hDelta != null || aDelta != null) && (
+                          <StatRow label="Team ±Δ (Bias)" home={hDelta != null ? (hDelta > 0 ? `+${hDelta.toFixed(1)}` : hDelta.toFixed(1)) : '-'} away={aDelta != null ? (aDelta > 0 ? `+${aDelta.toFixed(1)}` : aDelta.toFixed(1)) : '-'} />
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               </div>
             )}

@@ -550,7 +550,7 @@ export default function App() {
           <div className="predictions-table">
             {groups.map(g => {
               const stats = leaderboard.find(x => (g.league_id && x.league_id === g.league_id) || x.name === `${g.country?.toUpperCase()} — ${g.league?.toUpperCase()}`)
-              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} />
+              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} teamLeaderboard={teamLeaderboard} />
             })}
           </div>
         )}

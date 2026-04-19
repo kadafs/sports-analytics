@@ -2,7 +2,7 @@ import { flagFor } from '../utils'
 import MatchRow from './MatchRow'
 import BasketballRow from './BasketballRow'
 
-export default function LeagueGroup({ group, sport }) {
+export default function LeagueGroup({ group, sport, teamLeaderboard }) {
   const { league, country, games, stats } = group
   const isFootball = sport === 'football'
   // Does any game today in this league have an ADV prediction?
@@ -134,7 +134,7 @@ export default function LeagueGroup({ group, sport }) {
       {games.map((g, i) => (
         isFootball 
           ? <MatchRow key={`${g.home_team}-${g.away_team}-${i}`} game={g} />
-          : <BasketballRow key={`${g.home_team}-${g.away_team}-${i}`} game={g} leagueHasAdv={leagueHasAdv} />
+          : <BasketballRow key={`${g.home_team}-${g.away_team}-${i}`} game={g} leagueHasAdv={leagueHasAdv} teamLeaderboard={teamLeaderboard} />
       ))}
     </div>
   )
