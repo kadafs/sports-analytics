@@ -1,7 +1,7 @@
 {
   "date": "2026-04-21",
   "mode": "full",
-  "total_predictions": 73,
+  "total_predictions": 77,
   "predictions": [
     {
       "league_id": 198,
@@ -34,7 +34,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.606754+00:00",
+      "timestamp": "2026-04-21T07:30:54.419753+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -592,7 +592,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.613648+00:00",
+      "timestamp": "2026-04-21T07:30:54.430295+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1210,7 +1210,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-20T12:23:09.634063+00:00",
+      "timestamp": "2026-04-21T07:30:54.457292+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1732,31 +1732,31 @@
       "date": "2026-04-21",
       "away_team": "Gigantes de Carolina",
       "home_team": "Vaqueros de Bayamon",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 183.62,
-      "xpts_h": 97.5,
-      "xpts_a": 86.2,
+      "model_total": 185.91,
+      "xpts_h": 103.4,
+      "xpts_a": 82.5,
       "probs_1x2": {
-        "home": 82.7,
-        "away": 17.3
+        "home": 96.0,
+        "away": 4.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 15.31,
-      "away_team_volatility": 25.96,
+      "home_team_volatility": 17.35,
+      "away_team_volatility": 24.3,
       "market_total": 180.9,
-      "edge": 2.72,
+      "edge": 5.01,
       "side": "OVER",
-      "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "decision": "PLAY OVER",
+      "confidence": "SOLID",
       "mbet_threshold": 4.0,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.647796+00:00",
+      "timestamp": "2026-04-21T07:30:54.470934+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -1874,7 +1874,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -2094,20 +2094,27 @@
           ]
         ],
         "statsH": {
-          "played": 11,
-          "win_pct": 0.727,
-          "scored": 110.0,
-          "conceded": 99.9,
+          "played": 12,
+          "win_pct": 0.75,
+          "scored": 114.6,
+          "conceded": 99.4,
           "rank": null
         },
         "statsA": {
-          "played": 8,
-          "win_pct": 0.625,
-          "scored": 125.9,
-          "conceded": 127.1,
+          "played": 9,
+          "win_pct": 0.556,
+          "scored": 122.2,
+          "conceded": 130.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 113,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "total_delta": 9.09,
+      "signed_delta": 9.09,
+      "total_rpe": 4.66,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 34,
@@ -2140,7 +2147,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-20T12:23:09.658202+00:00",
+      "timestamp": "2026-04-21T07:30:54.493219+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2730,7 +2737,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.786930+00:00",
+      "timestamp": "2026-04-21T07:30:54.510864+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2817,7 +2824,7 @@
             "date": "Sep 23, 2025",
             "teams": {
               "home": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               },
               "away": {
@@ -2842,7 +2849,7 @@
                 "winner": true
               },
               "away": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               }
             },
@@ -3186,7 +3193,7 @@
             {
               "position": 9,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -3298,7 +3305,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.806443+00:00",
+      "timestamp": "2026-04-21T07:30:54.579286+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -3852,7 +3859,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.855211+00:00",
+      "timestamp": "2026-04-21T07:30:54.600753+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4214,7 +4221,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.858856+00:00",
+      "timestamp": "2026-04-21T07:30:54.614480+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4555,7 +4562,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.868917+00:00",
+      "timestamp": "2026-04-21T07:30:54.638643+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5082,7 +5089,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.890410+00:00",
+      "timestamp": "2026-04-21T07:30:54.686513+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5114,7 +5121,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "winner": false
               }
             },
@@ -5198,7 +5205,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "winner": true
               }
             },
@@ -5238,7 +5245,7 @@
             "date": "Oct 11, 2025",
             "teams": {
               "home": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "winner": true
               },
               "away": {
@@ -5284,7 +5291,7 @@
                 "winner": true
               },
               "away": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "winner": false
               }
             },
@@ -5305,7 +5312,7 @@
                 "winner": true
               },
               "away": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": false
               }
             },
@@ -5478,7 +5485,7 @@
             {
               "position": 8,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -5500,7 +5507,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -5522,7 +5529,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -5544,7 +5551,7 @@
             {
               "position": 11,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -5566,7 +5573,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -5722,7 +5729,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.901587+00:00",
+      "timestamp": "2026-04-21T07:30:54.744786+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6342,7 +6349,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.906632+00:00",
+      "timestamp": "2026-04-21T07:30:54.752417+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6962,7 +6969,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.924276+00:00",
+      "timestamp": "2026-04-21T07:30:54.779312+00:00",
       "match_center": {
         "h2h": [
           {
@@ -7690,7 +7697,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.938095+00:00",
+      "timestamp": "2026-04-21T07:30:54.793924+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8292,7 +8299,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:09.962708+00:00",
+      "timestamp": "2026-04-21T07:30:54.821779+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8381,7 +8388,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Spi\u0161sk\u00ed Rytieri",
+                "name": "Spišskí Rytieri",
                 "winner": false
               }
             },
@@ -8398,7 +8405,7 @@
             "date": "Oct 4, 2025",
             "teams": {
               "home": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "winner": false
               },
               "away": {
@@ -8423,7 +8430,7 @@
                 "winner": false
               },
               "away": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "winner": true
               }
             },
@@ -8440,7 +8447,7 @@
             "date": "Mar 18, 2026",
             "teams": {
               "home": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "winner": true
               },
               "away": {
@@ -8461,7 +8468,7 @@
             "date": "Mar 14, 2026",
             "teams": {
               "home": {
-                "name": "Levick\u00ed Patrioti",
+                "name": "Levickí Patrioti",
                 "winner": true
               },
               "away": {
@@ -8530,7 +8537,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Spi\u0161sk\u00ed Rytieri",
+                "name": "Spišskí Rytieri",
                 "winner": false
               }
             },
@@ -8547,7 +8554,7 @@
             "date": "Oct 11, 2025",
             "teams": {
               "home": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "winner": false
               },
               "away": {
@@ -8572,7 +8579,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "winner": false
               }
             },
@@ -8591,7 +8598,7 @@
             {
               "position": 1,
               "team": {
-                "name": "Levick\u00ed Patrioti",
+                "name": "Levickí Patrioti",
                 "logo": ""
               },
               "games": {
@@ -8679,7 +8686,7 @@
             {
               "position": 5,
               "team": {
-                "name": "BC Kom\u00e1rno",
+                "name": "BC Komárno",
                 "logo": ""
               },
               "games": {
@@ -8745,7 +8752,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Spi\u0161sk\u00ed Rytieri",
+                "name": "Spišskí Rytieri",
                 "logo": ""
               },
               "games": {
@@ -8767,7 +8774,7 @@
             {
               "position": 9,
               "team": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "logo": ""
               },
               "games": {
@@ -8789,7 +8796,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "logo": ""
               },
               "games": {
@@ -8857,7 +8864,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.039871+00:00",
+      "timestamp": "2026-04-21T07:30:55.092169+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9365,7 +9372,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.058067+00:00",
+      "timestamp": "2026-04-21T07:30:55.187214+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -9747,7 +9754,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.188891+00:00",
+      "timestamp": "2026-04-21T07:30:55.209480+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9861,7 +9868,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "winner": false
               }
             },
@@ -10184,7 +10191,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -10318,7 +10325,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.195630+00:00",
+      "timestamp": "2026-04-21T07:30:55.226120+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10999,7 +11006,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.213987+00:00",
+      "timestamp": "2026-04-21T07:30:55.247620+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11608,7 +11615,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.224059+00:00",
+      "timestamp": "2026-04-21T07:30:55.258896+00:00",
       "match_center": {
         "h2h": [
           {
@@ -12179,7 +12186,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.234998+00:00",
+      "timestamp": "2026-04-21T07:30:55.275116+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12643,22 +12650,22 @@
       "date": "2026-04-21",
       "away_team": "Caimanes del Llano",
       "home_team": "Motilones del Norte",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 144.84,
-      "xpts_h": 67.5,
-      "xpts_a": 77.3,
+      "model_total": 142.6,
+      "xpts_h": 64.1,
+      "xpts_a": 78.5,
       "probs_1x2": {
-        "home": 22.5,
-        "away": 77.5
+        "home": 13.4,
+        "away": 86.6
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 13.41,
-      "away_team_volatility": 24.21,
+      "home_team_volatility": 13.86,
+      "away_team_volatility": 26.56,
       "market_total": 151.4,
-      "edge": -6.56,
+      "edge": -8.8,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -12667,7 +12674,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-20T12:23:10.242278+00:00",
+      "timestamp": "2026-04-21T07:30:55.683279+00:00",
       "match_center": {
         "h2h": [
           {
@@ -13104,20 +13111,27 @@
           ]
         ],
         "statsH": {
-          "played": 10,
-          "win_pct": 0.5,
-          "scored": 102.3,
-          "conceded": 99.1,
+          "played": 11,
+          "win_pct": 0.455,
+          "scored": 102.5,
+          "conceded": 99.7,
           "rank": null
         },
         "statsA": {
-          "played": 10,
-          "win_pct": 0.7,
-          "scored": 99.9,
-          "conceded": 80.9,
+          "played": 12,
+          "win_pct": 0.75,
+          "scored": 100.6,
+          "conceded": 76.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "total_delta": 32.4,
+      "signed_delta": 32.4,
+      "total_rpe": 18.51,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 225,
@@ -13126,22 +13140,22 @@
       "date": "2026-04-21",
       "away_team": "Caimanes del Llano",
       "home_team": "Motilones del Norte",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 144.84,
-      "xpts_h": 67.5,
-      "xpts_a": 77.3,
+      "model_total": 142.6,
+      "xpts_h": 64.1,
+      "xpts_a": 78.5,
       "probs_1x2": {
-        "home": 22.5,
-        "away": 77.5
+        "home": 13.4,
+        "away": 86.6
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 13.41,
-      "away_team_volatility": 24.21,
+      "home_team_volatility": 13.86,
+      "away_team_volatility": 26.56,
       "market_total": 151.4,
-      "edge": -6.56,
+      "edge": -8.8,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -13150,7 +13164,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-20T12:23:10.247388+00:00",
+      "timestamp": "2026-04-21T07:30:55.698461+00:00",
       "match_center": {
         "h2h": [
           {
@@ -13587,20 +13601,27 @@
           ]
         ],
         "statsH": {
-          "played": 10,
-          "win_pct": 0.5,
-          "scored": 102.3,
-          "conceded": 99.1,
+          "played": 11,
+          "win_pct": 0.455,
+          "scored": 102.5,
+          "conceded": 99.7,
           "rank": null
         },
         "statsA": {
-          "played": 10,
-          "win_pct": 0.7,
-          "scored": 99.9,
-          "conceded": 80.9,
+          "played": 12,
+          "win_pct": 0.75,
+          "scored": 100.6,
+          "conceded": 76.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "total_delta": 32.4,
+      "signed_delta": 32.4,
+      "total_rpe": 18.51,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 60,
@@ -13633,7 +13654,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.269080+00:00",
+      "timestamp": "2026-04-21T07:30:55.760490+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14023,7 +14044,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -14127,37 +14148,1104 @@
       }
     },
     {
+      "league_id": 258,
+      "league": "LNB",
+      "country": "Paraguay",
+      "date": "2026-04-21",
+      "away_team": "Dep. San Jose",
+      "home_team": "Colonias Gold",
+      "status": "Game Postponed",
+      "stage": "",
+      "model_total": 155.82,
+      "xpts_h": 78.8,
+      "xpts_a": 77.0,
+      "probs_1x2": {
+        "home": 55.3,
+        "away": 44.7
+      },
+      "predicted_result": "HOME",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 17.03,
+      "away_team_volatility": 15.71,
+      "market_total": 153.7,
+      "edge": 2.12,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 19.5,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "second_division",
+      "timestamp": "2026-04-21T07:30:55.831747+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "24.11. 17:30\nAwrd",
+            "teams": {
+              "home": {
+                "name": "Colonias Gold"
+              },
+              "away": {
+                "name": "Dep. San Jose"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 20
+              },
+              "away": {
+                "total": 0
+              }
+            }
+          },
+          {
+            "date": "20.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose"
+              },
+              "away": {
+                "name": "Colonias Gold"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 69
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          },
+          {
+            "date": "02.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Colonias Gold"
+              },
+              "away": {
+                "name": "Dep. San Jose"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 77
+              },
+              "away": {
+                "total": 63
+              }
+            }
+          },
+          {
+            "date": "04.09. 17:00",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose"
+              },
+              "away": {
+                "name": "Colonias Gold"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 62
+              },
+              "away": {
+                "total": 66
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "21.12. 17:00",
+            "teams": {
+              "home": {
+                "name": "Olimpia Kings",
+                "winner": true
+              },
+              "away": {
+                "name": "Colonias Gold",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 62
+              },
+              "away": {
+                "total": 56
+              }
+            }
+          },
+          {
+            "date": "18.12. 19:00",
+            "teams": {
+              "home": {
+                "name": "Colonias Gold",
+                "winner": true
+              },
+              "away": {
+                "name": "Olimpia Kings",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 79
+              },
+              "away": {
+                "total": 60
+              }
+            }
+          },
+          {
+            "date": "16.12. 19:00",
+            "teams": {
+              "home": {
+                "name": "Colonias Gold",
+                "winner": false
+              },
+              "away": {
+                "name": "Olimpia Kings",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "13.12. 18:00",
+            "teams": {
+              "home": {
+                "name": "Olimpia Kings",
+                "winner": false
+              },
+              "away": {
+                "name": "Colonias Gold",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 63
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "11.12. 18:00",
+            "teams": {
+              "home": {
+                "name": "Olimpia Kings",
+                "winner": true
+              },
+              "away": {
+                "name": "Colonias Gold",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 91
+              },
+              "away": {
+                "total": 72
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "24.11. 17:30\nAwrd",
+            "teams": {
+              "home": {
+                "name": "Colonias Gold",
+                "winner": true
+              },
+              "away": {
+                "name": "Dep. San Jose",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 20
+              },
+              "away": {
+                "total": 0
+              }
+            }
+          },
+          {
+            "date": "20.11. 18:00",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose",
+                "winner": false
+              },
+              "away": {
+                "name": "Olimpia Kings",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 64
+              },
+              "away": {
+                "total": 76
+              }
+            }
+          },
+          {
+            "date": "09.11. 17:30",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose",
+                "winner": true
+              },
+              "away": {
+                "name": "Felix Perez Cardozo",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 92
+              },
+              "away": {
+                "total": 82
+              }
+            }
+          },
+          {
+            "date": "23.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose",
+                "winner": true
+              },
+              "away": {
+                "name": "Felix Perez Cardozo",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "20.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Dep. San Jose",
+                "winner": false
+              },
+              "away": {
+                "name": "Colonias Gold",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 69
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Olimpia Kings",
+                "logo": ""
+              },
+              "games": {
+                "played": 31,
+                "win": {
+                  "total": 26,
+                  "percentage": "0.839"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 2666,
+                "against": 2269
+              },
+              "form": "WLWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Colonias Gold",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 21,
+                  "percentage": "0.778"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 2242,
+                "against": 1860
+              },
+              "form": "LWLWL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Dep. San Jose",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.577"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2031,
+                "against": 1726
+              },
+              "form": "LLWWL"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Deportivo Amambay",
+                "logo": ""
+              },
+              "games": {
+                "played": 23,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.565"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1837,
+                "against": 1685
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Felix Perez Cardozo",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.455"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1721,
+                "against": 1617
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "San Alfonzo",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1339,
+                "against": 1731
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Deportivo Campoalto",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.286"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1441,
+                "against": 1666
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Ciudad Nueva",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.238"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 1373,
+                "against": 1633
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Sportivo Luqueno",
+                "logo": ""
+              },
+              "games": {
+                "played": 16,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 936,
+                "against": 1399
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 9,
+          "win_pct": 0.444,
+          "scored": 106.4,
+          "conceded": 89.9,
+          "rank": null
+        },
+        "statsA": {
+          "played": 4,
+          "win_pct": 0.75,
+          "scored": 111.15,
+          "conceded": 93.65,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 258,
+      "league": "LNB",
+      "country": "Paraguay",
+      "date": "2026-04-21",
+      "away_team": "Deportivo Campoalto",
+      "home_team": "Ciudad Nueva",
+      "status": "Not Started",
+      "stage": "",
+      "model_total": 156.14,
+      "xpts_h": 75.0,
+      "xpts_a": 81.2,
+      "probs_1x2": {
+        "home": 31.7,
+        "away": 68.3
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 12.02,
+      "away_team_volatility": 16.77,
+      "market_total": 153.7,
+      "edge": 2.44,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 19.5,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "second_division",
+      "timestamp": "2026-04-21T07:30:55.858539+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "28.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Campoalto"
+              },
+              "away": {
+                "name": "Ciudad Nueva"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 81
+              },
+              "away": {
+                "total": 45
+              }
+            }
+          },
+          {
+            "date": "09.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Ciudad Nueva"
+              },
+              "away": {
+                "name": "Deportivo Campoalto"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 64
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "08.09. 19:30\nAOT",
+            "teams": {
+              "home": {
+                "name": "Deportivo Campoalto"
+              },
+              "away": {
+                "name": "Ciudad Nueva"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 92
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "28.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Campoalto",
+                "winner": true
+              },
+              "away": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 81
+              },
+              "away": {
+                "total": 45
+              }
+            }
+          },
+          {
+            "date": "23.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              },
+              "away": {
+                "name": "Deportivo Amambay",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 75
+              }
+            }
+          },
+          {
+            "date": "20.10. 19:00",
+            "teams": {
+              "home": {
+                "name": "San Alfonzo",
+                "winner": true
+              },
+              "away": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 86
+              },
+              "away": {
+                "total": 70
+              }
+            }
+          },
+          {
+            "date": "09.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              },
+              "away": {
+                "name": "Deportivo Campoalto",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 64
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "07.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Amambay",
+                "winner": true
+              },
+              "away": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 74
+              },
+              "away": {
+                "total": 58
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "06.11. 17:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Amambay",
+                "winner": true
+              },
+              "away": {
+                "name": "Deportivo Campoalto",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 110
+              },
+              "away": {
+                "total": 73
+              }
+            }
+          },
+          {
+            "date": "03.11. 18:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Campoalto",
+                "winner": false
+              },
+              "away": {
+                "name": "Deportivo Amambay",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 64
+              },
+              "away": {
+                "total": 77
+              }
+            }
+          },
+          {
+            "date": "28.10. 19:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Campoalto",
+                "winner": true
+              },
+              "away": {
+                "name": "Ciudad Nueva",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 81
+              },
+              "away": {
+                "total": 45
+              }
+            }
+          },
+          {
+            "date": "24.10. 18:00",
+            "teams": {
+              "home": {
+                "name": "San Alfonzo",
+                "winner": true
+              },
+              "away": {
+                "name": "Deportivo Campoalto",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 72
+              },
+              "away": {
+                "total": 67
+              }
+            }
+          },
+          {
+            "date": "21.10. 18:30",
+            "teams": {
+              "home": {
+                "name": "Deportivo Amambay",
+                "winner": false
+              },
+              "away": {
+                "name": "Deportivo Campoalto",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 67
+              },
+              "away": {
+                "total": 68
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Olimpia Kings",
+                "logo": ""
+              },
+              "games": {
+                "played": 31,
+                "win": {
+                  "total": 26,
+                  "percentage": "0.839"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 2666,
+                "against": 2269
+              },
+              "form": "WLWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Colonias Gold",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 21,
+                  "percentage": "0.778"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 2242,
+                "against": 1860
+              },
+              "form": "LWLWL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Dep. San Jose",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.577"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2031,
+                "against": 1726
+              },
+              "form": "LLWWL"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Deportivo Amambay",
+                "logo": ""
+              },
+              "games": {
+                "played": 23,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.565"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1837,
+                "against": 1685
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Felix Perez Cardozo",
+                "logo": ""
+              },
+              "games": {
+                "played": 22,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.455"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1721,
+                "against": 1617
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "San Alfonzo",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.368"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1339,
+                "against": 1731
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Deportivo Campoalto",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.286"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 1441,
+                "against": 1666
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Ciudad Nueva",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.238"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 1373,
+                "against": 1633
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Sportivo Luqueno",
+                "logo": ""
+              },
+              "games": {
+                "played": 16,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 16
+                }
+              },
+              "points": {
+                "for": 936,
+                "against": 1399
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 2,
+          "win_pct": 0.0,
+          "scored": 94.7,
+          "conceded": 107.1,
+          "rank": null
+        },
+        "statsA": {
+          "played": 3,
+          "win_pct": 0.333,
+          "scored": 101.125,
+          "conceded": 102.3625,
+          "rank": null
+        }
+      }
+    },
+    {
       "league_id": 114,
       "league": "LNB",
       "country": "Chile",
       "date": "2026-04-21",
       "away_team": "CD Puerto Varas",
       "home_team": "Las Animas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 161.57,
-      "xpts_h": 85.0,
-      "xpts_a": 76.5,
+      "model_total": 166.27,
+      "xpts_h": 88.0,
+      "xpts_a": 78.3,
       "probs_1x2": {
-        "home": 76.1,
-        "away": 23.9
+        "home": 79.0,
+        "away": 21.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 10.03,
-      "away_team_volatility": 16.99,
+      "home_team_volatility": 11.3,
+      "away_team_volatility": 17.32,
       "market_total": 151.0,
-      "edge": 10.57,
+      "edge": 15.27,
       "side": "OVER",
-      "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "decision": "PLAY OVER",
+      "confidence": "SOLID",
       "mbet_threshold": 14.0,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.275326+00:00",
+      "timestamp": "2026-04-21T07:30:55.888938+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14720,20 +15808,27 @@
           ]
         ],
         "statsH": {
-          "played": 6,
-          "win_pct": 0.833,
-          "scored": 110.60000000000001,
-          "conceded": 93.87500000000001,
+          "played": 7,
+          "win_pct": 0.857,
+          "scored": 113.33749999999999,
+          "conceded": 95.83749999999999,
           "rank": null
         },
         "statsA": {
-          "played": 11,
-          "win_pct": 0.636,
-          "scored": 109.6,
-          "conceded": 100.6,
+          "played": 12,
+          "win_pct": 0.583,
+          "scored": 110.8,
+          "conceded": 102.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "total_delta": 12.73,
+      "signed_delta": 12.73,
+      "total_rpe": 7.11,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 79,
@@ -14766,7 +15861,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.292049+00:00",
+      "timestamp": "2026-04-21T07:30:55.929035+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15146,7 +16241,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.297584+00:00",
+      "timestamp": "2026-04-21T07:30:55.945432+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15526,7 +16621,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.303526+00:00",
+      "timestamp": "2026-04-21T07:30:55.954312+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15905,9 +17000,9 @@
       "home_team": "KK Krka Novo mesto",
       "status": "Not Started",
       "stage": "25",
-      "model_total": 170.67,
-      "xpts_h": 102.9,
-      "xpts_a": 67.8,
+      "model_total": 170.81,
+      "xpts_h": 103.0,
+      "xpts_a": 67.9,
       "probs_1x2": {
         "home": 99.8,
         "away": 0.2
@@ -15918,7 +17013,7 @@
       "home_team_volatility": 15.86,
       "away_team_volatility": 13.59,
       "market_total": 165.8,
-      "edge": 4.87,
+      "edge": 5.01,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -15927,7 +17022,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.328737+00:00",
+      "timestamp": "2026-04-21T07:30:55.983840+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15995,7 +17090,7 @@
             "date": "Oct 1, 2025",
             "teams": {
               "home": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "winner": false
               },
               "away": {
@@ -16254,7 +17349,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -16298,28 +17393,6 @@
             {
               "position": 6,
               "team": {
-                "name": "Zlatorog Lasko",
-                "logo": ""
-              },
-              "games": {
-                "played": 23,
-                "win": {
-                  "total": 9,
-                  "percentage": "0.391"
-                },
-                "lose": {
-                  "total": 14
-                }
-              },
-              "points": {
-                "for": 1925,
-                "against": 2163
-              },
-              "form": "LWWWL"
-            },
-            {
-              "position": 7,
-              "team": {
                 "name": "Rogaska Crystal",
                 "logo": ""
               },
@@ -16338,6 +17411,28 @@
                 "against": 2072
               },
               "form": "WLWLL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Zlatorog Lasko",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.375"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 2003,
+                "against": 2242
+              },
+              "form": "LWWWL"
             },
             {
               "position": 8,
@@ -16386,22 +17481,22 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
-                "played": 23,
+                "played": 24,
                 "win": {
-                  "total": 4,
-                  "percentage": "0.174"
+                  "total": 5,
+                  "percentage": "0.208"
                 },
                 "lose": {
                   "total": 19
                 }
               },
               "points": {
-                "for": 1746,
-                "against": 2118
+                "for": 1825,
+                "against": 2196
               },
               "form": "LLLLL"
             }
@@ -16417,8 +17512,8 @@
         "statsA": {
           "played": 24,
           "win_pct": 0.375,
-          "scored": 110.1,
-          "conceded": 109.4,
+          "scored": 110.2,
+          "conceded": 109.5,
           "rank": null
         }
       }
@@ -16432,12 +17527,12 @@
       "home_team": "Binan Tatak Gel",
       "status": "Not Started",
       "stage": "",
-      "model_total": 127.15,
-      "xpts_h": 60.8,
-      "xpts_a": 66.3,
+      "model_total": 129.1,
+      "xpts_h": 62.4,
+      "xpts_a": 66.7,
       "probs_1x2": {
-        "home": 32.5,
-        "away": 67.5
+        "home": 36.3,
+        "away": 63.7
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
@@ -16445,7 +17540,7 @@
       "home_team_volatility": 15.76,
       "away_team_volatility": 31.07,
       "market_total": 156.4,
-      "edge": -29.25,
+      "edge": -27.3,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -16454,7 +17549,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.360553+00:00",
+      "timestamp": "2026-04-21T07:30:56.053288+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17434,15 +18529,15 @@
         "statsH": {
           "played": 10,
           "win_pct": 0.5,
-          "scored": 96.1,
-          "conceded": 79.7,
+          "scored": 101.9,
+          "conceded": 74.3,
           "rank": null
         },
         "statsA": {
           "played": 10,
           "win_pct": 0.5,
-          "scored": 102.0,
-          "conceded": 75.4,
+          "scored": 106.8,
+          "conceded": 70.6,
           "rank": null
         }
       }
@@ -17456,9 +18551,9 @@
       "home_team": "Paranaque Patriots",
       "status": "Not Started",
       "stage": "",
-      "model_total": 155.87,
-      "xpts_h": 54.2,
-      "xpts_a": 101.7,
+      "model_total": 156.5,
+      "xpts_h": 50.9,
+      "xpts_a": 105.6,
       "probs_1x2": {
         "home": 0.0,
         "away": 100.0
@@ -17469,8 +18564,8 @@
       "home_team_volatility": 47.38,
       "away_team_volatility": 22.43,
       "market_total": 156.4,
-      "edge": -0.53,
-      "side": "UNDER",
+      "edge": 0.1,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 20.0,
@@ -17478,7 +18573,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.368034+00:00",
+      "timestamp": "2026-04-21T07:30:56.060355+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18341,15 +19436,15 @@
         "statsH": {
           "played": 2,
           "win_pct": 0.0,
-          "scored": 96.60000000000001,
-          "conceded": 106.875,
+          "scored": 95.60000000000001,
+          "conceded": 108.17500000000001,
           "rank": null
         },
         "statsA": {
           "played": 8,
           "win_pct": 1.0,
-          "scored": 124.0,
-          "conceded": 70.2,
+          "scored": 127.8,
+          "conceded": 67.0,
           "rank": null
         }
       }
@@ -18363,12 +19458,12 @@
       "home_team": "Batang Kankaloo",
       "status": "Not Started",
       "stage": "",
-      "model_total": 157.94,
-      "xpts_h": 89.7,
-      "xpts_a": 68.3,
+      "model_total": 158.4,
+      "xpts_h": 91.2,
+      "xpts_a": 67.2,
       "probs_1x2": {
-        "home": 96.3,
-        "away": 3.7
+        "home": 97.7,
+        "away": 2.3
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
@@ -18376,7 +19471,7 @@
       "home_team_volatility": 8.92,
       "away_team_volatility": 31.82,
       "market_total": 156.4,
-      "edge": 1.54,
+      "edge": 2.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -18385,7 +19480,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.373488+00:00",
+      "timestamp": "2026-04-21T07:30:56.075712+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -19269,15 +20364,15 @@
         "statsH": {
           "played": 4,
           "win_pct": 0.5,
-          "scored": 107.6,
-          "conceded": 85.2,
+          "scored": 111.05000000000001,
+          "conceded": 82.4,
           "rank": null
         },
         "statsA": {
           "played": 2,
           "win_pct": 0.5,
-          "scored": 103.0,
-          "conceded": 104.825,
+          "scored": 104.5,
+          "conceded": 103.325,
           "rank": null
         }
       }
@@ -19313,7 +20408,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.386532+00:00",
+      "timestamp": "2026-04-21T07:30:56.226721+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19551,7 +20646,7 @@
             "date": "Mar 6, 2026",
             "teams": {
               "home": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "winner": false
               },
               "away": {
@@ -19838,7 +20933,7 @@
             {
               "position": 13,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -19928,7 +21023,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.395488+00:00",
+      "timestamp": "2026-04-21T07:30:56.245248+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -20308,7 +21403,7 @@
             {
               "position": 13,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -20398,7 +21493,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.404159+00:00",
+      "timestamp": "2026-04-21T07:30:56.258761+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20573,7 +21668,7 @@
             "date": "Oct 2, 2025",
             "teams": {
               "home": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "winner": true
               },
               "away": {
@@ -20923,7 +22018,7 @@
             {
               "position": 13,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -21013,7 +22108,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.409999+00:00",
+      "timestamp": "2026-04-21T07:30:56.265377+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -21393,7 +22488,7 @@
             {
               "position": 13,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -21459,11 +22554,11 @@
       "date": "2026-04-21",
       "away_team": "Atlanta Hawks",
       "home_team": "New York Knicks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 231.63,
-      "xpts_h": 116.2,
-      "xpts_a": 115.4,
+      "model_total": 229.69,
+      "xpts_h": 115.2,
+      "xpts_a": 114.5,
       "probs_1x2": {
         "home": 52.7,
         "away": 47.3
@@ -21471,11 +22566,11 @@
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 20.61,
-      "away_team_volatility": 17.85,
+      "home_team_volatility": 20.21,
+      "away_team_volatility": 17.98,
       "market_total": 230.1,
-      "edge": 1.53,
-      "side": "OVER",
+      "edge": -0.41,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "mbet_threshold": 15.7,
@@ -21483,7 +22578,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-20T12:23:10.523573+00:00",
+      "timestamp": "2026-04-21T07:30:56.377543+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22218,20 +23313,27 @@
           ]
         ],
         "statsH": {
-          "played": 20,
-          "win_pct": 0.7,
-          "scored": 118.3,
+          "played": 21,
+          "win_pct": 0.667,
+          "scored": 117.5,
           "conceded": 108.4,
           "rank": null
         },
         "statsA": {
-          "played": 20,
-          "win_pct": 0.7,
-          "scored": 125.1,
-          "conceded": 113.4,
+          "played": 21,
+          "win_pct": 0.714,
+          "scored": 124.0,
+          "conceded": 113.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 106,
+      "actual_away_score": 107,
+      "actual_result": "AWAY",
+      "total_delta": 16.69,
+      "signed_delta": -16.69,
+      "total_rpe": 7.84,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 12,
@@ -22240,31 +23342,31 @@
       "date": "2026-04-21",
       "away_team": "Minnesota Timberwolves",
       "home_team": "Denver Nuggets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
-      "model_total": 247.39,
-      "xpts_h": 132.0,
-      "xpts_a": 115.4,
+      "model_total": 246.95,
+      "xpts_h": 130.6,
+      "xpts_a": 116.3,
       "probs_1x2": {
-        "home": 93.3,
-        "away": 6.7
+        "home": 90.3,
+        "away": 9.7
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 17.94,
-      "away_team_volatility": 22.58,
+      "home_team_volatility": 17.72,
+      "away_team_volatility": 22.09,
       "market_total": 230.1,
-      "edge": 17.29,
+      "edge": 16.85,
       "side": "OVER",
       "decision": "PLAY OVER",
-      "confidence": "HIGH",
+      "confidence": "SOLID",
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-20T12:23:10.528581+00:00",
+      "timestamp": "2026-04-21T07:30:56.380387+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22978,20 +24080,27 @@
           ]
         ],
         "statsH": {
-          "played": 24,
-          "win_pct": 0.75,
-          "scored": 134.5,
-          "conceded": 116.1,
+          "played": 25,
+          "win_pct": 0.72,
+          "scored": 133.3,
+          "conceded": 116.4,
           "rank": null
         },
         "statsA": {
-          "played": 23,
-          "win_pct": 0.522,
-          "scored": 119.7,
-          "conceded": 115.6,
+          "played": 24,
+          "win_pct": 0.542,
+          "scored": 120.3,
+          "conceded": 115.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 119,
+      "actual_result": "AWAY",
+      "total_delta": 13.95,
+      "signed_delta": -13.95,
+      "total_rpe": 5.99,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 12,
@@ -23002,9 +24111,9 @@
       "home_team": "Boston Celtics",
       "status": "Not Started",
       "stage": "",
-      "model_total": 225.69,
-      "xpts_h": 125.7,
-      "xpts_a": 100.0,
+      "model_total": 225.43,
+      "xpts_h": 125.5,
+      "xpts_a": 99.9,
       "probs_1x2": {
         "home": 99.0,
         "away": 1.0
@@ -23015,7 +24124,7 @@
       "home_team_volatility": 16.88,
       "away_team_volatility": 24.79,
       "market_total": 230.1,
-      "edge": -4.41,
+      "edge": -4.67,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -23024,7 +24133,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-20T12:23:10.534971+00:00",
+      "timestamp": "2026-04-21T07:30:56.383908+00:00",
       "match_center": {
         "h2h": [
           {
@@ -23760,15 +24869,15 @@
         "statsH": {
           "played": 20,
           "win_pct": 0.75,
-          "scored": 123.6,
+          "scored": 123.5,
           "conceded": 102.9,
           "rank": null
         },
         "statsA": {
           "played": 22,
           "win_pct": 0.5,
-          "scored": 115.9,
-          "conceded": 118.9,
+          "scored": 115.8,
+          "conceded": 118.8,
           "rank": null
         }
       }
@@ -23804,7 +24913,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.542920+00:00",
+      "timestamp": "2026-04-21T07:30:56.399433+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24532,7 +25641,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.554166+00:00",
+      "timestamp": "2026-04-21T07:30:56.406147+00:00",
       "match_center": {
         "h2h": [
           {
@@ -25260,7 +26369,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.558486+00:00",
+      "timestamp": "2026-04-21T07:30:56.409464+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -25968,7 +27077,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.564030+00:00",
+      "timestamp": "2026-04-21T07:30:56.412749+00:00",
       "match_center": {
         "h2h": [
           {
@@ -26696,7 +27805,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.578772+00:00",
+      "timestamp": "2026-04-21T07:30:56.432570+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -26794,7 +27903,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -26948,7 +28057,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -26994,9 +28103,9 @@
       "home_team": "UMMC Ekaterinburg W",
       "status": "Not Started",
       "stage": "Premier League Women - Final",
-      "model_total": 143.82,
-      "xpts_h": 90.8,
-      "xpts_a": 53.1,
+      "model_total": 143.9,
+      "xpts_h": 91.0,
+      "xpts_a": 52.9,
       "probs_1x2": {
         "home": 99.9,
         "away": 0.1
@@ -27007,7 +28116,7 @@
       "home_team_volatility": 8.28,
       "away_team_volatility": 12.29,
       "market_total": 140.6,
-      "edge": 3.22,
+      "edge": 3.3,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -27016,7 +28125,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.784138+00:00",
+      "timestamp": "2026-04-21T07:30:56.458627+00:00",
       "match_center": {
         "h2h": [
           {
@@ -27346,6 +28455,28 @@
             {
               "position": 5,
               "team": {
+                "name": "Nadezhda W",
+                "logo": ""
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.571"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 509,
+                "against": 528
+              },
+              "form": "WWLLL"
+            },
+            {
+              "position": 6,
+              "team": {
                 "name": "Ivanovo W",
                 "logo": ""
               },
@@ -27366,7 +28497,7 @@
               "form": "WLLWW"
             },
             {
-              "position": 6,
+              "position": 7,
               "team": {
                 "name": "MBA Moscow W",
                 "logo": ""
@@ -27386,28 +28517,6 @@
                 "against": 421
               },
               "form": "LWLWL"
-            },
-            {
-              "position": 7,
-              "team": {
-                "name": "Nadezhda W",
-                "logo": ""
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.500"
-                },
-                "lose": {
-                  "total": 3
-                }
-              },
-              "points": {
-                "for": 424,
-                "against": 455
-              },
-              "form": "WWLLL"
             },
             {
               "position": 8,
@@ -27460,18 +28569,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 6,
+                "played": 7,
                 "win": {
                   "total": 2,
-                  "percentage": "0.333"
+                  "percentage": "0.286"
                 },
                 "lose": {
-                  "total": 4
+                  "total": 5
                 }
               },
               "points": {
-                "for": 411,
-                "against": 443
+                "for": 484,
+                "against": 528
               },
               "form": "WWLLL"
             },
@@ -27524,15 +28633,15 @@
         "statsH": {
           "played": 6,
           "win_pct": 1.0,
-          "scored": 114.575,
-          "conceded": 70.25,
+          "scored": 114.8,
+          "conceded": 70.1,
           "rank": null
         },
         "statsA": {
           "played": 7,
           "win_pct": 0.714,
-          "scored": 92.65,
-          "conceded": 93.43750000000001,
+          "scored": 92.56250000000001,
+          "conceded": 93.6125,
           "rank": null
         }
       }
@@ -27568,7 +28677,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.830891+00:00",
+      "timestamp": "2026-04-21T07:30:56.477893+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28139,7 +29248,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.885700+00:00",
+      "timestamp": "2026-04-21T07:30:56.500074+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -28781,7 +29890,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.891777+00:00",
+      "timestamp": "2026-04-21T07:30:56.508329+00:00",
       "match_center": {
         "h2h": [
           {
@@ -29443,7 +30552,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.919523+00:00",
+      "timestamp": "2026-04-21T07:30:56.527700+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30151,7 +31260,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.925100+00:00",
+      "timestamp": "2026-04-21T07:30:56.532894+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30859,7 +31968,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.930368+00:00",
+      "timestamp": "2026-04-21T07:30:56.540744+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -31567,7 +32676,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.934824+00:00",
+      "timestamp": "2026-04-21T07:30:56.545376+00:00",
       "match_center": {
         "h2h": [
           {
@@ -32295,7 +33404,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.939716+00:00",
+      "timestamp": "2026-04-21T07:30:56.550938+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -33003,7 +34112,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.944344+00:00",
+      "timestamp": "2026-04-21T07:30:56.559604+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -33711,7 +34820,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.948302+00:00",
+      "timestamp": "2026-04-21T07:30:56.564923+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -34419,7 +35528,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.952527+00:00",
+      "timestamp": "2026-04-21T07:30:56.575486+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -35127,7 +36236,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.955667+00:00",
+      "timestamp": "2026-04-21T07:30:56.581635+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -35835,7 +36944,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:10.959221+00:00",
+      "timestamp": "2026-04-21T07:30:56.591297+00:00",
       "match_center": {
         "h2h": [
           {
@@ -36563,7 +37672,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:11.058667+00:00",
+      "timestamp": "2026-04-21T07:30:56.615042+00:00",
       "match_center": {
         "h2h": [
           {
@@ -36692,7 +37801,7 @@
             "date": "Oct 18, 2025",
             "teams": {
               "home": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "winner": false
               },
               "away": {
@@ -36865,7 +37974,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "logo": ""
               },
               "games": {
@@ -37087,7 +38196,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:11.070817+00:00",
+      "timestamp": "2026-04-21T07:30:56.629485+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -37225,7 +38334,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "logo": ""
               },
               "games": {
@@ -37447,7 +38556,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:11.354493+00:00",
+      "timestamp": "2026-04-21T07:30:56.648908+00:00",
       "match_center": {
         "h2h": [
           {
@@ -37933,7 +39042,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:11.370974+00:00",
+      "timestamp": "2026-04-21T07:30:56.669429+00:00",
       "match_center": {
         "h2h": [
           {
@@ -38501,7 +39610,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-20T12:23:11.523948+00:00",
+      "timestamp": "2026-04-21T07:30:56.692104+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -39047,6 +40156,538 @@
       }
     },
     {
+      "league_id": 67,
+      "league": "Superleague",
+      "country": "Macedonia",
+      "date": "2026-04-21",
+      "away_team": "Tikvesh",
+      "home_team": "MZT Skopje",
+      "status": "Not Started",
+      "stage": "3",
+      "model_total": 174.74,
+      "xpts_h": 86.3,
+      "xpts_a": 88.4,
+      "probs_1x2": {
+        "home": 43.0,
+        "away": 57.0
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 18.03,
+      "away_team_volatility": 15.01,
+      "market_total": 162.9,
+      "edge": 11.84,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "mbet_threshold": 4.0,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-21T07:30:56.708460+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "2026-03-21",
+            "teams": {
+              "home": {
+                "name": "Kozuv",
+                "winner": true
+              },
+              "away": {
+                "name": "MZT Skopje",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 80
+              }
+            }
+          },
+          {
+            "date": "2026-03-29",
+            "teams": {
+              "home": {
+                "name": "MZT Skopje",
+                "winner": true
+              },
+              "away": {
+                "name": "Rabotnicki",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 93
+              }
+            }
+          },
+          {
+            "date": "2026-04-05",
+            "teams": {
+              "home": {
+                "name": "Cair 2030",
+                "winner": true
+              },
+              "away": {
+                "name": "MZT Skopje",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 68
+              }
+            }
+          },
+          {
+            "date": "2026-04-11",
+            "teams": {
+              "home": {
+                "name": "MZT Skopje",
+                "winner": true
+              },
+              "away": {
+                "name": "Kozuv",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 84
+              },
+              "away": {
+                "total": 75
+              }
+            }
+          },
+          {
+            "date": "2026-04-18",
+            "teams": {
+              "home": {
+                "name": "TFT Skopje",
+                "winner": true
+              },
+              "away": {
+                "name": "MZT Skopje",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "2026-03-23",
+            "teams": {
+              "home": {
+                "name": "Tikvesh",
+                "winner": true
+              },
+              "away": {
+                "name": "MKK Kumanovo",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 92
+              },
+              "away": {
+                "total": 86
+              }
+            }
+          },
+          {
+            "date": "2026-03-29",
+            "teams": {
+              "home": {
+                "name": "Pelister",
+                "winner": false
+              },
+              "away": {
+                "name": "Tikvesh",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 88
+              }
+            }
+          },
+          {
+            "date": "2026-04-05",
+            "teams": {
+              "home": {
+                "name": "Tikvesh",
+                "winner": true
+              },
+              "away": {
+                "name": "TFT Skopje",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 102
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "2026-04-11",
+            "teams": {
+              "home": {
+                "name": "TFT Skopje",
+                "winner": true
+              },
+              "away": {
+                "name": "Tikvesh",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          },
+          {
+            "date": "2026-04-18",
+            "teams": {
+              "home": {
+                "name": "Tikvesh",
+                "winner": false
+              },
+              "away": {
+                "name": "KK Madzari",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 100
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "TFT Skopje",
+                "logo": ""
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.833"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 516,
+                "against": 509
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Tikvesh",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 453,
+                "against": 422
+              },
+              "form": "WWWLL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Gostivar",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 392,
+                "against": 372
+              },
+              "form": "WLWLW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Cair 2030",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 402,
+                "against": 387
+              },
+              "form": "LWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "KK Madzari",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 426,
+                "against": 420
+              },
+              "form": "LWWLW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "MKK Kumanovo",
+                "logo": ""
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 489,
+                "against": 489
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Rabotnicki",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 332,
+                "against": 327
+              },
+              "form": "LWWL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "MZT Skopje",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 420,
+                "against": 425
+              },
+              "form": "LWLWL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Pelister",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 427,
+                "against": 433
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Kozuv",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 419,
+                "against": 430
+              },
+              "form": "WLWLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "KK Angeli",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 313,
+                "against": 366
+              },
+              "form": "LLLW"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Feniks 2010",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.200"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 394,
+                "against": 403
+              },
+              "form": "WLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 19,
+          "win_pct": 0.842,
+          "scored": 109.6,
+          "conceded": 100.1,
+          "rank": null
+        },
+        "statsA": {
+          "played": 20,
+          "win_pct": 0.45,
+          "scored": 119.3,
+          "conceded": 103.9,
+          "rank": null
+        }
+      }
+    },
+    {
       "league_id": 275,
       "league": "Superliga",
       "country": "Venezuela",
@@ -39077,7 +40718,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.545607+00:00",
+      "timestamp": "2026-04-21T07:30:56.723750+00:00",
       "match_center": {
         "h2h": [
           {
@@ -39651,7 +41292,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.553529+00:00",
+      "timestamp": "2026-04-21T07:30:56.727263+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40205,7 +41846,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.558186+00:00",
+      "timestamp": "2026-04-21T07:30:56.730020+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40759,7 +42400,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.563100+00:00",
+      "timestamp": "2026-04-21T07:30:56.734540+00:00",
       "match_center": {
         "h2h": [
           {
@@ -41352,7 +42993,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.570445+00:00",
+      "timestamp": "2026-04-21T07:30:56.740138+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41885,7 +43526,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.574487+00:00",
+      "timestamp": "2026-04-21T07:30:56.743068+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -42418,7 +44059,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-20T12:23:11.577770+00:00",
+      "timestamp": "2026-04-21T07:30:56.745927+00:00",
       "match_center": {
         "h2h": [
           {
@@ -42941,6 +44582,577 @@
       }
     },
     {
+      "league_id": 25,
+      "league": "Top Division Women",
+      "country": "Belgium",
+      "date": "2026-04-21",
+      "away_team": "Namur W",
+      "home_team": "Braine W",
+      "status": "Not Started",
+      "stage": "Top Division Women - Semi-finals",
+      "model_total": 150.05,
+      "xpts_h": 70.3,
+      "xpts_a": 79.8,
+      "probs_1x2": {
+        "home": 21.4,
+        "away": 78.6
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 16.17,
+      "away_team_volatility": 15.6,
+      "market_total": 138.2,
+      "edge": 11.85,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 12.4,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-21T07:30:56.761129+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "28.02. 14:30",
+            "teams": {
+              "home": {
+                "name": "Namur W"
+              },
+              "away": {
+                "name": "Braine W"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 69
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "01.11. 15:30",
+            "teams": {
+              "home": {
+                "name": "Braine W"
+              },
+              "away": {
+                "name": "Namur W"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 67
+              },
+              "away": {
+                "total": 55
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "28.02. 14:30",
+            "teams": {
+              "home": {
+                "name": "Namur W",
+                "winner": false
+              },
+              "away": {
+                "name": "Braine W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 69
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "21.02. 14:30",
+            "teams": {
+              "home": {
+                "name": "Braine W",
+                "winner": true
+              },
+              "away": {
+                "name": "Lummen W",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 116
+              },
+              "away": {
+                "total": 22
+              }
+            }
+          },
+          {
+            "date": "19.02. 14:00",
+            "teams": {
+              "home": {
+                "name": "Spirou Basket W",
+                "winner": false
+              },
+              "away": {
+                "name": "Braine W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 51
+              },
+              "away": {
+                "total": 88
+              }
+            }
+          },
+          {
+            "date": "08.02. 11:00",
+            "teams": {
+              "home": {
+                "name": "Kortrijk W",
+                "winner": false
+              },
+              "away": {
+                "name": "Braine W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 72
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          },
+          {
+            "date": "31.01. 14:30",
+            "teams": {
+              "home": {
+                "name": "Phantoms W",
+                "winner": false
+              },
+              "away": {
+                "name": "Braine W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 49
+              },
+              "away": {
+                "total": 94
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "28.02. 14:30",
+            "teams": {
+              "home": {
+                "name": "Namur W",
+                "winner": false
+              },
+              "away": {
+                "name": "Braine W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 69
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "21.02. 14:30\nAOT",
+            "teams": {
+              "home": {
+                "name": "Phantoms W",
+                "winner": true
+              },
+              "away": {
+                "name": "Namur W",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 77
+              }
+            }
+          },
+          {
+            "date": "15.02. 09:00",
+            "teams": {
+              "home": {
+                "name": "Namur W",
+                "winner": true
+              },
+              "away": {
+                "name": "Charleroi W",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 102
+              },
+              "away": {
+                "total": 48
+              }
+            }
+          },
+          {
+            "date": "08.02. 09:15",
+            "teams": {
+              "home": {
+                "name": "Mechelen W",
+                "winner": true
+              },
+              "away": {
+                "name": "Namur W",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 79
+              },
+              "away": {
+                "total": 58
+              }
+            }
+          },
+          {
+            "date": "31.01. 15:00",
+            "teams": {
+              "home": {
+                "name": "Namur W",
+                "winner": true
+              },
+              "away": {
+                "name": "Kortrijk W",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 84
+              },
+              "away": {
+                "total": 68
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Mechelen W",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 19,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 1659,
+                "against": 1041
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Braine W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.944"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 1506,
+                "against": 879
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Namur W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.722"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1456,
+                "against": 1072
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Donza W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.611"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1314,
+                "against": 1295
+              },
+              "form": "LLWWW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Kortrijk W",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.579"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1430,
+                "against": 1322
+              },
+              "form": "WLLLL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Phantoms W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1310,
+                "against": 1352
+              },
+              "form": "WLWLW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Liege W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.444"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1232,
+                "against": 1201
+              },
+              "form": "WWLWL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Jeugd Gentson W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.389"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1130,
+                "against": 1197
+              },
+              "form": "LLWLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Waregem W",
+                "logo": ""
+              },
+              "games": {
+                "played": 17,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.353"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1016,
+                "against": 1181
+              },
+              "form": "WWLLW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Spirou Basket W",
+                "logo": ""
+              },
+              "games": {
+                "played": 16,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.312"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 921,
+                "against": 1128
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Charleroi W",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.105"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 1131,
+                "against": 1579
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Lummen W",
+                "logo": ""
+              },
+              "games": {
+                "played": 18,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 18
+                }
+              },
+              "points": {
+                "for": 862,
+                "against": 1720
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 18,
+          "win_pct": 0.833,
+          "scored": 108.8,
+          "conceded": 78.9,
+          "rank": null
+        },
+        "statsA": {
+          "played": 19,
+          "win_pct": 0.789,
+          "scored": 114.5,
+          "conceded": 69.2,
+          "rank": null
+        }
+      }
+    },
+    {
       "league_id": 33,
       "league": "ZBL W",
       "country": "Czech Republic",
@@ -42949,12 +45161,12 @@
       "home_team": "KP Brno W",
       "status": "Not Started",
       "stage": "ZBL Women - 3rd place",
-      "model_total": 161.04,
-      "xpts_h": 84.7,
-      "xpts_a": 76.4,
+      "model_total": 161.18,
+      "xpts_h": 85.2,
+      "xpts_a": 76.0,
       "probs_1x2": {
-        "home": 75.5,
-        "away": 24.5
+        "home": 77.9,
+        "away": 22.1
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
@@ -42962,7 +45174,7 @@
       "home_team_volatility": 21.09,
       "away_team_volatility": 14.91,
       "market_total": 151.8,
-      "edge": 9.24,
+      "edge": 9.38,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -42971,7 +45183,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-20T12:23:11.588664+00:00",
+      "timestamp": "2026-04-21T07:30:56.774851+00:00",
       "match_center": {
         "h2h": [
           {
@@ -43236,9 +45448,9 @@
                 "logo": ""
               },
               "games": {
-                "played": 8,
+                "played": 9,
                 "win": {
-                  "total": 8,
+                  "total": 9,
                   "percentage": "1.000"
                 },
                 "lose": {
@@ -43246,35 +45458,13 @@
                 }
               },
               "points": {
-                "for": 890,
-                "against": 514
+                "for": 996,
+                "against": 585
               },
               "form": "WWWWW"
             },
             {
               "position": 2,
-              "team": {
-                "name": "Zabiny Brno W",
-                "logo": ""
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 7,
-                  "percentage": "1.000"
-                },
-                "lose": {
-                  "total": 0
-                }
-              },
-              "points": {
-                "for": 648,
-                "against": 370
-              },
-              "form": "WWWWW"
-            },
-            {
-              "position": 3,
               "team": {
                 "name": "Basket Ostrava W",
                 "logo": ""
@@ -43294,6 +45484,28 @@
                 "against": 306
               },
               "form": "WWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Zabiny Brno W",
+                "logo": ""
+              },
+              "games": {
+                "played": 8,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.875"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 719,
+                "against": 476
+              },
+              "form": "WWWWW"
             },
             {
               "position": 4,
@@ -43454,18 +45666,26 @@
         "statsH": {
           "played": 25,
           "win_pct": 0.56,
-          "scored": 93.0,
-          "conceded": 105.4,
+          "scored": 92.9,
+          "conceded": 105.7,
           "rank": null
         },
         "statsA": {
           "played": 41,
           "win_pct": 0.463,
-          "scored": 88.5,
-          "conceded": 108.3,
+          "scored": 87.7,
+          "conceded": 109.1,
           "rank": null
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-04-21T08:33:33.520455",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 4,
+      "total": 6,
+      "pct": 66.7
+    }
+  }
 }
