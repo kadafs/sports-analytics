@@ -1,7 +1,7 @@
 {
   "date": "2026-04-24",
   "mode": "full",
-  "total_predictions": 112,
+  "total_predictions": 114,
   "predictions": [
     {
       "league_id": 198,
@@ -34,7 +34,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.303003+00:00",
+      "timestamp": "2026-04-23T13:05:18.915311+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -592,7 +592,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.348860+00:00",
+      "timestamp": "2026-04-23T13:05:18.969591+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1150,7 +1150,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.369461+00:00",
+      "timestamp": "2026-04-23T13:05:18.999141+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -1708,7 +1708,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.384006+00:00",
+      "timestamp": "2026-04-23T13:05:19.013368+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2366,6 +2366,369 @@
       "league": "BSN",
       "country": "Puerto Rico",
       "date": "2026-04-24",
+      "away_team": "Aguada Santeros",
+      "home_team": "Osos de Manati",
+      "status": "Not Started",
+      "stage": "",
+      "model_total": 182.19,
+      "xpts_h": 94.3,
+      "xpts_a": 87.9,
+      "probs_1x2": {
+        "home": 70.3,
+        "away": 29.7
+      },
+      "predicted_result": "HOME",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 18.12,
+      "away_team_volatility": 26.92,
+      "market_total": 180.9,
+      "edge": 1.29,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "mbet_threshold": 4.0,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-23T13:05:19.028996+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "Mar 17, 2025",
+            "teams": {
+              "home": {
+                "name": "Criollos de Caguas",
+                "winner": false
+              },
+              "away": {
+                "name": "Osos de Manati",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 94
+              },
+              "away": {
+                "total": 99
+              }
+            }
+          },
+          {
+            "date": "Mar 23, 2025",
+            "teams": {
+              "home": {
+                "name": "Mets Guaynabo",
+                "winner": true
+              },
+              "away": {
+                "name": "Osos de Manati",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 105
+              },
+              "away": {
+                "total": 99
+              }
+            }
+          }
+        ],
+        "recentA": [],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Mets Guaynabo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 292,
+                "against": 268
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Cangrejeros de Santurce",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 244,
+                "against": 234
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Vaqueros de Bayam\u00f3n",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 2,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 148,
+                "against": 129
+              },
+              "form": "WW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Quebradillas Pirates",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 239,
+                "against": 229
+              },
+              "form": "WLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Capitanes de Arecibo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 243,
+                "against": 244
+              },
+              "form": "LWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Indios de Mayaguez",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 350,
+                "against": 325
+              },
+              "form": "WLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Osos de Manati",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 198,
+                "against": 199
+              },
+              "form": "WL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Gigantes de Carolina",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 277,
+                "against": 309
+              },
+              "form": "LLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Atleticos de San German",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 347,
+                "against": 340
+              },
+              "form": "LWLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Criollos de Caguas",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 349,
+                "against": 365
+              },
+              "form": "LLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Leones de Ponce",
+                "logo": ""
+              },
+              "games": {
+                "played": 1,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 78,
+                "against": 99
+              },
+              "form": "L"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Santeros de Aguada",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 123,
+                "against": 147
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 10,
+          "win_pct": 0.4,
+          "scored": 115.9,
+          "conceded": 115.4,
+          "rank": null
+        },
+        "statsA": {
+          "played": 9,
+          "win_pct": 0.667,
+          "scored": 112.3,
+          "conceded": 116.8,
+          "rank": null
+        }
+      }
+    },
+    {
+      "league_id": 76,
+      "league": "BSN",
+      "country": "Puerto Rico",
+      "date": "2026-04-24",
       "away_team": "Criollos de Caguas",
       "home_team": "Indios de Mayaguez",
       "status": "Not Started",
@@ -2392,7 +2755,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.396795+00:00",
+      "timestamp": "2026-04-23T13:05:19.038098+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2882,7 +3245,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.402648+00:00",
+      "timestamp": "2026-04-23T13:05:19.043687+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -3236,6 +3599,411 @@
       }
     },
     {
+      "league_id": 76,
+      "league": "BSN",
+      "country": "Puerto Rico",
+      "date": "2026-04-24",
+      "away_team": "San German",
+      "home_team": "Piratas de Quebradillas",
+      "status": "Not Started",
+      "stage": "",
+      "model_total": 185.73,
+      "xpts_h": 83.0,
+      "xpts_a": 102.8,
+      "probs_1x2": {
+        "home": 4.9,
+        "away": 95.1
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 28.64,
+      "away_team_volatility": 16.38,
+      "market_total": 180.9,
+      "edge": 4.83,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "SOLID",
+      "mbet_threshold": 4.0,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-04-23T13:05:19.050394+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [
+          {
+            "date": "Mar 16, 2025",
+            "teams": {
+              "home": {
+                "name": "Atleticos de San German",
+                "winner": false
+              },
+              "away": {
+                "name": "Mets Guaynabo",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "Mar 22, 2025",
+            "teams": {
+              "home": {
+                "name": "Atleticos de San German",
+                "winner": true
+              },
+              "away": {
+                "name": "Gigantes de Carolina",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 106
+              },
+              "away": {
+                "total": 89
+              }
+            }
+          },
+          {
+            "date": "Mar 24, 2025",
+            "teams": {
+              "home": {
+                "name": "Quebradillas Pirates",
+                "winner": true
+              },
+              "away": {
+                "name": "Atleticos de San German",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 71
+              },
+              "away": {
+                "total": 66
+              }
+            }
+          },
+          {
+            "date": "Jul 1, 2025",
+            "teams": {
+              "home": {
+                "name": "Capitanes de Arecibo",
+                "winner": true
+              },
+              "away": {
+                "name": "Atleticos de San German",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 99
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Mets Guaynabo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 292,
+                "against": 268
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Cangrejeros de Santurce",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 244,
+                "against": 234
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Vaqueros de Bayam\u00f3n",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 2,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 148,
+                "against": 129
+              },
+              "form": "WW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Quebradillas Pirates",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 239,
+                "against": 229
+              },
+              "form": "WLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Capitanes de Arecibo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 243,
+                "against": 244
+              },
+              "form": "LWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Indios de Mayaguez",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 350,
+                "against": 325
+              },
+              "form": "WLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Osos de Manati",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 198,
+                "against": 199
+              },
+              "form": "WL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Gigantes de Carolina",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 277,
+                "against": 309
+              },
+              "form": "LLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Atleticos de San German",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 347,
+                "against": 340
+              },
+              "form": "LWLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Criollos de Caguas",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 349,
+                "against": 365
+              },
+              "form": "LLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Leones de Ponce",
+                "logo": ""
+              },
+              "games": {
+                "played": 1,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 78,
+                "against": 99
+              },
+              "form": "L"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Santeros de Aguada",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 123,
+                "against": 147
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 11,
+          "win_pct": 0.0,
+          "scored": 110.6,
+          "conceded": 127.5,
+          "rank": null
+        },
+        "statsA": {
+          "played": 11,
+          "win_pct": 0.727,
+          "scored": 120.1,
+          "conceded": 108.4,
+          "rank": null
+        }
+      }
+    },
+    {
       "league_id": 97,
       "league": "Basketligan W",
       "country": "Sweden",
@@ -3266,7 +4034,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.433030+00:00",
+      "timestamp": "2026-04-23T13:05:19.067884+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3840,7 +4608,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.464625+00:00",
+      "timestamp": "2026-04-23T13:05:19.091695+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4548,7 +5316,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.471752+00:00",
+      "timestamp": "2026-04-23T13:05:19.103435+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5256,7 +6024,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.482167+00:00",
+      "timestamp": "2026-04-23T13:05:19.113162+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5964,7 +6732,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.490473+00:00",
+      "timestamp": "2026-04-23T13:05:19.128894+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6711,7 +7479,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.504082+00:00",
+      "timestamp": "2026-04-23T13:05:19.147977+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -7313,7 +8081,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.513623+00:00",
+      "timestamp": "2026-04-23T13:05:19.163259+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8041,7 +8809,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.520237+00:00",
+      "timestamp": "2026-04-23T13:05:19.178205+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8749,7 +9517,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.530652+00:00",
+      "timestamp": "2026-04-23T13:05:19.191410+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9477,7 +10245,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.536431+00:00",
+      "timestamp": "2026-04-23T13:05:19.203971+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -10079,7 +10847,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.547235+00:00",
+      "timestamp": "2026-04-23T13:05:19.217625+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -10681,7 +11449,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-23T03:39:52.553706+00:00",
+      "timestamp": "2026-04-23T13:05:19.229041+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -11191,7 +11959,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.570253+00:00",
+      "timestamp": "2026-04-23T13:05:19.242142+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -11510,7 +12278,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.573254+00:00",
+      "timestamp": "2026-04-23T13:05:19.246859+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -11829,7 +12597,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.589689+00:00",
+      "timestamp": "2026-04-23T13:05:19.273995+00:00",
       "match_center": {
         "h2h": [
           {
@@ -12356,7 +13124,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.605735+00:00",
+      "timestamp": "2026-04-23T13:05:19.292968+00:00",
       "match_center": {
         "h2h": [
           {
@@ -12883,7 +13651,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.631518+00:00",
+      "timestamp": "2026-04-23T13:05:19.322593+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -13375,7 +14143,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.638275+00:00",
+      "timestamp": "2026-04-23T13:05:19.336418+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -13867,7 +14635,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.649034+00:00",
+      "timestamp": "2026-04-23T13:05:19.345601+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -14359,7 +15127,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.657398+00:00",
+      "timestamp": "2026-04-23T13:05:19.359637+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14996,7 +15764,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.668124+00:00",
+      "timestamp": "2026-04-23T13:05:19.370969+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15633,7 +16401,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.680667+00:00",
+      "timestamp": "2026-04-23T13:05:19.386998+00:00",
       "match_center": {
         "h2h": [
           {
@@ -16270,7 +17038,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.694302+00:00",
+      "timestamp": "2026-04-23T13:05:19.409431+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -16678,7 +17446,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.717371+00:00",
+      "timestamp": "2026-04-23T13:05:19.435878+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17425,7 +18193,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.723028+00:00",
+      "timestamp": "2026-04-23T13:05:19.446252+00:00",
       "match_center": {
         "h2h": [
           {
@@ -18065,7 +18833,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.740210+00:00",
+      "timestamp": "2026-04-23T13:05:19.463103+00:00",
       "match_center": {
         "h2h": [
           {
@@ -18636,7 +19404,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.757686+00:00",
+      "timestamp": "2026-04-23T13:05:19.478690+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19317,7 +20085,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.772692+00:00",
+      "timestamp": "2026-04-23T13:05:19.493669+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19847,7 +20615,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.778362+00:00",
+      "timestamp": "2026-04-23T13:05:19.499019+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20377,7 +21145,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.785837+00:00",
+      "timestamp": "2026-04-23T13:05:19.515429+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20923,7 +21691,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.917519+00:00",
+      "timestamp": "2026-04-23T13:05:19.535997+00:00",
       "match_center": {
         "h2h": [
           {
@@ -21532,7 +22300,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.925136+00:00",
+      "timestamp": "2026-04-23T13:05:19.544749+00:00",
       "match_center": {
         "h2h": [
           {
@@ -22103,7 +22871,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.950116+00:00",
+      "timestamp": "2026-04-23T13:05:19.561648+00:00",
       "match_center": {
         "h2h": [
           {
@@ -22580,7 +23348,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-23T03:39:52.967080+00:00",
+      "timestamp": "2026-04-23T13:05:19.574583+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23024,7 +23792,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-23T03:39:52.970689+00:00",
+      "timestamp": "2026-04-23T13:05:19.579219+00:00",
       "match_center": {
         "h2h": [
           {
@@ -23564,7 +24332,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.981612+00:00",
+      "timestamp": "2026-04-23T13:05:19.593479+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23902,7 +24670,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.985015+00:00",
+      "timestamp": "2026-04-23T13:05:19.600128+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24366,7 +25134,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:52.992036+00:00",
+      "timestamp": "2026-04-23T13:05:19.615649+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24937,7 +25705,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.005865+00:00",
+      "timestamp": "2026-04-23T13:05:19.636751+00:00",
       "match_center": {
         "h2h": [
           {
@@ -25643,7 +26411,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.016893+00:00",
+      "timestamp": "2026-04-23T13:05:19.651284+00:00",
       "match_center": {
         "h2h": [
           {
@@ -26283,7 +27051,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.020515+00:00",
+      "timestamp": "2026-04-23T13:05:19.659012+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26903,7 +27671,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.023637+00:00",
+      "timestamp": "2026-04-23T13:05:19.665839+00:00",
       "match_center": {
         "h2h": [
           {
@@ -27543,7 +28311,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.031785+00:00",
+      "timestamp": "2026-04-23T13:05:19.673669+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28183,7 +28951,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.036331+00:00",
+      "timestamp": "2026-04-23T13:05:19.678705+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28823,7 +29591,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.040199+00:00",
+      "timestamp": "2026-04-23T13:05:19.687775+00:00",
       "match_center": {
         "h2h": [
           {
@@ -29463,7 +30231,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.052583+00:00",
+      "timestamp": "2026-04-23T13:05:19.705836+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30264,7 +31032,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.057770+00:00",
+      "timestamp": "2026-04-23T13:05:19.712237+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -31086,7 +31854,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.064714+00:00",
+      "timestamp": "2026-04-23T13:05:19.720885+00:00",
       "match_center": {
         "h2h": [
           {
@@ -32053,7 +32821,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.091852+00:00",
+      "timestamp": "2026-04-23T13:05:19.744818+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -32523,7 +33291,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.101660+00:00",
+      "timestamp": "2026-04-23T13:05:19.757795+00:00",
       "match_center": {
         "h2h": [
           {
@@ -33138,7 +33906,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.107527+00:00",
+      "timestamp": "2026-04-23T13:05:19.767260+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -33608,7 +34376,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.118004+00:00",
+      "timestamp": "2026-04-23T13:05:19.777688+00:00",
       "match_center": {
         "h2h": [
           {
@@ -34223,7 +34991,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-23T03:39:53.123759+00:00",
+      "timestamp": "2026-04-23T13:05:19.791699+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -35004,7 +35772,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-23T03:39:53.130978+00:00",
+      "timestamp": "2026-04-23T13:05:19.796403+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -35764,7 +36532,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-04-23T03:39:53.134143+00:00",
+      "timestamp": "2026-04-23T13:05:19.804579+00:00",
       "match_center": {
         "h2h": [
           {
@@ -36544,7 +37312,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.152619+00:00",
+      "timestamp": "2026-04-23T13:05:19.818160+00:00",
       "match_center": {
         "h2h": [
           {
@@ -37272,7 +38040,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.156295+00:00",
+      "timestamp": "2026-04-23T13:05:19.826982+00:00",
       "match_center": {
         "h2h": [
           {
@@ -38000,7 +38768,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.164688+00:00",
+      "timestamp": "2026-04-23T13:05:19.833819+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -38708,7 +39476,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.170890+00:00",
+      "timestamp": "2026-04-23T13:05:19.848145+00:00",
       "match_center": {
         "h2h": [
           {
@@ -39196,7 +39964,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.183663+00:00",
+      "timestamp": "2026-04-23T13:05:19.875990+00:00",
       "match_center": {
         "h2h": [
           {
@@ -39767,7 +40535,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.200027+00:00",
+      "timestamp": "2026-04-23T13:05:19.892327+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40255,7 +41023,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.204125+00:00",
+      "timestamp": "2026-04-23T13:05:19.901169+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40743,7 +41511,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.221671+00:00",
+      "timestamp": "2026-04-23T13:05:19.919993+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41231,7 +41999,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.227668+00:00",
+      "timestamp": "2026-04-23T13:05:19.933277+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41719,7 +42487,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.247644+00:00",
+      "timestamp": "2026-04-23T13:05:19.951351+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -42297,7 +43065,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.267241+00:00",
+      "timestamp": "2026-04-23T13:05:19.966358+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -42875,7 +43643,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.308711+00:00",
+      "timestamp": "2026-04-23T13:05:20.016141+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43540,7 +44308,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.317027+00:00",
+      "timestamp": "2026-04-23T13:05:20.049336+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44226,7 +44994,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.333126+00:00",
+      "timestamp": "2026-04-23T13:05:20.110456+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44891,7 +45659,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.340051+00:00",
+      "timestamp": "2026-04-23T13:05:20.142449+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -45577,7 +46345,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.382672+00:00",
+      "timestamp": "2026-04-23T13:05:20.176290+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -46132,7 +46900,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.390347+00:00",
+      "timestamp": "2026-04-23T13:05:20.193874+00:00",
       "match_center": {
         "h2h": [
           {
@@ -46707,7 +47475,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.404458+00:00",
+      "timestamp": "2026-04-23T13:05:20.219606+00:00",
       "match_center": {
         "h2h": [
           {
@@ -47282,7 +48050,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.437155+00:00",
+      "timestamp": "2026-04-23T13:05:20.290200+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -47794,7 +48562,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.454344+00:00",
+      "timestamp": "2026-04-23T13:05:20.309764+00:00",
       "match_center": {
         "h2h": [
           {
@@ -48347,7 +49115,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.471318+00:00",
+      "timestamp": "2026-04-23T13:05:20.376119+00:00",
       "match_center": {
         "h2h": [
           {
@@ -48879,7 +49647,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.495923+00:00",
+      "timestamp": "2026-04-23T13:05:20.405607+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -49415,7 +50183,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.518828+00:00",
+      "timestamp": "2026-04-23T13:05:20.456820+00:00",
       "match_center": {
         "h2h": [
           {
@@ -49986,7 +50754,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.533137+00:00",
+      "timestamp": "2026-04-23T13:05:20.497865+00:00",
       "match_center": {
         "h2h": [
           {
@@ -50526,7 +51294,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.542989+00:00",
+      "timestamp": "2026-04-23T13:05:20.557498+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51100,7 +51868,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.563566+00:00",
+      "timestamp": "2026-04-23T13:05:20.591520+00:00",
       "match_center": {
         "h2h": [
           {
@@ -51671,7 +52439,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.618403+00:00",
+      "timestamp": "2026-04-23T13:05:20.638957+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -52335,7 +53103,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.647659+00:00",
+      "timestamp": "2026-04-23T13:05:20.656322+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -53043,7 +53811,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.678491+00:00",
+      "timestamp": "2026-04-23T13:05:20.664637+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -53751,7 +54519,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.694038+00:00",
+      "timestamp": "2026-04-23T13:05:20.674492+00:00",
       "match_center": {
         "h2h": [
           {
@@ -54479,7 +55247,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.704587+00:00",
+      "timestamp": "2026-04-23T13:05:20.692699+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -55187,7 +55955,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.713547+00:00",
+      "timestamp": "2026-04-23T13:05:20.708173+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -55895,7 +56663,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.722878+00:00",
+      "timestamp": "2026-04-23T13:05:20.773648+00:00",
       "match_center": {
         "h2h": [
           {
@@ -56623,7 +57391,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.730956+00:00",
+      "timestamp": "2026-04-23T13:05:20.861503+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -57331,7 +58099,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.912953+00:00",
+      "timestamp": "2026-04-23T13:05:21.013850+00:00",
       "match_center": {
         "h2h": [
           {
@@ -57855,7 +58623,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.920012+00:00",
+      "timestamp": "2026-04-23T13:05:21.025764+00:00",
       "match_center": {
         "h2h": [
           {
@@ -58379,7 +59147,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.935954+00:00",
+      "timestamp": "2026-04-23T13:05:21.070420+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -58849,7 +59617,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.940983+00:00",
+      "timestamp": "2026-04-23T13:05:21.089546+00:00",
       "match_center": {
         "h2h": [
           {
@@ -59445,7 +60213,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.954437+00:00",
+      "timestamp": "2026-04-23T13:05:21.125050+00:00",
       "match_center": {
         "h2h": [
           {
@@ -60063,7 +60831,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:53.972022+00:00",
+      "timestamp": "2026-04-23T13:05:21.183783+00:00",
       "match_center": {
         "h2h": [
           {
@@ -60703,7 +61471,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-23T03:39:53.981590+00:00",
+      "timestamp": "2026-04-23T13:05:21.278349+00:00",
       "match_center": {
         "h2h": [
           {
@@ -61299,7 +62067,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-04-23T03:39:53.989915+00:00",
+      "timestamp": "2026-04-23T13:05:21.308458+00:00",
       "match_center": {
         "h2h": [
           {
@@ -61914,7 +62682,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:54.003774+00:00",
+      "timestamp": "2026-04-23T13:05:21.406565+00:00",
       "match_center": {
         "h2h": [
           {
@@ -62463,7 +63231,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:54.019402+00:00",
+      "timestamp": "2026-04-23T13:05:21.591524+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -62867,7 +63635,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:54.039450+00:00",
+      "timestamp": "2026-04-23T13:05:21.638219+00:00",
       "match_center": {
         "h2h": [
           {
@@ -63419,7 +64187,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-23T03:39:54.053066+00:00",
+      "timestamp": "2026-04-23T13:05:21.654317+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63952,7 +64720,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-23T03:39:54.060484+00:00",
+      "timestamp": "2026-04-23T13:05:21.659796+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64506,7 +65274,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-23T03:39:54.072271+00:00",
+      "timestamp": "2026-04-23T13:05:21.668813+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -65060,7 +65828,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-04-23T03:39:54.079489+00:00",
+      "timestamp": "2026-04-23T13:05:21.675665+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -65593,7 +66361,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:54.099139+00:00",
+      "timestamp": "2026-04-23T13:05:21.692594+00:00",
       "match_center": {
         "h2h": [
           {
@@ -66092,7 +66860,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-04-23T03:39:54.119663+00:00",
+      "timestamp": "2026-04-23T13:05:21.723524+00:00",
       "match_center": {
         "h2h": [
           {
