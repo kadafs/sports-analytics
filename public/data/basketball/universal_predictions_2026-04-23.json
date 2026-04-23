@@ -10,7 +10,7 @@
       "date": "2026-04-23",
       "away_team": "Bayern",
       "home_team": "Wurzburg",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "26",
       "model_total": 164.25,
       "xpts_h": 76.6,
@@ -559,7 +559,18 @@
           "conceded": 96.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 46,
+      "halftime_away_score": 37,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 50.5,
+      "total_delta": 6.75,
+      "signed_delta": 6.75,
+      "total_rpe": 3.95,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 68,
@@ -1125,7 +1136,7 @@
       "date": "2026-04-23",
       "away_team": "Leuven Bears",
       "home_team": "Spirou Charleroi",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "31",
       "model_total": 164.41,
       "xpts_h": 84.8,
@@ -1674,7 +1685,18 @@
           "conceded": 105.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 31,
+      "halftime_away_score": 33,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 38.9,
+      "total_delta": 22.41,
+      "signed_delta": -22.41,
+      "total_rpe": 15.78,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 76,
@@ -23533,7 +23555,7 @@
       "date": "2026-04-23",
       "away_team": "Njardvik W",
       "home_team": "Grindavik W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Premier League Women - Semi-finals",
       "model_total": 170.85,
       "xpts_h": 83.7,
@@ -24098,7 +24120,18 @@
           "conceded": 100.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 27,
+      "halftime_total": 72,
+      "halftime_pct_of_model": 42.1,
+      "total_delta": 1.85,
+      "signed_delta": -1.85,
+      "total_rpe": 1.09,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 226,
@@ -29185,7 +29218,7 @@
       "date": "2026-04-23",
       "away_team": "Schio W",
       "home_team": "Venezia W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Serie A1 Women - Final",
       "model_total": 139.95,
       "xpts_h": 75.3,
@@ -29706,7 +29739,18 @@
           "conceded": 81.8125,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 53,
+      "actual_away_score": 74,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 42,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 54.3,
+      "total_delta": 12.95,
+      "signed_delta": -12.95,
+      "total_rpe": 10.2,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 51,
@@ -37057,7 +37101,7 @@
       "date": "2026-04-23",
       "away_team": "UBI Graz W",
       "home_team": "Duches Klosterneuburg W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Superliga Women - Final",
       "model_total": 131.67,
       "xpts_h": 78.9,
@@ -37528,7 +37572,18 @@
           "conceded": 72.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 63,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 29,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 57.0,
+      "total_delta": 17.33,
+      "signed_delta": 17.33,
+      "total_rpe": 11.63,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 240,
@@ -39070,17 +39125,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-04-23T20:54:53.099171",
+  "graded_at": "2026-04-23T23:52:26.362197",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 7,
-      "total": 17,
-      "pct": 41.2
-    },
-    "[  SRS   ]": {
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0
+      "wins": 3,
+      "total": 5,
+      "pct": 60.0
     }
   }
 }
