@@ -24230,7 +24230,7 @@
       "date": "2026-04-24",
       "away_team": "Motilones del Norte",
       "home_team": "Paisas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.03,
       "xpts_h": 94.8,
@@ -24761,7 +24761,18 @@
           "conceded": 100.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 86,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 45,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 52.1,
+      "total_delta": 11.97,
+      "signed_delta": 11.97,
+      "total_rpe": 6.76,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 380,
@@ -38665,7 +38676,7 @@
       "date": "2026-04-24",
       "away_team": "Paulistano",
       "home_team": "Bauru",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 169.11,
       "xpts_h": 78.0,
@@ -39384,7 +39395,18 @@
           "conceded": 97.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 95,
+      "actual_result": "AWAY",
+      "halftime_home_score": 39,
+      "halftime_away_score": 51,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 53.2,
+      "total_delta": 5.89,
+      "signed_delta": 5.89,
+      "total_rpe": 3.37,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 26,
@@ -68402,17 +68424,12 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-04-24T23:32:17.328926",
+  "graded_at": "2026-04-25T01:43:02.823749",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 45,
-      "total": 61,
-      "pct": 73.8
-    },
-    "[  SRS   ]": {
       "wins": 2,
-      "total": 3,
-      "pct": 66.7
+      "total": 2,
+      "pct": 100.0
     }
   }
 }
