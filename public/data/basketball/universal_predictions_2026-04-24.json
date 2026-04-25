@@ -26187,7 +26187,7 @@
       "date": "2026-04-24",
       "away_team": "Penarol",
       "home_team": "Ferro",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.12,
       "xpts_h": 83.7,
@@ -26884,7 +26884,18 @@
           "conceded": 100.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 43,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 58.1,
+      "total_delta": 22.88,
+      "signed_delta": 22.88,
+      "total_rpe": 12.17,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 239,
@@ -37168,7 +37179,7 @@
       "date": "2026-04-24",
       "away_team": "Boston Celtics",
       "home_team": "Philadelphia 76ers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 223.13,
       "xpts_h": 104.3,
@@ -37939,7 +37950,18 @@
           "conceded": 104.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 108,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 54,
+      "halftime_total": 101,
+      "halftime_pct_of_model": 45.3,
+      "total_delta": 15.13,
+      "signed_delta": -15.13,
+      "total_rpe": 7.27,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 26,
@@ -37948,7 +37970,7 @@
       "date": "2026-04-24",
       "away_team": "Corinthians Paulista",
       "home_team": "Unifacisa",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 169.73,
       "xpts_h": 82.6,
@@ -38667,7 +38689,18 @@
           "conceded": 101.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 34,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 44.8,
+      "total_delta": 21.73,
+      "signed_delta": -21.73,
+      "total_rpe": 14.68,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 26,
@@ -39415,7 +39448,7 @@
       "date": "2026-04-24",
       "away_team": "Minas",
       "home_team": "Cruzeiro",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 180.85,
       "xpts_h": 80.6,
@@ -40114,7 +40147,18 @@
           "conceded": 101.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 50,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 51.4,
+      "total_delta": 2.85,
+      "signed_delta": -2.85,
+      "total_rpe": 1.6,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 66,
@@ -66383,7 +66427,7 @@
       "date": "2026-04-24",
       "away_team": "Diablos",
       "home_team": "Gaiteros del Zulia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 172.27,
       "xpts_h": 97.6,
@@ -66928,7 +66972,18 @@
           "conceded": 126.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 33,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 44.7,
+      "total_delta": 12.27,
+      "signed_delta": -12.27,
+      "total_rpe": 7.67,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 275,
@@ -66937,7 +66992,7 @@
       "date": "2026-04-24",
       "away_team": "Brillantes",
       "home_team": "Spartans",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 169.23,
       "xpts_h": 93.6,
@@ -67461,7 +67516,18 @@
           "conceded": 123.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 84,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 34,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 47.9,
+      "total_delta": 2.77,
+      "signed_delta": 2.77,
+      "total_rpe": 1.61,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 427,
@@ -68424,12 +68490,12 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-04-25T01:43:02.823749",
+  "graded_at": "2026-04-25T08:10:02.375928",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 2,
-      "total": 2,
-      "pct": 100.0
+      "wins": 4,
+      "total": 6,
+      "pct": 66.7
     }
   }
 }
