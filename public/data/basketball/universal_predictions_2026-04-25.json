@@ -153797,7 +153797,7 @@
       "date": "2026-04-25",
       "away_team": "Trotamundos",
       "home_team": "Spartans",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 165.4,
       "xpts_h": 85.3,
@@ -154342,7 +154342,17 @@
           "conceded": 112.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 32,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 46.6,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 275,
@@ -161092,12 +161102,12 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-04-26T03:21:32.509016",
+  "graded_at": "2026-04-26T08:12:25.336445",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 30,
-      "total": 45,
-      "pct": 66.7
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
     }
   }
 }
