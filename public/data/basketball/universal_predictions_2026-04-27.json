@@ -10,7 +10,7 @@
       "date": "2026-04-27",
       "away_team": "Vienna Basket",
       "home_team": "KK Krka Novo mesto",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "10",
       "model_total": 166.13,
       "xpts_h": 84.1,
@@ -559,7 +559,18 @@
           "conceded": 112.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 40,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 52.4,
+      "total_delta": 3.87,
+      "signed_delta": 3.87,
+      "total_rpe": 2.28,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 198,
@@ -1502,7 +1513,7 @@
             {
               "position": 6,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -1925,7 +1936,7 @@
             "date": "Mar 6, 2026",
             "teams": {
               "home": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "winner": true
               },
               "away": {
@@ -2186,7 +2197,7 @@
             {
               "position": 6,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -3040,7 +3051,7 @@
       "date": "2026-04-27",
       "away_team": "Capitanes de Arecibo",
       "home_team": "Gigantes de Carolina",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 207.95,
       "xpts_h": 103.7,
@@ -3246,7 +3257,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -3479,7 +3490,18 @@
           "conceded": 124.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 111,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 47,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 46.6,
+      "total_delta": 5.95,
+      "signed_delta": -5.95,
+      "total_rpe": 2.95,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 34,
@@ -4743,7 +4765,7 @@
                 "winner": true
               },
               "away": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               }
             },
@@ -5129,7 +5151,7 @@
             {
               "position": 9,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -5217,7 +5239,7 @@
       "date": "2026-04-27",
       "away_team": "Shymkent",
       "home_team": "ChelSU Kostanay",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Higher League - Quarter-finals",
       "model_total": 166.0,
       "xpts_h": 50.7,
@@ -5806,7 +5828,18 @@
           "conceded": 78.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 48,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 47.6,
+      "total_delta": 3.0,
+      "signed_delta": -3.0,
+      "total_rpe": 1.84,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 396,
@@ -5815,7 +5848,7 @@
       "date": "2026-04-27",
       "away_team": "Aktobe",
       "home_team": "Atyrau 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Higher League - Quarter-finals",
       "model_total": 145.57,
       "xpts_h": 68.1,
@@ -6404,7 +6437,18 @@
           "conceded": 87.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 33,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 46.7,
+      "total_delta": 18.57,
+      "signed_delta": -18.57,
+      "total_rpe": 14.62,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 396,
@@ -6413,7 +6457,7 @@
       "date": "2026-04-27",
       "away_team": "Bars Petropavlovsk",
       "home_team": "BC Almaty 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Higher League - Quarter-finals",
       "model_total": 168.46,
       "xpts_h": 74.1,
@@ -7002,7 +7046,18 @@
           "conceded": 75.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 37,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 18.46,
+      "signed_delta": -18.46,
+      "total_rpe": 12.31,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 396,
@@ -7011,7 +7066,7 @@
       "date": "2026-04-27",
       "away_team": "Turan",
       "home_team": "CHAMP1ON",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Higher League - Quarter-finals",
       "model_total": 148.87,
       "xpts_h": 48.3,
@@ -7600,7 +7655,18 @@
           "conceded": 64.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 50,
+      "actual_away_score": 71,
+      "actual_result": "AWAY",
+      "halftime_home_score": 23,
+      "halftime_away_score": 38,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 41.0,
+      "total_delta": 27.87,
+      "signed_delta": -27.87,
+      "total_rpe": 23.03,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 91,
@@ -7609,7 +7675,7 @@
       "date": "2026-04-27",
       "away_team": "LG Sakers",
       "home_team": "Goyang Sono",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "KBL - Semi-finals",
       "model_total": 141.88,
       "xpts_h": 76.7,
@@ -8146,7 +8212,18 @@
           "conceded": 92.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 40,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 64.1,
+      "total_delta": 28.12,
+      "signed_delta": 28.12,
+      "total_rpe": 16.54,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 36,
@@ -10104,7 +10181,7 @@
       "date": "2026-04-27",
       "away_team": "Siauliai",
       "home_team": "Rytas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 181.49,
       "xpts_h": 94.8,
@@ -10219,7 +10296,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": false
               }
             },
@@ -10301,7 +10378,7 @@
             "date": "Sep 21, 2025",
             "teams": {
               "home": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": false
               },
               "away": {
@@ -10518,7 +10595,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -10619,7 +10696,18 @@
           "conceded": 112.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 102,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 40,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 44.6,
+      "total_delta": 7.49,
+      "signed_delta": -7.49,
+      "total_rpe": 4.3,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 114,
@@ -10628,7 +10716,7 @@
       "date": "2026-04-27",
       "away_team": "Puerto Montt",
       "home_team": "Espanol Osorno",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 156.72,
       "xpts_h": 90.1,
@@ -11045,7 +11133,18 @@
           "conceded": 112.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "halftime_home_score": 37,
+      "halftime_away_score": 32,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 44.0,
+      "total_delta": 10.72,
+      "signed_delta": -10.72,
+      "total_rpe": 7.34,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 114,
@@ -11054,7 +11153,7 @@
       "date": "2026-04-27",
       "away_team": "Las Animas",
       "home_team": "Ancud",
-      "status": "After Over Time",
+      "status": "AOT",
       "stage": "",
       "model_total": 164.73,
       "xpts_h": 69.6,
@@ -11616,7 +11715,17 @@
           "conceded": 97.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 38,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 48.6,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 258,
@@ -13759,7 +13868,7 @@
       "date": "2026-04-27",
       "away_team": "Independiente de Oliva",
       "home_team": "La Union",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 178.73,
       "xpts_h": 89.6,
@@ -14475,7 +14584,18 @@
           "conceded": 109.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 62,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 37,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 45.3,
+      "total_delta": 30.73,
+      "signed_delta": -30.73,
+      "total_rpe": 20.76,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 18,
@@ -15062,9 +15182,9 @@
       "league": "Liga Nova KBM",
       "country": "Slovenia",
       "date": "2026-04-27",
-      "away_team": "Terme Olimia Pod\u010detrtek",
+      "away_team": "Terme Olimia Podčetrtek",
       "home_team": "KK Triglav Kranj",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "25",
       "model_total": 170.15,
       "xpts_h": 100.1,
@@ -15101,7 +15221,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -15118,7 +15238,7 @@
             "date": "Oct 6, 2025",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               },
               "away": {
@@ -15143,7 +15263,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -15160,7 +15280,7 @@
             "date": "Mar 16, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               },
               "away": {
@@ -15181,11 +15301,11 @@
             "date": "Mar 9, 2026",
             "teams": {
               "home": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               }
             },
@@ -15270,7 +15390,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -15402,7 +15522,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -15437,7 +15557,18 @@
           "conceded": 128.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 65,
+      "actual_result": "AWAY",
+      "halftime_home_score": 26,
+      "halftime_away_score": 34,
+      "halftime_total": 60,
+      "halftime_pct_of_model": 35.3,
+      "total_delta": 41.15,
+      "signed_delta": -41.15,
+      "total_rpe": 31.9,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 426,
@@ -15446,7 +15577,7 @@
       "date": "2026-04-27",
       "away_team": "Cebu Greats",
       "home_team": "Basilan Steel",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.18,
       "xpts_h": 78.9,
@@ -16153,7 +16284,18 @@
           "conceded": 95.825,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 34,
+      "halftime_away_score": 39,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 45.9,
+      "total_delta": 4.18,
+      "signed_delta": -4.18,
+      "total_rpe": 2.7,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 426,
@@ -16162,7 +16304,7 @@
       "date": "2026-04-27",
       "away_team": "Batangas City",
       "home_team": "Abra Weavers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 184.48,
       "xpts_h": 103.6,
@@ -17101,7 +17243,18 @@
           "conceded": 95.1625,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 44,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 53.1,
+      "total_delta": 4.52,
+      "signed_delta": 4.52,
+      "total_rpe": 2.39,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 426,
@@ -17110,7 +17263,7 @@
       "date": "2026-04-27",
       "away_team": "Batang Kankaloo",
       "home_team": "Meycauayan",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.6,
       "xpts_h": 72.1,
@@ -17923,7 +18076,18 @@
           "conceded": 85.7375,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 55,
+      "halftime_total": 89,
+      "halftime_pct_of_model": 58.3,
+      "total_delta": 23.4,
+      "signed_delta": 23.4,
+      "total_rpe": 13.3,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 46,
@@ -18131,7 +18295,7 @@
             "date": "Oct 2, 2025",
             "teams": {
               "home": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "winner": true
               },
               "away": {
@@ -18481,7 +18645,7 @@
             {
               "position": 13,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -18547,7 +18711,7 @@
       "date": "2026-04-27",
       "away_team": "Los Angeles Lakers",
       "home_team": "Houston Rockets",
-      "status": "Quarter 4",
+      "status": "FT",
       "stage": "",
       "model_total": 229.74,
       "xpts_h": 114.4,
@@ -19319,7 +19483,18 @@
           "conceded": 109.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 96,
+      "actual_result": "HOME",
+      "halftime_home_score": 56,
+      "halftime_away_score": 47,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 44.8,
+      "total_delta": 18.74,
+      "signed_delta": -18.74,
+      "total_rpe": 8.88,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 26,
@@ -21492,7 +21667,7 @@
       "date": "2026-04-27",
       "away_team": "Franklin Bulls",
       "home_team": "Taranaki Airs",
-      "status": "Break Time",
+      "status": "FT",
       "stage": "",
       "model_total": 167.06,
       "xpts_h": 83.6,
@@ -21866,7 +22041,18 @@
           "conceded": 117.475,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 90,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 40,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 52.1,
+      "total_delta": 13.94,
+      "signed_delta": 13.94,
+      "total_rpe": 7.7,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 66,
@@ -21875,7 +22061,7 @@
       "date": "2026-04-27",
       "away_team": "Auckland Tuatara",
       "home_team": "Wellington Saints",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 168.02,
       "xpts_h": 79.1,
@@ -22271,7 +22457,18 @@
           "conceded": 103.975,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 45,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 52.4,
+      "total_delta": 3.98,
+      "signed_delta": 3.98,
+      "total_rpe": 2.31,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 32,
@@ -22414,7 +22611,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "winner": false
               }
             },
@@ -22735,7 +22932,7 @@
             {
               "position": 7,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -22845,7 +23042,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -22889,7 +23086,7 @@
       "date": "2026-04-27",
       "away_team": "Horizont Minsk W",
       "home_team": "Horizont Minsk 2 W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Premier League Women - 3rd place",
       "model_total": 126.53,
       "xpts_h": 43.8,
@@ -23420,7 +23617,18 @@
           "conceded": 59.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 46,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "halftime_home_score": 19,
+      "halftime_away_score": 45,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 50.6,
+      "total_delta": 3.53,
+      "signed_delta": -3.53,
+      "total_rpe": 2.87,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 83,
@@ -24612,7 +24820,7 @@
       "date": "2026-04-27",
       "away_team": "University-Ugra",
       "home_team": "Dynamo Vladivostok",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.89,
       "xpts_h": 86.9,
@@ -25240,7 +25448,18 @@
           "conceded": 102.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 46,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 10.11,
+      "signed_delta": 10.11,
+      "total_rpe": 5.78,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 81,
@@ -25249,7 +25468,7 @@
       "date": "2026-04-27",
       "away_team": "Ufa",
       "home_team": "Temp Sumz Revda",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 170.9,
       "xpts_h": 86.8,
@@ -25858,7 +26077,18 @@
           "conceded": 102.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 34,
+      "halftime_away_score": 27,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 35.7,
+      "total_delta": 27.9,
+      "signed_delta": -27.9,
+      "total_rpe": 19.51,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 51,
@@ -25867,7 +26097,7 @@
       "date": "2026-04-27",
       "away_team": "Ironi Kiryat Ata",
       "home_team": "Hapoel HaEmek",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "24",
       "model_total": 169.59,
       "xpts_h": 109.9,
@@ -26454,7 +26684,18 @@
           "conceded": 126.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 29,
+      "halftime_away_score": 29,
+      "halftime_total": 58,
+      "halftime_pct_of_model": 34.2,
+      "total_delta": 28.59,
+      "signed_delta": -28.59,
+      "total_rpe": 20.28,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 51,
@@ -28141,7 +28382,7 @@
       "date": "2026-04-27",
       "away_team": "Rustavi",
       "home_team": "Griffin",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Superleague - Final",
       "model_total": 163.97,
       "xpts_h": 74.3,
@@ -28536,7 +28777,18 @@
           "conceded": 100.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 27,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 14.03,
+      "signed_delta": 14.03,
+      "total_rpe": 7.88,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 67,
@@ -32978,5 +33230,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-04-27T18:37:56.009939",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 15,
+      "total": 21,
+      "pct": 71.4
+    },
+    "[  SRS   ]": {
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0
+    }
+  }
 }

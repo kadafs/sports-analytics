@@ -51456,7 +51456,7 @@
       "date": "2026-04-26",
       "away_team": "Liceo Curico",
       "home_team": "Municipal Chillan",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.11,
       "xpts_h": 68.7,
@@ -52220,7 +52220,18 @@
           "conceded": 102.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 29,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 41.3,
+      "total_delta": 16.11,
+      "signed_delta": -16.11,
+      "total_rpe": 11.59,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 52,
@@ -87750,7 +87761,7 @@
       "date": "2026-04-26",
       "away_team": "SSV Lok Bernau",
       "home_team": "Hertener Loewen",
-      "status": "Cancelled",
+      "status": "FT",
       "stage": "27",
       "model_total": 144.98,
       "xpts_h": 76.9,
@@ -88148,7 +88159,18 @@
           "conceded": 98.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 69,
+      "actual_away_score": 87,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 43,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 53.1,
+      "total_delta": 11.02,
+      "signed_delta": 11.02,
+      "total_rpe": 7.06,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 43,
@@ -88157,7 +88179,7 @@
       "date": "2026-04-26",
       "away_team": "ETB Miners",
       "home_team": "Union Baskets Schwelm",
-      "status": "Cancelled",
+      "status": "FT",
       "stage": "27",
       "model_total": 156.63,
       "xpts_h": 81.0,
@@ -88555,7 +88577,18 @@
           "conceded": 105.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 38,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 47.2,
+      "total_delta": 19.63,
+      "signed_delta": -19.63,
+      "total_rpe": 14.33,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 43,
@@ -88564,7 +88597,7 @@
       "date": "2026-04-26",
       "away_team": "Orange Academy",
       "home_team": "Bba Ludwigsburg",
-      "status": "Cancelled",
+      "status": "AOT",
       "stage": "27",
       "model_total": 150.74,
       "xpts_h": 70.8,
@@ -88919,7 +88952,17 @@
           "conceded": 96.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 94,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 47,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 57.7,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 8,
@@ -122406,17 +122449,17 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-04-27T04:13:56.488847",
+  "graded_at": "2026-04-27T18:37:11.326503",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 18,
-      "total": 30,
-      "pct": 60.0
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0
     },
     "[  SRS   ]": {
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0
     }
   }
 }
