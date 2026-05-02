@@ -40656,7 +40656,7 @@
       "date": "2026-05-02",
       "away_team": "Kataja",
       "home_team": "Salon Vilpas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Korisliiga - Final",
       "model_total": 174.45,
       "xpts_h": 90.8,
@@ -41218,7 +41218,18 @@
           "conceded": 108.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 44,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 45.9,
+      "total_delta": 15.45,
+      "signed_delta": -15.45,
+      "total_rpe": 9.72,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 146,
@@ -50465,7 +50476,7 @@
       "date": "2026-05-02",
       "away_team": "Deportivo Amambay",
       "home_team": "Dep. San Jose",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.67,
       "xpts_h": 90.5,
@@ -50961,7 +50972,18 @@
           "conceded": 101.30000000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 45,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 51.7,
+      "total_delta": 0.33,
+      "signed_delta": 0.33,
+      "total_rpe": 0.21,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 224,
@@ -112803,7 +112825,7 @@
       "date": "2026-05-02",
       "away_team": "Sangalhos",
       "home_team": "Benfica Lisboa B",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "14",
       "model_total": 136.74,
       "xpts_h": 80.9,
@@ -113114,7 +113136,18 @@
           "conceded": 120.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 55,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 33,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 59.2,
+      "total_delta": 19.26,
+      "signed_delta": 19.26,
+      "total_rpe": 12.35,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 261,
@@ -113123,7 +113156,7 @@
       "date": "2026-05-02",
       "away_team": "CB Queluz",
       "home_team": "Lusitania",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "14",
       "model_total": 154.96,
       "xpts_h": 87.7,
@@ -113434,7 +113467,18 @@
           "conceded": 99.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 27,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 2.04,
+      "signed_delta": 2.04,
+      "total_rpe": 1.3,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 261,
@@ -135113,12 +135157,17 @@
       }
     }
   ],
-  "graded_at": "2026-05-02T16:22:50.354550",
+  "graded_at": "2026-05-02T16:48:07.196204",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 70,
-      "total": 102,
-      "pct": 68.6
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0
+    },
+    "[  SRS   ]": {
+      "wins": 2,
+      "total": 2,
+      "pct": 100.0
     }
   }
 }
