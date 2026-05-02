@@ -106907,7 +106907,7 @@
       "date": "2026-05-02",
       "away_team": "Phoenix Hagen",
       "home_team": "Munster",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "34",
       "model_total": 180.56,
       "xpts_h": 75.2,
@@ -107456,7 +107456,18 @@
           "conceded": 107.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 128,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 58,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 58.2,
+      "total_delta": 48.44,
+      "signed_delta": 48.44,
+      "total_rpe": 21.15,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 42,
@@ -135905,6 +135916,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-05-02T20:32:40.513270",
-  "grade_summary": {}
+  "graded_at": "2026-05-02T20:39:16.939047",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
+    }
+  }
 }
