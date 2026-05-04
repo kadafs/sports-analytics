@@ -10,14 +10,14 @@
       "date": "2026-05-04",
       "away_team": "Fukui",
       "home_team": "Shinshu",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "B2.League - Quarter-finals",
-      "model_total": 157.02,
+      "model_total": 156.96,
       "xpts_h": 85.2,
-      "xpts_a": 71.8,
+      "xpts_a": 71.7,
       "probs_1x2": {
-        "home": 86.9,
-        "away": 13.1
+        "home": 87.0,
+        "away": 13.0
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -25,7 +25,7 @@
       "home_team_volatility": 16.6,
       "away_team_volatility": 19.16,
       "market_total": 160.5,
-      "edge": -3.48,
+      "edge": -3.54,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -34,7 +34,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:52.967359+00:00",
+      "timestamp": "2026-05-04T22:38:58.976953+00:00",
       "match_center": {
         "h2h": [
           {
@@ -669,22 +669,11 @@
         "statsA": {
           "played": 44,
           "win_pct": 0.545,
-          "scored": 112.0,
+          "scored": 111.9,
           "conceded": 106.4,
           "rank": null
         }
-      },
-      "actual_home_score": 90,
-      "actual_away_score": 89,
-      "actual_result": "HOME",
-      "halftime_home_score": 46,
-      "halftime_away_score": 41,
-      "halftime_total": 87,
-      "halftime_pct_of_model": 55.4,
-      "total_delta": 21.98,
-      "signed_delta": 21.98,
-      "total_rpe": 12.28,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 40,
@@ -693,22 +682,22 @@
       "date": "2026-05-04",
       "away_team": "Syntainics MBC",
       "home_team": "Heidelberg",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "32",
-      "model_total": 180.64,
-      "xpts_h": 89.0,
-      "xpts_a": 91.6,
+      "model_total": 173.33,
+      "xpts_h": 82.5,
+      "xpts_a": 90.8,
       "probs_1x2": {
-        "home": 41.5,
-        "away": 58.5
+        "home": 24.6,
+        "away": 75.4
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
-      "home_team_volatility": 10.26,
-      "away_team_volatility": 24.25,
+      "home_team_volatility": 18.26,
+      "away_team_volatility": 16.73,
       "market_total": 167.9,
-      "edge": 12.74,
+      "edge": 5.43,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -717,36 +706,56 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.064463+00:00",
+      "timestamp": "2026-05-04T22:38:59.007681+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "May 4, 2026",
+            "teams": {
+              "home": {
+                "name": "MLP Academics Heidelberg"
+              },
+              "away": {
+                "name": "SYNTAINICS MBC"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 75
+              }
+            }
+          }
+        ],
         "recentH": [
           {
-            "date": "Mar 29, 2026",
+            "date": "May 4, 2026",
             "teams": {
               "home": {
                 "name": "MLP Academics Heidelberg",
                 "winner": true
               },
               "away": {
-                "name": "Ratiopharm Ulm",
+                "name": "SYNTAINICS MBC",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 93
+                "total": 80
               },
               "away": {
-                "total": 90
+                "total": 75
               }
             }
           },
           {
-            "date": "Apr 2, 2026",
+            "date": "Apr 25, 2026",
             "teams": {
               "home": {
-                "name": "Telekom Baskets Bonn",
+                "name": "EWE Baskets Oldenburg",
                 "winner": true
               },
               "away": {
@@ -759,28 +768,7 @@
                 "total": 94
               },
               "away": {
-                "total": 82
-              }
-            }
-          },
-          {
-            "date": "Apr 12, 2026",
-            "teams": {
-              "home": {
-                "name": "Fraport Skyliners",
-                "winner": false
-              },
-              "away": {
-                "name": "MLP Academics Heidelberg",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 73
-              },
-              "away": {
-                "total": 93
+                "total": 74
               }
             }
           },
@@ -806,88 +794,109 @@
             }
           },
           {
-            "date": "Apr 25, 2026",
+            "date": "Apr 12, 2026",
             "teams": {
               "home": {
-                "name": "EWE Baskets Oldenburg",
-                "winner": true
+                "name": "Fraport Skyliners",
+                "winner": false
               },
               "away": {
                 "name": "MLP Academics Heidelberg",
-                "winner": false
+                "winner": true
               }
             },
             "scores": {
               "home": {
-                "total": 94
+                "total": 73
               },
               "away": {
-                "total": 74
+                "total": 93
+              }
+            }
+          },
+          {
+            "date": "Apr 5, 2026",
+            "teams": {
+              "home": {
+                "name": "MLP Academics Heidelberg",
+                "winner": false
+              },
+              "away": {
+                "name": "Rostock Seawolves",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 70
+              },
+              "away": {
+                "total": 101
               }
             }
           }
         ],
         "recentA": [
           {
-            "date": "Mar 28, 2026",
+            "date": "May 4, 2026",
             "teams": {
               "home": {
-                "name": "SYNTAINICS MBC",
+                "name": "MLP Academics Heidelberg",
                 "winner": true
               },
               "away": {
-                "name": "Rasta Vechta",
+                "name": "SYNTAINICS MBC",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 90
+                "total": 80
               },
               "away": {
-                "total": 82
+                "total": 75
               }
             }
           },
           {
-            "date": "Apr 1, 2026",
+            "date": "Apr 26, 2026",
             "teams": {
               "home": {
-                "name": "Ratiopharm Ulm",
+                "name": "SYNTAINICS MBC",
                 "winner": true
               },
               "away": {
-                "name": "SYNTAINICS MBC",
+                "name": "W\u00fcrzburg Baskets",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 104
+                "total": 83
               },
               "away": {
-                "total": 81
+                "total": 52
               }
             }
           },
           {
-            "date": "Apr 4, 2026",
+            "date": "Apr 19, 2026",
             "teams": {
               "home": {
-                "name": "SYNTAINICS MBC",
+                "name": "Basketball Lowen Braunschweig",
                 "winner": true
               },
               "away": {
-                "name": "FC Bayern Munich",
+                "name": "SYNTAINICS MBC",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 91
+                "total": 112
               },
               "away": {
-                "total": 79
+                "total": 93
               }
             }
           },
@@ -913,23 +922,23 @@
             }
           },
           {
-            "date": "Apr 19, 2026",
+            "date": "Apr 4, 2026",
             "teams": {
               "home": {
-                "name": "Basketball Lowen Braunschweig",
+                "name": "SYNTAINICS MBC",
                 "winner": true
               },
               "away": {
-                "name": "SYNTAINICS MBC",
+                "name": "FC Bayern Munich",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 112
+                "total": 91
               },
               "away": {
-                "total": 93
+                "total": 79
               }
             }
           }
@@ -939,413 +948,413 @@
             {
               "position": 1,
               "team": {
-                "name": "Bamberg Baskets",
-                "logo": ""
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 6,
-                  "percentage": "0.857"
-                },
-                "lose": {
-                  "total": 1
-                }
-              },
-              "points": {
-                "for": 618,
-                "against": 517
-              },
-              "form": "WLWWW"
-            },
-            {
-              "position": 2,
-              "team": {
-                "name": "Telekom Baskets Bonn",
-                "logo": ""
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.800"
-                },
-                "lose": {
-                  "total": 1
-                }
-              },
-              "points": {
-                "for": 445,
-                "against": 405
-              },
-              "form": "WWWLW"
-            },
-            {
-              "position": 3,
-              "team": {
                 "name": "FC Bayern Munich",
                 "logo": ""
               },
               "games": {
-                "played": 9,
+                "played": 19,
                 "win": {
-                  "total": 7,
-                  "percentage": "0.778"
+                  "total": 15,
+                  "percentage": "0.789"
                 },
                 "lose": {
-                  "total": 2
+                  "total": 4
                 }
               },
               "points": {
-                "for": 799,
-                "against": 715
+                "for": 1691,
+                "against": 1434
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Bamberg Baskets",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.750"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1773,
+                "against": 1610
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Alba Berlin",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.684"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1638,
+                "against": 1504
               },
               "form": "LLWWW"
             },
             {
               "position": 4,
               "team": {
-                "name": "Rasta Vechta",
+                "name": "Telekom Baskets Bonn",
                 "logo": ""
               },
               "games": {
-                "played": 6,
+                "played": 18,
                 "win": {
-                  "total": 4,
+                  "total": 12,
                   "percentage": "0.667"
                 },
                 "lose": {
-                  "total": 2
+                  "total": 6
                 }
               },
               "points": {
-                "for": 584,
-                "against": 539
+                "for": 1545,
+                "against": 1445
               },
-              "form": "LWWWW"
+              "form": "WLWWW"
             },
             {
               "position": 5,
-              "team": {
-                "name": "SYNTAINICS MBC",
-                "logo": ""
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.667"
-                },
-                "lose": {
-                  "total": 2
-                }
-              },
-              "points": {
-                "for": 537,
-                "against": 523
-              },
-              "form": "WLWWL"
-            },
-            {
-              "position": 6,
-              "team": {
-                "name": "Basketball Lowen Braunschweig",
-                "logo": ""
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3
-                }
-              },
-              "points": {
-                "for": 616,
-                "against": 627
-              },
-              "form": "LLWLW"
-            },
-            {
-              "position": 7,
               "team": {
                 "name": "EWE Baskets Oldenburg",
                 "logo": ""
               },
               "games": {
-                "played": 7,
+                "played": 19,
                 "win": {
-                  "total": 4,
-                  "percentage": "0.571"
+                  "total": 11,
+                  "percentage": "0.579"
                 },
                 "lose": {
-                  "total": 3
+                  "total": 8
                 }
               },
               "points": {
-                "for": 577,
-                "against": 601
+                "for": 1576,
+                "against": 1623
               },
-              "form": "LLWWL"
+              "form": "WWLWW"
             },
             {
-              "position": 8,
+              "position": 6,
               "team": {
-                "name": "Hamburg Towers",
+                "name": "Rasta Vechta",
                 "logo": ""
               },
               "games": {
-                "played": 8,
+                "played": 20,
                 "win": {
-                  "total": 4,
-                  "percentage": "0.500"
+                  "total": 11,
+                  "percentage": "0.550"
                 },
                 "lose": {
-                  "total": 4
+                  "total": 9
                 }
               },
               "points": {
-                "for": 700,
-                "against": 676
+                "for": 1885,
+                "against": 1787
               },
-              "form": "WWWLL"
+              "form": "LWWWW"
             },
             {
-              "position": 9,
-              "team": {
-                "name": "Niners Chemnitz",
-                "logo": ""
-              },
-              "games": {
-                "played": 8,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.500"
-                },
-                "lose": {
-                  "total": 4
-                }
-              },
-              "points": {
-                "for": 627,
-                "against": 649
-              },
-              "form": "WLLLW"
-            },
-            {
-              "position": 10,
-              "team": {
-                "name": "Alba Berlin",
-                "logo": ""
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.500"
-                },
-                "lose": {
-                  "total": 3
-                }
-              },
-              "points": {
-                "for": 512,
-                "against": 459
-              },
-              "form": "WLWWL"
-            },
-            {
-              "position": 11,
+              "position": 7,
               "team": {
                 "name": "MHP Riesen Ludwigsburg",
                 "logo": ""
               },
               "games": {
-                "played": 6,
+                "played": 20,
                 "win": {
-                  "total": 3,
-                  "percentage": "0.500"
+                  "total": 11,
+                  "percentage": "0.550"
                 },
                 "lose": {
-                  "total": 3
+                  "total": 9
                 }
               },
               "points": {
-                "for": 477,
-                "against": 496
+                "for": 1677,
+                "against": 1667
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Ratiopharm Ulm",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.526"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1580,
+                "against": 1508
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Hamburg Towers",
+                "logo": ""
+              },
+              "games": {
+                "played": 21,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.524"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1825,
+                "against": 1781
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Rostock Seawolves",
+                "logo": ""
+              },
+              "games": {
+                "played": 20,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1673,
+                "against": 1645
+              },
+              "form": "WLLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "W\u00fcrzburg Baskets",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.474"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1560,
+                "against": 1592
               },
               "form": "WLLWW"
             },
             {
               "position": 12,
               "team": {
-                "name": "Würzburg Baskets",
+                "name": "VET-CONCEPT Gladiators Trier",
                 "logo": ""
               },
               "games": {
-                "played": 7,
+                "played": 19,
                 "win": {
-                  "total": 3,
-                  "percentage": "0.429"
+                  "total": 8,
+                  "percentage": "0.421"
                 },
                 "lose": {
-                  "total": 4
+                  "total": 11
                 }
               },
               "points": {
-                "for": 574,
-                "against": 597
+                "for": 1763,
+                "against": 1825
               },
-              "form": "LLWWL"
+              "form": "LLLLW"
             },
             {
               "position": 13,
+              "team": {
+                "name": "Niners Chemnitz",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.421"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 1511,
+                "against": 1601
+              },
+              "form": "WLWWL"
+            },
+            {
+              "position": 14,
               "team": {
                 "name": "MLP Academics Heidelberg",
                 "logo": ""
               },
               "games": {
-                "played": 5,
+                "played": 19,
                 "win": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 7,
+                  "percentage": "0.368"
                 },
                 "lose": {
-                  "total": 3
+                  "total": 12
                 }
               },
               "points": {
-                "for": 415,
-                "against": 434
+                "for": 1464,
+                "against": 1651
               },
-              "form": "WLWLL"
-            },
-            {
-              "position": 14,
-              "team": {
-                "name": "Ratiopharm Ulm",
-                "logo": ""
-              },
-              "games": {
-                "played": 8,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.375"
-                },
-                "lose": {
-                  "total": 5
-                }
-              },
-              "points": {
-                "for": 640,
-                "against": 657
-              },
-              "form": "LWLLL"
+              "form": "WLLWL"
             },
             {
               "position": 15,
-              "team": {
-                "name": "VET-CONCEPT Gladiators Trier",
-                "logo": ""
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.286"
-                },
-                "lose": {
-                  "total": 5
-                }
-              },
-              "points": {
-                "for": 639,
-                "against": 691
-              },
-              "form": "LWWLL"
-            },
-            {
-              "position": 16,
-              "team": {
-                "name": "Fraport Skyliners",
-                "logo": ""
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.286"
-                },
-                "lose": {
-                  "total": 5
-                }
-              },
-              "points": {
-                "for": 534,
-                "against": 593
-              },
-              "form": "WWLLL"
-            },
-            {
-              "position": 17,
-              "team": {
-                "name": "Rostock Seawolves",
-                "logo": ""
-              },
-              "games": {
-                "played": 8,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.250"
-                },
-                "lose": {
-                  "total": 6
-                }
-              },
-              "points": {
-                "for": 619,
-                "against": 662
-              },
-              "form": "LWLLL"
-            },
-            {
-              "position": 18,
               "team": {
                 "name": "Science City Jena",
                 "logo": ""
               },
               "games": {
-                "played": 7,
+                "played": 20,
                 "win": {
-                  "total": 1,
-                  "percentage": "0.143"
+                  "total": 7,
+                  "percentage": "0.350"
                 },
                 "lose": {
-                  "total": 6
+                  "total": 13
                 }
               },
               "points": {
-                "for": 538,
-                "against": 610
+                "for": 1618,
+                "against": 1777
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "SYNTAINICS MBC",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.316"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 1626,
+                "against": 1666
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 17,
+              "team": {
+                "name": "Fraport Skyliners",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.263"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1526,
+                "against": 1660
               },
               "form": "LLLLL"
+            },
+            {
+              "position": 18,
+              "team": {
+                "name": "Basketball Lowen Braunschweig",
+                "logo": ""
+              },
+              "games": {
+                "played": 19,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.263"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 1584,
+                "against": 1739
+              },
+              "form": "WLWWL"
             }
           ]
         ],
         "statsH": {
-          "played": 5,
-          "win_pct": 0.4,
-          "scored": 106.475,
-          "conceded": 110.2875,
+          "played": 19,
+          "win_pct": 0.368,
+          "scored": 98.9,
+          "conceded": 112.1,
           "rank": null
         },
         "statsA": {
-          "played": 6,
-          "win_pct": 0.667,
-          "scored": 114.5,
-          "conceded": 111.80000000000001,
+          "played": 19,
+          "win_pct": 0.316,
+          "scored": 112.9,
+          "conceded": 112.3,
           "rank": null
         }
       }
@@ -1357,22 +1366,22 @@
       "date": "2026-05-04",
       "away_team": "Capitanes de Arecibo",
       "home_team": "San German",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 195.19,
-      "xpts_h": 103.5,
-      "xpts_a": 91.7,
+      "model_total": 193.21,
+      "xpts_h": 100.9,
+      "xpts_a": 92.3,
       "probs_1x2": {
-        "home": 83.7,
-        "away": 16.3
+        "home": 76.3,
+        "away": 23.7
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 17.57,
-      "away_team_volatility": 23.94,
+      "home_team_volatility": 17.04,
+      "away_team_volatility": 23.45,
       "market_total": 183.9,
-      "edge": 11.29,
+      "edge": 9.31,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -1381,7 +1390,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.152686+00:00",
+      "timestamp": "2026-05-04T22:38:59.027335+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1604,7 +1613,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayamón",
+                "name": "Vaqueros de Bayam\u00f3n",
                 "logo": ""
               },
               "games": {
@@ -1824,31 +1833,20 @@
           ]
         ],
         "statsH": {
-          "played": 15,
-          "win_pct": 0.667,
-          "scored": 123.3,
-          "conceded": 111.5,
+          "played": 16,
+          "win_pct": 0.625,
+          "scored": 121.8,
+          "conceded": 112.2,
           "rank": null
         },
         "statsA": {
-          "played": 12,
-          "win_pct": 0.667,
-          "scored": 124.2,
-          "conceded": 124.3,
+          "played": 13,
+          "win_pct": 0.692,
+          "scored": 124.0,
+          "conceded": 122.2,
           "rank": null
         }
-      },
-      "actual_home_score": 85,
-      "actual_away_score": 90,
-      "actual_result": "AWAY",
-      "halftime_home_score": 42,
-      "halftime_away_score": 54,
-      "halftime_total": 96,
-      "halftime_pct_of_model": 49.2,
-      "total_delta": 20.19,
-      "signed_delta": -20.19,
-      "total_rpe": 11.54,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "league_id": 34,
@@ -1857,7 +1855,7 @@
       "date": "2026-05-04",
       "away_team": "Horsens",
       "home_team": "Bakken Bears",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "Basketligaen - Semi-finals",
       "model_total": 175.44,
       "xpts_h": 97.3,
@@ -1881,7 +1879,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:53.242085+00:00",
+      "timestamp": "2026-05-04T22:38:59.039887+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2419,18 +2417,7 @@
           "conceded": 110.7,
           "rank": null
         }
-      },
-      "actual_home_score": 110,
-      "actual_away_score": 67,
-      "actual_result": "HOME",
-      "halftime_home_score": 56,
-      "halftime_away_score": 31,
-      "halftime_total": 87,
-      "halftime_pct_of_model": 49.6,
-      "total_delta": 1.56,
-      "signed_delta": 1.56,
-      "total_rpe": 0.88,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "league_id": 34,
@@ -2439,7 +2426,7 @@
       "date": "2026-05-04",
       "away_team": "Svendborg",
       "home_team": "Team FOG Naestved",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "Basketligaen - Semi-finals",
       "model_total": 189.48,
       "xpts_h": 92.4,
@@ -2463,7 +2450,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:53.270811+00:00",
+      "timestamp": "2026-05-04T22:38:59.045858+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3020,18 +3007,7 @@
           "conceded": 101.6,
           "rank": null
         }
-      },
-      "actual_home_score": 111,
-      "actual_away_score": 87,
-      "actual_result": "HOME",
-      "halftime_home_score": 50,
-      "halftime_away_score": 59,
-      "halftime_total": 109,
-      "halftime_pct_of_model": 57.5,
-      "total_delta": 8.52,
-      "signed_delta": 8.52,
-      "total_rpe": 4.3,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "league_id": 233,
@@ -3040,22 +3016,22 @@
       "date": "2026-05-04",
       "away_team": "Cholet U21",
       "home_team": "Monaco U21",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "20",
-      "model_total": 181.63,
-      "xpts_h": 82.3,
-      "xpts_a": 99.4,
+      "model_total": 178.88,
+      "xpts_h": 87.5,
+      "xpts_a": 91.4,
       "probs_1x2": {
-        "home": 7.7,
-        "away": 92.3
+        "home": 37.0,
+        "away": 63.0
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 20.97,
-      "away_team_volatility": 15.52,
+      "home_team_volatility": 21.26,
+      "away_team_volatility": 15.81,
       "market_total": 156.8,
-      "edge": 24.83,
+      "edge": 22.08,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -3064,7 +3040,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.406215+00:00",
+      "timestamp": "2026-05-04T22:38:59.097277+00:00",
       "match_center": {
         "h2h": [
           {
@@ -3658,31 +3634,20 @@
           ]
         ],
         "statsH": {
-          "played": 19,
-          "win_pct": 0.684,
-          "scored": 127.1,
-          "conceded": 103.7,
+          "played": 20,
+          "win_pct": 0.7,
+          "scored": 127.3,
+          "conceded": 99.0,
           "rank": null
         },
         "statsA": {
-          "played": 19,
-          "win_pct": 0.895,
-          "scored": 135.0,
-          "conceded": 86.5,
+          "played": 20,
+          "win_pct": 0.85,
+          "scored": 126.4,
+          "conceded": 89.8,
           "rank": null
         }
-      },
-      "actual_home_score": 83,
-      "actual_away_score": 65,
-      "actual_result": "HOME",
-      "halftime_home_score": 31,
-      "halftime_away_score": 33,
-      "halftime_total": 64,
-      "halftime_pct_of_model": 35.2,
-      "total_delta": 33.63,
-      "signed_delta": -33.63,
-      "total_rpe": 22.72,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 396,
@@ -3691,22 +3656,22 @@
       "date": "2026-05-04",
       "away_team": "Tobol Kostanay 2",
       "home_team": "Pavlodar",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 145.43,
-      "xpts_h": 60.1,
-      "xpts_a": 85.3,
+      "model_total": 143.82,
+      "xpts_h": 58.3,
+      "xpts_a": 85.5,
       "probs_1x2": {
-        "home": 1.8,
-        "away": 98.2
+        "home": 1.2,
+        "away": 98.8
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 18.77,
-      "away_team_volatility": 16.72,
+      "home_team_volatility": 18.41,
+      "away_team_volatility": 16.25,
       "market_total": 150.1,
-      "edge": -4.67,
+      "edge": -6.28,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -3715,7 +3680,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.512475+00:00",
+      "timestamp": "2026-05-04T22:38:59.121258+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4267,31 +4232,20 @@
           ]
         ],
         "statsH": {
-          "played": 24,
-          "win_pct": 0.083,
-          "scored": 66.5,
-          "conceded": 121.2,
+          "played": 25,
+          "win_pct": 0.08,
+          "scored": 67.3,
+          "conceded": 119.8,
           "rank": null
         },
         "statsA": {
-          "played": 16,
-          "win_pct": 0.375,
-          "scored": 86.3,
-          "conceded": 105.5,
+          "played": 17,
+          "win_pct": 0.412,
+          "scored": 87.8,
+          "conceded": 102.3,
           "rank": null
         }
-      },
-      "actual_home_score": 65,
-      "actual_away_score": 76,
-      "actual_result": "AWAY",
-      "halftime_home_score": 36,
-      "halftime_away_score": 40,
-      "halftime_total": 76,
-      "halftime_pct_of_model": 52.3,
-      "total_delta": 4.43,
-      "signed_delta": -4.43,
-      "total_rpe": 3.14,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "league_id": 396,
@@ -4300,22 +4254,22 @@
       "date": "2026-05-04",
       "away_team": "Arlans",
       "home_team": "AiRom",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 156.52,
-      "xpts_h": 75.5,
-      "xpts_a": 81.0,
+      "model_total": 157.86,
+      "xpts_h": 74.7,
+      "xpts_a": 83.1,
       "probs_1x2": {
-        "home": 32.2,
-        "away": 67.8
+        "home": 24.1,
+        "away": 75.9
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 19.94,
-      "away_team_volatility": 17.46,
+      "home_team_volatility": 19.73,
+      "away_team_volatility": 17.06,
       "market_total": 150.1,
-      "edge": 6.42,
+      "edge": 7.76,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -4324,7 +4278,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.530048+00:00",
+      "timestamp": "2026-05-04T22:38:59.124854+00:00",
       "match_center": {
         "h2h": [
           {
@@ -4896,31 +4850,20 @@
           ]
         ],
         "statsH": {
-          "played": 22,
-          "win_pct": 0.182,
-          "scored": 73.8,
-          "conceded": 117.9,
+          "played": 23,
+          "win_pct": 0.174,
+          "scored": 76.1,
+          "conceded": 117.8,
           "rank": null
         },
         "statsA": {
-          "played": 22,
-          "win_pct": 0.182,
-          "scored": 84.9,
-          "conceded": 118.7,
+          "played": 23,
+          "win_pct": 0.217,
+          "scored": 87.8,
+          "conceded": 115.5,
           "rank": null
         }
-      },
-      "actual_home_score": 77,
-      "actual_away_score": 82,
-      "actual_result": "AWAY",
-      "halftime_home_score": 41,
-      "halftime_away_score": 34,
-      "halftime_total": 75,
-      "halftime_pct_of_model": 47.9,
-      "total_delta": 2.48,
-      "signed_delta": 2.48,
-      "total_rpe": 1.56,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "league_id": 396,
@@ -4929,22 +4872,22 @@
       "date": "2026-05-04",
       "away_team": "Tigers-KazATU",
       "home_team": "Karaganda",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 152.94,
-      "xpts_h": 84.7,
-      "xpts_a": 68.3,
+      "model_total": 152.1,
+      "xpts_h": 89.0,
+      "xpts_a": 63.1,
       "probs_1x2": {
-        "home": 91.4,
-        "away": 8.6
+        "home": 98.5,
+        "away": 1.5
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 18.07,
-      "away_team_volatility": 17.71,
+      "home_team_volatility": 17.91,
+      "away_team_volatility": 17.26,
       "market_total": 150.1,
-      "edge": 2.84,
+      "edge": 2.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -4953,7 +4896,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.569018+00:00",
+      "timestamp": "2026-05-04T22:38:59.128991+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5505,31 +5448,20 @@
           ]
         ],
         "statsH": {
-          "played": 24,
-          "win_pct": 0.5,
-          "scored": 104.5,
-          "conceded": 96.4,
+          "played": 25,
+          "win_pct": 0.52,
+          "scored": 106.8,
+          "conceded": 92.8,
           "rank": null
         },
         "statsA": {
-          "played": 19,
-          "win_pct": 0.368,
-          "scored": 89.8,
-          "conceded": 99.5,
+          "played": 20,
+          "win_pct": 0.35,
+          "scored": 86.7,
+          "conceded": 102.7,
           "rank": null
         }
-      },
-      "actual_home_score": 86,
-      "actual_away_score": 61,
-      "actual_result": "HOME",
-      "halftime_home_score": 40,
-      "halftime_away_score": 30,
-      "halftime_total": 70,
-      "halftime_pct_of_model": 45.8,
-      "total_delta": 5.94,
-      "signed_delta": -5.94,
-      "total_rpe": 4.04,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "league_id": 36,
@@ -5538,22 +5470,22 @@
       "date": "2026-05-04",
       "away_team": "Parnu",
       "home_team": "Tartu Ulikool",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "Korvpalli Meistriliiga - Semi-finals",
-      "model_total": 175.78,
-      "xpts_h": 90.8,
-      "xpts_a": 85.0,
+      "model_total": 174.99,
+      "xpts_h": 91.2,
+      "xpts_a": 83.7,
       "probs_1x2": {
-        "home": 68.7,
-        "away": 31.3
+        "home": 73.4,
+        "away": 26.6
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 13.83,
-      "away_team_volatility": 9.12,
+      "home_team_volatility": 13.42,
+      "away_team_volatility": 9.13,
       "market_total": 161.9,
-      "edge": 13.88,
+      "edge": 13.09,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -5562,7 +5494,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.719667+00:00",
+      "timestamp": "2026-05-04T22:38:59.154755+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5960,31 +5892,20 @@
           ]
         ],
         "statsH": {
-          "played": 16,
-          "win_pct": 0.5,
-          "scored": 106.1,
-          "conceded": 101.3,
+          "played": 17,
+          "win_pct": 0.529,
+          "scored": 106.2,
+          "conceded": 100.9,
           "rank": null
         },
         "statsA": {
-          "played": 10,
-          "win_pct": 0.7,
-          "scored": 107.4,
+          "played": 11,
+          "win_pct": 0.636,
+          "scored": 105.8,
           "conceded": 106.9,
           "rank": null
         }
-      },
-      "actual_home_score": 82,
-      "actual_away_score": 75,
-      "actual_result": "HOME",
-      "halftime_home_score": 45,
-      "halftime_away_score": 36,
-      "halftime_total": 81,
-      "halftime_pct_of_model": 46.1,
-      "total_delta": 18.78,
-      "signed_delta": -18.78,
-      "total_rpe": 11.96,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "league_id": 27,
@@ -5993,7 +5914,7 @@
       "date": "2026-05-04",
       "away_team": "Santo Andre W",
       "home_team": "Sao Jose W",
-      "status": "Not Started",
+      "status": "Quarter 1",
       "stage": "",
       "model_total": 139.61,
       "xpts_h": 67.4,
@@ -6017,7 +5938,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.757837+00:00",
+      "timestamp": "2026-05-04T22:38:59.162241+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6481,22 +6402,22 @@
       "date": "2026-05-04",
       "away_team": "Ventspils",
       "home_team": "VEF Riga",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "LBL - Semi-finals",
-      "model_total": 185.59,
-      "xpts_h": 99.7,
-      "xpts_a": 85.9,
+      "model_total": 182.35,
+      "xpts_h": 96.6,
+      "xpts_a": 85.8,
       "probs_1x2": {
-        "home": 87.6,
-        "away": 12.4
+        "home": 81.7,
+        "away": 18.3
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 23.25,
-      "away_team_volatility": 19.09,
+      "home_team_volatility": 24.33,
+      "away_team_volatility": 20.12,
       "market_total": 175.0,
-      "edge": 10.59,
+      "edge": 7.35,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -6505,7 +6426,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:53.955672+00:00",
+      "timestamp": "2026-05-04T22:38:59.182893+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6936,31 +6857,20 @@
           ]
         ],
         "statsH": {
-          "played": 12,
-          "win_pct": 0.75,
-          "scored": 125.9,
-          "conceded": 103.5,
+          "played": 13,
+          "win_pct": 0.692,
+          "scored": 122.6,
+          "conceded": 103.1,
           "rank": null
         },
         "statsA": {
-          "played": 18,
-          "win_pct": 0.611,
-          "scored": 117.5,
-          "conceded": 109.7,
+          "played": 19,
+          "win_pct": 0.632,
+          "scored": 116.6,
+          "conceded": 107.8,
           "rank": null
         }
-      },
-      "actual_home_score": 67,
-      "actual_away_score": 75,
-      "actual_result": "AWAY",
-      "halftime_home_score": 30,
-      "halftime_away_score": 37,
-      "halftime_total": 67,
-      "halftime_pct_of_model": 36.1,
-      "total_delta": 43.59,
-      "signed_delta": -43.59,
-      "total_rpe": 30.7,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 225,
@@ -6969,7 +6879,7 @@
       "date": "2026-05-04",
       "away_team": "Piratas de Bogota",
       "home_team": "Paisas",
-      "status": "Not Started",
+      "status": "Quarter 2",
       "stage": "",
       "model_total": 169.47,
       "xpts_h": 108.7,
@@ -6993,7 +6903,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:53.991345+00:00",
+      "timestamp": "2026-05-04T22:38:59.193595+00:00",
       "match_center": {
         "h2h": [
           {
@@ -7471,22 +7381,22 @@
       "date": "2026-05-04",
       "away_team": "Puerto Montt",
       "home_team": "Naviera Ulloa",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 174.5,
-      "xpts_h": 79.7,
-      "xpts_a": 94.8,
+      "model_total": 174.57,
+      "xpts_h": 80.1,
+      "xpts_a": 94.5,
       "probs_1x2": {
-        "home": 10.4,
-        "away": 89.6
+        "home": 11.5,
+        "away": 88.5
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 15.09,
-      "away_team_volatility": 20.93,
+      "home_team_volatility": 14.3,
+      "away_team_volatility": 20.06,
       "market_total": 151.5,
-      "edge": 23.0,
+      "edge": 23.07,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -7495,7 +7405,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:54.174938+00:00",
+      "timestamp": "2026-05-04T22:38:59.205568+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -7769,31 +7679,20 @@
           ]
         ],
         "statsH": {
-          "played": 9,
-          "win_pct": 0.222,
-          "scored": 96.3,
-          "conceded": 135.0,
+          "played": 10,
+          "win_pct": 0.2,
+          "scored": 96.6,
+          "conceded": 134.0,
           "rank": null
         },
         "statsA": {
-          "played": 9,
-          "win_pct": 0.222,
-          "scored": 97.7,
-          "conceded": 113.8,
+          "played": 10,
+          "win_pct": 0.3,
+          "scored": 98.6,
+          "conceded": 114.3,
           "rank": null
         }
-      },
-      "actual_home_score": 86,
-      "actual_away_score": 89,
-      "actual_result": "AWAY",
-      "halftime_home_score": 50,
-      "halftime_away_score": 47,
-      "halftime_total": 97,
-      "halftime_pct_of_model": 55.6,
-      "total_delta": 0.5,
-      "signed_delta": 0.5,
-      "total_rpe": 0.29,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "league_id": 114,
@@ -7802,22 +7701,22 @@
       "date": "2026-05-04",
       "away_team": "CD Puerto Varas",
       "home_team": "Espanol Osorno",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 163.04,
-      "xpts_h": 87.9,
-      "xpts_a": 75.2,
+      "model_total": 164.07,
+      "xpts_h": 89.3,
+      "xpts_a": 74.8,
       "probs_1x2": {
-        "home": 85.5,
-        "away": 14.5
+        "home": 88.5,
+        "away": 11.5
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 13.73,
-      "away_team_volatility": 21.16,
+      "home_team_volatility": 13.91,
+      "away_team_volatility": 15.8,
       "market_total": 151.5,
-      "edge": 11.54,
+      "edge": 12.57,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -7826,7 +7725,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:54.213467+00:00",
+      "timestamp": "2026-05-04T22:38:59.208606+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8351,31 +8250,20 @@
           ]
         ],
         "statsH": {
-          "played": 15,
-          "win_pct": 0.6,
-          "scored": 108.8,
-          "conceded": 94.9,
+          "played": 16,
+          "win_pct": 0.625,
+          "scored": 109.6,
+          "conceded": 95.9,
           "rank": null
         },
         "statsA": {
           "played": 11,
           "win_pct": 0.636,
-          "scored": 111.7,
-          "conceded": 110.9,
+          "scored": 110.4,
+          "conceded": 112.0,
           "rank": null
         }
-      },
-      "actual_home_score": 90,
-      "actual_away_score": 81,
-      "actual_result": "HOME",
-      "halftime_home_score": 42,
-      "halftime_away_score": 37,
-      "halftime_total": 79,
-      "halftime_pct_of_model": 48.5,
-      "total_delta": 7.96,
-      "signed_delta": 7.96,
-      "total_rpe": 4.65,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "league_id": 114,
@@ -8384,31 +8272,31 @@
       "date": "2026-05-04",
       "away_team": "Puente Alto",
       "home_team": "Catolica",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 166.17,
-      "xpts_h": 66.7,
-      "xpts_a": 99.4,
+      "model_total": 162.89,
+      "xpts_h": 65.7,
+      "xpts_a": 97.2,
       "probs_1x2": {
-        "home": 0.3,
-        "away": 99.7
+        "home": 0.4,
+        "away": 99.6
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 24.76,
-      "away_team_volatility": 15.31,
+      "home_team_volatility": 20.19,
+      "away_team_volatility": 15.36,
       "market_total": 151.5,
-      "edge": 14.67,
+      "edge": 11.39,
       "side": "OVER",
-      "decision": "PLAY OVER",
-      "confidence": "SOLID",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
       "mbet_threshold": 14.0,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:54.234650+00:00",
+      "timestamp": "2026-05-04T22:38:59.211905+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8935,29 +8823,18 @@
         "statsH": {
           "played": 10,
           "win_pct": 0.2,
-          "scored": 98.9,
-          "conceded": 115.3,
+          "scored": 98.3,
+          "conceded": 113.2,
           "rank": null
         },
         "statsA": {
-          "played": 9,
-          "win_pct": 0.667,
-          "scored": 120.5,
-          "conceded": 91.8,
+          "played": 10,
+          "win_pct": 0.7,
+          "scored": 119.3,
+          "conceded": 90.6,
           "rank": null
         }
-      },
-      "actual_home_score": 70,
-      "actual_away_score": 78,
-      "actual_result": "AWAY",
-      "halftime_home_score": 30,
-      "halftime_away_score": 43,
-      "halftime_total": 73,
-      "halftime_pct_of_model": 43.9,
-      "total_delta": 18.17,
-      "signed_delta": -18.17,
-      "total_rpe": 12.28,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "league_id": 114,
@@ -8966,22 +8843,22 @@
       "date": "2026-05-04",
       "away_team": "Las Animas",
       "home_team": "Valdivia",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 158.16,
-      "xpts_h": 76.5,
-      "xpts_a": 81.6,
+      "model_total": 163.81,
+      "xpts_h": 82.5,
+      "xpts_a": 81.3,
       "probs_1x2": {
-        "home": 33.6,
-        "away": 66.4
+        "home": 54.2,
+        "away": 45.8
       },
-      "predicted_result": "AWAY",
+      "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 19.57,
-      "away_team_volatility": 9.56,
+      "home_team_volatility": 19.99,
+      "away_team_volatility": 10.34,
       "market_total": 151.5,
-      "edge": 6.66,
+      "edge": 12.31,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -8990,7 +8867,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:54.243016+00:00",
+      "timestamp": "2026-05-04T22:38:59.218729+00:00",
       "match_center": {
         "h2h": [
           {
@@ -9517,29 +9394,18 @@
         "statsH": {
           "played": 19,
           "win_pct": 0.526,
-          "scored": 105.5,
-          "conceded": 102.4,
+          "scored": 108.2,
+          "conceded": 102.5,
           "rank": null
         },
         "statsA": {
-          "played": 10,
-          "win_pct": 0.8,
-          "scored": 111.8,
-          "conceded": 99.0,
+          "played": 11,
+          "win_pct": 0.727,
+          "scored": 110.1,
+          "conceded": 102.8,
           "rank": null
         }
-      },
-      "actual_home_score": 97,
-      "actual_away_score": 83,
-      "actual_result": "HOME",
-      "halftime_home_score": 51,
-      "halftime_away_score": 49,
-      "halftime_total": 100,
-      "halftime_pct_of_model": 63.2,
-      "total_delta": 21.84,
-      "signed_delta": 21.84,
-      "total_rpe": 12.13,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 258,
@@ -9572,7 +9438,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:55.004982+00:00",
+      "timestamp": "2026-05-04T22:38:59.238586+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10077,7 +9943,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "second_division",
-      "timestamp": "2026-05-04T07:36:55.020970+00:00",
+      "timestamp": "2026-05-04T22:38:59.243617+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10558,11 +10424,11 @@
       "date": "2026-05-04",
       "away_team": "Stadio Italiano",
       "home_team": "Sergio Ceppi",
-      "status": "AOT",
+      "status": "After Over Time",
       "stage": "",
-      "model_total": 134.58,
-      "xpts_h": 63.0,
-      "xpts_a": 71.5,
+      "model_total": 136.12,
+      "xpts_h": 63.8,
+      "xpts_a": 72.3,
       "probs_1x2": {
         "home": 23.9,
         "away": 76.1
@@ -10570,10 +10436,10 @@
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 18.43,
-      "away_team_volatility": 16.6,
+      "home_team_volatility": 17.98,
+      "away_team_volatility": 16.4,
       "market_total": 145.6,
-      "edge": -11.02,
+      "edge": -9.48,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -10582,7 +10448,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.262314+00:00",
+      "timestamp": "2026-05-04T22:38:59.255855+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10601,6 +10467,25 @@
               },
               "away": {
                 "total": 80
+              }
+            }
+          },
+          {
+            "date": "2026-05-04",
+            "teams": {
+              "home": {
+                "name": "Sergio Ceppi"
+              },
+              "away": {
+                "name": "Stadio Italiano"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 79
               }
             }
           }
@@ -10956,49 +10841,27 @@
             {
               "position": 7,
               "team": {
-                "name": "Sergio Ceppi",
-                "logo": ""
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2
-                }
-              },
-              "points": {
-                "for": 409,
-                "against": 381
-              },
-              "form": "LWLWW"
-            },
-            {
-              "position": 8,
-              "team": {
                 "name": "Stadio Italiano",
                 "logo": ""
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
-                  "total": 3,
-                  "percentage": "0.600"
+                  "total": 4,
+                  "percentage": "0.667"
                 },
                 "lose": {
                   "total": 2
                 }
               },
               "points": {
-                "for": 378,
-                "against": 357
+                "for": 457,
+                "against": 433
               },
               "form": "WLWWL"
             },
             {
-              "position": 9,
+              "position": 8,
               "team": {
                 "name": "Omega",
                 "logo": ""
@@ -11020,7 +10883,7 @@
               "form": "LWLWW"
             },
             {
-              "position": 10,
+              "position": 9,
               "team": {
                 "name": "Vila Alemana",
                 "logo": ""
@@ -11042,7 +10905,7 @@
               "form": "LLWWW"
             },
             {
-              "position": 11,
+              "position": 10,
               "team": {
                 "name": "Luis Matte Larrain",
                 "logo": ""
@@ -11062,6 +10925,28 @@
                 "against": 450
               },
               "form": "LWWLW"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Sergio Ceppi",
+                "logo": ""
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 485,
+                "against": 460
+              },
+              "form": "LWLWW"
             },
             {
               "position": 12,
@@ -11330,30 +11215,20 @@
           ]
         ],
         "statsH": {
-          "played": 13,
-          "win_pct": 0.308,
-          "scored": 80.4,
-          "conceded": 91.9,
+          "played": 14,
+          "win_pct": 0.286,
+          "scored": 81.3,
+          "conceded": 92.6,
           "rank": null
         },
         "statsA": {
-          "played": 17,
-          "win_pct": 0.471,
-          "scored": 91.3,
-          "conceded": 88.7,
+          "played": 18,
+          "win_pct": 0.5,
+          "scored": 91.7,
+          "conceded": 88.9,
           "rank": null
         }
-      },
-      "actual_home_score": 76,
-      "actual_away_score": 79,
-      "actual_result": "AWAY",
-      "halftime_home_score": 40,
-      "halftime_away_score": 28,
-      "halftime_total": 68,
-      "halftime_pct_of_model": 50.5,
-      "accuracy_tier": "OT WARP",
-      "total_delta": null,
-      "total_rpe": null
+      }
     },
     {
       "league_id": 239,
@@ -11362,22 +11237,22 @@
       "date": "2026-05-04",
       "away_team": "Elitzur Shomron",
       "home_team": "Hapoel Haifa",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "Liga Leumit - Quarter-finals",
-      "model_total": 166.13,
-      "xpts_h": 87.4,
-      "xpts_a": 78.7,
+      "model_total": 167.3,
+      "xpts_h": 84.1,
+      "xpts_a": 83.2,
       "probs_1x2": {
-        "home": 76.7,
-        "away": 23.3
+        "home": 52.9,
+        "away": 47.1
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 21.82,
-      "away_team_volatility": 18.83,
+      "home_team_volatility": 21.32,
+      "away_team_volatility": 18.39,
       "market_total": 171.1,
-      "edge": -4.97,
+      "edge": -3.8,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -11386,7 +11261,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.418488+00:00",
+      "timestamp": "2026-05-04T22:38:59.274687+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11980,47 +11855,36 @@
           ]
         ],
         "statsH": {
-          "played": 20,
-          "win_pct": 0.7,
-          "scored": 116.1,
-          "conceded": 105.4,
+          "played": 21,
+          "win_pct": 0.667,
+          "scored": 112.5,
+          "conceded": 107.2,
           "rank": null
         },
         "statsA": {
-          "played": 21,
-          "win_pct": 0.524,
-          "scored": 105.6,
-          "conceded": 102.9,
+          "played": 22,
+          "win_pct": 0.545,
+          "scored": 107.9,
+          "conceded": 100.5,
           "rank": null
         }
-      },
-      "actual_home_score": 75,
-      "actual_away_score": 87,
-      "actual_result": "AWAY",
-      "halftime_home_score": 44,
-      "halftime_away_score": 46,
-      "halftime_total": 90,
-      "halftime_pct_of_model": 54.2,
-      "total_delta": 4.13,
-      "signed_delta": -4.13,
-      "total_rpe": 2.55,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "league_id": 89,
       "league": "Liga Nova KBM",
       "country": "Slovenia",
       "date": "2026-05-04",
-      "away_team": "Terme Olimia Podčetrtek",
+      "away_team": "Terme Olimia Pod\u010detrtek",
       "home_team": "Polzela",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "27",
-      "model_total": 167.28,
+      "model_total": 167.37,
       "xpts_h": 92.2,
-      "xpts_a": 75.1,
+      "xpts_a": 75.2,
       "probs_1x2": {
-        "home": 92.3,
-        "away": 7.7
+        "home": 92.1,
+        "away": 7.9
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -12028,7 +11892,7 @@
       "home_team_volatility": 24.95,
       "away_team_volatility": 18.25,
       "market_total": 165.6,
-      "edge": 1.68,
+      "edge": 1.77,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -12037,7 +11901,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.500217+00:00",
+      "timestamp": "2026-05-04T22:38:59.302605+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12066,7 +11930,7 @@
             "date": "Apr 11, 2026",
             "teams": {
               "home": {
-                "name": "Kansai Helios Domžale",
+                "name": "Kansai Helios Dom\u017eale",
                 "winner": false
               },
               "away": {
@@ -12152,7 +12016,7 @@
             "date": "Apr 4, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": false
               },
               "away": {
@@ -12177,7 +12041,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": false
               }
             },
@@ -12194,7 +12058,7 @@
             "date": "Apr 20, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": true
               },
               "away": {
@@ -12219,7 +12083,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": true
               }
             },
@@ -12236,7 +12100,7 @@
             "date": "Apr 30, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": false
               },
               "away": {
@@ -12369,7 +12233,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "logo": ""
               },
               "games": {
@@ -12457,7 +12321,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Kansai Helios Domžale",
+                "name": "Kansai Helios Dom\u017eale",
                 "logo": ""
               },
               "games": {
@@ -12482,28 +12346,17 @@
           "played": 5,
           "win_pct": 0.6,
           "scored": 111.3875,
-          "conceded": 110.0125,
+          "conceded": 110.075,
           "rank": null
         },
         "statsA": {
           "played": 5,
           "win_pct": 0.4,
-          "scored": 92.2,
+          "scored": 92.2625,
           "conceded": 109.5125,
           "rank": null
         }
-      },
-      "actual_home_score": 96,
-      "actual_away_score": 68,
-      "actual_result": "HOME",
-      "halftime_home_score": 51,
-      "halftime_away_score": 39,
-      "halftime_total": 90,
-      "halftime_pct_of_model": 53.8,
-      "total_delta": 3.28,
-      "signed_delta": -3.28,
-      "total_rpe": 2.0,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "league_id": 89,
@@ -12512,7 +12365,7 @@
       "date": "2026-05-04",
       "away_team": "Rogaska",
       "home_team": "Zlatorog Lasko",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "27",
       "model_total": 167.99,
       "xpts_h": 79.2,
@@ -12536,7 +12389,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.509701+00:00",
+      "timestamp": "2026-05-04T22:38:59.309945+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12607,7 +12460,7 @@
             "date": "Apr 20, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": true
               },
               "away": {
@@ -12697,7 +12550,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "winner": false
               }
             },
@@ -12868,7 +12721,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "logo": ""
               },
               "games": {
@@ -12956,7 +12809,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Kansai Helios Domžale",
+                "name": "Kansai Helios Dom\u017eale",
                 "logo": ""
               },
               "games": {
@@ -12991,18 +12844,7 @@
           "conceded": 109.49999999999999,
           "rank": null
         }
-      },
-      "actual_home_score": 80,
-      "actual_away_score": 76,
-      "actual_result": "HOME",
-      "halftime_home_score": 44,
-      "halftime_away_score": 47,
-      "halftime_total": 91,
-      "halftime_pct_of_model": 54.2,
-      "total_delta": 11.99,
-      "signed_delta": -11.99,
-      "total_rpe": 7.69,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "league_id": 89,
@@ -13011,7 +12853,7 @@
       "date": "2026-05-04",
       "away_team": "Sencur",
       "home_team": "Helios Domzale",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "27",
       "model_total": 169.36,
       "xpts_h": 80.6,
@@ -13035,7 +12877,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.532782+00:00",
+      "timestamp": "2026-05-04T22:38:59.317945+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -13261,7 +13103,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Terme Olimia Podčetrtek",
+                "name": "Terme Olimia Pod\u010detrtek",
                 "logo": ""
               },
               "games": {
@@ -13349,7 +13191,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Kansai Helios Domžale",
+                "name": "Kansai Helios Dom\u017eale",
                 "logo": ""
               },
               "games": {
@@ -13384,18 +13226,7 @@
           "conceded": 106.27499999999999,
           "rank": null
         }
-      },
-      "actual_home_score": 70,
-      "actual_away_score": 76,
-      "actual_result": "AWAY",
-      "halftime_home_score": 38,
-      "halftime_away_score": 46,
-      "halftime_total": 84,
-      "halftime_pct_of_model": 49.6,
-      "total_delta": 23.36,
-      "signed_delta": -23.36,
-      "total_rpe": 16.0,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 426,
@@ -13404,22 +13235,22 @@
       "date": "2026-05-04",
       "away_team": "Bacolod Masskara",
       "home_team": "Quezon City",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 167.29,
-      "xpts_h": 89.7,
-      "xpts_a": 77.6,
+      "model_total": 171.95,
+      "xpts_h": 93.6,
+      "xpts_a": 78.3,
       "probs_1x2": {
-        "home": 84.4,
-        "away": 15.6
+        "home": 89.9,
+        "away": 10.1
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 10.84,
-      "away_team_volatility": 31.57,
+      "home_team_volatility": 14.86,
+      "away_team_volatility": 27.51,
       "market_total": 156.1,
-      "edge": 11.19,
+      "edge": 15.85,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -13428,7 +13259,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.571347+00:00",
+      "timestamp": "2026-05-04T22:38:59.345034+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -14204,31 +14035,20 @@
           ]
         ],
         "statsH": {
-          "played": 4,
-          "win_pct": 0.5,
-          "scored": 97.3,
-          "conceded": 99.15,
+          "played": 5,
+          "win_pct": 0.6,
+          "scored": 99.5375,
+          "conceded": 100.5375,
           "rank": null
         },
         "statsA": {
-          "played": 4,
-          "win_pct": 0.25,
-          "scored": 101.4,
-          "conceded": 115.6,
+          "played": 5,
+          "win_pct": 0.2,
+          "scored": 101.2875,
+          "conceded": 118.725,
           "rank": null
         }
-      },
-      "actual_home_score": 93,
-      "actual_away_score": 83,
-      "actual_result": "HOME",
-      "halftime_home_score": 44,
-      "halftime_away_score": 39,
-      "halftime_total": 83,
-      "halftime_pct_of_model": 49.6,
-      "total_delta": 8.71,
-      "signed_delta": 8.71,
-      "total_rpe": 4.95,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "league_id": 426,
@@ -14237,22 +14057,22 @@
       "date": "2026-05-04",
       "away_team": "Iloilo United Royals",
       "home_team": "GenSan Warriors",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 164.87,
-      "xpts_h": 97.7,
-      "xpts_a": 67.2,
+      "model_total": 173.44,
+      "xpts_h": 110.3,
+      "xpts_a": 63.2,
       "probs_1x2": {
-        "home": 99.4,
-        "away": 0.6
+        "home": 100.0,
+        "away": 0.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 20.71,
-      "away_team_volatility": 26.06,
+      "home_team_volatility": 22.88,
+      "away_team_volatility": 24.31,
       "market_total": 156.1,
-      "edge": 8.77,
+      "edge": 17.34,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -14261,7 +14081,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.590590+00:00",
+      "timestamp": "2026-05-04T22:38:59.354187+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -15037,31 +14857,20 @@
           ]
         ],
         "statsH": {
-          "played": 4,
+          "played": 5,
           "win_pct": 1.0,
-          "scored": 111.8,
-          "conceded": 90.25,
+          "scored": 120.35,
+          "conceded": 88.0375,
           "rank": null
         },
         "statsA": {
-          "played": 4,
-          "win_pct": 0.25,
-          "scored": 96.8,
-          "conceded": 111.15,
+          "played": 5,
+          "win_pct": 0.2,
+          "scored": 94.475,
+          "conceded": 119.35,
           "rank": null
         }
-      },
-      "actual_home_score": 120,
-      "actual_away_score": 68,
-      "actual_result": "HOME",
-      "halftime_home_score": 45,
-      "halftime_away_score": 40,
-      "halftime_total": 85,
-      "halftime_pct_of_model": 51.6,
-      "total_delta": 23.13,
-      "signed_delta": 23.13,
-      "total_rpe": 12.3,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 426,
@@ -15070,22 +14879,22 @@
       "date": "2026-05-04",
       "away_team": "Imus Braderhood",
       "home_team": "Pasay Voyagers",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
-      "model_total": 163.5,
-      "xpts_h": 88.5,
-      "xpts_a": 75.0,
+      "model_total": 169.32,
+      "xpts_h": 98.8,
+      "xpts_a": 70.6,
       "probs_1x2": {
-        "home": 87.0,
-        "away": 13.0
+        "home": 99.1,
+        "away": 0.9
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 16.7,
-      "away_team_volatility": 33.69,
+      "home_team_volatility": 18.63,
+      "away_team_volatility": 29.35,
       "market_total": 156.1,
-      "edge": 7.4,
+      "edge": 13.22,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -15094,7 +14903,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.606904+00:00",
+      "timestamp": "2026-05-04T22:38:59.359347+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15954,31 +15763,20 @@
           ]
         ],
         "statsH": {
-          "played": 4,
-          "win_pct": 0.5,
-          "scored": 101.44999999999999,
-          "conceded": 96.9,
+          "played": 5,
+          "win_pct": 0.6,
+          "scored": 108.35,
+          "conceded": 94.475,
           "rank": null
         },
         "statsA": {
-          "played": 4,
-          "win_pct": 0.5,
-          "scored": 100.05,
-          "conceded": 109.65,
+          "played": 5,
+          "win_pct": 0.4,
+          "scored": 97.225,
+          "conceded": 116.2875,
           "rank": null
         }
-      },
-      "actual_home_score": 109,
-      "actual_away_score": 70,
-      "actual_result": "HOME",
-      "halftime_home_score": 61,
-      "halftime_away_score": 27,
-      "halftime_total": 88,
-      "halftime_pct_of_model": 53.8,
-      "total_delta": 15.5,
-      "signed_delta": 15.5,
-      "total_rpe": 8.66,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "league_id": 26,
@@ -15987,7 +15785,7 @@
       "date": "2026-05-04",
       "away_team": "Corinthians Paulista",
       "home_team": "Minas",
-      "status": "Not Started",
+      "status": "Quarter 2",
       "stage": "NBB - Quarter-finals",
       "model_total": 182.26,
       "xpts_h": 94.8,
@@ -16011,7 +15809,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.663571+00:00",
+      "timestamp": "2026-05-04T22:38:59.370980+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16719,7 +16517,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:56.670179+00:00",
+      "timestamp": "2026-05-04T22:38:59.376583+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17423,14 +17221,14 @@
       "date": "2026-05-04",
       "away_team": "Pardubice",
       "home_team": "Srsni Pisek",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "NBL - Quarter-finals",
       "model_total": 187.47,
       "xpts_h": 94.5,
       "xpts_a": 93.0,
       "probs_1x2": {
-        "home": 55.2,
-        "away": 44.8
+        "home": 55.1,
+        "away": 44.9
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -17447,7 +17245,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.108868+00:00",
+      "timestamp": "2026-05-04T22:38:59.388809+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -17523,7 +17321,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Sršni Písek",
+                "name": "Sr\u0161ni P\u00edsek",
                 "winner": false
               }
             },
@@ -17564,7 +17362,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Hradec Králové",
+                "name": "Hradec Kr\u00e1lov\u00e9",
                 "logo": ""
               },
               "games": {
@@ -17630,7 +17428,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Sršni Písek",
+                "name": "Sr\u0161ni P\u00edsek",
                 "logo": ""
               },
               "games": {
@@ -17808,8 +17606,8 @@
         "statsH": {
           "played": 2,
           "win_pct": 0.5,
-          "scored": 113.80000000000001,
-          "conceded": 110.9,
+          "scored": 113.775,
+          "conceded": 110.92500000000001,
           "rank": null
         },
         "statsA": {
@@ -17819,18 +17617,7 @@
           "conceded": 113.30000000000001,
           "rank": null
         }
-      },
-      "actual_home_score": 63,
-      "actual_away_score": 78,
-      "actual_result": "AWAY",
-      "halftime_home_score": 29,
-      "halftime_away_score": 50,
-      "halftime_total": 79,
-      "halftime_pct_of_model": 42.1,
-      "total_delta": 46.47,
-      "signed_delta": -46.47,
-      "total_rpe": 32.96,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 32,
@@ -17839,14 +17626,14 @@
       "date": "2026-05-04",
       "away_team": "Nymburk",
       "home_team": "NH Ostrava",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "NBL - Quarter-finals",
-      "model_total": 185.08,
+      "model_total": 185.04,
       "xpts_h": 83.7,
-      "xpts_a": 101.3,
+      "xpts_a": 101.4,
       "probs_1x2": {
-        "home": 7.1,
-        "away": 92.9
+        "home": 7.0,
+        "away": 93.0
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
@@ -17854,7 +17641,7 @@
       "home_team_volatility": 13.2,
       "away_team_volatility": 11.09,
       "market_total": 169.8,
-      "edge": 15.28,
+      "edge": 15.24,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -17863,7 +17650,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.139768+00:00",
+      "timestamp": "2026-05-04T22:38:59.394419+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -17871,7 +17658,7 @@
             "date": "Mar 29, 2026",
             "teams": {
               "home": {
-                "name": "Sršni Písek",
+                "name": "Sr\u0161ni P\u00edsek",
                 "winner": true
               },
               "away": {
@@ -18044,7 +17831,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Hradec Králové",
+                "name": "Hradec Kr\u00e1lov\u00e9",
                 "logo": ""
               },
               "games": {
@@ -18110,7 +17897,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Sršni Písek",
+                "name": "Sr\u0161ni P\u00edsek",
                 "logo": ""
               },
               "games": {
@@ -18288,7 +18075,7 @@
         "statsH": {
           "played": 3,
           "win_pct": 0.0,
-          "scored": 105.9,
+          "scored": 105.8625,
           "conceded": 117.9375,
           "rank": null
         },
@@ -18296,21 +18083,10 @@
           "played": 4,
           "win_pct": 1.0,
           "scored": 121.35000000000001,
-          "conceded": 107.6,
+          "conceded": 107.55000000000001,
           "rank": null
         }
-      },
-      "actual_home_score": 71,
-      "actual_away_score": 93,
-      "actual_result": "AWAY",
-      "halftime_home_score": 35,
-      "halftime_away_score": 50,
-      "halftime_total": 85,
-      "halftime_pct_of_model": 45.9,
-      "total_delta": 21.08,
-      "signed_delta": -21.08,
-      "total_rpe": 12.85,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "league_id": 113,
@@ -18319,14 +18095,14 @@
       "date": "2026-05-04",
       "away_team": "Spartak Pleven",
       "home_team": "Cherno More",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "NBL - Quarter-finals",
-      "model_total": 181.47,
-      "xpts_h": 99.1,
+      "model_total": 181.54,
+      "xpts_h": 99.2,
       "xpts_a": 82.3,
       "probs_1x2": {
-        "home": 91.9,
-        "away": 8.1
+        "home": 92.0,
+        "away": 8.0
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -18334,7 +18110,7 @@
       "home_team_volatility": 16.52,
       "away_team_volatility": 26.51,
       "market_total": 170.2,
-      "edge": 11.27,
+      "edge": 11.34,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -18343,7 +18119,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.334814+00:00",
+      "timestamp": "2026-05-04T22:38:59.407241+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -18746,7 +18522,7 @@
         "statsH": {
           "played": 4,
           "win_pct": 0.75,
-          "scored": 120.45,
+          "scored": 120.55,
           "conceded": 106.9,
           "rank": null
         },
@@ -18757,18 +18533,7 @@
           "conceded": 111.4625,
           "rank": null
         }
-      },
-      "actual_home_score": 94,
-      "actual_away_score": 91,
-      "actual_result": "HOME",
-      "halftime_home_score": 51,
-      "halftime_away_score": 57,
-      "halftime_total": 108,
-      "halftime_pct_of_model": 59.5,
-      "total_delta": 3.53,
-      "signed_delta": 3.53,
-      "total_rpe": 1.91,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "league_id": 397,
@@ -18777,22 +18542,22 @@
       "date": "2026-05-04",
       "away_team": "Barsy Atyrau W",
       "home_team": "Astana W",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "National League Women - Semi-finals",
-      "model_total": 118.21,
-      "xpts_h": 78.3,
-      "xpts_a": 39.9,
+      "model_total": 113.69,
+      "xpts_h": 79.1,
+      "xpts_a": 34.6,
       "probs_1x2": {
-        "home": 99.9,
-        "away": 0.1
+        "home": 100.0,
+        "away": 0.0
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 15.33,
-      "away_team_volatility": 13.85,
+      "home_team_volatility": 15.44,
+      "away_team_volatility": 14.23,
       "market_total": 130.2,
-      "edge": -11.99,
+      "edge": -16.51,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -18801,7 +18566,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.365313+00:00",
+      "timestamp": "2026-05-04T22:38:59.423827+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19254,31 +19019,20 @@
           ]
         ],
         "statsH": {
-          "played": 21,
-          "win_pct": 0.952,
-          "scored": 108.5,
-          "conceded": 61.8,
+          "played": 22,
+          "win_pct": 0.955,
+          "scored": 107.3,
+          "conceded": 58.5,
           "rank": null
         },
         "statsA": {
-          "played": 27,
-          "win_pct": 0.444,
-          "scored": 86.3,
-          "conceded": 85.7,
+          "played": 28,
+          "win_pct": 0.429,
+          "scored": 81.6,
+          "conceded": 86.7,
           "rank": null
         }
-      },
-      "actual_home_score": 68,
-      "actual_away_score": 42,
-      "actual_result": "HOME",
-      "halftime_home_score": 39,
-      "halftime_away_score": 23,
-      "halftime_total": 62,
-      "halftime_pct_of_model": 52.4,
-      "total_delta": 8.21,
-      "signed_delta": -8.21,
-      "total_rpe": 7.46,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "league_id": 48,
@@ -19287,7 +19041,7 @@
       "date": "2026-05-04",
       "away_team": "Grindavik",
       "home_team": "Valur",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "Premier League - Semi-finals",
       "model_total": 158.29,
       "xpts_h": 74.0,
@@ -19311,7 +19065,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.406266+00:00",
+      "timestamp": "2026-05-04T22:38:59.442182+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -19651,22 +19405,22 @@
       "date": "2026-05-04",
       "away_team": "Maccabi Raanana",
       "home_team": "Elitzur Maccabi Netanya",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "20",
-      "model_total": 170.15,
-      "xpts_h": 90.8,
-      "xpts_a": 79.3,
+      "model_total": 174.85,
+      "xpts_h": 102.1,
+      "xpts_a": 72.8,
       "probs_1x2": {
-        "home": 83.2,
-        "away": 16.8
+        "home": 99.3,
+        "away": 0.7
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 19.12,
-      "away_team_volatility": 16.31,
+      "home_team_volatility": 19.0,
+      "away_team_volatility": 15.75,
       "market_total": 169.2,
-      "edge": 0.95,
+      "edge": 5.65,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -19675,7 +19429,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.437366+00:00",
+      "timestamp": "2026-05-04T22:38:59.460925+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -20205,31 +19959,20 @@
           ]
         ],
         "statsH": {
-          "played": 14,
-          "win_pct": 0.286,
-          "scored": 103.6,
-          "conceded": 103.4,
+          "played": 15,
+          "win_pct": 0.333,
+          "scored": 111.9,
+          "conceded": 100.5,
           "rank": null
         },
         "statsA": {
-          "played": 14,
-          "win_pct": 0.143,
-          "scored": 107.9,
-          "conceded": 119.3,
+          "played": 15,
+          "win_pct": 0.133,
+          "scored": 102.8,
+          "conceded": 125.7,
           "rank": null
         }
-      },
-      "actual_home_score": 102,
-      "actual_away_score": 77,
-      "actual_result": "HOME",
-      "halftime_home_score": 51,
-      "halftime_away_score": 32,
-      "halftime_total": 83,
-      "halftime_pct_of_model": 48.8,
-      "total_delta": 8.85,
-      "signed_delta": 8.85,
-      "total_rpe": 4.94,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "league_id": 51,
@@ -20238,22 +19981,22 @@
       "date": "2026-05-04",
       "away_team": "Bnei Herzliya",
       "home_team": "Maccabi Ironi Ramat Gan",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "23",
-      "model_total": 169.94,
-      "xpts_h": 93.7,
-      "xpts_a": 76.2,
+      "model_total": 169.87,
+      "xpts_h": 94.3,
+      "xpts_a": 75.6,
       "probs_1x2": {
-        "home": 92.8,
-        "away": 7.2
+        "home": 94.1,
+        "away": 5.9
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 17.71,
-      "away_team_volatility": 11.48,
+      "home_team_volatility": 17.66,
+      "away_team_volatility": 11.75,
       "market_total": 169.2,
-      "edge": 0.74,
+      "edge": 0.67,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -20262,7 +20005,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.442930+00:00",
+      "timestamp": "2026-05-04T22:38:59.465713+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20812,17 +20555,17 @@
           ]
         ],
         "statsH": {
-          "played": 16,
-          "win_pct": 0.375,
-          "scored": 106.0,
-          "conceded": 95.5,
+          "played": 15,
+          "win_pct": 0.4,
+          "scored": 106.5,
+          "conceded": 94.9,
           "rank": null
         },
         "statsA": {
-          "played": 16,
-          "win_pct": 0.812,
-          "scored": 111.8,
-          "conceded": 120.6,
+          "played": 15,
+          "win_pct": 0.8,
+          "scored": 111.6,
+          "conceded": 120.8,
           "rank": null
         }
       }
@@ -20834,7 +20577,7 @@
       "date": "2026-05-04",
       "away_team": "KK Madzari",
       "home_team": "TFT Skopje",
-      "status": "Not Started",
+      "status": "After Over Time",
       "stage": "Super League - Semi-finals",
       "model_total": 178.17,
       "xpts_h": 85.9,
@@ -20858,7 +20601,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:57.473117+00:00",
+      "timestamp": "2026-05-04T22:38:59.484167+00:00",
       "match_center": {
         "h2h": [
           {
@@ -21388,8 +21131,8 @@
       "home_team": "Cocodrilos",
       "status": "Not Started",
       "stage": "",
-      "model_total": 169.58,
-      "xpts_h": 85.0,
+      "model_total": 169.71,
+      "xpts_h": 85.1,
       "xpts_a": 84.6,
       "probs_1x2": {
         "home": 51.3,
@@ -21401,7 +21144,7 @@
       "home_team_volatility": 16.92,
       "away_team_volatility": 17.42,
       "market_total": 162.4,
-      "edge": 7.18,
+      "edge": 7.31,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -21410,7 +21153,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-04T07:36:57.688899+00:00",
+      "timestamp": "2026-05-04T22:38:59.523221+00:00",
       "match_center": {
         "h2h": [
           {
@@ -21700,18 +21443,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
                   "total": 15,
-                  "percentage": "0.682"
+                  "percentage": "0.652"
                 },
                 "lose": {
-                  "total": 7
+                  "total": 8
                 }
               },
               "points": {
-                "for": 1859,
-                "against": 1652
+                "for": 1917,
+                "against": 1722
               },
               "form": "WWWLW"
             },
@@ -21762,7 +21505,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Pioneros del Avila",
+                "name": "Marinos de Anzoategui",
                 "logo": ""
               },
               "games": {
@@ -21776,30 +21519,30 @@
                 }
               },
               "points": {
-                "for": 1738,
-                "against": 1768
+                "for": 1765,
+                "against": 1650
               },
               "form": "WWWWL"
             },
             {
               "position": 7,
               "team": {
-                "name": "Marinos de Anzoategui",
+                "name": "Pioneros del Avila",
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 23,
                 "win": {
-                  "total": 12,
-                  "percentage": "0.571"
+                  "total": 13,
+                  "percentage": "0.565"
                 },
                 "lose": {
-                  "total": 9
+                  "total": 10
                 }
               },
               "points": {
-                "for": 1695,
-                "against": 1592
+                "for": 1813,
+                "against": 1845
               },
               "form": "WWWWL"
             },
@@ -21810,18 +21553,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
-                  "total": 10,
-                  "percentage": "0.455"
+                  "total": 11,
+                  "percentage": "0.478"
                 },
                 "lose": {
                   "total": 12
                 }
               },
               "points": {
-                "for": 1844,
-                "against": 1867
+                "for": 1921,
+                "against": 1942
               },
               "form": "WWLLL"
             },
@@ -21876,18 +21619,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 20,
+                "played": 21,
                 "win": {
-                  "total": 6,
-                  "percentage": "0.300"
+                  "total": 7,
+                  "percentage": "0.333"
                 },
                 "lose": {
                   "total": 14
                 }
               },
               "points": {
-                "for": 1582,
-                "against": 1751
+                "for": 1661,
+                "against": 1820
               },
               "form": "LLLWL"
             },
@@ -21920,18 +21663,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 22,
                 "win": {
                   "total": 1,
-                  "percentage": "0.048"
+                  "percentage": "0.045"
                 },
                 "lose": {
-                  "total": 20
+                  "total": 21
                 }
               },
               "points": {
-                "for": 1588,
-                "against": 1874
+                "for": 1657,
+                "against": 1953
               },
               "form": "LLLLL"
             }
@@ -21941,14 +21684,14 @@
           "played": 22,
           "win_pct": 0.727,
           "scored": 124.3,
-          "conceded": 110.6,
+          "conceded": 110.7,
           "rank": null
         },
         "statsA": {
           "played": 21,
           "win_pct": 0.905,
           "scored": 125.3,
-          "conceded": 108.7,
+          "conceded": 108.8,
           "rank": null
         }
       }
@@ -21962,20 +21705,20 @@
       "home_team": "Panteras",
       "status": "Not Started",
       "stage": "",
-      "model_total": 166.02,
-      "xpts_h": 76.5,
-      "xpts_a": 89.5,
+      "model_total": 165.14,
+      "xpts_h": 76.2,
+      "xpts_a": 88.9,
       "probs_1x2": {
-        "home": 17.6,
-        "away": 82.4
+        "home": 18.1,
+        "away": 81.9
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
-      "home_team_volatility": 16.36,
+      "home_team_volatility": 16.37,
       "away_team_volatility": 17.56,
       "market_total": 162.4,
-      "edge": 3.62,
+      "edge": 2.74,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -21984,7 +21727,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-04T07:36:57.740504+00:00",
+      "timestamp": "2026-05-04T22:38:59.537195+00:00",
       "match_center": {
         "h2h": [
           {
@@ -22274,18 +22017,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
                   "total": 15,
-                  "percentage": "0.682"
+                  "percentage": "0.652"
                 },
                 "lose": {
-                  "total": 7
+                  "total": 8
                 }
               },
               "points": {
-                "for": 1859,
-                "against": 1652
+                "for": 1917,
+                "against": 1722
               },
               "form": "WWWLW"
             },
@@ -22336,7 +22079,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Pioneros del Avila",
+                "name": "Marinos de Anzoategui",
                 "logo": ""
               },
               "games": {
@@ -22350,30 +22093,30 @@
                 }
               },
               "points": {
-                "for": 1738,
-                "against": 1768
+                "for": 1765,
+                "against": 1650
               },
               "form": "WWWWL"
             },
             {
               "position": 7,
               "team": {
-                "name": "Marinos de Anzoategui",
+                "name": "Pioneros del Avila",
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 23,
                 "win": {
-                  "total": 12,
-                  "percentage": "0.571"
+                  "total": 13,
+                  "percentage": "0.565"
                 },
                 "lose": {
-                  "total": 9
+                  "total": 10
                 }
               },
               "points": {
-                "for": 1695,
-                "against": 1592
+                "for": 1813,
+                "against": 1845
               },
               "form": "WWWWL"
             },
@@ -22384,18 +22127,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
-                  "total": 10,
-                  "percentage": "0.455"
+                  "total": 11,
+                  "percentage": "0.478"
                 },
                 "lose": {
                   "total": 12
                 }
               },
               "points": {
-                "for": 1844,
-                "against": 1867
+                "for": 1921,
+                "against": 1942
               },
               "form": "WWLLL"
             },
@@ -22450,18 +22193,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 20,
+                "played": 21,
                 "win": {
-                  "total": 6,
-                  "percentage": "0.300"
+                  "total": 7,
+                  "percentage": "0.333"
                 },
                 "lose": {
                   "total": 14
                 }
               },
               "points": {
-                "for": 1582,
-                "against": 1751
+                "for": 1661,
+                "against": 1820
               },
               "form": "LLLWL"
             },
@@ -22494,28 +22237,28 @@
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 22,
                 "win": {
                   "total": 1,
-                  "percentage": "0.048"
+                  "percentage": "0.045"
                 },
                 "lose": {
-                  "total": 20
+                  "total": 21
                 }
               },
               "points": {
-                "for": 1588,
-                "against": 1874
+                "for": 1657,
+                "against": 1953
               },
               "form": "LLLLL"
             }
           ]
         ],
         "statsH": {
-          "played": 21,
-          "win_pct": 0.048,
-          "scored": 105.3,
-          "conceded": 128.7,
+          "played": 22,
+          "win_pct": 0.045,
+          "scored": 104.8,
+          "conceded": 127.8,
           "rank": null
         },
         "statsA": {
@@ -22536,9 +22279,9 @@
       "home_team": "Trotamundos",
       "status": "Not Started",
       "stage": "",
-      "model_total": 163.88,
+      "model_total": 164.0,
       "xpts_h": 91.7,
-      "xpts_a": 72.2,
+      "xpts_a": 72.3,
       "probs_1x2": {
         "home": 91.8,
         "away": 8.2
@@ -22549,7 +22292,7 @@
       "home_team_volatility": 20.79,
       "away_team_volatility": 17.35,
       "market_total": 162.4,
-      "edge": 1.48,
+      "edge": 1.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -22558,7 +22301,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-04T07:36:57.759321+00:00",
+      "timestamp": "2026-05-04T22:38:59.544941+00:00",
       "match_center": {
         "h2h": [
           {
@@ -22848,18 +22591,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
                   "total": 15,
-                  "percentage": "0.682"
+                  "percentage": "0.652"
                 },
                 "lose": {
-                  "total": 7
+                  "total": 8
                 }
               },
               "points": {
-                "for": 1859,
-                "against": 1652
+                "for": 1917,
+                "against": 1722
               },
               "form": "WWWLW"
             },
@@ -22910,7 +22653,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Pioneros del Avila",
+                "name": "Marinos de Anzoategui",
                 "logo": ""
               },
               "games": {
@@ -22924,30 +22667,30 @@
                 }
               },
               "points": {
-                "for": 1738,
-                "against": 1768
+                "for": 1765,
+                "against": 1650
               },
               "form": "WWWWL"
             },
             {
               "position": 7,
               "team": {
-                "name": "Marinos de Anzoategui",
+                "name": "Pioneros del Avila",
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 23,
                 "win": {
-                  "total": 12,
-                  "percentage": "0.571"
+                  "total": 13,
+                  "percentage": "0.565"
                 },
                 "lose": {
-                  "total": 9
+                  "total": 10
                 }
               },
               "points": {
-                "for": 1695,
-                "against": 1592
+                "for": 1813,
+                "against": 1845
               },
               "form": "WWWWL"
             },
@@ -22958,18 +22701,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 22,
+                "played": 23,
                 "win": {
-                  "total": 10,
-                  "percentage": "0.455"
+                  "total": 11,
+                  "percentage": "0.478"
                 },
                 "lose": {
                   "total": 12
                 }
               },
               "points": {
-                "for": 1844,
-                "against": 1867
+                "for": 1921,
+                "against": 1942
               },
               "form": "WWLLL"
             },
@@ -23024,18 +22767,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 20,
+                "played": 21,
                 "win": {
-                  "total": 6,
-                  "percentage": "0.300"
+                  "total": 7,
+                  "percentage": "0.333"
                 },
                 "lose": {
                   "total": 14
                 }
               },
               "points": {
-                "for": 1582,
-                "against": 1751
+                "for": 1661,
+                "against": 1820
               },
               "form": "LLLWL"
             },
@@ -23068,18 +22811,18 @@
                 "logo": ""
               },
               "games": {
-                "played": 21,
+                "played": 22,
                 "win": {
                   "total": 1,
-                  "percentage": "0.048"
+                  "percentage": "0.045"
                 },
                 "lose": {
-                  "total": 20
+                  "total": 21
                 }
               },
               "points": {
-                "for": 1588,
-                "against": 1874
+                "for": 1657,
+                "against": 1953
               },
               "form": "LLLLL"
             }
@@ -23088,14 +22831,14 @@
         "statsH": {
           "played": 23,
           "win_pct": 0.652,
-          "scored": 121.5,
+          "scored": 121.6,
           "conceded": 114.2,
           "rank": null
         },
         "statsA": {
           "played": 22,
           "win_pct": 0.182,
-          "scored": 106.4,
+          "scored": 106.5,
           "conceded": 123.3,
           "rank": null
         }
@@ -23108,22 +22851,22 @@
       "date": "2026-05-04",
       "away_team": "Zenit Petersburg",
       "home_team": "Uralmash Ekaterinburg",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "VTB United League - Quarter-finals",
-      "model_total": 152.9,
-      "xpts_h": 71.3,
-      "xpts_a": 81.6,
+      "model_total": 150.44,
+      "xpts_h": 68.0,
+      "xpts_a": 82.5,
       "probs_1x2": {
-        "home": 19.7,
-        "away": 80.3
+        "home": 11.3,
+        "away": 88.7
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
       "away_source": "SRS",
-      "home_team_volatility": 13.72,
-      "away_team_volatility": 14.21,
+      "home_team_volatility": 13.83,
+      "away_team_volatility": 14.44,
       "market_total": 161.4,
-      "edge": -8.5,
+      "edge": -10.96,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -23132,7 +22875,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-04T07:36:58.535509+00:00",
+      "timestamp": "2026-05-04T22:38:59.578752+00:00",
       "match_center": {
         "h2h": [
           {
@@ -23635,44 +23378,20 @@
           ]
         ],
         "statsH": {
-          "played": 31,
-          "win_pct": 0.452,
-          "scored": 102.7,
-          "conceded": 96.2,
+          "played": 32,
+          "win_pct": 0.438,
+          "scored": 99.8,
+          "conceded": 97.1,
           "rank": null
         },
         "statsA": {
-          "played": 33,
-          "win_pct": 0.727,
-          "scored": 111.3,
-          "conceded": 88.5,
+          "played": 34,
+          "win_pct": 0.735,
+          "scored": 111.4,
+          "conceded": 86.9,
           "rank": null
         }
-      },
-      "actual_home_score": 61,
-      "actual_away_score": 78,
-      "actual_result": "AWAY",
-      "halftime_home_score": 37,
-      "halftime_away_score": 42,
-      "halftime_total": 79,
-      "halftime_pct_of_model": 51.7,
-      "total_delta": 13.9,
-      "signed_delta": -13.9,
-      "total_rpe": 10.0,
-      "accuracy_tier": "SOLID"
+      }
     }
-  ],
-  "graded_at": "2026-05-04T20:06:56.996730",
-  "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 6,
-      "total": 9,
-      "pct": 66.7
-    },
-    "[  SRS   ]": {
-      "wins": 14,
-      "total": 19,
-      "pct": 73.7
-    }
-  }
+  ]
 }
