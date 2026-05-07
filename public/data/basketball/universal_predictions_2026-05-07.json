@@ -13895,7 +13895,7 @@
       "date": "2026-05-07",
       "away_team": "Tigers-KazATU",
       "home_team": "Tobol Kostanay 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.0,
       "xpts_h": 75.6,
@@ -14484,7 +14484,18 @@
           "conceded": 98.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 67,
+      "actual_away_score": 60,
+      "actual_result": "HOME",
+      "halftime_home_score": 39,
+      "halftime_away_score": 36,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 26.0,
+      "signed_delta": -26.0,
+      "total_rpe": 20.47,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 396,
@@ -14493,7 +14504,7 @@
       "date": "2026-05-07",
       "away_team": "Karaganda",
       "home_team": "AiRom",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.54,
       "xpts_h": 56.5,
@@ -15121,7 +15132,18 @@
           "conceded": 88.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 45,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 52.4,
+      "total_delta": 9.46,
+      "signed_delta": 9.46,
+      "total_rpe": 5.84,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 91,
@@ -24528,7 +24550,7 @@
       "date": "2026-05-07",
       "away_team": "Pasig City",
       "home_team": "Basilan Steel",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.33,
       "xpts_h": 85.0,
@@ -25320,7 +25342,18 @@
           "conceded": 103.97500000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 46,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 48.6,
+      "total_delta": 8.33,
+      "signed_delta": -8.33,
+      "total_rpe": 5.63,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 426,
@@ -25329,7 +25362,7 @@
       "date": "2026-05-07",
       "away_team": "Batang Kankaloo",
       "home_team": "Bacolod Masskara",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 169.57,
       "xpts_h": 68.2,
@@ -26142,7 +26175,18 @@
           "conceded": 84.4625,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 52,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 60,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 54.3,
+      "total_delta": 18.57,
+      "signed_delta": -18.57,
+      "total_rpe": 12.3,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 426,
@@ -30361,7 +30405,7 @@
       "date": "2026-05-07",
       "away_team": "Southland Sharks",
       "home_team": "Taranaki Airs",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 172.14,
       "xpts_h": 79.4,
@@ -30693,7 +30737,18 @@
           "conceded": 113.825,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 30,
+      "halftime_total": 60,
+      "halftime_pct_of_model": 34.9,
+      "total_delta": 16.14,
+      "signed_delta": -16.14,
+      "total_rpe": 10.35,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 61,
@@ -36186,17 +36241,12 @@
       }
     }
   ],
-  "graded_at": "2026-05-07T08:58:47.778076",
+  "graded_at": "2026-05-07T12:48:50.897444",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 12,
-      "total": 14,
-      "pct": 85.7
-    },
-    "[ADVANCED]": {
       "wins": 1,
-      "total": 2,
-      "pct": 50.0
+      "total": 1,
+      "pct": 100.0
     }
   }
 }
