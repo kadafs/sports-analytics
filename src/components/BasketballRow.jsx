@@ -294,10 +294,10 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   {(() => {
                     const hStat = teamLeaderboard?.find(t => t.name === home_team);
                     const aStat = teamLeaderboard?.find(t => t.name === away_team);
-                    const hMae = isAdvanced ? hStat?.adv?.mae : hStat?.srs?.mae;
-                    const aMae = isAdvanced ? aStat?.adv?.mae : aStat?.srs?.mae;
-                    const hDelta = isAdvanced ? hStat?.adv?.avg_signed_delta : hStat?.srs?.avg_signed_delta;
-                    const aDelta = isAdvanced ? aStat?.adv?.avg_signed_delta : aStat?.srs?.avg_signed_delta;
+                    const hMae = isAdvanced ? (hStat?.adv?.mae ?? hStat?.srs?.mae) : hStat?.srs?.mae;
+                    const aMae = isAdvanced ? (aStat?.adv?.mae ?? aStat?.srs?.mae) : aStat?.srs?.mae;
+                    const hDelta = isAdvanced ? (hStat?.adv?.avg_signed_delta ?? hStat?.srs?.avg_signed_delta) : hStat?.srs?.avg_signed_delta;
+                    const aDelta = isAdvanced ? (aStat?.adv?.avg_signed_delta ?? aStat?.srs?.avg_signed_delta) : aStat?.srs?.avg_signed_delta;
                     
                     return (
                       <>
