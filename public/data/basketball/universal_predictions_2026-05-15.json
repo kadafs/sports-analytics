@@ -10,7 +10,7 @@
       "date": "2026-05-15",
       "away_team": "Cedevita Olimpija",
       "home_team": "Crvena Zvezda Meridianbet",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "AdmiralBet ABA League - Quarter-finals",
       "model_total": 189.2,
       "xpts_h": 97.4,
@@ -567,7 +567,18 @@
           "conceded": 108.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 86,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 46,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 50.2,
+      "total_delta": 8.2,
+      "signed_delta": -8.2,
+      "total_rpe": 4.53,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 56,
@@ -576,7 +587,7 @@
       "date": "2026-05-15",
       "away_team": "Diamond Dolphins",
       "home_team": "Ryukyu",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "B.League - Semi-finals",
       "model_total": 155.13,
       "xpts_h": 82.1,
@@ -1435,7 +1446,18 @@
           "conceded": 99.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 41,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 55.4,
+      "total_delta": 5.13,
+      "signed_delta": -5.13,
+      "total_rpe": 3.42,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 56,
@@ -1444,7 +1466,7 @@
       "date": "2026-05-15",
       "away_team": "Chiba",
       "home_team": "Nagasaki",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "B.League - Semi-finals",
       "model_total": 170.72,
       "xpts_h": 95.3,
@@ -2303,7 +2325,18 @@
           "conceded": 107.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 49,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 52.7,
+      "total_delta": 14.72,
+      "signed_delta": -14.72,
+      "total_rpe": 9.44,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 76,
@@ -2312,7 +2345,7 @@
       "date": "2026-05-15",
       "away_team": "Criollos de Caguas",
       "home_team": "Piratas de Quebradillas",
-      "status": "After Over Time",
+      "status": "AOT",
       "stage": "",
       "model_total": 201.98,
       "xpts_h": 95.7,
@@ -2483,7 +2516,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -2716,7 +2749,17 @@
           "conceded": 122.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 112,
+      "actual_away_score": 119,
+      "actual_result": "AWAY",
+      "halftime_home_score": 52,
+      "halftime_away_score": 47,
+      "halftime_total": 99,
+      "halftime_pct_of_model": 49.0,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "league_id": 76,
@@ -2725,7 +2768,7 @@
       "date": "2026-05-15",
       "away_team": "Vaqueros de Bayamon",
       "home_team": "San German",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 175.63,
       "xpts_h": 91.0,
@@ -2896,7 +2939,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -3129,7 +3172,18 @@
           "conceded": 108.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 30,
+      "halftime_total": 65,
+      "halftime_pct_of_model": 37.0,
+      "total_delta": 10.63,
+      "signed_delta": -10.63,
+      "total_rpe": 6.44,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 76,
@@ -3138,7 +3192,7 @@
       "date": "2026-05-15",
       "away_team": "Cangrejeros",
       "home_team": "Gigantes de Carolina",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 192.11,
       "xpts_h": 98.7,
@@ -3352,7 +3406,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -3585,7 +3639,18 @@
           "conceded": 121.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 43,
+      "halftime_away_score": 55,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 51.0,
+      "total_delta": 15.11,
+      "signed_delta": -15.11,
+      "total_rpe": 8.54,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 76,
@@ -3594,7 +3659,7 @@
       "date": "2026-05-15",
       "away_team": "Capitanes de Arecibo",
       "home_team": "Indios de Mayaguez",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 195.37,
       "xpts_h": 97.4,
@@ -3655,7 +3720,7 @@
             "date": "Mar 21, 2025",
             "teams": {
               "home": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "winner": true
               },
               "away": {
@@ -3829,7 +3894,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -4062,7 +4127,18 @@
           "conceded": 117.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 96,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 54,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 46.6,
+      "total_delta": 13.37,
+      "signed_delta": -13.37,
+      "total_rpe": 7.35,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 45,
@@ -4071,7 +4147,7 @@
       "date": "2026-05-15",
       "away_team": "Mykonos",
       "home_team": "Panathinaikos",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Basket League - Quarter-finals",
       "model_total": 181.31,
       "xpts_h": 105.6,
@@ -4663,7 +4739,18 @@
           "conceded": 120.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 56,
+      "halftime_away_score": 31,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 48.0,
+      "total_delta": 7.31,
+      "signed_delta": -7.31,
+      "total_rpe": 4.2,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 31,
@@ -4672,7 +4759,7 @@
       "date": "2026-05-15",
       "away_team": "Beijing",
       "home_team": "Shanghai",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "CBA - Semi-finals",
       "model_total": 176.24,
       "xpts_h": 101.0,
@@ -5399,7 +5486,18 @@
           "conceded": 116.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 37,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 7.24,
+      "signed_delta": -7.24,
+      "total_rpe": 4.28,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 222,
@@ -5408,7 +5506,7 @@
       "date": "2026-05-15",
       "away_team": "Ottawa Blackjacks",
       "home_team": "Brampton Honey Badgers",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "",
       "model_total": 170.96,
       "xpts_h": 78.8,
@@ -5852,7 +5950,18 @@
           "conceded": 105.45,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 86,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 49,
+      "halftime_total": 99,
+      "halftime_pct_of_model": 57.9,
+      "total_delta": 6.04,
+      "signed_delta": 6.04,
+      "total_rpe": 3.41,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 153,
@@ -5861,7 +5970,7 @@
       "date": "2026-05-15",
       "away_team": "Rain or Shine Elasto Painters",
       "home_team": "San Miguel Beermen",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "PBA Commissioner's Cup - Quarter-finals",
       "model_total": 223.36,
       "xpts_h": 110.2,
@@ -6158,7 +6267,18 @@
           "conceded": 131.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 104,
+      "actual_away_score": 113,
+      "actual_result": "AWAY",
+      "halftime_home_score": 56,
+      "halftime_away_score": 57,
+      "halftime_total": 113,
+      "halftime_pct_of_model": 50.6,
+      "total_delta": 6.36,
+      "signed_delta": -6.36,
+      "total_rpe": 2.93,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 153,
@@ -6167,7 +6287,7 @@
       "date": "2026-05-15",
       "away_team": "Barangay Ginebra San Miguel",
       "home_team": "Phoenix Fuelmasters",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "PBA Commissioner's Cup - Quarter-finals",
       "model_total": 203.65,
       "xpts_h": 89.5,
@@ -6485,7 +6605,18 @@
           "conceded": 119.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 112,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 64,
+      "halftime_total": 108,
+      "halftime_pct_of_model": 53.0,
+      "total_delta": 10.65,
+      "signed_delta": -10.65,
+      "total_rpe": 5.52,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 65,
@@ -6494,7 +6625,7 @@
       "date": "2026-05-15",
       "away_team": "Zwolle",
       "home_team": "Den Helder",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "DBL - Quarter-finals",
       "model_total": 169.49,
       "xpts_h": 89.9,
@@ -6767,7 +6898,18 @@
           "conceded": 101.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 33,
+      "halftime_away_score": 46,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 46.6,
+      "total_delta": 17.49,
+      "signed_delta": -17.49,
+      "total_rpe": 11.51,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 65,
@@ -6776,7 +6918,7 @@
       "date": "2026-05-15",
       "away_team": "LWD Basket",
       "home_team": "Leiden",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "DBL - Quarter-finals",
       "model_total": 173.3,
       "xpts_h": 91.5,
@@ -7271,7 +7413,18 @@
           "conceded": 117.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 111,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 66,
+      "halftime_away_score": 38,
+      "halftime_total": 104,
+      "halftime_pct_of_model": 60.0,
+      "total_delta": 9.7,
+      "signed_delta": 9.7,
+      "total_rpe": 5.3,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 78,
@@ -7280,7 +7433,7 @@
       "date": "2026-05-15",
       "away_team": "SCM Timisoara",
       "home_team": "BC Steaua Bucuresti",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Divizia A - Semi-finals",
       "model_total": 165.78,
       "xpts_h": 85.0,
@@ -7916,7 +8069,18 @@
           "conceded": 109.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 48,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 27,
+      "halftime_away_score": 48,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 45.2,
+      "total_delta": 27.78,
+      "signed_delta": -27.78,
+      "total_rpe": 20.13,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 78,
@@ -7925,7 +8089,7 @@
       "date": "2026-05-15",
       "away_team": "Voluntari",
       "home_team": "CSU Sibiu",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Divizia A - Semi-finals",
       "model_total": 168.54,
       "xpts_h": 88.2,
@@ -8561,7 +8725,18 @@
           "conceded": 106.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 40,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 43.9,
+      "total_delta": 10.54,
+      "signed_delta": -10.54,
+      "total_rpe": 6.67,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 78,
@@ -8570,7 +8745,7 @@
       "date": "2026-05-15",
       "away_team": "Rapid Bucuresti",
       "home_team": "Arges Pitesti",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Divizia A - Semi-finals",
       "model_total": 175.82,
       "xpts_h": 87.3,
@@ -9206,7 +9381,18 @@
           "conceded": 108.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 48,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 47.2,
+      "total_delta": 14.82,
+      "signed_delta": -14.82,
+      "total_rpe": 9.2,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 72,
@@ -9215,7 +9401,7 @@
       "date": "2026-05-15",
       "away_team": "Gdynia",
       "home_team": "Slask Wroclaw",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Basket Liga - Quarter-finals",
       "model_total": 180.57,
       "xpts_h": 88.9,
@@ -9275,7 +9461,7 @@
             "date": "May 3, 2026",
             "teams": {
               "home": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "winner": false
               },
               "away": {
@@ -9296,7 +9482,7 @@
             "date": "Apr 28, 2026",
             "teams": {
               "home": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "winner": true
               },
               "away": {
@@ -9363,7 +9549,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "winner": true
               }
             },
@@ -9466,7 +9652,7 @@
             "date": "Apr 10, 2026",
             "teams": {
               "home": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": false
               },
               "away": {
@@ -9621,7 +9807,7 @@
             {
               "position": 7,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -9643,7 +9829,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -9687,7 +9873,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -9709,7 +9895,7 @@
             {
               "position": 11,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -9753,7 +9939,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -9854,7 +10040,18 @@
           "conceded": 106.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 28,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 40.4,
+      "total_delta": 6.57,
+      "signed_delta": -6.57,
+      "total_rpe": 3.78,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 36,
@@ -9863,7 +10060,7 @@
       "date": "2026-05-15",
       "away_team": "Tal Tech",
       "home_team": "Parnu",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Korvpalli Meistriliiga - 3rd place",
       "model_total": 170.97,
       "xpts_h": 84.5,
@@ -10306,7 +10503,18 @@
           "conceded": 101.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 36,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 41.5,
+      "total_delta": 19.97,
+      "signed_delta": -19.97,
+      "total_rpe": 13.23,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 27,
@@ -10315,7 +10523,7 @@
       "date": "2026-05-15",
       "away_team": "Santo Andre W",
       "home_team": "Recife W",
-      "status": "Quarter 4",
+      "status": "FT",
       "stage": "",
       "model_total": 142.57,
       "xpts_h": 58.7,
@@ -10822,7 +11030,18 @@
           "conceded": 97.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 56,
+      "actual_away_score": 96,
+      "actual_result": "AWAY",
+      "halftime_home_score": 28,
+      "halftime_away_score": 48,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 53.3,
+      "total_delta": 9.43,
+      "signed_delta": 9.43,
+      "total_rpe": 6.2,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 146,
@@ -10831,7 +11050,7 @@
       "date": "2026-05-15",
       "away_team": "Valmiera Glass Via",
       "home_team": "Ventspils",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LBL - Final",
       "model_total": 189.27,
       "xpts_h": 98.5,
@@ -11230,7 +11449,18 @@
           "conceded": 120.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "halftime_home_score": 50,
+      "halftime_away_score": 44,
+      "halftime_total": 94,
+      "halftime_pct_of_model": 49.7,
+      "total_delta": 8.27,
+      "signed_delta": -8.27,
+      "total_rpe": 4.57,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 225,
@@ -11239,7 +11469,7 @@
       "date": "2026-05-15",
       "away_team": "Sabios Baloncesto",
       "home_team": "Caimanes del Llano",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LBP - Quarter-finals",
       "model_total": 174.12,
       "xpts_h": 106.7,
@@ -11576,7 +11806,18 @@
           "conceded": 123.95,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 45,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 50.5,
+      "total_delta": 15.88,
+      "signed_delta": 15.88,
+      "total_rpe": 8.36,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 225,
@@ -11585,7 +11826,7 @@
       "date": "2026-05-15",
       "away_team": "Sabios Baloncesto",
       "home_team": "Caimanes del Llano",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LBP - Quarter-finals",
       "model_total": 172.45,
       "xpts_h": 104.5,
@@ -11922,7 +12163,18 @@
           "conceded": 120.93124999999999,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 45,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 51.0,
+      "total_delta": 17.55,
+      "signed_delta": 17.55,
+      "total_rpe": 9.24,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 10,
@@ -11931,7 +12183,7 @@
       "date": "2026-05-15",
       "away_team": "Bourges W",
       "home_team": "Landes W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LFB Women - Final",
       "model_total": 133.92,
       "xpts_h": 61.7,
@@ -12014,7 +12266,7 @@
             "date": "Oct 11, 2025",
             "teams": {
               "home": {
-                "name": "Charleville-M\u00e9zi\u00e8res",
+                "name": "Charleville-Mézières",
                 "winner": true
               },
               "away": {
@@ -12211,7 +12463,7 @@
             {
               "position": 7,
               "team": {
-                "name": "Charleville-M\u00e9zi\u00e8res",
+                "name": "Charleville-Mézières",
                 "logo": ""
               },
               "games": {
@@ -12299,7 +12551,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Roche Vend\u00e9e",
+                "name": "Roche Vendée",
                 "logo": ""
               },
               "games": {
@@ -12356,7 +12608,18 @@
           "conceded": 74.025,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 54,
+      "actual_result": "HOME",
+      "halftime_home_score": 27,
+      "halftime_away_score": 27,
+      "halftime_total": 54,
+      "halftime_pct_of_model": 40.3,
+      "total_delta": 20.92,
+      "signed_delta": -20.92,
+      "total_rpe": 18.51,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 60,
@@ -12365,7 +12628,7 @@
       "date": "2026-05-15",
       "away_team": "Juventus",
       "home_team": "Zalgiris Kaunas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 179.3,
       "xpts_h": 103.0,
@@ -12599,7 +12862,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": true
               }
             },
@@ -12705,7 +12968,7 @@
             {
               "position": 4,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -12850,7 +13113,18 @@
           "conceded": 121.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 108,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 56,
+      "halftime_total": 107,
+      "halftime_pct_of_model": 59.7,
+      "total_delta": 21.7,
+      "signed_delta": 21.7,
+      "total_rpe": 10.8,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 380,
@@ -12859,7 +13133,7 @@
       "date": "2026-05-15",
       "away_team": "Marineros",
       "home_team": "Reales de la Vega",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 181.92,
       "xpts_h": 90.5,
@@ -13174,7 +13448,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Ca\u00f1eros Del Este",
+                "name": "Cañeros Del Este",
                 "logo": ""
               },
               "games": {
@@ -13341,7 +13615,18 @@
           "conceded": 113.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 38,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 16.92,
+      "signed_delta": -16.92,
+      "total_rpe": 10.25,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 380,
@@ -13350,7 +13635,7 @@
       "date": "2026-05-15",
       "away_team": "Leones",
       "home_team": "Titanes Del Licey",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 177.53,
       "xpts_h": 94.4,
@@ -13520,7 +13805,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Ca\u00f1eros Del Este",
+                "name": "Cañeros Del Este",
                 "logo": ""
               },
               "games": {
@@ -13687,7 +13972,18 @@
           "conceded": 121.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 41,
+      "halftime_away_score": 46,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 10.47,
+      "signed_delta": 10.47,
+      "total_rpe": 5.57,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 114,
@@ -13696,7 +13992,7 @@
       "date": "2026-05-15",
       "away_team": "Valdivia",
       "home_team": "Espanol Osorno",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LNB - Quarter-finals",
       "model_total": 160.77,
       "xpts_h": 84.8,
@@ -14323,7 +14619,18 @@
           "conceded": 102.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 28,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 44.2,
+      "total_delta": 8.23,
+      "signed_delta": 8.23,
+      "total_rpe": 4.87,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 18,
@@ -14332,7 +14639,7 @@
       "date": "2026-05-15",
       "away_team": "Quimsa",
       "home_team": "Instituto de Cordoba",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Liga A - Quarter-finals",
       "model_total": 153.46,
       "xpts_h": 78.0,
@@ -14911,7 +15218,18 @@
           "conceded": 95.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 66,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 41,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 49.5,
+      "total_delta": 9.46,
+      "signed_delta": -9.46,
+      "total_rpe": 6.57,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 18,
@@ -14920,7 +15238,7 @@
       "date": "2026-05-15",
       "away_team": "Obera TC",
       "home_team": "Boca Juniors",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Liga A - Quarter-finals",
       "model_total": 160.51,
       "xpts_h": 83.0,
@@ -15499,7 +15817,18 @@
           "conceded": 100.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 37,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 53.0,
+      "total_delta": 3.49,
+      "signed_delta": 3.49,
+      "total_rpe": 2.13,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 18,
@@ -15508,7 +15837,7 @@
       "date": "2026-05-15",
       "away_team": "Regatas",
       "home_team": "Ferro",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "Liga A - Quarter-finals",
       "model_total": 163.22,
       "xpts_h": 83.8,
@@ -16213,7 +16542,18 @@
           "conceded": 99.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 41,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 50.9,
+      "total_delta": 13.22,
+      "signed_delta": -13.22,
+      "total_rpe": 8.81,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 239,
@@ -16222,7 +16562,7 @@
       "date": "2026-05-15",
       "away_team": "Elitzur Yavne",
       "home_team": "Migdal Haemek",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "4",
       "model_total": 184.32,
       "xpts_h": 98.0,
@@ -16861,7 +17201,18 @@
           "conceded": 114.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 41,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 51.5,
+      "total_delta": 9.32,
+      "signed_delta": -9.32,
+      "total_rpe": 5.33,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 239,
@@ -16870,7 +17221,7 @@
       "date": "2026-05-15",
       "away_team": "Maccabi Kiryat Gat",
       "home_team": "Maccabi Petah Tikva",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "4",
       "model_total": 179.54,
       "xpts_h": 92.6,
@@ -17509,7 +17860,18 @@
           "conceded": 111.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 105,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 42,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 47.9,
+      "total_delta": 5.46,
+      "signed_delta": 5.46,
+      "total_rpe": 2.95,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 239,
@@ -17518,7 +17880,7 @@
       "date": "2026-05-15",
       "away_team": "Otef Darom",
       "home_team": "Maccabi Ashdod",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Liga Leumit - Semi-finals",
       "model_total": 177.23,
       "xpts_h": 98.1,
@@ -18137,7 +18499,18 @@
           "conceded": 103.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 33,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 45.7,
+      "total_delta": 4.77,
+      "signed_delta": 4.77,
+      "total_rpe": 2.62,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 239,
@@ -18146,7 +18519,7 @@
       "date": "2026-05-15",
       "away_team": "Maccabi Haifa",
       "home_team": "Safed",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "4",
       "model_total": 194.74,
       "xpts_h": 89.8,
@@ -18785,7 +19158,18 @@
           "conceded": 113.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 114,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 53,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 7.26,
+      "signed_delta": 7.26,
+      "total_rpe": 3.59,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 110,
@@ -18794,7 +19178,7 @@
       "date": "2026-05-15",
       "away_team": "Malvin",
       "home_team": "Defensor",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "Liga Uruguaya - Quarter-finals",
       "model_total": 167.57,
       "xpts_h": 94.0,
@@ -19402,7 +19786,18 @@
           "conceded": 112.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 36,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 48.9,
+      "total_delta": 4.57,
+      "signed_delta": -4.57,
+      "total_rpe": 2.8,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 426,
@@ -19411,7 +19806,7 @@
       "date": "2026-05-15",
       "away_team": "Rizal Golden Coolers",
       "home_team": "Meycauayan",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 168.36,
       "xpts_h": 85.3,
@@ -20232,7 +20627,18 @@
           "conceded": 101.475,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 32,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 49.9,
+      "total_delta": 3.64,
+      "signed_delta": 3.64,
+      "total_rpe": 2.12,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 426,
@@ -20241,7 +20647,7 @@
       "date": "2026-05-15",
       "away_team": "Basilan Steel",
       "home_team": "Mindoro Tamaraws",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 160.83,
       "xpts_h": 80.6,
@@ -21062,7 +21468,18 @@
           "conceded": 97.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 35,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 49.1,
+      "total_delta": 2.83,
+      "signed_delta": -2.83,
+      "total_rpe": 1.79,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 426,
@@ -21071,7 +21488,7 @@
       "date": "2026-05-15",
       "away_team": "Manila Batang Quiapo",
       "home_team": "Bulacan Kuyas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 177.64,
       "xpts_h": 92.4,
@@ -21935,7 +22352,18 @@
           "conceded": 123.7125,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 44,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 49.5,
+      "total_delta": 14.64,
+      "signed_delta": -14.64,
+      "total_rpe": 8.98,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 46,
@@ -21944,7 +22372,7 @@
       "date": "2026-05-15",
       "away_team": "Budapesti Honved Se",
       "home_team": "Alba Fehervar",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "NB I. A - 5th place",
       "model_total": 182.01,
       "xpts_h": 90.3,
@@ -22440,7 +22868,7 @@
             {
               "position": 12,
               "team": {
-                "name": "SZTE-Szede\u00e1k",
+                "name": "SZTE-Szedeák",
                 "logo": ""
               },
               "games": {
@@ -22519,7 +22947,18 @@
           "conceded": 100.95000000000002,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 45,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 53.8,
+      "total_delta": 5.99,
+      "signed_delta": 5.99,
+      "total_rpe": 3.19,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 12,
@@ -22528,7 +22967,7 @@
       "date": "2026-05-15",
       "away_team": "Detroit Pistons",
       "home_team": "Cleveland Cavaliers",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "NBA - Quarter-finals",
       "model_total": 226.36,
       "xpts_h": 110.0,
@@ -23455,7 +23894,18 @@
           "conceded": 109.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 115,
+      "actual_result": "AWAY",
+      "halftime_home_score": 51,
+      "halftime_away_score": 54,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 46.4,
+      "total_delta": 17.36,
+      "signed_delta": -17.36,
+      "total_rpe": 8.31,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 13,
@@ -23464,7 +23914,7 @@
       "date": "2026-05-15",
       "away_team": "Minnesota Lynx W",
       "home_team": "Dallas Wings W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 164.94,
       "xpts_h": 82.7,
@@ -24103,7 +24553,18 @@
           "conceded": 105.525,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 48,
+      "halftime_away_score": 40,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 53.4,
+      "total_delta": 11.06,
+      "signed_delta": 11.06,
+      "total_rpe": 6.28,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 13,
@@ -24112,7 +24573,7 @@
       "date": "2026-05-15",
       "away_team": "New York Liberty W",
       "home_team": "Portland Fire W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 169.7,
       "xpts_h": 82.6,
@@ -24707,7 +25168,18 @@
           "conceded": 107.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 100,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 39,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 44.8,
+      "total_delta": 12.3,
+      "signed_delta": 12.3,
+      "total_rpe": 6.76,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 13,
@@ -24716,7 +25188,7 @@
       "date": "2026-05-15",
       "away_team": "Las Vegas Aces W",
       "home_team": "Connecticut Sun W",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "",
       "model_total": 157.42,
       "xpts_h": 73.3,
@@ -25334,7 +25806,18 @@
           "conceded": 104.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 54,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 62.3,
+      "total_delta": 37.58,
+      "signed_delta": 37.58,
+      "total_rpe": 19.27,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 13,
@@ -25343,7 +25826,7 @@
       "date": "2026-05-15",
       "away_team": "Washington Mystics W",
       "home_team": "Indiana Fever W",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "",
       "model_total": 161.13,
       "xpts_h": 82.4,
@@ -25920,7 +26403,18 @@
           "conceded": 104.05000000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 104,
+      "actual_away_score": 102,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 37,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 48.4,
+      "total_delta": 44.87,
+      "signed_delta": 44.87,
+      "total_rpe": 21.78,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 26,
@@ -26645,7 +27139,7 @@
       "date": "2026-05-15",
       "away_team": "Flamengo",
       "home_team": "Brasilia",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "NBB - Quarter-finals",
       "model_total": 170.36,
       "xpts_h": 83.5,
@@ -27352,7 +27846,18 @@
           "conceded": 101.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 34,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 45.2,
+      "total_delta": 29.36,
+      "signed_delta": -29.36,
+      "total_rpe": 20.82,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 66,
@@ -27361,7 +27866,7 @@
       "date": "2026-05-15",
       "away_team": "Manawatu Jets",
       "home_team": "Tauranga Whai",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 186.22,
       "xpts_h": 94.9,
@@ -27807,7 +28312,18 @@
           "conceded": 136.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "halftime_home_score": 60,
+      "halftime_away_score": 42,
+      "halftime_total": 102,
+      "halftime_pct_of_model": 54.8,
+      "total_delta": 9.78,
+      "signed_delta": 9.78,
+      "total_rpe": 4.99,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 32,
@@ -27816,7 +28332,7 @@
       "date": "2026-05-15",
       "away_team": "Opava",
       "home_team": "Nymburk",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "NBL - Semi-finals",
       "model_total": 187.0,
       "xpts_h": 103.9,
@@ -27935,7 +28451,7 @@
             "date": "Apr 11, 2026",
             "teams": {
               "home": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "winner": false
               },
               "away": {
@@ -28282,7 +28798,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -28326,7 +28842,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -28405,7 +28921,18 @@
           "conceded": 107.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 116,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 46,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 49.7,
+      "total_delta": 8.0,
+      "signed_delta": 8.0,
+      "total_rpe": 4.1,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 113,
@@ -28414,7 +28941,7 @@
       "date": "2026-05-15",
       "away_team": "Rilski Sportist",
       "home_team": "Lok. Plovdiv",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "NBL - Semi-finals",
       "model_total": 187.51,
       "xpts_h": 91.8,
@@ -28817,7 +29344,18 @@
           "conceded": 100.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 38,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 44.8,
+      "total_delta": 0.49,
+      "signed_delta": 0.49,
+      "total_rpe": 0.26,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 207,
@@ -28826,7 +29364,7 @@
       "date": "2026-05-15",
       "away_team": "Gold Coast Rollers",
       "home_team": "Logan Thunder",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 193.69,
       "xpts_h": 102.0,
@@ -29418,7 +29956,18 @@
           "conceded": 122.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 104,
+      "actual_result": "AWAY",
+      "halftime_home_score": 55,
+      "halftime_away_score": 49,
+      "halftime_total": 104,
+      "halftime_pct_of_model": 53.7,
+      "total_delta": 6.31,
+      "signed_delta": 6.31,
+      "total_rpe": 3.16,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 207,
@@ -29427,7 +29976,7 @@
       "date": "2026-05-15",
       "away_team": "Townsville Heat",
       "home_team": "Sunshine Coast Phoenix",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 186.58,
       "xpts_h": 98.2,
@@ -29979,7 +30528,18 @@
           "conceded": 117.97500000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 38,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 41.8,
+      "total_delta": 25.58,
+      "signed_delta": -25.58,
+      "total_rpe": 15.89,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 208,
@@ -29988,7 +30548,7 @@
       "date": "2026-05-15",
       "away_team": "Gold Coast Rollers W",
       "home_team": "Logan Thunder W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 134.63,
       "xpts_h": 74.6,
@@ -30580,7 +31140,18 @@
           "conceded": 92.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "halftime_home_score": 36,
+      "halftime_away_score": 29,
+      "halftime_total": 65,
+      "halftime_pct_of_model": 48.3,
+      "total_delta": 2.63,
+      "signed_delta": -2.63,
+      "total_rpe": 1.99,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 208,
@@ -30589,7 +31160,7 @@
       "date": "2026-05-15",
       "away_team": "Townsville Flames W",
       "home_team": "Sunshine Coast Phoenix W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 140.77,
       "xpts_h": 72.4,
@@ -31141,7 +31712,18 @@
           "conceded": 96.85000000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 38,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 59.0,
+      "total_delta": 19.23,
+      "signed_delta": 19.23,
+      "total_rpe": 12.02,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 209,
@@ -31150,7 +31732,7 @@
       "date": "2026-05-15",
       "away_team": "Dandenong",
       "home_team": "Hobart Chargers",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 187.96,
       "xpts_h": 93.8,
@@ -31855,7 +32437,18 @@
           "conceded": 114.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 57,
+      "halftime_total": 102,
+      "halftime_pct_of_model": 54.3,
+      "total_delta": 4.04,
+      "signed_delta": 4.04,
+      "total_rpe": 2.1,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 209,
@@ -31864,7 +32457,7 @@
       "date": "2026-05-15",
       "away_team": "Diamond Valley",
       "home_team": "Northern Tasmania",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 191.33,
       "xpts_h": 95.0,
@@ -32569,7 +33162,18 @@
           "conceded": 124.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 112,
+      "actual_result": "AWAY",
+      "halftime_home_score": 48,
+      "halftime_away_score": 50,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 51.2,
+      "total_delta": 2.67,
+      "signed_delta": 2.67,
+      "total_rpe": 1.38,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 210,
@@ -32578,7 +33182,7 @@
       "date": "2026-05-15",
       "away_team": "Dandenong Rangers W",
       "home_team": "Hobart Chargers W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 155.96,
       "xpts_h": 81.1,
@@ -33283,7 +33887,18 @@
           "conceded": 99.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 95,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 45,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 62.8,
+      "total_delta": 39.04,
+      "signed_delta": 39.04,
+      "total_rpe": 20.02,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 210,
@@ -33292,7 +33907,7 @@
       "date": "2026-05-15",
       "away_team": "Diamond Valley W",
       "home_team": "Northern Tasmania W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 162.35,
       "xpts_h": 71.6,
@@ -33997,7 +34612,18 @@
           "conceded": 94.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 43,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 59.1,
+      "total_delta": 20.65,
+      "signed_delta": 20.65,
+      "total_rpe": 11.28,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 214,
@@ -34006,7 +34632,7 @@
       "date": "2026-05-15",
       "away_team": "East Perth Eagles",
       "home_team": "Beeliar Boodjar",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 178.36,
       "xpts_h": 88.0,
@@ -34601,7 +35227,18 @@
           "conceded": 114.75,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 94,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 48,
+      "halftime_total": 102,
+      "halftime_pct_of_model": 57.2,
+      "total_delta": 22.64,
+      "signed_delta": 22.64,
+      "total_rpe": 11.26,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 214,
@@ -34610,7 +35247,7 @@
       "date": "2026-05-15",
       "away_team": "Lakeside Lightning",
       "home_team": "Perth Redbacks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 178.11,
       "xpts_h": 96.3,
@@ -35205,7 +35842,18 @@
           "conceded": 114.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 93,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 42,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 43.8,
+      "total_delta": 13.89,
+      "signed_delta": 13.89,
+      "total_rpe": 7.23,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 214,
@@ -35214,7 +35862,7 @@
       "date": "2026-05-15",
       "away_team": "Warwick Senators",
       "home_team": "Perry Lakes Hawks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 183.29,
       "xpts_h": 98.4,
@@ -35828,7 +36476,18 @@
           "conceded": 124.2625,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 108,
+      "actual_away_score": 116,
+      "actual_result": "AWAY",
+      "halftime_home_score": 52,
+      "halftime_away_score": 63,
+      "halftime_total": 115,
+      "halftime_pct_of_model": 62.7,
+      "total_delta": 40.71,
+      "signed_delta": 40.71,
+      "total_rpe": 18.17,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 213,
@@ -35837,7 +36496,7 @@
       "date": "2026-05-15",
       "away_team": "East Perth Eagles W",
       "home_team": "Cockburn Cougars W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 167.1,
       "xpts_h": 90.2,
@@ -36410,7 +37069,18 @@
           "conceded": 104.22500000000001,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 51,
+      "halftime_total": 100,
+      "halftime_pct_of_model": 59.8,
+      "total_delta": 4.9,
+      "signed_delta": 4.9,
+      "total_rpe": 2.85,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 213,
@@ -36419,7 +37089,7 @@
       "date": "2026-05-15",
       "away_team": "Lakeside Lightning W",
       "home_team": "Perth Redbacks W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 164.8,
       "xpts_h": 85.4,
@@ -36992,7 +37662,18 @@
           "conceded": 110.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 60,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "halftime_home_score": 25,
+      "halftime_away_score": 34,
+      "halftime_total": 59,
+      "halftime_pct_of_model": 35.8,
+      "total_delta": 25.8,
+      "signed_delta": -25.8,
+      "total_rpe": 18.56,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 213,
@@ -37001,7 +37682,7 @@
       "date": "2026-05-15",
       "away_team": "Warwick Senators W",
       "home_team": "Perry Lakes Hawks W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 160.53,
       "xpts_h": 77.0,
@@ -37593,7 +38274,18 @@
           "conceded": 99.675,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 48,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 52.3,
+      "total_delta": 4.53,
+      "signed_delta": -4.53,
+      "total_rpe": 2.9,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 57,
@@ -37602,7 +38294,7 @@
       "date": "2026-05-15",
       "away_team": "Astana",
       "home_team": "Atyrau",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "National League - Semi-finals",
       "model_total": 176.86,
       "xpts_h": 85.4,
@@ -38075,7 +38767,18 @@
           "conceded": 91.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 39,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 52.0,
+      "total_delta": 5.86,
+      "signed_delta": -5.86,
+      "total_rpe": 3.43,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 397,
@@ -38084,7 +38787,7 @@
       "date": "2026-05-15",
       "away_team": "Barsy Atyrau W",
       "home_team": "Pavlodar W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "National League Women - 3rd place",
       "model_total": 136.41,
       "xpts_h": 71.8,
@@ -38582,7 +39285,18 @@
           "conceded": 88.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 46,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 68.2,
+      "total_delta": 38.59,
+      "signed_delta": 38.59,
+      "total_rpe": 22.05,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 111,
@@ -38591,7 +39305,7 @@
       "date": "2026-05-15",
       "away_team": "Minsk",
       "home_team": "Borisfen",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Premier League - Semi-finals",
       "model_total": 154.81,
       "xpts_h": 59.1,
@@ -39196,7 +39910,18 @@
           "conceded": 77.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 40,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 49.7,
+      "total_delta": 4.19,
+      "signed_delta": 4.19,
+      "total_rpe": 2.64,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 48,
@@ -39205,7 +39930,7 @@
       "date": "2026-05-15",
       "away_team": "Tindastoll",
       "home_team": "Grindavik",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Premier League - Final",
       "model_total": 190.51,
       "xpts_h": 94.9,
@@ -39568,7 +40293,18 @@
           "conceded": 114.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 94,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 51,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 51.4,
+      "total_delta": 7.51,
+      "signed_delta": -7.51,
+      "total_rpe": 4.1,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 226,
@@ -39577,7 +40313,7 @@
       "date": "2026-05-15",
       "away_team": "Brod na Savi W",
       "home_team": "Sibenik W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Premijer Liga Women - Final",
       "model_total": 156.75,
       "xpts_h": 62.5,
@@ -40147,7 +40883,18 @@
           "conceded": 70.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 47,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 50.4,
+      "total_delta": 3.25,
+      "signed_delta": 3.25,
+      "total_rpe": 2.03,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 95,
@@ -40156,7 +40903,7 @@
       "date": "2026-05-15",
       "away_team": "Oviedo",
       "home_team": "Gipuzkoa",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Primera FEB - Quarter-finals",
       "model_total": 150.34,
       "xpts_h": 75.5,
@@ -40239,7 +40986,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": true
               }
             },
@@ -40363,7 +41110,7 @@
             "date": "Oct 3, 2025",
             "teams": {
               "home": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": true
               },
               "away": {
@@ -40449,7 +41196,7 @@
             {
               "position": 1,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -40493,7 +41240,7 @@
             {
               "position": 3,
               "team": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "logo": ""
               },
               "games": {
@@ -40836,7 +41583,18 @@
           "conceded": 96.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 46,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 58.5,
+      "total_delta": 21.66,
+      "signed_delta": 21.66,
+      "total_rpe": 12.59,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 95,
@@ -40845,7 +41603,7 @@
       "date": "2026-05-15",
       "away_team": "Alicante",
       "home_team": "Estudiantes",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Primera FEB - Quarter-finals",
       "model_total": 169.39,
       "xpts_h": 89.9,
@@ -40987,7 +41745,7 @@
             "date": "Feb 20, 2026",
             "teams": {
               "home": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": true
               },
               "away": {
@@ -41094,7 +41852,7 @@
             "date": "Mar 8, 2026",
             "teams": {
               "home": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": true
               },
               "away": {
@@ -41138,7 +41896,7 @@
             {
               "position": 1,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -41182,7 +41940,7 @@
             {
               "position": 3,
               "team": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "logo": ""
               },
               "games": {
@@ -41525,7 +42283,18 @@
           "conceded": 106.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 93,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 34,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 49.6,
+      "total_delta": 0.61,
+      "signed_delta": 0.61,
+      "total_rpe": 0.36,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 95,
@@ -41534,7 +42303,7 @@
       "date": "2026-05-15",
       "away_team": "Fuenlabrada",
       "home_team": "Palencia",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Primera FEB - Quarter-finals",
       "model_total": 155.0,
       "xpts_h": 83.5,
@@ -41573,7 +42342,7 @@
             "date": "Feb 20, 2026",
             "teams": {
               "home": {
-                "name": "S\u00faper Agropal Palencia"
+                "name": "Súper Agropal Palencia"
               },
               "away": {
                 "name": "Fuenlabrada"
@@ -41595,7 +42364,7 @@
                 "name": "Fuenlabrada"
               },
               "away": {
-                "name": "S\u00faper Agropal Palencia"
+                "name": "Súper Agropal Palencia"
               }
             },
             "scores": {
@@ -41617,7 +42386,7 @@
                 "winner": false
               },
               "away": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               }
             },
@@ -41634,7 +42403,7 @@
             "date": "Oct 3, 2025",
             "teams": {
               "home": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               },
               "away": {
@@ -41655,11 +42424,11 @@
             "date": "Mar 14, 2026",
             "teams": {
               "home": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               },
               "away": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": false
               }
             },
@@ -41680,7 +42449,7 @@
                 "winner": false
               },
               "away": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               }
             },
@@ -41697,7 +42466,7 @@
             "date": "Mar 6, 2026",
             "teams": {
               "home": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               },
               "away": {
@@ -41804,7 +42573,7 @@
             "date": "Feb 20, 2026",
             "teams": {
               "home": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "winner": true
               },
               "away": {
@@ -41827,7 +42596,7 @@
             {
               "position": 1,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -41871,7 +42640,7 @@
             {
               "position": 3,
               "team": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "logo": ""
               },
               "games": {
@@ -42214,7 +42983,18 @@
           "conceded": 102.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 52,
+      "actual_result": "HOME",
+      "halftime_home_score": 39,
+      "halftime_away_score": 28,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 43.2,
+      "total_delta": 13.0,
+      "signed_delta": -13.0,
+      "total_rpe": 9.15,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 42,
@@ -42223,7 +43003,7 @@
       "date": "2026-05-15",
       "away_team": "Crailsheim Merlins",
       "home_team": "Giessen",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Pro A - Quarter-finals",
       "model_total": 174.31,
       "xpts_h": 85.7,
@@ -42347,7 +43127,7 @@
             "date": "Apr 26, 2026",
             "teams": {
               "home": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": true
               },
               "away": {
@@ -42481,7 +43261,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "logo": ""
               },
               "games": {
@@ -42701,7 +43481,7 @@
             {
               "position": 16,
               "team": {
-                "name": "Tigers T\u00fcbingen",
+                "name": "Tigers Tübingen",
                 "logo": ""
               },
               "games": {
@@ -42723,7 +43503,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Uni Baskets M\u00fcnster",
+                "name": "Uni Baskets Münster",
                 "logo": ""
               },
               "games": {
@@ -42780,7 +43560,18 @@
           "conceded": 102.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 35,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 40.2,
+      "total_delta": 17.31,
+      "signed_delta": -17.31,
+      "total_rpe": 11.03,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 8,
@@ -42789,7 +43580,7 @@
       "date": "2026-05-15",
       "away_team": "Caen",
       "home_team": "Antibes",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 173.38,
       "xpts_h": 87.9,
@@ -43496,7 +44287,18 @@
           "conceded": 111.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "halftime_home_score": 41,
+      "halftime_away_score": 28,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 39.8,
+      "total_delta": 5.62,
+      "signed_delta": 5.62,
+      "total_rpe": 3.14,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 8,
@@ -43505,7 +44307,7 @@
       "date": "2026-05-15",
       "away_team": "Orleans",
       "home_team": "ASA",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 155.58,
       "xpts_h": 71.9,
@@ -44232,7 +45034,18 @@
           "conceded": 95.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 39,
+      "actual_away_score": 50,
+      "actual_result": "AWAY",
+      "halftime_home_score": 33,
+      "halftime_away_score": 33,
+      "halftime_total": 66,
+      "halftime_pct_of_model": 42.4,
+      "total_delta": 66.58,
+      "signed_delta": -66.58,
+      "total_rpe": 74.81,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 8,
@@ -44241,7 +45054,7 @@
       "date": "2026-05-15",
       "away_team": "Aix Maurienne",
       "home_team": "Chalons-Reims",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 172.21,
       "xpts_h": 90.4,
@@ -44968,7 +45781,18 @@
           "conceded": 110.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 42,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 52.8,
+      "total_delta": 12.21,
+      "signed_delta": -12.21,
+      "total_rpe": 7.63,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 8,
@@ -44977,7 +45801,7 @@
       "date": "2026-05-15",
       "away_team": "Quimper",
       "home_team": "Denain-Voltaire",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 162.67,
       "xpts_h": 86.9,
@@ -45684,7 +46508,18 @@
           "conceded": 112.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 62,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 43,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 47.9,
+      "total_delta": 25.67,
+      "signed_delta": -25.67,
+      "total_rpe": 18.74,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 8,
@@ -45693,7 +46528,7 @@
       "date": "2026-05-15",
       "away_team": "Ada Blois",
       "home_team": "Evreux",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 170.95,
       "xpts_h": 74.7,
@@ -46400,7 +47235,18 @@
           "conceded": 98.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 55,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 56.7,
+      "total_delta": 5.95,
+      "signed_delta": -5.95,
+      "total_rpe": 3.61,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 8,
@@ -46409,7 +47255,7 @@
       "date": "2026-05-15",
       "away_team": "St. Chamond",
       "home_team": "La Rochelle",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 163.44,
       "xpts_h": 89.1,
@@ -47116,7 +47962,18 @@
           "conceded": 110.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 39,
+      "halftime_away_score": 34,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 44.7,
+      "total_delta": 0.44,
+      "signed_delta": -0.44,
+      "total_rpe": 0.27,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 8,
@@ -47125,7 +47982,7 @@
       "date": "2026-05-15",
       "away_team": "Hyeres-Toulon",
       "home_team": "Poitiers",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 174.95,
       "xpts_h": 92.5,
@@ -47832,7 +48689,18 @@
           "conceded": 109.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 36,
+      "halftime_away_score": 32,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 38.9,
+      "total_delta": 18.95,
+      "signed_delta": -18.95,
+      "total_rpe": 12.15,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 8,
@@ -47841,7 +48709,7 @@
       "date": "2026-05-15",
       "away_team": "Pau-Orthez",
       "home_team": "Roanne",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 170.32,
       "xpts_h": 93.4,
@@ -48568,7 +49436,18 @@
           "conceded": 99.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 108,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 55,
+      "halftime_away_score": 41,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 56.4,
+      "total_delta": 19.68,
+      "signed_delta": 19.68,
+      "total_rpe": 10.36,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 8,
@@ -48577,7 +49456,7 @@
       "date": "2026-05-15",
       "away_team": "Challans",
       "home_team": "Rouen",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 180.47,
       "xpts_h": 109.4,
@@ -49284,7 +50163,18 @@
           "conceded": 126.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 58,
+      "halftime_away_score": 43,
+      "halftime_total": 101,
+      "halftime_pct_of_model": 56.0,
+      "total_delta": 5.47,
+      "signed_delta": -5.47,
+      "total_rpe": 3.13,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 8,
@@ -49293,7 +50183,7 @@
       "date": "2026-05-15",
       "away_team": "Nantes",
       "home_team": "Vichy",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "38",
       "model_total": 162.88,
       "xpts_h": 76.1,
@@ -50000,7 +50890,18 @@
           "conceded": 98.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 45,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 55.3,
+      "total_delta": 5.88,
+      "signed_delta": -5.88,
+      "total_rpe": 3.75,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 374,
@@ -50009,7 +50910,7 @@
       "date": "2026-05-15",
       "away_team": "Spirou Charleroi",
       "home_team": "Antwerp Giants",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Pro Basketball League - Quarter-finals",
       "model_total": 171.15,
       "xpts_h": 99.3,
@@ -50304,7 +51205,18 @@
           "conceded": 103.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 109,
+      "actual_away_score": 92,
+      "actual_result": "HOME",
+      "halftime_home_score": 66,
+      "halftime_away_score": 46,
+      "halftime_total": 112,
+      "halftime_pct_of_model": 65.4,
+      "total_delta": 29.85,
+      "signed_delta": 29.85,
+      "total_rpe": 14.85,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 374,
@@ -50313,7 +51225,7 @@
       "date": "2026-05-15",
       "away_team": "Limburg",
       "home_team": "Kortrijk",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Pro Basketball League - Quarter-finals",
       "model_total": 176.99,
       "xpts_h": 85.8,
@@ -50756,7 +51668,18 @@
           "conceded": 102.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 40,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 42.9,
+      "total_delta": 23.99,
+      "signed_delta": -23.99,
+      "total_rpe": 15.68,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 374,
@@ -50765,7 +51688,7 @@
       "date": "2026-05-15",
       "away_team": "Mechelen",
       "home_team": "Okapi Aalst",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Pro Basketball League - Quarter-finals",
       "model_total": 171.96,
       "xpts_h": 95.8,
@@ -51102,7 +52025,18 @@
           "conceded": 101.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 93,
+      "actual_away_score": 84,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 46,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 55.2,
+      "total_delta": 5.04,
+      "signed_delta": 5.04,
+      "total_rpe": 2.85,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 374,
@@ -51111,7 +52045,7 @@
       "date": "2026-05-15",
       "away_team": "Brussels Basketball",
       "home_team": "Oostende",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Pro Basketball League - Quarter-finals",
       "model_total": 167.11,
       "xpts_h": 85.5,
@@ -51491,7 +52425,18 @@
           "conceded": 96.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 36,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 52.7,
+      "total_delta": 6.89,
+      "signed_delta": 6.89,
+      "total_rpe": 3.96,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 242,
@@ -51500,7 +52445,7 @@
       "date": "2026-05-15",
       "away_team": "Cividale",
       "home_team": "Sebastiani Rieti",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Serie A2 - Quarter-finals",
       "model_total": 160.79,
       "xpts_h": 74.2,
@@ -52185,7 +53130,18 @@
           "conceded": 84.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 51,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 52.9,
+      "total_delta": 7.21,
+      "signed_delta": 7.21,
+      "total_rpe": 4.29,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 51,
@@ -52194,7 +53150,7 @@
       "date": "2026-05-15",
       "away_team": "Maccabi Raanana",
       "home_team": "Hapoel Holon",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "23",
       "model_total": 179.46,
       "xpts_h": 101.3,
@@ -52789,7 +53745,18 @@
           "conceded": 123.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 53,
+      "halftime_total": 101,
+      "halftime_pct_of_model": 56.3,
+      "total_delta": 8.54,
+      "signed_delta": 8.54,
+      "total_rpe": 4.54,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 51,
@@ -52798,7 +53765,7 @@
       "date": "2026-05-15",
       "away_team": "Maccabi Ironi Ramat Gan",
       "home_team": "Hapoel Beer Sheva",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "20",
       "model_total": 169.76,
       "xpts_h": 81.3,
@@ -53393,7 +54360,18 @@
           "conceded": 114.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 95,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 52,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 54.2,
+      "total_delta": 26.24,
+      "signed_delta": 26.24,
+      "total_rpe": 13.39,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 81,
@@ -53402,7 +54380,7 @@
       "date": "2026-05-15",
       "away_team": "Dynamo Grozny",
       "home_team": "Novosibirsk",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Super League - 3rd place",
       "model_total": 154.64,
       "xpts_h": 74.9,
@@ -54019,7 +54997,18 @@
           "conceded": 98.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 34,
+      "halftime_total": 72,
+      "halftime_pct_of_model": 46.6,
+      "total_delta": 16.64,
+      "signed_delta": -16.64,
+      "total_rpe": 12.06,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 39,
@@ -54028,7 +55017,7 @@
       "date": "2026-05-15",
       "away_team": "TSU",
       "home_team": "Orbi",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Superleague - Semi-finals",
       "model_total": 177.16,
       "xpts_h": 87.4,
@@ -54576,7 +55565,18 @@
           "conceded": 105.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 96,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 59,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 52.5,
+      "total_delta": 10.16,
+      "signed_delta": -10.16,
+      "total_rpe": 6.08,
+      "accuracy_tier": "SOLID"
     },
     {
       "league_id": 39,
@@ -54585,7 +55585,7 @@
       "date": "2026-05-15",
       "away_team": "Batumi",
       "home_team": "Kutaisi",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "Superleague - Semi-finals",
       "model_total": 180.95,
       "xpts_h": 88.4,
@@ -55133,7 +56133,18 @@
           "conceded": 105.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "halftime_home_score": 49,
+      "halftime_away_score": 34,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 45.9,
+      "total_delta": 27.95,
+      "signed_delta": -27.95,
+      "total_rpe": 18.27,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 275,
@@ -55142,7 +56153,7 @@
       "date": "2026-05-15",
       "away_team": "Pioneros",
       "home_team": "Cocodrilos",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "Superliga - Quarter-finals",
       "model_total": 159.21,
       "xpts_h": 86.2,
@@ -55734,7 +56745,18 @@
           "conceded": 114.1,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 36,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 46.5,
+      "total_delta": 25.21,
+      "signed_delta": -25.21,
+      "total_rpe": 18.81,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 275,
@@ -55743,7 +56765,7 @@
       "date": "2026-05-15",
       "away_team": "Brillantes",
       "home_team": "Gaiteros del Zulia",
-      "status": "Half Time",
+      "status": "FT",
       "stage": "Superliga - Quarter-finals",
       "model_total": 166.87,
       "xpts_h": 90.7,
@@ -56335,7 +57357,18 @@
           "conceded": 120.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 31,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 47.3,
+      "total_delta": 3.13,
+      "signed_delta": 3.13,
+      "total_rpe": 1.84,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 275,
@@ -56344,7 +57377,7 @@
       "date": "2026-05-15",
       "away_team": "Marinos",
       "home_team": "Spartans",
-      "status": "Quarter 2",
+      "status": "FT",
       "stage": "Superliga - Quarter-finals",
       "model_total": 156.03,
       "xpts_h": 77.8,
@@ -56936,7 +57969,18 @@
           "conceded": 104.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 36,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 51.3,
+      "total_delta": 8.03,
+      "signed_delta": -8.03,
+      "total_rpe": 5.43,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 275,
@@ -56945,7 +57989,7 @@
       "date": "2026-05-15",
       "away_team": "Trotamundos",
       "home_team": "Guaiqueries",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "Superliga - Quarter-finals",
       "model_total": 158.35,
       "xpts_h": 82.5,
@@ -57537,7 +58581,18 @@
           "conceded": 113.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 32,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 47.4,
+      "total_delta": 19.35,
+      "signed_delta": -19.35,
+      "total_rpe": 13.92,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 102,
@@ -57546,7 +58601,7 @@
       "date": "2026-05-15",
       "away_team": "Goztepe",
       "home_team": "Bordo Sportif",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "TBL - Semi-finals",
       "model_total": 165.21,
       "xpts_h": 83.5,
@@ -58248,7 +59303,18 @@
           "conceded": 102.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 37,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 47.2,
+      "total_delta": 18.21,
+      "signed_delta": -18.21,
+      "total_rpe": 12.39,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 427,
@@ -58257,7 +59323,7 @@
       "date": "2026-05-15",
       "away_team": "Taiwan Beer Leopards",
       "home_team": "New Taipei Kings",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "TPBL - Semi-finals",
       "model_total": 202.89,
       "xpts_h": 98.2,
@@ -58774,7 +59840,18 @@
           "conceded": 123.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 104,
+      "actual_away_score": 102,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 45,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 47.3,
+      "total_delta": 3.11,
+      "signed_delta": 3.11,
+      "total_rpe": 1.51,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "league_id": 250,
@@ -58783,7 +59860,7 @@
       "date": "2026-05-15",
       "away_team": "Contern W",
       "home_team": "Dudelange W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "LBBL Women - Final",
       "model_total": 167.76,
       "xpts_h": 107.0,
@@ -59391,7 +60468,31 @@
           "conceded": 98.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 54,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 27,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 44.7,
+      "total_delta": 18.76,
+      "signed_delta": -18.76,
+      "total_rpe": 12.59,
+      "accuracy_tier": "MISS"
     }
-  ]
+  ],
+  "graded_at": "2026-05-16T03:39:42.456433",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 37,
+      "total": 56,
+      "pct": 66.1
+    },
+    "[  SRS   ]": {
+      "wins": 32,
+      "total": 43,
+      "pct": 74.4
+    }
+  }
 }
