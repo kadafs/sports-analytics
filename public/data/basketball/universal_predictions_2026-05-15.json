@@ -26423,7 +26423,7 @@
       "date": "2026-05-15",
       "away_team": "Mogi",
       "home_team": "Franca",
-      "status": "Quarter 4",
+      "status": "FT",
       "stage": "NBB - Quarter-finals",
       "model_total": 170.81,
       "xpts_h": 95.5,
@@ -27130,7 +27130,18 @@
           "conceded": 102.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 36,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 15.81,
+      "signed_delta": -15.81,
+      "total_rpe": 10.2,
+      "accuracy_tier": "MISS"
     },
     {
       "league_id": 26,
@@ -60482,17 +60493,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-05-16T03:39:42.456433",
+  "graded_at": "2026-05-16T07:43:06.210925",
   "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 37,
-      "total": 56,
-      "pct": 66.1
-    },
     "[  SRS   ]": {
-      "wins": 32,
-      "total": 43,
-      "pct": 74.4
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
     }
   }
 }
