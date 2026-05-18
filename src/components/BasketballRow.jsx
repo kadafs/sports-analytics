@@ -238,28 +238,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
         {/* MODEL COLUMN — ADV total + optional SRS flag below */}
         <div className="stat-col center">
-          <div className={`bball-model-box ${decision === 'PLAY OVER' ? 'over' : decision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', lineHeight: 1 }}>
+          <div className={`bball-model-box ${decision === 'PLAY OVER' ? 'over' : decision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: 1 }}>
             <span style={{ fontSize: hasSRSFlag ? '0.9em' : 'inherit', marginTop: hasSRSFlag ? 1 : 0 }}>
               {model_total > 0 ? model_total.toFixed(1) : '—'}
             </span>
             {hasSRSFlag && (
               <span style={{ fontSize: 7, fontWeight: 800, marginTop: 2, opacity: 0.85 }}>
                 SRS {secondary.model_total?.toFixed(1)}
-              </span>
-            )}
-            {primary.is_clash && (
-              <span style={{ 
-                fontSize: '6px', 
-                fontWeight: 900, 
-                marginTop: 2, 
-                padding: '1px 3px', 
-                borderRadius: '2px', 
-                background: primary.clash_trigger === 'SHARP OVER' ? '#ea580c' : '#475569', 
-                color: '#fff',
-                letterSpacing: '0.04em',
-                lineHeight: 1
-              }}>
-                {primary.clash_trigger === 'SHARP OVER' ? 'SHARP' : 'CLASH'}
               </span>
             )}
           </div>
@@ -295,40 +280,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   <span className="sh-title">BY THE NUMBERS</span>
                   <span className="sh-team">{away_team}</span>
                 </div>
-                {primary.is_clash && (
-                  <div style={{
-                    margin: '4px 12px 14px',
-                    padding: '10px 14px',
-                    borderRadius: '6px',
-                    background: primary.clash_trigger === 'SHARP OVER' 
-                      ? 'rgba(234, 88, 12, 0.12)' 
-                      : 'rgba(71, 85, 105, 0.15)',
-                    borderLeft: `4px solid ${primary.clash_trigger === 'SHARP OVER' ? '#ea580c' : '#64748b'}`,
-                    borderTop: '1px solid rgba(255,255,255,0.05)',
-                    borderRight: '1px solid rgba(255,255,255,0.05)',
-                    borderBottom: '1px solid rgba(255,255,255,0.05)',
-                    color: '#f8fafc',
-                    fontSize: '11px',
-                    lineHeight: '1.45',
-                    textAlign: 'left'
-                  }}>
-                    <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: primary.clash_trigger === 'SHARP OVER' ? '#f97316' : '#cbd5e1', marginBottom: 4, letterSpacing: '0.04em' }}>
-                      <span style={{ marginRight: 6, fontSize: '12px' }}>
-                        {primary.clash_trigger === 'SHARP OVER' ? '🔥' : '⚠️'}
-                      </span>
-                      {primary.clash_trigger === 'SHARP OVER' ? 'CLASH OF THE INEFFICIENT (SHARP OVER)' : 'CLASH OF THE INEFFICIENT'}
-                    </div>
-                    {primary.clash_trigger === 'SHARP OVER' ? (
-                      <span>
-                        Both teams have inefficient offenses but weak defenses. The model raw total (<b>{model_total.toFixed(1)}</b>) is mathematically inflated. However, bookmakers over-correct and set the line too low. <b>Value is on the OVER (or bought-down safety OVER line)</b> relative to their market total!
-                      </span>
-                    ) : (
-                      <span>
-                        Both teams play with below-average offensive ratings and weak defenses. Under normal lines, this profile systematically creates a low-scoring game style brick-fest. <b>Expect a slow-paced, low-efficiency matchup</b>.
-                      </span>
-                    )}
-                  </div>
-                )}
                 {gameStageRaw && (
                   <div style={{ textAlign: 'center', fontSize: 11, fontWeight: 700, color: '#3b82f6', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
                     {gameStageRaw}
