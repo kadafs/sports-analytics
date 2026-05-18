@@ -882,7 +882,7 @@
             {
               "position": 13,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -1574,7 +1574,7 @@
             {
               "position": 13,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -3584,7 +3584,7 @@
             "date": "Apr 10, 2026",
             "teams": {
               "home": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": false
               },
               "away": {
@@ -3607,7 +3607,7 @@
             "date": "May 3, 2026",
             "teams": {
               "home": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "winner": false
               },
               "away": {
@@ -3628,7 +3628,7 @@
             "date": "Apr 28, 2026",
             "teams": {
               "home": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "winner": true
               },
               "away": {
@@ -3695,7 +3695,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "winner": true
               }
             },
@@ -3846,7 +3846,7 @@
             {
               "position": 7,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -3868,7 +3868,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -3912,7 +3912,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -3934,7 +3934,7 @@
             {
               "position": 11,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -3978,7 +3978,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -4154,7 +4154,7 @@
                 "winner": true
               },
               "away": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "winner": false
               }
             },
@@ -4213,7 +4213,7 @@
             "date": "Apr 4, 2026",
             "teams": {
               "home": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "winner": true
               },
               "away": {
@@ -4368,7 +4368,7 @@
             {
               "position": 7,
               "team": {
-                "name": "MKS D\u0105browa G\u00f3rnicza",
+                "name": "MKS Dąbrowa Górnicza",
                 "logo": ""
               },
               "games": {
@@ -4390,7 +4390,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Stal Ostr\u00f3w Wielkopolski",
+                "name": "Stal Ostrów Wielkopolski",
                 "logo": ""
               },
               "games": {
@@ -4434,7 +4434,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Enea Zastal Zielona G\u00f3ra",
+                "name": "Enea Zastal Zielona Góra",
                 "logo": ""
               },
               "games": {
@@ -4456,7 +4456,7 @@
             {
               "position": 11,
               "team": {
-                "name": "G\u00f3rnik Trans.eu Walbrzych",
+                "name": "Górnik Trans.eu Walbrzych",
                 "logo": ""
               },
               "games": {
@@ -4500,7 +4500,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Twarde Pierniki Toru\u0144",
+                "name": "Twarde Pierniki Toruń",
                 "logo": ""
               },
               "games": {
@@ -4610,7 +4610,7 @@
       "date": "2026-05-18",
       "away_team": "Santo Andre W",
       "home_team": "Salvador W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.35,
       "xpts_h": 44.5,
@@ -5117,7 +5117,18 @@
           "conceded": 92.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 41,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 21,
+      "halftime_away_score": 36,
+      "halftime_total": 57,
+      "halftime_pct_of_model": 38.7,
+      "total_delta": 26.35,
+      "signed_delta": -26.35,
+      "total_rpe": 21.78,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 27,
@@ -5642,7 +5653,7 @@
       "date": "2026-05-18",
       "away_team": "Boston C. C.",
       "home_team": "U. De Concepcion",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNB - Quarter-finals",
       "model_total": 177.89,
       "xpts_h": 115.6,
@@ -6173,7 +6184,18 @@
           "conceded": 115.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 119,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 52,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 57.9,
+      "total_delta": 24.11,
+      "signed_delta": 24.11,
+      "total_rpe": 11.94,
+      "accuracy_tier": "BUST"
     },
     {
       "league_id": 258,
@@ -8348,7 +8370,7 @@
       "date": "2026-05-18",
       "away_team": "Luis Matte Larrain",
       "home_team": "Sergio Ceppi",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 146.21,
       "xpts_h": 69.8,
@@ -9141,7 +9163,18 @@
           "conceded": 93.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 31,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 50.6,
+      "total_delta": 6.79,
+      "signed_delta": 6.79,
+      "total_rpe": 4.44,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 52,
@@ -9729,7 +9762,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -10145,7 +10178,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -12390,7 +12423,7 @@
             "date": "Apr 30, 2026",
             "teams": {
               "home": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "winner": false
               },
               "away": {
@@ -12543,7 +12576,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "winner": false
               }
             },
@@ -12693,7 +12726,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "logo": ""
               },
               "games": {
@@ -12759,7 +12792,7 @@
             {
               "position": 9,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -15443,7 +15476,7 @@
       "date": "2026-05-18",
       "away_team": "Cleveland Cavaliers",
       "home_team": "Detroit Pistons",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "NBA - Quarter-finals",
       "model_total": 226.36,
       "xpts_h": 118.9,
@@ -16370,7 +16403,18 @@
           "conceded": 121.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 125,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 64,
+      "halftime_total": 111,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 7.36,
+      "signed_delta": -7.36,
+      "total_rpe": 3.36,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "league_id": 26,
@@ -17178,7 +17222,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "winner": false
               }
             },
@@ -17542,7 +17586,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -17586,7 +17630,7 @@
             {
               "position": 10,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -25163,5 +25207,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-05-18T04:07:05.497299",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 2,
+      "total": 3,
+      "pct": 66.7
+    },
+    "[ADVANCED]": {
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0
+    }
+  }
 }
