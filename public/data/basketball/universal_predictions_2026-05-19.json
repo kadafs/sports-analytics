@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
   "mode": "full",
-  "total_predictions": 48,
+  "total_predictions": 50,
   "predictions": [
     {
       "is_clash": false,
@@ -44,7 +44,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.603450+00:00",
+      "timestamp": "2026-05-19T07:05:54.729275+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -546,7 +546,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.607356+00:00",
+      "timestamp": "2026-05-19T07:05:54.733648+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -1018,12 +1018,12 @@
       "home_team": "Alba Berlin",
       "status": "Not Started",
       "stage": "BBL - Quarter-finals",
-      "model_total": 181.8,
+      "model_total": 181.84,
       "xpts_h": 92.4,
       "xpts_a": 89.4,
       "probs_1x2": {
-        "home": 60.0,
-        "away": 40.0
+        "home": 59.8,
+        "away": 40.2
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -1031,7 +1031,7 @@
       "home_team_volatility": 7.22,
       "away_team_volatility": 17.59,
       "market_total": 167.9,
-      "edge": 13.9,
+      "edge": 13.94,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -1048,7 +1048,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.629988+00:00",
+      "timestamp": "2026-05-19T07:05:54.752699+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1669,7 +1669,7 @@
           "played": 6,
           "win_pct": 0.5,
           "scored": 108.875,
-          "conceded": 99.725,
+          "conceded": 99.80000000000001,
           "rank": null
         },
         "statsA": {
@@ -1722,7 +1722,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.637145+00:00",
+      "timestamp": "2026-05-19T07:05:54.764637+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2384,7 +2384,7 @@
       "date": "2026-05-19",
       "away_team": "Gigantes de Carolina",
       "home_team": "Criollos de Caguas",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 198.51,
       "xpts_h": 101.7,
@@ -2416,7 +2416,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.659371+00:00",
+      "timestamp": "2026-05-19T07:05:54.781579+00:00",
       "match_center": {
         "h2h": [
           {
@@ -2883,7 +2883,7 @@
       "date": "2026-05-19",
       "away_team": "Piratas de Quebradillas",
       "home_team": "Vaqueros de Bayamon",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 186.69,
       "xpts_h": 103.4,
@@ -2915,7 +2915,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:23.667831+00:00",
+      "timestamp": "2026-05-19T07:05:54.785101+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -3213,7 +3213,7 @@
       "date": "2026-05-19",
       "away_team": "Pioneros de Los Mochis",
       "home_team": "Astros",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 189.25,
       "xpts_h": 113.3,
@@ -3245,7 +3245,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-18T10:58:25.855913+00:00",
+      "timestamp": "2026-05-19T07:05:56.354498+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -3725,6 +3725,512 @@
       }
     },
     {
+      "is_clash": true,
+      "clash_trigger": "CLASH",
+      "league_id": 65,
+      "league": "DBL",
+      "country": "Netherlands",
+      "date": "2026-05-19",
+      "away_team": "LWD Basket",
+      "home_team": "Leiden",
+      "status": "Not Started",
+      "stage": "DBL - Quarter-finals",
+      "model_total": 170.79,
+      "xpts_h": 90.2,
+      "xpts_a": 80.6,
+      "probs_1x2": {
+        "home": 79.0,
+        "away": 21.0
+      },
+      "predicted_result": "HOME",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "home_team_volatility": 18.42,
+      "away_team_volatility": 13.18,
+      "market_total": 164.1,
+      "edge": 6.69,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "confidence_score_band": "[SOLID]",
+      "confidence_score": 67.0,
+      "mae_h": 13.32,
+      "mae_a": 13.15,
+      "bias_h": 2.54,
+      "bias_a": -3.0,
+      "graded_h": 13,
+      "graded_a": 14,
+      "mbet_threshold": 7.5,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-05-19T07:05:56.370929+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "28.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket"
+              },
+              "away": {
+                "name": "Leiden"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          },
+          {
+            "date": "26.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden"
+              },
+              "away": {
+                "name": "LWD Basket"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          },
+          {
+            "date": "24.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket"
+              },
+              "away": {
+                "name": "Leiden"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 89
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "22.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden"
+              },
+              "away": {
+                "name": "LWD Basket"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 89
+              },
+              "away": {
+                "total": 67
+              }
+            }
+          },
+          {
+            "date": "20.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket"
+              },
+              "away": {
+                "name": "Leiden"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "05.06. 14:00",
+            "teams": {
+              "home": {
+                "name": "Den Bosch",
+                "winner": true
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 86
+              },
+              "away": {
+                "total": 67
+              }
+            }
+          },
+          {
+            "date": "03.06. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden",
+                "winner": false
+              },
+              "away": {
+                "name": "Den Bosch",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 63
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          },
+          {
+            "date": "01.06. 09:00",
+            "teams": {
+              "home": {
+                "name": "Den Bosch",
+                "winner": true
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 72
+              }
+            }
+          },
+          {
+            "date": "28.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket",
+                "winner": false
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          },
+          {
+            "date": "26.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden",
+                "winner": false
+              },
+              "away": {
+                "name": "LWD Basket",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "28.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket",
+                "winner": false
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          },
+          {
+            "date": "26.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden",
+                "winner": false
+              },
+              "away": {
+                "name": "LWD Basket",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          },
+          {
+            "date": "24.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket",
+                "winner": true
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 89
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "22.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "Leiden",
+                "winner": true
+              },
+              "away": {
+                "name": "LWD Basket",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 89
+              },
+              "away": {
+                "total": 67
+              }
+            }
+          },
+          {
+            "date": "20.05. 14:00",
+            "teams": {
+              "home": {
+                "name": "LWD Basket",
+                "winner": false
+              },
+              "away": {
+                "name": "Leiden",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 90
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Den Bosch",
+                "logo": ""
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 6,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 558,
+                "against": 414
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Leiden",
+                "logo": ""
+              },
+              "games": {
+                "played": 10,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 820,
+                "against": 818
+              },
+              "form": "LLLWL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "LWD Basket",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 405,
+                "against": 432
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Donar Groningen",
+                "logo": ""
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 375,
+                "against": 444
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Den Helder",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 147,
+                "against": 163
+              },
+              "form": "LL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Zwolle",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 152,
+                "against": 186
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 19,
+          "win_pct": 0.368,
+          "scored": 103.3,
+          "conceded": 107.6,
+          "rank": null
+        },
+        "statsA": {
+          "played": 20,
+          "win_pct": 0.35,
+          "scored": 104.1,
+          "conceded": 117.6,
+          "rank": null
+        }
+      }
+    },
+    {
       "is_clash": false,
       "clash_trigger": "",
       "league_id": 78,
@@ -3765,7 +4271,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:25.883876+00:00",
+      "timestamp": "2026-05-19T07:05:56.390148+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -4131,12 +4637,12 @@
       "home_team": "Dziki Warszawa",
       "status": "Not Started",
       "stage": "Basket Liga - Quarter-finals",
-      "model_total": 174.2,
-      "xpts_h": 92.2,
+      "model_total": 174.13,
+      "xpts_h": 92.1,
       "xpts_a": 82.0,
       "probs_1x2": {
-        "home": 80.1,
-        "away": 19.9
+        "home": 79.9,
+        "away": 20.1
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -4144,7 +4650,7 @@
       "home_team_volatility": 13.65,
       "away_team_volatility": 14.9,
       "market_total": 166.6,
-      "edge": 7.6,
+      "edge": 7.53,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -4161,7 +4667,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:25.914538+00:00",
+      "timestamp": "2026-05-19T07:05:56.413618+00:00",
       "match_center": {
         "h2h": [
           {
@@ -4757,7 +5263,7 @@
         "statsH": {
           "played": 16,
           "win_pct": 0.625,
-          "scored": 116.4,
+          "scored": 116.3,
           "conceded": 104.7,
           "rank": null
         },
@@ -4811,7 +5317,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:25.953897+00:00",
+      "timestamp": "2026-05-19T07:05:56.426778+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -5335,7 +5841,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:25.989388+00:00",
+      "timestamp": "2026-05-19T07:05:56.440881+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5685,7 +6191,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.025701+00:00",
+      "timestamp": "2026-05-19T07:05:56.454942+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6232,6 +6738,424 @@
       "league": "Lega A",
       "country": "Italy",
       "date": "2026-05-19",
+      "away_team": "Trento",
+      "home_team": "Virtus Bologna",
+      "status": "Not Started",
+      "stage": "Lega A - Quarter-finals",
+      "model_total": 169.54,
+      "xpts_h": 91.5,
+      "xpts_a": 78.1,
+      "probs_1x2": {
+        "home": 86.8,
+        "away": 13.2
+      },
+      "predicted_result": "HOME",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "home_team_volatility": 14.67,
+      "away_team_volatility": 30.82,
+      "market_total": 169.3,
+      "edge": 0.24,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "confidence_score_band": "[AVOID]",
+      "confidence_score": 12.0,
+      "mae_h": 15.03,
+      "mae_a": 14.58,
+      "bias_h": -6.53,
+      "bias_a": -10.09,
+      "graded_h": 8,
+      "graded_a": 6,
+      "mbet_threshold": 17.2,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-05-19T07:05:56.471491+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Virtus Segafredo Bologna",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 20,
+                  "percentage": "0.800"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 2152,
+                "against": 1977
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Trapani Shark",
+                "logo": ""
+              },
+              "games": {
+                "played": 14,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 1182,
+                "against": 1148
+              },
+              "form": "WWLLL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Germani Brescia",
+                "logo": ""
+              },
+              "games": {
+                "played": 24,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.708"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 2107,
+                "against": 2013
+              },
+              "form": "WWWLL"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "EA7 Emporio Armani Milan",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 18,
+                  "percentage": "0.692"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 2261,
+                "against": 2110
+              },
+              "form": "LWLWW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Umana Reyer Venezia",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 17,
+                  "percentage": "0.654"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 2354,
+                "against": 2246
+              },
+              "form": "WLWWL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Bertram Tortona",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 15,
+                  "percentage": "0.577"
+                },
+                "lose": {
+                  "total": 11
+                }
+              },
+              "points": {
+                "for": 2273,
+                "against": 2244
+              },
+              "form": "WWWWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "UNAHOTELS Reggio Emilia",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 14,
+                  "percentage": "0.538"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 2193,
+                "against": 2082
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Pallacanestro Trieste",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 13
+                }
+              },
+              "points": {
+                "for": 2192,
+                "against": 2270
+              },
+              "form": "LWWLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Pallacanestro Varese",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 13,
+                  "percentage": "0.481"
+                },
+                "lose": {
+                  "total": 14
+                }
+              },
+              "points": {
+                "for": 2288,
+                "against": 2361
+              },
+              "form": "WLWWW"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Dolomiti Energia Trentino",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.423"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 2167,
+                "against": 2154
+              },
+              "form": "WLLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Napolibasket",
+                "logo": ""
+              },
+              "games": {
+                "played": 25,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 15
+                }
+              },
+              "points": {
+                "for": 2117,
+                "against": 2172
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Apu Old Wild West Udine",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.370"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2213,
+                "against": 2257
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Vanoli Cremona",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.370"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2215,
+                "against": 2298
+              },
+              "form": "LWLLL"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "Acqua S.Bernardo Cant\u00f9",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 9,
+                  "percentage": "0.346"
+                },
+                "lose": {
+                  "total": 17
+                }
+              },
+              "points": {
+                "for": 2182,
+                "against": 2283
+              },
+              "form": "LWWLW"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Nutribullet Treviso",
+                "logo": ""
+              },
+              "games": {
+                "played": 27,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.296"
+                },
+                "lose": {
+                  "total": 19
+                }
+              },
+              "points": {
+                "for": 2265,
+                "against": 2434
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Dinamo BDS Sassari",
+                "logo": ""
+              },
+              "games": {
+                "played": 26,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.269"
+                },
+                "lose": {
+                  "total": 19
+                }
+              },
+              "points": {
+                "for": 2231,
+                "against": 2343
+              },
+              "form": "LLLWL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 25,
+          "win_pct": 0.8,
+          "scored": 110.6,
+          "conceded": 101.0,
+          "rank": null
+        },
+        "statsA": {
+          "played": 26,
+          "win_pct": 0.423,
+          "scored": 107.1,
+          "conceded": 111.5,
+          "rank": null
+        }
+      }
+    },
+    {
+      "is_clash": false,
+      "clash_trigger": "",
+      "league_id": 52,
+      "league": "Lega A",
+      "country": "Italy",
+      "date": "2026-05-19",
       "away_team": "Tortona",
       "home_team": "Venezia",
       "status": "Not Started",
@@ -6266,7 +7190,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.050142+00:00",
+      "timestamp": "2026-05-19T07:05:56.480420+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6878,431 +7802,13 @@
     {
       "is_clash": false,
       "clash_trigger": "",
-      "league_id": 52,
-      "league": "Lega A",
-      "country": "Italy",
-      "date": "2026-05-19",
-      "away_team": "Trento",
-      "home_team": "Virtus Bologna",
-      "status": "Not Started",
-      "stage": "Lega A - Quarter-finals",
-      "model_total": 169.54,
-      "xpts_h": 91.5,
-      "xpts_a": 78.1,
-      "probs_1x2": {
-        "home": 86.8,
-        "away": 13.2
-      },
-      "predicted_result": "HOME",
-      "home_source": "ADVANCED",
-      "away_source": "ADVANCED",
-      "home_team_volatility": 14.67,
-      "away_team_volatility": 30.82,
-      "market_total": 169.3,
-      "edge": 0.24,
-      "side": "OVER",
-      "decision": "PASS",
-      "confidence": "MBET FILTER",
-      "confidence_score_band": "[AVOID]",
-      "confidence_score": 12.0,
-      "mae_h": 15.03,
-      "mae_a": 14.58,
-      "bias_h": -6.53,
-      "bias_a": -10.09,
-      "graded_h": 8,
-      "graded_a": 6,
-      "mbet_threshold": 17.2,
-      "model_architecture": "[ADVANCED]",
-      "mode": "full",
-      "config_source": "auto-calibrated",
-      "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.057811+00:00",
-      "match_center": {
-        "h2h": [],
-        "recentH": [],
-        "recentA": [],
-        "full_standings": [
-          [
-            {
-              "position": 1,
-              "team": {
-                "name": "Virtus Segafredo Bologna",
-                "logo": ""
-              },
-              "games": {
-                "played": 25,
-                "win": {
-                  "total": 20,
-                  "percentage": "0.800"
-                },
-                "lose": {
-                  "total": 5
-                }
-              },
-              "points": {
-                "for": 2152,
-                "against": 1977
-              },
-              "form": "WWWWW"
-            },
-            {
-              "position": 2,
-              "team": {
-                "name": "Trapani Shark",
-                "logo": ""
-              },
-              "games": {
-                "played": 14,
-                "win": {
-                  "total": 10,
-                  "percentage": "0.714"
-                },
-                "lose": {
-                  "total": 4
-                }
-              },
-              "points": {
-                "for": 1182,
-                "against": 1148
-              },
-              "form": "WWLLL"
-            },
-            {
-              "position": 3,
-              "team": {
-                "name": "Germani Brescia",
-                "logo": ""
-              },
-              "games": {
-                "played": 24,
-                "win": {
-                  "total": 17,
-                  "percentage": "0.708"
-                },
-                "lose": {
-                  "total": 7
-                }
-              },
-              "points": {
-                "for": 2107,
-                "against": 2013
-              },
-              "form": "WWWLL"
-            },
-            {
-              "position": 4,
-              "team": {
-                "name": "EA7 Emporio Armani Milan",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 18,
-                  "percentage": "0.692"
-                },
-                "lose": {
-                  "total": 8
-                }
-              },
-              "points": {
-                "for": 2261,
-                "against": 2110
-              },
-              "form": "LWLWW"
-            },
-            {
-              "position": 5,
-              "team": {
-                "name": "Umana Reyer Venezia",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 17,
-                  "percentage": "0.654"
-                },
-                "lose": {
-                  "total": 9
-                }
-              },
-              "points": {
-                "for": 2354,
-                "against": 2246
-              },
-              "form": "WLWWL"
-            },
-            {
-              "position": 6,
-              "team": {
-                "name": "Bertram Tortona",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 15,
-                  "percentage": "0.577"
-                },
-                "lose": {
-                  "total": 11
-                }
-              },
-              "points": {
-                "for": 2273,
-                "against": 2244
-              },
-              "form": "WWWWL"
-            },
-            {
-              "position": 7,
-              "team": {
-                "name": "UNAHOTELS Reggio Emilia",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 14,
-                  "percentage": "0.538"
-                },
-                "lose": {
-                  "total": 12
-                }
-              },
-              "points": {
-                "for": 2193,
-                "against": 2082
-              },
-              "form": "WLWWW"
-            },
-            {
-              "position": 8,
-              "team": {
-                "name": "Pallacanestro Trieste",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 13,
-                  "percentage": "0.500"
-                },
-                "lose": {
-                  "total": 13
-                }
-              },
-              "points": {
-                "for": 2192,
-                "against": 2270
-              },
-              "form": "LWWLW"
-            },
-            {
-              "position": 9,
-              "team": {
-                "name": "Pallacanestro Varese",
-                "logo": ""
-              },
-              "games": {
-                "played": 27,
-                "win": {
-                  "total": 13,
-                  "percentage": "0.481"
-                },
-                "lose": {
-                  "total": 14
-                }
-              },
-              "points": {
-                "for": 2288,
-                "against": 2361
-              },
-              "form": "WLWWW"
-            },
-            {
-              "position": 10,
-              "team": {
-                "name": "Dolomiti Energia Trentino",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 11,
-                  "percentage": "0.423"
-                },
-                "lose": {
-                  "total": 15
-                }
-              },
-              "points": {
-                "for": 2167,
-                "against": 2154
-              },
-              "form": "WLLLL"
-            },
-            {
-              "position": 11,
-              "team": {
-                "name": "Napolibasket",
-                "logo": ""
-              },
-              "games": {
-                "played": 25,
-                "win": {
-                  "total": 10,
-                  "percentage": "0.400"
-                },
-                "lose": {
-                  "total": 15
-                }
-              },
-              "points": {
-                "for": 2117,
-                "against": 2172
-              },
-              "form": "LLLLL"
-            },
-            {
-              "position": 12,
-              "team": {
-                "name": "Apu Old Wild West Udine",
-                "logo": ""
-              },
-              "games": {
-                "played": 27,
-                "win": {
-                  "total": 10,
-                  "percentage": "0.370"
-                },
-                "lose": {
-                  "total": 17
-                }
-              },
-              "points": {
-                "for": 2213,
-                "against": 2257
-              },
-              "form": "LLLLL"
-            },
-            {
-              "position": 13,
-              "team": {
-                "name": "Vanoli Cremona",
-                "logo": ""
-              },
-              "games": {
-                "played": 27,
-                "win": {
-                  "total": 10,
-                  "percentage": "0.370"
-                },
-                "lose": {
-                  "total": 17
-                }
-              },
-              "points": {
-                "for": 2215,
-                "against": 2298
-              },
-              "form": "LWLLL"
-            },
-            {
-              "position": 14,
-              "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 9,
-                  "percentage": "0.346"
-                },
-                "lose": {
-                  "total": 17
-                }
-              },
-              "points": {
-                "for": 2182,
-                "against": 2283
-              },
-              "form": "LWWLW"
-            },
-            {
-              "position": 15,
-              "team": {
-                "name": "Nutribullet Treviso",
-                "logo": ""
-              },
-              "games": {
-                "played": 27,
-                "win": {
-                  "total": 8,
-                  "percentage": "0.296"
-                },
-                "lose": {
-                  "total": 19
-                }
-              },
-              "points": {
-                "for": 2265,
-                "against": 2434
-              },
-              "form": "LLLLL"
-            },
-            {
-              "position": 16,
-              "team": {
-                "name": "Dinamo BDS Sassari",
-                "logo": ""
-              },
-              "games": {
-                "played": 26,
-                "win": {
-                  "total": 7,
-                  "percentage": "0.269"
-                },
-                "lose": {
-                  "total": 19
-                }
-              },
-              "points": {
-                "for": 2231,
-                "against": 2343
-              },
-              "form": "LLLWL"
-            }
-          ]
-        ],
-        "statsH": {
-          "played": 25,
-          "win_pct": 0.8,
-          "scored": 110.6,
-          "conceded": 101.0,
-          "rank": null
-        },
-        "statsA": {
-          "played": 26,
-          "win_pct": 0.423,
-          "scored": 107.1,
-          "conceded": 111.5,
-          "rank": null
-        }
-      }
-    },
-    {
-      "is_clash": false,
-      "clash_trigger": "",
       "league_id": 18,
       "league": "Liga A",
       "country": "Argentina",
       "date": "2026-05-19",
       "away_team": "Independiente de Oliva",
       "home_team": "Gimnasia",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "Liga A - Quarter-finals",
       "model_total": 176.81,
       "xpts_h": 91.9,
@@ -7334,7 +7840,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.080339+00:00",
+      "timestamp": "2026-05-19T07:05:56.682965+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8018,7 +8524,7 @@
       "date": "2026-05-19",
       "away_team": "Ferro",
       "home_team": "Regatas",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "Liga A - Quarter-finals",
       "model_total": 163.44,
       "xpts_h": 82.0,
@@ -8050,7 +8556,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.088069+00:00",
+      "timestamp": "2026-05-19T07:05:56.733887+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8732,666 +9238,16 @@
       "league": "Liga Leumit",
       "country": "Israel",
       "date": "2026-05-19",
-      "away_team": "Safed",
-      "home_team": "Maccabi Maale Adumim",
-      "status": "Not Started",
-      "stage": "5",
-      "model_total": 188.11,
-      "xpts_h": 96.4,
-      "xpts_a": 91.8,
-      "probs_1x2": {
-        "home": 64.9,
-        "away": 35.1
-      },
-      "predicted_result": "HOME",
-      "home_source": "SRS",
-      "away_source": "SRS",
-      "home_team_volatility": 15.86,
-      "away_team_volatility": 23.31,
-      "market_total": 170.2,
-      "edge": 17.91,
-      "side": "OVER",
-      "decision": "PLAY OVER",
-      "confidence": "HIGH",
-      "confidence_score_band": "[AVOID]",
-      "confidence_score": 21.0,
-      "mae_h": 18.66,
-      "mae_a": 13.89,
-      "bias_h": -11.24,
-      "bias_a": 6.12,
-      "graded_h": 9,
-      "graded_a": 12,
-      "mbet_threshold": 15.1,
-      "model_architecture": "[  SRS   ]",
-      "mode": "full",
-      "config_source": "auto-calibrated",
-      "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.098940+00:00",
-      "match_center": {
-        "h2h": [
-          {
-            "date": "17.12. 11:50",
-            "teams": {
-              "home": {
-                "name": "Maccabi Maale Adumim"
-              },
-              "away": {
-                "name": "Safed"
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 93
-              },
-              "away": {
-                "total": 74
-              }
-            }
-          }
-        ],
-        "recentH": [
-          {
-            "date": "24.02. 11:45",
-            "teams": {
-              "home": {
-                "name": "Ramat Hasharon",
-                "winner": true
-              },
-              "away": {
-                "name": "Maccabi Maale Adumim",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 109
-              },
-              "away": {
-                "total": 87
-              }
-            }
-          },
-          {
-            "date": "17.02. 12:00",
-            "teams": {
-              "home": {
-                "name": "Maccabi Maale Adumim",
-                "winner": false
-              },
-              "away": {
-                "name": "Hapoel Haifa",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 76
-              },
-              "away": {
-                "total": 88
-              }
-            }
-          },
-          {
-            "date": "10.02. 11:45",
-            "teams": {
-              "home": {
-                "name": "Otef Darom",
-                "winner": true
-              },
-              "away": {
-                "name": "Maccabi Maale Adumim",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 102
-              },
-              "away": {
-                "total": 73
-              }
-            }
-          },
-          {
-            "date": "03.02. 11:45",
-            "teams": {
-              "home": {
-                "name": "Maccabi Maale Adumim",
-                "winner": false
-              },
-              "away": {
-                "name": "Ironi Nahariya",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 84
-              },
-              "away": {
-                "total": 108
-              }
-            }
-          },
-          {
-            "date": "27.01. 11:30",
-            "teams": {
-              "home": {
-                "name": "Maccabi Kiryat Gat",
-                "winner": true
-              },
-              "away": {
-                "name": "Maccabi Maale Adumim",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 85
-              },
-              "away": {
-                "total": 74
-              }
-            }
-          }
-        ],
-        "recentA": [
-          {
-            "date": "23.02. 11:45",
-            "teams": {
-              "home": {
-                "name": "Elitzur Shomron",
-                "winner": true
-              },
-              "away": {
-                "name": "Safed",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 97
-              },
-              "away": {
-                "total": 86
-              }
-            }
-          },
-          {
-            "date": "17.02. 12:30",
-            "teams": {
-              "home": {
-                "name": "Safed",
-                "winner": false
-              },
-              "away": {
-                "name": "Maccabi Rehovot",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 74
-              },
-              "away": {
-                "total": 99
-              }
-            }
-          },
-          {
-            "date": "10.02. 12:30",
-            "teams": {
-              "home": {
-                "name": "Maccabi Petah Tikva",
-                "winner": true
-              },
-              "away": {
-                "name": "Safed",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 95
-              },
-              "away": {
-                "total": 67
-              }
-            }
-          },
-          {
-            "date": "03.02. 12:30",
-            "teams": {
-              "home": {
-                "name": "Safed",
-                "winner": false
-              },
-              "away": {
-                "name": "Maccabi Haifa",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 85
-              },
-              "away": {
-                "total": 92
-              }
-            }
-          },
-          {
-            "date": "27.01. 12:00",
-            "teams": {
-              "home": {
-                "name": "Elitzur Ashkelon",
-                "winner": true
-              },
-              "away": {
-                "name": "Safed",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 88
-              },
-              "away": {
-                "total": 82
-              }
-            }
-          }
-        ],
-        "full_standings": [
-          [
-            {
-              "position": 1,
-              "team": {
-                "name": "Ironi Eilat",
-                "logo": ""
-              },
-              "games": {
-                "played": 14,
-                "win": {
-                  "total": 14,
-                  "percentage": "1.000"
-                },
-                "lose": {
-                  "total": 0
-                }
-              },
-              "points": {
-                "for": 1313,
-                "against": 1092
-              },
-              "form": "WWWWW"
-            },
-            {
-              "position": 2,
-              "team": {
-                "name": "Ironi Nahariya",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 11,
-                  "percentage": "0.846"
-                },
-                "lose": {
-                  "total": 2
-                }
-              },
-              "points": {
-                "for": 1132,
-                "against": 997
-              },
-              "form": "WWLWW"
-            },
-            {
-              "position": 3,
-              "team": {
-                "name": "Maccabi Rehovot",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 10,
-                  "percentage": "0.769"
-                },
-                "lose": {
-                  "total": 3
-                }
-              },
-              "points": {
-                "for": 1183,
-                "against": 1030
-              },
-              "form": "WWWWW"
-            },
-            {
-              "position": 4,
-              "team": {
-                "name": "Hapoel Haifa",
-                "logo": ""
-              },
-              "games": {
-                "played": 12,
-                "win": {
-                  "total": 8,
-                  "percentage": "0.667"
-                },
-                "lose": {
-                  "total": 4
-                }
-              },
-              "points": {
-                "for": 1014,
-                "against": 962
-              },
-              "form": "LWWWL"
-            },
-            {
-              "position": 5,
-              "team": {
-                "name": "Elitzur Ashkelon",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 8,
-                  "percentage": "0.615"
-                },
-                "lose": {
-                  "total": 5
-                }
-              },
-              "points": {
-                "for": 1063,
-                "against": 1065
-              },
-              "form": "LWWWW"
-            },
-            {
-              "position": 6,
-              "team": {
-                "name": "Maccabi Ashdod",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 7,
-                  "percentage": "0.538"
-                },
-                "lose": {
-                  "total": 6
-                }
-              },
-              "points": {
-                "for": 1190,
-                "against": 1115
-              },
-              "form": "LWWLW"
-            },
-            {
-              "position": 7,
-              "team": {
-                "name": "Maccabi Haifa",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 7,
-                  "percentage": "0.538"
-                },
-                "lose": {
-                  "total": 6
-                }
-              },
-              "points": {
-                "for": 1148,
-                "against": 1141
-              },
-              "form": "WWLWW"
-            },
-            {
-              "position": 8,
-              "team": {
-                "name": "Ramat Hasharon",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 6,
-                  "percentage": "0.462"
-                },
-                "lose": {
-                  "total": 7
-                }
-              },
-              "points": {
-                "for": 1140,
-                "against": 1123
-              },
-              "form": "WLLLW"
-            },
-            {
-              "position": 9,
-              "team": {
-                "name": "Elitzur Shomron",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 6,
-                  "percentage": "0.462"
-                },
-                "lose": {
-                  "total": 7
-                }
-              },
-              "points": {
-                "for": 1059,
-                "against": 1110
-              },
-              "form": "WWLLL"
-            },
-            {
-              "position": 10,
-              "team": {
-                "name": "Migdal Haemek",
-                "logo": ""
-              },
-              "games": {
-                "played": 12,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.417"
-                },
-                "lose": {
-                  "total": 7
-                }
-              },
-              "points": {
-                "for": 1088,
-                "against": 1108
-              },
-              "form": "WLLWL"
-            },
-            {
-              "position": 11,
-              "team": {
-                "name": "Maccabi Petah Tikva",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.385"
-                },
-                "lose": {
-                  "total": 8
-                }
-              },
-              "points": {
-                "for": 1039,
-                "against": 1047
-              },
-              "form": "LLWLL"
-            },
-            {
-              "position": 12,
-              "team": {
-                "name": "Elitzur Yavne",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.385"
-                },
-                "lose": {
-                  "total": 8
-                }
-              },
-              "points": {
-                "for": 1080,
-                "against": 1185
-              },
-              "form": "WLWWL"
-            },
-            {
-              "position": 13,
-              "team": {
-                "name": "Otef Darom",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.308"
-                },
-                "lose": {
-                  "total": 9
-                }
-              },
-              "points": {
-                "for": 1045,
-                "against": 1091
-              },
-              "form": "LLWLL"
-            },
-            {
-              "position": 14,
-              "team": {
-                "name": "Maccabi Maale Adumim",
-                "logo": ""
-              },
-              "games": {
-                "played": 14,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.286"
-                },
-                "lose": {
-                  "total": 10
-                }
-              },
-              "points": {
-                "for": 1106,
-                "against": 1274
-              },
-              "form": "LLLLL"
-            },
-            {
-              "position": 15,
-              "team": {
-                "name": "Maccabi Kiryat Gat",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.231"
-                },
-                "lose": {
-                  "total": 10
-                }
-              },
-              "points": {
-                "for": 1066,
-                "against": 1183
-              },
-              "form": "LLLLW"
-            },
-            {
-              "position": 16,
-              "team": {
-                "name": "Safed",
-                "logo": ""
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 1,
-                  "percentage": "0.077"
-                },
-                "lose": {
-                  "total": 12
-                }
-              },
-              "points": {
-                "for": 1048,
-                "against": 1191
-              },
-              "form": "LLLLL"
-            }
-          ]
-        ],
-        "statsH": {
-          "played": 25,
-          "win_pct": 0.32,
-          "scored": 92.8,
-          "conceded": 117.2,
-          "rank": null
-        },
-        "statsA": {
-          "played": 25,
-          "win_pct": 0.12,
-          "scored": 111.1,
-          "conceded": 138.2,
-          "rank": null
-        }
-      }
-    },
-    {
-      "is_clash": false,
-      "clash_trigger": "",
-      "league_id": 239,
-      "league": "Liga Leumit",
-      "country": "Israel",
-      "date": "2026-05-19",
       "away_team": "Migdal Haemek",
       "home_team": "Maccabi Haifa",
       "status": "Not Started",
       "stage": "5",
-      "model_total": 190.07,
-      "xpts_h": 94.3,
+      "model_total": 190.17,
+      "xpts_h": 94.5,
       "xpts_a": 95.7,
       "probs_1x2": {
-        "home": 45.4,
-        "away": 54.6
+        "home": 45.9,
+        "away": 54.1
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
@@ -9399,7 +9255,7 @@
       "home_team_volatility": 14.78,
       "away_team_volatility": 20.17,
       "market_total": 170.2,
-      "edge": 19.87,
+      "edge": 19.97,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -9416,7 +9272,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.102316+00:00",
+      "timestamp": "2026-05-19T07:05:56.745275+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10012,14 +9868,14 @@
         "statsH": {
           "played": 24,
           "win_pct": 0.417,
-          "scored": 109.1,
-          "conceded": 113.7,
+          "scored": 109.3,
+          "conceded": 113.8,
           "rank": null
         },
         "statsA": {
           "played": 23,
           "win_pct": 0.435,
-          "scored": 118.8,
+          "scored": 118.7,
           "conceded": 118.4,
           "rank": null
         }
@@ -10036,12 +9892,12 @@
       "home_team": "Elitzur Yavne",
       "status": "Not Started",
       "stage": "5",
-      "model_total": 176.81,
-      "xpts_h": 84.2,
-      "xpts_a": 92.6,
+      "model_total": 177.44,
+      "xpts_h": 84.5,
+      "xpts_a": 92.9,
       "probs_1x2": {
-        "home": 24.1,
-        "away": 75.9
+        "home": 24.3,
+        "away": 75.7
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
@@ -10049,7 +9905,7 @@
       "home_team_volatility": 22.67,
       "away_team_volatility": 18.64,
       "market_total": 170.2,
-      "edge": 6.61,
+      "edge": 7.24,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -10066,7 +9922,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.105573+00:00",
+      "timestamp": "2026-05-19T07:05:56.781462+00:00",
       "match_center": {
         "h2h": [
           {
@@ -10662,15 +10518,665 @@
         "statsH": {
           "played": 25,
           "win_pct": 0.32,
-          "scored": 102.7,
-          "conceded": 114.0,
+          "scored": 102.8,
+          "conceded": 113.8,
           "rank": null
         },
         "statsA": {
           "played": 24,
           "win_pct": 0.417,
-          "scored": 114.6,
-          "conceded": 111.9,
+          "scored": 115.2,
+          "conceded": 112.3,
+          "rank": null
+        }
+      }
+    },
+    {
+      "is_clash": false,
+      "clash_trigger": "",
+      "league_id": 239,
+      "league": "Liga Leumit",
+      "country": "Israel",
+      "date": "2026-05-19",
+      "away_team": "Safed",
+      "home_team": "Maccabi Maale Adumim",
+      "status": "Not Started",
+      "stage": "5",
+      "model_total": 190.16,
+      "xpts_h": 97.3,
+      "xpts_a": 92.9,
+      "probs_1x2": {
+        "home": 64.5,
+        "away": 35.5
+      },
+      "predicted_result": "HOME",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 15.86,
+      "away_team_volatility": 23.31,
+      "market_total": 170.2,
+      "edge": 19.96,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "confidence_score_band": "[AVOID]",
+      "confidence_score": 21.0,
+      "mae_h": 18.66,
+      "mae_a": 13.89,
+      "bias_h": -11.24,
+      "bias_a": 6.12,
+      "graded_h": 9,
+      "graded_a": 12,
+      "mbet_threshold": 15.1,
+      "model_architecture": "[  SRS   ]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-05-19T07:05:56.810033+00:00",
+      "match_center": {
+        "h2h": [
+          {
+            "date": "17.12. 11:50",
+            "teams": {
+              "home": {
+                "name": "Maccabi Maale Adumim"
+              },
+              "away": {
+                "name": "Safed"
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 93
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          }
+        ],
+        "recentH": [
+          {
+            "date": "24.02. 11:45",
+            "teams": {
+              "home": {
+                "name": "Ramat Hasharon",
+                "winner": true
+              },
+              "away": {
+                "name": "Maccabi Maale Adumim",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 109
+              },
+              "away": {
+                "total": 87
+              }
+            }
+          },
+          {
+            "date": "17.02. 12:00",
+            "teams": {
+              "home": {
+                "name": "Maccabi Maale Adumim",
+                "winner": false
+              },
+              "away": {
+                "name": "Hapoel Haifa",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 88
+              }
+            }
+          },
+          {
+            "date": "10.02. 11:45",
+            "teams": {
+              "home": {
+                "name": "Otef Darom",
+                "winner": true
+              },
+              "away": {
+                "name": "Maccabi Maale Adumim",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 102
+              },
+              "away": {
+                "total": 73
+              }
+            }
+          },
+          {
+            "date": "03.02. 11:45",
+            "teams": {
+              "home": {
+                "name": "Maccabi Maale Adumim",
+                "winner": false
+              },
+              "away": {
+                "name": "Ironi Nahariya",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 84
+              },
+              "away": {
+                "total": 108
+              }
+            }
+          },
+          {
+            "date": "27.01. 11:30",
+            "teams": {
+              "home": {
+                "name": "Maccabi Kiryat Gat",
+                "winner": true
+              },
+              "away": {
+                "name": "Maccabi Maale Adumim",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 74
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "23.02. 11:45",
+            "teams": {
+              "home": {
+                "name": "Elitzur Shomron",
+                "winner": true
+              },
+              "away": {
+                "name": "Safed",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 86
+              }
+            }
+          },
+          {
+            "date": "17.02. 12:30",
+            "teams": {
+              "home": {
+                "name": "Safed",
+                "winner": false
+              },
+              "away": {
+                "name": "Maccabi Rehovot",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 74
+              },
+              "away": {
+                "total": 99
+              }
+            }
+          },
+          {
+            "date": "10.02. 12:30",
+            "teams": {
+              "home": {
+                "name": "Maccabi Petah Tikva",
+                "winner": true
+              },
+              "away": {
+                "name": "Safed",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 95
+              },
+              "away": {
+                "total": 67
+              }
+            }
+          },
+          {
+            "date": "03.02. 12:30",
+            "teams": {
+              "home": {
+                "name": "Safed",
+                "winner": false
+              },
+              "away": {
+                "name": "Maccabi Haifa",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 92
+              }
+            }
+          },
+          {
+            "date": "27.01. 12:00",
+            "teams": {
+              "home": {
+                "name": "Elitzur Ashkelon",
+                "winner": true
+              },
+              "away": {
+                "name": "Safed",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 82
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Ironi Eilat",
+                "logo": ""
+              },
+              "games": {
+                "played": 14,
+                "win": {
+                  "total": 14,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 1313,
+                "against": 1092
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Ironi Nahariya",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 11,
+                  "percentage": "0.846"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 1132,
+                "against": 997
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Maccabi Rehovot",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 10,
+                  "percentage": "0.769"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 1183,
+                "against": 1030
+              },
+              "form": "WWWWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Hapoel Haifa",
+                "logo": ""
+              },
+              "games": {
+                "played": 12,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 1014,
+                "against": 962
+              },
+              "form": "LWWWL"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Elitzur Ashkelon",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.615"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 1063,
+                "against": 1065
+              },
+              "form": "LWWWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Maccabi Ashdod",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.538"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1190,
+                "against": 1115
+              },
+              "form": "LWWLW"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Maccabi Haifa",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 7,
+                  "percentage": "0.538"
+                },
+                "lose": {
+                  "total": 6
+                }
+              },
+              "points": {
+                "for": 1148,
+                "against": 1141
+              },
+              "form": "WWLWW"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Ramat Hasharon",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.462"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1140,
+                "against": 1123
+              },
+              "form": "WLLLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Elitzur Shomron",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.462"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1059,
+                "against": 1110
+              },
+              "form": "WWLLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Migdal Haemek",
+                "logo": ""
+              },
+              "games": {
+                "played": 12,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.417"
+                },
+                "lose": {
+                  "total": 7
+                }
+              },
+              "points": {
+                "for": 1088,
+                "against": 1108
+              },
+              "form": "WLLWL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Maccabi Petah Tikva",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.385"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1039,
+                "against": 1047
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Elitzur Yavne",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.385"
+                },
+                "lose": {
+                  "total": 8
+                }
+              },
+              "points": {
+                "for": 1080,
+                "against": 1185
+              },
+              "form": "WLWWL"
+            },
+            {
+              "position": 13,
+              "team": {
+                "name": "Otef Darom",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.308"
+                },
+                "lose": {
+                  "total": 9
+                }
+              },
+              "points": {
+                "for": 1045,
+                "against": 1091
+              },
+              "form": "LLWLL"
+            },
+            {
+              "position": 14,
+              "team": {
+                "name": "Maccabi Maale Adumim",
+                "logo": ""
+              },
+              "games": {
+                "played": 14,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.286"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1106,
+                "against": 1274
+              },
+              "form": "LLLLL"
+            },
+            {
+              "position": 15,
+              "team": {
+                "name": "Maccabi Kiryat Gat",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.231"
+                },
+                "lose": {
+                  "total": 10
+                }
+              },
+              "points": {
+                "for": 1066,
+                "against": 1183
+              },
+              "form": "LLLLW"
+            },
+            {
+              "position": 16,
+              "team": {
+                "name": "Safed",
+                "logo": ""
+              },
+              "games": {
+                "played": 13,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.077"
+                },
+                "lose": {
+                  "total": 12
+                }
+              },
+              "points": {
+                "for": 1048,
+                "against": 1191
+              },
+              "form": "LLLLL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 25,
+          "win_pct": 0.32,
+          "scored": 92.4,
+          "conceded": 117.2,
+          "rank": null
+        },
+        "statsA": {
+          "played": 25,
+          "win_pct": 0.12,
+          "scored": 111.0,
+          "conceded": 138.3,
           "rank": null
         }
       }
@@ -10686,12 +11192,12 @@
       "home_team": "Otef Darom",
       "status": "Not Started",
       "stage": "Liga Leumit - Semi-finals",
-      "model_total": 177.23,
-      "xpts_h": 81.7,
-      "xpts_a": 95.6,
+      "model_total": 176.81,
+      "xpts_h": 81.4,
+      "xpts_a": 95.4,
       "probs_1x2": {
-        "home": 12.4,
-        "away": 87.6
+        "home": 12.1,
+        "away": 87.9
       },
       "predicted_result": "AWAY",
       "home_source": "SRS",
@@ -10699,7 +11205,7 @@
       "home_team_volatility": 18.55,
       "away_team_volatility": 16.09,
       "market_total": 170.2,
-      "edge": 7.03,
+      "edge": 6.61,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -10716,7 +11222,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.111506+00:00",
+      "timestamp": "2026-05-19T07:05:56.816763+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -11292,15 +11798,15 @@
         "statsH": {
           "played": 25,
           "win_pct": 0.36,
-          "scored": 111.1,
+          "scored": 111.0,
           "conceded": 103.2,
           "rank": null
         },
         "statsA": {
           "played": 24,
           "win_pct": 0.708,
-          "scored": 129.2,
-          "conceded": 100.3,
+          "scored": 129.0,
+          "conceded": 100.0,
           "rank": null
         }
       }
@@ -11314,7 +11820,7 @@
       "date": "2026-05-19",
       "away_team": "Aguada",
       "home_team": "Nacional",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "Liga Uruguaya - Semi-finals",
       "model_total": 182.23,
       "xpts_h": 96.2,
@@ -11346,7 +11852,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.122518+00:00",
+      "timestamp": "2026-05-19T07:05:56.829203+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11897,9 +12403,9 @@
       "home_team": "Zamboanga Sikat",
       "status": "Not Started",
       "stage": "",
-      "model_total": 159.55,
-      "xpts_h": 72.1,
-      "xpts_a": 87.4,
+      "model_total": 159.79,
+      "xpts_h": 72.3,
+      "xpts_a": 87.5,
       "probs_1x2": {
         "home": 10.2,
         "away": 89.8
@@ -11910,7 +12416,7 @@
       "home_team_volatility": 13.35,
       "away_team_volatility": 18.77,
       "market_total": 158.8,
-      "edge": 0.75,
+      "edge": 0.99,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -11927,7 +12433,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.134270+00:00",
+      "timestamp": "2026-05-19T07:05:56.844001+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12706,14 +13212,14 @@
           "played": 6,
           "win_pct": 0.167,
           "scored": 95.8,
-          "conceded": 103.60000000000001,
+          "conceded": 103.52499999999999,
           "rank": null
         },
         "statsA": {
           "played": 7,
           "win_pct": 0.714,
-          "scored": 115.5375,
-          "conceded": 100.575,
+          "scored": 115.8,
+          "conceded": 100.74999999999999,
           "rank": null
         }
       }
@@ -12729,12 +13235,12 @@
       "home_team": "Ilagan Isabela Cowboys",
       "status": "Not Started",
       "stage": "",
-      "model_total": 161.78,
+      "model_total": 162.25,
       "xpts_h": 84.5,
-      "xpts_a": 77.3,
+      "xpts_a": 77.7,
       "probs_1x2": {
-        "home": 72.6,
-        "away": 27.4
+        "home": 71.5,
+        "away": 28.5
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
@@ -12742,7 +13248,7 @@
       "home_team_volatility": 25.17,
       "away_team_volatility": 14.73,
       "market_total": 158.8,
-      "edge": 2.98,
+      "edge": 3.45,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -12759,7 +13265,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.138543+00:00",
+      "timestamp": "2026-05-19T07:05:56.851382+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -13643,14 +14149,14 @@
         "statsH": {
           "played": 7,
           "win_pct": 0.714,
-          "scored": 111.075,
-          "conceded": 99.43749999999999,
+          "scored": 111.1625,
+          "conceded": 99.7,
           "rank": null
         },
         "statsA": {
           "played": 7,
           "win_pct": 0.571,
-          "scored": 106.96249999999999,
+          "scored": 107.31249999999999,
           "conceded": 101.3625,
           "rank": null
         }
@@ -13667,9 +14173,9 @@
       "home_team": "Batang Kankaloo",
       "status": "Not Started",
       "stage": "",
-      "model_total": 158.96,
-      "xpts_h": 99.7,
-      "xpts_a": 59.3,
+      "model_total": 159.37,
+      "xpts_h": 100.0,
+      "xpts_a": 59.4,
       "probs_1x2": {
         "home": 100.0,
         "away": 0.0
@@ -13680,7 +14186,7 @@
       "home_team_volatility": 17.54,
       "away_team_volatility": 23.43,
       "market_total": 158.8,
-      "edge": 0.16,
+      "edge": 0.57,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -13697,7 +14203,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.145773+00:00",
+      "timestamp": "2026-05-19T07:05:56.856123+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -14475,14 +14981,14 @@
         "statsH": {
           "played": 7,
           "win_pct": 1.0,
-          "scored": 127.43749999999999,
-          "conceded": 73.8,
+          "scored": 127.87499999999999,
+          "conceded": 73.62499999999999,
           "rank": null
         },
         "statsA": {
           "played": 7,
           "win_pct": 0.571,
-          "scored": 109.2375,
+          "scored": 109.58749999999999,
           "conceded": 104.1625,
           "rank": null
         }
@@ -14529,7 +15035,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.166035+00:00",
+      "timestamp": "2026-05-19T07:05:56.874109+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15103,7 +15609,7 @@
       "date": "2026-05-19",
       "away_team": "San Antonio Spurs",
       "home_team": "Oklahoma City Thunder",
-      "status": "Not Started",
+      "status": "After Over Time",
       "stage": "NBA - Semi-finals",
       "model_total": 228.8,
       "xpts_h": 114.9,
@@ -15135,7 +15641,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-05-18T10:58:26.191230+00:00",
+      "timestamp": "2026-05-19T07:05:56.906322+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16041,7 +16547,7 @@
       "date": "2026-05-19",
       "away_team": "Washington Mystics W",
       "home_team": "Dallas Wings W",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 160.16,
       "xpts_h": 81.1,
@@ -16073,7 +16579,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.206824+00:00",
+      "timestamp": "2026-05-19T07:05:56.920561+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -16671,7 +17177,7 @@
       "date": "2026-05-19",
       "away_team": "Connecticut Sun W",
       "home_team": "Portland Fire W",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 160.82,
       "xpts_h": 85.6,
@@ -16703,7 +17209,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.213969+00:00",
+      "timestamp": "2026-05-19T07:05:56.926110+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -17238,11 +17744,11 @@
       "date": "2026-05-19",
       "away_team": "Corinthians Paulista",
       "home_team": "Pinheiros",
-      "status": "Not Started",
+      "status": "Game Finished",
       "stage": "NBB - Semi-finals",
-      "model_total": 177.76,
-      "xpts_h": 93.4,
-      "xpts_a": 84.3,
+      "model_total": 178.06,
+      "xpts_h": 93.6,
+      "xpts_a": 84.5,
       "probs_1x2": {
         "home": 77.7,
         "away": 22.3
@@ -17253,7 +17759,7 @@
       "home_team_volatility": 16.61,
       "away_team_volatility": 18.78,
       "market_total": 160.1,
-      "edge": 17.66,
+      "edge": 17.96,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
@@ -17270,7 +17776,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.223032+00:00",
+      "timestamp": "2026-05-19T07:05:56.939334+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -17934,15 +18440,15 @@
         "statsH": {
           "played": 21,
           "win_pct": 0.905,
-          "scored": 118.3,
-          "conceded": 92.1,
+          "scored": 118.2,
+          "conceded": 92.2,
           "rank": null
         },
         "statsA": {
           "played": 24,
           "win_pct": 0.792,
-          "scored": 120.3,
-          "conceded": 102.6,
+          "scored": 120.5,
+          "conceded": 103.0,
           "rank": null
         }
       }
@@ -17988,7 +18494,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.241575+00:00",
+      "timestamp": "2026-05-19T07:05:56.960590+00:00",
       "match_center": {
         "h2h": [
           {
@@ -18588,7 +19094,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.427936+00:00",
+      "timestamp": "2026-05-19T07:05:56.972127+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19072,7 +19578,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.456619+00:00",
+      "timestamp": "2026-05-19T07:05:56.985042+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19653,7 +20159,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.486893+00:00",
+      "timestamp": "2026-05-19T07:05:57.002620+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20253,7 +20759,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.501108+00:00",
+      "timestamp": "2026-05-19T07:05:57.017345+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20991,7 +21497,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.506652+00:00",
+      "timestamp": "2026-05-19T07:05:57.021025+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -21671,6 +22177,460 @@
     {
       "is_clash": false,
       "clash_trigger": "",
+      "league_id": 374,
+      "league": "Pro Basketball League",
+      "country": "Belgium",
+      "date": "2026-05-19",
+      "away_team": "Limburg",
+      "home_team": "Kortrijk",
+      "status": "Not Started",
+      "stage": "Pro Basketball League - Quarter-finals",
+      "model_total": 176.06,
+      "xpts_h": 85.3,
+      "xpts_a": 90.7,
+      "probs_1x2": {
+        "home": 32.7,
+        "away": 67.3
+      },
+      "predicted_result": "AWAY",
+      "home_source": "ADVANCED",
+      "away_source": "ADVANCED",
+      "home_team_volatility": 20.88,
+      "away_team_volatility": 20.22,
+      "market_total": 168.7,
+      "edge": 7.36,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 30.0,
+      "mae_h": 20.57,
+      "mae_a": 23.59,
+      "bias_h": 5.81,
+      "bias_a": 4.84,
+      "graded_h": 12,
+      "graded_a": 12,
+      "mbet_threshold": 11.8,
+      "model_architecture": "[ADVANCED]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-05-19T07:05:57.033743+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "26.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Oostende",
+                "winner": true
+              },
+              "away": {
+                "name": "Kortrijk",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 75
+              }
+            }
+          },
+          {
+            "date": "24.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Kortrijk",
+                "winner": true
+              },
+              "away": {
+                "name": "Oostende",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 103
+              },
+              "away": {
+                "total": 96
+              }
+            }
+          },
+          {
+            "date": "22.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Oostende",
+                "winner": true
+              },
+              "away": {
+                "name": "Kortrijk",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 98
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "20.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Kortrijk",
+                "winner": false
+              },
+              "away": {
+                "name": "Oostende",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 86
+              }
+            }
+          },
+          {
+            "date": "17.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Kortrijk",
+                "winner": true
+              },
+              "away": {
+                "name": "Leuven Bears",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 87
+              },
+              "away": {
+                "total": 79
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "28.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Mechelen",
+                "winner": true
+              },
+              "away": {
+                "name": "Limburg",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 78
+              }
+            }
+          },
+          {
+            "date": "26.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Limburg",
+                "winner": true
+              },
+              "away": {
+                "name": "Mechelen",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "24.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Mechelen",
+                "winner": false
+              },
+              "away": {
+                "name": "Limburg",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "22.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Limburg",
+                "winner": false
+              },
+              "away": {
+                "name": "Mechelen",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 85
+              },
+              "away": {
+                "total": 91
+              }
+            }
+          },
+          {
+            "date": "20.05. 14:30",
+            "teams": {
+              "home": {
+                "name": "Mechelen",
+                "winner": true
+              },
+              "away": {
+                "name": "Limburg",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 95
+              },
+              "away": {
+                "total": 84
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Oostende",
+                "logo": ""
+              },
+              "games": {
+                "played": 11,
+                "win": {
+                  "total": 8,
+                  "percentage": "0.727"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 989,
+                "against": 872
+              },
+              "form": "WWWLW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Limburg",
+                "logo": ""
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.571"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 586,
+                "against": 579
+              },
+              "form": "LWWLL"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Mechelen",
+                "logo": ""
+              },
+              "games": {
+                "played": 11,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.545"
+                },
+                "lose": {
+                  "total": 5
+                }
+              },
+              "points": {
+                "for": 869,
+                "against": 930
+              },
+              "form": "LLLWW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Kortrijk",
+                "logo": ""
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.429"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 610,
+                "against": 609
+              },
+              "form": "LWLLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Leuven Bears",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 251,
+                "against": 256
+              },
+              "form": "LWL"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Antwerp Giants",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 246,
+                "against": 266
+              },
+              "form": "LWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Brussels Basketball",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 159,
+                "against": 168
+              },
+              "form": "LL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Belfius Mons",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 147,
+                "against": 177
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 19,
+          "win_pct": 0.737,
+          "scored": 115.2,
+          "conceded": 103.6,
+          "rank": null
+        },
+        "statsA": {
+          "played": 19,
+          "win_pct": 0.789,
+          "scored": 123.8,
+          "conceded": 102.1,
+          "rank": null
+        }
+      }
+    },
+    {
+      "is_clash": false,
+      "clash_trigger": "",
       "league_id": 123,
       "league": "Prvenstvo BiH",
       "country": "Bosnia-and-Herzegovina",
@@ -21709,7 +22669,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.799448+00:00",
+      "timestamp": "2026-05-19T07:05:57.292602+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -22167,7 +23127,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:26.806392+00:00",
+      "timestamp": "2026-05-19T07:05:57.300651+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22625,7 +23585,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.153586+00:00",
+      "timestamp": "2026-05-19T07:05:57.540263+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22932,7 +23892,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.167792+00:00",
+      "timestamp": "2026-05-19T07:05:57.551499+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23628,7 +24588,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.173948+00:00",
+      "timestamp": "2026-05-19T07:05:57.558375+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -24294,12 +25254,12 @@
       "home_team": "Ironi Kiryat Ata",
       "status": "Not Started",
       "stage": "19",
-      "model_total": 178.74,
-      "xpts_h": 89.7,
-      "xpts_a": 89.0,
+      "model_total": 179.21,
+      "xpts_h": 90.2,
+      "xpts_a": 89.1,
       "probs_1x2": {
-        "home": 52.3,
-        "away": 47.7
+        "home": 53.6,
+        "away": 46.4
       },
       "predicted_result": "HOME",
       "home_source": "SRS",
@@ -24307,7 +25267,7 @@
       "home_team_volatility": 21.24,
       "away_team_volatility": 18.76,
       "market_total": 170.8,
-      "edge": 7.94,
+      "edge": 8.41,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -24324,7 +25284,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.186485+00:00",
+      "timestamp": "2026-05-19T07:05:57.569518+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -24856,15 +25816,15 @@
         "statsH": {
           "played": 16,
           "win_pct": 0.188,
-          "scored": 110.0,
+          "scored": 110.4,
           "conceded": 120.6,
           "rank": null
         },
         "statsA": {
           "played": 17,
           "win_pct": 0.353,
-          "scored": 106.4,
-          "conceded": 114.7,
+          "scored": 106.5,
+          "conceded": 114.9,
           "rank": null
         }
       }
@@ -24910,7 +25870,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.204764+00:00",
+      "timestamp": "2026-05-19T07:05:57.584790+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -25188,9 +26148,9 @@
       "home_team": "Brillantes",
       "status": "Not Started",
       "stage": "Superliga - Quarter-finals",
-      "model_total": 166.27,
-      "xpts_h": 78.4,
-      "xpts_a": 87.9,
+      "model_total": 166.15,
+      "xpts_h": 78.3,
+      "xpts_a": 87.8,
       "probs_1x2": {
         "home": 24.8,
         "away": 75.2
@@ -25201,24 +26161,24 @@
       "home_team_volatility": 22.47,
       "away_team_volatility": 17.42,
       "market_total": 156.8,
-      "edge": 9.47,
+      "edge": 9.35,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "confidence_score_band": "[LOW]",
-      "confidence_score": 40.0,
-      "mae_h": 14.86,
-      "mae_a": 12.31,
-      "bias_h": -4.54,
-      "bias_a": -8.52,
-      "graded_h": 18,
-      "graded_a": 14,
+      "confidence_score": 30.0,
+      "mae_h": 14.82,
+      "mae_a": 12.44,
+      "bias_h": -5.06,
+      "bias_a": -8.9,
+      "graded_h": 19,
+      "graded_a": 15,
       "mbet_threshold": 16.4,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-18T10:58:27.223136+00:00",
+      "timestamp": "2026-05-19T07:05:57.600356+00:00",
       "match_center": {
         "h2h": [
           {
@@ -25768,14 +26728,14 @@
           "played": 23,
           "win_pct": 0.478,
           "scored": 119.7,
-          "conceded": 120.1,
+          "conceded": 120.0,
           "rank": null
         },
         "statsA": {
           "played": 21,
           "win_pct": 0.905,
           "scored": 125.2,
-          "conceded": 108.4,
+          "conceded": 108.3,
           "rank": null
         }
       }
@@ -25791,12 +26751,12 @@
       "home_team": "Marinos",
       "status": "Not Started",
       "stage": "Superliga - Quarter-finals",
-      "model_total": 153.27,
+      "model_total": 153.21,
       "xpts_h": 79.4,
-      "xpts_a": 73.9,
+      "xpts_a": 73.8,
       "probs_1x2": {
-        "home": 65.1,
-        "away": 34.9
+        "home": 65.7,
+        "away": 34.3
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -25804,24 +26764,24 @@
       "home_team_volatility": 18.34,
       "away_team_volatility": 20.82,
       "market_total": 156.8,
-      "edge": -3.53,
+      "edge": -3.59,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "confidence_score_band": "[AVOID]",
       "confidence_score": 25.0,
-      "mae_h": 13.86,
-      "mae_a": 16.57,
-      "bias_h": -12.03,
-      "bias_a": -3.41,
-      "graded_h": 16,
-      "graded_a": 15,
+      "mae_h": 13.09,
+      "mae_a": 15.58,
+      "bias_h": -11.28,
+      "bias_a": -3.15,
+      "graded_h": 17,
+      "graded_a": 16,
       "mbet_threshold": 16.4,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-18T10:58:27.237607+00:00",
+      "timestamp": "2026-05-19T07:05:57.609409+00:00",
       "match_center": {
         "h2h": [
           {
@@ -26371,14 +27331,14 @@
           "played": 22,
           "win_pct": 0.591,
           "scored": 112.8,
-          "conceded": 104.3,
+          "conceded": 104.2,
           "rank": null
         },
         "statsA": {
           "played": 23,
           "win_pct": 0.652,
-          "scored": 119.6,
-          "conceded": 115.3,
+          "scored": 119.5,
+          "conceded": 115.4,
           "rank": null
         }
       }
@@ -26394,7 +27354,7 @@
       "home_team": "Trotamundos",
       "status": "Not Started",
       "stage": "Superliga - Quarter-finals",
-      "model_total": 160.45,
+      "model_total": 160.33,
       "xpts_h": 79.4,
       "xpts_a": 81.0,
       "probs_1x2": {
@@ -26407,24 +27367,24 @@
       "home_team_volatility": 20.79,
       "away_team_volatility": 13.92,
       "market_total": 156.8,
-      "edge": 3.65,
+      "edge": 3.53,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "confidence_score_band": "[AVOID]",
       "confidence_score": 17.0,
-      "mae_h": 12.89,
-      "mae_a": 11.82,
-      "bias_h": -10.37,
-      "bias_a": -7.07,
-      "graded_h": 13,
-      "graded_a": 16,
+      "mae_h": 14.36,
+      "mae_a": 13.09,
+      "bias_h": -12.02,
+      "bias_a": -8.62,
+      "graded_h": 14,
+      "graded_a": 17,
       "mbet_threshold": 16.4,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-18T10:58:27.249024+00:00",
+      "timestamp": "2026-05-19T07:05:57.618741+00:00",
       "match_center": {
         "h2h": [
           {
@@ -26980,8 +27940,8 @@
         "statsA": {
           "played": 23,
           "win_pct": 0.652,
-          "scored": 118.9,
-          "conceded": 105.3,
+          "scored": 118.8,
+          "conceded": 105.2,
           "rank": null
         }
       }
@@ -26997,9 +27957,9 @@
       "home_team": "Pioneros",
       "status": "Not Started",
       "stage": "Superliga - Quarter-finals",
-      "model_total": 158.86,
-      "xpts_h": 75.3,
-      "xpts_a": 83.6,
+      "model_total": 158.74,
+      "xpts_h": 75.2,
+      "xpts_a": 83.5,
       "probs_1x2": {
         "home": 27.7,
         "away": 72.3
@@ -27010,24 +27970,24 @@
       "home_team_volatility": 16.09,
       "away_team_volatility": 16.92,
       "market_total": 156.8,
-      "edge": 2.06,
+      "edge": 1.94,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "confidence_score_band": "[LOW]",
       "confidence_score": 31.0,
-      "mae_h": 12.75,
-      "mae_a": 14.99,
-      "bias_h": -7.95,
-      "bias_a": -8.74,
-      "graded_h": 15,
-      "graded_a": 13,
+      "mae_h": 12.76,
+      "mae_a": 14.84,
+      "bias_h": -8.25,
+      "bias_a": -9.04,
+      "graded_h": 16,
+      "graded_a": 14,
       "mbet_threshold": 16.4,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "lower",
-      "timestamp": "2026-05-18T10:58:27.257679+00:00",
+      "timestamp": "2026-05-19T07:05:57.627702+00:00",
       "match_center": {
         "h2h": [
           {
@@ -27583,8 +28543,8 @@
         "statsA": {
           "played": 22,
           "win_pct": 0.727,
-          "scored": 124.2,
-          "conceded": 110.3,
+          "scored": 124.1,
+          "conceded": 110.2,
           "rank": null
         }
       }
@@ -27630,7 +28590,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.283404+00:00",
+      "timestamp": "2026-05-19T07:05:57.642440+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28343,7 +29303,7 @@
       "mode": "full",
       "config_source": "auto-calibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-05-18T10:58:27.519285+00:00",
+      "timestamp": "2026-05-19T07:05:57.859901+00:00",
       "match_center": {
         "h2h": [
           {
