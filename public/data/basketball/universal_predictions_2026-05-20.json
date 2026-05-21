@@ -1223,7 +1223,7 @@
       "date": "2026-05-20",
       "away_team": "Joventut Badalona",
       "home_team": "Tenerife",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "30",
       "model_total": 170.29,
       "xpts_h": 87.7,
@@ -1906,7 +1906,17 @@
           "conceded": 82.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 100,
+      "actual_result": "AWAY",
+      "halftime_home_score": 55,
+      "halftime_away_score": 43,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 57.5,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_clash": false,
@@ -8819,7 +8829,7 @@
       "date": "2026-05-20",
       "away_team": "Szczecin",
       "home_team": "Zielona Gora",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Basket Liga - Quarter-finals",
       "model_total": 167.9,
       "xpts_h": 84.3,
@@ -9332,7 +9342,18 @@
           "conceded": 108.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 43,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 53.6,
+      "total_delta": 1.9,
+      "signed_delta": -1.9,
+      "total_rpe": 1.14,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -9904,7 +9925,7 @@
       "date": "2026-05-20",
       "away_team": "Sampaio W",
       "home_team": "Campinas W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 139.86,
       "xpts_h": 58.5,
@@ -10411,7 +10432,18 @@
           "conceded": 56.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 32,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 57.2,
+      "total_delta": 7.14,
+      "signed_delta": 7.14,
+      "total_rpe": 4.86,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -10422,7 +10454,7 @@
       "date": "2026-05-20",
       "away_team": "Cerrado W",
       "home_team": "Recife W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 139.5,
       "xpts_h": 46.0,
@@ -10909,7 +10941,18 @@
           "conceded": 81.5,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "halftime_home_score": 26,
+      "halftime_away_score": 48,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 53.0,
+      "total_delta": 16.5,
+      "signed_delta": 16.5,
+      "total_rpe": 10.58,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -10920,7 +10963,7 @@
       "date": "2026-05-20",
       "away_team": "Sao Jose W",
       "home_team": "SESI Araraquara W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 122.85,
       "xpts_h": 73.6,
@@ -11427,7 +11470,18 @@
           "conceded": 87.4,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 48,
+      "actual_result": "HOME",
+      "halftime_home_score": 34,
+      "halftime_away_score": 28,
+      "halftime_total": 62,
+      "halftime_pct_of_model": 50.5,
+      "total_delta": 12.85,
+      "signed_delta": -12.85,
+      "total_rpe": 11.68,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -13850,7 +13904,7 @@
       "date": "2026-05-20",
       "away_team": "Strasbourg",
       "home_team": "JL Bourg",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNB - Semi-finals",
       "model_total": 189.13,
       "xpts_h": 97.5,
@@ -14363,7 +14417,18 @@
           "conceded": 119.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 43,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 50.2,
+      "total_delta": 27.13,
+      "signed_delta": -27.13,
+      "total_rpe": 16.75,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -22861,7 +22926,7 @@
       "date": "2026-05-20",
       "away_team": "Portland Fire W",
       "home_team": "Indiana Fever W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.32,
       "xpts_h": 83.3,
@@ -23417,7 +23482,18 @@
           "conceded": 109.35,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 37,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 55.8,
+      "total_delta": 1.68,
+      "signed_delta": 1.68,
+      "total_rpe": 1.03,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -23428,7 +23504,7 @@
       "date": "2026-05-20",
       "away_team": "Pinheiros",
       "home_team": "Corinthians Paulista",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "NBB - Semi-finals",
       "model_total": 177.68,
       "xpts_h": 86.8,
@@ -24135,7 +24211,18 @@
           "conceded": 92.2,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 84,
+      "actual_result": "HOME",
+      "halftime_home_score": 63,
+      "halftime_away_score": 45,
+      "halftime_total": 108,
+      "halftime_pct_of_model": 60.8,
+      "total_delta": 4.32,
+      "signed_delta": 4.32,
+      "total_rpe": 2.37,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -28243,7 +28330,7 @@
       "date": "2026-05-20",
       "away_team": "Giessen",
       "home_team": "Kirchheim",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Pro A - Semi-finals",
       "model_total": 173.33,
       "xpts_h": 86.5,
@@ -28926,7 +29013,18 @@
           "conceded": 102.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 47,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 53.1,
+      "total_delta": 6.33,
+      "signed_delta": -6.33,
+      "total_rpe": 3.79,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -28937,7 +29035,7 @@
       "date": "2026-05-20",
       "away_team": "Verona",
       "home_team": "Fortitudo Bologna",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Serie A2 - Semi-finals",
       "model_total": 152.31,
       "xpts_h": 72.4,
@@ -29622,7 +29720,18 @@
           "conceded": 90.9,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 60,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 26,
+      "halftime_total": 57,
+      "halftime_pct_of_model": 37.4,
+      "total_delta": 33.31,
+      "signed_delta": -33.31,
+      "total_rpe": 27.99,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -34951,7 +35060,7 @@
       "date": "2026-05-20",
       "away_team": "Trepca",
       "home_team": "Bashkimi",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "Superliga - Final",
       "model_total": 179.66,
       "xpts_h": 84.2,
@@ -35471,7 +35580,18 @@
           "conceded": 97.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 40,
+      "halftime_away_score": 52,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 51.2,
+      "total_delta": 3.66,
+      "signed_delta": -3.66,
+      "total_rpe": 2.08,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -36664,17 +36784,6 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-05-20T20:42:04.651826",
-  "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0
-    },
-    "[  SRS   ]": {
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0
-    }
-  }
+  "graded_at": "2026-05-21T12:05:28.413799",
+  "grade_summary": {}
 }
