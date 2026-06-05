@@ -1419,7 +1419,7 @@
       "date": "2026-06-05",
       "away_team": "Capitanes de Arecibo",
       "home_team": "Leones De Ponce",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 185.9,
       "xpts_h": 96.3,
@@ -1591,7 +1591,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -1824,7 +1824,18 @@
           "conceded": 119.8,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 92,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 50,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 50.0,
+      "total_delta": 7.1,
+      "signed_delta": 7.1,
+      "total_rpe": 3.68,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -1835,7 +1846,7 @@
       "date": "2026-06-05",
       "away_team": "Criollos de Caguas",
       "home_team": "Osos de Manati",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 197.13,
       "xpts_h": 92.3,
@@ -2069,7 +2080,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Vaqueros de Bayam\u00f3n",
+                "name": "Vaqueros de Bayamón",
                 "logo": ""
               },
               "games": {
@@ -2302,7 +2313,18 @@
           "conceded": 117.3,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 46,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 48.7,
+      "total_delta": 10.13,
+      "signed_delta": -10.13,
+      "total_rpe": 5.42,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -2911,7 +2933,7 @@
       "is_clash": false,
       "clash_trigger": "",
       "league_id": 104,
-      "league": "Basketbol S\u00fcper Ligi",
+      "league": "Basketbol Süper Ligi",
       "country": "Turkey",
       "date": "2026-06-05",
       "away_team": "Fenerbahce",
@@ -7510,7 +7532,7 @@
       "date": "2026-06-05",
       "away_team": "Espanol Osorno",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNB - Semi-finals",
       "model_total": 154.36,
       "xpts_h": 74.8,
@@ -8080,7 +8102,18 @@
           "conceded": 95.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 48,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 59.0,
+      "total_delta": 15.64,
+      "signed_delta": 15.64,
+      "total_rpe": 9.2,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -8135,7 +8168,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Ca\u00f1eros Del Este",
+                "name": "Cañeros Del Este",
                 "winner": true
               }
             },
@@ -8261,7 +8294,7 @@
             {
               "position": 2,
               "team": {
-                "name": "Ca\u00f1eros Del Este",
+                "name": "Cañeros Del Este",
                 "logo": ""
               },
               "games": {
@@ -8873,7 +8906,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -11565,7 +11598,7 @@
       "date": "2026-06-05",
       "away_team": "Golden State Valkyries W",
       "home_team": "Minnesota Lynx W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.63,
       "xpts_h": 81.3,
@@ -12184,7 +12217,18 @@
           "conceded": 99.75,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 84,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 44,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 54.6,
+      "total_delta": 13.37,
+      "signed_delta": 13.37,
+      "total_rpe": 7.82,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -25647,7 +25691,7 @@
                 "winner": true
               },
               "away": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "winner": false
               }
             },
@@ -26057,7 +26101,7 @@
             {
               "position": 12,
               "team": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "logo": ""
               },
               "games": {
@@ -26584,5 +26628,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-06-05T05:15:41.559149",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 1,
+      "total": 3,
+      "pct": 33.3
+    },
+    "[ADVANCED]": {
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
+    }
+  }
 }
