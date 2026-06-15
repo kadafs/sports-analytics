@@ -1,0 +1,901 @@
+{
+  "date": "2026-06-15",
+  "mode": "full",
+  "total_predictions": 2,
+  "predictions": [
+    {
+      "is_clash": false,
+      "clash_trigger": "",
+      "league_id": 76,
+      "league": "BSN",
+      "country": "Puerto Rico",
+      "date": "2026-06-15",
+      "away_team": "Criollos de Caguas",
+      "home_team": "Capitanes de Arecibo",
+      "status": "Game Finished",
+      "stage": "",
+      "model_total": 203.72,
+      "xpts_h": 92.5,
+      "xpts_a": 111.2,
+      "probs_1x2": {
+        "home": 5.9,
+        "away": 94.1
+      },
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 19.6,
+      "away_team_volatility": 13.3,
+      "market_total": 181.3,
+      "edge": 22.42,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "confidence_score_band": "[MODERATE]",
+      "confidence_score": 47.0,
+      "mae_h": 17.5,
+      "mae_a": 10.92,
+      "bias_h": -2.29,
+      "bias_a": -0.19,
+      "graded_h": 23,
+      "graded_a": 26,
+      "mbet_threshold": 4.0,
+      "model_architecture": "[  SRS   ]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-06-15T10:47:54.236136+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "Mar 20, 2025",
+            "teams": {
+              "home": {
+                "name": "Cangrejeros de Santurce",
+                "winner": true
+              },
+              "away": {
+                "name": "Capitanes de Arecibo",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 72
+              },
+              "away": {
+                "total": 66
+              }
+            }
+          },
+          {
+            "date": "Mar 22, 2025",
+            "teams": {
+              "home": {
+                "name": "Capitanes de Arecibo",
+                "winner": true
+              },
+              "away": {
+                "name": "Quebradillas Pirates",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 78
+              },
+              "away": {
+                "total": 77
+              }
+            }
+          },
+          {
+            "date": "Jul 1, 2025",
+            "teams": {
+              "home": {
+                "name": "Capitanes de Arecibo",
+                "winner": true
+              },
+              "away": {
+                "name": "Atleticos de San German",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 99
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "Mar 17, 2025",
+            "teams": {
+              "home": {
+                "name": "Criollos de Caguas",
+                "winner": false
+              },
+              "away": {
+                "name": "Osos de Manati",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 94
+              },
+              "away": {
+                "total": 99
+              }
+            }
+          },
+          {
+            "date": "Mar 20, 2025",
+            "teams": {
+              "home": {
+                "name": "Quebradillas Pirates",
+                "winner": true
+              },
+              "away": {
+                "name": "Criollos de Caguas",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 91
+              },
+              "away": {
+                "total": 85
+              }
+            }
+          },
+          {
+            "date": "Mar 23, 2025",
+            "teams": {
+              "home": {
+                "name": "Cangrejeros de Santurce",
+                "winner": true
+              },
+              "away": {
+                "name": "Criollos de Caguas",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 73
+              }
+            }
+          },
+          {
+            "date": "Mar 25, 2025",
+            "teams": {
+              "home": {
+                "name": "Criollos de Caguas",
+                "winner": false
+              },
+              "away": {
+                "name": "Gigantes de Carolina",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 97
+              },
+              "away": {
+                "total": 99
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Mets Guaynabo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 292,
+                "against": 268
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Cangrejeros de Santurce",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 244,
+                "against": 234
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Vaqueros de Bayam\u00f3n",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 2,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 148,
+                "against": 129
+              },
+              "form": "WW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Quebradillas Pirates",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 239,
+                "against": 229
+              },
+              "form": "WLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Capitanes de Arecibo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 243,
+                "against": 244
+              },
+              "form": "LWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Indios de Mayaguez",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 350,
+                "against": 325
+              },
+              "form": "WLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Osos de Manati",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 198,
+                "against": 199
+              },
+              "form": "WL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Gigantes de Carolina",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 277,
+                "against": 309
+              },
+              "form": "LLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Atleticos de San German",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 347,
+                "against": 340
+              },
+              "form": "LWLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Criollos de Caguas",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 349,
+                "against": 365
+              },
+              "form": "LLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Leones de Ponce",
+                "logo": ""
+              },
+              "games": {
+                "played": 1,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 78,
+                "against": 99
+              },
+              "form": "L"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Santeros de Aguada",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 123,
+                "against": 147
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 27,
+          "win_pct": 0.556,
+          "scored": 116.8,
+          "conceded": 130.1,
+          "rank": null
+        },
+        "statsA": {
+          "played": 27,
+          "win_pct": 0.667,
+          "scored": 136.0,
+          "conceded": 121.3,
+          "rank": null
+        }
+      }
+    },
+    {
+      "is_clash": false,
+      "clash_trigger": "",
+      "league_id": 76,
+      "league": "BSN",
+      "country": "Puerto Rico",
+      "date": "2026-06-15",
+      "away_team": "San German",
+      "home_team": "Vaqueros de Bayamon",
+      "status": "Game Finished",
+      "stage": "",
+      "model_total": 179.06,
+      "xpts_h": 98.7,
+      "xpts_a": 80.4,
+      "probs_1x2": {
+        "home": 93.6,
+        "away": 6.4
+      },
+      "predicted_result": "HOME",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 18.05,
+      "away_team_volatility": 17.68,
+      "market_total": 181.3,
+      "edge": -2.24,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "confidence_score_band": "[MODERATE]",
+      "confidence_score": 47.0,
+      "mae_h": 11.92,
+      "mae_a": 14.23,
+      "bias_h": -2.4,
+      "bias_a": -7.52,
+      "graded_h": 26,
+      "graded_a": 26,
+      "mbet_threshold": 4.0,
+      "model_architecture": "[  SRS   ]",
+      "mode": "full",
+      "config_source": "auto-calibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-06-15T10:47:54.239030+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [
+          {
+            "date": "Mar 16, 2025",
+            "teams": {
+              "home": {
+                "name": "Atleticos de San German",
+                "winner": false
+              },
+              "away": {
+                "name": "Mets Guaynabo",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 80
+              },
+              "away": {
+                "total": 81
+              }
+            }
+          },
+          {
+            "date": "Mar 22, 2025",
+            "teams": {
+              "home": {
+                "name": "Atleticos de San German",
+                "winner": true
+              },
+              "away": {
+                "name": "Gigantes de Carolina",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 106
+              },
+              "away": {
+                "total": 89
+              }
+            }
+          },
+          {
+            "date": "Mar 24, 2025",
+            "teams": {
+              "home": {
+                "name": "Quebradillas Pirates",
+                "winner": true
+              },
+              "away": {
+                "name": "Atleticos de San German",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 71
+              },
+              "away": {
+                "total": 66
+              }
+            }
+          },
+          {
+            "date": "Jul 1, 2025",
+            "teams": {
+              "home": {
+                "name": "Capitanes de Arecibo",
+                "winner": true
+              },
+              "away": {
+                "name": "Atleticos de San German",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 99
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "team": {
+                "name": "Mets Guaynabo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 292,
+                "against": 268
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 2,
+              "team": {
+                "name": "Cangrejeros de Santurce",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 3,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 244,
+                "against": 234
+              },
+              "form": "WWW"
+            },
+            {
+              "position": 3,
+              "team": {
+                "name": "Vaqueros de Bayam\u00f3n",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 2,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0
+                }
+              },
+              "points": {
+                "for": 148,
+                "against": 129
+              },
+              "form": "WW"
+            },
+            {
+              "position": 4,
+              "team": {
+                "name": "Quebradillas Pirates",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 239,
+                "against": 229
+              },
+              "form": "WLW"
+            },
+            {
+              "position": 5,
+              "team": {
+                "name": "Capitanes de Arecibo",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 243,
+                "against": 244
+              },
+              "form": "LWW"
+            },
+            {
+              "position": 6,
+              "team": {
+                "name": "Indios de Mayaguez",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 350,
+                "against": 325
+              },
+              "form": "WLWL"
+            },
+            {
+              "position": 7,
+              "team": {
+                "name": "Osos de Manati",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.500"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 198,
+                "against": 199
+              },
+              "form": "WL"
+            },
+            {
+              "position": 8,
+              "team": {
+                "name": "Gigantes de Carolina",
+                "logo": ""
+              },
+              "games": {
+                "played": 3,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.333"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 277,
+                "against": 309
+              },
+              "form": "LLW"
+            },
+            {
+              "position": 9,
+              "team": {
+                "name": "Atleticos de San German",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 1,
+                  "percentage": "0.250"
+                },
+                "lose": {
+                  "total": 3
+                }
+              },
+              "points": {
+                "for": 347,
+                "against": 340
+              },
+              "form": "LWLL"
+            },
+            {
+              "position": 10,
+              "team": {
+                "name": "Criollos de Caguas",
+                "logo": ""
+              },
+              "games": {
+                "played": 4,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 4
+                }
+              },
+              "points": {
+                "for": 349,
+                "against": 365
+              },
+              "form": "LLLL"
+            },
+            {
+              "position": 11,
+              "team": {
+                "name": "Leones de Ponce",
+                "logo": ""
+              },
+              "games": {
+                "played": 1,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 1
+                }
+              },
+              "points": {
+                "for": 78,
+                "against": 99
+              },
+              "form": "L"
+            },
+            {
+              "position": 12,
+              "team": {
+                "name": "Santeros de Aguada",
+                "logo": ""
+              },
+              "games": {
+                "played": 2,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 2
+                }
+              },
+              "points": {
+                "for": 123,
+                "against": 147
+              },
+              "form": "LL"
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 29,
+          "win_pct": 0.69,
+          "scored": 127.4,
+          "conceded": 103.8,
+          "rank": null
+        },
+        "statsA": {
+          "played": 29,
+          "win_pct": 0.655,
+          "scored": 116.9,
+          "conceded": 114.1,
+          "rank": null
+        }
+      }
+    }
+  ]
+}
