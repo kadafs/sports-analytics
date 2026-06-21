@@ -2034,7 +2034,7 @@
       "date": "2026-06-20",
       "away_team": "Montreal Alliance",
       "home_team": "Calgary Surge",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.67,
       "xpts_h": 79.2,
@@ -2543,7 +2543,18 @@
           "conceded": 110.5375,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "halftime_home_score": 46,
+      "halftime_away_score": 54,
+      "halftime_total": 100,
+      "halftime_pct_of_model": 62.2,
+      "total_delta": 20.33,
+      "signed_delta": 20.33,
+      "total_rpe": 11.23,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -4297,7 +4308,7 @@
       "date": "2026-06-20",
       "away_team": "CDB La Union",
       "home_team": "Aleman",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.14,
       "xpts_h": 81.8,
@@ -5147,7 +5158,18 @@
           "conceded": 90.0,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 38,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 53.2,
+      "total_delta": 13.86,
+      "signed_delta": 13.86,
+      "total_rpe": 8.25,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -5158,7 +5180,7 @@
       "date": "2026-06-20",
       "away_team": "Arabe Valparaiso",
       "home_team": "Antofagasta",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.22,
       "xpts_h": 78.2,
@@ -5951,7 +5973,18 @@
           "conceded": 88.6,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 66,
+      "actual_away_score": 52,
+      "actual_result": "HOME",
+      "halftime_home_score": 29,
+      "halftime_away_score": 30,
+      "halftime_total": 59,
+      "halftime_pct_of_model": 38.8,
+      "total_delta": 34.22,
+      "signed_delta": -34.22,
+      "total_rpe": 29.0,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -5962,7 +5995,7 @@
       "date": "2026-06-20",
       "away_team": "Luis Matte Larrain",
       "home_team": "Sportiva Italiana",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.06,
       "xpts_h": 94.2,
@@ -6755,7 +6788,18 @@
           "conceded": 97.7,
           "rank": null
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 40,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 53.4,
+      "total_delta": 8.94,
+      "signed_delta": 8.94,
+      "total_rpe": 5.26,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -48963,16 +49007,16 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-06-20T19:28:28.752420",
+  "graded_at": "2026-06-21T04:10:48.336387",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 43,
-      "total": 60,
-      "pct": 71.7
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
     },
     "[  SRS   ]": {
-      "wins": 13,
-      "total": 13,
+      "wins": 3,
+      "total": 3,
       "pct": 100.0
     }
   }
