@@ -112,20 +112,20 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
         
         {isFootball ? (
           <>
-            <div className="col-label" style={{ textAlign: 'center' }}>TIP</div>
+            <div className="col-label match-tip-col" style={{ textAlign: 'center' }}>TIP</div>
             <div className="chevron-spacer" /> {/* chevron spacer */}
-            <div className="col-label" style={{ textAlign: 'center' }}>1X2</div>
-            <div className="col-label" style={{ textAlign: 'center' }}>BTTS</div>
-            <div className="col-label match-xg" style={{ textAlign: 'center' }}>xG</div>
-            <div className="col-label" style={{ textAlign: 'center' }}>BTTS PLAY</div>
+            <div className="col-label match-1x2-col" style={{ textAlign: 'center' }}>1X2</div>
+            <div className="col-label match-btts-col" style={{ textAlign: 'center' }}>BTTS</div>
+            <div className="col-label match-xg match-xg-col" style={{ textAlign: 'center' }}>xG</div>
+            <div className="col-label match-decision-col" style={{ textAlign: 'center' }}>BTTS PLAY</div>
           </>
         ) : (
           <>
-            <div className="col-label" style={{ textAlign: 'center' }}>TIP</div>
+            <div className="col-label match-tip-col" style={{ textAlign: 'center' }}>TIP</div>
             <div className="chevron-spacer" /> {/* chevron spacer */}
-            <div className="col-label" style={{ textAlign: 'center' }}>12</div>
-            <div className="col-label" style={{ textAlign: 'center' }}>MODEL</div>
-            <div className="col-label match-xpts" style={{ textAlign: 'center' }}>xPTS</div>
+            <div className="col-label match-12-col" style={{ textAlign: 'center' }}>12</div>
+            <div className="col-label match-model-col" style={{ textAlign: 'center' }}>MODEL</div>
+            <div className="col-label match-xpts match-xpts-col" style={{ textAlign: 'center' }}>xPTS</div>
           </>
         )}
       </div>

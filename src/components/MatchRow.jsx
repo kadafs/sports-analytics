@@ -90,7 +90,7 @@ export default function MatchRow({ game }) {
         </div>
 
         {/* TIP + grade */}
-        <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="match-tip-col" style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <div className={`tip-badge ${tip.cls}`}>{tip.label}</div>
           {oGrade !== null && (
             <span style={{ position: 'absolute', bottom: -14, left: '50%', transform: 'translateX(-50%)', fontSize: 9, lineHeight: 1 }}>
@@ -103,14 +103,14 @@ export default function MatchRow({ game }) {
         <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
 
         {/* 1X2 boxes */}
-        <div className="stat-group">
+        <div className="stat-group match-1x2-col">
           <div className="stat-box home-win">{fmt(game.home_win_prob)}<sub>%</sub></div>
           <div className="stat-box draw-box">{fmt(game.draw_prob_1x2)}<sub>%</sub></div>
           <div className="stat-box away-win">{fmt(game.away_win_prob)}<sub>%</sub></div>
         </div>
 
         {/* BTTS box + grade */}
-        <div style={{ position: 'relative' }}>
+        <div className="match-btts-col" style={{ position: 'relative' }}>
           <div className="btts-box">{fmt(game.btts_prob)}<sub>%</sub></div>
           {bGrade !== null && (
             <span style={{ position: 'absolute', bottom: -14, left: '50%', transform: 'translateX(-50%)', fontSize: 9, lineHeight: 1 }}>
@@ -120,12 +120,12 @@ export default function MatchRow({ game }) {
         </div>
 
         {/* xG box */}
-        <div className="match-xg">
+        <div className="match-xg match-xg-col">
           <div className="xg-box">{fmt(game.xg_home, 1)} – {fmt(game.xg_away, 1)}<sub> xG</sub></div>
         </div>
 
         {/* Decision badge */}
-        <div>
+        <div className="match-decision-col">
           <span className={`decision-badge ${dClass}`}>{game.btts_decision || 'PASS'}</span>
         </div>
       </div>

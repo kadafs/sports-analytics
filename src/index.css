@@ -2359,6 +2359,21 @@
   margin-left: 2px;
 }
 
+/* Controls grouping for alignment */
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.controls-bar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 /* =====================================================
    MOBILE RESPONSIVENESS
    ===================================================== */
@@ -2393,14 +2408,28 @@
   /* Controls */
   .controls-bar {
     flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 12px;
   }
-  .controls-bar > div {
-    display: flex;
+  .controls-bar-right {
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 8px;
-    justify-content: center;
+  }
+  .control-group {
+    width: 100%;
+    gap: 6px;
+  }
+  .control-group > .control-btn {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 6px 8px;
+  }
+  .control-group > .filter-select {
+    flex: 1 1 auto;
+    max-width: none;
   }
 
   /* Adjust Variables */
@@ -2417,25 +2446,16 @@
   }
   
   /* Hide less critical columns on mobile (Football: 1x2, BTTS, xG) */
-  .match-row > .stat-col:nth-child(5),
-  .match-row > .stat-col:nth-child(6),
-  .match-row > .stat-col:nth-child(7) {
-    display: none;
-  }
-  .league-header > .col-label:nth-child(5),
-  .league-header > .col-label:nth-child(6),
-  .league-header > .col-label:nth-child(7) {
-    display: none;
+  .match-1x2-col,
+  .match-btts-col,
+  .match-xg-col {
+    display: none !important;
   }
 
-  /* Hide less critical columns on mobile (Basketball: 1x2, xPts) */
-  .match-row.bball-grid > .stat-col:nth-child(5),
-  .match-row.bball-grid > .stat-col:nth-child(7) {
-    display: none;
-  }
-  .league-header.bball-grid > .col-label:nth-child(5),
-  .league-header.bball-grid > .col-label:nth-child(7) {
-    display: none;
+  /* Hide less critical columns on mobile (Basketball: 12, xPts) */
+  .match-12-col,
+  .match-xpts-col {
+    display: none !important;
   }
 
   /* Adjust fonts and sizings */

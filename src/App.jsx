@@ -352,18 +352,18 @@ export default function App() {
             </div>
           )}
 
-          <>
+          <div className="control-group">
             <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Sort:</span>
             {['competition', 'country', 'time'].map(s => (
               <button key={s} className={`control-btn ${sortBy === s ? 'active' : ''}`} onClick={() => setSortBy(s)}>
                 {s.charAt(0).toUpperCase() + s.slice(1)}
               </button>
             ))}
-          </>
+          </div>
 
           {sport === 'football' && (
-            <>
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 12 }}>BTTS:</span>
+            <div className="control-group">
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS:</span>
               <select className="filter-select" value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
                 <option value="all">All decisions</option>
                 <option value="PLAY YES">PLAY YES</option>
@@ -371,12 +371,12 @@ export default function App() {
                 <option value="[STRONG] PLAY NO">[STRONG] PLAY NO</option>
                 <option value="PASS">PASS</option>
               </select>
-            </>
+            </div>
           )}
 
           {sport === 'football' && (
-            <>
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 8 }}>Draw:</span>
+            <div className="control-group">
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Draw:</span>
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
                 <option value={0}>All draws</option>
                 <option value={25}>≥ 25%</option>
@@ -385,19 +385,19 @@ export default function App() {
                 <option value={40}>≥ 40%</option>
               </select>
 
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600, marginLeft: 8 }}>BTTS %:</span>
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS %:</span>
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
                 <option value={0}>All rates</option>
                 <option value={70}>≥ 70%</option>
                 <option value={60}>≥ 60%</option>
                 <option value={50}>≥ 50%</option>
               </select>
-            </>
+            </div>
           )}
 
           {sport === 'basketball' && (
-            <>
-              <select className="filter-select" style={{ marginLeft: 12, width: '130px' }} value={filterMape} onChange={e => setFilterMape(Number(e.target.value))}>
+            <div className="control-group">
+              <select className="filter-select" style={{ width: '130px' }} value={filterMape} onChange={e => setFilterMape(Number(e.target.value))}>
                 <option value={100}>MAPE</option>
                 <option value={10.0}>&lt; 10.0% MAPE</option>
                 <option value={8.0}>&lt; 8.0% MAPE</option>
@@ -405,7 +405,7 @@ export default function App() {
                 <option value={5.0}>&lt; 5.0% MAPE</option>
               </select>
 
-              <select className="filter-select" style={{ marginLeft: 8, width: '130px' }} value={filterVolatility} onChange={e => setFilterVolatility(Number(e.target.value))}>
+              <select className="filter-select" style={{ width: '130px' }} value={filterVolatility} onChange={e => setFilterVolatility(Number(e.target.value))}>
                 <option value={100}>Volatility</option>
                 <option value={14.0}>&lt; 14.0 σ</option>
                 <option value={10.0}>&lt; 10.0 σ</option>
@@ -415,7 +415,6 @@ export default function App() {
               <button
                 onClick={() => setHidePlayoffs(!hidePlayoffs)}
                 style={{
-                  marginLeft: 8,
                   padding: '4px 10px',
                   fontSize: 12,
                   fontWeight: 700,
@@ -440,7 +439,6 @@ export default function App() {
                   }
                 }}
                 style={{
-                  marginLeft: 8,
                   padding: '4px 10px',
                   fontSize: 12,
                   fontWeight: 800,
@@ -455,14 +453,16 @@ export default function App() {
               >
                 {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
               </button>
-            </>
+            </div>
           )}
 
-          <select className="filter-select" value={filterCountry} onChange={e => setFilterCountry(e.target.value)}>
-            {countries.map(c => <option key={c} value={c}>{c === 'all' ? 'All countries' : c}</option>)}
-          </select>
+          <div className="control-group">
+            <select className="filter-select" value={filterCountry} onChange={e => setFilterCountry(e.target.value)}>
+              {countries.map(c => <option key={c} value={c}>{c === 'all' ? 'All countries' : c}</option>)}
+            </select>
+          </div>
 
-          <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 12 }}>
+          <div className="controls-bar-right">
             {data && (
               <div className="summary-pill">
                 <strong>{counts.total}</strong> games

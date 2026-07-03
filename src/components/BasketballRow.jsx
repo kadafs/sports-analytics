@@ -216,7 +216,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         </div>
 
         {/* TIP COLUMN */}
-        <div className="stat-col center divider-left" style={{ position: 'relative' }}>
+        <div className="stat-col center divider-left match-tip-col" style={{ position: 'relative' }}>
           <div className={`tip-badge ${tip === '1' ? 'home' : 'away'}`}>{tip}</div>
           {isGraded && (
             <span style={{ position: 'absolute', bottom: -12, left: '50%', transform: 'translateX(-50%)', fontSize: 10 }}>
@@ -229,7 +229,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
 
         {/* 12 COLUMN */}
-        <div className="stat-col center">
+        <div className="stat-col center match-12-col">
           <div className="prob-box-1x2">
             <div className="p-item h" style={{ width: '38px' }}>{probs_1x2.home ? Math.round(probs_1x2.home) : 0}%</div>
             <div className="p-item a" style={{ width: '38px' }}>{probs_1x2.away ? Math.round(probs_1x2.away) : 0}%</div>
@@ -237,7 +237,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         </div>
 
         {/* MODEL COLUMN — ADV total + optional SRS flag below */}
-        <div className="stat-col center">
+        <div className="stat-col center match-model-col">
           <div className={`bball-model-box ${decision === 'PLAY OVER' ? 'over' : decision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: 1 }}>
             <span style={{ fontSize: hasSRSFlag ? '0.9em' : 'inherit', marginTop: hasSRSFlag ? 1 : 0 }}>
               {model_total > 0 ? model_total.toFixed(1) : '—'}
@@ -251,7 +251,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         </div>
 
         {/* xPTS COLUMN */}
-        <div className="stat-col center match-xpts">
+        <div className="stat-col center match-xpts match-xpts-col">
           <div className="bball-xpts-box" style={{ flexDirection: 'column', alignItems: 'center', gap: '2px', padding: '4px 12px' }}>
             <span style={{ fontWeight: tip === '1' ? 800 : 500, opacity: tip === '1' ? 1 : 0.7 }}>
               {xpts_h.toFixed(1)}
