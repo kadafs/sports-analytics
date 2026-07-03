@@ -1834,6 +1834,21 @@
     font-size: 12px;
   }
 
+  .compact-mode .match-tip-col {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+  }
+
+  .compact-mode .match-tip-col span {
+    position: static !important;
+    transform: none !important;
+    font-size: 11px !important;
+    line-height: 1 !important;
+  }
+
   .compact-mode .decision-badge {
     font-size: 9px;
     padding: 3px 5px;
@@ -2452,12 +2467,12 @@
   /* Compact Mode grid columns overrides for mobile */
   .compact-mode .match-row.basketball,
   .compact-mode .league-header.basketball {
-    grid-template-columns: 50px 1fr 34px 60px !important;
+    grid-template-columns: 50px 1fr 44px 60px !important;
   }
 
   .compact-mode .match-row.football,
   .compact-mode .league-header.football {
-    grid-template-columns: 50px 1fr 34px !important;
+    grid-template-columns: 50px 1fr 44px !important;
   }
 
   /* Hide less critical columns on mobile (Football: 1x2, BTTS, xG) */
