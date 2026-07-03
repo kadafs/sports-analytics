@@ -173,6 +173,10 @@
     filter: contrast(1.02);
   }
 
+  .mobile-logo {
+    display: none;
+  }
+
 
   /* screen blend: black bg becomes invisible, logo colors stay visible */
   [data-theme="dark"] .logo-img {
@@ -2395,14 +2399,18 @@
     padding: 0 10px;
   }
   .logo {
-    width: 140px;
+    width: auto;
     height: 40px;
   }
-  .logo-img {
-    height: 90px;
-    position: static;
-    transform: none;
-    margin-top: 10px;
+  .desktop-logo {
+    display: none !important;
+  }
+  .mobile-logo {
+    display: block !important;
+    height: 32px !important;
+    position: static !important;
+    transform: none !important;
+    margin-top: 0px !important;
   }
   .header-left, .header-right {
     gap: 12px;
