@@ -89,7 +89,8 @@ export default function TeamTracker({ teamLeaderboard }) {
       </div>
 
       {/* Table */}
-      <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)' }}>
+      <div style={{ width: '100%', overflowX: 'auto', WebkitOverflowScrolling: 'touch', borderRadius: 12 }}>
+        <div style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)', minWidth: '850px' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(200px, 1.5fr) 1fr 1fr 1fr 1fr 1fr 1fr 1fr', background: '#f8fafc', padding: '14px 20px', borderBottom: '1px solid #e2e8f0', fontSize: 12, fontWeight: 800, color: '#64748b', letterSpacing: '0.5px' }}>
           <div>TEAM</div>
           <div style={{ textAlign: 'center' }}>RECORD</div>
@@ -182,6 +183,7 @@ export default function TeamTracker({ teamLeaderboard }) {
             );
           })
         )}
+        </div>
       </div>
     </div>
   );

@@ -2474,4 +2474,47 @@
     font-size: 11px;
     padding: 4px 8px;
   }
+
+  /* Header nav sizing on mobile */
+  .header-nav {
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-date-tab {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+}
+
+/* Standings Table Styling */
+.standings-table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 10px;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px; /* Prevent squishing on narrow layouts */
+  font-size: 12px;
+}
+
+.standings-table th, 
+.standings-table td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.standings-table th {
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.standings-table tr.highlight {
+  background: var(--brand-soft);
+  font-weight: 600;
 }
