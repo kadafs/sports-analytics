@@ -166,45 +166,20 @@ export default function App() {
   const toggleCompact = () => setCompactMode(prev => !prev)
 
   // ── Night Shift ──────────────────────────────────────────
-  // Auto: ON between 19:00 and 06:00, manual override stored in localStorage
-  function shouldAutoNightShift() {
-    const h = new Date().getHours()
-    return h >= 19 || h < 6  // 19:00 → 05:59
-  }
-
   const [nightShift, setNightShift] = useState(() => {
     const manual = localStorage.getItem('nightShiftOverride')
-    return manual !== null ? manual === 'true' : shouldAutoNightShift()
+    return manual !== null ? manual === 'true' : true
   })
-
-  const [nightShiftIsAuto, setNightShiftIsAuto] = useState(
-    () => localStorage.getItem('nightShiftOverride') === null
-  )
 
   // Apply theme to body
   useEffect(() => {
     document.body.dataset.theme = nightShift ? 'dark' : 'light'
   }, [nightShift])
 
-  // Check auto state every minute — re-sync if no manual override
-  useEffect(() => {
-    const tick = () => {
-      if (localStorage.getItem('nightShiftOverride') === null) {
-        const auto = shouldAutoNightShift()
-        setNightShift(auto)
-        setNightShiftIsAuto(true)
-      }
-    }
-    tick()
-    const id = setInterval(tick, 60_000)
-    return () => clearInterval(id)
-  }, [])
-
   const toggleNightShift = () => {
     setNightShift(prev => {
       const next = !prev
       localStorage.setItem('nightShiftOverride', String(next))
-      setNightShiftIsAuto(false)
       return next
     })
   }
@@ -327,7 +302,6 @@ export default function App() {
         compactMode={compactMode}
         toggleCompact={toggleCompact}
         nightShift={nightShift}
-        nightShiftIsAuto={nightShiftIsAuto}
         toggleNightShift={toggleNightShift}
       />
       <div className="main-wrapper">
@@ -525,12 +499,9 @@ export default function App() {
             <button
               className={`night-shift-btn ${nightShift ? 'active' : ''}`}
               onClick={toggleNightShift}
-              title={nightShiftIsAuto
-                ? 'Night Shift: auto (ON 19:00–06:00) — click to override'
-                : 'Night Shift: manual override — click to toggle'}
+              title="Night Shift: click to toggle"
             >
               {nightShift ? '🌙' : '☀️'}
-              {nightShiftIsAuto && <span className="night-shift-auto-label">AUTO</span>}
             </button>
           </div>
 

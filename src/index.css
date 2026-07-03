@@ -2357,4 +2357,121 @@
   font-weight: 500;
   opacity: 0.65;
   margin-left: 2px;
+}
+
+/* =====================================================
+   MOBILE RESPONSIVENESS
+   ===================================================== */
+@media (max-width: 768px) {
+  /* Header */
+  .header-inner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0;
+  }
+  .site-header {
+    height: auto;
+    padding: 0 10px;
+  }
+  .logo {
+    width: 140px;
+    height: 40px;
+  }
+  .logo-img {
+    height: 90px;
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+  .header-left, .header-right {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Controls */
+  .controls-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .controls-bar > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  /* Adjust Variables */
+  :root {
+    --col-time: 46px;
+    --col-tip: 30px;
+    --col-chev: 18px;
+    --col-decision: 80px;
+    --col-time-bball: 40px;
+    --col-model: 65px;
+    
+    --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-decision);
+    --grid-bball: var(--col-time-bball) 1fr var(--col-tip) var(--col-chev) var(--col-model);
+  }
+  
+  /* Hide less critical columns on mobile (Football: 1x2, BTTS, xG) */
+  .match-row > .stat-col:nth-child(5),
+  .match-row > .stat-col:nth-child(6),
+  .match-row > .stat-col:nth-child(7) {
+    display: none;
+  }
+  .league-header > .col-label:nth-child(5),
+  .league-header > .col-label:nth-child(6),
+  .league-header > .col-label:nth-child(7) {
+    display: none;
+  }
+
+  /* Hide less critical columns on mobile (Basketball: 1x2, xPts) */
+  .match-row.bball-grid > .stat-col:nth-child(5),
+  .match-row.bball-grid > .stat-col:nth-child(7) {
+    display: none;
+  }
+  .league-header.bball-grid > .col-label:nth-child(5),
+  .league-header.bball-grid > .col-label:nth-child(7) {
+    display: none;
+  }
+
+  /* Adjust fonts and sizings */
+  .team-name {
+    font-size: 11px;
+  }
+  .actual-score {
+    font-size: 11px;
+    padding: 1px 4px;
+  }
+  .bball-model-box, .btts-box, .stat-box {
+    font-size: 11px;
+    height: 24px;
+  }
+  .tip-badge {
+    width: 26px;
+    height: 24px;
+    font-size: 12px;
+  }
+  
+  /* Match details tabs */
+  .tab-nav {
+    flex-wrap: wrap;
+  }
+  .tab-nav button {
+    flex: 1 1 45%;
+    font-size: 10px;
+    padding: 8px 4px;
+  }
+  .prob-outcome-row {
+    flex-direction: column;
+  }
+  
+  /* Summary pill and toggles */
+  .summary-pill {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
 }
