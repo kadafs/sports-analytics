@@ -1867,8 +1867,7 @@
 
   /* Filter bar compaction */
   .compact-mode .controls-bar {
-    padding: 8px 10px;
-    gap: 5px;
+    display: none !important;
   }
 
   .compact-mode .filter-select,

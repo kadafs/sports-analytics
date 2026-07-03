@@ -68,6 +68,7 @@ export default function Header({
             </>
           )}
           <button className={`header-badge ${isAllActive ? 'active' : ''}`} onClick={handleAll}>ALL</button>
+          <button className={`header-badge ${compactMode ? 'active' : ''}`} onClick={toggleCompact} style={{ marginLeft: 6 }}>COMPACT</button>
         </div>
       </div>
     </header>
