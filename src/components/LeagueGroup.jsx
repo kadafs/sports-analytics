@@ -23,7 +23,7 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
             )}
           </span>
           {isFootball && stats && (stats.btts_plays > 0) && (
-            <span style={{ 
+            <span className="league-stats-info" style={{ 
               fontSize: 11, 
               padding: '2px 8px', 
               background: stats.btts_roi > 0 ? '#f0fdf4' : '#fef2f2', 
@@ -39,7 +39,7 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
             </span>
           )}
           {isFootball && stats && (stats.graded_totals > 0) && (
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '2px 6px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 4 }}>
+            <div className="league-stats-info" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '2px 6px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 4 }}>
               <span style={{ fontSize: 10, fontWeight: 800, color: '#1d4ed8' }}>xG</span>
               {stats.mae !== null && (
                 <span style={{ fontSize: 11, fontWeight: 700, color: '#0369a1', whiteSpace: 'nowrap', cursor: 'default' }}>
@@ -74,7 +74,7 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
               ].filter(Boolean).join('  ')
 
               return (
-                <div key={modelName} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '2px 6px', background: bg, border: `1px solid ${border}`, borderRadius: 4 }}>
+                <div key={modelName} className="league-stats-info" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '2px 6px', background: bg, border: `1px solid ${border}`, borderRadius: 4 }}>
                   <span style={{ fontSize: 10, fontWeight: 800, color: color }}>{modelName}</span>
                   <span title={tierTooltip || undefined} style={{ fontSize: 11, fontWeight: 700, color: mapeColor, whiteSpace: 'nowrap', cursor: 'default' }}>
                     MAPE {mape.toFixed(1)}% <span style={{ fontWeight: 400, fontSize: 10, color: '#94a3b8' }}>({mStats.graded_totals}g)</span>
@@ -99,7 +99,7 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
             }
 
             return (
-              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+              <div className="league-stats-info" style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                 {stats.adv && stats.adv.graded_totals > 0
                   ? renderStats('ADV', stats.adv)
                   : (stats.srs && renderStats('SRS', stats.srs))

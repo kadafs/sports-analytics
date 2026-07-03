@@ -479,22 +479,6 @@ export default function App() {
               </div>
             )}
 
-            <div className="compact-control">
-              <span className="label">Compact</span>
-              <button
-                className={`compact-toggle ${compactMode ? 'active' : ''}`}
-                onClick={toggleCompact}
-                title="Switch between full and compact layout"
-              >
-                <div className="toggle-track">
-                  <div className="toggle-knob">
-                    <span className="icon">
-                      {compactMode ? '⊟' : '⊞'}
-                    </span>
-                  </div>
-                </div>
-              </button>
-            </div>
 
             {/* Night Shift Toggle — sits next to Compact */}
             <button

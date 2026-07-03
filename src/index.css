@@ -1870,6 +1870,11 @@
     display: none !important;
   }
 
+  /* Hide league leadership stats in compact mode */
+  .compact-mode .league-stats-info {
+    display: none !important;
+  }
+
   .compact-mode .filter-select,
   .compact-mode .control-btn {
     font-size: 11px;
