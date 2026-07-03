@@ -141,6 +141,7 @@ export default function App() {
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
+  const [showFiltersMobile, setShowFiltersMobile] = useState(false)
 
   const [compactMode, setCompactMode] = useState(() => {
     const saved = localStorage.getItem('compactMode')
@@ -323,8 +324,16 @@ export default function App() {
           </div>
         )}
 
+        {/* Toggle Filters Button for Mobile */}
+        <button 
+          className="mobile-filters-toggle"
+          onClick={() => setShowFiltersMobile(!showFiltersMobile)}
+        >
+          {showFiltersMobile ? 'Hide Filters ✕' : 'Show Filters ⚙️'}
+        </button>
+
         {/* Controls row */}
-        <div className="controls-bar">
+        <div className={`controls-bar ${showFiltersMobile ? 'show-mobile' : 'hide-mobile'}`}>
           {sport === 'basketball' && (
             <div style={{ display: 'flex', background: '#f1f5f9', borderRadius: 8, padding: 3, gap: 2, marginRight: 16 }}>
               {[['all', 'All'], ['women', '♀ Women'], ['men', '♂ Men']].map(([val, label]) => (
