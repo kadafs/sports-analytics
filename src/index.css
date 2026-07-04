@@ -2503,6 +2503,17 @@
     grid-template-columns: 50px 1fr 34px !important;
   }
 
+  /* Full Mode grid columns overrides for mobile */
+  .match-row.basketball,
+  .league-header.basketball {
+    grid-template-columns: 50px 1fr 34px 20px 60px !important;
+  }
+
+  .match-row.football,
+  .league-header.football {
+    grid-template-columns: 50px 1fr 34px 20px 80px !important;
+  }
+
   /* Hide the win/loss grading checkmarks entirely on mobile viewports */
   .match-tip-col span {
     display: none !important;
