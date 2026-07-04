@@ -77,6 +77,15 @@ export default function Header({
             <span className="desktop-text">COMPACT</span>
             <span className="mobile-icon">{compactMode ? '⊟' : '⊞'}</span>
           </button>
+          <a 
+            href="https://baseball-dashboard-rose.vercel.app/" 
+            className="header-badge" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ marginLeft: 6, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}
+          >
+            BASEBALL ⚾
+          </a>
         </div>
       </div>
     </header>
