@@ -143,10 +143,9 @@ export default function App() {
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
 
   const [compactMode, setCompactMode] = useState(() => {
-    if (window.innerWidth < 768) return true
     const saved = localStorage.getItem('compactMode')
     if (saved !== null) return saved === 'true'
-    return window.innerWidth < 1024
+    return true
   })
 
   const [showCompactHint, setShowCompactHint] = useState(false)
