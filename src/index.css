@@ -270,6 +270,13 @@
     display: inline;
   }
 
+  .cross-link-badge .mobile-icon {
+    display: none;
+  }
+  .cross-link-badge .desktop-text {
+    display: inline;
+  }
+
   /* Header Navigation Tabs */
   .header-nav {
     display: flex;
@@ -2489,6 +2496,16 @@
     line-height: 1;
   }
   .compact-header-btn .desktop-text {
+    display: none !important;
+  }
+
+  /* Swap text for icon on mobile cross-link button */
+  .cross-link-badge .mobile-icon {
+    display: inline !important;
+    font-size: 14px;
+    line-height: 1;
+  }
+  .cross-link-badge .desktop-text {
     display: none !important;
   }
   

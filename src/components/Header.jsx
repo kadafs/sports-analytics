@@ -79,12 +79,13 @@ export default function Header({
           </button>
           <a 
             href="https://baseball-dashboard-ten.vercel.app/" 
-            className="header-badge" 
+            className="header-badge cross-link-badge" 
             target="_blank" 
             rel="noopener noreferrer" 
             style={{ marginLeft: 6, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}
           >
-            BASEBALL ⚾
+            <span className="desktop-text">BASEBALL ⚾</span>
+            <span className="mobile-icon">⚾</span>
           </a>
         </div>
       </div>
