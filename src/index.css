@@ -2519,6 +2519,13 @@
     display: none !important;
   }
 
+  /* Hide secondary stats on mobile to prevent header labels overlap */
+  .league-stats-mae,
+  .league-stats-delta,
+  .league-stats-volatility {
+    display: none !important;
+  }
+
   /* Hide less critical columns on mobile (Football: 1x2, BTTS, xG) */
   .match-1x2-col,
   .match-btts-col,

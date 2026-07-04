@@ -42,12 +42,12 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
             <div className="league-stats-info" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '2px 6px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 4 }}>
               <span style={{ fontSize: 10, fontWeight: 800, color: '#1d4ed8' }}>xG</span>
               {stats.mae !== null && (
-                <span style={{ fontSize: 11, fontWeight: 700, color: '#0369a1', whiteSpace: 'nowrap', cursor: 'default' }}>
+                <span className="league-stats-mae" style={{ fontSize: 11, fontWeight: 700, color: '#0369a1', whiteSpace: 'nowrap', cursor: 'default' }}>
                   MAE {stats.mae.toFixed(2)} <span style={{ fontWeight: 400, fontSize: 10, color: '#94a3b8' }}>({stats.graded_totals}g)</span>
                 </span>
               )}
               {stats.avg_signed_delta !== null && (
-                <span title={stats.avg_signed_delta > 0 ? "Model undershoots, games go OVER" : "Model overshoots, games go UNDER"} style={{ fontSize: 11, fontWeight: 600, color: stats.avg_signed_delta > 0 ? '#b91c1c' : stats.avg_signed_delta < 0 ? '#15803d' : '#475569', whiteSpace: 'nowrap', borderLeft: '1px solid #bae6fd', paddingLeft: 6, cursor: 'help' }}>
+                <span className="league-stats-delta" title={stats.avg_signed_delta > 0 ? "Model undershoots, games go OVER" : "Model overshoot, games go UNDER"} style={{ fontSize: 11, fontWeight: 600, color: stats.avg_signed_delta > 0 ? '#b91c1c' : stats.avg_signed_delta < 0 ? '#15803d' : '#475569', whiteSpace: 'nowrap', borderLeft: '1px solid #bae6fd', paddingLeft: 6, cursor: 'help' }}>
                   ±Δ {stats.avg_signed_delta > 0 ? '+' : ''}{stats.avg_signed_delta.toFixed(2)}
                 </span>
               )}
@@ -80,17 +80,17 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
                     MAPE {mape.toFixed(1)}% <span style={{ fontWeight: 400, fontSize: 10, color: '#94a3b8' }}>({mStats.graded_totals}g)</span>
                   </span>
                   {mae !== null && (
-                    <span style={{ fontSize: 11, fontWeight: 600, color: '#475569', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6 }}>
+                    <span className="league-stats-mae" style={{ fontSize: 11, fontWeight: 600, color: '#475569', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6 }}>
                       MAE {mae.toFixed(1)}
                     </span>
                   )}
                   {signed !== null && (
-                    <span title={signed > 0 ? "Model undershoots, game goes OVER" : "Model overshoots, game goes UNDER"} style={{ fontSize: 11, fontWeight: 600, color: signed > 0 ? '#b91c1c' : signed < 0 ? '#15803d' : '#475569', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6, cursor: 'help' }}>
+                    <span className="league-stats-delta" title={signed > 0 ? "Model undershoots, game goes OVER" : "Model overshoots, game goes UNDER"} style={{ fontSize: 11, fontWeight: 600, color: signed > 0 ? '#b91c1c' : signed < 0 ? '#15803d' : '#475569', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6, cursor: 'help' }}>
                       ±Δ {signed > 0 ? '+' : ''}{signed.toFixed(1)}
                     </span>
                   )}
                   {mStats.volatility_index !== null && mStats.volatility_index !== undefined && (
-                    <span title="Volatility (Standard Deviation). <9.0 is highly consistent!" style={{ fontSize: 11, fontWeight: 800, color: mStats.volatility_index > 14.0 ? '#ef4444' : mStats.volatility_index < 9.0 ? '#16a34a' : '#64748b', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6, cursor: 'help' }}>
+                    <span className="league-stats-volatility" title="Volatility (Standard Deviation). <9.0 is highly consistent!" style={{ fontSize: 11, fontWeight: 800, color: mStats.volatility_index > 14.0 ? '#ef4444' : mStats.volatility_index < 9.0 ? '#16a34a' : '#64748b', whiteSpace: 'nowrap', borderLeft: `1px solid ${border}`, paddingLeft: 6, cursor: 'help' }}>
                       σ {mStats.volatility_index.toFixed(1)}
                     </span>
                   )}
