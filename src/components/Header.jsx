@@ -1,4 +1,4 @@
-export default function Header({ 
+﻿export default function Header({ 
   dates, selected, onSelect, 
   sport, setSport,
   filterDecision, setFilterDecision,
@@ -31,15 +31,31 @@ export default function Header({
           <a href="/" className="logo">
             <img
               src={nightShift ? '/darklogo.png' : '/logo.png'}
-              alt="blowrout — Mathematical Basketball Predictions"
+              alt="blowrout â€” Mathematical Basketball Predictions"
               className="logo-img desktop-logo"
             />
             <img
               src="/favicon_glow.png"
-              alt="blowrout — Mathematical Basketball Predictions"
+              alt="blowrout â€” Mathematical Basketball Predictions"
               className="logo-img mobile-logo"
             />
           </a>
+
+          {/* Sport Toggle */}
+          <div className="sport-toggle">
+            <button
+              className={`sport-btn ${sport === 'basketball' ? 'active' : ''}`}
+              onClick={() => setSport('basketball')}
+            >
+              🏀 Basketball
+            </button>
+            <button
+              className={`sport-btn ${sport === 'football' ? 'active' : ''}`}
+              onClick={() => setSport('football')}
+            >
+              ⚽ Football
+            </button>
+          </div>
         </div>
 
         {visible.length > 0 && (
@@ -54,7 +70,7 @@ export default function Header({
                   onClick={() => onSelect(d.date)}
                 >
                   {isToday ? 'Today' : d.date}
-                  {d.graded && <span className="tab-check">✓</span>}
+                  {d.graded && <span className="tab-check">âœ“</span>}
                 </button>
               )
             })}
@@ -75,7 +91,7 @@ export default function Header({
           <button className={`header-badge ${isAllActive ? 'active' : ''}`} onClick={handleAll}>ALL</button>
           <button className={`header-badge compact-header-btn ${compactMode ? 'active' : ''}`} onClick={toggleCompact} style={{ marginLeft: 6 }}>
             <span className="desktop-text">COMPACT</span>
-            <span className="mobile-icon">{compactMode ? '⊟' : '⊞'}</span>
+            <span className="mobile-icon">{compactMode ? 'âŠŸ' : 'âŠž'}</span>
           </button>
           <a 
             href="https://baseball-dashboard-ten.vercel.app/" 
@@ -84,12 +100,27 @@ export default function Header({
             rel="noopener noreferrer" 
             style={{ marginLeft: 6, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}
           >
-            <span className="desktop-text">BASEBALL ⚾</span>
-            <span className="mobile-icon">⚾</span>
+            <span className="desktop-text">BASEBALL âš¾</span>
+            <span className="mobile-icon">âš¾</span>
           </a>
+
+          {/* Sport Toggle */}
+          <div className="sport-toggle">
+            <button
+              className={`sport-btn ${sport === 'basketball' ? 'active' : ''}`}
+              onClick={() => setSport('basketball')}
+            >
+              🏀 Basketball
+            </button>
+            <button
+              className={`sport-btn ${sport === 'football' ? 'active' : ''}`}
+              onClick={() => setSport('football')}
+            >
+              ⚽ Football
+            </button>
+          </div>
         </div>
       </div>
     </header>
   )
 }
-
