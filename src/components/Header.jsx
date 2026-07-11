@@ -31,12 +31,12 @@
           <a href="/" className="logo">
             <img
               src={nightShift ? '/darklogo.png' : '/logo.png'}
-              alt="blowrout â€” Mathematical Basketball Predictions"
+              alt="blowrout — Mathematical Predictions"
               className="logo-img desktop-logo"
             />
             <img
               src="/favicon_glow.png"
-              alt="blowrout â€” Mathematical Basketball Predictions"
+              alt="blowrout — Mathematical Predictions"
               className="logo-img mobile-logo"
             />
           </a>
@@ -47,13 +47,13 @@
               className={`sport-btn ${sport === 'basketball' ? 'active' : ''}`}
               onClick={() => setSport('basketball')}
             >
-              🏀 Basketball
+              {'\uD83C\uDFC0'} Basketball
             </button>
             <button
               className={`sport-btn ${sport === 'football' ? 'active' : ''}`}
               onClick={() => setSport('football')}
             >
-              ⚽ Football
+              {'\u26BD'} Football
             </button>
           </div>
         </div>
@@ -91,35 +91,8 @@
           )}
           <button className={`header-badge ${isAllActive ? 'active' : ''}`} onClick={handleAll}>ALL</button>
           <button className={`header-badge compact-header-btn ${compactMode ? 'active' : ''}`} onClick={toggleCompact} style={{ marginLeft: 6 }}>
-            <span className="desktop-text">COMPACT</span>
-            <span className="mobile-icon">{compactMode ? 'âŠŸ' : 'âŠž'}</span>
+            COMPACT
           </button>
-          <a 
-            href="https://baseball-dashboard-ten.vercel.app/" 
-            className="header-badge cross-link-badge" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            style={{ marginLeft: 6, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}
-          >
-            <span className="desktop-text">BASEBALL âš¾</span>
-            <span className="mobile-icon">âš¾</span>
-          </a>
-
-          {/* Sport Toggle */}
-          <div className="sport-toggle">
-            <button
-              className={`sport-btn ${sport === 'basketball' ? 'active' : ''}`}
-              onClick={() => setSport('basketball')}
-            >
-              🏀 Basketball
-            </button>
-            <button
-              className={`sport-btn ${sport === 'football' ? 'active' : ''}`}
-              onClick={() => setSport('football')}
-            >
-              ⚽ Football
-            </button>
-          </div>
         </div>
       </div>
     </header>
