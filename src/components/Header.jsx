@@ -61,7 +61,8 @@
         {visible.length > 0 && (
           <div className="header-nav">
             {visible.map(d => {
-              const isToday = d.date === todayStr
+              const baseDate = d.date.replace('_v2', '')
+              const isToday = baseDate === todayStr
               const isActive = d.date === selected
               return (
                 <button
@@ -69,7 +70,7 @@
                   className={`nav-date-tab ${isActive ? 'active' : ''}`}
                   onClick={() => onSelect(d.date)}
                 >
-                  {isToday ? 'Today' : d.date}
+                  {isToday ? 'Today' : baseDate}
                   {d.graded && <span className="tab-check">âœ“</span>}
                 </button>
               )

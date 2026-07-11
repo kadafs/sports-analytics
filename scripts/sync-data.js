@@ -56,14 +56,25 @@ for (const sport of sports) {
       }
     }
 
-    // Sort descending by date
-    dates.sort((a, b) => b.date.localeCompare(a.date));
+    // Deduplicate: when both 2026-07-10 and 2026-07-10_v2 exist, prefer _v2
+    // Build a map keyed by base date (without _v2 suffix)
+    const dateMap = new Map();
+    for (const entry of dates) {
+      const baseDate = entry.date.replace('_v2', '');
+      const isV2 = entry.date.endsWith('_v2');
+      if (!dateMap.has(baseDate) || isV2) {
+        // Store with the actual file date (keeps _v2 suffix so fetchPredictions loads the right file)
+        dateMap.set(baseDate, entry);
+      }
+    }
+
+    const deduped = [...dateMap.values()].sort((a, b) => b.date.localeCompare(a.date));
 
     fs.writeFileSync(
       path.join(dataDir, 'dates_index.json'),
-      JSON.stringify({ dates }, null, 2)
+      JSON.stringify({ dates: deduped }, null, 2)
     );
-    console.log(`✅ Generated ${sport} dates_index.json (${dates.length} dates indexed).`);
+    console.log(`✅ Generated ${sport} dates_index.json (${deduped.length} dates indexed).`);
 
   } catch (error) {
     console.error(`❌ Failed to index ${sport} data:`, error);

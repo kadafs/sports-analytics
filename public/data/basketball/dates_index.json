@@ -1,18 +1,35 @@
 {
   "dates": [
     {
-      "date": "2026-07-10_v2",
-      "total": 47,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
+      "date": "2026-07-11_v2",
+      "total": 77,
+      "graded": true,
+      "graded_count": 56,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 9,
+          "total": 13,
+          "pct": 69.2
+        },
+        "[ADVANCED]": {
+          "wins": 32,
+          "total": 43,
+          "pct": 74.4
+        }
+      }
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-10_v2",
       "total": 47,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
+      "graded": true,
+      "graded_count": 41,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 2,
+          "total": 3,
+          "pct": 66.7
+        }
+      }
     },
     {
       "date": "2026-07-09_v2",
@@ -24,19 +41,6 @@
           "wins": 1,
           "total": 3,
           "pct": 33.3
-        }
-      }
-    },
-    {
-      "date": "2026-07-09",
-      "total": 25,
-      "graded": true,
-      "graded_count": 24,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 0,
-          "total": 3,
-          "pct": 0
         }
       }
     },
@@ -54,36 +58,10 @@
       }
     },
     {
-      "date": "2026-07-08",
-      "total": 12,
-      "graded": true,
-      "graded_count": 12,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 2,
-          "total": 3,
-          "pct": 66.7
-        }
-      }
-    },
-    {
       "date": "2026-07-07_v2",
       "total": 10,
       "graded": true,
       "graded_count": 9,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 1,
-          "total": 2,
-          "pct": 50
-        }
-      }
-    },
-    {
-      "date": "2026-07-07",
-      "total": 12,
-      "graded": true,
-      "graded_count": 10,
       "grade_summary": {
         "[  SRS   ]": {
           "wins": 1,
@@ -111,35 +89,10 @@
       }
     },
     {
-      "date": "2026-07-06",
-      "total": 25,
-      "graded": true,
-      "graded_count": 24,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 1,
-          "total": 3,
-          "pct": 33.3
-        },
-        "[ADVANCED]": {
-          "wins": 1,
-          "total": 1,
-          "pct": 100
-        }
-      }
-    },
-    {
       "date": "2026-07-05_v2",
       "total": 37,
       "graded": true,
       "graded_count": 32,
-      "grade_summary": {}
-    },
-    {
-      "date": "2026-07-05",
-      "total": 53,
-      "graded": true,
-      "graded_count": 47,
       "grade_summary": {}
     },
     {
@@ -161,46 +114,10 @@
       }
     },
     {
-      "date": "2026-07-04",
-      "total": 80,
-      "graded": true,
-      "graded_count": 80,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 1,
-          "total": 2,
-          "pct": 50
-        },
-        "[  SRS   ]": {
-          "wins": 3,
-          "total": 9,
-          "pct": 33.3
-        }
-      }
-    },
-    {
       "date": "2026-07-03_v2",
       "total": 54,
       "graded": true,
       "graded_count": 54,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 1,
-          "total": 2,
-          "pct": 50
-        },
-        "[  SRS   ]": {
-          "wins": 1,
-          "total": 3,
-          "pct": 33.3
-        }
-      }
-    },
-    {
-      "date": "2026-07-03",
-      "total": 50,
-      "graded": true,
-      "graded_count": 50,
       "grade_summary": {
         "[ADVANCED]": {
           "wins": 1,
@@ -233,43 +150,7 @@
       }
     },
     {
-      "date": "2026-07-02",
-      "total": 21,
-      "graded": true,
-      "graded_count": 21,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 1,
-          "total": 2,
-          "pct": 50
-        },
-        "[  SRS   ]": {
-          "wins": 5,
-          "total": 7,
-          "pct": 71.4
-        }
-      }
-    },
-    {
       "date": "2026-07-01_v2",
-      "total": 7,
-      "graded": true,
-      "graded_count": 6,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 3,
-          "total": 3,
-          "pct": 100
-        },
-        "[  SRS   ]": {
-          "wins": 1,
-          "total": 3,
-          "pct": 33.3
-        }
-      }
-    },
-    {
-      "date": "2026-07-01",
       "total": 7,
       "graded": true,
       "graded_count": 6,
@@ -294,27 +175,7 @@
       "grade_summary": null
     },
     {
-      "date": "2026-06-30",
-      "total": 11,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
-    },
-    {
       "date": "2026-06-29_v2",
-      "total": 6,
-      "graded": true,
-      "graded_count": 6,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 5,
-          "total": 6,
-          "pct": 83.3
-        }
-      }
-    },
-    {
-      "date": "2026-06-29",
       "total": 6,
       "graded": true,
       "graded_count": 6,
@@ -345,24 +206,6 @@
       }
     },
     {
-      "date": "2026-06-28",
-      "total": 54,
-      "graded": true,
-      "graded_count": 49,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 8,
-          "total": 10,
-          "pct": 80
-        },
-        "[ADVANCED]": {
-          "wins": 6,
-          "total": 6,
-          "pct": 100
-        }
-      }
-    },
-    {
       "date": "2026-06-27_v2",
       "total": 79,
       "graded": true,
@@ -381,32 +224,7 @@
       }
     },
     {
-      "date": "2026-06-27",
-      "total": 79,
-      "graded": true,
-      "graded_count": 79,
-      "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 12,
-          "total": 17,
-          "pct": 70.6
-        },
-        "[ADVANCED]": {
-          "wins": 44,
-          "total": 62,
-          "pct": 71
-        }
-      }
-    },
-    {
       "date": "2026-06-26_v2",
-      "total": 22,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
-    },
-    {
-      "date": "2026-06-26",
       "total": 22,
       "graded": false,
       "graded_count": 0,
