@@ -71,7 +71,7 @@
                   onClick={() => onSelect(d.date)}
                 >
                   {isToday ? 'Today' : baseDate}
-                  {d.graded && <span className="tab-check">âœ“</span>}
+                  {d.graded && <span className="tab-check">{'\u2713'}</span>}
                 </button>
               )
             })}
