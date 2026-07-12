@@ -182,9 +182,11 @@ export default function App() {
   }
 
   useEffect(() => {
+    let isActive = true
     setLoading(true)
     fetchDates(sport)
       .then(d => { 
+        if (!isActive) return
         setDates(d)
         if (d.length > 0) {
           // Keep same date if possible when switching sports
@@ -197,26 +199,38 @@ export default function App() {
         setLoading(false)
       })
       .catch(() => {
+        if (!isActive) return
         setError(`Could not fetch ${sport} dates.`)
         setLoading(false)
       })
       
     fetchLeaderboard(sport)
-      .then(d => setLeaderboard(d))
+      .then(d => { if (isActive) setLeaderboard(d) })
       .catch(e => console.warn(`Could not fetch ${sport} leaderboard:`, e))
       
     fetchTeamLeaderboard(sport)
-      .then(d => setTeamLeaderboard(d))
+      .then(d => { if (isActive) setTeamLeaderboard(d) })
       .catch(e => console.warn(`Could not fetch ${sport} team leaderboard:`, e))
-      
+
+    return () => { isActive = false }
   }, [sport])
 
   useEffect(() => {
     if (!selectedDate) return
+    let isActive = true
     setLoading(true); setError(null); 
     fetchPredictions(selectedDate, sport)
-      .then(d => { setData(d); setLoading(false) })
-      .catch(e => { setError(e.message); setLoading(false) })
+      .then(d => { 
+        if (isActive) {
+          setData(d); setLoading(false) 
+        }
+      })
+      .catch(e => { 
+        if (isActive) {
+          setError(e.message); setLoading(false) 
+        }
+      })
+    return () => { isActive = false }
   }, [selectedDate, sport])
 
   const countries = useMemo(() => {
