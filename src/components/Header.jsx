@@ -1,4 +1,4 @@
-﻿export default function Header({ 
+export default function Header({ 
   dates, selected, onSelect, 
   sport, setSport,
   filterDecision, setFilterDecision,
@@ -79,18 +79,7 @@
         )}
 
         <div className="header-right">
-          {sport === 'football' ? (
-            <>
-              <button className={`header-badge ${isBTTSActive ? 'active' : ''}`} onClick={handleBTTS}>BTTS</button>
-              <button className={`header-badge ${isDrawActive ? 'active' : ''}`} onClick={handleDraw}>DRAW</button>
-            </>
-          ) : (
-            <>
-              <button className={`header-badge ${isOverActive ? 'active' : ''}`} onClick={handleOver}>OVER</button>
-            </>
-          )}
-          <button className={`header-badge ${isAllActive ? 'active' : ''}`} onClick={handleAll}>ALL</button>
-          <button className={`header-badge compact-header-btn ${compactMode ? 'active' : ''}`} onClick={toggleCompact} style={{ marginLeft: 6 }}>
+          <button className={`header-badge compact-header-btn ${compactMode ? 'active' : ''}`} onClick={toggleCompact}>
             COMPACT
           </button>
         </div>
