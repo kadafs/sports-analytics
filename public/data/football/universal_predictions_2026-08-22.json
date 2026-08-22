@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-22",
+  "mode": "full",
+  "total_predictions": 1,
+  "predictions": [
+    {
+      "league_id": 24,
+      "league": "ASEAN Championship",
+      "country": "World",
+      "date": "2026-08-22",
+      "away_team": "Vietnam",
+      "home_team": "Thailand",
+      "status": "NS",
+      "kickoff": "2026-08-22 13:00",
+      "xg_home": 1.397,
+      "xg_away": 1.054,
+      "xg_total": 2.451,
+      "btts_prob": 49.0,
+      "btts_edge": -3.0,
+      "btts_decision": "PASS",
+      "btts_confidence": "NO PLAY",
+      "draw_prob": 26.8,
+      "draw_fair_odds": 3.73,
+      "draw_value_flag": true,
+      "home_win_prob": 44.8,
+      "draw_prob_1x2": 26.8,
+      "away_win_prob": 28.4,
+      "home_win_odds": 2.23,
+      "draw_odds": 3.73,
+      "away_win_odds": 3.52,
+      "predicted_result": "HOME",
+      "mode": "full",
+      "timestamp": "2026-08-22T01:56:17.772337+00:00",
+      "actual_home_goals": null,
+      "actual_away_goals": null,
+      "actual_btts": null,
+      "actual_draw": null,
+      "actual_result": null,
+      "match_center": {
+        "h2h": [],
+        "recentH": [],
+        "recentA": [],
+        "full_standings": null,
+        "over_1_5_prob": 70.2,
+        "over_2_5_prob": 44.4,
+        "statsH": {
+          "played": 8,
+          "win_pct": 0.625,
+          "scored": 3.125,
+          "conceded": 1.5,
+          "clean_sheets": 2,
+          "failed_to_score": 0,
+          "btts_rate": 0.75,
+          "rank": null,
+          "form": 5
+        },
+        "statsA": {
+          "played": 8,
+          "win_pct": 0.875,
+          "scored": 2.625,
+          "conceded": 0.75,
+          "clean_sheets": 3,
+          "failed_to_score": 0,
+          "btts_rate": 0.625,
+          "rank": null,
+          "form": 7
+        }
+      }
+    }
+  ]
+}
