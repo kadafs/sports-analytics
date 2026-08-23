@@ -76,6 +76,7 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
     if (sport === 'football' && filterBttsHitRate > 0) {
       const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
       if (!stats || (stats.btts_hit_rate ?? 0) < filterBttsHitRate) return false
+      if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
     }
     
     // MAPE & Volatility Filter (Basketball only)
