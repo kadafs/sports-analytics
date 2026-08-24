@@ -144,15 +144,21 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         className={`match-row basketball ${open ? 'expanded' : ''}`}
         onClick={() => setOpen(!open)}
       >
-        {/* TIME / STATUS COLUMN */}
+        {/* TIME / STATUS COLUMN — matches football pattern */}
         <div className="match-time">
-          {time?.includes(' ') ? time.split(' ')[1] : time}
-          {finalStatus && !isFinishedStatus(finalStatus) && finalStatus !== 'Scheduled' && (
-            <div className="live-indicator">{formatStatus(finalStatus)}</div>
+          {time?.includes(' ') ? time.split(' ')[1] : (
+            // No datetime available: show raw value unless it's covered by an indicator below
+            !isFinishedStatus(finalStatus) ? time : null
           )}
           {isFinishedStatus(finalStatus) && (
-            <div className="live-indicator" style={{ color: '#94a3b8' }}>
+            <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>
               FT
+            </div>
+          )}
+          {finalStatus && !isFinishedStatus(finalStatus) &&
+           finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
+            <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
+              {formatStatus(finalStatus)}
             </div>
           )}
           {showBadge && (
