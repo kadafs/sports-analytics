@@ -124,6 +124,32 @@ export default function MatchRow({ game }) {
           <div className="xg-box">{fmt(game.xg_home, 1)} – {fmt(game.xg_away, 1)}<sub> xG</sub></div>
         </div>
 
+        {/* Corners column */}
+        {game.corners && (
+          <div className="match-corners-col" title={`Over 9.5: ${game.corners.over_9_5_pct}% | Over 10.5: ${game.corners.over_10_5_pct}%`}>
+            <div className="corners-box">
+              <span className="corners-total">{game.corners.exp_total_corners}</span>
+              <sub> crn</sub>
+              <div className={`corners-rec ${game.corners.corner_recommendation === 'PASS' ? 'pass' : game.corners.corner_recommendation.startsWith('OVER') ? 'over' : 'under'}`}>
+                {game.corners.corner_recommendation}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Bookings column */}
+        {game.corners && (
+          <div className="match-booking-col" title={`Expected booking pts: ${game.corners.exp_total_booking_pts}`}>
+            <div className="booking-box">
+              <span className="booking-pts">{game.corners.exp_total_booking_pts}</span>
+              <sub> bk</sub>
+              <div className={`booking-rec ${game.corners.booking_recommendation.startsWith('HIGH') ? 'high' : game.corners.booking_recommendation === 'MEDIUM' ? 'medium' : 'low'}`}>
+                {game.corners.booking_recommendation.split(' ')[0]}
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Decision badge */}
         <div className="match-decision-col">
           <span className={`decision-badge ${dClass}`}>{game.btts_decision || 'PASS'}</span>
