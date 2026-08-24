@@ -186,7 +186,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               marginRight: 6,
               cursor: isHomeStable ? 'help' : 'inherit'
             }}>
-              {showStageBadge && <span style={{ color: '#2563eb', width: 16, display: 'inline-block', textAlign: 'left' }}>★</span>}
               {home_team}
             </span>
             {finalHomeScore !== undefined && (
@@ -204,7 +203,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               marginRight: 6,
               cursor: isAwayStable ? 'help' : 'inherit'
             }}>
-              {showStageBadge && <span className="playoff-spacer"></span>}
               {away_team}
             </span>
             {finalAwayScore !== undefined && (
