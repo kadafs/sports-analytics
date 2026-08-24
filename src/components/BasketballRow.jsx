@@ -146,10 +146,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
       >
         {/* TIME / STATUS COLUMN — matches football pattern */}
         <div className="match-time">
-          {time?.includes(' ') ? time.split(' ')[1] : (
-            // No datetime available: show raw value unless it's covered by an indicator below
-            !isFinishedStatus(finalStatus) ? time : null
-          )}
+          {time?.includes(' ') ? time.split(' ')[1] : null}
           {isFinishedStatus(finalStatus) && (
             <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>
               FT
@@ -159,6 +156,12 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
            finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
             <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
               {formatStatus(finalStatus)}
+            </div>
+          )}
+          {!time?.includes(' ') && !isFinishedStatus(finalStatus) &&
+           (finalStatus === 'Not Started' || finalStatus === 'Scheduled' || !finalStatus) && (
+            <div className="live-indicator" style={{ color: '#64748b', fontSize: 10, fontWeight: 800 }}>
+              NS
             </div>
           )}
           {showBadge && (
