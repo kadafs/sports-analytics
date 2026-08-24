@@ -80,7 +80,7 @@ export default function MatchRow({ game }) {
         </div>
 
         {/* Teams */}
-        <div className="teams">
+        <div className="teams" style={{textAlign:"left"}}>
           <span className="team-name home" title={game.home_team}>{game.home_team}</span>
           {isGraded
             ? <span className="actual-score">{game.actual_home_goals} – {game.actual_away_goals}</span>
@@ -90,8 +90,7 @@ export default function MatchRow({ game }) {
         </div>
 
 
-        {/* Expand chevron */}
-        <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
+
 
         {/* 1X2 boxes */}
         <div className="stat-group match-1x2-col">
@@ -113,27 +112,17 @@ export default function MatchRow({ game }) {
 
         {/* Corners column */}
         {game.corners && (
-          <div className="match-corners-col" title={`Over 9.5: ${game.corners.over_9_5_pct}% | Over 10.5: ${game.corners.over_10_5_pct}%`}>
-            <div className="corners-box">
-              <span className="corners-total">{game.corners.exp_total_corners}</span>
-              <sub> crn</sub>
-              <div className={`corners-rec ${game.corners.corner_recommendation === 'PASS' ? 'pass' : game.corners.corner_recommendation.startsWith('OVER') ? 'over' : 'under'}`}>
-                {game.corners.corner_recommendation}
-              </div>
-            </div>
+          <div className="match-corners-col" title={`Over 9.5: ${game.corners.over_9_5_pct}% | Over 10.5: ${game.corners.over_10_5_pct}% | ${game.corners.corner_recommendation}`} style={{textAlign:'center'}}>
+            <span style={{fontSize:15,fontWeight:800,color:'#38bdf8'}}>{game.corners.exp_total_corners}</span>
+            <sub style={{fontSize:9,color:'#64748b',marginLeft:1}}>crn</sub>
           </div>
         )}
 
         {/* Bookings column */}
         {game.corners && (
-          <div className="match-booking-col" title={`Expected booking pts: ${game.corners.exp_total_booking_pts}`}>
-            <div className="booking-box">
-              <span className="booking-pts">{game.corners.exp_total_booking_pts}</span>
-              <sub> bk</sub>
-              <div className={`booking-rec ${game.corners.booking_recommendation.startsWith('HIGH') ? 'high' : game.corners.booking_recommendation === 'MEDIUM' ? 'medium' : 'low'}`}>
-                {game.corners.booking_recommendation.split(' ')[0]}
-              </div>
-            </div>
+          <div className="match-booking-col" title={`Booking pts: ${game.corners.exp_total_booking_pts} | ${game.corners.booking_recommendation}`} style={{textAlign:'center'}}>
+            <span style={{fontSize:15,fontWeight:800,color:'#fbbf24'}}>{game.corners.exp_total_booking_pts}</span>
+            <sub style={{fontSize:9,color:'#64748b',marginLeft:1}}>bk</sub>
           </div>
         )}
 

@@ -112,7 +112,6 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
         
         {isFootball ? (
           <>
-            <div className="chevron-spacer" /> {/* chevron spacer */}
             <div className="col-label match-1x2-col" style={{ textAlign: 'center' }}>1X2</div>
             <div className="col-label match-btts-col" style={{ textAlign: 'center' }}>BTTS %</div>
             <div className="col-label match-corners-col" style={{ textAlign: 'center' }}>CORNERS</div>
@@ -120,7 +119,6 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
           </>
         ) : (
           <>
-            <div className="chevron-spacer" /> {/* chevron spacer */}
             <div className="col-label match-12-col" style={{ textAlign: 'center' }}>12</div>
             <div className="col-label match-model-col" style={{ textAlign: 'center' }}>MODEL</div>
             <div className="col-label match-xpts match-xpts-col" style={{ textAlign: 'center' }}>xPTS</div>

@@ -107,13 +107,13 @@
     --col-corners: 68px;
     --col-booking: 60px;
     --col-decision: 130px;
-    --grid: var(--col-time) 1fr var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
+    --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
 
     /* Basketball Grid */
     --col-time-bball: 44px;
     --col-model: 80px;
     --col-xpts: 100px;
-    --grid-bball: var(--col-time-bball) 1fr var(--col-chev) var(--col-1x2) var(--col-model) var(--col-xpts);
+    --grid-bball: var(--col-time-bball) 1fr var(--col-1x2) var(--col-model) var(--col-xpts);
   }
 
   .bball-grid {
@@ -2484,11 +2484,12 @@
   }
 
   .match-row.football .teams {
-    display: grid !important;
-    grid-template-columns: 1fr auto !important;
-    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
     width: 100% !important;
-    gap: 4px 8px !important;
+    gap: 2px !important;
   }
 
   /* Swap text for icon on mobile compact toggle button */

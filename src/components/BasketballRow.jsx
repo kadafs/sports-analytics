@@ -215,8 +215,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
           </div>
         </div>
 
-        {/* Expand chevron */}
-        <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
+
 
         {/* 12 COLUMN */}
         <div className="stat-col center match-12-col">
