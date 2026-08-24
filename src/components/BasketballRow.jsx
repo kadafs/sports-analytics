@@ -144,24 +144,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         className={`match-row basketball ${open ? 'expanded' : ''}`}
         onClick={() => setOpen(!open)}
       >
-        {/* TIME / STATUS COLUMN — matches football pattern */}
+        {/* TIME / STATUS COLUMN — same visual style as football HH:MM */}
         <div className="match-time">
-          {time?.includes(' ') ? time.split(' ')[1] : null}
-          {isFinishedStatus(finalStatus) && (
-            <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>
-              FT
-            </div>
+          {time?.includes(' ') ? (
+            /* Has proper datetime — show HH:MM as main text */
+            time.split(' ')[1]
+          ) : (
+            /* No kickoff time stored — show status as main text (same 11px/600 as football's "16:00") */
+            isFinishedStatus(finalStatus) ? 'FT'
+            : formatStatus(finalStatus) || 'NS'
           )}
-          {finalStatus && !isFinishedStatus(finalStatus) &&
+          {/* When we DO have a proper time, show FT/live badge below (like football graded rows) */}
+          {time?.includes(' ') && isFinishedStatus(finalStatus) && (
+            <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>FT</div>
+          )}
+          {time?.includes(' ') && finalStatus && !isFinishedStatus(finalStatus) &&
            finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
             <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
               {formatStatus(finalStatus)}
-            </div>
-          )}
-          {!time?.includes(' ') && !isFinishedStatus(finalStatus) &&
-           (finalStatus === 'Not Started' || finalStatus === 'Scheduled' || !finalStatus) && (
-            <div className="live-indicator" style={{ color: '#64748b', fontSize: 10, fontWeight: 800 }}>
-              NS
             </div>
           )}
           {showBadge && (
