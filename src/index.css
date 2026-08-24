@@ -2515,23 +2515,23 @@
   /* Compact Mode grid columns overrides for mobile */
   .compact-mode .match-row.basketball,
   .compact-mode .league-header.basketball {
-    grid-template-columns: 50px 1fr 60px !important;
+    grid-template-columns: 40px 1fr 80px 65px !important;
   }
 
   .compact-mode .match-row.football,
   .compact-mode .league-header.football {
-    grid-template-columns: 50px 1fr !important;
+    grid-template-columns: 40px 1fr 90px 58px !important;
   }
 
   /* Full Mode grid columns overrides for mobile */
   .match-row.basketball,
   .league-header.basketball {
-    grid-template-columns: 50px 1fr 60px !important;
+    grid-template-columns: 40px 1fr 80px 65px !important;
   }
 
   .match-row.football,
   .league-header.football {
-    grid-template-columns: 50px 1fr 80px !important;
+    grid-template-columns: 40px 1fr 90px 58px !important;
   }
 
   /* Hide the win/loss grading checkmarks entirely on mobile viewports */
