@@ -89,15 +89,6 @@ export default function MatchRow({ game }) {
           <span className="team-name away" title={game.away_team}>{game.away_team}</span>
         </div>
 
-        {/* TIP + grade */}
-        <div className="match-tip-col" style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <div className={`tip-badge ${tip.cls}`}>{tip.label}</div>
-          {oGrade !== null && (
-            <span style={{ position: 'absolute', bottom: -14, left: '50%', transform: 'translateX(-50%)', fontSize: 9, lineHeight: 1 }}>
-              {oGrade === 'WIN' ? '✅' : '❌'}
-            </span>
-          )}
-        </div>
 
         {/* Expand chevron */}
         <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
@@ -119,10 +110,6 @@ export default function MatchRow({ game }) {
           )}
         </div>
 
-        {/* xG box */}
-        <div className="match-xg match-xg-col">
-          <div className="xg-box">{fmt(game.xg_home, 1)} – {fmt(game.xg_away, 1)}<sub> xG</sub></div>
-        </div>
 
         {/* Corners column */}
         {game.corners && (
@@ -150,10 +137,6 @@ export default function MatchRow({ game }) {
           </div>
         )}
 
-        {/* Decision badge */}
-        <div className="match-decision-col">
-          <span className={`decision-badge ${dClass}`}>{game.btts_decision || 'PASS'}</span>
-        </div>
       </div>
 
       {/* Expanded detail */}

@@ -107,7 +107,7 @@
     --col-corners: 80px;
     --col-booking: 72px;
     --col-decision: 130px;
-    --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-xg) var(--col-corners) var(--col-booking) var(--col-decision);
+    --grid: var(--col-time) 1fr var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
 
     /* Basketball Grid */
     --col-time-bball: 44px;
@@ -1584,7 +1584,7 @@
       --col-xg: 0px;
       --col-decision: 90px;
       --col-1x2: 90px;
-      --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking) var(--col-decision);
+      --grid: var(--col-time) 1fr var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
     }
 
     .xg-box {
