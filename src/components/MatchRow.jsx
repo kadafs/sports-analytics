@@ -425,17 +425,26 @@ export default function MatchRow({ game }) {
 
                   {/* Corners & Booking Detail */}
                   {game.corners && (
-                    <div className="prob-section full">
+                    <div className="prob-section">
                       <div className="ps-title">Corners & Booking</div>
-                      <div className="market-odds-row" style={{marginTop:8}}>
-                        <div className="mo-box"><span className="mo-val" style={{color:'#38bdf8'}}>{game.corners.exp_total_corners}</span><span className="mo-lbl">Exp. Corners</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.corners.over_9_5_pct}%</span><span className="mo-lbl">Over 9.5</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.corners.over_10_5_pct}%</span><span className="mo-lbl">Over 10.5</span></div>
-                        <div className="mo-box"><span className="mo-val" style={{color:'#fbbf24'}}>{game.corners.exp_total_booking_pts}</span><span className="mo-lbl">Booking Pts</span></div>
-                      </div>
-                      <div style={{marginTop:10, fontSize:10, color:'#94a3b8', fontStyle:'italic'}}>
-                        Rec: <b style={{color:'#e2e8f0'}}>{game.corners.corner_recommendation}</b>
-                        &nbsp;|&nbsp;Bookings: <b style={{color:'#e2e8f0'}}>{game.corners.booking_recommendation}</b>
+                      <ProbabilityItem
+                        label={`Exp. Corners: ${game.corners.exp_total_corners}`}
+                        value={game.corners.over_9_5_pct}
+                        color="btts"
+                      />
+                      <ProbabilityItem
+                        label={`Over 10.5 Corners`}
+                        value={game.corners.over_10_5_pct}
+                        color="away"
+                      />
+                      <ProbabilityItem
+                        label={`Booking Pts: ${game.corners.exp_total_booking_pts}`}
+                        value={Math.min(100, Math.round((game.corners.exp_total_booking_pts / 120) * 100))}
+                        color="home"
+                      />
+                      <div style={{marginTop:10, fontSize:10, color:'#94a3b8'}}>
+                        Corners: <b style={{color:'#e2e8f0'}}>{game.corners.corner_recommendation}</b>
+                        &nbsp;&nbsp;Bookings: <b style={{color:'#e2e8f0'}}>{game.corners.booking_recommendation}</b>
                       </div>
                     </div>
                   )}

@@ -120,7 +120,6 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
           </>
         ) : (
           <>
-            <div className="col-label match-tip-col" style={{ textAlign: 'center' }}>TIP</div>
             <div className="chevron-spacer" /> {/* chevron spacer */}
             <div className="col-label match-12-col" style={{ textAlign: 'center' }}>12</div>
             <div className="col-label match-model-col" style={{ textAlign: 'center' }}>MODEL</div>

@@ -215,16 +215,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
           </div>
         </div>
 
-        {/* TIP COLUMN */}
-        <div className="stat-col center divider-left match-tip-col" style={{ position: 'relative' }}>
-          <div className={`tip-badge ${tip === '1' ? 'home' : 'away'}`}>{tip}</div>
-          {isGraded && (
-            <span style={{ position: 'absolute', bottom: -12, left: '50%', transform: 'translateX(-50%)', fontSize: 10 }}>
-              {isWin ? '✅' : '❌'}
-            </span>
-          )}
-        </div>
-
         {/* Expand chevron */}
         <div className="match-chevron" style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: 11, cursor: 'pointer' }}>{open ? '▲' : '▼'}</div>
 

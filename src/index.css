@@ -104,8 +104,8 @@
     --col-1x2: 116px;
     --col-btts: 80px;
     --col-xg: 100px;
-    --col-corners: 80px;
-    --col-booking: 72px;
+    --col-corners: 68px;
+    --col-booking: 60px;
     --col-decision: 130px;
     --grid: var(--col-time) 1fr var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
 
@@ -113,7 +113,7 @@
     --col-time-bball: 44px;
     --col-model: 80px;
     --col-xpts: 100px;
-    --grid-bball: var(--col-time-bball) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-model) var(--col-xpts);
+    --grid-bball: var(--col-time-bball) 1fr var(--col-chev) var(--col-1x2) var(--col-model) var(--col-xpts);
   }
 
   .bball-grid {
@@ -1762,7 +1762,7 @@
   /* Desktop */
   .match-row.basketball,
   .league-header.basketball {
-    grid-template-columns: 44px 1fr 44px 22px 116px 80px 100px;
+    grid-template-columns: 44px 1fr 22px 116px 80px 100px;
   }
 
   .match-row.football,
@@ -1773,7 +1773,7 @@
   /* Compact Mode */
   .compact-mode .match-row.basketball,
   .compact-mode .league-header.basketball {
-    grid-template-columns: 56px 1fr 38px 100px 72px;
+    grid-template-columns: 56px 1fr 100px 72px;
   }
 
   .compact-mode .match-row.football,
@@ -2514,7 +2514,7 @@
   /* Compact Mode grid columns overrides for mobile */
   .compact-mode .match-row.basketball,
   .compact-mode .league-header.basketball {
-    grid-template-columns: 50px 1fr 34px 60px !important;
+    grid-template-columns: 50px 1fr 60px !important;
   }
 
   .compact-mode .match-row.football,
@@ -2525,7 +2525,7 @@
   /* Full Mode grid columns overrides for mobile */
   .match-row.basketball,
   .league-header.basketball {
-    grid-template-columns: 50px 1fr 34px 20px 60px !important;
+    grid-template-columns: 50px 1fr 20px 60px !important;
   }
 
   .match-row.football,
