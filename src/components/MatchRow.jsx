@@ -79,14 +79,26 @@ export default function MatchRow({ game }) {
           ) : null}
         </div>
 
-        {/* Teams */}
-        <div className="teams" style={{textAlign:"left"}}>
-          <span className="team-name home" title={game.home_team}>{game.home_team}</span>
-          {isGraded
-            ? <span className="actual-score">{game.actual_home_goals} – {game.actual_away_goals}</span>
-            : <span className="vs-sep">vs</span>
-          }
-          <span className="team-name away" title={game.away_team}>{game.away_team}</span>
+        {/* Teams — stacked like basketball */}
+        <div className="teams">
+          <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
+            <span className="team-name home" title={game.home_team}>{game.home_team}</span>
+            {isGraded && game.actual_home_goals !== undefined && (
+              <span style={{ marginLeft: 'auto', fontWeight: 700, fontSize: 13,
+                color: game.actual_home_goals > game.actual_away_goals ? '#15803d' : '#64748b' }}>
+                {game.actual_home_goals}
+              </span>
+            )}
+          </div>
+          <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
+            <span className="team-name away" title={game.away_team}>{game.away_team}</span>
+            {isGraded && game.actual_away_goals !== undefined && (
+              <span style={{ marginLeft: 'auto', fontWeight: 700, fontSize: 13,
+                color: game.actual_away_goals > game.actual_home_goals ? '#15803d' : '#64748b' }}>
+                {game.actual_away_goals}
+              </span>
+            )}
+          </div>
         </div>
 
 
