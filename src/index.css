@@ -2513,12 +2513,6 @@
   }
   
 
-  /* Hide xPTS col at mobile — basketball drops to 4 items (time/teams/12/model) */
-  .match-xpts-col,
-  .col-label.match-xpts-col {
-    display: none !important;
-  }
-
   /* Compact Mode grid columns overrides for mobile */
   .compact-mode .match-row.basketball,
   .compact-mode .league-header.basketball {
@@ -2553,15 +2547,12 @@
     display: none !important;
   }
 
-  /* Hide less critical columns on mobile (Football: 1x2, BTTS, xG) */
-  .match-1x2-col,
-  .match-btts-col,
+  /* Hide xG only at mobile (1x2+BTTS kept visible) */
   .match-xg-col {
     display: none !important;
   }
 
-  /* Hide less critical columns on mobile (Basketball: 12, xPts) */
-  .match-12-col,
+  /* Hide xPTS only at mobile (12/1x2 kept visible) */
   .match-xpts-col {
     display: none !important;
   }
