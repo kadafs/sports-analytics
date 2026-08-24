@@ -146,19 +146,18 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
       >
         {/* TIME / STATUS COLUMN — same visual style as football HH:MM */}
         <div className="match-time">
-          {time?.includes(' ') ? (
-            /* Has proper datetime — show HH:MM as main text */
-            time.split(' ')[1]
+          {/* kickoff_time stored as "18:30" (HH:MM). If present, show it; else show status text */}
+          {time?.includes(':') ? (
+            time.includes(' ') ? time.split(' ')[1] : time
           ) : (
-            /* No kickoff time stored — show status as main text (same 11px/600 as football's "16:00") */
             isFinishedStatus(finalStatus) ? 'FT'
             : formatStatus(finalStatus) || 'NS'
           )}
-          {/* When we DO have a proper time, show FT/live badge below (like football graded rows) */}
-          {time?.includes(' ') && isFinishedStatus(finalStatus) && (
+          {/* FT badge below kickoff time (like football graded rows) */}
+          {time?.includes(':') && isFinishedStatus(finalStatus) && (
             <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>FT</div>
           )}
-          {time?.includes(' ') && finalStatus && !isFinishedStatus(finalStatus) &&
+          {time?.includes(':') && finalStatus && !isFinishedStatus(finalStatus) &&
            finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
             <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
               {formatStatus(finalStatus)}
