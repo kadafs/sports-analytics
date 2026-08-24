@@ -111,14 +111,9 @@ export default function MatchRow({ game }) {
           <div className="stat-box away-win">{fmt(game.away_win_prob)}<sub>%</sub></div>
         </div>
 
-        {/* BTTS box + grade */}
-        <div className="match-btts-col" style={{ position: 'relative' }}>
+        {/* BTTS box */}
+        <div className="match-btts-col">
           <div className="btts-box">{fmt(game.btts_prob)}<sub>%</sub></div>
-          {bGrade !== null && (
-            <span style={{ position: 'absolute', bottom: -14, left: '50%', transform: 'translateX(-50%)', fontSize: 9, lineHeight: 1 }}>
-              {bGrade === 'WIN' ? '✅' : '❌'}
-            </span>
-          )}
         </div>
 
 
