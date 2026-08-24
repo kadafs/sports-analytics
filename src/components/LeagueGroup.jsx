@@ -114,8 +114,8 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
           <>
             <div className="col-label match-1x2-col" style={{ textAlign: 'center' }}>1X2</div>
             <div className="col-label match-btts-col" style={{ textAlign: 'center' }}>BTTS %</div>
-            <div className="col-label match-corners-col" style={{ textAlign: 'center' }}>CORNERS</div>
-            <div className="col-label match-booking-col" style={{ textAlign: 'center' }}>BOOKING</div>
+            <div className="col-label match-corners-col compact-hide" style={{ textAlign: 'center' }}>CORNERS</div>
+            <div className="col-label match-booking-col compact-hide" style={{ textAlign: 'center' }}>BOOKING</div>
           </>
         ) : (
           <>

@@ -1584,7 +1584,7 @@
       --col-xg: 0px;
       --col-decision: 90px;
       --col-1x2: 90px;
-      --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
+      --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts);
     }
 
     .xg-box {
@@ -2746,4 +2746,15 @@
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin-top: 2px;
+}
+
+  /* Hide corners/booking columns in compact mode */
+  .compact-mode .match-corners-col,
+  .compact-mode .match-booking-col {
+    display: none !important;
+  }
+
+/* Hide corners/booking headers and cells in compact mode */
+.compact-mode .compact-hide {
+  display: none !important;
 }
