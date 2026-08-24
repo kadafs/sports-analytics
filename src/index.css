@@ -104,8 +104,10 @@
     --col-1x2: 116px;
     --col-btts: 80px;
     --col-xg: 100px;
+    --col-corners: 80px;
+    --col-booking: 72px;
     --col-decision: 130px;
-    --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-xg) var(--col-decision);
+    --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-xg) var(--col-corners) var(--col-booking) var(--col-decision);
 
     /* Basketball Grid */
     --col-time-bball: 44px;
@@ -1582,7 +1584,7 @@
       --col-xg: 0px;
       --col-decision: 90px;
       --col-1x2: 90px;
-      --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-decision);
+      --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking) var(--col-decision);
     }
 
     .xg-box {
@@ -2637,14 +2639,15 @@
 .standings-table tr.highlight {
   background: var(--brand-soft);
   font-weight: 600;
-}
+}
+
 
 /* ─── Corners Column ───────────────────────────────────────── */
 .match-corners-col {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 72px;
+  min-width: var(--col-corners, 80px);
 }
 .corners-box {
   display: flex;
@@ -2682,7 +2685,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 68px;
+  min-width: var(--col-booking, 72px);
 }
 .booking-box {
   display: flex;
@@ -2713,3 +2716,33 @@
 .booking-rec.high   { background: #451a03; color: #fed7aa; }
 .booking-rec.medium { background: #1c1917; color: #fde68a; }
 .booking-rec.low    { background: #0f172a; color: #94a3b8; }
+
+/* --- Market Odds Row (in Probabilities drawer) --- */
+.market-odds-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.mo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-card, #1e293b);
+  border: 1px solid var(--border-soft, #334155);
+  border-radius: 8px;
+  padding: 6px 10px;
+  min-width: 52px;
+}
+.mo-val {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-primary, #f1f5f9);
+}
+.mo-lbl {
+  font-size: 9px;
+  color: var(--text-secondary, #94a3b8);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}

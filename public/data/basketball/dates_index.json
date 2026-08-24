@@ -1,11 +1,29 @@
 {
   "dates": [
     {
-      "date": "2026-08-23_v2",
-      "total": 10,
+      "date": "2026-08-24_v2",
+      "total": 7,
       "graded": false,
       "graded_count": 0,
       "grade_summary": null
+    },
+    {
+      "date": "2026-08-23_v2",
+      "total": 10,
+      "graded": true,
+      "graded_count": 6,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 3,
+          "total": 3,
+          "pct": 100
+        },
+        "[ADVANCED]": {
+          "wins": 2,
+          "total": 3,
+          "pct": 66.7
+        }
+      }
     },
     {
       "date": "2026-08-22_v2",
@@ -51,15 +69,15 @@
       }
     },
     {
-      "date": "2026-08-04",
-      "total": 7,
+      "date": "2026-08-04_v2",
+      "total": 8,
       "graded": true,
-      "graded_count": 7,
+      "graded_count": 8,
       "grade_summary": {
         "[  SRS   ]": {
-          "wins": 3,
-          "total": 6,
-          "pct": 50
+          "wins": 5,
+          "total": 7,
+          "pct": 71.4
         },
         "[ADVANCED]": {
           "wins": 0,

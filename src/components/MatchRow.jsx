@@ -387,6 +387,76 @@ export default function MatchRow({ game }) {
                       Confidence: {game.btts_decision?.includes('STRONG') ? 'HIGH' : 'MEDIUM'}
                     </div>
                   </div>
+
+                  {/* Market Odds */}
+                  {game.market_odds && (
+                    <div className="prob-section">
+                      <div className="ps-title">Bookmaker Odds</div>
+                      <div className="market-odds-row">
+                        <div className="mo-box"><span className="mo-val">{game.market_odds.home}</span><span className="mo-lbl">Home</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.market_odds.draw}</span><span className="mo-lbl">Draw</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.market_odds.away}</span><span className="mo-lbl">Away</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.market_odds.btts_yes}</span><span className="mo-lbl">BTTS Y</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.market_odds.over25}</span><span className="mo-lbl">O2.5</span></div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* API Consensus */}
+                  {game.api_consensus && (
+                    <div className="prob-section">
+                      <div className="ps-title">Bookmaker Consensus</div>
+                      <div style={{fontSize: 11, color: '#94a3b8', marginBottom: 8}}>{game.api_consensus.advice}</div>
+                      <div className="market-odds-row">
+                        <div className="mo-box"><span className="mo-val" style={{color:'#38bdf8'}}>{game.api_consensus.home_pct}</span><span className="mo-lbl">Home %</span></div>
+                        <div className="mo-box"><span className="mo-val" style={{color:'#94a3b8'}}>{game.api_consensus.draw_pct}</span><span className="mo-lbl">Draw %</span></div>
+                        <div className="mo-box"><span className="mo-val" style={{color:'#f472b6'}}>{game.api_consensus.away_pct}</span><span className="mo-lbl">Away %</span></div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Injuries */}
+                  {((game.home_injuries?.length > 0) || (game.away_injuries?.length > 0)) && (
+                    <div className="prob-section full">
+                      <div className="ps-title">Injury Report</div>
+                      <div style={{display:'flex', gap:16, flexWrap:'wrap', marginTop:8}}>
+                        {game.home_injuries?.length > 0 && (
+                          <div>
+                            <div style={{fontSize:10,fontWeight:700,color:'#38bdf8',marginBottom:4,textTransform:'uppercase'}}>{game.home_team}</div>
+                            {game.home_injuries.map((inj, i) => (
+                              <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
+                            ))}
+                          </div>
+                        )}
+                        {game.away_injuries?.length > 0 && (
+                          <div>
+                            <div style={{fontSize:10,fontWeight:700,color:'#f472b6',marginBottom:4,textTransform:'uppercase'}}>{game.away_team}</div>
+                            {game.away_injuries.map((inj, i) => (
+                              <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Corners & Booking Detail */}
+                  {game.corners && (
+                    <div className="prob-section full">
+                      <div className="ps-title">Corners & Booking</div>
+                      <div className="market-odds-row" style={{marginTop:8}}>
+                        <div className="mo-box"><span className="mo-val" style={{color:'#38bdf8'}}>{game.corners.exp_total_corners}</span><span className="mo-lbl">Exp. Corners</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.corners.over_9_5_pct}%</span><span className="mo-lbl">Over 9.5</span></div>
+                        <div className="mo-box"><span className="mo-val">{game.corners.over_10_5_pct}%</span><span className="mo-lbl">Over 10.5</span></div>
+                        <div className="mo-box"><span className="mo-val" style={{color:'#fbbf24'}}>{game.corners.exp_total_booking_pts}</span><span className="mo-lbl">Booking Pts</span></div>
+                      </div>
+                      <div style={{marginTop:10, fontSize:10, color:'#94a3b8', fontStyle:'italic'}}>
+                        Rec: <b style={{color:'#e2e8f0'}}>{game.corners.corner_recommendation}</b>
+                        &nbsp;|&nbsp;Bookings: <b style={{color:'#e2e8f0'}}>{game.corners.booking_recommendation}</b>
+                      </div>
+                    </div>
+                  )}
+
                 </div>
               </div>
             )}
