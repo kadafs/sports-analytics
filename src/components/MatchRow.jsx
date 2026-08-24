@@ -23,7 +23,7 @@ function kickoffTime(game, showUTC = true) {
   if (!game.kickoff) return '—'
   try { 
     // game.kickoff is format "YYYY-MM-DD HH:MM" in UTC (from API)
-     return game.kickoff.split(' ')[1] + (showUTC ? ' UTC' : '')
+     return game.kickoff.split(' ')[1]
   }
   catch { return '—' }
 }
@@ -67,7 +67,7 @@ export default function MatchRow({ game }) {
       >
         {/* Time / Status */}
         <div className="match-time">
-          {kickoffTime(game, !isGraded && (!game.status || game.status === 'NS'))}
+          {kickoffTime(game)}
           {isGraded ? (
             <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>
               FT

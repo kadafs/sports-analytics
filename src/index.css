@@ -98,7 +98,7 @@
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, .12);
 
     /* Football Grid */
-    --col-time: 72px;
+    --col-time: 44px;
     --col-tip: 44px;
     --col-chev: 22px;
     --col-1x2: 116px;
@@ -1580,7 +1580,7 @@
 
   @media (max-width: 680px) {
     :root {
-      --col-time: 52px;
+      --col-time: 44px;
       --col-xg: 0px;
       --col-decision: 90px;
       --col-1x2: 90px;
@@ -1778,7 +1778,7 @@
 
   .compact-mode .match-row.football,
   .compact-mode .league-header.football {
-    grid-template-columns: 56px 1fr 100px 66px;
+    grid-template-columns: 44px 1fr 100px 66px;
   }
 
   /* 4. Stacked Teams */
@@ -2459,7 +2459,7 @@
 
   /* Adjust Variables */
   :root {
-    --col-time: 46px;
+    --col-time: 40px;
     --col-tip: 30px;
     --col-chev: 18px;
     --col-decision: 80px;
