@@ -1584,7 +1584,7 @@
       --col-xg: 0px;
       --col-decision: 90px;
       --col-1x2: 90px;
-      --grid: var(--col-time) 1fr var(--col-chev) var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
+      --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
     }
 
     .xg-box {
@@ -1762,7 +1762,7 @@
   /* Desktop */
   .match-row.basketball,
   .league-header.basketball {
-    grid-template-columns: 44px 1fr 22px 116px 80px 100px;
+    grid-template-columns: 44px 1fr 116px 80px 100px;
   }
 
   .match-row.football,
@@ -1778,7 +1778,7 @@
 
   .compact-mode .match-row.football,
   .compact-mode .league-header.football {
-    grid-template-columns: 56px 1fr 38px 100px 66px;
+    grid-template-columns: 56px 1fr 100px 66px;
   }
 
   /* 4. Stacked Teams */
@@ -2466,8 +2466,8 @@
     --col-time-bball: 40px;
     --col-model: 65px;
     
-    --grid: var(--col-time) 1fr var(--col-tip) var(--col-chev) var(--col-decision);
-    --grid-bball: var(--col-time-bball) 1fr var(--col-tip) var(--col-chev) var(--col-model);
+    --grid: var(--col-time) 1fr var(--col-decision);
+    --grid-bball: var(--col-time-bball) 1fr var(--col-model);
   }
 
   /* Stack teams on mobile screens in both full and compact modes to prevent squishing */
@@ -2520,18 +2520,18 @@
 
   .compact-mode .match-row.football,
   .compact-mode .league-header.football {
-    grid-template-columns: 50px 1fr 34px !important;
+    grid-template-columns: 50px 1fr !important;
   }
 
   /* Full Mode grid columns overrides for mobile */
   .match-row.basketball,
   .league-header.basketball {
-    grid-template-columns: 50px 1fr 20px 60px !important;
+    grid-template-columns: 50px 1fr 60px !important;
   }
 
   .match-row.football,
   .league-header.football {
-    grid-template-columns: 50px 1fr 34px 20px 80px !important;
+    grid-template-columns: 50px 1fr 80px !important;
   }
 
   /* Hide the win/loss grading checkmarks entirely on mobile viewports */
