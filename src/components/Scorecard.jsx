@@ -29,12 +29,12 @@ export default function Scorecard({ data, sport = 'football' }) {
     outcomeT = summary?.outcome_total ?? graded.length
     playW   = summary?.btts_wins  ?? graded.filter(p => {
       const d = p.btts_decision; const a = p.actual_btts
-      return (d === 'PLAY YES' && a === true) || (d === 'PLAY NO' && a === false) || (d === '[STRONG] PLAY NO' && a === false)
+      return (d === 'PLAY YES' && a === true) || (d === '[STRONG] PLAY YES' && a === true)
     }).length
     playT   = summary?.btts_total ?? graded.filter(p =>
-      p.btts_decision === 'PLAY YES' || p.btts_decision === 'PLAY NO' || p.btts_decision === '[STRONG] PLAY NO'
+      p.btts_decision === 'PLAY YES' || p.btts_decision === '[STRONG] PLAY YES'
     ).length
-    playLabel = "BTTS Plays"
+    playLabel = "BTTS YES"
   } else {
     // Basketball Outcome (1X2 / ML)
     outcomeW = graded.filter(p => p.predicted_result === p.actual_result).length
