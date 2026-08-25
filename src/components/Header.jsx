@@ -31,12 +31,12 @@ export default function Header({
           <a href="/" className="logo">
             <img
               src={nightShift ? '/darklogo.png' : '/logo.png'}
-              alt="blowrout — Mathematical Predictions"
+              alt="blowrout — Mathematical Sports Predictions"
               className="logo-img desktop-logo"
             />
             <img
               src="/favicon_glow.png"
-              alt="blowrout — Mathematical Predictions"
+              alt="blowrout — Mathematical Sports Predictions"
               className="logo-img mobile-logo"
             />
           </a>
