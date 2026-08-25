@@ -61,7 +61,7 @@ function sortGroups(groups, sortBy) {
   return [...groups].sort((a, b) => a.league.localeCompare(b.league))
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false) {
+function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
@@ -74,9 +74,23 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
     if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
     
     if (sport === 'football' && filterBttsHitRate > 0) {
+      // Filter 1: League safety gate — must have >= 50% historical BTTS rate
       const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
-      if (!stats || (stats.btts_hit_rate ?? 0) < filterBttsHitRate) return false
+      if (stats && (stats.btts_hit_rate ?? 100) < 50) return false
+      // Filter 2: Poisson model probability >= selected threshold
       if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
+      // Filter 3: Team model accuracy >= 60% (only when team has >= 5 graded plays)
+      const TEAM_MIN_PLAYS = 5
+      const TEAM_HIT_RATE  = 60
+      for (const teamName of [p.home_team, p.away_team]) {
+        if (!teamName) continue
+        const teamStats = teamLeaderboard.find(
+          t => t.league_id === p.league_id && t.name?.toLowerCase() === teamName.toLowerCase()
+        )
+        if (teamStats && (teamStats.btts_plays ?? 0) >= TEAM_MIN_PLAYS) {
+          if ((teamStats.btts_hit_rate ?? 100) < TEAM_HIT_RATE) return false
+        }
+      }
     }
     
     // MAPE & Volatility Filter (Basketball only)
@@ -241,8 +255,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter])
+    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard)
+  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
