@@ -78,12 +78,12 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
     if (sport === 'football' && filterBttsHitRate > 0) {
       // Filter 1: League safety gate — must have >= 50% historical BTTS rate
       const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
-      if (stats && (stats.btts_hit_rate ?? 100) < 50) return false
+      if (stats && (stats.btts_hit_rate ?? 100) < 55) return false
       // Filter 2: Poisson model probability >= selected threshold
       if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
       // Filter 3: Team model accuracy >= 60% (only when team has >= 5 graded plays)
-      const TEAM_MIN_PLAYS = 5
-      const TEAM_HIT_RATE  = 60
+      const TEAM_MIN_PLAYS = 8
+      const TEAM_HIT_RATE  = 70
       for (const teamName of [p.home_team, p.away_team]) {
         if (!teamName) continue
         const teamStats = teamLbMap.get(`${p.league_id}__${teamName.toLowerCase()}`)
