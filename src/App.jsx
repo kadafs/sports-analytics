@@ -62,6 +62,8 @@ function sortGroups(groups, sortBy) {
 }
 
 function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
+  // Pre-build O(1) lookup map for team leaderboard
+  const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
@@ -84,9 +86,7 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
       const TEAM_HIT_RATE  = 60
       for (const teamName of [p.home_team, p.away_team]) {
         if (!teamName) continue
-        const teamStats = teamLeaderboard.find(
-          t => t.league_id === p.league_id && t.name?.toLowerCase() === teamName.toLowerCase()
-        )
+        const teamStats = teamLbMap.get(`${p.league_id}__${teamName.toLowerCase()}`)
         if (teamStats && (teamStats.btts_plays ?? 0) >= TEAM_MIN_PLAYS) {
           if ((teamStats.btts_hit_rate ?? 100) < TEAM_HIT_RATE) return false
         }
