@@ -55,10 +55,28 @@ function groupByLeague(predictions, sport) {
   return [...map.values()]
 }
 
+const LEAGUE_PRIORITY = {
+  // European Tournaments
+  2: 1, 3: 2, 848: 3,
+  // Top 5 Europe
+  39: 10, 140: 11, 135: 12, 78: 13, 61: 14,
+  // 2nd Divisions
+  40: 20, 141: 21, 136: 22, 79: 23, 62: 24,
+  // Americas
+  253: 30, 254: 31, 71: 32, 262: 33, 128: 34
+}
+
 function sortGroups(groups, sortBy) {
-  if (sortBy === 'country')    return [...groups].sort((a, b) => a.country.localeCompare(b.country))
-  if (sortBy === 'time')       return [...groups]
-  return [...groups].sort((a, b) => a.league.localeCompare(b.league))
+  if (sortBy === 'country') return [...groups].sort((a, b) => a.country.localeCompare(b.country))
+  if (sortBy === 'time') return [...groups]
+  
+  // Default (Competition): Sort by global tier, then alphabetical
+  return [...groups].sort((a, b) => {
+    const aPrio = LEAGUE_PRIORITY[a.league_id] || 999
+    const bPrio = LEAGUE_PRIORITY[b.league_id] || 999
+    if (aPrio !== bPrio) return aPrio - bPrio
+    return a.league.localeCompare(b.league)
+  })
 }
 
 function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
