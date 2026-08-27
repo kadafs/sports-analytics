@@ -1,11 +1,25 @@
 {
   "dates": [
     {
-      "date": "2026-08-26",
-      "total": 294,
+      "date": "2026-08-27",
+      "total": 130,
       "graded": false,
-      "graded_count": 0,
+      "graded_count": 7,
       "grade_summary": null
+    },
+    {
+      "date": "2026-08-26",
+      "total": 298,
+      "graded": true,
+      "graded_count": 289,
+      "grade_summary": {
+        "outcome_wins": 123,
+        "outcome_total": 289,
+        "outcome_pct": 42.6,
+        "btts_wins": 30,
+        "btts_total": 43,
+        "btts_pct": 69.8
+      }
     },
     {
       "date": "2026-08-25",
@@ -76,6 +90,20 @@
         "btts_total": 141,
         "btts_pct": 71.6
       }
+    },
+    {
+      "date": "2026-07-13",
+      "total": 1,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
+      "date": "2026-07-12",
+      "total": 2,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
     }
   ]
 }
