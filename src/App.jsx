@@ -60,6 +60,8 @@ const LEAGUE_PRIORITY = {
   2: 1, 3: 2, 848: 3,
   // Top 5 Europe
   39: 10, 140: 11, 135: 12, 78: 13, 61: 14,
+  // Major Domestic Cups
+  45: 15, 48: 16, 143: 17, 137: 18, 81: 19, 66: 19,
   // 2nd Divisions
   40: 20, 141: 21, 136: 22, 79: 23, 62: 24,
   // Americas
