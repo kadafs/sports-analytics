@@ -56,16 +56,44 @@ function groupByLeague(predictions, sport) {
 }
 
 const LEAGUE_PRIORITY = {
-  // European Tournaments
-  2: 1, 3: 2, 848: 3,
-  // Top 5 Europe
-  39: 10, 140: 11, 135: 12, 78: 13, 61: 14,
-  // Major Domestic Cups
-  45: 15, 48: 16, 143: 17, 137: 18, 81: 19, 66: 19,
-  // 2nd Divisions
-  40: 20, 141: 21, 136: 22, 79: 23, 62: 24,
-  // Americas
-  253: 30, 254: 31, 71: 32, 262: 33, 128: 34
+  // Tier 1: Continental (UEFA / CONMEBOL)
+  2: 1, 3: 2, 848: 3, 13: 4, 11: 5,
+  
+  // Tier 2: Premier League
+  39: 10,
+  
+  // Tier 3: Elite Europe
+  140: 20, 135: 21, 78: 22,
+  
+  // Tier 4: Ligue 1 & Major European Sub-Elite
+  61: 30, 88: 31, 94: 32,
+  
+  // Tier 5: Top 5 Domestic Cups
+  45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45,
+  
+  // Tier 6: High-End Europe
+  144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56,
+  
+  // Tier 7: Top 5 Second Divisions
+  40: 60, 141: 61, 136: 62, 79: 63, 62: 64,
+  
+  // Tier 8: Elite Americas
+  71: 70, 73: 71, 128: 72, 239: 73, 242: 74, 265: 75, 268: 76,
+  
+  // Tier 9: North America
+  262: 80, 253: 81,
+  
+  // Tier 10: Emerging / Cash Leagues
+  307: 90,
+  
+  // Tier 11: Mid-Tier Europe
+  119: 100, 113: 101, 103: 102, 210: 103, 285: 104, 106: 105, 283: 106, 89: 107,
+  
+  // Tier 12: Asia & Oceania
+  98: 110, 292: 111, 188: 112,
+  
+  // Tier 13: North America Lower
+  254: 120
 }
 
 function sortGroups(groups, sortBy) {
