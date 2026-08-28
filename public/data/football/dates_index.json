@@ -1,11 +1,25 @@
 {
   "dates": [
     {
+      "date": "2026-08-28",
+      "total": 442,
+      "graded": false,
+      "graded_count": 4,
+      "grade_summary": null
+    },
+    {
       "date": "2026-08-27",
       "total": 130,
-      "graded": false,
-      "graded_count": 7,
-      "grade_summary": null
+      "graded": true,
+      "graded_count": 126,
+      "grade_summary": {
+        "outcome_wins": 58,
+        "outcome_total": 126,
+        "outcome_pct": 46.0,
+        "btts_wins": 3,
+        "btts_total": 4,
+        "btts_pct": 75.0
+      }
     },
     {
       "date": "2026-08-26",
