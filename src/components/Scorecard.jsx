@@ -34,7 +34,7 @@ export default function Scorecard({ data, sport = 'football' }) {
     playT   = summary?.btts_total ?? graded.filter(p =>
       p.btts_decision === 'PLAY YES' || p.btts_decision === '[STRONG] PLAY YES'
     ).length
-    playLabel = "PREMIUM BTTS YES"
+    playLabel = "BTTS ≥70%"
   } else {
     // Basketball Outcome (1X2 / ML)
     outcomeW = graded.filter(p => p.predicted_result === p.actual_result).length
