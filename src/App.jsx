@@ -429,16 +429,7 @@ export default function App() {
                 </select>
               </div>
 
-              <div className="control-group">
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS:</span>
-              <select className="filter-select" value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
-                <option value="all">All decisions</option>
-                <option value="PLAY YES">PLAY YES</option>
-                <option value="PLAY NO">PLAY NO</option>
-                <option value="[STRONG] PLAY NO">[STRONG] PLAY NO</option>
-                <option value="PASS">PASS</option>
-              </select>
-            </div>
+
           </>)}
 
           {sport === 'football' && (
