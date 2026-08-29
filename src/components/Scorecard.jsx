@@ -49,7 +49,7 @@ export default function Scorecard({ data, sport = 'football' }) {
       <div className="scorecard-title">📊 Grade Summary</div>
 
       <div className="scorecard-stat">
-        <span className="sc-label">{isFootball ? '1X2 Outcome' : 'Winner (ML)'}</span>
+        <span className="sc-label">{isFootball ? '1X2 =60%' : 'Winner (ML)'}</span>
         <span className="sc-record">{outcomeW}W – {outcomeT - outcomeW}L</span>
         {outcomePct != null && (
           <span className="sc-pct" style={{ color: pctColor(outcomePct) }}>{outcomePct}%</span>

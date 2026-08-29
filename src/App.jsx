@@ -109,7 +109,7 @@ function sortGroups(groups, sortBy) {
   })
 }
 
-function filterPredictions(predictions, decision, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -119,6 +119,8 @@ function filterPredictions(predictions, decision, country, drawMin, sport, leade
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
     if (decision !== 'all' && pDecision !== decision) return false
+    if (outcome !== \'all\' && p.outcome_decision && !p.outcome_decision.startsWith(outcome)) return false
+    if (outcome !== \'all\' && !p.outcome_decision) return false
     
     if (country  !== 'all' && p.country        !== country)  return false
     if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
@@ -193,6 +195,7 @@ export default function App() {
   const [error,         setError]         = useState(null)
   const [sortBy,        setSortBy]        = useState('competition')
   const [filterDecision,setFilterDecision]= useState('all')
+  const [filterOutcome, setFilterOutcome] = useState('all')
   const [filterCountry, setFilterCountry] = useState('all')
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
@@ -303,8 +306,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard)
-  }, [data, filterDecision, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -341,7 +344,8 @@ export default function App() {
           setSport(s); 
           setData(null);
           setError(null);
-          setFilterDecision('all'); 
+          setFilterDecision('all');
+          setFilterOutcome('all'); 
           setFilterCountry('all'); 
           setFilterDraw(0); 
           setFilterBttsHitRate(0);
