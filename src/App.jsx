@@ -420,6 +420,16 @@ export default function App() {
 
           {sport === 'football' && (
             <div className="control-group">
+                <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>1X2:</span>
+                <select className="filter-select" value={filterOutcome} onChange={e => setFilterOutcome(e.target.value)}>
+                  <option value="all">All 1X2</option>
+                  <option value="[STRONG] PLAY">[STRONG] PLAY</option>
+                  <option value="PLAY">PLAY (Any)</option>
+                  <option value="LEAN">LEAN</option>
+                </select>
+              </div>
+
+              <div className="control-group">
               <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS:</span>
               <select className="filter-select" value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
                 <option value="all">All decisions</option>
