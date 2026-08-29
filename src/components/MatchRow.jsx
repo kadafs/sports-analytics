@@ -319,7 +319,91 @@ export default function MatchRow({ game }) {
               </div>
             )}
 
-            {/* PROBABILITIES TAB */}
+            
+              {/* PLAYER PROPS TAB */}
+              {activeTab === 'props' && (
+                <div className="tab-props" style={{padding: '16px'}}>
+                    {/* Player Props Section */}
+                    {(game.match_center?.player_props_H || game.match_center?.player_props_A) && (
+                      <div className="prob-section">
+                        <div className="ps-title">Player Props (Top Performers)</div>
+                        
+                        <div style={{ display: 'flex', gap: '16px', overflowX: 'auto', paddingBottom: '8px' }}>
+                          
+                          {/* Home Props */}
+                          {game.match_center?.player_props_H?.topscorers?.slice(0,1).map(p => (
+                            <div key={`h-goal-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">To Score</div>
+                                <div className="prop-stat">{p.goals} goals ({p.goals_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+                          
+                          {game.match_center?.player_props_H?.topscorers?.slice(0,1).map(p => (
+                            <div key={`h-sot-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">Shots on Target</div>
+                                <div className="prop-stat">{p.shots_on} SOT ({p.shots_on_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+
+                          {game.match_center?.player_props_H?.topyellows?.slice(0,1).map(p => (
+                            <div key={`h-card-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">To be Carded</div>
+                                <div className="prop-stat">{p.yellows + p.reds} cards ({p.cards_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+
+                          {/* Away Props */}
+                          {game.match_center?.player_props_A?.topscorers?.slice(0,1).map(p => (
+                            <div key={`a-goal-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">To Score</div>
+                                <div className="prop-stat">{p.goals} goals ({p.goals_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+                          
+                          {game.match_center?.player_props_A?.topscorers?.slice(0,1).map(p => (
+                            <div key={`a-sot-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">Shots on Target</div>
+                                <div className="prop-stat">{p.shots_on} SOT ({p.shots_on_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+
+                          {game.match_center?.player_props_A?.topyellows?.slice(0,1).map(p => (
+                            <div key={`a-card-${p.id}`} className="prop-card">
+                              <img src={p.photo} alt={p.name} className="prop-photo" />
+                              <div className="prop-info">
+                                <div className="prop-name">{p.name}</div>
+                                <div className="prop-desc">To be Carded</div>
+                                <div className="prop-stat">{p.yellows + p.reds} cards ({p.cards_per_game}/g)</div>
+                              </div>
+                            </div>
+                          ))}
+                          
+                        </div>
+                      </div>
+                    )}
+                </div>
+              )}
+{/* PROBABILITIES TAB */}
             {activeTab === 'probabilities' && (
               <div className="tab-probabilities">
                 <div className="prob-grid">
