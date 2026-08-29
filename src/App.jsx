@@ -437,10 +437,10 @@ export default function App() {
               <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Draw:</span>
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
                 <option value={0}>All draws</option>
-                <option value={25}>≥ 25%</option>
-                <option value={30}>≥ 30%</option>
-                <option value={35}>≥ 35%</option>
-                <option value={40}>≥ 40%</option>
+                  <option value={40}>≥ 40%</option>
+                  <option value={50}>≥ 50%</option>
+                  <option value={60}>≥ 60%</option>
+                  <option value={70}>≥ 70%</option>
               </select>
 
               <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS %:</span>
