@@ -1,11 +1,73 @@
 {
   "dates": [
     {
-      "date": "2026-08-24_v2",
-      "total": 7,
+      "date": "2026-08-28_v2",
+      "total": 25,
+      "graded": true,
+      "graded_count": 16,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 11,
+          "total": 14,
+          "pct": 78.6
+        },
+        "[ADVANCED]": {
+          "wins": 0,
+          "total": 2,
+          "pct": 0
+        }
+      }
+    },
+    {
+      "date": "2026-08-27_v2",
+      "total": 33,
+      "graded": true,
+      "graded_count": 33,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 13,
+          "total": 32,
+          "pct": 40.6
+        },
+        "[ADVANCED]": {
+          "wins": 0,
+          "total": 1,
+          "pct": 0
+        }
+      }
+    },
+    {
+      "date": "2026-08-26_v2",
+      "total": 13,
       "graded": false,
       "graded_count": 0,
       "grade_summary": null
+    },
+    {
+      "date": "2026-08-25_v2",
+      "total": 12,
+      "graded": true,
+      "graded_count": 11,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 1,
+          "total": 1,
+          "pct": 100
+        }
+      }
+    },
+    {
+      "date": "2026-08-24_v2",
+      "total": 7,
+      "graded": true,
+      "graded_count": 7,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 2,
+          "total": 2,
+          "pct": 100
+        }
+      }
     },
     {
       "date": "2026-08-23_v2",
@@ -35,6 +97,31 @@
           "wins": 7,
           "total": 10,
           "pct": 70
+        },
+        "[ADVANCED]": {
+          "wins": 1,
+          "total": 1,
+          "pct": 100
+        }
+      }
+    },
+    {
+      "date": "2026-08-06_v2",
+      "total": 20,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
+      "date": "2026-08-05_v2",
+      "total": 7,
+      "graded": true,
+      "graded_count": 4,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 2,
+          "total": 3,
+          "pct": 66.7
         },
         "[ADVANCED]": {
           "wins": 1,
