@@ -1,20 +1,27 @@
 {
   "dates": [
     {
+      "date": "2026-08-29_v2",
+      "total": 10,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
       "date": "2026-08-28_v2",
       "total": 25,
       "graded": true,
-      "graded_count": 16,
+      "graded_count": 25,
       "grade_summary": {
         "[  SRS   ]": {
-          "wins": 11,
-          "total": 14,
-          "pct": 78.6
+          "wins": 4,
+          "total": 7,
+          "pct": 57.1
         },
         "[ADVANCED]": {
-          "wins": 0,
+          "wins": 1,
           "total": 2,
-          "pct": 0
+          "pct": 50
         }
       }
     },
