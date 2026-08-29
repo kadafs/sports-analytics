@@ -164,6 +164,12 @@ export default function MatchRow({ game }) {
             >
               PROBABILITIES
             </button>
+              <button 
+                className={activeTab === 'props' ? 'active' : ''} 
+                onClick={(e) => { e.stopPropagation(); setActiveTab('props') }}
+              >
+                PLAYER PROPS
+              </button>
           </div>
 
           <div className="tab-content border-top">
