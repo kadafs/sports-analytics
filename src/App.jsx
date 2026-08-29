@@ -119,8 +119,8 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
     if (decision !== 'all' && pDecision !== decision) return false
-    if (outcome !== \'all\' && p.outcome_decision && !p.outcome_decision.startsWith(outcome)) return false
-    if (outcome !== \'all\' && !p.outcome_decision) return false
+    if (outcome !== 'all' && p.outcome_decision && !p.outcome_decision.startsWith(outcome)) return false
+    if (outcome !== 'all' && !p.outcome_decision) return false
     
     if (country  !== 'all' && p.country        !== country)  return false
     if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
@@ -418,7 +418,7 @@ export default function App() {
             ))}
           </div>
 
-          {sport === 'football' && (
+          {sport === 'football' && (<>
             <div className="control-group">
                 <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>1X2:</span>
                 <select className="filter-select" value={filterOutcome} onChange={e => setFilterOutcome(e.target.value)}>
@@ -439,7 +439,7 @@ export default function App() {
                 <option value="PASS">PASS</option>
               </select>
             </div>
-          )}
+          </>)}
 
           {sport === 'football' && (
             <div className="control-group">
