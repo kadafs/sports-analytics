@@ -5,10 +5,15 @@ export default function LiveDashboard() {
   const [liveData, setLiveData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [viewMode, setViewMode] = useState('actionable'); // 'actionable' or 'all'
+  const [viewMode, setViewMode] = useState('actionable');
+  const [expandedMatchId, setExpandedMatchId] = useState(null); // 'actionable' or 'all'
 
   // The Gist URL where the live engine pushes data
   const GIST_ID = import.meta.env.VITE_LIVE_GIST_ID;
+
+  const toggleExpand = (fixId) => {
+    setExpandedMatchId(prev => prev === fixId ? null : fixId);
+  };
 
   useEffect(() => {
     if (!GIST_ID) {
