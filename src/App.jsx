@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
 import TeamTracker from './components/TeamTracker'
+import LiveDashboard from './components/LiveDashboard'
 
 function isWomensLeague(league = '') {
   const l = league.toLowerCase()
@@ -206,7 +207,7 @@ export default function App() {
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   
   // High-level App View Mode 
-  const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams'
+  const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
 
   const [compactMode, setCompactMode] = useState(true)
 
@@ -539,6 +540,14 @@ export default function App() {
 
             {/* Night Shift Toggle — sits next to Compact */}
             <button
+              className={`control-btn ${viewMode === 'live' ? 'active' : ''}`}
+              onClick={() => setViewMode(viewMode === 'live' ? 'matches' : 'live')}
+              style={{ background: viewMode === 'live' ? '#ef4444' : '', color: viewMode === 'live' ? '#fff' : '', fontWeight: 700 }}
+              title="Live In-Play Radar"
+            >
+              🔴 LIVE
+            </button>
+            <button
               className={`night-shift-btn ${nightShift ? 'active' : ''}`}
               onClick={toggleNightShift}
               title="Night Shift: click to toggle"
@@ -557,6 +566,10 @@ export default function App() {
 
         {!loading && !error && viewMode === 'teams' && (
           <TeamTracker teamLeaderboard={teamLeaderboard} />
+        )}
+
+        {viewMode === 'live' && (
+          <LiveDashboard />
         )}
 
         {!loading && !error && viewMode === 'matches' && groups.length > 0 && (
