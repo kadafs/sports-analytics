@@ -38,13 +38,13 @@ export default function LiveDashboard() {
     };
 
     fetchData();
-    const interval = setInterval(fetchData, 120000);
+    const interval = setInterval(fetchData, 60000);
     return () => clearInterval(interval);
   }, [GIST_ID]);
 
   if (loading) return <div className="live-dashboard-loading">Loading live radar...</div>;
   if (error && !liveData) return <div className="live-dashboard-error">{error}</div>;
-  if (!liveData || liveData.active_games === 0) return <div className="live-dashboard-empty">No live games tracked currently. Start the engine on GitHub.</div>;
+  if (!liveData || liveData.active_games === 0) return <div className="live-dashboard-empty">No live games tracked currently.</div>;
 
   const actionableMatches = liveData.matches.filter(m => m.triggers.length > 0 || Math.abs(m.momentum_diff) >= 20);
   const matchesToDisplay = viewMode === 'actionable' ? actionableMatches : liveData.matches;
