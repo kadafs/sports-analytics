@@ -83,7 +83,7 @@ export default function LiveDashboard() {
           <div className="live-dashboard-empty">No actionable games right now.</div>
         ) : (
           matchesToDisplay.map((match) => (
-            <div key={match.fixture_id} className={`live-match-card ${match.triggers.length > 0 ? 'highlight' : ''}`}>
+            <div key={match.fixture_id} className={`live-match-card ${match.triggers.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`} onClick={() => toggleExpand(match.fixture_id)}>
               <div className="match-header">
                 <span className="match-time">{match.status} {match.elapsed}'</span>
                 {match.triggers.map(t => (
@@ -134,6 +134,41 @@ export default function LiveDashboard() {
                   <span>Away: {match.pre_match_prediction.away_win}%</span>
                 </div>
               </div>
+              
+              {expandedMatchId === match.fixture_id && (
+                <div className="live-match-expanded">
+                  <div className="expanded-stats-grid">
+                    <div className="expanded-stat-col">
+                      <div className="stat-label">Total Shots</div>
+                      <div className="stat-values"><span>{match.stats?.home?.total_shots || 0}</span> - <span>{match.stats?.away?.total_shots || 0}</span></div>
+                    </div>
+                    <div className="expanded-stat-col">
+                      <div className="stat-label">Fouls</div>
+                      <div className="stat-values"><span>{match.stats?.home?.fouls || 0}</span> - <span>{match.stats?.away?.fouls || 0}</span></div>
+                    </div>
+                    <div className="expanded-stat-col">
+                      <div className="stat-label">Yellow Cards</div>
+                      <div className="stat-values"><span>{match.stats?.home?.yellow_cards || 0}</span> - <span>{match.stats?.away?.yellow_cards || 0}</span></div>
+                    </div>
+                  </div>
+                  
+                  {match.recent_events && match.recent_events.length > 0 && (
+                    <div className="recent-events-timeline">
+                      <h4>Recent Events</h4>
+                      <ul>
+                        {match.recent_events.map((e, idx) => (
+                          <li key={idx}>
+                            <span className="event-time">{e.time}'</span> 
+                            <span className={`event-type type-${e.type?.toLowerCase()}`}>{e.type}</span>
+                            <span className="event-detail">{e.detail} - {e.player} ({e.team})</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+              
             </div>
           ))
         )}
