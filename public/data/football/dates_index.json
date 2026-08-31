@@ -1,17 +1,45 @@
 {
   "dates": [
     {
+      "date": "2026-09-03",
+      "total": 146,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
+      "date": "2026-09-02",
+      "total": 294,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
+      "date": "2026-09-01",
+      "total": 197,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
       "date": "2026-08-31",
       "total": 270,
-      "graded": false,
-      "graded_count": 1,
-      "grade_summary": null
+      "graded": true,
+      "graded_count": 7,
+      "grade_summary": {
+        "outcome_wins": 4,
+        "outcome_total": 6,
+        "outcome_pct": 66.7,
+        "btts_wins": 0,
+        "btts_total": 0,
+        "btts_pct": null
+      }
     },
     {
       "date": "2026-08-30",
       "total": 897,
       "graded": true,
-      "graded_count": 857,
+      "graded_count": 859,
       "grade_summary": {
         "outcome_wins": 197,
         "outcome_total": 373,
