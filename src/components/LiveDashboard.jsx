@@ -10,6 +10,15 @@ export default function LiveDashboard() {
 
   // The Gist URL where the live engine pushes data
   const GIST_ID = import.meta.env.VITE_LIVE_GIST_ID;
+  
+  // If the Gist hasn't been updated in > 3 minutes, the engine is offline
+  const ENGINE_STALE_THRESHOLD_MS = 3 * 60 * 1000;
+  
+  const isEngineOnline = (data) => {
+    if (!data?.updated_at) return false;
+    const lastUpdate = new Date(data.updated_at).getTime();
+    return (Date.now() - lastUpdate) < ENGINE_STALE_THRESHOLD_MS;
+  };
 
   const toggleExpand = (fixId) => {
     setExpandedMatchId(prev => prev === fixId ? null : fixId);
@@ -49,7 +58,13 @@ export default function LiveDashboard() {
 
   if (loading) return <div className="live-dashboard-loading">Loading live radar...</div>;
   if (error && !liveData) return <div className="live-dashboard-error">{error}</div>;
-  if (!liveData || liveData.active_games === 0) return <div className="live-dashboard-empty">No live games tracked currently.</div>;
+  if (!liveData || !isEngineOnline(liveData)) return (
+    <div className="live-dashboard-offline">
+      <span className="offline-dot"></span>
+      <span>Live Engine offline — no active session</span>
+    </div>
+  );
+  if (liveData.active_games === 0) return <div className="live-dashboard-empty">No live games tracked currently.</div>;
 
   const actionableMatches = liveData.matches.filter(m => m.triggers.length > 0 || Math.abs(m.momentum_diff) >= 20);
   const matchesToDisplay = viewMode === 'actionable' ? actionableMatches : liveData.matches;

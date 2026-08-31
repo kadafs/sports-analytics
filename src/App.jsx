@@ -75,9 +75,6 @@ const LEAGUE_PRIORITY = {
   // Tier 6: High-End Europe
   144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56,
   
-  // Tier 7: Top 5 Second Divisions
-  40: 60, 141: 61, 136: 62, 79: 63, 62: 64,
-  
   // Tier 8: Elite Americas
   71: 70, 73: 71, 128: 72, 239: 73, 242: 74, 265: 75, 268: 76,
   
@@ -94,7 +91,10 @@ const LEAGUE_PRIORITY = {
   98: 110, 292: 111, 188: 112,
   
   // Tier 13: North America Lower
-  254: 120
+  254: 120,
+  
+  // Tier 14: Top 5 Second Divisions
+  40: 130, 141: 131, 136: 132, 79: 133, 62: 134
 }
 
 function sortGroups(groups, sortBy) {
