@@ -72,29 +72,29 @@ const LEAGUE_PRIORITY = {
   // Tier 5: Top 5 Domestic Cups
   45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45, 529: 46,
   
-  // Tier 6: High-End Europe
+  // Tier 6: High-End Europe + Russia Premier
   144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56, 235: 57,
   
-  // Tier 7: Top 5 Second Divisions + Top Quality 2nd Tiers
-  40: 60, 141: 61, 136: 62, 79: 63, 62: 64, 80: 65, 41: 66, 95: 67, 114: 68,
+  // Tier 7: Mid-Tier Europe WITH corners/bookings stats (API-confirmed quality)
+  119: 60, 113: 61, 103: 62, 210: 63, 285: 64, 106: 65, 283: 66, 89: 67,
+  244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75,
   
-  // Tier 8: Elite Americas
-  71: 70, 73: 71, 128: 72, 239: 73, 242: 74, 265: 75, 268: 76, 72: 77, 281: 78, 250: 79, 344: 80, 16: 81,
+  // Tier 8: Top 5 Second Divisions + Quality 2nd Tiers with stats
+  40: 80, 141: 81, 136: 82, 79: 83, 62: 84, 80: 85, 41: 86, 95: 87, 114: 88,
   
-  // Tier 9: North America
-  262: 85, 253: 86, 772: 87, 479: 88,
+  // Tier 9: Elite Americas (all with corners/bookings stats)
+  71: 90, 73: 91, 128: 92, 239: 93, 242: 94, 265: 95, 268: 96, 72: 97, 281: 98, 250: 99, 344: 100, 16: 101,
   
-  // Tier 10: Emerging / Cash Leagues
-  307: 90,
+  // Tier 10: North America
+  262: 105, 253: 106, 772: 107, 479: 108,
   
-  // Tier 11: Mid-Tier Europe (all leagues with corners/bookings API coverage)
-  119: 100, 113: 101, 103: 102, 210: 103, 285: 104, 106: 105, 283: 106, 89: 107,
-  244: 108, 172: 109, 145: 110, 271: 111, 286: 112, 204: 113, 116: 114, 357: 115,
+  // Tier 11: Emerging / Cash Leagues
+  307: 112,
   
-  // Tier 12: Asia, Africa & Middle East (leagues with stats coverage)
+  // Tier 12: Asia, Africa & Middle East (with stats coverage)
   98: 120, 292: 121, 188: 122, 169: 123, 288: 124, 301: 125, 305: 126, 233: 127,
   
-  // Tier 13: North America Lower + Cups/Historical
+  // Tier 13: Lower / Cups / Historical
   254: 133, 237: 134, 252: 135,
   
   // Tier 14: Regional 2nd Divisions
@@ -103,7 +103,7 @@ const LEAGUE_PRIORITY = {
   // Tier 15: Women's Leagues
   549: 150,
   
-  // Tier 16: Regional/State Leagues
+  // Tier 16: Regional / State Leagues
   1035: 160, 1232: 161, 1168: 162
 }
 
