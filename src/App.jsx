@@ -58,7 +58,7 @@ function groupByLeague(predictions, sport) {
 
 const LEAGUE_PRIORITY = {
   // Tier 1: Continental (UEFA / CONMEBOL)
-  2: 1, 3: 2, 848: 3, 13: 4, 11: 5,
+  2: 1, 3: 2, 848: 3, 13: 4, 11: 5, 10: 6,
   
   // Tier 2: Premier League
   39: 10,
@@ -70,31 +70,41 @@ const LEAGUE_PRIORITY = {
   61: 30, 88: 31, 94: 32,
   
   // Tier 5: Top 5 Domestic Cups
-  45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45,
+  45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45, 529: 46,
   
   // Tier 6: High-End Europe
-  144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56,
+  144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56, 235: 57,
+  
+  // Tier 7: Top 5 Second Divisions + Top Quality 2nd Tiers
+  40: 60, 141: 61, 136: 62, 79: 63, 62: 64, 80: 65, 41: 66, 95: 67, 114: 68,
   
   // Tier 8: Elite Americas
-  71: 70, 73: 71, 128: 72, 239: 73, 242: 74, 265: 75, 268: 76,
+  71: 70, 73: 71, 128: 72, 239: 73, 242: 74, 265: 75, 268: 76, 72: 77, 281: 78, 250: 79, 344: 80, 16: 81,
   
   // Tier 9: North America
-  262: 80, 253: 81,
+  262: 85, 253: 86, 772: 87, 479: 88,
   
   // Tier 10: Emerging / Cash Leagues
   307: 90,
   
-  // Tier 11: Mid-Tier Europe
+  // Tier 11: Mid-Tier Europe (all leagues with corners/bookings API coverage)
   119: 100, 113: 101, 103: 102, 210: 103, 285: 104, 106: 105, 283: 106, 89: 107,
+  244: 108, 172: 109, 145: 110, 271: 111, 286: 112, 204: 113, 116: 114, 357: 115,
   
-  // Tier 12: Asia & Oceania
-  98: 110, 292: 111, 188: 112,
+  // Tier 12: Asia, Africa & Middle East (leagues with stats coverage)
+  98: 120, 292: 121, 188: 122, 169: 123, 288: 124, 301: 125, 305: 126, 233: 127,
   
-  // Tier 13: North America Lower
-  254: 120,
+  // Tier 13: North America Lower + Cups/Historical
+  254: 133, 237: 134, 252: 135,
   
-  // Tier 14: Top 5 Second Divisions
-  40: 130, 141: 131, 136: 132, 79: 133, 62: 134
+  // Tier 14: Regional 2nd Divisions
+  134: 140, 236: 141, 42: 142, 46: 143,
+  
+  // Tier 15: Women's Leagues
+  549: 150,
+  
+  // Tier 16: Regional/State Leagues
+  1035: 160, 1232: 161, 1168: 162
 }
 
 function sortGroups(groups, sortBy) {
