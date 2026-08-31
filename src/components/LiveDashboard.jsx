@@ -72,7 +72,7 @@ export default function LiveDashboard() {
   return (
     <div className="live-dashboard">
       <div className="live-header">
-        <h2>🔴 LIVE IN-PLAY RADAR</h2>
+        <h2><div className="radar-ping"></div> LIVE IN-PLAY RADAR</h2>
         <div className="live-controls">
           <button 
             className={`view-btn ${viewMode === 'actionable' ? 'active' : ''}`}
@@ -132,21 +132,29 @@ export default function LiveDashboard() {
                     <span>{match.stats.away.shots_on_goal}</span>
                   </div>
                 </div>
-                <div className="stat-row">
-                  <span className="stat-label">Possession</span>
-                  <div className="stat-values">
-                    <span>{match.stats.home.possession}%</span>
-                    <span>-</span>
-                    <span>{match.stats.away.possession}%</span>
+                <div className="stat-row-vertical">
+                  <div className="stat-label-split">
+                    <span className="poss-val home-poss">{match.stats.home.possession}%</span>
+                    <span className="stat-label">Possession</span>
+                    <span className="poss-val away-poss">{match.stats.away.possession}%</span>
+                  </div>
+                  <div className="possession-bar-container">
+                    <div className="possession-bar home" style={{ width: `${match.stats.home.possession}%` }}></div>
+                    <div className="possession-bar away" style={{ width: `${match.stats.away.possession}%` }}></div>
                   </div>
                 </div>
               </div>
               <div className="match-prematch">
                 <small>Pre-match Expectation:</small>
-                <div className="probs">
-                  <span>Home: {match.pre_match_prediction.home_win}%</span>
-                  <span>Draw: {match.pre_match_prediction.draw}%</span>
-                  <span>Away: {match.pre_match_prediction.away_win}%</span>
+                <div className="probs-bar-container">
+                  <div className="prob-bar home" style={{ width: `${match.pre_match_prediction.home_win}%` }}></div>
+                  <div className="prob-bar draw" style={{ width: `${match.pre_match_prediction.draw}%` }}></div>
+                  <div className="prob-bar away" style={{ width: `${match.pre_match_prediction.away_win}%` }}></div>
+                </div>
+                <div className="probs-labels">
+                  <span className="home-lbl">{match.pre_match_prediction.home_win}%</span>
+                  <span className="draw-lbl">{match.pre_match_prediction.draw}%</span>
+                  <span className="away-lbl">{match.pre_match_prediction.away_win}%</span>
                 </div>
               </div>
               
