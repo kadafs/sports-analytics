@@ -17,7 +17,7 @@ function buildTweetText(picks, filterLabel, date) {
   return `${header}\n\n${body}${footer}`
 }
 
-export default function ShareModal({ picks, filterLabel, date, sport, onClose }) {
+export default function ShareModal({ picks, filterLabel, date, sport, filterType = 'all', onClose }) {
   const cardRef = useRef(null)
   const [capturing, setCapturing] = useState(false)
   const [imgUrl, setImgUrl] = useState(null)
@@ -76,7 +76,7 @@ export default function ShareModal({ picks, filterLabel, date, sport, onClose })
   return (
     <>
       {/* Off-screen ShareCard that html2canvas will capture */}
-      <ShareCard ref={cardRef} picks={picks} filterLabel={filterLabel} date={date} sport={sport} />
+      <ShareCard ref={cardRef} picks={picks} filterLabel={filterLabel} date={date} sport={sport} filterType={filterType} />
 
       {/* Modal backdrop */}
       <div

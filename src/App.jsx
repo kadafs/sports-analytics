@@ -625,16 +625,18 @@ export default function App() {
           const picksToShare = allFiltered.slice(0, 15)
 
           let filterLabel = 'TOP PICKS'
-          if (filterBttsHitRate >= 60) filterLabel = `BTTS ≥${filterBttsHitRate}%`
-          if (filterOutcome !== 'all') filterLabel = `1X2: ${filterOutcome}`
-          if (filterDraw > 0) filterLabel = `Draw ≥${filterDraw}%`
-          if (filterCountry !== 'all') filterLabel = filterCountry
+          let filterType = 'all'
+          if (filterBttsHitRate >= 60) { filterLabel = `BTTS ≥${filterBttsHitRate}%`; filterType = 'btts' }
+          if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
+          if (filterDraw > 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
+          if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }
           return (
             <ShareModal
               picks={picksToShare}
               filterLabel={filterLabel}
               date={selectedDate}
               sport={sport}
+              filterType={filterType}
               onClose={() => setShareOpen(false)}
             />
           )
