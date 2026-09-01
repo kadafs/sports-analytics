@@ -125,13 +125,13 @@ export default function MatchRow({ game }) {
           const callColor = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : null
           const tooltip = `${game.corners.corner_recommendation} | ${ccLine}${ccPct ? ` (${ccPct}%)` : ''}`
           return (
-            <div className="match-corners-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:2}}>
-              <span style={{fontSize:15,fontWeight:800,color:'#38bdf8'}}>{game.corners.exp_total_corners}</span>
+            <div className="match-corners-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
+              <span style={{fontSize:13,fontWeight:800,color:'#38bdf8',lineHeight:1}}>{game.corners.exp_total_corners}</span>
               {cc && cc !== 'PASS' && callColor && (
                 <span style={{
-                  fontSize:9, fontWeight:800, color:callColor,
+                  fontSize:8, fontWeight:800, color:callColor,
                   background: cc === 'YES' ? 'rgba(74,222,128,0.12)' : 'rgba(248,113,113,0.12)',
-                  borderRadius:3, padding:'1px 4px', lineHeight:1.4
+                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
                 }}>
                   {cc} {ccPct}%
                 </span>
@@ -148,13 +148,13 @@ export default function MatchRow({ game }) {
           const bkColor = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : null
           const tooltip = `${game.corners.booking_recommendation} | ${bcLine}${bcPct ? ` (${bcPct}%)` : ''}`
           return (
-            <div className="match-booking-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:2}}>
-              <span style={{fontSize:15,fontWeight:800,color:'#fbbf24'}}>{game.corners.exp_total_booking_pts}</span>
+            <div className="match-booking-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
+              <span style={{fontSize:13,fontWeight:800,color:'#fbbf24',lineHeight:1}}>{game.corners.exp_total_booking_pts}</span>
               {bc && bc !== 'PASS' && bkColor && (
                 <span style={{
-                  fontSize:9, fontWeight:800, color:bkColor,
+                  fontSize:8, fontWeight:800, color:bkColor,
                   background: bc === 'YES' ? 'rgba(74,222,128,0.12)' : 'rgba(248,113,113,0.12)',
-                  borderRadius:3, padding:'1px 4px', lineHeight:1.4
+                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
                 }}>
                   {bc} {bcPct}%
                 </span>

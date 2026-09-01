@@ -23,7 +23,7 @@ const ShareCard = forwardRef(function ShareCard({ picks, filterLabel, date, spor
           <div style={{ fontSize: 26, fontWeight: 900, letterSpacing: '-0.5px', color: '#ffffff' }}>
             {BRAND.name}<span style={{ color: '#3b82f6' }}>.</span>
           </div>
-          <div style={{ fontSize: 11, color: '#64748b', marginTop: 1, letterSpacing: 1 }}>AI PREDICTION ENGINE</div>
+
         </div>
         <div style={{ textAlign: 'right' }}>
           <div style={{ background: 'rgba(59,130,246,0.15)', border: '1px solid #3b82f6', borderRadius: 8, padding: '6px 12px', fontSize: 12, fontWeight: 700, color: '#93c5fd' }}>
