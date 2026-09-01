@@ -49,7 +49,7 @@ function GradeIcon({ grade }) {
 }
 
 
-export default function MatchRow({ game }) {
+export default function MatchRow({ game, selected = false, onToggle }) {
   const [open, setOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('stats') // 'stats', 'h2h', 'standings'
 
@@ -65,6 +65,26 @@ export default function MatchRow({ game }) {
         className={`match-row football ${open ? 'expanded' : ''} ${isGraded ? 'graded' : ''}`}
         onClick={() => setOpen(o => !o)}
       >
+        {/* Selection checkbox */}
+        {onToggle && (
+          <div
+            onClick={(e) => { e.stopPropagation(); onToggle() }}
+            style={{
+              width: 20, height: 20, minWidth: 20,
+              borderRadius: 6,
+              border: `2px solid ${selected ? '#3b82f6' : '#334155'}`,
+              background: selected ? '#3b82f6' : 'transparent',
+              cursor: 'pointer',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              marginRight: 6,
+              flexShrink: 0,
+              transition: 'all 0.15s',
+            }}
+          >
+            {selected && <span style={{ color: '#fff', fontSize: 13, lineHeight: 1 }}>✓</span>}
+          </div>
+        )}
+
         {/* Time / Status */}
         <div className="match-time">
           {kickoffTime(game)}

@@ -5,6 +5,7 @@ import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
 import TeamTracker from './components/TeamTracker'
 import LiveDashboard from './components/LiveDashboard'
+import ShareModal from './components/ShareModal'
 
 function isWomensLeague(league = '') {
   const l = league.toLowerCase()
@@ -198,6 +199,8 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 }
 
 export default function App() {
+  const [selectedPicks, setSelectedPicks] = useState(new Set())
+  const [shareOpen, setShareOpen] = useState(false)
   const [sport,         setSport]         = useState('basketball')
   const [dates,         setDates]         = useState([])   // [{date,graded,...}]
   const [selectedDate,  setSelectedDate]  = useState(null)
@@ -548,6 +551,30 @@ export default function App() {
             )}
 
 
+            {/* Share button — only when picks selected OR a strong filter is active */}
+            {(selectedPicks.size > 0 || filterBttsHitRate >= 60) && sport === 'football' && (
+              <button
+                onClick={() => setShareOpen(true)}
+                style={{
+                  padding: '4px 12px',
+                  fontSize: 13,
+                  fontWeight: 700,
+                  borderRadius: 8,
+                  border: '1px solid #3b82f6',
+                  cursor: 'pointer',
+                  background: 'linear-gradient(135deg, #3b82f6, #1d4ed8)',
+                  color: '#fff',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 5,
+                  transition: 'all 0.15s',
+                }}
+                title="Share these picks"
+              >
+                📤 Share{selectedPicks.size > 0 ? ` (${selectedPicks.size})` : ''}
+              </button>
+            )}
+
             {/* Night Shift Toggle — sits next to Compact */}
             <button
               className={`control-btn ${viewMode === 'live' ? 'active' : ''}`}
@@ -586,8 +613,68 @@ export default function App() {
           <div className="predictions-table">
             {groups.map(g => {
               const stats = leaderboard.find(x => (g.league_id && x.league_id === g.league_id) || x.name === `${g.country?.toUpperCase()} — ${g.league?.toUpperCase()}`)
-              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} teamLeaderboard={teamLeaderboard} />
+              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} teamLeaderboard={teamLeaderboard} selectedPicks={selectedPicks} onTogglePick={(key) => setSelectedPicks(prev => { const s = new Set(prev); if (s.has(key)) s.delete(key); else s.add(key); return s })} />
             })}
+          </div>
+        )}
+
+        {/* Share Modal */}
+        {shareOpen && sport === 'football' && (() => {
+          // Use manually selected picks, or fall back to all filtered predictions
+          const picksToShare = selectedPicks.size > 0
+            ? (data?.predictions || []).filter(p => selectedPicks.has(`${p.home_team}__${p.away_team}`))
+            : (data?.predictions || []).filter(p => {
+                if (filterBttsHitRate >= 60 && (p.btts_prob ?? 0) >= filterBttsHitRate) return true
+                if (filterOutcome !== 'all' && p.outcome_decision?.startsWith(filterOutcome)) return true
+                return false
+              }).slice(0, 12)
+
+          let filterLabel = 'TOP PICKS'
+          if (filterBttsHitRate >= 60) filterLabel = `BTTS ≥${filterBttsHitRate}%`
+          if (filterOutcome !== 'all') filterLabel = `1X2: ${filterOutcome}`
+          if (selectedPicks.size > 0) filterLabel = 'SELECTED PICKS'
+
+          return (
+            <ShareModal
+              picks={picksToShare}
+              filterLabel={filterLabel}
+              date={selectedDate}
+              sport={sport}
+              onClose={() => { setShareOpen(false); setSelectedPicks(new Set()) }}
+            />
+          )
+        })()}
+
+        {/* Floating share bar when picks are manually selected */}
+        {selectedPicks.size > 0 && (
+          <div style={{
+            position: 'fixed', bottom: 24, left: '50%', transform: 'translateX(-50%)',
+            background: 'linear-gradient(135deg, #1e293b, #0f172a)',
+            border: '1px solid #3b82f6',
+            borderRadius: 16,
+            padding: '12px 24px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 16,
+            boxShadow: '0 8px 32px rgba(59,130,246,0.25)',
+            zIndex: 9000,
+            backdropFilter: 'blur(8px)',
+          }}>
+            <span style={{ fontSize: 14, fontWeight: 600, color: '#93c5fd' }}>
+              {selectedPicks.size} pick{selectedPicks.size !== 1 ? 's' : ''} selected
+            </span>
+            <button
+              onClick={() => setShareOpen(true)}
+              style={{ padding: '8px 20px', borderRadius: 10, border: 'none', cursor: 'pointer', background: 'linear-gradient(135deg,#3b82f6,#1d4ed8)', color: '#fff', fontWeight: 700, fontSize: 13 }}
+            >
+              📤 Share Picks
+            </button>
+            <button
+              onClick={() => setSelectedPicks(new Set())}
+              style={{ padding: '8px 12px', borderRadius: 10, border: '1px solid #475569', cursor: 'pointer', background: 'transparent', color: '#94a3b8', fontWeight: 600, fontSize: 13 }}
+            >
+              ✕ Clear
+            </button>
           </div>
         )}
 
