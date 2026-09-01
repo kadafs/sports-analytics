@@ -570,7 +570,7 @@ export default function App() {
                 }}
                 title="Share these picks"
               >
-                📤 Share{selectedPicks.size > 0 ? ` (${selectedPicks.size})` : ''}
+                📤 Share Picks
               </button>
             )}
 
