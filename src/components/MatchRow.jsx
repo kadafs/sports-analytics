@@ -117,39 +117,47 @@ export default function MatchRow({ game }) {
         </div>
 
 
-        {/* Corners column */}
+        {/* Corners column — clean: number + YES/NO badge only */}
         {game.corners && (() => {
           const cc = game.corners.corner_call
-          const ccLine = game.corners.corner_call_line
-          const ccPct  = game.corners.corner_call_pct
-          const callColor = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : '#94a3b8'
+          const ccPct = game.corners.corner_call_pct
+          const ccLine = game.corners.corner_call_line || ''
+          const callColor = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : null
+          const tooltip = `${game.corners.corner_recommendation} | ${ccLine}${ccPct ? ` (${ccPct}%)` : ''}`
           return (
-            <div className="match-corners-col" title={`Over 9.5: ${game.corners.over_9_5_pct}% | Over 10.5: ${game.corners.over_10_5_pct}% | ${game.corners.corner_recommendation}`} style={{textAlign:'center'}}>
+            <div className="match-corners-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:2}}>
               <span style={{fontSize:15,fontWeight:800,color:'#38bdf8'}}>{game.corners.exp_total_corners}</span>
-              <sub style={{fontSize:9,color:'#64748b',marginLeft:1}}>crn</sub>
-              {cc && cc !== 'PASS' && (
-                <div style={{fontSize:8,fontWeight:700,color:callColor,lineHeight:1.2,marginTop:1}}>
+              {cc && cc !== 'PASS' && callColor && (
+                <span style={{
+                  fontSize:9, fontWeight:800, color:callColor,
+                  background: cc === 'YES' ? 'rgba(74,222,128,0.12)' : 'rgba(248,113,113,0.12)',
+                  borderRadius:3, padding:'1px 4px', lineHeight:1.4
+                }}>
                   {cc} {ccPct}%
-                </div>
+                </span>
               )}
             </div>
           )
         })()}
 
-        {/* Bookings column */}
+        {/* Bookings column — clean: number + YES/NO badge only */}
         {game.corners && (() => {
           const bc = game.corners.booking_call
-          const bcLine = game.corners.booking_call_line
-          const bcPct  = game.corners.booking_call_pct
-          const bkColor = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : '#94a3b8'
+          const bcPct = game.corners.booking_call_pct
+          const bcLine = game.corners.booking_call_line || ''
+          const bkColor = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : null
+          const tooltip = `${game.corners.booking_recommendation} | ${bcLine}${bcPct ? ` (${bcPct}%)` : ''}`
           return (
-            <div className="match-booking-col" title={`Booking pts: ${game.corners.exp_total_booking_pts} | ${game.corners.booking_recommendation}`} style={{textAlign:'center'}}>
+            <div className="match-booking-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:2}}>
               <span style={{fontSize:15,fontWeight:800,color:'#fbbf24'}}>{game.corners.exp_total_booking_pts}</span>
-              <sub style={{fontSize:9,color:'#64748b',marginLeft:1}}>bk</sub>
-              {bc && bc !== 'PASS' && (
-                <div style={{fontSize:8,fontWeight:700,color:bkColor,lineHeight:1.2,marginTop:1}}>
+              {bc && bc !== 'PASS' && bkColor && (
+                <span style={{
+                  fontSize:9, fontWeight:800, color:bkColor,
+                  background: bc === 'YES' ? 'rgba(74,222,128,0.12)' : 'rgba(248,113,113,0.12)',
+                  borderRadius:3, padding:'1px 4px', lineHeight:1.4
+                }}>
                   {bc} {bcPct}%
-                </div>
+                </span>
               )}
             </div>
           )

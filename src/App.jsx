@@ -551,7 +551,7 @@ export default function App() {
 
 
             {/* Share button — only when picks selected OR a strong filter is active */}
-            {filterBttsHitRate >= 60 && sport === 'football' && (
+            {sport === 'football' && (filterBttsHitRate >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all') && (
               <button
                 onClick={() => setShareOpen(true)}
                 style={{
@@ -620,15 +620,15 @@ export default function App() {
         {/* Share Modal */}
         {shareOpen && sport === 'football' && (() => {
           // Use manually selected picks, or fall back to all filtered predictions
-          const picksToShare = (data?.predictions || []).filter(p => {
-                if (filterBttsHitRate >= 60 && (p.btts_prob ?? 0) >= filterBttsHitRate) return true
-                if (filterOutcome !== 'all' && p.outcome_decision?.startsWith(filterOutcome)) return true
-                return false
-              }).slice(0, 12)
+          // Use the same filtered predictions currently showing on screen
+          const allFiltered = groups.flatMap(g => g.games || [])
+          const picksToShare = allFiltered.slice(0, 15)
 
           let filterLabel = 'TOP PICKS'
           if (filterBttsHitRate >= 60) filterLabel = `BTTS ≥${filterBttsHitRate}%`
           if (filterOutcome !== 'all') filterLabel = `1X2: ${filterOutcome}`
+          if (filterDraw > 0) filterLabel = `Draw ≥${filterDraw}%`
+          if (filterCountry !== 'all') filterLabel = filterCountry
           return (
             <ShareModal
               picks={picksToShare}
