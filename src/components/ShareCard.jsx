@@ -101,7 +101,7 @@ const ShareCard = forwardRef(function ShareCard({ picks, filterLabel, date, spor
       {/* Header: logo left, filter badge right */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
         <img
-          src="/logo.png"
+          src="/darklogo.png"
           alt="Blowrout"
           style={{ height: 32, objectFit: 'contain' }}
           crossOrigin="anonymous"
