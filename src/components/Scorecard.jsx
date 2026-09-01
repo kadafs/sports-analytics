@@ -44,6 +44,14 @@ export default function Scorecard({ data, sport = 'football' }) {
   const outcomePct = pct(outcomeW, outcomeT)
   const playPct    = pct(playW, playT)
 
+  // Corners & booking from grade_summary (populated after YES/NO/PASS grading)
+  const cornersW   = summary?.corners_wins  ?? null
+  const cornersT   = summary?.corners_total ?? null
+  const cornersPct = summary?.corners_pct   ?? null
+  const bookingW   = summary?.booking_wins  ?? null
+  const bookingT   = summary?.booking_total ?? null
+  const bookingPct = summary?.booking_pct   ?? null
+
   return (
     <div className="scorecard">
       <div className="scorecard-title">📊 Grade Summary</div>
@@ -62,6 +70,26 @@ export default function Scorecard({ data, sport = 'football' }) {
           <span className="sc-record">{playW}W – {playT - playW}L</span>
           {playPct != null && (
             <span className="sc-pct" style={{ color: pctColor(playPct) }}>{playPct}%</span>
+          )}
+        </div>
+      )}
+
+      {isFootball && cornersT != null && cornersT > 0 && (
+        <div className="scorecard-stat">
+          <span className="sc-label">CORNERS ≥65%</span>
+          <span className="sc-record">{cornersW}W – {cornersT - cornersW}L</span>
+          {cornersPct != null && (
+            <span className="sc-pct" style={{ color: pctColor(cornersPct) }}>{cornersPct}%</span>
+          )}
+        </div>
+      )}
+
+      {isFootball && bookingT != null && bookingT > 0 && (
+        <div className="scorecard-stat">
+          <span className="sc-label">BOOKING ≥65%</span>
+          <span className="sc-record">{bookingW}W – {bookingT - bookingW}L</span>
+          {bookingPct != null && (
+            <span className="sc-pct" style={{ color: pctColor(bookingPct) }}>{bookingPct}%</span>
           )}
         </div>
       )}
