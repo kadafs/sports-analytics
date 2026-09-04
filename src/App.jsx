@@ -111,6 +111,21 @@ const LEAGUE_PRIORITY = {
 function sortGroups(groups, sortBy) {
   if (sortBy === 'country') return [...groups].sort((a, b) => a.country.localeCompare(b.country))
   if (sortBy === 'time') return [...groups]
+  if (sortBy === 'o25') {
+    // Sort games within each group by O2.5 desc, then sort groups by their best O2.5
+    const sorted = groups.map(g => ({
+      ...g,
+      games: [...(g.games || [])].sort((a, b) => {
+        const ao = (a.match_center || {}).over_2_5_prob ?? 0
+        const bo = (b.match_center || {}).over_2_5_prob ?? 0
+        return bo - ao
+      })
+    }))
+    return sorted.sort((a, b) => {
+      const best = g => Math.max(...(g.games || []).map(x => (x.match_center || {}).over_2_5_prob ?? 0))
+      return best(b) - best(a)
+    })
+  }
   
   // Default (Competition): Sort by global tier, then alphabetical
   return [...groups].sort((a, b) => {
@@ -429,6 +444,16 @@ export default function App() {
                 {s.charAt(0).toUpperCase() + s.slice(1)}
               </button>
             ))}
+            {sport === 'football' && (
+              <button
+                className={`control-btn ${sortBy === 'o25' ? 'active' : ''}`}
+                onClick={() => setSortBy('o25')}
+                title="Sort by Over 2.5 Goals probability (highest first)"
+                style={sortBy === 'o25' ? { borderColor: '#4ade80', color: '#4ade80' } : {}}
+              >
+                O2.5 ↓
+              </button>
+            )}
           </div>
 
           {sport === 'football' && (<>

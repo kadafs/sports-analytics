@@ -107,7 +107,8 @@
     --col-corners: 68px;
     --col-booking: 60px;
     --col-decision: 130px;
-    --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-corners) var(--col-booking);
+    --col-o25: 46px;
+    --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-o25) var(--col-corners) var(--col-booking);
 
     /* Basketball Grid */
     --col-time-bball: 44px;
