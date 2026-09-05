@@ -120,10 +120,10 @@ export default function MatchRow({ game }) {
         {(() => {
           const mc = game.match_center || {}
           const o25 = mc.over_2_5_prob
-          if (o25 == null) return <div className="match-o25-col" />
+          if (o25 == null) return <div className="match-o25-col compact-hide" />
           const color = o25 >= 75 ? '#4ade80' : o25 >= 60 ? '#fbbf24' : '#64748b'
           return (
-            <div className="match-o25-col" title={`Over 2.5 Goals: ${o25}%\nOver 1.5: ${mc.over_1_5_prob ?? '—'}%`}
+            <div className="match-o25-col compact-hide" title={`Over 2.5 Goals: ${o25}%\nOver 1.5: ${mc.over_1_5_prob ?? '—'}%`}
               style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
               <span style={{fontSize:13, fontWeight:800, color}}>{Math.round(o25)}<sub style={{fontSize:8,color:'#64748b'}}>%</sub></span>
             </div>
