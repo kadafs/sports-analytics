@@ -2536,9 +2536,10 @@
     grid-template-columns: 40px 1fr 80px 52px !important;
   }
 
-  /* Hide Corners + Booking in FULL mode on mobile (4-col grid can't fit them — they wrap to 2nd row) */
+  /* Hide Corners + Booking + O2.5 in FULL mode on mobile (4-col grid can't fit them) */
   .match-corners-col,
-  .match-booking-col {
+  .match-booking-col,
+  .match-o25-col {
     display: none !important;
   }
 
@@ -2753,9 +2754,10 @@
   margin-top: 2px;
 }
 
-  /* Hide corners/booking columns in compact mode */
+  /* Hide corners/booking/o25 columns in compact mode */
   .compact-mode .match-corners-col,
-  .compact-mode .match-booking-col {
+  .compact-mode .match-booking-col,
+  .compact-mode .match-o25-col {
     display: none !important;
   }
 
