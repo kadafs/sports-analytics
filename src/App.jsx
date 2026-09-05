@@ -78,10 +78,10 @@ const LEAGUE_PRIORITY = {
   
   // Tier 7: Mid-Tier Europe WITH corners/bookings stats (API-confirmed quality)
   119: 60, 113: 61, 103: 62, 210: 63, 285: 64, 106: 65, 283: 66, 89: 67,
-  244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75,
+  244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75, 332: 76,
   
   // Tier 8: Top 5 Second Divisions + Quality 2nd Tiers with stats
-  40: 80, 141: 81, 136: 82, 79: 83, 62: 84, 80: 85, 41: 86, 95: 87, 114: 88,
+  40: 80, 141: 81, 136: 82, 79: 83, 62: 84, 41: 86, 95: 87, 114: 88,
   
   // Tier 9: Elite Americas (all with corners/bookings stats)
   71: 90, 73: 91, 128: 92, 239: 93, 242: 94, 265: 95, 268: 96, 72: 97, 281: 98, 250: 99, 344: 100, 16: 101,
@@ -90,7 +90,7 @@ const LEAGUE_PRIORITY = {
   262: 105, 253: 106, 772: 107, 479: 108,
   
   // Tier 11: Emerging / Cash Leagues
-  307: 112,
+  307: 112, 80: 113,  // Germany 3. Liga
   
   // Tier 12: Asia, Africa & Middle East (with stats coverage)
   98: 120, 292: 121, 188: 122, 169: 123, 288: 124, 301: 125, 305: 126, 233: 127,
