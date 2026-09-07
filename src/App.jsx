@@ -136,7 +136,7 @@ function sortGroups(groups, sortBy) {
   })
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = []) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -151,6 +151,21 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     
     if (country  !== 'all' && p.country        !== country)  return false
     if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
+    
+    if (sport === 'football' && filterCorner !== 'all') {
+      const c = p.corners || {}
+      if (filterCorner === 'plays') {
+        if (c.corner_call !== 'YES' && c.corner_call !== 'NO') return false
+      } else if (filterCorner === 'over') {
+        if (!(c.corner_call === 'YES' && (c.corner_call_line || '').includes('OVER'))) return false
+      } else if (filterCorner === 'under') {
+        if (!(c.corner_call === 'NO' && (c.corner_call_line || '').includes('UNDER'))) return false
+      } else if (filterCorner === 'exp_high') {
+        if ((c.exp_total ?? 0) < 10.5) return false
+      } else if (filterCorner === 'exp_low') {
+        if (c.exp_total == null || c.exp_total >= 9.5) return false
+      }
+    }
     
     if (sport === 'football' && filterBttsHitRate > 0) {
       // Filter 1: League safety gate — must have >= 50% historical BTTS rate
@@ -224,6 +239,7 @@ export default function App() {
   const [sortBy,        setSortBy]        = useState('competition')
   const [filterDecision,setFilterDecision]= useState('all')
   const [filterOutcome, setFilterOutcome] = useState('all')
+  const [filterCorner,  setFilterCorner]  = useState('all') // 'all' | 'plays' | 'over' | 'under' | 'exp_high' | 'exp_low'
   const [filterCountry, setFilterCountry] = useState('all')
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
@@ -334,8 +350,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -373,7 +389,8 @@ export default function App() {
           setData(null);
           setError(null);
           setFilterDecision('all');
-          setFilterOutcome('all'); 
+          setFilterOutcome('all');
+            setFilterCorner('all'); 
           setFilterCountry('all'); 
           setFilterDraw(0); 
           setFilterBttsHitRate(0);
@@ -488,6 +505,16 @@ export default function App() {
                 <option value={60}>≥ 60%</option>
                 <option value={50}>≥ 50%</option>
               </select>
+
+              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Corners:</span>
+              <select className="filter-select" value={filterCorner} onChange={e => setFilterCorner(e.target.value)}>
+                <option value="all">All corners</option>
+                <option value="plays">All Plays (YES / NO)</option>
+                <option value="over">OVER 10.5 (YES)</option>
+                <option value="under">UNDER 10.5 (NO)</option>
+                <option value="exp_high">Exp ≥ 10.5</option>
+                <option value="exp_low">Exp &lt; 9.5</option>
+              </select>
             </div>
           )}
 
@@ -576,7 +603,7 @@ export default function App() {
 
 
             {/* Share button — only when picks selected OR a strong filter is active */}
-            {sport === 'football' && (filterBttsHitRate >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all') && (
+            {sport === 'football' && (filterBttsHitRate >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
               <button
                 onClick={() => setShareOpen(true)}
                 style={{
@@ -655,6 +682,10 @@ export default function App() {
           if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
           if (filterDraw > 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
           if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }
+          if (filterCorner !== 'all') {
+            filterLabel = filterCorner === 'plays' ? 'Corners: Plays' : filterCorner === 'over' ? 'Corners: OVER 10.5' : filterCorner === 'under' ? 'Corners: UNDER 10.5' : filterCorner === 'exp_high' ? 'Corners: Exp ≥ 10.5' : 'Corners: Exp < 9.5'
+            filterType = 'corners'
+          }
           return (
             <ShareModal
               picks={picksToShare}
