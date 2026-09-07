@@ -535,6 +535,82 @@ export default function MatchRow({ game }) {
                     </div>
                   </div>
 
+                  {/* Corners & Booking Detail */}
+                  {game.corners && (
+                    <div className="prob-section">
+                      <div className="ps-title">Corners &amp; Booking</div>
+
+                      {/* Home / Away expected corners breakdown */}
+                      {(game.corners.exp_home_corners != null || game.corners.exp_away_corners != null) && (
+                        <div style={{display:'flex', gap:8, marginBottom:12}}>
+                          <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                            <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>{game.corners.exp_home_corners ?? '-'}</div>
+                            <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
+                          </div>
+                          <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                            <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>{game.corners.exp_away_corners ?? '-'}</div>
+                            <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
+                          </div>
+                          <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
+                            <div style={{fontSize:18, fontWeight:800, color:'#fbbf24', lineHeight:1}}>{game.corners.exp_total_corners ?? '-'}</div>
+                            <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
+                          </div>
+                        </div>
+                      )}
+
+                      <ProbabilityItem
+                        label={game.corners.corner_call_line
+                          ? `Over 10.5 Corners (Line: ${game.corners.corner_call_line})`
+                          : `Over 10.5 Corners`}
+                        value={game.corners.over_10_5_pct}
+                        color="btts"
+                      />
+                      <ProbabilityItem
+                        label={game.corners.booking_call_line 
+                          ? `Booking: Exp ${game.corners.exp_total_booking_pts}pts (Line: ${game.corners.booking_call_line})`
+                          : `Booking Pts: ${game.corners.exp_total_booking_pts}`}
+                        value={Math.min(100, Math.round((game.corners.exp_total_booking_pts / 120) * 100))}
+                        color="home"
+                      />
+                      {/* YES/NO/PASS Call Badges */}
+                      <div style={{marginTop:12, display:'flex', gap:8, flexWrap:'wrap'}}>
+                        {game.corners.corner_call && (() => {
+                          const cc = game.corners.corner_call
+                          const ccLine = game.corners.corner_call_line
+                          const ccPct  = game.corners.corner_call_pct
+                          const bg = cc === 'YES' ? 'rgba(74,222,128,0.15)' : cc === 'NO' ? 'rgba(248,113,113,0.15)' : 'rgba(148,163,184,0.1)'
+                          const border = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : '#64748b'
+                          const txt = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : '#94a3b8'
+                          if (cc === 'PASS') return <span style={{fontSize:10,color:'#64748b'}}>Corners: PASS</span>
+                          return (
+                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
+                              <span style={{color:'#94a3b8'}}>Corners </span>
+                              <span style={{color:txt, fontWeight:700}}>{cc} {ccLine} ({ccPct}%)</span>
+                            </div>
+                          )
+                        })()}
+                        {game.corners.booking_call && (() => {
+                          const bc = game.corners.booking_call
+                          const bcLine = game.corners.booking_call_line
+                          const bcPct  = game.corners.booking_call_pct
+                          const bg = bc === 'YES' ? 'rgba(74,222,128,0.15)' : bc === 'NO' ? 'rgba(248,113,113,0.15)' : 'rgba(148,163,184,0.1)'
+                          const border = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : '#64748b'
+                          const txt = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : '#94a3b8'
+                          if (bc === 'PASS') return <span style={{fontSize:10,color:'#64748b'}}>Booking: PASS</span>
+                          return (
+                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
+                              <span style={{color:'#94a3b8'}}>Booking </span>
+                              <span style={{color:txt, fontWeight:700}}>{bc} {bcLine} ({bcPct}%)</span>
+                            </div>
+                          )
+                        })()}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Market Odds */}
                   {game.market_odds && (
                     <div className="prob-section">
@@ -587,64 +663,6 @@ export default function MatchRow({ game }) {
                     </div>
                   )}
 
-                  {/* Corners & Booking Detail */}
-                  {game.corners && (
-                    <div className="prob-section">
-                      <div className="ps-title">Corners & Booking</div>
-                      <ProbabilityItem
-                        label={game.corners.corner_call_line
-                          ? `Corners: Exp ${game.corners.exp_total_corners} (${game.corners.corner_call_line})`
-                          : `Exp. Corners: ${game.corners.exp_total_corners}`}
-                        value={game.corners.corner_call_pct ?? game.corners.over_9_5_pct}
-                        color="btts"
-                      />
-                      <ProbabilityItem
-                        label={`Over 10.5 Corners`}
-                        value={game.corners.over_10_5_pct}
-                        color="away"
-                      />
-                      <ProbabilityItem
-                        label={game.corners.booking_call_line 
-                          ? `Booking: Exp ${game.corners.exp_total_booking_pts}pts (Line: ${game.corners.booking_call_line})`
-                          : `Booking Pts: ${game.corners.exp_total_booking_pts}`}
-                        value={Math.min(100, Math.round((game.corners.exp_total_booking_pts / 120) * 100))}
-                        color="home"
-                      />
-                      {/* YES/NO/PASS Call Badges */}
-                      <div style={{marginTop:12, display:'flex', gap:8, flexWrap:'wrap'}}>
-                        {game.corners.corner_call && (() => {
-                          const cc = game.corners.corner_call
-                          const ccLine = game.corners.corner_call_line
-                          const ccPct  = game.corners.corner_call_pct
-                          const bg = cc === 'YES' ? 'rgba(74,222,128,0.15)' : cc === 'NO' ? 'rgba(248,113,113,0.15)' : 'rgba(148,163,184,0.1)'
-                          const border = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : '#64748b'
-                          const txt = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : '#94a3b8'
-                          if (cc === 'PASS') return <span style={{fontSize:10,color:'#64748b'}}>Corners: PASS</span>
-                          return (
-                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
-                              <span style={{color:'#94a3b8'}}>Corners </span>
-                              <span style={{color:txt, fontWeight:700}}>{cc} {ccLine} ({ccPct}%)</span>
-                            </div>
-                          )
-                        })()}
-                        {game.corners.booking_call && (() => {
-                          const bc = game.corners.booking_call
-                          const bcLine = game.corners.booking_call_line
-                          const bcPct  = game.corners.booking_call_pct
-                          const bg = bc === 'YES' ? 'rgba(74,222,128,0.15)' : bc === 'NO' ? 'rgba(248,113,113,0.15)' : 'rgba(148,163,184,0.1)'
-                          const border = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : '#64748b'
-                          const txt = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : '#94a3b8'
-                          if (bc === 'PASS') return <span style={{fontSize:10,color:'#64748b'}}>Booking: PASS</span>
-                          return (
-                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
-                              <span style={{color:'#94a3b8'}}>Booking </span>
-                              <span style={{color:txt, fontWeight:700}}>{bc} {bcLine} ({bcPct}%)</span>
-                            </div>
-                          )
-                        })()}
-                      </div>
-                    </div>
-                  )}
 
                 </div>
               </div>
