@@ -474,40 +474,30 @@ export default function App() {
             )}
           </div>
 
-          {sport === 'football' && (<>
-            <div className="control-group">
-                <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>1X2:</span>
-                <select className="filter-select" value={filterOutcome} onChange={e => setFilterOutcome(e.target.value)}>
-                  <option value="all">All 1X2</option>
-                  <option value="[STRONG] PLAY">[STRONG] PLAY</option>
-                  <option value="PLAY">PLAY (Any)</option>
-                  <option value="LEAN">LEAN</option>
-                </select>
-              </div>
-
-
-          </>)}
-
           {sport === 'football' && (
             <div className="control-group">
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Draw:</span>
+              <select className="filter-select" value={filterOutcome} onChange={e => setFilterOutcome(e.target.value)}>
+                <option value="all">All 1X2</option>
+                <option value="[STRONG] PLAY">[STRONG] PLAY</option>
+                <option value="PLAY">PLAY (Any)</option>
+                <option value="LEAN">LEAN</option>
+              </select>
+
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
-                <option value={0}>All draws</option>
-                  <option value={40}>≥ 40%</option>
-                  <option value={50}>≥ 50%</option>
-                  <option value={60}>≥ 60%</option>
-                  <option value={70}>≥ 70%</option>
+                <option value={0}>Draw (All)</option>
+                <option value={40}>Draw ≥ 40%</option>
+                <option value={50}>Draw ≥ 50%</option>
+                <option value={60}>Draw ≥ 60%</option>
+                <option value={70}>Draw ≥ 70%</option>
               </select>
 
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>BTTS %:</span>
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
-                <option value={0}>All rates</option>
-                <option value={70}>≥ 70%</option>
-                <option value={60}>≥ 60%</option>
-                <option value={50}>≥ 50%</option>
+                <option value={0}>BTTS (All)</option>
+                <option value={70}>BTTS ≥ 70%</option>
+                <option value={60}>BTTS ≥ 60%</option>
+                <option value={50}>BTTS ≥ 50%</option>
               </select>
 
-              <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>Corners:</span>
               <select className="filter-select" value={filterCorner} onChange={e => setFilterCorner(e.target.value)}>
                 <option value="all">All corners</option>
                 <option value="plays">All Plays (YES / NO)</option>
