@@ -44,13 +44,36 @@ export default function Scorecard({ data, sport = 'football' }) {
   const outcomePct = pct(outcomeW, outcomeT)
   const playPct    = pct(playW, playT)
 
-  // Corners & booking from grade_summary (populated after YES/NO/PASS grading)
-  const cornersW   = summary?.corners_wins  ?? null
-  const cornersT   = summary?.corners_total ?? null
-  const cornersPct = summary?.corners_pct   ?? null
-  const bookingW   = summary?.booking_wins  ?? null
-  const bookingT   = summary?.booking_total ?? null
-  const bookingPct = summary?.booking_pct   ?? null
+  // Corners & booking from grade_summary or fallback to client-side calculation
+  const clientCorners = graded.filter(p => {
+    const c = p.corners || {}
+    return c.corner_call && c.corner_call !== 'PASS' && p.actual_corners_total != null
+  })
+  const clientCornersW = clientCorners.filter(p => {
+    const c = p.corners || {}
+    const line = parseFloat((c.corner_call_line || '').split(' ').pop())
+    if (isNaN(line)) return false
+    return c.corner_call === 'YES' ? p.actual_corners_total > line : p.actual_corners_total < line
+  }).length
+
+  const clientBooking = graded.filter(p => {
+    const c = p.corners || {}
+    return c.booking_call && c.booking_call !== 'PASS' && p.actual_booking_pts != null
+  })
+  const clientBookingW = clientBooking.filter(p => {
+    const c = p.corners || {}
+    const parts = (c.booking_call_line || '').split(' ')
+    const line = parseFloat(parts[parts.length - 2])
+    if (isNaN(line)) return false
+    return c.booking_call === 'YES' ? p.actual_booking_pts > line : p.actual_booking_pts < line
+  }).length
+
+  const cornersW   = summary?.corners_wins  ?? clientCornersW
+  const cornersT   = summary?.corners_total ?? clientCorners.length
+  const cornersPct = summary?.corners_pct   ?? (cornersT > 0 ? Math.round((cornersW / cornersT) * 100) : null)
+  const bookingW   = summary?.booking_wins  ?? clientBookingW
+  const bookingT   = summary?.booking_total ?? clientBooking.length
+  const bookingPct = summary?.booking_pct   ?? (bookingT > 0 ? Math.round((bookingW / bookingT) * 100) : null)
 
   return (
     <div className="scorecard">
