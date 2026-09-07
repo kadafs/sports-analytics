@@ -470,7 +470,7 @@ export default function MatchRow({ game }) {
                     </div>
                   </div>
 
-                  {/* Goal Markets Section */}
+                  {/* Goal Markets Section - includes BTTS */}
                   <div className="prob-section">
                     <div className="ps-title">Goal Markets</div>
                     <ProbabilityItem 
@@ -483,57 +483,65 @@ export default function MatchRow({ game }) {
                       value={game.match_center?.over_2_5_prob} 
                       color="goals" 
                     />
+                    <ProbabilityItem
+                      label="Both Teams to Score"
+                      value={game.btts_prob}
+                      color="btts"
+                    />
+                    {game.btts_decision && (
+                      <div style={{marginTop: 4, fontSize: 10, color: '#94a3b8'}}>
+                        BTTS Confidence: {game.btts_decision?.includes('STRONG') ? 'HIGH' : 'MEDIUM'}
+                      </div>
+                    )}
                     <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
                       * Poisson Projections
                     </div>
                   </div>
 
                   {/* First Half Markets Section */}
-                    <div className="prob-section">
-                      <div className="ps-title">First Half Markets</div>
-                      
-                      <div className="poisson-outcomes" style={{marginBottom: 16}}>
-                        <div className="po-box">
-                          <span className="po-val">{game.match_center?.fh_1x2_home ? `${game.match_center.fh_1x2_home}%` : '-'}</span>
-                          <span className="po-lbl">HOME (1)</span>
-                        </div>
-                        <div className="po-box">
-                          <span className="po-val">{game.match_center?.fh_1x2_draw ? `${game.match_center.fh_1x2_draw}%` : '-'}</span>
-                          <span className="po-lbl">DRAW (X)</span>
-                        </div>
-                        <div className="po-box">
-                          <span className="po-val">{game.match_center?.fh_1x2_away ? `${game.match_center.fh_1x2_away}%` : '-'}</span>
-                          <span className="po-lbl">AWAY (2)</span>
-                        </div>
-                      </div>
+                  <div className="prob-section">
+                    <div className="ps-title">First Half Markets</div>
 
-                      <ProbabilityItem 
-                        label="FH Over 0.5 Goals" 
-                        value={game.match_center?.fh_over_0_5_prob} 
-                        color="goals" 
-                      />
-                      <ProbabilityItem 
-                        label="FH Over 1.5 Goals" 
-                        value={game.match_center?.fh_over_1_5_prob} 
-                        color="goals" 
-                      />
-                      <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
-                        * First Half Poisson Projections
+                    {/* 3-box panel: Home | Draw | Away */}
+                    <div style={{display:'flex', gap:8, marginBottom:14}}>
+                      <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                        <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>
+                          {game.match_center?.fh_1x2_home ? `${game.match_center.fh_1x2_home}%` : '-'}
+                        </div>
+                        <div style={{fontSize:9, color:'#64748b', marginTop:2}}>FH Win</div>
+                      </div>
+                      <div style={{flex:1, background:'rgba(148,163,184,0.08)', border:'1px solid rgba(148,163,184,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Draw</div>
+                        <div style={{fontSize:18, fontWeight:800, color:'#94a3b8', lineHeight:1}}>
+                          {game.match_center?.fh_1x2_draw ? `${game.match_center.fh_1x2_draw}%` : '-'}
+                        </div>
+                        <div style={{fontSize:9, color:'#64748b', marginTop:2}}>FH Draw</div>
+                      </div>
+                      <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                        <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>
+                          {game.match_center?.fh_1x2_away ? `${game.match_center.fh_1x2_away}%` : '-'}
+                        </div>
+                        <div style={{fontSize:9, color:'#64748b', marginTop:2}}>FH Win</div>
                       </div>
                     </div>
 
-                    {/* BTTS Section */}
-                  <div className="prob-section">
-                    <div className="ps-title">Both Teams to Score</div>
                     <ProbabilityItem 
-                      label="BTTS: Yes" 
-                      value={game.btts_prob} 
-                      color="btts" 
+                      label="FH Over 0.5 Goals" 
+                      value={game.match_center?.fh_over_0_5_prob} 
+                      color="goals" 
                     />
-                    <div style={{marginTop: 16, fontSize: 10, color: '#94a3b8'}}>
-                      Confidence: {game.btts_decision?.includes('STRONG') ? 'HIGH' : 'MEDIUM'}
+                    <ProbabilityItem 
+                      label="FH Over 1.5 Goals" 
+                      value={game.match_center?.fh_over_1_5_prob} 
+                      color="goals" 
+                    />
+                    <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
+                      * First Half Poisson Projections
                     </div>
                   </div>
+
 
                   {/* Corners & Booking Detail */}
                   {game.corners && (
