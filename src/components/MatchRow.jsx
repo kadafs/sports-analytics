@@ -639,7 +639,7 @@ export default function MatchRow({ game }) {
                         {game.home_injuries?.length > 0 && (
                           <div>
                             <div style={{fontSize:10,fontWeight:700,color:'#38bdf8',marginBottom:4,textTransform:'uppercase'}}>{game.home_team}</div>
-                            {game.home_injuries.map((inj, i) => (
+                            {[...new Set(game.home_injuries)].map((inj, i) => (
                               <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
                             ))}
                           </div>
@@ -647,7 +647,7 @@ export default function MatchRow({ game }) {
                         {game.away_injuries?.length > 0 && (
                           <div>
                             <div style={{fontSize:10,fontWeight:700,color:'#f472b6',marginBottom:4,textTransform:'uppercase'}}>{game.away_team}</div>
-                            {game.away_injuries.map((inj, i) => (
+                            {[...new Set(game.away_injuries)].map((inj, i) => (
                               <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
                             ))}
                           </div>
