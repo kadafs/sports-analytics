@@ -151,7 +151,7 @@ export default function MatchRow({ game }) {
           const ccPct = game.corners.corner_call_pct
           const ccLine = game.corners.corner_call_line || ''
           const callColor = cc === 'YES' ? '#4ade80' : cc === 'NO' ? '#f87171' : null
-          const tooltip = `${game.corners.corner_recommendation} | ${ccLine}${ccPct ? ` (${ccPct}%)` : ''}`
+          const tooltip = cc && cc !== 'PASS' ? `${cc}: ${ccLine} (${ccPct}%)` : `Corners: PASS (Exp ${game.corners.exp_total_corners})`
           return (
             <div className="match-corners-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
               <span style={{fontSize:13,fontWeight:800,color:'#38bdf8',lineHeight:1}}>{game.corners.exp_total_corners}</span>
@@ -174,7 +174,7 @@ export default function MatchRow({ game }) {
           const bcPct = game.corners.booking_call_pct
           const bcLine = game.corners.booking_call_line || ''
           const bkColor = bc === 'YES' ? '#4ade80' : bc === 'NO' ? '#f87171' : null
-          const tooltip = `${game.corners.booking_recommendation} | ${bcLine}${bcPct ? ` (${bcPct}%)` : ''}`
+          const tooltip = bc && bc !== 'PASS' ? `${bc}: ${bcLine} (${bcPct}%)` : `Booking: PASS (Exp ${game.corners.exp_total_booking_pts}pts)`
           return (
             <div className="match-booking-col" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
               <span style={{fontSize:13,fontWeight:800,color:'#fbbf24',lineHeight:1}}>{game.corners.exp_total_booking_pts}</span>

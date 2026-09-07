@@ -154,6 +154,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     
     if (sport === 'football' && filterCorner !== 'all') {
       const c = p.corners || {}
+      const expCorners = c.exp_total_corners ?? c.exp_total
       if (filterCorner === 'plays') {
         if (c.corner_call !== 'YES' && c.corner_call !== 'NO') return false
       } else if (filterCorner === 'over') {
@@ -161,9 +162,9 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       } else if (filterCorner === 'under') {
         if (!(c.corner_call === 'NO' && (c.corner_call_line || '').includes('UNDER'))) return false
       } else if (filterCorner === 'exp_high') {
-        if ((c.exp_total ?? 0) < 10.5) return false
+        if (expCorners == null || expCorners < 10.5) return false
       } else if (filterCorner === 'exp_low') {
-        if (c.exp_total == null || c.exp_total >= 9.5) return false
+        if (expCorners == null || expCorners >= 9.5) return false
       }
     }
     
