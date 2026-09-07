@@ -1,5 +1,19 @@
 import { useState } from 'react'
 
+function dedupeByPlayer(injuries) {
+  if (!injuries || !injuries.length) return [];
+  const map = new Map();
+  for (const inj of injuries) {
+    const playerName = inj.replace(/\s*\([^)]*\)$/, '').trim();
+    if (!map.has(playerName)) {
+      map.set(playerName, inj);
+    } else if (map.get(playerName).includes('Questionable') && inj.includes('Missing Fixture')) {
+      map.set(playerName, inj);
+    }
+  }
+  return Array.from(map.values());
+}
+
 function tipFor(predicted_result) {
   if (predicted_result === 'HOME') return { label: '1', cls: 'home' }
   if (predicted_result === 'DRAW') return { label: 'X', cls: 'draw' }
@@ -639,7 +653,7 @@ export default function MatchRow({ game }) {
                         {game.home_injuries?.length > 0 && (
                           <div>
                             <div style={{fontSize:10,fontWeight:700,color:'#38bdf8',marginBottom:4,textTransform:'uppercase'}}>{game.home_team}</div>
-                            {[...new Set(game.home_injuries)].map((inj, i) => (
+                            {dedupeByPlayer(game.home_injuries).map((inj, i) => (
                               <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
                             ))}
                           </div>
@@ -647,7 +661,7 @@ export default function MatchRow({ game }) {
                         {game.away_injuries?.length > 0 && (
                           <div>
                             <div style={{fontSize:10,fontWeight:700,color:'#f472b6',marginBottom:4,textTransform:'uppercase'}}>{game.away_team}</div>
-                            {[...new Set(game.away_injuries)].map((inj, i) => (
+                            {dedupeByPlayer(game.away_injuries).map((inj, i) => (
                               <div key={i} style={{fontSize:11,color:'#fca5a5',padding:'2px 0'}}>{inj}</div>
                             ))}
                           </div>
