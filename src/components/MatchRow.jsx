@@ -570,9 +570,7 @@ export default function MatchRow({ game }) {
                       )}
 
                       <ProbabilityItem
-                        label={game.corners.corner_call_line
-                          ? `Over 10.5 Corners (Line: ${game.corners.corner_call_line})`
-                          : `Over 10.5 Corners`}
+                        label={`Over 10.5 Corners${game.corners.over_10_5_pct != null ? ` — ${game.corners.over_10_5_pct}%` : ''}`}
                         value={game.corners.over_10_5_pct}
                         color="btts"
                       />
@@ -619,19 +617,6 @@ export default function MatchRow({ game }) {
                     </div>
                   )}
 
-                  {/* Market Odds */}
-                  {game.market_odds && (
-                    <div className="prob-section">
-                      <div className="ps-title">Bookmaker Odds</div>
-                      <div className="market-odds-row">
-                        <div className="mo-box"><span className="mo-val">{game.market_odds.home}</span><span className="mo-lbl">Home</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.market_odds.draw}</span><span className="mo-lbl">Draw</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.market_odds.away}</span><span className="mo-lbl">Away</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.market_odds.btts_yes}</span><span className="mo-lbl">BTTS Y</span></div>
-                        <div className="mo-box"><span className="mo-val">{game.market_odds.over25}</span><span className="mo-lbl">O2.5</span></div>
-                      </div>
-                    </div>
-                  )}
 
                   {/* API Consensus */}
                   {game.api_consensus && (
