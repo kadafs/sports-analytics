@@ -345,8 +345,10 @@ export default function App() {
   }, [selectedDate, sport])
 
   const countries = useMemo(() => {
-    if (!data) return []
-    return ['all', ...new Set(data.predictions.map(p => p.country))]
+    if (!data || !data.predictions) return []
+    const list = [...new Set(data.predictions.map(p => p.country).filter(Boolean))]
+    list.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+    return ['all', ...list]
   }, [data])
 
   const filtered = useMemo(() => {
