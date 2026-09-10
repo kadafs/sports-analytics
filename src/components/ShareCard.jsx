@@ -43,6 +43,19 @@ function PickBadges({ p, filterType }) {
     )
   }
 
+  // O2.5-focused filter
+  if (filterType === 'o25') {
+    const o25 = p.match_center?.over_2_5_prob ?? p.over_2_5_prob
+    if (o25 == null) return null
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 3 }}>
+        <span style={badgeStyle('rgba(74,222,128,0.2)', '#4ade80', '#4ade80')}>
+          O2.5 {Math.round(o25)}%
+        </span>
+      </div>
+    )
+  }
+
   // 1X2 / outcome filter
   if (filterType === '1x2') {
     return p.outcome_decision ? (

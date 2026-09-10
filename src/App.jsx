@@ -136,7 +136,7 @@ function sortGroups(groups, sortBy) {
   })
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -184,6 +184,11 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
           if ((teamStats.btts_hit_rate ?? 100) < TEAM_HIT_RATE) return false
         }
       }
+    }
+    
+    if (sport === 'football' && filterO25 > 0) {
+      const o25Prob = (p.match_center || {}).over_2_5_prob ?? p.over_2_5_prob ?? 0
+      if (o25Prob < filterO25) return false
     }
     
     // MAPE & Volatility Filter (Basketball only)
@@ -244,6 +249,7 @@ export default function App() {
   const [filterCountry, setFilterCountry] = useState('all')
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
+  const [filterO25,     setFilterO25]     = useState(0)    // min Over 2.5 probability percentage
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
@@ -353,8 +359,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
 
@@ -397,6 +403,7 @@ export default function App() {
           setFilterCountry('all'); 
           setFilterDraw(0); 
           setFilterBttsHitRate(0);
+          setFilterO25(0);
           setFilterMape(100);
           setFilterVolatility(100);
           setFilterWomen('all');
@@ -464,16 +471,7 @@ export default function App() {
                 {s.charAt(0).toUpperCase() + s.slice(1)}
               </button>
             ))}
-            {sport === 'football' && (
-              <button
-                className={`control-btn ${sortBy === 'o25' ? 'active' : ''}`}
-                onClick={() => setSortBy('o25')}
-                title="Sort by Over 2.5 Goals probability (highest first)"
-                style={sortBy === 'o25' ? { borderColor: '#4ade80', color: '#4ade80' } : {}}
-              >
-                O2.5 ↓
-              </button>
-            )}
+
           </div>
 
           {sport === 'football' && (
@@ -498,6 +496,16 @@ export default function App() {
                 <option value={70}>BTTS ≥ 70%</option>
                 <option value={60}>BTTS ≥ 60%</option>
                 <option value={50}>BTTS ≥ 50%</option>
+              </select>
+
+              <select className="filter-select" value={filterO25} onChange={e => setFilterO25(Number(e.target.value))}>
+                <option value={0}>O2.5 (All)</option>
+                <option value={80}>O2.5 ≥ 80%</option>
+                <option value={75}>O2.5 ≥ 75%</option>
+                <option value={70}>O2.5 ≥ 70%</option>
+                <option value={65}>O2.5 ≥ 65%</option>
+                <option value={60}>O2.5 ≥ 60%</option>
+                <option value={50}>O2.5 ≥ 50%</option>
               </select>
 
               <select className="filter-select" value={filterCorner} onChange={e => setFilterCorner(e.target.value)}>
@@ -596,7 +604,7 @@ export default function App() {
 
 
             {/* Share button — only when picks selected OR a strong filter is active */}
-            {sport === 'football' && (filterBttsHitRate >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
+            {sport === 'football' && (filterBttsHitRate >= 60 || filterO25 >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
               <button
                 onClick={() => setShareOpen(true)}
                 style={{
@@ -672,6 +680,7 @@ export default function App() {
           let filterLabel = 'TOP PICKS'
           let filterType = 'all'
           if (filterBttsHitRate >= 60) { filterLabel = `BTTS ≥${filterBttsHitRate}%`; filterType = 'btts' }
+          if (filterO25 >= 60) { filterLabel = `O2.5 ≥${filterO25}%`; filterType = 'o25' }
           if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
           if (filterDraw > 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
           if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }

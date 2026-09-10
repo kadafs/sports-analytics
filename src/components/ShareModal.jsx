@@ -6,9 +6,11 @@ function buildTweetText(picks, filterLabel, date) {
   const dateStr = date || new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
   const lines = picks.slice(0, 8).map(p => {
     const btts = p.btts_prob != null ? ` | BTTS ${Math.round(p.btts_prob)}%` : ''
+    const o25Val = p.match_center?.over_2_5_prob ?? p.over_2_5_prob
+    const o25Str = o25Val != null ? ` | O2.5 ${Math.round(o25Val)}%` : ''
     const corners = p.corners?.corner_call && p.corners.corner_call !== 'PASS'
       ? ` | CRN ${p.corners.corner_call}` : ''
-    return `\u26bd ${p.home_team} vs ${p.away_team}${btts}${corners}`
+    return `\u26bd ${p.home_team} vs ${p.away_team}${btts}${o25Str}${corners}`
   })
   const label = filterLabel || 'TOP PICKS'
   const header = `\uD83D\uDCCA ${label.toUpperCase()} \u2014 ${dateStr}`
