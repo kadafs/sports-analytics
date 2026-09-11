@@ -73,6 +73,10 @@ export default function MatchRow({ game }) {
   const bGrade = bttsGrade(game)
   const isGraded = game.actual_result != null
 
+  const xgHome = game.xg_home ?? game.match_center?.xg_home
+  const xgAway = game.xg_away ?? game.match_center?.xg_away
+  const xgTotal = game.xg_total ?? game.match_center?.xg_total ?? (xgHome != null && xgAway != null ? xgHome + xgAway : null)
+
   return (
     <>
       <div
@@ -249,6 +253,9 @@ export default function MatchRow({ game }) {
                     <div className="stats-body">
                       <StatRow label="Matches Played" home={sh.played} away={sa.played} />
                       <StatRow label="Win %" home={sh.win_pct != null ? `${(sh.win_pct*100).toFixed(0)}%` : null} away={sa.win_pct != null ? `${(sa.win_pct*100).toFixed(0)}%` : null} />
+                      {(xgHome != null || xgAway != null) && (
+                        <StatRow label="Expected Goals (xG)" home={xgHome != null ? fmt(xgHome, 2) : null} away={xgAway != null ? fmt(xgAway, 2) : null} highlight="high" />
+                      )}
                       <StatRow label="Goals Scored/Game" home={sh.scored} away={sa.scored} highlight="high" />
                       <StatRow label="Goals Cond/Game" home={sh.conceded} away={sa.conceded} highlight="low" />
                       <StatRow label="Clean Sheets" home={sh.clean_sheets} away={sa.clean_sheets} highlight="high" />
@@ -260,6 +267,7 @@ export default function MatchRow({ game }) {
                         <div className="poisson-banner">
                           <div className="pb-title">Poisson Match Probabilities</div>
                           <div className="pb-values">
+                            {xgTotal != null && <span>xG: <b style={{ color: '#fbbf24' }}>{fmt(xgTotal, 2)}</b></span>}
                             <span>O1.5: <b>{m.over_1_5_prob}%</b></span>
                             <span>O2.5: <b>{m.over_2_5_prob}%</b></span>
                             <span>BTTS: <b className={game.btts_prob >= 50 ? 'high' : 'low'}>{fmt(game.btts_prob,1)}%</b></span>
@@ -483,6 +491,39 @@ export default function MatchRow({ game }) {
                       </div>
                     </div>
                   </div>
+
+                  {/* Expected Goals (xG) Section */}
+                  {(xgHome != null || xgAway != null || xgTotal != null) && (
+                    <div className="prob-section">
+                      <div className="ps-title">Expected Goals (xG)</div>
+                      <div style={{display:'flex', gap:8, marginBottom:12}}>
+                        <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>
+                            {xgHome != null ? fmt(xgHome, 2) : '-'}
+                          </div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Home xG</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>
+                            {xgAway != null ? fmt(xgAway, 2) : '-'}
+                          </div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Away xG</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#fbbf24', lineHeight:1}}>
+                            {xgTotal != null ? fmt(xgTotal, 2) : '-'}
+                          </div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Total xG</div>
+                        </div>
+                      </div>
+                      <div style={{marginTop: 8, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
+                        * Poisson Projected Match Goals
+                      </div>
+                    </div>
+                  )}
 
                   {/* Goal Markets Section - includes BTTS */}
                   <div className="prob-section">
