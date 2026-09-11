@@ -76,6 +76,7 @@ export default function MatchRow({ game }) {
   const xgHome = game.xg_home ?? game.match_center?.xg_home
   const xgAway = game.xg_away ?? game.match_center?.xg_away
   const xgTotal = game.xg_total ?? game.match_center?.xg_total ?? (xgHome != null && xgAway != null ? xgHome + xgAway : null)
+  const postXgot = game.post_match_xgot || game.match_center?.post_match_xgot || null
 
   return (
     <>
@@ -255,6 +256,12 @@ export default function MatchRow({ game }) {
                       <StatRow label="Win %" home={sh.win_pct != null ? `${(sh.win_pct*100).toFixed(0)}%` : null} away={sa.win_pct != null ? `${(sa.win_pct*100).toFixed(0)}%` : null} />
                       {(xgHome != null || xgAway != null) && (
                         <StatRow label="Expected Goals (xG)" home={xgHome != null ? fmt(xgHome, 2) : null} away={xgAway != null ? fmt(xgAway, 2) : null} highlight="high" />
+                      )}
+                      {postXgot && (
+                        <>
+                          <StatRow label="Goals on Target (xGOT)" home={fmt(postXgot.xgot_home, 2)} away={fmt(postXgot.xgot_away, 2)} highlight="high" />
+                          <StatRow label="GK Goals Prevented" home={postXgot.home_gk_prevented > 0 ? `+${fmt(postXgot.home_gk_prevented, 2)}` : fmt(postXgot.home_gk_prevented, 2)} away={postXgot.away_gk_prevented > 0 ? `+${fmt(postXgot.away_gk_prevented, 2)}` : fmt(postXgot.away_gk_prevented, 2)} highlight="high" />
+                        </>
                       )}
                       <StatRow label="Goals Scored/Game" home={sh.scored} away={sa.scored} highlight="high" />
                       <StatRow label="Goals Cond/Game" home={sh.conceded} away={sa.conceded} highlight="low" />
@@ -492,10 +499,10 @@ export default function MatchRow({ game }) {
                     </div>
                   </div>
 
-                  {/* Expected Goals (xG) Section */}
+                  {/* Expected Goals (xG & xGOT) Section */}
                   {(xgHome != null || xgAway != null || xgTotal != null) && (
                     <div className="prob-section">
-                      <div className="ps-title">Expected Goals (xG)</div>
+                      <div className="ps-title">Expected Goals (xG &amp; xGOT)</div>
                       <div style={{display:'flex', gap:8, marginBottom:12}}>
                         <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
@@ -503,6 +510,11 @@ export default function MatchRow({ game }) {
                             {xgHome != null ? fmt(xgHome, 2) : '-'}
                           </div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Home xG</div>
+                          {postXgot && (
+                            <div style={{fontSize:11, color:'#38bdf8', fontWeight:800, marginTop:4, borderTop:'1px dashed rgba(56,189,248,0.3)', paddingTop:3}}>
+                              {fmt(postXgot.xgot_home, 2)} <span style={{fontSize:8, opacity:0.8}}>xGOT</span>
+                            </div>
+                          )}
                         </div>
                         <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
@@ -510,6 +522,11 @@ export default function MatchRow({ game }) {
                             {xgAway != null ? fmt(xgAway, 2) : '-'}
                           </div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Away xG</div>
+                          {postXgot && (
+                            <div style={{fontSize:11, color:'#f472b6', fontWeight:800, marginTop:4, borderTop:'1px dashed rgba(244,114,182,0.3)', paddingTop:3}}>
+                              {fmt(postXgot.xgot_away, 2)} <span style={{fontSize:8, opacity:0.8}}>xGOT</span>
+                            </div>
+                          )}
                         </div>
                         <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
@@ -517,10 +534,26 @@ export default function MatchRow({ game }) {
                             {xgTotal != null ? fmt(xgTotal, 2) : '-'}
                           </div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Total xG</div>
+                          {postXgot && (
+                            <div style={{fontSize:11, color:'#fbbf24', fontWeight:800, marginTop:4, borderTop:'1px dashed rgba(251,191,36,0.3)', paddingTop:3}}>
+                              {fmt(postXgot.xgot_total, 2)} <span style={{fontSize:8, opacity:0.8}}>xGOT</span>
+                            </div>
+                          )}
                         </div>
                       </div>
-                      <div style={{marginTop: 8, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
-                        * Poisson Projected Match Goals
+
+                      {postXgot?.insights && postXgot.insights.length > 0 && (
+                        <div style={{display:'flex', gap:6, flexWrap:'wrap', marginBottom:8}}>
+                          {postXgot.insights.map((ins, idx) => (
+                            <span key={idx} style={{fontSize:10, fontWeight:700, background:'rgba(245,158,11,0.15)', color:'#fbbf24', border:'1px solid rgba(245,158,11,0.3)', borderRadius:4, padding:'2px 6px'}}>
+                              ⚡ {ins}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      <div style={{marginTop: 4, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
+                        * {postXgot ? 'Poisson xG Projections & Post-Shot xGOT' : 'Poisson Projected Match Goals'}
                       </div>
                     </div>
                   )}
@@ -729,6 +762,17 @@ export default function MatchRow({ game }) {
                    <b>xG Grade:</b> {game.accuracy_tier} <span style={{ fontSize: '0.85em', opacity: 0.8 }}>(Δ {game.total_delta})</span>
                  </span>
                )}
+                {postXgot && (
+                  <span style={{ marginLeft: 16 }}>
+                    <b>xGOT:</b> {postXgot.xgot_home} - {postXgot.xgot_away}
+                    {postXgot.away_gk_prevented >= 0.8 && (
+                      <span style={{ color: '#4ade80', marginLeft: 4 }}>({game.away_team} GK +{postXgot.away_gk_prevented} saved)</span>
+                    )}
+                    {postXgot.home_gk_prevented >= 0.8 && (
+                      <span style={{ color: '#4ade80', marginLeft: 4 }}>({game.home_team} GK +{postXgot.home_gk_prevented} saved)</span>
+                    )}
+                  </span>
+                )}
              </div>
           )}
         </div>

@@ -101,9 +101,12 @@ export default function LiveDashboard() {
             <div key={match.fixture_id} className={`live-match-card ${match.triggers.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`} onClick={() => toggleExpand(match.fixture_id)}>
               <div className="match-header">
                 <span className="match-time">{match.status} {match.elapsed}'</span>
-                {match.triggers.map(t => (
-                  <span key={t} className="trigger-badge">{t.replace(/_/g, ' ')}</span>
-                ))}
+                {match.triggers.map(t => {
+                  let cls = 'trigger-badge';
+                  if (t.includes('SIEGE') || t.includes('RED')) cls += ' siege';
+                  else if (t.includes('HEROICS')) cls += ' heroics';
+                  return <span key={t} className={cls}>{t.replace(/_/g, ' ')}</span>
+                })}
               </div>
               <div className="match-teams">
                 <div className={`team ${match.score.split('-')[0] < match.score.split('-')[1] ? 'losing' : ''}`}>
@@ -130,6 +133,18 @@ export default function LiveDashboard() {
                     <span>{match.stats.home.shots_on_goal}</span>
                     <span>-</span>
                     <span>{match.stats.away.shots_on_goal}</span>
+                  </div>
+                </div>
+                <div className="stat-row">
+                  <span className="stat-label">Live xGOT</span>
+                  <div className="stat-values">
+                    <span className={`xgot-val ${(match.home_xgot || 0) > (match.away_xgot || 0) ? 'dom' : ''}`}>
+                      {match.home_xgot != null ? match.home_xgot.toFixed(2) : ((match.stats?.home?.shots_on_goal || 0) * 0.32).toFixed(1)}
+                    </span>
+                    <span className="vs">vs</span>
+                    <span className={`xgot-val ${(match.away_xgot || 0) > (match.home_xgot || 0) ? 'dom' : ''}`}>
+                      {match.away_xgot != null ? match.away_xgot.toFixed(2) : ((match.stats?.away?.shots_on_goal || 0) * 0.32).toFixed(1)}
+                    </span>
                   </div>
                 </div>
                 <div className="stat-row-vertical">
@@ -164,6 +179,18 @@ export default function LiveDashboard() {
                     <div className="expanded-stat-col">
                       <div className="stat-label">Total Shots</div>
                       <div className="stat-values"><span>{match.stats?.home?.total_shots || 0}</span> - <span>{match.stats?.away?.total_shots || 0}</span></div>
+                    </div>
+                    <div className="expanded-stat-col">
+                      <div className="stat-label">GK Goals Prevented</div>
+                      <div className="stat-values">
+                        <span style={{ color: (match.home_gk_prevented || 0) > 0 ? '#4ade80' : '' }}>
+                          {match.home_gk_prevented != null ? (match.home_gk_prevented > 0 ? `+${match.home_gk_prevented}` : match.home_gk_prevented) : '-'}
+                        </span>
+                        {' - '}
+                        <span style={{ color: (match.away_gk_prevented || 0) > 0 ? '#4ade80' : '' }}>
+                          {match.away_gk_prevented != null ? (match.away_gk_prevented > 0 ? `+${match.away_gk_prevented}` : match.away_gk_prevented) : '-'}
+                        </span>
+                      </div>
                     </div>
                     <div className="expanded-stat-col">
                       <div className="stat-label">Fouls</div>
