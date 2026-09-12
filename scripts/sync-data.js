@@ -47,7 +47,7 @@ for (const sport of sports) {
         dates.push({
           date: dateStr,
           total: content.total_predictions || 0,
-          graded: content.grade_summary != null,
+          graded: content.grade_summary != null || scored_count > 0,
           graded_count: scored_count,
           grade_summary: content.grade_summary || null
         });
