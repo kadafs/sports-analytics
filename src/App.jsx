@@ -108,7 +108,7 @@ const LEAGUE_PRIORITY = {
   1035: 160, 1232: 161, 1168: 162
 }
 
-function sortGroups(groups, sortBy) {
+function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
   if (sortBy === 'country') return [...groups].sort((a, b) => a.country.localeCompare(b.country))
   if (sortBy === 'time') return [...groups]
   if (sortBy === 'o25') {
@@ -127,7 +127,52 @@ function sortGroups(groups, sortBy) {
     })
   }
   
-  // Default (Competition): Sort by global tier, then alphabetical
+  // Football Smart Competition Sort: Top tiers & marquee pinned, rest sorted by BTTS Edge/ROI
+  if (sport === 'football') {
+    const lbMap = new Map()
+    for (const entry of (leaderboard || [])) {
+      if (entry.league_id) lbMap.set(entry.league_id, entry)
+      if (entry.name) lbMap.set(entry.name, entry)
+    }
+
+    const PINNED_LEAGUE_IDS = new Set([
+      2, 3, 848, 13, 11, 10,        // UEFA & CONMEBOL Continental
+      39, 140, 135, 78, 61, 88, 94, // Top European Leagues (EPL, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal)
+      45, 48, 143, 137, 81, 66, 529,// Major Domestic Cups
+      40,                            // England Championship
+      253                            // USA Major League Soccer
+    ])
+
+    const isPinned = (lid, prio) => (prio > 0 && prio <= 46) || PINNED_LEAGUE_IDS.has(lid)
+
+    const computeRankScore = (g) => {
+      const prio = LEAGUE_PRIORITY[g.league_id] || 999
+      if (isPinned(g.league_id, prio)) {
+        return 100000 - prio
+      }
+
+      const nameKey = `${(g.country || '').toUpperCase()} — ${(g.league || '').toUpperCase()}`
+      const stats = lbMap.get(g.league_id) || lbMap.get(nameKey)
+      if (stats && stats.btts_plays >= 5) {
+        const roi = stats.btts_roi ?? 0.0
+        const hit = stats.btts_hit_rate ?? 0.0
+        if (roi > 0) {
+          return 10000 + (roi * 100.0) + hit
+        } else {
+          return (roi * 100.0) + hit
+        }
+      }
+      return 5000 - prio
+    }
+
+    return [...groups].sort((a, b) => {
+      const scoreDiff = computeRankScore(b) - computeRankScore(a)
+      if (scoreDiff !== 0) return scoreDiff
+      return a.league.localeCompare(b.league)
+    })
+  }
+
+  // Basketball / Fallback: Sort by global tier, then alphabetical
   return [...groups].sort((a, b) => {
     const aPrio = LEAGUE_PRIORITY[a.league_id] || 999
     const bPrio = LEAGUE_PRIORITY[b.league_id] || 999
@@ -362,7 +407,7 @@ export default function App() {
     return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25)
   }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25])
 
-  const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy), [filtered, sortBy, sport])
+  const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
   const counts = useMemo(() => {
     if (sport === 'football') {
