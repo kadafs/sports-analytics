@@ -78,7 +78,7 @@ const LEAGUE_PRIORITY = {
   
   // Tier 7: Mid-Tier Europe WITH corners/bookings stats (API-confirmed quality)
   119: 60, 113: 61, 103: 62, 210: 63, 285: 64, 106: 65, 283: 66, 89: 67,
-  244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75, 332: 76,
+  244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75, 332: 76, 333: 77, 318: 78,
   
   // Tier 8: Top 5 Second Divisions + Quality 2nd Tiers with stats
   40: 80, 141: 81, 136: 82, 79: 83, 62: 84, 41: 86, 95: 87, 114: 88,
@@ -136,14 +136,20 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
     }
 
     const PINNED_LEAGUE_IDS = new Set([
-      2, 3, 848, 13, 11, 10,        // UEFA & CONMEBOL Continental
-      39, 140, 135, 78, 61, 88, 94, // Top European Leagues (EPL, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal)
-      45, 48, 143, 137, 81, 66, 529,// Major Domestic Cups
-      40,                            // England Championship
-      253                            // USA Major League Soccer
+      // UEFA & CONMEBOL Continental
+      2, 3, 848, 531, 13, 11, 10,
+      // European First Divisions (Top Flights)
+      39, 140, 135, 78, 61, 88, 94,   // England, Spain, Italy, Germany, France, Netherlands, Portugal
+      144, 203, 179, 218, 207, 197, 345, 235, // Belgium, Turkey, Scotland, Austria, Switzerland, Greece, Czech, Russia
+      119, 113, 103, 210, 106, 283, 333, 271, 244, 172, 286, 116, 357, 332, 318, // Denmark, Sweden, Norway, Croatia, Poland, Romania, Ukraine, Hungary, Finland, Bulgaria, Serbia, Belarus, Ireland, Slovakia, Cyprus
+      // Major Domestic Cups
+      45, 48, 143, 137, 81, 66, 529,
+      // Pinned Key Leagues
+      40,  // England Championship
+      253  // USA Major League Soccer
     ])
 
-    const isPinned = (lid, prio) => (prio > 0 && prio <= 46) || PINNED_LEAGUE_IDS.has(lid)
+    const isPinned = (lid, prio) => PINNED_LEAGUE_IDS.has(lid)
 
     const computeRankScore = (g) => {
       const prio = LEAGUE_PRIORITY[g.league_id] || 999
