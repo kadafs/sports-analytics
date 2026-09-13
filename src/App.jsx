@@ -90,7 +90,7 @@ const LEAGUE_PRIORITY = {
   262: 105, 253: 106, 772: 107, 479: 108,
   
   // Tier 11: Emerging / Cash Leagues
-  307: 112, 80: 113,  // Germany 3. Liga
+  307: 112,
   
   // Tier 12: Asia, Africa & Middle East (with stats coverage)
   98: 120, 292: 121, 188: 122, 169: 123, 288: 124, 301: 125, 305: 126, 233: 127,
@@ -99,7 +99,7 @@ const LEAGUE_PRIORITY = {
   254: 133, 237: 134, 252: 135,
   
   // Tier 14: Regional 2nd Divisions
-  134: 140, 236: 141, 42: 142, 46: 143,
+  134: 140, 236: 141, 42: 142, 46: 143, 80: 144,  // Germany 3. Liga (3rd Tier)
   
   // Tier 15: Women's Leagues
   549: 150,
