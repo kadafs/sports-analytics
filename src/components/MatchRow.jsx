@@ -65,7 +65,7 @@ function GradeIcon({ grade }) {
 
 export default function MatchRow({ game }) {
   const [open, setOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState('stats') // 'stats', 'h2h', 'standings'
+  const [activeTab, setActiveTab] = useState('probabilities') // 'probabilities', 'stats', 'h2h', 'standings', 'props'
 
   const tip    = tipFor(game.predicted_result)
   const dClass = decisionClass(game.btts_decision)
@@ -204,6 +204,12 @@ export default function MatchRow({ game }) {
         <div className="match-detail-container">
           <div className="tab-nav">
             <button 
+              className={activeTab === 'probabilities' ? 'active' : ''} 
+              onClick={(e) => { e.stopPropagation(); setActiveTab('probabilities') }}
+            >
+              PROBABILITIES
+            </button>
+            <button 
               className={activeTab === 'stats' ? 'active' : ''} 
               onClick={(e) => { e.stopPropagation(); setActiveTab('stats') }}
             >
@@ -220,12 +226,6 @@ export default function MatchRow({ game }) {
               onClick={(e) => { e.stopPropagation(); setActiveTab('standings') }}
             >
               STANDINGS
-            </button>
-            <button 
-              className={activeTab === 'probabilities' ? 'active' : ''} 
-              onClick={(e) => { e.stopPropagation(); setActiveTab('probabilities') }}
-            >
-              PROBABILITIES
             </button>
               <button 
                 className={activeTab === 'props' ? 'active' : ''} 
