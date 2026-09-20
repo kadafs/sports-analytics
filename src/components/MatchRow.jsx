@@ -55,6 +55,67 @@ function bttsGrade(game) {
   return null // PASS
 }
 
+
+function shotsGrade(game) {
+  const shots = game.shots || {}
+  const call = shots.shots_call
+  if (!call || call === 'PASS') return null
+  const actualTotal = game.actual_shots_total
+  if (actualTotal == null) return null
+  const lineStr = shots.shots_call_line || ''
+  const parts = lineStr.trim().split(/\s+/)
+  const lineVal = parseFloat(parts[parts.length - 1])
+  if (isNaN(lineVal)) return null
+  if (lineStr.includes('OVER')) return actualTotal > lineVal ? 'WIN' : 'LOSS'
+  if (lineStr.includes('UNDER')) return actualTotal < lineVal ? 'WIN' : 'LOSS'
+  return null
+}
+
+function sotGrade(game) {
+  const shots = game.shots || {}
+  const call = shots.sot_call
+  if (!call || call === 'PASS') return null
+  const actualTotal = game.actual_sot_total
+  if (actualTotal == null) return null
+  const lineStr = shots.sot_call_line || ''
+  const parts = lineStr.trim().split(/\s+/)
+  const lineVal = parseFloat(parts[parts.length - 1])
+  if (isNaN(lineVal)) return null
+  if (lineStr.includes('OVER')) return actualTotal > lineVal ? 'WIN' : 'LOSS'
+  if (lineStr.includes('UNDER')) return actualTotal < lineVal ? 'WIN' : 'LOSS'
+  return null
+}
+
+function cornerGrade(game) {
+  const corners = game.corners || {}
+  const call = corners.corner_call
+  if (!call || call === 'PASS') return null
+  const actualTotal = game.actual_corners_total
+  if (actualTotal == null) return null
+  const lineStr = corners.corner_call_line || ''
+  const parts = lineStr.trim().split(/\s+/)
+  const lineVal = parseFloat(parts[parts.length - 1])
+  if (isNaN(lineVal)) return null
+  if (lineStr.includes('OVER') || call === 'YES') return actualTotal > lineVal ? 'WIN' : 'LOSS'
+  if (lineStr.includes('UNDER') || call === 'NO') return actualTotal < lineVal ? 'WIN' : 'LOSS'
+  return null
+}
+
+function bookingGrade(game) {
+  const corners = game.corners || {}
+  const call = corners.booking_call
+  if (!call || call === 'PASS') return null
+  const actualPts = game.actual_booking_pts
+  if (actualPts == null) return null
+  const lineStr = corners.booking_call_line || ''
+  const parts = lineStr.trim().split(/\s+/)
+  const lineVal = parseFloat(parts[parts.length - 1])
+  if (isNaN(lineVal)) return null
+  if (lineStr.includes('OVER') || call === 'YES') return actualPts > lineVal ? 'WIN' : 'LOSS'
+  if (lineStr.includes('UNDER') || call === 'NO') return actualPts < lineVal ? 'WIN' : 'LOSS'
+  return null
+}
+
 function GradeIcon({ grade }) {
   if (grade === null)   return <span className="grade-pending" title="Pending">⏳</span>
   if (grade === 'WIN')  return <span className="grade-win"     title="Correct">✅</span>
@@ -71,6 +132,10 @@ export default function MatchRow({ game }) {
   const dClass = decisionClass(game.btts_decision)
   const oGrade = outcomeGrade(game)
   const bGrade = bttsGrade(game)
+  const shGrade = shotsGrade(game)
+  const sotGr   = sotGrade(game)
+  const cGrade  = cornerGrade(game)
+  const bkGrade = bookingGrade(game)
   const isGraded = game.actual_result != null
 
   const xgHome = game.xg_home ?? game.match_center?.xg_home
@@ -821,29 +886,47 @@ export default function MatchRow({ game }) {
                           <span style={{fontSize:10, color:'#94a3b8'}}>SoT Acc: <b style={{color:'#818cf8'}}>{game.shots.sot_accuracy_pct}%</b></span>
                         )}
                       </div>
+                      {/* Actual Results Bar when graded */}
+                      {game.actual_shots_total != null && (
+                        <div style={{display:'flex', gap:8, marginBottom:12, background:'rgba(167,139,250,0.06)', border:'1px solid rgba(167,139,250,0.25)', borderRadius:6, padding:'6px 12px', alignItems:'center', justifyContent:'space-between', flexWrap:'wrap'}}>
+                          <span style={{fontSize:11, color:'#cbd5e1'}}>
+                            <b>Actual Shots:</b> <span style={{color:'#a78bfa', fontWeight:800}}>{game.actual_shots_total}</span> <span style={{fontSize:10, color:'#94a3b8'}}>({game.actual_shots_home ?? '-'} - {game.actual_shots_away ?? '-'})</span>
+                          </span>
+                          {game.actual_sot_total != null && (
+                            <span style={{fontSize:11, color:'#cbd5e1'}}>
+                              <b>Actual SoT:</b> <span style={{color:'#818cf8', fontWeight:800}}>{game.actual_sot_total}</span> <span style={{fontSize:10, color:'#94a3b8'}}>({game.actual_sot_home ?? '-'} - {game.actual_sot_away ?? '-'})</span>
+                            </span>
+                          )}
+                        </div>
+                      )}
+
                       {/* YES/NO/PASS call badges */}
-                      <div style={{marginTop:10, display:'flex', gap:8, flexWrap:'wrap'}}>
+                      <div style={{marginTop:10, display:'flex', gap:8, flexWrap:'wrap', alignItems:'center'}}>
                         {game.shots.shots_call && game.shots.shots_call !== 'PASS' && (() => {
                           const sc = game.shots.shots_call
-                          const bg = sc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)'
-                          const border = sc.startsWith('OVER') ? '#4ade80' : '#f87171'
-                          const txt = sc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          const isShGraded = shGrade != null
+                          const bg = isShGraded ? (shGrade === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : (sc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)')
+                          const border = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : (sc.startsWith('OVER') ? '#4ade80' : '#f87171')
+                          const txt = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : (sc.startsWith('OVER') ? '#4ade80' : '#f87171')
                           return (
                             <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
                               <span style={{color:'#94a3b8'}}>Shots </span>
                               <span style={{color:txt, fontWeight:700}}>{sc}</span>
+                              {isShGraded && <span style={{fontWeight:800, marginLeft:4}}>{shGrade === 'WIN' ? 'WIN ✅' : 'LOSS ❌'}</span>}
                             </div>
                           )
                         })()}
                         {game.shots.sot_call && game.shots.sot_call !== 'PASS' && (() => {
                           const sotc = game.shots.sot_call
-                          const bg = sotc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)'
-                          const border = sotc.startsWith('OVER') ? '#4ade80' : '#f87171'
-                          const txt = sotc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          const isSotGraded = sotGr != null
+                          const bg = isSotGraded ? (sotGr === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : (sotc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)')
+                          const border = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : (sotc.startsWith('OVER') ? '#4ade80' : '#f87171')
+                          const txt = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : (sotc.startsWith('OVER') ? '#4ade80' : '#f87171')
                           return (
                             <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
                               <span style={{color:'#94a3b8'}}>SoT </span>
                               <span style={{color:txt, fontWeight:700}}>{sotc}</span>
+                              {isSotGraded && <span style={{fontWeight:800, marginLeft:4}}>{sotGr === 'WIN' ? 'WIN ✅' : 'LOSS ❌'}</span>}
                             </div>
                           )
                         })()}
@@ -908,6 +991,46 @@ export default function MatchRow({ game }) {
                {game.accuracy_tier && (
                  <span style={{ marginLeft: 16 }}>
                    <b>xG Grade:</b> {game.accuracy_tier} <span style={{ fontSize: '0.85em', opacity: 0.8 }}>(Δ {game.total_delta})</span>
+                 </span>
+               )}
+               {game.actual_shots_total != null && (
+                 <span style={{ marginLeft: 16 }}>
+                   <b>Shots:</b> {game.actual_shots_total}
+                   {shGrade && (
+                     <span style={{ marginLeft: 4, fontWeight: 700, color: shGrade === 'WIN' ? '#4ade80' : '#f87171' }}>
+                       ({game.shots?.shots_call} {shGrade === 'WIN' ? '✅' : '❌'})
+                     </span>
+                   )}
+                 </span>
+               )}
+               {game.actual_sot_total != null && (
+                 <span style={{ marginLeft: 16 }}>
+                   <b>SoT:</b> {game.actual_sot_total}
+                   {sotGr && (
+                     <span style={{ marginLeft: 4, fontWeight: 700, color: sotGr === 'WIN' ? '#4ade80' : '#f87171' }}>
+                       ({game.shots?.sot_call} {sotGr === 'WIN' ? '✅' : '❌'})
+                     </span>
+                   )}
+                 </span>
+               )}
+               {game.actual_corners_total != null && (
+                 <span style={{ marginLeft: 16 }}>
+                   <b>Corners:</b> {game.actual_corners_total}
+                   {cGrade && (
+                     <span style={{ marginLeft: 4, fontWeight: 700, color: cGrade === 'WIN' ? '#4ade80' : '#f87171' }}>
+                       ({game.corners?.corner_call} {cGrade === 'WIN' ? '✅' : '❌'})
+                     </span>
+                   )}
+                 </span>
+               )}
+               {game.actual_booking_pts != null && (
+                 <span style={{ marginLeft: 16 }}>
+                   <b>Cards:</b> {game.actual_booking_pts} pts
+                   {bkGrade && (
+                     <span style={{ marginLeft: 4, fontWeight: 700, color: bkGrade === 'WIN' ? '#4ade80' : '#f87171' }}>
+                       ({game.corners?.booking_call} {bkGrade === 'WIN' ? '✅' : '❌'})
+                     </span>
+                   )}
                  </span>
                )}
                 {postXgot && (
