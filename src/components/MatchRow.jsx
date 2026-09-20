@@ -195,6 +195,49 @@ export default function MatchRow({ game }) {
             </div>
           )
         })()}
+        {/* Shots column */}
+        {game.shots && (() => {
+          const sc = game.shots.shots_call
+          const scLine = game.shots.shots_call_line || ''
+          const sColor = '#a78bfa'
+          const tooltip = sc && sc !== 'PASS' ? `${sc} (Exp ${game.shots.exp_total_shots} shots)` : `Shots: PASS (Exp ${game.shots.exp_total_shots})`
+          return (
+            <div className="match-shots-col compact-hide" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
+              <span style={{fontSize:13,fontWeight:800,color:sColor,lineHeight:1}}>{game.shots.exp_total_shots}</span>
+              {sc && sc !== 'PASS' && (
+                <span style={{
+                  fontSize:8, fontWeight:800, color:sColor,
+                  background: 'rgba(167,139,250,0.12)',
+                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
+                }}>
+                  {sc.replace('OVER ','O').replace('UNDER ','U')}
+                </span>
+              )}
+            </div>
+          )
+        })()}
+
+        {/* SoT column */}
+        {game.shots && (() => {
+          const sotc = game.shots.sot_call
+          const sotColor = '#818cf8'
+          const tooltip = sotc && sotc !== 'PASS' ? `SoT: ${sotc} (Exp ${game.shots.exp_total_sot})` : `SoT: PASS (Exp ${game.shots.exp_total_sot})`
+          return (
+            <div className="match-sot-col compact-hide" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
+              <span style={{fontSize:13,fontWeight:800,color:sotColor,lineHeight:1}}>{game.shots.exp_total_sot}</span>
+              {sotc && sotc !== 'PASS' && (
+                <span style={{
+                  fontSize:8, fontWeight:800, color:sotColor,
+                  background: 'rgba(129,140,248,0.12)',
+                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
+                }}>
+                  {sotc.replace('OVER ','O').replace('UNDER ','U')}
+                </span>
+              )}
+            </div>
+          )
+        })()}
+
 
       </div>
 
@@ -705,6 +748,111 @@ export default function MatchRow({ game }) {
                     </div>
                   )}
 
+
+
+                  {/* Shots & SoT Section */}
+                  {game.shots && (
+                    <div className="prob-section">
+                      <div className="ps-title">Shots & Shots on Target</div>
+                      
+                      {/* Home/Away/Total breakdown */}
+                      <div style={{display:'flex', gap:8, marginBottom:12}}>
+                        <div style={{flex:1, background:'rgba(167,139,250,0.08)', border:'1px solid rgba(167,139,250,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#a78bfa', lineHeight:1}}>{game.shots.exp_home_shots ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(129,140,248,0.08)', border:'1px solid rgba(129,140,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#818cf8', lineHeight:1}}>{game.shots.exp_away_shots ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(167,139,250,0.06)', border:'1px solid rgba(167,139,250,0.15)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#a78bfa', lineHeight:1}}>{game.shots.exp_total_shots ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
+                        </div>
+                      </div>
+
+                      {/* SoT breakdown */}
+                      <div style={{display:'flex', gap:8, marginBottom:12}}>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_home_sot ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_away_sot ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
+                        </div>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.06)', border:'1px solid rgba(99,102,241,0.15)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
+                          <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_total_sot ?? '-'}</div>
+                          <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
+                        </div>
+                      </div>
+
+                      {/* Line probabilities */}
+                      <ProbabilityItem
+                        label={`Over 24.5 Total Shots${game.shots.over_24_5_shots_prob != null ? ` – ${game.shots.over_24_5_shots_prob}%` : ''}`}
+                        value={game.shots.over_24_5_shots_prob}
+                        color="home"
+                      />
+                      <ProbabilityItem
+                        label={`Over 8.5 Shots on Target${game.shots.over_8_5_sot_prob != null ? ` – ${game.shots.over_8_5_sot_prob}%` : ''}`}
+                        value={game.shots.over_8_5_sot_prob}
+                        color="btts"
+                      />
+
+                      {/* Conversion rating + calls */}
+                      <div style={{marginTop:8, display:'flex', gap:8, flexWrap:'wrap', alignItems:'center'}}>
+                        {game.shots.conversion_rating && (
+                          <span style={{
+                            fontSize:10, fontWeight:700, padding:'2px 6px', borderRadius:4,
+                            background: game.shots.conversion_rating === 'CLINICAL' ? 'rgba(74,222,128,0.15)' : game.shots.conversion_rating === 'LOW_CONVERSION_RISK' ? 'rgba(248,113,113,0.15)' : 'rgba(148,163,184,0.1)',
+                            color: game.shots.conversion_rating === 'CLINICAL' ? '#4ade80' : game.shots.conversion_rating === 'LOW_CONVERSION_RISK' ? '#f87171' : '#94a3b8',
+                            border: `1px solid ${game.shots.conversion_rating === 'CLINICAL' ? '#4ade80' : game.shots.conversion_rating === 'LOW_CONVERSION_RISK' ? '#f87171' : '#475569'}`
+                          }}>
+                            {game.shots.conversion_rating === 'CLINICAL' ? '⚡ CLINICAL' : game.shots.conversion_rating === 'LOW_CONVERSION_RISK' ? '⚠ LOW CONV.' : '⚖ BALANCED'}
+                          </span>
+                        )}
+                        {game.shots.sot_accuracy_pct != null && (
+                          <span style={{fontSize:10, color:'#94a3b8'}}>SoT Acc: <b style={{color:'#818cf8'}}>{game.shots.sot_accuracy_pct}%</b></span>
+                        )}
+                      </div>
+                      {/* YES/NO/PASS call badges */}
+                      <div style={{marginTop:10, display:'flex', gap:8, flexWrap:'wrap'}}>
+                        {game.shots.shots_call && game.shots.shots_call !== 'PASS' && (() => {
+                          const sc = game.shots.shots_call
+                          const bg = sc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)'
+                          const border = sc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          const txt = sc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          return (
+                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
+                              <span style={{color:'#94a3b8'}}>Shots </span>
+                              <span style={{color:txt, fontWeight:700}}>{sc}</span>
+                            </div>
+                          )
+                        })()}
+                        {game.shots.sot_call && game.shots.sot_call !== 'PASS' && (() => {
+                          const sotc = game.shots.sot_call
+                          const bg = sotc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)'
+                          const border = sotc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          const txt = sotc.startsWith('OVER') ? '#4ade80' : '#f87171'
+                          return (
+                            <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
+                              <span style={{color:'#94a3b8'}}>SoT </span>
+                              <span style={{color:txt, fontWeight:700}}>{sotc}</span>
+                            </div>
+                          )
+                        })()}
+                        {(!game.shots.shots_call || game.shots.shots_call === 'PASS') && (!game.shots.sot_call || game.shots.sot_call === 'PASS') && (
+                          <span style={{fontSize:10, color:'#64748b'}}>Shots/SoT: PASS</span>
+                        )}
+                      </div>
+                    </div>
+                  )}
 
                   {/* API Consensus */}
                   {game.api_consensus && (

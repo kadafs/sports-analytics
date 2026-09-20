@@ -106,9 +106,11 @@
     --col-xg: 100px;
     --col-corners: 68px;
     --col-booking: 60px;
+    --col-shots: 58px;
+    --col-sot: 52px;
     --col-decision: 130px;
     --col-o25: 46px;
-    --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-o25) var(--col-corners) var(--col-booking);
+    --grid: var(--col-time) 1fr var(--col-1x2) var(--col-btts) var(--col-o25) var(--col-corners) var(--col-booking) var(--col-shots) var(--col-sot);
 
     /* Basketball Grid */
     --col-time-bball: 44px;
@@ -2536,10 +2538,12 @@
     grid-template-columns: 40px 1fr 80px 52px !important;
   }
 
-  /* Hide Corners + Booking + O2.5 in FULL mode on mobile (4-col grid can't fit them) */
+  /* Hide Corners + Booking + O2.5 + Shots + SoT in FULL mode on mobile (4-col grid can't fit them) */
   .match-corners-col,
   .match-booking-col,
-  .match-o25-col {
+  .match-o25-col,
+  .match-shots-col,
+  .match-sot-col {
     display: none !important;
   }
 
@@ -2723,6 +2727,19 @@
 .booking-rec.high   { background: #451a03; color: #fed7aa; }
 .booking-rec.medium { background: #1c1917; color: #fde68a; }
 .booking-rec.low    { background: #0f172a; color: #94a3b8; }
+/* --- Shots & SoT Columns --- */
+.match-shots-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--col-shots, 58px);
+}
+.match-sot-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--col-sot, 52px);
+}
 
 /* --- Market Odds Row (in Probabilities drawer) --- */
 .market-odds-row {
@@ -2754,10 +2771,12 @@
   margin-top: 2px;
 }
 
-  /* Hide corners/booking/o25 columns in compact mode */
+  /* Hide corners/booking/o25/shots/sot columns in compact mode */
   .compact-mode .match-corners-col,
   .compact-mode .match-booking-col,
-  .compact-mode .match-o25-col {
+  .compact-mode .match-o25-col,
+  .compact-mode .match-shots-col,
+  .compact-mode .match-sot-col {
     display: none !important;
   }
 
