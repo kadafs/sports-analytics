@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { fetchDates, fetchPredictions, fetchLeaderboard, fetchTeamLeaderboard } from './api'
 import Header from './components/Header'
 import Scorecard from './components/Scorecard'
@@ -504,7 +504,7 @@ export default function App() {
         <div className="controls-bar">
           {sport === 'basketball' && (
             <div style={{ display: 'flex', background: '#f1f5f9', borderRadius: 8, padding: 3, gap: 2, marginRight: 16 }}>
-              {[['all', 'All'], ['women', 'â™€ Women'], ['men', 'â™‚ Men']].map(([val, label]) => (
+              {[['all', 'All'], ['women', '♀ Women'], ['men', '♂ Men']].map(([val, label]) => (
                 <button
                   key={val}
                   onClick={() => setFilterWomen(val)}
