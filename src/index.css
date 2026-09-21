@@ -921,11 +921,20 @@
     display: flex;
     background: #e2e8f0;
     padding: 4px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 4px;
+  }
+
+  .tab-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .tab-nav button {
-    flex: 1;
-    padding: 8px 0;
+    flex: 1 0 auto;
+    padding: 8px 12px;
     font-size: 11px;
     font-weight: 800;
     color: #64748b;
@@ -935,6 +944,7 @@
     cursor: pointer;
     transition: all 0.2s;
     letter-spacing: 0.5px;
+    white-space: nowrap;
   }
 
   .tab-nav button:hover {
@@ -1433,8 +1443,9 @@
 
   .po-box {
     flex: 1;
+    min-width: 0;
     text-align: center;
-    padding: 8px;
+    padding: 8px 4px;
     border-radius: 8px;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -1452,6 +1463,10 @@
     font-weight: 700;
     color: #94a3b8;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
   }
 
   /* GRADED FOOTER */
@@ -2596,15 +2611,56 @@
   
   /* Match details tabs */
   .tab-nav {
-    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 4px;
+    padding: 5px 6px;
+  }
+  .tab-nav::-webkit-scrollbar {
+    display: none;
   }
   .tab-nav button {
-    flex: 1 1 45%;
+    flex: 1 0 auto;
     font-size: 10px;
-    padding: 8px 4px;
+    padding: 7px 10px;
+    white-space: nowrap;
+    border-radius: 5px;
+  }
+  .tab-content {
+    padding: 12px 8px;
+  }
+  .tab-probabilities {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .prob-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+  .prob-section {
+    padding: 12px;
+    border-radius: 10px;
+    min-width: 0;
   }
   .prob-outcome-row {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 100%;
+  }
+  .po-box {
+    padding: 7px 4px;
+  }
+  .po-val {
+    font-size: 15px;
+  }
+  .po-lbl {
+    font-size: 8.5px;
   }
   
   /* Summary pill and toggles */
@@ -2764,6 +2820,7 @@
   border-radius: 8px;
   padding: 6px 10px;
   min-width: 52px;
+  flex: 1;
 }
 .mo-val {
   font-size: 14px;

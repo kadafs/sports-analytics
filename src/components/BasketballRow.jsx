@@ -563,11 +563,11 @@ function ProbabilityItem({ label, value, color }) {
   return (
     <div className="prob-item">
       <div className="pi-label-row">
-        <span>{label}</span>
-        <span>{fmt(val, 1)}%</span>
+        <span style={{ minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: 8 }}>{label}</span>
+        <span style={{ flexShrink: 0 }}>{fmt(val, 1)}%</span>
       </div>
       <div className="pi-bar-bg">
-        <div className={`pi-bar-fill ${color}`} style={{ width: `${val}%` }}></div>
+        <div className={`pi-bar-fill ${color}`} style={{ width: `${Math.min(100, Math.max(0, val))}%` }}></div>
       </div>
     </div>
   )

@@ -612,8 +612,8 @@ export default function MatchRow({ game }) {
                     <div className="prob-section">
                       <div className="ps-title">Expected Goals (xG &amp; xGOT)</div>
                       <div style={{display:'flex', gap:8, marginBottom:12}}>
-                        <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                        <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.home_team}>{game.home_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>
                             {xgHome != null ? fmt(xgHome, 2) : '-'}
                           </div>
@@ -624,8 +624,8 @@ export default function MatchRow({ game }) {
                             </div>
                           )}
                         </div>
-                        <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                        <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.away_team}>{game.away_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>
                             {xgAway != null ? fmt(xgAway, 2) : '-'}
                           </div>
@@ -636,7 +636,7 @@ export default function MatchRow({ game }) {
                             </div>
                           )}
                         </div>
-                        <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#fbbf24', lineHeight:1}}>
                             {xgTotal != null ? fmt(xgTotal, 2) : '-'}
@@ -700,22 +700,22 @@ export default function MatchRow({ game }) {
 
                     {/* 3-box panel: Home | Draw | Away */}
                     <div style={{display:'flex', gap:8, marginBottom:14}}>
-                      <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                      <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.home_team}>{game.home_team}</div>
                         <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>
                           {game.match_center?.fh_1x2_home ? `${game.match_center.fh_1x2_home}%` : '-'}
                         </div>
                         <div style={{fontSize:9, color:'#64748b', marginTop:2}}>FH Win</div>
                       </div>
-                      <div style={{flex:1, background:'rgba(148,163,184,0.08)', border:'1px solid rgba(148,163,184,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                      <div style={{flex:1, background:'rgba(148,163,184,0.08)', border:'1px solid rgba(148,163,184,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
                         <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Draw</div>
                         <div style={{fontSize:18, fontWeight:800, color:'#94a3b8', lineHeight:1}}>
                           {game.match_center?.fh_1x2_draw ? `${game.match_center.fh_1x2_draw}%` : '-'}
                         </div>
                         <div style={{fontSize:9, color:'#64748b', marginTop:2}}>FH Draw</div>
                       </div>
-                      <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                      <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                        <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.away_team}>{game.away_team}</div>
                         <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>
                           {game.match_center?.fh_1x2_away ? `${game.match_center.fh_1x2_away}%` : '-'}
                         </div>
@@ -747,17 +747,17 @@ export default function MatchRow({ game }) {
                       {/* Home / Away expected corners breakdown */}
                       {(game.corners.exp_home_corners != null || game.corners.exp_away_corners != null) && (
                         <div style={{display:'flex', gap:8, marginBottom:12}}>
-                          <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                          <div style={{flex:1, background:'rgba(56,189,248,0.08)', border:'1px solid rgba(56,189,248,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.home_team}>{game.home_team}</div>
                             <div style={{fontSize:18, fontWeight:800, color:'#38bdf8', lineHeight:1}}>{game.corners.exp_home_corners ?? '-'}</div>
                             <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
                           </div>
-                          <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                          <div style={{flex:1, background:'rgba(244,114,182,0.08)', border:'1px solid rgba(244,114,182,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                            <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.away_team}>{game.away_team}</div>
                             <div style={{fontSize:18, fontWeight:800, color:'#f472b6', lineHeight:1}}>{game.corners.exp_away_corners ?? '-'}</div>
                             <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
                           </div>
-                          <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                          <div style={{flex:1, background:'rgba(251,191,36,0.08)', border:'1px solid rgba(251,191,36,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
                             <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
                             <div style={{fontSize:18, fontWeight:800, color:'#fbbf24', lineHeight:1}}>{game.corners.exp_total_corners ?? '-'}</div>
                             <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Corners</div>
@@ -822,17 +822,17 @@ export default function MatchRow({ game }) {
                       
                       {/* Home/Away/Total breakdown */}
                       <div style={{display:'flex', gap:8, marginBottom:12}}>
-                        <div style={{flex:1, background:'rgba(167,139,250,0.08)', border:'1px solid rgba(167,139,250,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                        <div style={{flex:1, background:'rgba(167,139,250,0.08)', border:'1px solid rgba(167,139,250,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.home_team}>{game.home_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#a78bfa', lineHeight:1}}>{game.shots.exp_home_shots ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
                         </div>
-                        <div style={{flex:1, background:'rgba(129,140,248,0.08)', border:'1px solid rgba(129,140,248,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                        <div style={{flex:1, background:'rgba(129,140,248,0.08)', border:'1px solid rgba(129,140,248,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.away_team}>{game.away_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#818cf8', lineHeight:1}}>{game.shots.exp_away_shots ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
                         </div>
-                        <div style={{flex:1, background:'rgba(167,139,250,0.06)', border:'1px solid rgba(167,139,250,0.15)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{flex:1, background:'rgba(167,139,250,0.06)', border:'1px solid rgba(167,139,250,0.15)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#a78bfa', lineHeight:1}}>{game.shots.exp_total_shots ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>Exp Shots</div>
@@ -841,17 +841,17 @@ export default function MatchRow({ game }) {
 
                       {/* SoT breakdown */}
                       <div style={{display:'flex', gap:8, marginBottom:12}}>
-                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.home_team}</div>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.home_team}>{game.home_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_home_sot ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
                         </div>
-                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
-                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>{game.away_team}</div>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.08)', border:'1px solid rgba(99,102,241,0.2)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
+                          <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}} title={game.away_team}>{game.away_team}</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_away_sot ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
                         </div>
-                        <div style={{flex:1, background:'rgba(99,102,241,0.06)', border:'1px solid rgba(99,102,241,0.15)', borderRadius:6, padding:'6px 10px', textAlign:'center'}}>
+                        <div style={{flex:1, background:'rgba(99,102,241,0.06)', border:'1px solid rgba(99,102,241,0.15)', borderRadius:6, minWidth:0, padding:'6px 6px', textAlign:'center'}}>
                           <div style={{fontSize:10, color:'#94a3b8', textTransform:'uppercase', marginBottom:2}}>Total</div>
                           <div style={{fontSize:18, fontWeight:800, color:'#6366f1', lineHeight:1}}>{game.shots.exp_total_sot ?? '-'}</div>
                           <div style={{fontSize:9, color:'#64748b', marginTop:2}}>SoT</div>
@@ -1118,13 +1118,13 @@ function ProbabilityItem({ label, value, color }) {
   return (
     <div className="prob-item">
       <div className="pi-label-row">
-        <span>{label}</span>
-        <span>{fmt(val, 1)}%</span>
+        <span style={{ minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: 8 }}>{label}</span>
+        <span style={{ flexShrink: 0 }}>{fmt(val, 1)}%</span>
       </div>
       <div className="pi-bar-bg">
         <div 
           className={`pi-bar-fill ${color}`} 
-          style={{ width: `${val}%` }}
+          style={{ width: `${Math.min(100, Math.max(0, val))}%` }}
         ></div>
       </div>
     </div>
