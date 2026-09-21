@@ -385,9 +385,42 @@ export default function App() {
         if (!isActive) return
         setDates(d)
         if (d.length > 0) {
-          // Keep same date if possible when switching sports
-          const matches = d.find(x => x.date === selectedDate)
-          if (!matches) setSelectedDate(d[0].date) 
+          const now = new Date()
+          const localToday = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+          const utcToday = now.toISOString().slice(0, 10)
+
+          // 1. Try to find Today's date entry in the dates list
+          const matchesToday = d.find(x => {
+            const base = x.date.replace('_v2', '')
+            return base === localToday || base === utcToday
+          })
+
+          // 2. Check if user already explicitly selected a date
+          const isSelectedToday = selectedDate && (
+            selectedDate.replace('_v2', '') === localToday ||
+            selectedDate.replace('_v2', '') === utcToday
+          )
+          const matchesSelected = selectedDate ? d.find(x => x.date === selectedDate) : null
+
+          if (!selectedDate || isSelectedToday) {
+            // Initial visit OR user was on "Today": always prefer Today for this sport
+            if (matchesToday) {
+              setSelectedDate(matchesToday.date)
+            } else {
+              // If today doesn't exist, pick the most recent date <= today (avoid future dates)
+              const pastOrToday = d.filter(x => x.date.replace('_v2', '') <= localToday)
+              setSelectedDate(pastOrToday.length > 0 ? pastOrToday[0].date : d[0].date)
+            }
+          } else if (matchesSelected) {
+            // User had explicitly selected a past date and it exists in this sport: keep it
+            setSelectedDate(matchesSelected.date)
+          } else if (matchesToday) {
+            // Selected date from other sport doesn't exist here: fallback to Today
+            setSelectedDate(matchesToday.date)
+          } else {
+            const pastOrToday = d.filter(x => x.date.replace('_v2', '') <= localToday)
+            setSelectedDate(pastOrToday.length > 0 ? pastOrToday[0].date : d[0].date)
+          }
         } else {
           setSelectedDate(null)
           setData(null)

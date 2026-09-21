@@ -11,7 +11,10 @@ export default function Header({
   const start = Math.max(0, selectedIdx - 2)
   const visible = dates?.slice(start, start + 5) || []
 
-  const todayStr = new Date().toISOString().slice(0, 10)
+  const now = new Date()
+  const localToday = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+  const utcToday = now.toISOString().slice(0, 10)
+  const todayStr = utcToday
 
   // Logic for the header filter buttons
   const isBTTSActive = sport === 'football' && filterDecision === 'PLAY YES' && filterDraw === 0
@@ -62,7 +65,7 @@ export default function Header({
           <div className="header-nav">
             {visible.map(d => {
               const baseDate = d.date.replace('_v2', '')
-              const isToday = baseDate === todayStr
+              const isToday = baseDate === localToday || baseDate === utcToday
               const isActive = d.date === selected
               return (
                 <button
