@@ -595,10 +595,16 @@ export default function App() {
               </select>
 
               <select className="filter-select" style={{ width: '130px' }} value={filterVolatility} onChange={e => setFilterVolatility(Number(e.target.value))}>
-                <option value={100}>Volatility</option>
+              <option value={100}>Max Vol (sd)</option>
                 <option value={14.0}>&lt; 14.0 Ïƒ</option>
                 <option value={10.0}>&lt; 10.0 Ïƒ</option>
                 <option value={9.0}>&lt; 9.0 Ïƒ (Elite)</option>
+              </select>
+
+              <select className="filter-select" style={{ width: '145px' }} value={filterConfidence} onChange={e => setFilterConfidence(e.target.value)}>
+                <option value="all">Confidence</option>
+                <option value="[MODERATE]+">Moderate+ Conf</option>
+                <option value="[HIGH]">High Conf Only</option>
               </select>
 
               <button
