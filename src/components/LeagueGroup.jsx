@@ -54,7 +54,7 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
               border: `1px solid ${stats.draw_tier === 'ELITE' ? '#ddd6fe' : '#99f6e4'}`
             }} title={`Actual Draw Rate: ${stats.raw_draw_rate}% (${stats.actual_draws}/${stats.actual_games} games). Bayesian Regressed: ${stats.regressed_draw_rate}%`}>
               {'\u2696\uFE0F'} {stats.draw_tier === 'ELITE' ? 'Elite Draw' : 'High Draw'}: {stats.raw_draw_rate || stats.regressed_draw_rate}%
-              {stats.draw_plays > 0 && ` (Model: ${stats.draw_hit_rate}%)`}
+              {(stats.draw_plays || 0) >= 3 && ` (Model: ${stats.draw_hit_rate}%)`}
             </span>
           )}
 
