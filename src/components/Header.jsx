@@ -15,12 +15,12 @@ export default function Header({
 
   // Logic for the header filter buttons
   const isBTTSActive = sport === 'football' && filterDecision === 'PLAY YES' && filterDraw === 0
-  const isDrawActive = sport === 'football' && filterDraw >= 35 && filterDecision === 'all'
+  const isDrawActive = sport === 'football' && (filterDraw === -1 || filterDraw >= 33) && filterDecision === 'all'
   const isOverActive = sport === 'basketball' && filterDecision === 'PLAY OVER'
   const isAllActive  = filterDecision === 'all' && filterDraw === 0
 
   const handleBTTS = () => { setFilterDecision('PLAY YES'); setFilterDraw(0); }
-  const handleDraw = () => { setFilterDraw(35); setFilterDecision('all'); }
+  const handleDraw = () => { setFilterDraw(-1); setFilterDecision('all'); }
   const handleOver = () => { setFilterDecision('PLAY OVER'); }
   const handleAll  = () => { setFilterDecision('all'); setFilterDraw(0); setFilterCountry('all'); }
 

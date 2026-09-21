@@ -201,7 +201,22 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (outcome !== 'all' && !p.outcome_decision) return false
     
     if (country  !== 'all' && p.country        !== country)  return false
-    if (sport === 'football' && drawMin !== 0 && (p.draw_prob_1x2 ?? 0) < drawMin) return false
+    if (sport === 'football' && drawMin !== 0) {
+      if (drawMin === -1) {
+        // Smart Draw Mode:
+        // Match must either be in an ELITE/HIGH draw league (regressed_draw_rate >= 30%)
+        // OR have the draw_value_flag set to true
+        // AND have a model draw probability of at least 28%
+        const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
+        const isHighDrawLeague = stats && (stats.regressed_draw_rate >= 30.0 || stats.draw_tier === 'ELITE' || stats.draw_tier === 'HIGH')
+        const isDrawValue = p.draw_value_flag === true
+        const modelDrawProb = p.draw_prob_1x2 ?? p.draw_prob ?? 0
+        if (!(isHighDrawLeague || isDrawValue) || modelDrawProb < 28.0) return false
+      } else {
+        const modelDrawProb = p.draw_prob_1x2 ?? p.draw_prob ?? 0
+        if (modelDrawProb < drawMin) return false
+      }
+    }
     
     if (sport === 'football' && filterCorner !== 'all') {
       const c = p.corners || {}
@@ -550,10 +565,11 @@ export default function App() {
 
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
                 <option value={0}>Draw (All)</option>
-                <option value={40}>Draw ≥ 40%</option>
-                <option value={50}>Draw ≥ 50%</option>
-                <option value={60}>Draw ≥ 60%</option>
-                <option value={70}>Draw ≥ 70%</option>
+                <option value={-1}>🎯 Smart Draw Value</option>
+                <option value={30}>Draw ≥ 30%</option>
+                <option value={33}>Draw ≥ 33%</option>
+                <option value={35}>Draw ≥ 35%</option>
+                <option value={38}>Draw ≥ 38%</option>
               </select>
 
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
@@ -675,7 +691,7 @@ export default function App() {
 
 
             {/* Share button — only when picks selected OR a strong filter is active */}
-            {sport === 'football' && (filterBttsHitRate >= 60 || filterO25 >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
+            {sport === 'football' && (filterBttsHitRate >= 60 || filterO25 >= 60 || filterOutcome !== 'all' || filterDraw !== 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
               <button
                 onClick={() => setShareOpen(true)}
                 style={{
@@ -753,7 +769,7 @@ export default function App() {
           if (filterBttsHitRate >= 60) { filterLabel = `BTTS ≥${filterBttsHitRate}%`; filterType = 'btts' }
           if (filterO25 >= 60) { filterLabel = `O2.5 ≥${filterO25}%`; filterType = 'o25' }
           if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
-          if (filterDraw > 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
+          if (filterDraw !== 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
           if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }
           if (filterCorner !== 'all') {
             filterLabel = filterCorner === 'plays' ? 'Corners: Plays' : filterCorner === 'over' ? 'Corners: OVER 10.5' : filterCorner === 'under' ? 'Corners: UNDER 10.5' : filterCorner === 'exp_high' ? 'Corners: Exp ≥ 10.5' : 'Corners: Exp < 9.5'

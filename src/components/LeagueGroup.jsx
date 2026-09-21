@@ -39,6 +39,25 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
             </span>
           )}
 
+          {isFootball && stats && (stats.draw_tier === 'ELITE' || stats.draw_tier === 'HIGH' || (stats.regressed_draw_rate || 0) >= 30.0) && (
+            <span className="league-stats-info" style={{ 
+              fontSize: 11, 
+              padding: '2px 8px', 
+              background: stats.draw_tier === 'ELITE' ? '#f5f3ff' : '#f0fdfa', 
+              color: stats.draw_tier === 'ELITE' ? '#7c3aed' : '#0d9488',
+              borderRadius: 4, 
+              whiteSpace: 'nowrap',
+              fontWeight: 700,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '4px',
+              border: `1px solid ${stats.draw_tier === 'ELITE' ? '#ddd6fe' : '#99f6e4'}`
+            }} title={`Actual Draw Rate: ${stats.raw_draw_rate}% (${stats.actual_draws}/${stats.actual_games} games). Bayesian Regressed: ${stats.regressed_draw_rate}%`}>
+              ⚖️ {stats.draw_tier === 'ELITE' ? 'Elite Draw' : 'High Draw'}: {stats.regressed_draw_rate}%
+              {stats.draw_plays > 0 && ` (Model: ${stats.draw_hit_rate}%)`}
+            </span>
+          )}
+
           {!isFootball && stats && (() => {
             const renderStats = (modelName, mStats) => {
               if (!mStats || mStats.graded_totals === 0) return null

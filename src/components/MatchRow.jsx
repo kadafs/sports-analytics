@@ -191,7 +191,7 @@ export default function MatchRow({ game }) {
         {/* 1X2 boxes */}
         <div className="stat-group match-1x2-col">
           <div className="stat-box home-win">{fmt(game.home_win_prob)}<sub>%</sub></div>
-          <div className="stat-box draw-box">{fmt(game.draw_prob_1x2)}<sub>%</sub></div>
+          <div className={`stat-box draw-box ${game.draw_value_flag ? "draw-value-flagged" : ""}`} title={game.draw_value_flag ? `🎯 Model Draw Value Flag (Fair: ${game.draw_fair_odds || "N/A"} vs Market: ${game.draw_odds || "N/A"})` : undefined} style={game.draw_value_flag ? { borderColor: "#a855f7", background: "rgba(168, 85, 247, 0.1)", position: "relative" } : undefined}>{fmt(game.draw_prob_1x2)}<sub>%</sub>{game.draw_value_flag && <span style={{ position: "absolute", top: -5, right: -4, fontSize: 9 }}>🎯</span>}</div>
           <div className="stat-box away-win">{fmt(game.away_win_prob)}<sub>%</sub></div>
         </div>
 
