@@ -157,7 +157,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
         return 100000 - prio
       }
 
-      const nameKey = `${(g.country || '').toUpperCase()} â€” ${(g.league || '').toUpperCase()}`
+      const nameKey = `${(g.country || '').toUpperCase()} — ${(g.league || '').toUpperCase()}`
       const stats = lbMap.get(g.league_id) || lbMap.get(nameKey)
       if (stats && stats.btts_plays >= 5) {
         const roi = stats.btts_roi ?? 0.0
@@ -220,8 +220,8 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     }
     
     if (sport === 'football' && filterBttsHitRate > 0) {
-      // Filter 1: League safety gate â€” must have >= 50% historical BTTS rate
-      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} â€” ${p.league?.toUpperCase()}`)
+      // Filter 1: League safety gate — must have >= 50% historical BTTS rate
+      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
       if (stats && (stats.btts_hit_rate ?? 100) < 55) return false
       // Filter 2: Poisson model probability >= selected threshold
       if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
@@ -244,7 +244,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     
     // MAPE Filter -- league-level accuracy check (Basketball only)
     if (sport === 'basketball' && maxMape < 100) {
-      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} â€” ${p.league?.toUpperCase()}`)
+      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
       if (!stats) return false
       const isAdv = p.model_architecture?.includes('ADVANCED')
       const targetStats = isAdv ? stats.adv : stats.srs
@@ -270,7 +270,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     // Smart Edge Filter (Basketball only)
     if (sport === 'basketball' && smartEdgeFilter) {
       // 1. Volume Check (>= 10 graded games in leaderboard)
-      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} â€” ${p.league?.toUpperCase()}`)
+      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
       if (!stats) return false
       // 1. Team Volume Check (Both teams must have >= 10 matches played)
       const mc = p.match_center || {}
@@ -318,7 +318,7 @@ export default function App() {
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
-  const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // ðŸŽ¯ Smart Edge filter
+  const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -327,7 +327,7 @@ export default function App() {
 
   const toggleCompact = () => setCompactMode(prev => !prev)
 
-  // â”€â”€ Night Shift â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // ── Night Shift ──────────────────────────────────────────
   const [nightShift, setNightShift] = useState(() => {
     const manual = localStorage.getItem('nightShiftOverride')
     return manual !== null ? manual === 'true' : true
@@ -470,9 +470,9 @@ export default function App() {
           setFilterO25(0);
           setFilterMape(100);
           setFilterVolatility(100);
+          setFilterConfidence('all');
           setFilterWomen('all');
           setHidePlayoffs(false);
-          setFilterConfidence('all');
           setSmartEdgeFilter(false);
           setViewMode('matches');
         }}
@@ -493,10 +493,10 @@ export default function App() {
         {/* Scorecard (only shown if grading data exists) */}
         {hasGrading && data && <Scorecard data={data} sport={sport} />}
 
-        {/* API connection error â€” shown prominently above controls */}
+        {/* API connection error — shown prominently above controls */}
         {error && !loading && (
           <div style={{ background: '#fff1f2', border: '1px solid #fecdd3', borderRadius: 8, padding: '12px 16px', marginBottom: 12, color: '#991b1b', fontWeight: 600, fontSize: 13 }}>
-            âŒ {error}
+            ❌ {error}
           </div>
         )}
 
@@ -550,27 +550,27 @@ export default function App() {
 
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
                 <option value={0}>Draw (All)</option>
-                <option value={40}>Draw â‰¥ 40%</option>
-                <option value={50}>Draw â‰¥ 50%</option>
-                <option value={60}>Draw â‰¥ 60%</option>
-                <option value={70}>Draw â‰¥ 70%</option>
+                <option value={40}>Draw ≥ 40%</option>
+                <option value={50}>Draw ≥ 50%</option>
+                <option value={60}>Draw ≥ 60%</option>
+                <option value={70}>Draw ≥ 70%</option>
               </select>
 
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
                 <option value={0}>BTTS (All)</option>
-                <option value={70}>BTTS â‰¥ 70%</option>
-                <option value={60}>BTTS â‰¥ 60%</option>
-                <option value={50}>BTTS â‰¥ 50%</option>
+                <option value={70}>BTTS ≥ 70%</option>
+                <option value={60}>BTTS ≥ 60%</option>
+                <option value={50}>BTTS ≥ 50%</option>
               </select>
 
               <select className="filter-select" value={filterO25} onChange={e => setFilterO25(Number(e.target.value))}>
                 <option value={0}>O2.5 (All)</option>
-                <option value={80}>O2.5 â‰¥ 80%</option>
-                <option value={75}>O2.5 â‰¥ 75%</option>
-                <option value={70}>O2.5 â‰¥ 70%</option>
-                <option value={65}>O2.5 â‰¥ 65%</option>
-                <option value={60}>O2.5 â‰¥ 60%</option>
-                <option value={50}>O2.5 â‰¥ 50%</option>
+                <option value={80}>O2.5 ≥ 80%</option>
+                <option value={75}>O2.5 ≥ 75%</option>
+                <option value={70}>O2.5 ≥ 70%</option>
+                <option value={65}>O2.5 ≥ 65%</option>
+                <option value={60}>O2.5 ≥ 60%</option>
+                <option value={50}>O2.5 ≥ 50%</option>
               </select>
 
               <select className="filter-select" value={filterCorner} onChange={e => setFilterCorner(e.target.value)}>
@@ -578,7 +578,7 @@ export default function App() {
                 <option value="plays">All Plays (YES / NO)</option>
                 <option value="over">OVER 10.5 (YES)</option>
                 <option value="under">UNDER 10.5 (NO)</option>
-                <option value="exp_high">Exp â‰¥ 10.5</option>
+                <option value="exp_high">Exp ≥ 10.5</option>
                 <option value="exp_low">Exp &lt; 9.5</option>
               </select>
             </div>
@@ -595,10 +595,10 @@ export default function App() {
               </select>
 
               <select className="filter-select" style={{ width: '130px' }} value={filterVolatility} onChange={e => setFilterVolatility(Number(e.target.value))}>
-              <option value={100}>Max Vol (sd)</option>
-                <option value={14.0}>&lt; 14.0 Ïƒ</option>
-                <option value={10.0}>&lt; 10.0 Ïƒ</option>
-                <option value={9.0}>&lt; 9.0 Ïƒ (Elite)</option>
+                <option value={100}>Max Vol (sd)</option>
+                <option value={14.0}>&lt; 14.0 σ</option>
+                <option value={10.0}>&lt; 10.0 σ</option>
+                <option value={9.0}>&lt; 9.0 σ (Elite)</option>
               </select>
 
               <select className="filter-select" style={{ width: '145px' }} value={filterConfidence} onChange={e => setFilterConfidence(e.target.value)}>
@@ -622,7 +622,7 @@ export default function App() {
                 }}
                 title={hidePlayoffs ? "Playoff games are hidden" : "Showing playoff games"}
               >
-                {hidePlayoffs ? 'âŒ Playoffs Hidden' : 'ðŸ† Playoffs Included'}
+                {hidePlayoffs ? '❌ Playoffs Hidden' : '🏆 Playoffs Included'}
               </button>
 
               <button
@@ -644,9 +644,9 @@ export default function App() {
                   color: smartEdgeFilter ? '#854d0e' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with â‰¥10 graded games"
+                title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with ≥10 graded games"
               >
-                {smartEdgeFilter ? 'ðŸŽ¯ Smart Edge: ON' : 'ðŸŽ¯ Smart Edge'}
+                {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
               </button>
             </div>
           )}
@@ -663,10 +663,10 @@ export default function App() {
                 <strong>{counts.total}</strong> games
                 {sport === 'football' && (
                   <>
-                    {' Â· '}
-                    <span style={{ color: '#16a34a', fontWeight: 600 }}>{counts.yes} YES</span> Â·{' '}
+                    {' · '}
+                    <span style={{ color: '#16a34a', fontWeight: 600 }}>{counts.yes} YES</span> ·{' '}
                     <span style={{ color: '#dc2626', fontWeight: 600 }}>{counts.no} NO</span>
-                    {counts.strong > 0 && <span style={{ color: '#7f1d1d', fontWeight: 700 }}> ({counts.strong} âš¡)</span>} Â·{' '}
+                    {counts.strong > 0 && <span style={{ color: '#7f1d1d', fontWeight: 700 }}> ({counts.strong} ⚡)</span>} ·{' '}
                     <span style={{ color: '#6b7280' }}>{counts.pass} PASS</span>
                   </>
                 )}
@@ -674,7 +674,7 @@ export default function App() {
             )}
 
 
-            {/* Share button â€” only when picks selected OR a strong filter is active */}
+            {/* Share button — only when picks selected OR a strong filter is active */}
             {sport === 'football' && (filterBttsHitRate >= 60 || filterO25 >= 60 || filterOutcome !== 'all' || filterDraw > 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
               <button
                 onClick={() => setShareOpen(true)}
@@ -694,34 +694,34 @@ export default function App() {
                 }}
                 title="Share these picks"
               >
-                ðŸ“¤ Share Picks
+                📤 Share Picks
               </button>
             )}
 
-            {/* Night Shift Toggle â€” sits next to Compact */}
+            {/* Night Shift Toggle — sits next to Compact */}
             <button
               className={`control-btn ${viewMode === 'live' ? 'active' : ''}`}
               onClick={() => setViewMode(viewMode === 'live' ? 'matches' : 'live')}
               style={{ background: viewMode === 'live' ? '#ef4444' : '', color: viewMode === 'live' ? '#fff' : '', fontWeight: 700 }}
               title="Live In-Play Radar"
             >
-              ðŸ”´ LIVE
+              🔴 LIVE
             </button>
             <button
               className={`night-shift-btn ${nightShift ? 'active' : ''}`}
               onClick={toggleNightShift}
               title="Night Shift: click to toggle"
             >
-              {nightShift ? 'ðŸŒ™' : 'â˜€ï¸'}
+              {nightShift ? '🌙' : '☀️'}
             </button>
           </div>
 
         </div>
 
-        {loading && <div className="loading">âš½ Loading predictionsâ€¦</div>}
-        {error   && <div className="empty-state"><div className="icon">âŒ</div><p>{error}</p></div>}
+        {loading && <div className="loading">⚽ Loading predictions…</div>}
+        {error   && <div className="empty-state"><div className="icon">❌</div><p>{error}</p></div>}
         {!loading && !error && viewMode === 'matches' && groups.length === 0 && data && (
-          <div className="empty-state"><div className="icon">ðŸ“­</div><p>No predictions match your filters.</p></div>
+          <div className="empty-state"><div className="icon">📭</div><p>No predictions match your filters.</p></div>
         )}
 
         {!loading && !error && viewMode === 'teams' && (
@@ -735,7 +735,7 @@ export default function App() {
         {!loading && !error && viewMode === 'matches' && groups.length > 0 && (
           <div className="predictions-table">
             {groups.map(g => {
-              const stats = leaderboard.find(x => (g.league_id && x.league_id === g.league_id) || x.name === `${g.country?.toUpperCase()} â€” ${g.league?.toUpperCase()}`)
+              const stats = leaderboard.find(x => (g.league_id && x.league_id === g.league_id) || x.name === `${g.country?.toUpperCase()} — ${g.league?.toUpperCase()}`)
               return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} teamLeaderboard={teamLeaderboard} />
             })}
           </div>
@@ -750,13 +750,13 @@ export default function App() {
 
           let filterLabel = 'TOP PICKS'
           let filterType = 'all'
-          if (filterBttsHitRate >= 60) { filterLabel = `BTTS â‰¥${filterBttsHitRate}%`; filterType = 'btts' }
-          if (filterO25 >= 60) { filterLabel = `O2.5 â‰¥${filterO25}%`; filterType = 'o25' }
+          if (filterBttsHitRate >= 60) { filterLabel = `BTTS ≥${filterBttsHitRate}%`; filterType = 'btts' }
+          if (filterO25 >= 60) { filterLabel = `O2.5 ≥${filterO25}%`; filterType = 'o25' }
           if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
-          if (filterDraw > 0) { filterLabel = `Draw â‰¥${filterDraw}%`; filterType = 'draw' }
+          if (filterDraw > 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
           if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }
           if (filterCorner !== 'all') {
-            filterLabel = filterCorner === 'plays' ? 'Corners: Plays' : filterCorner === 'over' ? 'Corners: OVER 10.5' : filterCorner === 'under' ? 'Corners: UNDER 10.5' : filterCorner === 'exp_high' ? 'Corners: Exp â‰¥ 10.5' : 'Corners: Exp < 9.5'
+            filterLabel = filterCorner === 'plays' ? 'Corners: Plays' : filterCorner === 'over' ? 'Corners: OVER 10.5' : filterCorner === 'under' ? 'Corners: UNDER 10.5' : filterCorner === 'exp_high' ? 'Corners: Exp ≥ 10.5' : 'Corners: Exp < 9.5'
             filterType = 'corners'
           }
           return (
@@ -785,7 +785,3 @@ export default function App() {
     </div>
   )
 }
-
-
-
-
