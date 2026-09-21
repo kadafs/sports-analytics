@@ -208,7 +208,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         // OR have the draw_value_flag set to true
         // AND have a model draw probability of at least 28%
         const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
-        const isHighDrawLeague = stats && (stats.regressed_draw_rate >= 30.0 || stats.draw_tier === 'ELITE' || stats.draw_tier === 'HIGH')
+        const isHighDrawLeague = stats && (stats.draw_tier === 'ELITE' || stats.draw_tier === 'HIGH' || (stats.regressed_draw_rate || 0) >= 27.0 || (stats.raw_draw_rate || 0) >= 28.5)
         const isDrawValue = p.draw_value_flag === true
         const modelDrawProb = p.draw_prob_1x2 ?? p.draw_prob ?? 0
         if (!(isHighDrawLeague || isDrawValue) || modelDrawProb < 28.0) return false
@@ -565,11 +565,11 @@ export default function App() {
 
               <select className="filter-select" value={filterDraw} onChange={e => setFilterDraw(Number(e.target.value))}>
                 <option value={0}>Draw (All)</option>
-                <option value={-1}>🎯 Smart Draw Value</option>
-                <option value={30}>Draw ≥ 30%</option>
-                <option value={33}>Draw ≥ 33%</option>
-                <option value={35}>Draw ≥ 35%</option>
-                <option value={38}>Draw ≥ 38%</option>
+                <option value={-1}>{'\uD83C\uDFAF'} Smart Draw Value</option>
+                <option value={30}>{'Draw \u2265 30%'}</option>
+                <option value={33}>{'Draw \u2265 33%'}</option>
+                <option value={35}>{'Draw \u2265 35%'}</option>
+                <option value={38}>{'Draw \u2265 38%'}</option>
               </select>
 
               <select className="filter-select" value={filterBttsHitRate} onChange={e => setFilterBttsHitRate(Number(e.target.value))}>
