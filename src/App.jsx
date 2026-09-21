@@ -278,8 +278,15 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     // Confidence Band Filter -- per-matchup (Basketball only)
     if (sport === 'basketball' && filterConfidence !== 'all') {
       const band = (p.confidence_score_band || '').trim()
-      if (filterConfidence === '[HIGH]' && band !== '[HIGH]') return false
-      if (filterConfidence === '[MODERATE]+' && band !== '[HIGH]' && band !== '[MODERATE]') return false
+      if (filterConfidence === '[MODERATE]+') {
+        if (!['[ELITE]', '[HIGH]', '[SOLID]', '[MODERATE]'].includes(band)) return false
+      } else if (filterConfidence === '[SOLID]+') {
+        if (!['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) return false
+      } else if (filterConfidence === '[HIGH]+') {
+        if (!['[ELITE]', '[HIGH]'].includes(band)) return false
+      } else {
+        if (band !== filterConfidence) return false
+      }
     }
     
     // Smart Edge Filter (Basketball only)
@@ -650,10 +657,16 @@ export default function App() {
                 <option value={9.0}>&lt; 9.0 σ (Elite)</option>
               </select>
 
-              <select className="filter-select" style={{ width: '145px' }} value={filterConfidence} onChange={e => setFilterConfidence(e.target.value)}>
-                <option value="all">Confidence</option>
-                <option value="[MODERATE]+">Moderate+ Conf</option>
-                <option value="[HIGH]">High Conf Only</option>
+              <select className="filter-select" style={{ width: '150px' }} value={filterConfidence} onChange={e => setFilterConfidence(e.target.value)}>
+                <option value="all">Confidence: All</option>
+                <option value="[ELITE]">⭐ Elite (90+)</option>
+                <option value="[HIGH]">🟢 High (75–89)</option>
+                <option value="[SOLID]">🟡 Solid (60–74)</option>
+                <option value="[MODERATE]">🟠 Moderate (45–59)</option>
+                <option value="[LOW]">🔵 Low (30–44)</option>
+                <option value="[AVOID]">🔴 Avoid (&lt; 30)</option>
+                <option value="[SOLID]+">⚡ Solid+ (60+)</option>
+                <option value="[MODERATE]+">⚡ Moderate+ (45+)</option>
               </select>
 
               <button
