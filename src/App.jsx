@@ -187,7 +187,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
   })
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, maxVolatility = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -267,14 +267,6 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       if (targetStats.mape > maxMape) return false
     }
 
-    // Volatility Filter -- per-team (Basketball only). Both home AND away must pass.
-    if (sport === 'basketball' && maxVolatility < 100) {
-      const h_vol = p.home_team_volatility
-      const a_vol = p.away_team_volatility
-      if (h_vol == null || a_vol == null) return false
-      if (h_vol > maxVolatility || a_vol > maxVolatility) return false
-    }
-
     // Confidence Band Filter -- per-matchup (Basketball only)
     if (sport === 'basketball' && filterConfidence !== 'all') {
       const band = (p.confidence_score_band || '').trim()
@@ -336,7 +328,6 @@ export default function App() {
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
   const [filterO25,     setFilterO25]     = useState(0)    // min Over 2.5 probability percentage
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
-  const [filterVolatility, setFilterVolatility] = useState(100) // max standard deviation
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
@@ -478,8 +469,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterVolatility, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -524,7 +515,6 @@ export default function App() {
           setFilterBttsHitRate(0);
           setFilterO25(0);
           setFilterMape(100);
-          setFilterVolatility(100);
           setFilterConfidence('all');
           setFilterWomen('all');
           setHidePlayoffs(false);
@@ -650,13 +640,6 @@ export default function App() {
                 <option value={5.0}>&lt; 5.0% MAPE</option>
               </select>
 
-              <select className="filter-select" style={{ width: '130px' }} value={filterVolatility} onChange={e => setFilterVolatility(Number(e.target.value))}>
-                <option value={100}>Max Vol (sd)</option>
-                <option value={14.0}>&lt; 14.0 σ</option>
-                <option value={10.0}>&lt; 10.0 σ</option>
-                <option value={9.0}>&lt; 9.0 σ (Elite)</option>
-              </select>
-
               <select className="filter-select" style={{ width: '150px' }} value={filterConfidence} onChange={e => setFilterConfidence(e.target.value)}>
                 <option value="all">Confidence: All</option>
                 <option value="[ELITE]">⭐ Elite (90+)</option>
@@ -691,7 +674,6 @@ export default function App() {
                 onClick={() => {
                   setSmartEdgeFilter(!smartEdgeFilter)
                   if (!smartEdgeFilter) {
-                    setFilterVolatility(100) // Clear standard volatility filter when activating Smart Edge
                     setFilterWomen('all') // Ensure we see both men and women to see the full Smart Edge board
                   }
                 }}
