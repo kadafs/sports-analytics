@@ -905,9 +905,9 @@ export default function MatchRow({ game }) {
                         {game.shots.shots_call && game.shots.shots_call !== 'PASS' && (() => {
                           const sc = game.shots.shots_call
                           const isShGraded = shGrade != null
-                          const bg = isShGraded ? (shGrade === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : (sc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)')
-                          const border = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : (sc.startsWith('OVER') ? '#4ade80' : '#f87171')
-                          const txt = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : (sc.startsWith('OVER') ? '#4ade80' : '#f87171')
+                          const bg = isShGraded ? (shGrade === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : 'rgba(167,139,250,0.12)'
+                          const border = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : '#a78bfa'
+                          const txt = isShGraded ? (shGrade === 'WIN' ? '#4ade80' : '#f87171') : '#a78bfa'
                           return (
                             <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
                               <span style={{color:'#94a3b8'}}>Shots </span>
@@ -919,9 +919,9 @@ export default function MatchRow({ game }) {
                         {game.shots.sot_call && game.shots.sot_call !== 'PASS' && (() => {
                           const sotc = game.shots.sot_call
                           const isSotGraded = sotGr != null
-                          const bg = isSotGraded ? (sotGr === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : (sotc.startsWith('OVER') ? 'rgba(74,222,128,0.15)' : 'rgba(248,113,113,0.15)')
-                          const border = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : (sotc.startsWith('OVER') ? '#4ade80' : '#f87171')
-                          const txt = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : (sotc.startsWith('OVER') ? '#4ade80' : '#f87171')
+                          const bg = isSotGraded ? (sotGr === 'WIN' ? 'rgba(74,222,128,0.18)' : 'rgba(248,113,113,0.18)') : 'rgba(129,140,248,0.12)'
+                          const border = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : '#818cf8'
+                          const txt = isSotGraded ? (sotGr === 'WIN' ? '#4ade80' : '#f87171') : '#818cf8'
                           return (
                             <div style={{background:bg, border:`1px solid ${border}`, borderRadius:6, padding:'4px 8px', fontSize:10}}>
                               <span style={{color:'#94a3b8'}}>SoT </span>
