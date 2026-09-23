@@ -108,8 +108,49 @@ const LEAGUE_PRIORITY = {
   1035: 160, 1232: 161, 1168: 162
 }
 
+const WORLD_LEAGUE_PRIORITY = {
+  // Senior Global & Continental Tournaments
+  1: 1,    // World Cup
+  4: 2,    // Euro Championship
+  5: 3,    // UEFA Nations League
+  8: 4,    // Copa America
+  6: 5,    // Africa Cup of Nations
+  7: 6,    // AFC Asian Cup
+  25: 7,   // Gulf Cup of Nations
+  536: 8,  // CONCACAF Nations League
+  9: 9,    // Copa Oro (Gold Cup)
+  2: 10,   // UEFA Champions League
+  3: 11,   // UEFA Europa League
+  848: 12, // UEFA Europa Conference League
+  531: 13, // UEFA Super Cup
+  13: 14,  // Copa Libertadores
+  11: 15,  // Copa Sudamericana
+  15: 16,  // FIFA Club World Cup
+  10: 20,  // Friendlies
+  803: 25, // Asian Games
+  667: 30, // Friendlies Clubs
+  // Youth & Women's International
+  33: 40,  // Olympic Games Men
+  34: 41,  // Olympic Games Women
+  886: 45, // UEFA U17 Championship - Qualification
+  771: 46, // COSAFA U20 Championship
+  920: 50, // World Cup - U20 - Women
+  525: 55, // UEFA Champions League Women
+  1191: 56 // UEFA Europa Cup - Women
+}
+
 function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
-  if (sortBy === 'country') return [...groups].sort((a, b) => a.country.localeCompare(b.country))
+  if (sortBy === 'country') {
+    return [...groups].sort((a, b) => {
+      const aIsWorld = (a.country || '').trim().toUpperCase() === 'WORLD'
+      const bIsWorld = (b.country || '').trim().toUpperCase() === 'WORLD'
+      if (aIsWorld && !bIsWorld) return -1
+      if (!aIsWorld && bIsWorld) return 1
+      const cDiff = a.country.localeCompare(b.country)
+      if (cDiff !== 0) return cDiff
+      return a.league.localeCompare(b.league)
+    })
+  }
   if (sortBy === 'time') return [...groups]
   if (sortBy === 'o25') {
     // Sort games within each group by O2.5 desc, then sort groups by their best O2.5
@@ -152,6 +193,12 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
     const isPinned = (lid, prio) => PINNED_LEAGUE_IDS.has(lid)
 
     const computeRankScore = (g) => {
+      const isWorld = (g.country || '').trim().toUpperCase() === 'WORLD'
+      if (isWorld) {
+        const wprio = WORLD_LEAGUE_PRIORITY[g.league_id] || 100
+        return 200000 - wprio
+      }
+
       const prio = LEAGUE_PRIORITY[g.league_id] || 999
       if (isPinned(g.league_id, prio)) {
         return 100000 - prio
@@ -180,6 +227,10 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
 
   // Basketball / Fallback: Sort by global tier, then alphabetical
   return [...groups].sort((a, b) => {
+    const aIsWorld = (a.country || '').trim().toUpperCase() === 'WORLD'
+    const bIsWorld = (b.country || '').trim().toUpperCase() === 'WORLD'
+    if (aIsWorld && !bIsWorld) return -1
+    if (!aIsWorld && bIsWorld) return 1
     const aPrio = LEAGUE_PRIORITY[a.league_id] || 999
     const bPrio = LEAGUE_PRIORITY[b.league_id] || 999
     if (aPrio !== bPrio) return aPrio - bPrio
