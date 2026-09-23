@@ -243,7 +243,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       // If either team has >= 3 graded games, accuracy must be >= 70%.
       if (teamLbMap.size > 0) {
         const TEAM_MIN_PLAYS = 3
-        const TEAM_HIT_RATE  = 70
+        const TEAM_HIT_RATE  = filterBttsHitRate
         const homeStats = teamLbMap.get(`${p.league_id}__${(p.home_team || '').toLowerCase()}`)
         const awayStats = teamLbMap.get(`${p.league_id}__${(p.away_team || '').toLowerCase()}`)
         const hPlays = homeStats?.btts_plays ?? 0
