@@ -238,24 +238,26 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       // Filter 1: Poisson model probability >= selected threshold
       if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
 
-      // Filter 2: Team model accuracy
+      // Filter 2: Team model accuracy (enforced when team leaderboard is loaded)
       // Requires at least ONE team to have >= 3 graded games on record.
       // If either team has >= 3 graded games, accuracy must be >= 70%.
-      const TEAM_MIN_PLAYS = 3
-      const TEAM_HIT_RATE  = 70
-      const homeStats = teamLbMap.get(`${p.league_id}__${(p.home_team || '').toLowerCase()}`)
-      const awayStats = teamLbMap.get(`${p.league_id}__${(p.away_team || '').toLowerCase()}`)
-      const hPlays = homeStats?.btts_plays ?? 0
-      const aPlays = awayStats?.btts_plays ?? 0
-      const hRate  = homeStats?.btts_hit_rate ?? 100
-      const aRate  = awayStats?.btts_hit_rate ?? 100
+      if (teamLbMap.size > 0) {
+        const TEAM_MIN_PLAYS = 3
+        const TEAM_HIT_RATE  = 70
+        const homeStats = teamLbMap.get(`${p.league_id}__${(p.home_team || '').toLowerCase()}`)
+        const awayStats = teamLbMap.get(`${p.league_id}__${(p.away_team || '').toLowerCase()}`)
+        const hPlays = homeStats?.btts_plays ?? 0
+        const aPlays = awayStats?.btts_plays ?? 0
+        const hRate  = homeStats?.btts_hit_rate ?? 100
+        const aRate  = awayStats?.btts_hit_rate ?? 100
 
-      // Must have at least one team with >= 3 games on record
-      if (hPlays < TEAM_MIN_PLAYS && aPlays < TEAM_MIN_PLAYS) return false
+        // Must have at least one team with >= 3 games on record
+        if (hPlays < TEAM_MIN_PLAYS && aPlays < TEAM_MIN_PLAYS) return false
 
-      // If either team has >= 3 games, accuracy must meet threshold
-      if (hPlays >= TEAM_MIN_PLAYS && hRate < TEAM_HIT_RATE) return false
-      if (aPlays >= TEAM_MIN_PLAYS && aRate < TEAM_HIT_RATE) return false
+        // If either team has >= 3 games, accuracy must meet threshold
+        if (hPlays >= TEAM_MIN_PLAYS && hRate < TEAM_HIT_RATE) return false
+        if (aPlays >= TEAM_MIN_PLAYS && aRate < TEAM_HIT_RATE) return false
+      }
     }
     
     if (sport === 'football' && filterO25 > 0) {

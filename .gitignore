@@ -9,6 +9,3 @@ dist/
 
 # Exclude runtime-generated football H2H cache files (thousands of tiny files)
 public/data/football/h2h_*.json
-
-# Exclude large generated leaderboard (rebuilt at runtime)
-public/data/football/football_leaderboard.json
