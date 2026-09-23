@@ -216,7 +216,7 @@ export default function MatchRow({ game }) {
 
 
         {/* Corners column — clean: number + YES/NO badge only */}
-        {game.corners && (() => {
+        {game.corners ? (() => {
           const cc = game.corners.corner_call
           const ccPct = game.corners.corner_call_pct
           const ccLine = game.corners.corner_call_line || ''
@@ -236,10 +236,10 @@ export default function MatchRow({ game }) {
               )}
             </div>
           )
-        })()}
+        })() : <div className="match-corners-col compact-hide" />}
 
         {/* Bookings column — clean: number + YES/NO badge only */}
-        {game.corners && (() => {
+        {game.corners ? (() => {
           const bc = game.corners.booking_call
           const bcPct = game.corners.booking_call_pct
           const bcLine = game.corners.booking_call_line || ''
@@ -259,7 +259,7 @@ export default function MatchRow({ game }) {
               )}
             </div>
           )
-        })()}
+        })() : <div className="match-booking-col compact-hide" />}
         {/* Shots column */}
         {game.shots && (() => {
           const sc = game.shots.shots_call
