@@ -46,8 +46,6 @@ export async function fetchLeaderboard(sport = 'football') {
 }
 
 export async function fetchTeamLeaderboard(sport = 'football') {
-  if (sport === 'football') return [] // Football does not have team tracking yet
-  
   if (isDev) {
     // Falls back to static fetch if dev API isn't built out for teams yet
     try {
@@ -59,8 +57,8 @@ export async function fetchTeamLeaderboard(sport = 'football') {
     } catch (e) {}
   }
   
-  // Direct static fetch from the generated file we just created
-  const r = await fetch(`${DATA}/${sport}/basketball_leaderboard.json?t=${Date.now()}`)
+  const lbFile = sport === 'football' ? 'football_leaderboard.json' : 'basketball_leaderboard.json'
+  const r = await fetch(`${DATA}/${sport}/${lbFile}?t=${Date.now()}`)
   if (!r.ok) return []
   const d = await r.json()
   return d.leaderboard || []
