@@ -338,6 +338,10 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       } else {
         if (band !== filterConfidence) return false
       }
+      // Min 2 graded games gate: only applies when a confidence filter is active
+      const gradedH = p.graded_h ?? 0
+      const gradedA = p.graded_a ?? 0
+      if (gradedH < 2 || gradedA < 2) return false
     }
     
     // Smart Edge Filter (Basketball only)
