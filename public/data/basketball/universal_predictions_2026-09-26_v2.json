@@ -41475,7 +41475,7 @@
       "time": "23:00",
       "away_team": "Catolica",
       "home_team": "Naviera Ulloa",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 167.72,
       "xpts_h": 82.7,
@@ -41906,7 +41906,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 52,
+      "halftime_away_score": 40,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 54.9,
+      "total_delta": 1.28,
+      "signed_delta": 1.28,
+      "total_rpe": 0.76,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -41918,7 +41929,7 @@
       "time": "23:00",
       "away_team": "Puente Alto",
       "home_team": "Espanol Osorno",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.43,
       "xpts_h": 84.5,
@@ -42455,7 +42466,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 33,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 46.5,
+      "total_delta": 3.43,
+      "signed_delta": -3.43,
+      "total_rpe": 2.17,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -42467,7 +42489,7 @@
       "time": "23:30",
       "away_team": "Leones Quilpue",
       "home_team": "Valdivia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.75,
       "xpts_h": 79.6,
@@ -43081,7 +43103,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 35,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 53.2,
+      "total_delta": 7.25,
+      "signed_delta": 7.25,
+      "total_rpe": 4.29,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": true,
@@ -47594,7 +47627,7 @@
       "time": "23:00",
       "away_team": "Mineros",
       "home_team": "Lobos Plateados",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 168.63,
       "xpts_h": 89.7,
@@ -48069,7 +48102,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 34,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 48.6,
+      "total_delta": 9.63,
+      "signed_delta": -9.63,
+      "total_rpe": 6.06,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -94812,17 +94856,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-09-27T00:34:42.566046",
+  "graded_at": "2026-09-27T07:52:46.044969",
   "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 56,
-      "total": 81,
-      "pct": 69.1
-    },
     "[  SRS   ]": {
-      "wins": 51,
-      "total": 77,
-      "pct": 66.2
+      "wins": 3,
+      "total": 4,
+      "pct": 75.0
     }
   }
 }
