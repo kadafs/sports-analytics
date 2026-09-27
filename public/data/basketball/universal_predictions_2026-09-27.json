@@ -78,7 +78,7 @@
                 "winner": true
               },
               "away": {
-                "name": "PGE Sp\u00f3jnia Stargard",
+                "name": "PGE Spójnia Stargard",
                 "winner": false
               }
             },
@@ -183,7 +183,7 @@
             {
               "position": 2,
               "team": {
-                "name": "PGE Sp\u00f3jnia Stargard",
+                "name": "PGE Spójnia Stargard",
                 "logo": ""
               },
               "games": {
@@ -249,7 +249,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Solvera Sok\u00f3\u0142 \u0141a\u0144cut",
+                "name": "Solvera Sokół Łańcut",
                 "logo": ""
               },
               "games": {
@@ -925,7 +925,7 @@
             {
               "position": 2,
               "team": {
-                "name": "PGE Sp\u00f3jnia Stargard",
+                "name": "PGE Spójnia Stargard",
                 "logo": ""
               },
               "games": {
@@ -991,7 +991,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Solvera Sok\u00f3\u0142 \u0141a\u0144cut",
+                "name": "Solvera Sokół Łańcut",
                 "logo": ""
               },
               "games": {
@@ -8999,7 +8999,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -9744,7 +9744,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -10363,7 +10363,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -11108,7 +11108,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -11727,7 +11727,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -12491,7 +12491,7 @@
             {
               "position": 20,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -12544,7 +12544,7 @@
       "time": "04:00",
       "away_team": "NeoPhoenix",
       "home_team": "Ibaraki Robots",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 159.37,
       "xpts_h": 74.6,
@@ -13494,7 +13494,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 81,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 43,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 50.8,
+      "total_delta": 3.37,
+      "signed_delta": -3.37,
+      "total_rpe": 2.16,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -13506,7 +13517,7 @@
       "time": "04:05",
       "away_team": "Akita",
       "home_team": "Sendai",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 155.66,
       "xpts_h": 90.1,
@@ -14494,7 +14505,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 32,
+      "halftime_total": 66,
+      "halftime_pct_of_model": 42.4,
+      "total_delta": 7.66,
+      "signed_delta": -7.66,
+      "total_rpe": 5.18,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -14506,7 +14528,7 @@
       "time": "04:05",
       "away_team": "Osaka",
       "home_team": "Kobe",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 170.43,
       "xpts_h": 97.7,
@@ -15353,7 +15375,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 50,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 53.4,
+      "total_delta": 8.43,
+      "signed_delta": -8.43,
+      "total_rpe": 5.2,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -15365,7 +15398,7 @@
       "time": "04:05",
       "away_team": "SeaHorses Mikawa",
       "home_team": "Levanga Hokkaido",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 170.19,
       "xpts_h": 82.5,
@@ -16334,7 +16367,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 40,
+      "halftime_away_score": 43,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 15.19,
+      "signed_delta": -15.19,
+      "total_rpe": 9.8,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -16346,7 +16390,7 @@
       "time": "05:05",
       "away_team": "Hiroshima D.",
       "home_team": "Saga",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 174.15,
       "xpts_h": 89.1,
@@ -17151,7 +17195,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 61,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 42,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 43.6,
+      "total_delta": 24.15,
+      "signed_delta": -24.15,
+      "total_rpe": 16.1,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -17163,7 +17218,7 @@
       "time": "05:05",
       "away_team": "Toyama",
       "home_team": "Shinshu",
-      "status": "Quarter 4",
+      "status": "FT",
       "stage": "",
       "model_total": 164.48,
       "xpts_h": 96.7,
@@ -18010,7 +18065,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 47,
+      "halftime_total": 100,
+      "halftime_pct_of_model": 60.8,
+      "total_delta": 15.52,
+      "signed_delta": 15.52,
+      "total_rpe": 8.62,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": true,
@@ -21284,7 +21350,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -21987,7 +22053,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -22235,7 +22301,7 @@
                 "winner": true
               },
               "away": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "winner": false
               }
             },
@@ -22363,7 +22429,7 @@
                 "winner": false
               },
               "away": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "winner": true
               }
             },
@@ -22710,7 +22776,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -23350,7 +23416,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -24073,7 +24139,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -24670,7 +24736,7 @@
             {
               "position": 14,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -26461,7 +26527,7 @@
       "is_clash": false,
       "clash_trigger": "",
       "league_id": 104,
-      "league": "Basketbol S\u00fcper Ligi",
+      "league": "Basketbol Süper Ligi",
       "country": "Turkey",
       "date": "2026-09-27",
       "time": "12:30",
@@ -27118,7 +27184,7 @@
       "is_clash": false,
       "clash_trigger": "",
       "league_id": 104,
-      "league": "Basketbol S\u00fcper Ligi",
+      "league": "Basketbol Süper Ligi",
       "country": "Turkey",
       "date": "2026-09-27",
       "time": "15:00",
@@ -27775,7 +27841,7 @@
       "is_clash": false,
       "clash_trigger": "",
       "league_id": 104,
-      "league": "Basketbol S\u00fcper Ligi",
+      "league": "Basketbol Süper Ligi",
       "country": "Turkey",
       "date": "2026-09-27",
       "time": "17:30",
@@ -32510,7 +32576,7 @@
             "date": "Mar 10, 2026",
             "teams": {
               "home": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               },
               "away": {
@@ -32617,7 +32683,7 @@
             "date": "Mar 10, 2026",
             "teams": {
               "home": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               },
               "away": {
@@ -32816,7 +32882,7 @@
             {
               "position": 9,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -33704,7 +33770,7 @@
             "date": "Mar 28, 2026",
             "teams": {
               "home": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "winner": false
               },
               "away": {
@@ -33746,7 +33812,7 @@
             "date": "Apr 4, 2026",
             "teams": {
               "home": {
-                "name": "Levick\u00ed Patrioti",
+                "name": "Levickí Patrioti",
                 "winner": true
               },
               "away": {
@@ -33769,7 +33835,7 @@
             "date": "Mar 28, 2026",
             "teams": {
               "home": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "winner": false
               },
               "away": {
@@ -33811,7 +33877,7 @@
             "date": "Apr 4, 2026",
             "teams": {
               "home": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "winner": true
               },
               "away": {
@@ -33944,7 +34010,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Levick\u00ed Patrioti",
+                "name": "Levickí Patrioti",
                 "logo": ""
               },
               "games": {
@@ -33988,7 +34054,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Spi\u0161sk\u00ed Rytieri",
+                "name": "Spišskí Rytieri",
                 "logo": ""
               },
               "games": {
@@ -34032,7 +34098,7 @@
             {
               "position": 10,
               "team": {
-                "name": "BC Kom\u00e1rno",
+                "name": "BC Komárno",
                 "logo": ""
               },
               "games": {
@@ -34054,7 +34120,7 @@
             {
               "position": 11,
               "team": {
-                "name": "MBK Ban\u00edk Handlov\u00e1",
+                "name": "MBK Baník Handlová",
                 "logo": ""
               },
               "games": {
@@ -34076,7 +34142,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Ko\u0161ice Wolves",
+                "name": "Košice Wolves",
                 "logo": ""
               },
               "games": {
@@ -34129,7 +34195,7 @@
       "time": "05:00",
       "away_team": "Anyang JungKwanJang",
       "home_team": "Seoul Thunders",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 149.6,
       "xpts_h": 55.4,
@@ -34496,7 +34562,18 @@
           "rank": null,
           "prior_blended": true
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 38,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 1.6,
+      "signed_delta": -1.6,
+      "total_rpe": 1.08,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -34508,7 +34585,7 @@
       "time": "05:00",
       "away_team": "Goyang Sono",
       "home_team": "Suwon KT",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 150.17,
       "xpts_h": 90.3,
@@ -34875,7 +34952,18 @@
           "rank": null,
           "prior_blended": true
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 114,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 56,
+      "halftime_total": 115,
+      "halftime_pct_of_model": 76.6,
+      "total_delta": 59.83,
+      "signed_delta": 59.83,
+      "total_rpe": 28.49,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -35306,7 +35394,7 @@
             "date": "Oct 1, 2025",
             "teams": {
               "home": {
-                "name": "Roche Vend\u00e9e",
+                "name": "Roche Vendée",
                 "winner": false
               },
               "away": {
@@ -35524,7 +35612,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Charleville-M\u00e9zi\u00e8res",
+                "name": "Charleville-Mézières",
                 "logo": ""
               },
               "games": {
@@ -35634,7 +35722,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Roche Vend\u00e9e",
+                "name": "Roche Vendée",
                 "logo": ""
               },
               "games": {
@@ -35989,7 +36077,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Charleville-M\u00e9zi\u00e8res",
+                "name": "Charleville-Mézières",
                 "logo": ""
               },
               "games": {
@@ -36099,7 +36187,7 @@
             {
               "position": 11,
               "team": {
-                "name": "Roche Vend\u00e9e",
+                "name": "Roche Vendée",
                 "logo": ""
               },
               "games": {
@@ -36464,7 +36552,7 @@
             "date": "Apr 22, 2026",
             "teams": {
               "home": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": false
               },
               "away": {
@@ -36552,7 +36640,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -36618,7 +36706,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Taurag\u0117",
+                "name": "Tauragė",
                 "logo": ""
               },
               "games": {
@@ -36908,7 +36996,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": true
               }
             },
@@ -36973,7 +37061,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "winner": true
               }
             },
@@ -37099,7 +37187,7 @@
             {
               "position": 3,
               "team": {
-                "name": "Garg\u017edai Basketball",
+                "name": "Gargždai Basketball",
                 "logo": ""
               },
               "games": {
@@ -37165,7 +37253,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Taurag\u0117",
+                "name": "Tauragė",
                 "logo": ""
               },
               "games": {
@@ -40145,7 +40233,7 @@
       "time": "00:00",
       "away_team": "Soles",
       "home_team": "Dorados",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 163.51,
       "xpts_h": 76.8,
@@ -40434,7 +40522,7 @@
             "date": "Sep 18, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -40721,7 +40809,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -40784,7 +40872,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 48,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 50.1,
+      "total_delta": 2.51,
+      "signed_delta": -2.51,
+      "total_rpe": 1.56,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": true,
@@ -40796,7 +40895,7 @@
       "time": "02:00",
       "away_team": "Santos",
       "home_team": "Abejas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 166.92,
       "xpts_h": 82.7,
@@ -40838,7 +40937,7 @@
                 "name": "Santos de San Luis Potosi"
               },
               "away": {
-                "name": "Abejas de Le\u00f3n"
+                "name": "Abejas de León"
               }
             },
             "scores": {
@@ -40857,7 +40956,7 @@
                 "name": "Santos de San Luis Potosi"
               },
               "away": {
-                "name": "Abejas de Le\u00f3n"
+                "name": "Abejas de León"
               }
             },
             "scores": {
@@ -40873,7 +40972,7 @@
             "date": "Sep 27, 2026",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n"
+                "name": "Abejas de León"
               },
               "away": {
                 "name": "Santos de San Luis Potosi"
@@ -40892,7 +40991,7 @@
             "date": "Sep 26, 2026",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n"
+                "name": "Abejas de León"
               },
               "away": {
                 "name": "Santos de San Luis Potosi"
@@ -40913,7 +41012,7 @@
             "date": "Jul 10, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": true
               },
               "away": {
@@ -40934,7 +41033,7 @@
             "date": "Sep 27, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -40955,7 +41054,7 @@
             "date": "Sep 26, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -40976,7 +41075,7 @@
             "date": "Sep 18, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -40997,7 +41096,7 @@
             "date": "Sep 17, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -41391,7 +41490,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -41454,7 +41553,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 36,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 3.08,
+      "signed_delta": 3.08,
+      "total_rpe": 1.81,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -41466,7 +41576,7 @@
       "time": "02:00",
       "away_team": "Panteras",
       "home_team": "Freseros",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 172.57,
       "xpts_h": 78.6,
@@ -41732,7 +41842,7 @@
             "date": "Jul 10, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": true
               },
               "away": {
@@ -42061,7 +42171,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -42124,7 +42234,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 47,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 48.7,
+      "total_delta": 12.43,
+      "signed_delta": 12.43,
+      "total_rpe": 6.72,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -42136,7 +42257,7 @@
       "time": "02:00",
       "away_team": "Correcaminos",
       "home_team": "Gambusinos",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 185.44,
       "xpts_h": 101.0,
@@ -42731,7 +42852,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -42794,7 +42915,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 102,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 46,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 52.3,
+      "total_delta": 0.44,
+      "signed_delta": -0.44,
+      "total_rpe": 0.24,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -42992,7 +43124,7 @@
             "date": "Sep 27, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -43013,7 +43145,7 @@
             "date": "Sep 26, 2025",
             "teams": {
               "home": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "winner": false
               },
               "away": {
@@ -43363,7 +43495,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -43850,7 +43982,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Abejas de Le\u00f3n",
+                "name": "Abejas de León",
                 "logo": ""
               },
               "games": {
@@ -45734,7 +45866,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -46265,7 +46397,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -46796,7 +46928,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -47327,7 +47459,7 @@
             {
               "position": 14,
               "team": {
-                "name": "Acqua S.Bernardo Cant\u00f9",
+                "name": "Acqua S.Bernardo Cantù",
                 "logo": ""
               },
               "games": {
@@ -47995,7 +48127,7 @@
       "time": "06:00",
       "away_team": "Cairns Taipans",
       "home_team": "Adelaide",
-      "status": "Break Time",
+      "status": "FT",
       "stage": "2",
       "model_total": 181.5,
       "xpts_h": 101.2,
@@ -48565,7 +48697,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 34,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 47.4,
+      "total_delta": 29.5,
+      "signed_delta": -29.5,
+      "total_rpe": 19.41,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -49199,7 +49342,7 @@
             "date": "Apr 11, 2026",
             "teams": {
               "home": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "winner": true
               },
               "away": {
@@ -49266,7 +49409,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "winner": false
               }
             },
@@ -49369,7 +49512,7 @@
             "date": "Mar 29, 2026",
             "teams": {
               "home": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "winner": true
               },
               "away": {
@@ -49501,7 +49644,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -49655,7 +49798,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -49677,7 +49820,7 @@
             {
               "position": 13,
               "team": {
-                "name": "BK Lokomotiva Plze\u0148",
+                "name": "BK Lokomotiva Plzeň",
                 "logo": ""
               },
               "games": {
@@ -49860,7 +50003,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Sr\u0161ni P\u00edsek",
+                "name": "Sršni Písek",
                 "logo": ""
               },
               "games": {
@@ -50014,7 +50157,7 @@
             {
               "position": 12,
               "team": {
-                "name": "Hradec Kr\u00e1lov\u00e9",
+                "name": "Hradec Králové",
                 "logo": ""
               },
               "games": {
@@ -50036,7 +50179,7 @@
             {
               "position": 13,
               "team": {
-                "name": "BK Lokomotiva Plze\u0148",
+                "name": "BK Lokomotiva Plzeň",
                 "logo": ""
               },
               "games": {
@@ -50298,7 +50441,7 @@
                 "winner": true
               },
               "away": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "winner": false
               }
             },
@@ -50357,7 +50500,7 @@
             "date": "Mar 18, 2026",
             "teams": {
               "home": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "winner": true
               },
               "away": {
@@ -50643,7 +50786,7 @@
             {
               "position": 12,
               "team": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "logo": ""
               },
               "games": {
@@ -50815,7 +50958,7 @@
             "date": "Oct 4, 2025",
             "teams": {
               "home": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "winner": false
               },
               "away": {
@@ -50947,7 +51090,7 @@
                 "winner": true
               },
               "away": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "winner": false
               }
             },
@@ -51250,7 +51393,7 @@
             {
               "position": 12,
               "team": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "logo": ""
               },
               "games": {
@@ -51838,7 +51981,7 @@
             {
               "position": 12,
               "team": {
-                "name": "GKK \u0160ibenka",
+                "name": "GKK Šibenka",
                 "logo": ""
               },
               "games": {
@@ -51994,7 +52137,7 @@
             "date": "Feb 20, 2026",
             "teams": {
               "home": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "winner": true
               },
               "away": {
@@ -52039,7 +52182,7 @@
             {
               "position": 1,
               "team": {
-                "name": "Leyma Coru\u00f1a",
+                "name": "Leyma Coruña",
                 "logo": ""
               },
               "games": {
@@ -52083,7 +52226,7 @@
             {
               "position": 3,
               "team": {
-                "name": "S\u00faper Agropal Palencia",
+                "name": "Súper Agropal Palencia",
                 "logo": ""
               },
               "games": {
@@ -52510,7 +52653,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": true
               }
             },
@@ -52531,7 +52674,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": false
               }
             },
@@ -52548,7 +52691,7 @@
             "date": "Apr 12, 2026",
             "teams": {
               "home": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": true
               },
               "away": {
@@ -52573,7 +52716,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": false
               }
             },
@@ -52590,7 +52733,7 @@
             "date": "Apr 26, 2026",
             "teams": {
               "home": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": true
               },
               "away": {
@@ -52702,7 +52845,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "logo": ""
               },
               "games": {
@@ -52944,7 +53087,7 @@
             {
               "position": 16,
               "team": {
-                "name": "Tigers T\u00fcbingen",
+                "name": "Tigers Tübingen",
                 "logo": ""
               },
               "games": {
@@ -52966,7 +53109,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Uni Baskets M\u00fcnster",
+                "name": "Uni Baskets Münster",
                 "logo": ""
               },
               "games": {
@@ -53127,7 +53270,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": true
               }
             },
@@ -53186,7 +53329,7 @@
             "date": "Apr 18, 2026",
             "teams": {
               "home": {
-                "name": "Tigers T\u00fcbingen",
+                "name": "Tigers Tübingen",
                 "winner": true
               },
               "away": {
@@ -53255,7 +53398,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "winner": false
               }
             },
@@ -53425,7 +53568,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "logo": ""
               },
               "games": {
@@ -53667,7 +53810,7 @@
             {
               "position": 16,
               "team": {
-                "name": "Tigers T\u00fcbingen",
+                "name": "Tigers Tübingen",
                 "logo": ""
               },
               "games": {
@@ -53689,7 +53832,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Uni Baskets M\u00fcnster",
+                "name": "Uni Baskets Münster",
                 "logo": ""
               },
               "games": {
@@ -53850,7 +53993,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "winner": false
               }
             },
@@ -54022,7 +54165,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "logo": ""
               },
               "games": {
@@ -54402,7 +54545,7 @@
             {
               "position": 5,
               "team": {
-                "name": "Lions de Gen\u00e8ve",
+                "name": "Lions de Genève",
                 "logo": ""
               },
               "games": {
@@ -65223,7 +65366,7 @@
       "time": "02:00",
       "away_team": "Northern Kahu W",
       "home_team": "Tokomanawa Queens W",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 160.84,
       "xpts_h": 99.7,
@@ -65664,7 +65807,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 69,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 43,
+      "halftime_away_score": 44,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 54.1,
+      "total_delta": 16.84,
+      "signed_delta": -16.84,
+      "total_rpe": 11.69,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -74049,5 +74203,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-09-27T07:55:54.921594",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 6,
+      "total": 9,
+      "pct": 66.7
+    },
+    "[  SRS   ]": {
+      "wins": 3,
+      "total": 5,
+      "pct": 60.0
+    }
+  }
 }
