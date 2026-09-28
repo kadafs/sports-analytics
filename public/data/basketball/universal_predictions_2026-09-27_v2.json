@@ -38447,7 +38447,7 @@
       "time": "23:30",
       "away_team": "Leones Quilpue",
       "home_team": "Espanol Osorno",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.35,
       "xpts_h": 74.4,
@@ -38984,7 +38984,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 67,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 52,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 58.7,
+      "total_delta": 2.65,
+      "signed_delta": 2.65,
+      "total_rpe": 1.7,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -42344,7 +42355,7 @@
       "time": "23:00",
       "away_team": "Mineros",
       "home_team": "Lobos Plateados",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.28,
       "xpts_h": 89.7,
@@ -42819,7 +42830,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 48,
+      "halftime_away_score": 40,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 53.6,
+      "total_delta": 0.72,
+      "signed_delta": 0.72,
+      "total_rpe": 0.44,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -72739,17 +72761,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-09-28T00:43:49.929951",
+  "graded_at": "2026-09-28T06:20:36.126401",
   "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 37,
-      "total": 58,
-      "pct": 63.8
-    },
     "[  SRS   ]": {
-      "wins": 29,
-      "total": 41,
-      "pct": 70.7
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0
     }
   }
 }
