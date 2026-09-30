@@ -15685,14 +15685,18 @@
           "prior_blended": false
         }
       },
-      "actual_home_score": null,
-      "actual_away_score": null,
-      "actual_result": null,
-      "total_delta": null,
-      "signed_delta": null,
-      "total_rpe": null,
-      "accuracy_tier": null,
-      "incomplete_feed": true
+      "actual_home_score": 95,
+      "actual_away_score": 56,
+      "actual_result": "HOME",
+      "total_delta": 34.44,
+      "signed_delta": -34.44,
+      "total_rpe": 22.81,
+      "accuracy_tier": "BUST",
+      "incomplete_feed": true,
+      "halftime_home_score": 38,
+      "halftime_away_score": 29,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 36.1
     },
     {
       "is_clash": false,
@@ -24376,7 +24380,7 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-09-30T01:18:08.618110",
+  "graded_at": "2026-09-30T14:19:03.381092",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 17,
