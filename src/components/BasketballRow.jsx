@@ -5,10 +5,35 @@ function fmt(v, digits = 0) {
   return typeof v === 'number' ? v.toFixed(digits) : v
 }
 
+function normalizeTeam(s) {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
 function isMatch(t1, t2) {
-  const l1 = (t1 || '').toLowerCase()
-  const l2 = (t2 || '').toLowerCase()
-  return l1.includes(l2) || l2.includes(l1)
+  const n1 = normalizeTeam(t1)
+  const n2 = normalizeTeam(t2)
+  if (!n1 || !n2) return false
+  if (n1 === n2) return true
+  if (n1.includes(n2) || n2.includes(n1)) return true
+  
+  const stopWords = new Set(['the', 'club', 'team', 'basket', 'basketball', 'bc', 'kc', 'kk', 'sk', 'fc'])
+  const words1 = n1.split(' ').filter(w => w.length >= 3 && !stopWords.has(w))
+  const words2 = n2.split(' ').filter(w => w.length >= 3 && !stopWords.has(w))
+  
+  for (const w1 of words1) {
+    for (const w2 of words2) {
+      if (w1 === w2) return true
+      if (w1.length >= 5 && w2.length >= 5) {
+        if (w1.startsWith(w2) || w2.startsWith(w1)) return true
+      }
+    }
+  }
+  return false
 }
 
 const FINISHED_STATUSES = new Set([
