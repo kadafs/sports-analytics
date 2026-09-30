@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T00:40:47.390457",
+  "updated_at": "2026-09-30T01:18:08.835070",
   "total_leagues": 99,
   "leaderboard": [
     {
@@ -901,6 +901,45 @@
       "adv": null
     },
     {
+      "name": "USA — NBA W",
+      "league_id": 13,
+      "mape": 8.33,
+      "mae": 14.11,
+      "graded_totals": 49,
+      "bullseyes": 7,
+      "excellents": 12,
+      "solids": 10,
+      "misses": 9,
+      "busts": 11,
+      "ots": 1,
+      "avg_signed_delta": 1.84,
+      "outcome_w": 35,
+      "outcome_l": 15,
+      "outcome_hit_rate": 70.0,
+      "srs": null,
+      "adv": {
+        "mape": 8.33,
+        "mae": 14.11,
+        "graded_totals": 49,
+        "bullseyes": 7,
+        "excellents": 12,
+        "solids": 10,
+        "misses": 9,
+        "busts": 11,
+        "ots": 1,
+        "avg_signed_delta": 1.84,
+        "outcome_w": 35,
+        "outcome_l": 15,
+        "outcome_hit_rate": 70.0,
+        "flat_floor_hits": 32,
+        "flat_floor_total": 50,
+        "flat_floor_rate": 0.64,
+        "avg_ht_pace": 51.3,
+        "ht_on_pace_rate": 58.0,
+        "ht_graded_count": 50
+      }
+    },
+    {
       "name": "DENMARK — BASKETLIGAEN",
       "league_id": 34,
       "mape": 8.38,
@@ -996,45 +1035,6 @@
         "avg_ht_pace": 48.9,
         "ht_on_pace_rate": 38.9,
         "ht_graded_count": 18
-      }
-    },
-    {
-      "name": "USA — NBA W",
-      "league_id": 13,
-      "mape": 8.41,
-      "mae": 14.22,
-      "graded_totals": 48,
-      "bullseyes": 7,
-      "excellents": 11,
-      "solids": 10,
-      "misses": 9,
-      "busts": 11,
-      "ots": 1,
-      "avg_signed_delta": 1.71,
-      "outcome_w": 35,
-      "outcome_l": 14,
-      "outcome_hit_rate": 71.4,
-      "srs": null,
-      "adv": {
-        "mape": 8.41,
-        "mae": 14.22,
-        "graded_totals": 48,
-        "bullseyes": 7,
-        "excellents": 11,
-        "solids": 10,
-        "misses": 9,
-        "busts": 11,
-        "ots": 1,
-        "avg_signed_delta": 1.71,
-        "outcome_w": 35,
-        "outcome_l": 14,
-        "outcome_hit_rate": 71.4,
-        "flat_floor_hits": 31,
-        "flat_floor_total": 49,
-        "flat_floor_rate": 0.6327,
-        "avg_ht_pace": 51.3,
-        "ht_on_pace_rate": 57.1,
-        "ht_graded_count": 49
       }
     },
     {

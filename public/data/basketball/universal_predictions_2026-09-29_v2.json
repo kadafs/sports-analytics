@@ -18536,7 +18536,7 @@
       "time": "22:30",
       "away_team": "Las Vegas Aces W",
       "home_team": "Indiana Fever W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "WNBA - Quarter-finals",
       "model_total": 179.56,
       "xpts_h": 82.2,
@@ -19263,7 +19263,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 43,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 50.7,
+      "total_delta": 8.44,
+      "signed_delta": 8.44,
+      "total_rpe": 4.49,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -24368,17 +24379,12 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-09-30T00:40:47.143954",
+  "graded_at": "2026-09-30T01:18:08.618110",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 7,
-      "total": 9,
-      "pct": 77.8
-    },
-    "[ADVANCED]": {
-      "wins": 8,
-      "total": 14,
-      "pct": 57.1
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0
     }
   }
 }
