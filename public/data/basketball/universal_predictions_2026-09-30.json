@@ -20823,7 +20823,7 @@
       "time": "23:00",
       "away_team": "Espanol Osorno",
       "home_team": "Puente Alto",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.07,
       "xpts_h": 75.9,
@@ -21424,7 +21424,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 46,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 59.3,
+      "total_delta": 7.07,
+      "signed_delta": -7.07,
+      "total_rpe": 4.62,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -27503,7 +27514,7 @@
       "time": "23:00",
       "away_team": "Atlanta Dream W",
       "home_team": "Washington Mystics W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "WNBA - Quarter-finals",
       "model_total": 167.51,
       "xpts_h": 80.7,
@@ -28249,7 +28260,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 41,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 45.4,
+      "total_delta": 0.49,
+      "signed_delta": 0.49,
+      "total_rpe": 0.29,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": true,
@@ -43904,17 +43926,17 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-10-01T00:34:12.319887",
+  "graded_at": "2026-10-01T01:17:43.267911",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 32,
-      "total": 42,
-      "pct": 76.2
+      "wins": 33,
+      "total": 43,
+      "pct": 76.7
     },
     "[  SRS   ]": {
       "wins": 16,
-      "total": 26,
-      "pct": 61.5
+      "total": 27,
+      "pct": 59.3
     }
   }
 }
