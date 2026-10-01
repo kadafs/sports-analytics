@@ -25852,14 +25852,14 @@
       "total_delta": 1.27,
       "signed_delta": -1.27,
       "accuracy_tier": "🟡 SOLID",
-      "actual_corners_total": null,
-      "actual_booking_pts": null,
-      "actual_shots_home": null,
-      "actual_shots_away": null,
-      "actual_shots_total": null,
-      "actual_sot_home": null,
-      "actual_sot_away": null,
-      "actual_sot_total": null,
+      "actual_corners_total": 6,
+      "actual_booking_pts": 30,
+      "actual_shots_home": 11,
+      "actual_shots_away": 13,
+      "actual_shots_total": 24,
+      "actual_sot_home": 3,
+      "actual_sot_away": 8,
+      "actual_sot_total": 11,
       "post_match_xgot": {
         "xgot_home": 0.0,
         "xgot_away": 0.75,
@@ -27418,14 +27418,14 @@
       "total_delta": 2.95,
       "signed_delta": 2.95,
       "accuracy_tier": "🔴 BUST",
-      "actual_corners_total": null,
-      "actual_booking_pts": null,
-      "actual_shots_home": null,
-      "actual_shots_away": null,
-      "actual_shots_total": null,
-      "actual_sot_home": null,
-      "actual_sot_away": null,
-      "actual_sot_total": null,
+      "actual_corners_total": 12,
+      "actual_booking_pts": 85,
+      "actual_shots_home": 0,
+      "actual_shots_away": 0,
+      "actual_shots_total": 0,
+      "actual_sot_home": 7,
+      "actual_sot_away": 5,
+      "actual_sot_total": 12,
       "post_match_xgot": {
         "xgot_home": 2.25,
         "xgot_away": 1.5,
@@ -126485,11 +126485,11 @@
         "sot_call": "PASS",
         "sot_call_line": ""
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -127509,6 +127509,29 @@
           "rank": null,
           "form": 0
         }
+      },
+      "total_delta": 1.3,
+      "signed_delta": 1.3,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.0,
+        "xgot_away": 0.0,
+        "xgot_total": 3.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -1.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 1.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -261305,7 +261328,7 @@
       }
     }
   ],
-  "graded_at": "2026-10-01T01:36:11.370537",
+  "graded_at": "2026-10-01T06:46:01.193425",
   "grade_summary": {
     "outcome_wins": 28,
     "outcome_total": 52,
@@ -261316,14 +261339,14 @@
     "corners_wins": 0,
     "corners_total": 0,
     "corners_pct": null,
-    "booking_wins": 0,
-    "booking_total": 0,
-    "booking_pct": null,
+    "booking_wins": 1,
+    "booking_total": 1,
+    "booking_pct": 100.0,
     "shots_wins": 0,
-    "shots_total": 1,
+    "shots_total": 2,
     "shots_pct": 0.0,
     "sot_wins": 0,
-    "sot_total": 0,
-    "sot_pct": null
+    "sot_total": 1,
+    "sot_pct": 0.0
   }
 }
