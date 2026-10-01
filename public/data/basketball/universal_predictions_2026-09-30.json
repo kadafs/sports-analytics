@@ -22617,7 +22617,7 @@
       "time": "23:30",
       "away_team": "Gimnasia",
       "home_team": "Penarol",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.48,
       "xpts_h": 76.9,
@@ -22973,7 +22973,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 57,
+      "actual_result": "HOME",
+      "halftime_home_score": 30,
+      "halftime_away_score": 29,
+      "halftime_total": 59,
+      "halftime_pct_of_model": 36.8,
+      "total_delta": 41.48,
+      "signed_delta": -41.48,
+      "total_rpe": 34.86,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -43926,12 +43937,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-10-01T01:17:43.267911",
+  "graded_at": "2026-10-01T06:38:07.671478",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 33,
-      "total": 43,
-      "pct": 76.7
+      "total": 44,
+      "pct": 75.0
     },
     "[  SRS   ]": {
       "wins": 16,
