@@ -8735,7 +8735,7 @@
       "time": "23:00",
       "away_team": "Espanol Osorno",
       "home_team": "Leones Quilpue",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.35,
       "xpts_h": 84.5,
@@ -9355,7 +9355,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 19,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 44.4,
+      "total_delta": 13.35,
+      "signed_delta": -13.35,
+      "total_rpe": 9.4,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -9367,7 +9378,7 @@
       "time": "23:30",
       "away_team": "Valdivia",
       "home_team": "Puente Alto",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.34,
       "xpts_h": 72.4,
@@ -9968,7 +9979,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 51,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 54.9,
+      "total_delta": 1.66,
+      "signed_delta": 1.66,
+      "total_rpe": 1.02,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -19739,7 +19761,7 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-01T21:09:47.277311",
+  "graded_at": "2026-10-02T01:41:27.724858",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 7,
@@ -19747,8 +19769,8 @@
       "pct": 36.8
     },
     "[  SRS   ]": {
-      "wins": 12,
-      "total": 12,
+      "wins": 14,
+      "total": 14,
       "pct": 100.0
     }
   }
