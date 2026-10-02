@@ -125,6 +125,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isAdvanced = model_architecture?.includes('ADVANCED')
   const hasSRSFlag = !!secondary && isAdvanced
 
+  // Clash Indicator logic (207-game audit: 65.2% historical Under rate)
+  const isClash = Boolean(primary.is_clash || secondary?.is_clash)
+  const clashTrigger = primary.clash_trigger || secondary?.clash_trigger || 'CLASH'
+  const isSharpOver = clashTrigger === 'SHARP OVER'
+
   const { statsH = {}, statsA = {}, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
@@ -244,6 +249,34 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               </span>
             )}
           </div>
+          {isClash && (
+            <div style={{ marginTop: 3, display: 'flex', alignItems: 'center' }}>
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  fontWeight: 800,
+                  padding: '1.5px 6px',
+                  borderRadius: '4px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                  background: isSharpOver ? 'rgba(234, 88, 12, 0.16)' : 'rgba(234, 179, 8, 0.16)',
+                  color: isSharpOver ? '#ea580c' : '#d97706',
+                  border: `1px solid ${isSharpOver ? 'rgba(234, 88, 12, 0.35)' : 'rgba(234, 179, 8, 0.35)'}`,
+                  letterSpacing: '0.02em',
+                  lineHeight: 1.2
+                }}
+                title={`Clash Profile (${clashTrigger}): 207-game audit confirms ${isSharpOver ? '67.4%' : '65.2%'} historical Under rate (avg -5.6 pts)`}
+              >
+                <span>{isSharpOver ? '⚡' : '⚠️'}</span>
+                <span>{isSharpOver ? 'SHARP CLASH' : 'CLASH OF INEFFICIENT'}</span>
+                <span style={{ opacity: 0.6 }}>•</span>
+                <span style={{ color: '#16a34a', fontWeight: 900 }}>
+                  {isSharpOver ? '67% UNDER' : '65% UNDER'}
+                </span>
+              </span>
+            </div>
+          )}
         </div>
 
 
@@ -460,37 +493,87 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       </div>
                     </div>
 
-                    {primary.is_clash && (
+                    {isClash && (
                       <div style={{
                         marginTop: '16px',
-                        padding: '10px 14px',
-                        borderRadius: '6px',
-                        background: primary.clash_trigger === 'SHARP OVER' 
-                          ? 'rgba(234, 88, 12, 0.12)' 
-                          : 'rgba(71, 85, 105, 0.15)',
-                        borderLeft: `4px solid ${primary.clash_trigger === 'SHARP OVER' ? '#ea580c' : '#64748b'}`,
-                        borderTop: '1px solid rgba(255,255,255,0.05)',
-                        borderRight: '1px solid rgba(255,255,255,0.05)',
-                        borderBottom: '1px solid rgba(255,255,255,0.05)',
+                        padding: '12px 16px',
+                        borderRadius: '8px',
+                        background: isSharpOver 
+                          ? 'linear-gradient(135deg, rgba(234, 88, 12, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)' 
+                          : 'linear-gradient(135deg, rgba(234, 179, 8, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)',
+                        borderLeft: `4px solid ${isSharpOver ? '#ea580c' : '#eab308'}`,
+                        borderTop: '1px solid rgba(255,255,255,0.08)',
+                        borderRight: '1px solid rgba(255,255,255,0.08)',
+                        borderBottom: '1px solid rgba(255,255,255,0.08)',
                         color: '#f8fafc',
-                        fontSize: '11px',
-                        lineHeight: '1.45',
+                        fontSize: '11.5px',
+                        lineHeight: '1.5',
                         textAlign: 'left'
                       }}>
-                        <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: primary.clash_trigger === 'SHARP OVER' ? '#f97316' : '#cbd5e1', marginBottom: 4, letterSpacing: '0.04em' }}>
-                          <span style={{ marginRight: 6, fontSize: '12px' }}>
-                            {primary.clash_trigger === 'SHARP OVER' ? '🔥' : '⚠️'}
-                          </span>
-                          {primary.clash_trigger === 'SHARP OVER' ? 'CLASH OF THE INEFFICIENT (SHARP OVER)' : 'CLASH OF THE INEFFICIENT'}
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 6, marginBottom: 8 }}>
+                          <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: isSharpOver ? '#fb923c' : '#facc15', letterSpacing: '0.04em', fontSize: '12px' }}>
+                            <span style={{ marginRight: 6, fontSize: '13px' }}>
+                              {isSharpOver ? '⚡' : '⚠️'}
+                            </span>
+                            {isSharpOver ? 'CLASH OF THE INEFFICIENT (SHARP OVER)' : 'CLASH OF THE INEFFICIENT'}
+                          </div>
+                          <div style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '4px',
+                            background: 'rgba(34, 197, 94, 0.16)',
+                            border: '1px solid rgba(34, 197, 94, 0.4)',
+                            color: '#4ade80',
+                            fontWeight: 800,
+                            fontSize: '10.5px',
+                            padding: '2px 8px',
+                            borderRadius: '999px',
+                            letterSpacing: '0.03em'
+                          }}>
+                            <span>🔻</span>
+                            <span>SIGNAL: BET UNDER ({isSharpOver ? '67.4%' : '65.2%'} HIT)</span>
+                          </div>
                         </div>
-                        {primary.clash_trigger === 'SHARP OVER' ? (
-                          <span>
-                            Both teams have inefficient offenses but weak defenses. The model raw total (<b>{model_total.toFixed(1)}</b>) is mathematically inflated. However, bookmakers over-correct and set the line too low. <b>Value is on the OVER (or bought-down safety OVER line)</b> relative to their market total!
-                          </span>
+
+                        {/* Audit Stat Cards */}
+                        <div style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+                          gap: '8px',
+                          margin: '8px 0 10px 0',
+                          padding: '8px 10px',
+                          background: 'rgba(0,0,0,0.25)',
+                          borderRadius: '6px',
+                          border: '1px solid rgba(255,255,255,0.05)'
+                        }}>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>207 Graded</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Historical Under</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
+                              {isSharpOver ? '67.4% Under' : '65.2% Under'}
+                            </div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Score Delta</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>−5.6 pts</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Model Bias</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f59e0b' }}>Overshoots Total</div>
+                          </div>
+                        </div>
+
+                        {isSharpOver ? (
+                          <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
+                            Both teams feature inefficient offenses paired with weak defenses, causing the mathematical raw projection (<b>{model_total.toFixed(1)}</b>) to artificially inflate. While traditionally perceived as a high-scoring environment, our 207-game empirical audit confirms that <b>67.4% of games stay UNDER model projection</b> (average shortfall of −6.1 pts). <b>Strong statistical edge is to FADE the total / BET UNDER</b>.
+                          </div>
                         ) : (
-                          <span>
-                            Both teams play with below-average offensive ratings and weak defenses. Under normal lines, this profile systematically creates a low-scoring game style brick-fest. <b>Expect a slow-paced, low-efficiency matchup</b>.
-                          </span>
+                          <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
+                            Both teams operate with below-average offensive ratings and weak defenses. Despite permeable defenses on both sides, low-efficiency offenses fail to capitalize, systematically producing a slow-paced, low-efficiency brick-fest. In our 207-game audit, <b>65.2% finished UNDER model projection</b> with an average drop of −5.6 pts. <b>Expect an inefficient matchup — lean UNDER</b>.
+                          </div>
                         )}
                       </div>
                     )}

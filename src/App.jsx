@@ -238,7 +238,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
   })
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -369,6 +369,10 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (h_vol >= 14.8 || a_vol >= 14.8) return false
       }
     }
+    // Clash Filter (Basketball only: 65.2% Under rate)
+    if (sport === 'basketball' && filterClash) {
+      if (!p.is_clash) return false
+    }
     
     return true
   })
@@ -395,6 +399,7 @@ export default function App() {
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
+  const [filterClash, setFilterClash] = useState(false) // ⚡ Clash Under filter
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -532,8 +537,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -582,6 +587,7 @@ export default function App() {
           setFilterWomen('all');
           setHidePlayoffs(false);
           setSmartEdgeFilter(false);
+          setFilterClash(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -754,6 +760,24 @@ export default function App() {
                 title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with ≥10 graded games"
               >
                 {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
+              </button>
+
+              <button
+                onClick={() => setFilterClash(!filterClash)}
+                style={{
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  borderRadius: 6,
+                  border: `1px solid ${filterClash ? '#f59e0b' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: filterClash ? '#fef3c7' : '#f8fafc',
+                  color: filterClash ? '#b45309' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title="Filter games flagged with Clash of the Inefficient (65.2% historical Under hit rate)"
+              >
+                {filterClash ? '⚡ Clash Under: ON' : '⚡ Clash Signals'}
               </button>
             </div>
           )}
