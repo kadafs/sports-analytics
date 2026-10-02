@@ -250,30 +250,16 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             )}
           </div>
           {isClash && (
-            <div style={{ marginTop: 3, display: 'flex', alignItems: 'center' }}>
+            <div style={{ marginTop: 2, display: 'flex', alignItems: 'center' }}>
               <span
                 style={{
-                  fontSize: '9.5px',
-                  fontWeight: 800,
-                  padding: '1.5px 6px',
-                  borderRadius: '4px',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '4px',
-                  background: isSharpOver ? 'rgba(234, 88, 12, 0.16)' : 'rgba(234, 179, 8, 0.16)',
-                  color: isSharpOver ? '#ea580c' : '#d97706',
-                  border: `1px solid ${isSharpOver ? 'rgba(234, 88, 12, 0.35)' : 'rgba(234, 179, 8, 0.35)'}`,
-                  letterSpacing: '0.02em',
-                  lineHeight: 1.2
+                  fontSize: '11px',
+                  lineHeight: 1,
+                  cursor: 'help'
                 }}
                 title={`Clash Profile (${clashTrigger}): 207-game audit confirms ${isSharpOver ? '67.4%' : '65.2%'} historical Under rate (avg -5.6 pts)`}
               >
-                <span>{isSharpOver ? '⚡' : '⚠️'}</span>
-                <span>{isSharpOver ? 'SHARP CLASH' : 'CLASH OF INEFFICIENT'}</span>
-                <span style={{ opacity: 0.6 }}>•</span>
-                <span style={{ color: '#16a34a', fontWeight: 900 }}>
-                  {isSharpOver ? '67% UNDER' : '65% UNDER'}
-                </span>
+                ⚠️
               </span>
             </div>
           )}
