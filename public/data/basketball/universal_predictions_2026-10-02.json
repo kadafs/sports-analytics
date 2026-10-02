@@ -8442,7 +8442,7 @@
       "time": "10:30",
       "away_team": "Kobe",
       "home_team": "Hiroshima D.",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 166.85,
       "xpts_h": 86.9,
@@ -9662,7 +9662,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 38,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 2.15,
+      "signed_delta": 2.15,
+      "total_rpe": 1.27,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -38997,7 +39008,7 @@
       "time": "09:00",
       "away_team": "GenSan Warriors",
       "home_team": "Rizal Golden Coolers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 167.79,
       "xpts_h": 76.6,
@@ -40040,7 +40051,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 36,
+      "halftime_away_score": 32,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 40.5,
+      "total_delta": 16.79,
+      "signed_delta": -16.79,
+      "total_rpe": 11.12,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -44129,7 +44151,7 @@
       "time": "09:30",
       "away_team": "Adelaide",
       "home_team": "Illawarra Hawks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "3",
       "model_total": 189.52,
       "xpts_h": 89.8,
@@ -44787,7 +44809,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 92,
+      "actual_result": "HOME",
+      "halftime_home_score": 65,
+      "halftime_away_score": 35,
+      "halftime_total": 100,
+      "halftime_pct_of_model": 52.8,
+      "total_delta": 16.48,
+      "signed_delta": 16.48,
+      "total_rpe": 8.0,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -69176,7 +69209,7 @@
       "time": "06:30",
       "away_team": "Southern Hoiho W",
       "home_team": "Mid-North Whai W",
-      "status": "Quarter 1",
+      "status": "FT",
       "stage": "",
       "model_total": 169.18,
       "xpts_h": 93.3,
@@ -69636,7 +69669,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 67,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 39,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 41.4,
+      "total_delta": 43.18,
+      "signed_delta": -43.18,
+      "total_rpe": 34.27,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -70639,12 +70683,17 @@
       }
     }
   ],
-  "graded_at": "2026-10-02T07:47:09.951836",
+  "graded_at": "2026-10-02T12:54:19.862855",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 5,
-      "total": 8,
-      "pct": 62.5
+      "wins": 6,
+      "total": 10,
+      "pct": 60.0
+    },
+    "[  SRS   ]": {
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0
     }
   }
 }
