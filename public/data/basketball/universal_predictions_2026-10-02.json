@@ -28759,7 +28759,7 @@
       "time": "23:30",
       "away_team": "Toros del Valle",
       "home_team": "Caribbean Storm Islands",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.61,
       "xpts_h": 67.3,
@@ -29216,7 +29216,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 50,
+      "actual_away_score": 107,
+      "actual_result": "AWAY",
+      "halftime_home_score": 25,
+      "halftime_away_score": 58,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 52.7,
+      "total_delta": 0.61,
+      "signed_delta": -0.61,
+      "total_rpe": 0.39,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -29946,7 +29957,7 @@
       "time": "23:00",
       "away_team": "Espanol de Talca",
       "home_team": "Colo Colo",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.63,
       "xpts_h": 82.2,
@@ -30623,7 +30634,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 60,
+      "halftime_away_score": 39,
+      "halftime_total": 99,
+      "halftime_pct_of_model": 65.7,
+      "total_delta": 40.37,
+      "signed_delta": 40.37,
+      "total_rpe": 21.14,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -30635,7 +30657,7 @@
       "time": "23:00",
       "away_team": "U. De Concepcion",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 171.2,
       "xpts_h": 74.6,
@@ -31236,7 +31258,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 37,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 47.3,
+      "total_delta": 7.8,
+      "signed_delta": 7.8,
+      "total_rpe": 4.36,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": true,
@@ -37191,7 +37224,7 @@
       "time": "20:15",
       "away_team": "FC Porto",
       "home_team": "CA Queluz",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "1",
       "model_total": 173.37,
       "xpts_h": 77.2,
@@ -37767,7 +37800,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 93,
+      "actual_away_score": 110,
+      "actual_result": "AWAY",
+      "halftime_home_score": 43,
+      "halftime_away_score": 54,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 55.9,
+      "total_delta": 29.63,
+      "signed_delta": 29.63,
+      "total_rpe": 14.6,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -71529,12 +71573,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-10-02T21:05:34.042314",
+  "graded_at": "2026-10-03T01:11:54.234531",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 21,
-      "total": 36,
-      "pct": 58.3
+      "wins": 25,
+      "total": 40,
+      "pct": 62.5
     },
     "[ADVANCED]": {
       "wins": 35,
