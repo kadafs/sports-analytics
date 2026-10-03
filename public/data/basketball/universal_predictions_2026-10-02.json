@@ -31281,7 +31281,7 @@
       "time": "23:30",
       "away_team": "Ancud",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.97,
       "xpts_h": 84.4,
@@ -31958,7 +31958,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 36,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 47.6,
+      "total_delta": 18.97,
+      "signed_delta": -18.97,
+      "total_rpe": 13.08,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -54546,7 +54557,7 @@
       "time": "17:30",
       "away_team": "Bremerhaven",
       "home_team": "Bochum",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "2",
       "model_total": 172.47,
       "xpts_h": 83.9,
@@ -55562,7 +55573,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 36,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 47.5,
+      "total_delta": 29.47,
+      "signed_delta": -29.47,
+      "total_rpe": 20.61,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -71573,17 +71595,17 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-10-03T01:11:54.234531",
+  "graded_at": "2026-10-03T14:11:52.179308",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 25,
-      "total": 40,
-      "pct": 62.5
+      "wins": 26,
+      "total": 41,
+      "pct": 63.4
     },
     "[ADVANCED]": {
       "wins": 35,
-      "total": 53,
-      "pct": 66.0
+      "total": 54,
+      "pct": 64.8
     }
   }
 }
