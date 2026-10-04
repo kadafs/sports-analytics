@@ -13440,7 +13440,7 @@
       "time": "19:00",
       "away_team": "Breogan",
       "home_team": "Manresa",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "2",
       "model_total": 194.16,
       "xpts_h": 96.1,
@@ -14453,7 +14453,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "halftime_home_score": 40,
+      "halftime_away_score": 51,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 46.9,
+      "total_delta": 1.84,
+      "signed_delta": 1.84,
+      "total_rpe": 0.94,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -71335,7 +71346,7 @@
       "time": "21:00",
       "away_team": "Toros del Valle",
       "home_team": "Caribbean Storm Islands",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.87,
       "xpts_h": 67.4,
@@ -71814,7 +71825,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 33,
+      "halftime_away_score": 45,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 49.4,
+      "total_delta": 1.87,
+      "signed_delta": -1.87,
+      "total_rpe": 1.2,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -91464,7 +91486,7 @@
       "time": "20:00",
       "away_team": "CD Povoa",
       "home_team": "Esgueira",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "1",
       "model_total": 162.14,
       "xpts_h": 62.7,
@@ -91763,7 +91785,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 41,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 45.0,
+      "total_delta": 14.14,
+      "signed_delta": -14.14,
+      "total_rpe": 9.55,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -95690,7 +95723,7 @@
       "time": "18:30",
       "away_team": "Reggiana",
       "home_team": "Basket Napoli",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "2",
       "model_total": 172.13,
       "xpts_h": 84.8,
@@ -96621,7 +96654,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 99,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 49,
+      "halftime_total": 99,
+      "halftime_pct_of_model": 57.5,
+      "total_delta": 19.87,
+      "signed_delta": 19.87,
+      "total_rpe": 10.35,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -130644,7 +130688,7 @@
       "time": "20:00",
       "away_team": "Ginasio Olhanense",
       "home_team": "Maia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "1",
       "model_total": 150.99,
       "xpts_h": 88.5,
@@ -131591,7 +131635,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 105,
+      "actual_away_score": 96,
+      "actual_result": "HOME",
+      "halftime_home_score": 58,
+      "halftime_away_score": 47,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 69.5,
+      "total_delta": 50.01,
+      "signed_delta": 50.01,
+      "total_rpe": 24.88,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -175029,17 +175084,17 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-10-03T20:49:22.651904",
+  "graded_at": "2026-10-04T00:37:04.125309",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 90,
-      "total": 137,
+      "wins": 92,
+      "total": 140,
       "pct": 65.7
     },
     "[  SRS   ]": {
-      "wins": 68,
-      "total": 99,
-      "pct": 68.7
+      "wins": 70,
+      "total": 101,
+      "pct": 69.3
     }
   }
 }
