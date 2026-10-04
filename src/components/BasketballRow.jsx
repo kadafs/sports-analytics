@@ -130,6 +130,10 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const clashTrigger = primary.clash_trigger || secondary?.clash_trigger || 'CLASH'
   const isSharpOver = clashTrigger === 'SHARP OVER'
 
+  const isShootout = Boolean(primary.is_shootout || secondary?.is_shootout)
+  const shootoutTrigger = primary.shootout_trigger || secondary?.shootout_trigger || 'SHOOTOUT'
+  const isSharpShootout = shootoutTrigger === 'SHARP SHOOTOUT'
+
   const { statsH = {}, statsA = {}, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
@@ -260,6 +264,20 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 title={`Clash Profile (${clashTrigger}): 207-game audit confirms ${isSharpOver ? '67.4%' : '65.2%'} historical Under rate (avg -5.6 pts)`}
               >
                 ⚠️
+              </span>
+            </div>
+          )}
+          {isShootout && (
+            <div style={{ marginTop: 2, display: 'flex', alignItems: 'center' }}>
+              <span
+                style={{
+                  fontSize: '11px',
+                  lineHeight: 1,
+                  cursor: 'help'
+                }}
+                title={`Shootout Profile (${shootoutTrigger}): Empirical audit confirms 61.1% Over model (+11.9 pts) and 77.8% Over market line`}
+              >
+                🔥
               </span>
             </div>
           )}
@@ -561,6 +579,79 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             Both teams operate with below-average offensive ratings and weak defenses. Despite permeable defenses on both sides, low-efficiency offenses fail to capitalize, systematically producing a slow-paced, low-efficiency brick-fest. In our 207-game audit, <b>65.2% finished UNDER model projection</b> with an average drop of −5.6 pts. <b>Expect an inefficient matchup — lean UNDER</b>.
                           </div>
                         )}
+                      </div>
+                    )}
+
+                    {isShootout && (
+                      <div style={{
+                        marginTop: '16px',
+                        padding: '12px 16px',
+                        borderRadius: '8px',
+                        background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.18) 0%, rgba(15, 23, 42, 0.7) 100%)',
+                        borderLeft: '4px solid #ef4444',
+                        borderTop: '1px solid rgba(255,255,255,0.08)',
+                        borderRight: '1px solid rgba(255,255,255,0.08)',
+                        borderBottom: '1px solid rgba(255,255,255,0.08)',
+                        color: '#f8fafc',
+                        fontSize: '11.5px',
+                        lineHeight: '1.5',
+                        textAlign: 'left'
+                      }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 6, marginBottom: 8 }}>
+                          <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: '#f87171', letterSpacing: '0.04em', fontSize: '12px' }}>
+                            <span style={{ marginRight: 6, fontSize: '13px' }}>🔥</span>
+                            {isSharpShootout ? 'SHOOTOUT (HIGH CONVICTION / GLASS CANNONS)' : 'SHOOTOUT (GLASS CANNONS)'}
+                          </div>
+                          <div style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '4px',
+                            background: 'rgba(239, 68, 68, 0.2)',
+                            border: '1px solid rgba(239, 68, 68, 0.5)',
+                            color: '#fca5a5',
+                            fontWeight: 800,
+                            fontSize: '10.5px',
+                            padding: '2px 8px',
+                            borderRadius: '999px',
+                            letterSpacing: '0.03em'
+                          }}>
+                            <span>🔺</span>
+                            <span>SIGNAL: BET OVER (61.1% OVER MODEL / 77.8% OVER MKT)</span>
+                          </div>
+                        </div>
+
+                        {/* Audit Stat Cards */}
+                        <div style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+                          gap: '8px',
+                          margin: '8px 0 10px 0',
+                          padding: '8px 10px',
+                          background: 'rgba(0,0,0,0.25)',
+                          borderRadius: '6px',
+                          border: '1px solid rgba(255,255,255,0.05)'
+                        }}>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>18 Graded</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Historical Over</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f87171' }}>61.1% Over</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Score Delta</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#fb923c' }}>+11.9 pts</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Vs Market Line</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>77.8% Over</div>
+                          </div>
+                        </div>
+
+                        <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
+                          Both teams feature high-powered offenses operating against porous defenses (Glass Cannons). While the broader basketball database trends 58.6% Under, this specific profile consistently breaks out into rapid pace and high offensive efficiency. In our empirical audit, <b>61.1% finished OVER model projections</b> (average beat of +11.9 pts) and <b>77.8% cleared the market line</b>. <b>Strong statistical edge is to lean OVER</b>.
+                        </div>
                       </div>
                     )}
                   </div>

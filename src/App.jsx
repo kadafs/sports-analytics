@@ -238,7 +238,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
   })
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -373,6 +373,10 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterClash) {
       if (!p.is_clash) return false
     }
+    // Shootout Filter (Basketball only: 61.1% Over model / 77.8% Over market)
+    if (sport === 'basketball' && filterShootout) {
+      if (!p.is_shootout) return false
+    }
     
     return true
   })
@@ -400,6 +404,7 @@ export default function App() {
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   const [filterClash, setFilterClash] = useState(false) // ⚡ Clash Under filter
+  const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -537,8 +542,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -588,6 +593,7 @@ export default function App() {
           setHidePlayoffs(false);
           setSmartEdgeFilter(false);
           setFilterClash(false);
+          setFilterShootout(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -778,6 +784,24 @@ export default function App() {
                 title="Filter games flagged with Clash of the Inefficient (65.2% historical Under hit rate)"
               >
                 {filterClash ? '⚡ Clash Under: ON' : '⚡ Clash Signals'}
+              </button>
+
+              <button
+                onClick={() => setFilterShootout(!filterShootout)}
+                style={{
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  borderRadius: 6,
+                  border: `1px solid ${filterShootout ? '#ef4444' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: filterShootout ? '#fee2e2' : '#f8fafc',
+                  color: filterShootout ? '#b91c1c' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title="Filter games flagged with Shootout / Glass Cannons (61.1% Over model / 77.8% Over market)"
+              >
+                {filterShootout ? '🔥 Shootout Over: ON' : '🔥 Shootout Signals'}
               </button>
             </div>
           )}
