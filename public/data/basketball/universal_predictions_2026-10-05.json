@@ -13136,7 +13136,7 @@
       "time": "23:00",
       "away_team": "Memphis Grizzlies",
       "home_team": "Atlanta Hawks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 220.59,
       "xpts_h": 126.7,
@@ -13561,7 +13561,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 132,
+      "actual_away_score": 123,
+      "actual_result": "HOME",
+      "halftime_home_score": 81,
+      "halftime_away_score": 61,
+      "halftime_total": 142,
+      "halftime_pct_of_model": 64.4,
+      "total_delta": 34.41,
+      "signed_delta": 34.41,
+      "total_rpe": 13.49,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -13575,7 +13586,7 @@
       "time": "23:00",
       "away_team": "Phoenix Suns",
       "home_team": "Detroit Pistons",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 211.75,
       "xpts_h": 111.5,
@@ -13980,7 +13991,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 109,
+      "actual_result": "AWAY",
+      "halftime_home_score": 68,
+      "halftime_away_score": 50,
+      "halftime_total": 118,
+      "halftime_pct_of_model": 55.7,
+      "total_delta": 4.25,
+      "signed_delta": 4.25,
+      "total_rpe": 1.97,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -13994,7 +14016,7 @@
       "time": "23:00",
       "away_team": "New York Knicks",
       "home_team": "Philadelphia 76ers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 220.69,
       "xpts_h": 110.6,
@@ -14476,7 +14498,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 120,
+      "actual_result": "AWAY",
+      "halftime_home_score": 58,
+      "halftime_away_score": 72,
+      "halftime_total": 130,
+      "halftime_pct_of_model": 58.9,
+      "total_delta": 3.69,
+      "signed_delta": -3.69,
+      "total_rpe": 1.7,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -18857,12 +18890,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-10-06T01:10:34.607200",
+  "graded_at": "2026-10-06T02:18:22.092708",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 9,
-      "total": 9,
-      "pct": 100.0
+      "wins": 10,
+      "total": 12,
+      "pct": 83.3
     },
     "[  SRS   ]": {
       "wins": 11,
