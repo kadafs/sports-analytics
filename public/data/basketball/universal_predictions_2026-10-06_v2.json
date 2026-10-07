@@ -35366,7 +35366,7 @@
       "time": "23:30",
       "away_team": "La Union",
       "home_team": "Platense",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 172.4,
       "xpts_h": 84.8,
@@ -35942,7 +35942,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 57,
+      "halftime_total": 95,
+      "halftime_pct_of_model": 55.1,
+      "total_delta": 3.6,
+      "signed_delta": 3.6,
+      "total_rpe": 2.05,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -49603,12 +49614,12 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-10-07T01:32:04.732306",
+  "graded_at": "2026-10-07T11:11:46.293587",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 12,
-      "total": 18,
-      "pct": 66.7
+      "wins": 13,
+      "total": 19,
+      "pct": 68.4
     },
     "[  SRS   ]": {
       "wins": 27,
