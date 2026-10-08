@@ -72922,7 +72922,7 @@
       "time": "23:30",
       "away_team": "New York Liberty W",
       "home_team": "Atlanta Dream W",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "WNBA - Semi-finals",
       "model_total": 153.11,
       "xpts_h": 83.2,
@@ -73668,7 +73668,17 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 98,
+      "actual_result": "HOME",
+      "halftime_home_score": 56,
+      "halftime_away_score": 54,
+      "halftime_total": 110,
+      "halftime_pct_of_model": 71.8,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_clash": false,
@@ -92035,7 +92045,7 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-10-08T01:55:19.936198",
+  "graded_at": "2026-10-08T03:26:48.914023",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 59,
@@ -92043,9 +92053,9 @@
       "pct": 72.0
     },
     "[ADVANCED]": {
-      "wins": 26,
-      "total": 43,
-      "pct": 60.5
+      "wins": 27,
+      "total": 44,
+      "pct": 61.4
     }
   }
 }
