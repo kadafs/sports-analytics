@@ -81498,7 +81498,7 @@
       "time": "23:00",
       "away_team": "Toros del Valle",
       "home_team": "Paisas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.48,
       "xpts_h": 84.8,
@@ -82043,7 +82043,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 45,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 50.2,
+      "total_delta": 0.48,
+      "signed_delta": -0.48,
+      "total_rpe": 0.29,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -201744,7 +201755,7 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-10-10T23:43:05.714780",
+  "graded_at": "2026-10-11T01:00:32.641814",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 88,
@@ -201753,8 +201764,8 @@
     },
     "[  SRS   ]": {
       "wins": 85,
-      "total": 121,
-      "pct": 70.2
+      "total": 122,
+      "pct": 69.7
     }
   }
 }
