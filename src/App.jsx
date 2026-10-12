@@ -304,7 +304,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterMinGraded = 0) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -390,13 +390,6 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       const targetStats = isAdv ? stats.adv : stats.srs
       if (!targetStats || targetStats.graded_totals === 0) return false
       if (targetStats.mape > maxMape) return false
-    }
-
-    // Standalone Min Graded Gate (Basketball only)
-    if (sport === 'basketball' && filterMinGraded > 0) {
-      const gradedH = p.graded_h ?? 0
-      const gradedA = p.graded_a ?? 0
-      if (gradedH < filterMinGraded || gradedA < filterMinGraded) return false
     }
 
     // Confidence Band Filter -- per-matchup (Basketball only)
@@ -497,7 +490,6 @@ export default function App() {
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
   const [filterBuffer,     setFilterBuffer]     = useState('all') // 'all' | '[STRONG]+' | '[ELITE BUFFER]' | '[STRONG BUFFER]' | '[NEUTRAL]' | '[AVOID]'
-  const [filterMinGraded,  setFilterMinGraded]  = useState(0)     // 0 = all, 3 = min 3+ games
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
@@ -640,8 +632,8 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterMinGraded)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterMinGraded])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer)
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -688,7 +680,6 @@ export default function App() {
           setFilterMape(100);
           setFilterConfidence('all');
           setFilterBuffer('all');
-          setFilterMinGraded(0);
           setFilterWomen('all');
           setHidePlayoffs(false);
           setSmartEdgeFilter(false);
@@ -829,18 +820,12 @@ export default function App() {
 
               <select className="filter-select" style={{ width: '160px' }} value={filterBuffer} onChange={e => setFilterBuffer(e.target.value)}>
                 <option value="all">Buffer Floor: All</option>
-                <option value="[STRONG]+">🛡️ Strong+ (18+ pts)</option>
                 <option value="[ELITE BUFFER]">🏆 Elite Buffer (25+ pts)</option>
+                <option value="[STRONG]+">🛡️ Strong+ (18+ pts)</option>
                 <option value="[STRONG BUFFER]">🟢 Strong Buffer (18–24)</option>
                 <option value="[NEUTRAL]">🟡 Neutral (10–17)</option>
                 <option value="[MARGINAL]">🟠 Marginal (1–9)</option>
                 <option value="[AVOID]">⛔ Avoid (0 pts)</option>
-              </select>
-
-              <select className="filter-select" style={{ width: '135px' }} value={filterMinGraded} onChange={e => setFilterMinGraded(Number(e.target.value))}>
-                <option value={0}>Min Graded: Any</option>
-                <option value={3}>Min Graded: 3+ (Default)</option>
-                <option value={5}>Min Graded: 5+</option>
               </select>
 
               <button
