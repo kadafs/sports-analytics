@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { computeBufferHitRateRating } from '../App'
 
 function fmt(v, digits = 0) {
   if (v == null || v === '-') return '—'
@@ -158,6 +159,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isHomeStable = home_team_volatility != null && home_team_volatility <= 16.6
   const isAwayStable = away_team_volatility != null && away_team_volatility <= 16.6
   
+  const bufRatingObj = game.buffer_tier
+    ? { tier: game.buffer_tier, score: game.buffer_score ?? 0 }
+    : (teamLeaderboard ? computeBufferHitRateRating(game, null, teamLeaderboard) : null)
+  const isEliteBuffer = bufRatingObj?.tier === '[ELITE BUFFER]'
+  const isStrongBuffer = bufRatingObj?.tier === '[STRONG BUFFER]'
+  const bufScore = bufRatingObj?.score ?? 0
+  
   const getStabilityColor = (volatility) => {
     if (volatility == null) return 'inherit';
     if (volatility < 14.8) return '#10b981'; // Elite (Emerald)
@@ -253,34 +261,60 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               </span>
             )}
           </div>
-          {isClash && (
-            <div style={{ marginTop: 2, display: 'flex', alignItems: 'center' }}>
+          <div style={{ marginTop: 2, display: 'flex', alignItems: 'center', gap: '5px' }}>
+            {isClash && (
               <span
-                style={{
-                  fontSize: '11px',
-                  lineHeight: 1,
-                  cursor: 'help'
-                }}
+                style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
                 title={`Clash Profile (${clashTrigger}): 207-game audit confirms ${isSharpOver ? '67.4%' : '65.2%'} historical Under rate (avg -5.6 pts)`}
               >
                 ⚠️
               </span>
-            </div>
-          )}
-          {isShootout && (
-            <div style={{ marginTop: 2, display: 'flex', alignItems: 'center' }}>
+            )}
+            {isShootout && (
               <span
-                style={{
-                  fontSize: '11px',
-                  lineHeight: 1,
-                  cursor: 'help'
-                }}
+                style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
                 title={`Shootout Profile (${shootoutTrigger}): Empirical audit confirms 61.1% Over model (+11.9 pts) and 77.8% Over market line`}
               >
                 🔥
               </span>
-            </div>
-          )}
+            )}
+            {isEliteBuffer && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(16, 185, 129, 0.15)',
+                  color: '#10b981',
+                  border: '1px solid rgba(16, 185, 129, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Historical Buffer Hit Rate: Elite (${bufScore}/32, Floor: ${(model_total - 5.0).toFixed(1)} pts)`}
+              >
+                🛡️ Elite Floor
+              </span>
+            )}
+            {isStrongBuffer && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(56, 189, 248, 0.15)',
+                  color: '#0284c7',
+                  border: '1px solid rgba(56, 189, 248, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Historical Buffer Hit Rate: Strong (${bufScore}/32, Floor: ${(model_total - 5.0).toFixed(1)} pts)`}
+              >
+                🛡️ Strong Floor
+              </span>
+            )}
+          </div>
         </div>
 
 
