@@ -243,8 +243,8 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
 function getTeamBufferStats(teamName, leagueId, teamLbMap, teamLeaderboard) {
   if (!teamName) return { hitRate: null, games: 0 }
   const key = `${leagueId}__${teamName.toLowerCase().trim()}`
-  let entry = teamLbMap.get(key)
-  if (!entry && teamLeaderboard) {
+  let entry = teamLbMap ? teamLbMap.get(key) : null
+  if (!entry && Array.isArray(teamLeaderboard)) {
     const nameLower = teamName.toLowerCase().trim()
     entry = teamLeaderboard.find(t => t.league_id === leagueId && (
       (t.name || '').toLowerCase().trim() === nameLower ||

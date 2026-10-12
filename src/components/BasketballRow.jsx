@@ -159,9 +159,16 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isHomeStable = home_team_volatility != null && home_team_volatility <= 16.6
   const isAwayStable = away_team_volatility != null && away_team_volatility <= 16.6
   
-  const bufRatingObj = game.buffer_tier
-    ? { tier: game.buffer_tier, score: game.buffer_score ?? 0 }
-    : (teamLeaderboard ? computeBufferHitRateRating(game, null, teamLeaderboard) : null)
+  const predForBuffer = {
+    ...primary,
+    ...consolidatedGame,
+    home_team: home_team || primary.home_team,
+    away_team: away_team || primary.away_team,
+    league_id: consolidatedGame.league_id || primary.league_id
+  }
+  const bufRatingObj = primary.buffer_tier
+    ? { tier: primary.buffer_tier, score: primary.buffer_score ?? 0 }
+    : (Array.isArray(teamLeaderboard) && teamLeaderboard.length > 0 ? computeBufferHitRateRating(predForBuffer, null, teamLeaderboard) : null)
   const isEliteBuffer = bufRatingObj?.tier === '[ELITE BUFFER]'
   const isStrongBuffer = bufRatingObj?.tier === '[STRONG BUFFER]'
   const bufScore = bufRatingObj?.score ?? 0
