@@ -37855,7 +37855,7 @@
       "time": "23:30",
       "away_team": "Caimanes del Llano",
       "home_team": "Capitanes Bogota",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 167.31,
       "xpts_h": 75.9,
@@ -38244,7 +38244,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 43,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 52.0,
+      "total_delta": 6.31,
+      "signed_delta": -6.31,
+      "total_rpe": 3.92,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -44676,7 +44687,7 @@
       "time": "23:30",
       "away_team": "Obras Sanitarias W",
       "home_team": "Ferro W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.36,
       "xpts_h": 74.4,
@@ -45359,7 +45370,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "halftime_home_score": 40,
+      "halftime_away_score": 47,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 57.9,
+      "total_delta": 9.36,
+      "signed_delta": -9.36,
+      "total_rpe": 6.64,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -49622,7 +49644,7 @@
       "time": "23:00",
       "away_team": "Cleveland Cavaliers",
       "home_team": "Orlando Magic",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 240.47,
       "xpts_h": 118.0,
@@ -50597,7 +50619,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 132,
+      "actual_away_score": 116,
+      "actual_result": "HOME",
+      "halftime_home_score": 72,
+      "halftime_away_score": 52,
+      "halftime_total": 124,
+      "halftime_pct_of_model": 51.6,
+      "total_delta": 7.53,
+      "signed_delta": 7.53,
+      "total_rpe": 3.04,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -50611,7 +50644,7 @@
       "time": "23:00",
       "away_team": "New York Knicks",
       "home_team": "Toronto Raptors",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 213.59,
       "xpts_h": 109.5,
@@ -51567,7 +51600,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 148,
+      "actual_away_score": 98,
+      "actual_result": "HOME",
+      "halftime_home_score": 86,
+      "halftime_away_score": 47,
+      "halftime_total": 133,
+      "halftime_pct_of_model": 62.3,
+      "total_delta": 32.41,
+      "signed_delta": 32.41,
+      "total_rpe": 13.17,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -58232,17 +58276,17 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-10-14T01:14:00.166821",
+  "graded_at": "2026-10-14T10:50:50.240704",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 19,
-      "total": 29,
-      "pct": 65.5
+      "wins": 20,
+      "total": 31,
+      "pct": 64.5
     },
     "[  SRS   ]": {
-      "wins": 21,
-      "total": 28,
-      "pct": 75.0
+      "wins": 23,
+      "total": 30,
+      "pct": 76.7
     }
   }
 }
