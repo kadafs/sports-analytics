@@ -275,7 +275,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   const gamesH = hStats.games || (p.graded_h ?? 0)
 
   if (hrA == null || hrH == null || gamesA === 0 || gamesH === 0) {
-    return { score: 5, weightedHitRate: null, tier: '[UNTRACKED]', minGames: Math.min(gamesA, gamesH) }
+    return { score: 8, weightedHitRate: null, tier: '[UNTRACKED]', minGames: Math.min(gamesA, gamesH) }
   }
 
   const lowerHr = Math.min(hrA, hrH)
@@ -283,9 +283,9 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   const weightedHr = (0.6 * lowerHr) + (0.4 * higherHr)
 
   let baseScore = 0
-  if (weightedHr >= 0.80) baseScore = 32
-  else if (weightedHr >= 0.65) baseScore = 21
-  else if (weightedHr >= 0.50) baseScore = 10
+  if (weightedHr >= 0.80) baseScore = 50
+  else if (weightedHr >= 0.65) baseScore = 33
+  else if (weightedHr >= 0.50) baseScore = 16
   else baseScore = 0
 
   const minGames = Math.min(gamesA, gamesH)
@@ -293,12 +293,12 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   if (minGames >= 5) score = baseScore
   else if (minGames === 4) score = Math.floor(baseScore * 0.8)
   else if (minGames === 3) score = Math.floor(baseScore * 0.6)
-  else score = Math.min(10, Math.floor(baseScore * 0.3))
+  else score = Math.min(15, Math.floor(baseScore * 0.3))
 
   let tier = '[AVOID]'
-  if (score >= 25) tier = '[ELITE BUFFER]'
-  else if (score >= 18) tier = '[STRONG BUFFER]'
-  else if (score >= 10) tier = '[NEUTRAL]'
+  if (score >= 40) tier = '[ELITE BUFFER]'
+  else if (score >= 28) tier = '[STRONG BUFFER]'
+  else if (score >= 16) tier = '[NEUTRAL]'
   else if (score > 0) tier = '[MARGINAL]'
 
   return { score, weightedHitRate: weightedHr, tier, minGames }
@@ -820,11 +820,11 @@ export default function App() {
 
               <select className="filter-select" style={{ width: '160px' }} value={filterBuffer} onChange={e => setFilterBuffer(e.target.value)}>
                 <option value="all">Buffer Floor: All</option>
-                <option value="[ELITE BUFFER]">🏆 Elite Buffer (25+ pts)</option>
-                <option value="[STRONG]+">🛡️ Strong+ (18+ pts)</option>
-                <option value="[STRONG BUFFER]">🟢 Strong Buffer (18–24)</option>
-                <option value="[NEUTRAL]">🟡 Neutral (10–17)</option>
-                <option value="[MARGINAL]">🟠 Marginal (1–9)</option>
+                <option value="[ELITE BUFFER]">🏆 Elite Buffer (40+ pts)</option>
+                <option value="[STRONG]+">🛡️ Strong+ (28+ pts)</option>
+                <option value="[STRONG BUFFER]">🟢 Strong Buffer (28–39)</option>
+                <option value="[NEUTRAL]">🟡 Neutral (16–27)</option>
+                <option value="[MARGINAL]">🟠 Marginal (1–15)</option>
                 <option value="[AVOID]">⛔ Avoid (0 pts)</option>
               </select>
 
