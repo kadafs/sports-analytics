@@ -65299,7 +65299,7 @@
       "time": "23:30",
       "away_team": "Caimanes del Llano",
       "home_team": "Capitanes Bogota",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.39,
       "xpts_h": 74.4,
@@ -65773,7 +65773,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 36,
+      "halftime_away_score": 51,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 52.6,
+      "total_delta": 6.39,
+      "signed_delta": -6.39,
+      "total_rpe": 4.02,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -65787,7 +65798,7 @@
       "time": "23:00",
       "away_team": "Puente Alto",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.26,
       "xpts_h": 79.9,
@@ -66391,7 +66402,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 43,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 45.3,
+      "total_delta": 18.26,
+      "signed_delta": -18.26,
+      "total_rpe": 12.59,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -67711,7 +67733,7 @@
       "time": "23:30",
       "away_team": "Penarol",
       "home_team": "Lanus",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.92,
       "xpts_h": 83.0,
@@ -68320,7 +68342,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 43,
+      "halftime_away_score": 45,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 53.4,
+      "total_delta": 3.92,
+      "signed_delta": -3.92,
+      "total_rpe": 2.43,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -76000,7 +76033,7 @@
       "time": "23:30",
       "away_team": "Charlotte Hornets",
       "home_team": "Boston Celtics",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 209.68,
       "xpts_h": 104.9,
@@ -76975,7 +77008,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 44,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 46.7,
+      "total_delta": 2.68,
+      "signed_delta": -2.68,
+      "total_rpe": 1.29,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -76989,7 +77033,7 @@
       "time": "23:30",
       "away_team": "Brooklyn Nets",
       "home_team": "Miami Heat",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 219.98,
       "xpts_h": 117.3,
@@ -77925,7 +77969,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 144,
+      "actual_away_score": 128,
+      "actual_result": "HOME",
+      "halftime_home_score": 69,
+      "halftime_away_score": 66,
+      "halftime_total": 135,
+      "halftime_pct_of_model": 61.4,
+      "total_delta": 52.02,
+      "signed_delta": 52.02,
+      "total_rpe": 19.13,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -88640,17 +88695,17 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-10-15T00:32:05.228407",
+  "graded_at": "2026-10-15T04:11:10.062938",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 40,
-      "total": 67,
-      "pct": 59.7
+      "wins": 42,
+      "total": 69,
+      "pct": 60.9
     },
     "[ADVANCED]": {
-      "wins": 18,
-      "total": 35,
-      "pct": 51.4
+      "wins": 20,
+      "total": 38,
+      "pct": 52.6
     }
   }
 }
