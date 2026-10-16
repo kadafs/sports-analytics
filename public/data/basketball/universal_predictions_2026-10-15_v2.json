@@ -21849,7 +21849,7 @@
       "time": "23:30",
       "away_team": "Paisas",
       "home_team": "Toros del Valle",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 167.21,
       "xpts_h": 83.2,
@@ -22441,7 +22441,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 40,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 53.8,
+      "total_delta": 12.79,
+      "signed_delta": 12.79,
+      "total_rpe": 7.11,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -23160,7 +23171,7 @@
       "time": "23:00",
       "away_team": "Puente Alto",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.24,
       "xpts_h": 80.7,
@@ -23764,7 +23775,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 33,
+      "halftime_away_score": 42,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 45.4,
+      "total_delta": 7.24,
+      "signed_delta": -7.24,
+      "total_rpe": 4.58,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -23778,7 +23800,7 @@
       "time": "23:30",
       "away_team": "U. De Concepcion",
       "home_team": "Ancud",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 173.29,
       "xpts_h": 75.5,
@@ -24439,7 +24461,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 41,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 50.2,
+      "total_delta": 9.29,
+      "signed_delta": -9.29,
+      "total_rpe": 5.66,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": true,
@@ -24453,7 +24486,7 @@
       "time": "23:30",
       "away_team": "Deportivo Campoalto",
       "home_team": "San Alfonzo",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 175.15,
       "xpts_h": 79.6,
@@ -25045,7 +25078,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 95,
+      "actual_away_score": 90,
+      "actual_result": "HOME",
+      "halftime_home_score": 60,
+      "halftime_away_score": 54,
+      "halftime_total": 114,
+      "halftime_pct_of_model": 65.1,
+      "total_delta": 9.85,
+      "signed_delta": 9.85,
+      "total_rpe": 5.32,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -32279,7 +32323,7 @@
       "time": "23:30",
       "away_team": "Toronto Raptors",
       "home_team": "New York Knicks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 217.72,
       "xpts_h": 108.6,
@@ -33254,7 +33298,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 122,
+      "actual_away_score": 120,
+      "actual_result": "HOME",
+      "halftime_home_score": 63,
+      "halftime_away_score": 58,
+      "halftime_total": 121,
+      "halftime_pct_of_model": 55.6,
+      "total_delta": 24.28,
+      "signed_delta": 24.28,
+      "total_rpe": 10.03,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -46685,17 +46740,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-10-16T00:23:51.170950",
+  "graded_at": "2026-10-16T04:01:42.017910",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 15,
-      "total": 24,
-      "pct": 62.5
+      "total": 25,
+      "pct": 60.0
     },
     "[  SRS   ]": {
       "wins": 15,
-      "total": 24,
-      "pct": 62.5
+      "total": 28,
+      "pct": 53.6
     }
   }
 }
