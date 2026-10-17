@@ -39782,7 +39782,7 @@
       "time": "23:30",
       "away_team": "El Talar W",
       "home_team": "Avellaneda W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 127.71,
       "xpts_h": 58.7,
@@ -40454,7 +40454,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 53,
+      "actual_away_score": 67,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 32,
+      "halftime_total": 56,
+      "halftime_pct_of_model": 43.8,
+      "total_delta": 7.71,
+      "signed_delta": -7.71,
+      "total_rpe": 6.42,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -40468,7 +40479,7 @@
       "time": "23:30",
       "away_team": "Instituto W",
       "home_team": "Rocamora W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 126.73,
       "xpts_h": 56.1,
@@ -41140,7 +41151,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "halftime_home_score": 33,
+      "halftime_away_score": 23,
+      "halftime_total": 56,
+      "halftime_pct_of_model": 44.2,
+      "total_delta": 2.27,
+      "signed_delta": 2.27,
+      "total_rpe": 1.76,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -47835,7 +47857,7 @@
       "time": "23:00",
       "away_team": "Boston Celtics",
       "home_team": "Philadelphia 76ers",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 219.37,
       "xpts_h": 107.8,
@@ -48867,7 +48889,17 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 120,
+      "actual_away_score": 125,
+      "actual_result": "AWAY",
+      "halftime_home_score": 60,
+      "halftime_away_score": 58,
+      "halftime_total": 118,
+      "halftime_pct_of_model": 53.8,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_clash": false,
@@ -48881,7 +48913,7 @@
       "time": "23:00",
       "away_team": "Miami Heat",
       "home_team": "Orlando Magic",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 226.35,
       "xpts_h": 114.4,
@@ -49837,7 +49869,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 136,
+      "actual_away_score": 115,
+      "actual_result": "HOME",
+      "halftime_home_score": 70,
+      "halftime_away_score": 65,
+      "halftime_total": 135,
+      "halftime_pct_of_model": 59.6,
+      "total_delta": 24.65,
+      "signed_delta": 24.65,
+      "total_rpe": 9.82,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -49851,7 +49894,7 @@
       "time": "23:00",
       "away_team": "Milwaukee Bucks",
       "home_team": "Indiana Pacers",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 220.91,
       "xpts_h": 117.6,
@@ -50807,7 +50850,17 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 127,
+      "actual_away_score": 128,
+      "actual_result": "AWAY",
+      "halftime_home_score": 71,
+      "halftime_away_score": 56,
+      "halftime_total": 127,
+      "halftime_pct_of_model": 57.5,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_clash": false,
@@ -50821,7 +50874,7 @@
       "time": "23:00",
       "away_team": "Toronto Raptors",
       "home_team": "Detroit Pistons",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 213.32,
       "xpts_h": 109.9,
@@ -51796,7 +51849,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 129,
+      "actual_away_score": 125,
+      "actual_result": "HOME",
+      "halftime_home_score": 59,
+      "halftime_away_score": 52,
+      "halftime_total": 111,
+      "halftime_pct_of_model": 52.0,
+      "total_delta": 40.68,
+      "signed_delta": 40.68,
+      "total_rpe": 16.02,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": true,
@@ -76096,17 +76160,17 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-17T00:29:18.579257",
+  "graded_at": "2026-10-17T06:19:30.566889",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 25,
-      "total": 44,
-      "pct": 56.8
+      "wins": 26,
+      "total": 46,
+      "pct": 56.5
     },
     "[ADVANCED]": {
-      "wins": 25,
-      "total": 47,
-      "pct": 53.2
+      "wins": 28,
+      "total": 51,
+      "pct": 54.9
     }
   }
 }
