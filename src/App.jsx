@@ -61,8 +61,8 @@ const LEAGUE_PRIORITY = {
   // Tier 1: Continental (UEFA / CONMEBOL)
   2: 1, 3: 2, 848: 3, 13: 4, 11: 5, 10: 6,
   
-  // Tier 2: Premier League
-  39: 10,
+  // Tier 2: Premier League, Championship & Major League Soccer
+  39: 10, 40: 12, 253: 15,
   
   // Tier 3: Elite Europe
   140: 20, 135: 21, 78: 22,
@@ -81,13 +81,13 @@ const LEAGUE_PRIORITY = {
   244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75, 332: 76, 333: 77, 318: 78,
   
   // Tier 8: Top 5 Second Divisions + Quality 2nd Tiers with stats
-  40: 80, 141: 81, 136: 82, 79: 83, 62: 84, 41: 86, 95: 87, 114: 88,
+  141: 81, 136: 82, 79: 83, 62: 84, 41: 86, 95: 87, 114: 88,
   
   // Tier 9: Elite Americas (all with corners/bookings stats)
   71: 90, 73: 91, 128: 92, 239: 93, 242: 94, 265: 95, 268: 96, 72: 97, 281: 98, 250: 99, 344: 100, 16: 101,
   
   // Tier 10: North America
-  262: 105, 253: 106, 772: 107, 479: 108,
+  262: 105, 772: 107, 479: 108,
   
   // Tier 11: Emerging / Cash Leagues
   307: 112,
