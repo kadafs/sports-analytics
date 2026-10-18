@@ -304,7 +304,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -335,6 +335,27 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       }
     }
     
+    if (sport === 'football' && filterShots !== 'all') {
+      const shots = p.shots || {}
+      const shTier = shots.shots_confidence_tier || ''
+      const sotTier = shots.sot_confidence_tier || ''
+      const sc = shots.shots_call || ''
+      const sotc = shots.sot_call || ''
+      if (filterShots === 'elite') {
+        if (shTier !== '[ELITE SHOTS]') return false
+      } else if (filterShots === 'strong') {
+        if (!['[ELITE SHOTS]', '[STRONG SHOTS]'].includes(shTier)) return false
+      } else if (filterShots === 'solid') {
+        if (!['[ELITE SHOTS]', '[STRONG SHOTS]', '[SOLID SHOTS]'].includes(shTier)) return false
+      } else if (filterShots === 'sot_elite') {
+        if (sotTier !== '[ELITE SOT]') return false
+      } else if (filterShots === 'sot_all') {
+        if (!sotc || sotc === 'PASS') return false
+      } else if (filterShots === 'plays') {
+        if ((!sc || sc === 'PASS') && (!sotc || sotc === 'PASS')) return false
+      }
+    }
+
     if (sport === 'football' && filterCorner !== 'all') {
       const c = p.corners || {}
       const expCorners = c.exp_total_corners ?? c.exp_total
@@ -482,7 +503,8 @@ export default function App() {
   const [sortBy,        setSortBy]        = useState('competition')
   const [filterDecision,setFilterDecision]= useState('all')
   const [filterOutcome, setFilterOutcome] = useState('all')
-  const [filterCorner,  setFilterCorner]  = useState('all') // 'all' | 'plays' | 'over' | 'under' | 'exp_high' | 'exp_low'
+  const [filterCorner,  setFilterCorner]  = useState('all')
+  const [filterShots,   setFilterShots]   = useState('all') // 'all' | 'plays' | 'over' | 'under' | 'exp_high' | 'exp_low'
   const [filterCountry, setFilterCountry] = useState('all')
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
@@ -632,8 +654,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer)
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer])
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots
+    );
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -672,7 +695,8 @@ export default function App() {
           setError(null);
           setFilterDecision('all');
           setFilterOutcome('all');
-            setFilterCorner('all'); 
+            setFilterCorner('all');
+          setFilterShots('all'); 
           setFilterCountry('all'); 
           setFilterDraw(0); 
           setFilterBttsHitRate(0);

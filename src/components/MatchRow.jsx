@@ -269,15 +269,23 @@ export default function MatchRow({ game }) {
           return (
             <div className="match-shots-col compact-hide" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
               <span style={{fontSize:13,fontWeight:800,color:sColor,lineHeight:1}}>{game.shots.exp_total_shots}</span>
-              {sc && sc !== 'PASS' && (
-                <span style={{
-                  fontSize:8, fontWeight:800, color:sColor,
-                  background: 'rgba(167,139,250,0.12)',
-                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
-                }}>
-                  {sc.replace('OVER ','O').replace('UNDER ','U')}
-                </span>
-              )}
+              {sc && sc !== 'PASS' && (() => {
+                const sTier = game.shots.shots_confidence_tier || '';
+                const isElite = sTier === '[ELITE SHOTS]';
+                const isStrong = sTier === '[STRONG SHOTS]';
+                const bg = isElite ? 'rgba(234,179,8,0.22)' : isStrong ? 'rgba(167,139,250,0.2)' : 'rgba(167,139,250,0.12)';
+                const border = isElite ? '1px solid rgba(234,179,8,0.6)' : isStrong ? '1px solid rgba(167,139,250,0.5)' : 'none';
+                const color = isElite ? '#facc15' : sColor;
+                return (
+                  <span style={{
+                    fontSize:8, fontWeight:800, color,
+                    background: bg, border,
+                    borderRadius:3, padding:'0px 3px', lineHeight:1.3
+                  }}>
+                    {sc.replace('OVER ','O').replace('UNDER ','U')}{isElite ? ' ★' : ''}
+                  </span>
+                )
+              })()}
             </div>
           )
         })()}
@@ -290,15 +298,23 @@ export default function MatchRow({ game }) {
           return (
             <div className="match-sot-col compact-hide" title={tooltip} style={{textAlign:'center', display:'flex', flexDirection:'column', alignItems:'center', gap:1}}>
               <span style={{fontSize:13,fontWeight:800,color:sotColor,lineHeight:1}}>{game.shots.exp_total_sot}</span>
-              {sotc && sotc !== 'PASS' && (
-                <span style={{
-                  fontSize:8, fontWeight:800, color:sotColor,
-                  background: 'rgba(129,140,248,0.12)',
-                  borderRadius:3, padding:'0px 3px', lineHeight:1.3
-                }}>
-                  {sotc.replace('OVER ','O').replace('UNDER ','U')}
-                </span>
-              )}
+              {sotc && sotc !== 'PASS' && (() => {
+                const sotTier = game.shots.sot_confidence_tier || '';
+                const isEliteSot = sotTier === '[ELITE SOT]';
+                const isTrap = sotTier === '[AVOID / TRAP]';
+                const bg = isEliteSot ? 'rgba(56,189,248,0.22)' : isTrap ? 'rgba(239,68,68,0.2)' : 'rgba(129,140,248,0.12)';
+                const border = isEliteSot ? '1px solid rgba(56,189,248,0.6)' : isTrap ? '1px solid rgba(239,68,68,0.5)' : 'none';
+                const color = isEliteSot ? '#38bdf8' : isTrap ? '#f87171' : sotColor;
+                return (
+                  <span style={{
+                    fontSize:8, fontWeight:800, color,
+                    background: bg, border,
+                    borderRadius:3, padding:'0px 3px', lineHeight:1.3
+                  }}>
+                    {sotc.replace('OVER ','O').replace('UNDER ','U')}{isEliteSot ? ' ★' : isTrap ? ' ⚠' : ''}
+                  </span>
+                )
+              })()}
             </div>
           )
         })()}
@@ -870,8 +886,36 @@ export default function MatchRow({ game }) {
                         color="btts"
                       />
 
-                      {/* Conversion rating + calls */}
+                      {/* Conversion rating + Confidence & Pace Badges */}
                       <div style={{marginTop:8, display:'flex', gap:8, flexWrap:'wrap', alignItems:'center'}}>
+                        {game.shots.shots_confidence_tier && game.shots.shots_confidence_tier !== '[PASS]' && (
+                          <span style={{
+                            fontSize:10, fontWeight:800, padding:'2px 8px', borderRadius:4,
+                            background: game.shots.shots_confidence_tier === '[ELITE SHOTS]' ? 'rgba(234,179,8,0.22)' : game.shots.shots_confidence_tier === '[STRONG SHOTS]' ? 'rgba(167,139,250,0.22)' : 'rgba(100,116,139,0.2)',
+                            color: game.shots.shots_confidence_tier === '[ELITE SHOTS]' ? '#facc15' : game.shots.shots_confidence_tier === '[STRONG SHOTS]' ? '#c084fc' : '#94a3b8',
+                            border: `1px solid ${game.shots.shots_confidence_tier === '[ELITE SHOTS]' ? '#eab308' : game.shots.shots_confidence_tier === '[STRONG SHOTS]' ? '#a855f7' : '#64748b'}`
+                          }}>
+                            {game.shots.shots_confidence_tier === '[ELITE SHOTS]' ? '★ ' : ''}{game.shots.shots_confidence_tier} ({game.shots.shots_confidence_score ?? 0}pts)
+                          </span>
+                        )}
+                        {game.shots.sot_confidence_tier && game.shots.sot_confidence_tier !== '[PASS]' && (
+                          <span style={{
+                            fontSize:10, fontWeight:800, padding:'2px 8px', borderRadius:4,
+                            background: game.shots.sot_confidence_tier === '[ELITE SOT]' ? 'rgba(56,189,248,0.22)' : game.shots.sot_confidence_tier === '[AVOID / TRAP]' ? 'rgba(239,68,68,0.2)' : 'rgba(129,140,248,0.2)',
+                            color: game.shots.sot_confidence_tier === '[ELITE SOT]' ? '#38bdf8' : game.shots.sot_confidence_tier === '[AVOID / TRAP]' ? '#f87171' : '#818cf8',
+                            border: `1px solid ${game.shots.sot_confidence_tier === '[ELITE SOT]' ? '#0284c7' : game.shots.sot_confidence_tier === '[AVOID / TRAP]' ? '#dc2626' : '#6366f1'}`
+                          }}>
+                            {game.shots.sot_confidence_tier} ({game.shots.sot_confidence_score ?? 0}pts)
+                          </span>
+                        )}
+                        {game.shots.shots_pace_tier && game.shots.shots_pace_tier !== 'UNVERIFIED' && (
+                          <span style={{
+                            fontSize:10, fontWeight:700, padding:'2px 6px', borderRadius:4,
+                            background: 'rgba(51,65,85,0.4)', color:'#cbd5e1', border:'1px solid #475569'
+                          }}>
+                            Pace: <b style={{color: game.shots.shots_pace_tier === 'ELITE_PACE' ? '#facc15' : '#38bdf8'}}>{game.shots.shots_pace_tier.replace('_PACE','')}</b>
+                          </span>
+                        )}
                         {game.shots.conversion_rating && (
                           <span style={{
                             fontSize:10, fontWeight:700, padding:'2px 6px', borderRadius:4,
