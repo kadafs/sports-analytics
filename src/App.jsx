@@ -61,14 +61,14 @@ const LEAGUE_PRIORITY = {
   // Tier 1: Continental (UEFA / CONMEBOL)
   2: 1, 3: 2, 848: 3, 13: 4, 11: 5, 10: 6,
   
-  // Tier 2: Premier League, Championship & Major League Soccer
-  39: 10, 40: 12, 253: 15,
+  // Tier 2: Premier League
+  39: 10,
   
   // Tier 3: Elite Europe
   140: 20, 135: 21, 78: 22,
   
-  // Tier 4: Ligue 1 & Major European Sub-Elite
-  61: 30, 88: 31, 94: 32,
+  // Tier 4: Ligue 1 & Major European Sub-Elite + Championship & MLS
+  61: 30, 40: 31, 253: 32, 88: 33, 94: 34,
   
   // Tier 5: Top 5 Domestic Cups
   45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45, 529: 46,
