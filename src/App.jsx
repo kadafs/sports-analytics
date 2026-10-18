@@ -817,6 +817,16 @@ export default function App() {
                 <option value="exp_high">Exp ≥ 10.5</option>
                 <option value="exp_low">Exp &lt; 9.5</option>
               </select>
+
+              <select className="filter-select" value={filterShots} onChange={e => setFilterShots(e.target.value)}>
+                <option value="all">All shots</option>
+                <option value="elite">⚡ [ELITE SHOTS] (80+)</option>
+                <option value="strong">🔥 [STRONG SHOTS]+ (65+)</option>
+                <option value="solid">🛡️ [SOLID SHOTS]+ (50+)</option>
+                <option value="sot_elite">🎯 [ELITE SOT] Only</option>
+                <option value="sot_all">🎯 Any SoT Play</option>
+                <option value="plays">⚽ Any Shots/SoT</option>
+              </select>
             </div>
           )}
 
