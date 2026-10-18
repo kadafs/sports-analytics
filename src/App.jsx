@@ -5,7 +5,6 @@ import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
 import TeamTracker from './components/TeamTracker'
 import LiveDashboard from './components/LiveDashboard'
-import ShareModal from './components/ShareModal'
 
 function isWomensLeague(league = '') {
   const l = league.toLowerCase()
@@ -493,7 +492,6 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 }
 
 export default function App() {
-  const [shareOpen, setShareOpen] = useState(false)
   const [sport,         setSport]         = useState('basketball')
   const [dates,         setDates]         = useState([])   // [{date,graded,...}]
   const [selectedDate,  setSelectedDate]  = useState(null)
@@ -964,29 +962,6 @@ export default function App() {
             )}
 
 
-            {/* Share button — only when picks selected OR a strong filter is active */}
-            {sport === 'football' && (filterBttsHitRate >= 60 || filterO25 >= 60 || filterOutcome !== 'all' || filterDraw !== 0 || filterCountry !== 'all' || filterCorner !== 'all') && (
-              <button
-                onClick={() => setShareOpen(true)}
-                style={{
-                  padding: '4px 12px',
-                  fontSize: 13,
-                  fontWeight: 700,
-                  borderRadius: 8,
-                  border: '1px solid #3b82f6',
-                  cursor: 'pointer',
-                  background: 'linear-gradient(135deg, #3b82f6, #1d4ed8)',
-                  color: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 5,
-                  transition: 'all 0.15s',
-                }}
-                title="Share these picks"
-              >
-                📤 Share Picks
-              </button>
-            )}
 
             {/* Night Shift Toggle — sits next to Compact */}
             <button
@@ -1031,35 +1006,6 @@ export default function App() {
           </div>
         )}
 
-        {/* Share Modal */}
-        {shareOpen && sport === 'football' && (() => {
-          // Use manually selected picks, or fall back to all filtered predictions
-          // Use the same filtered predictions currently showing on screen
-          const allFiltered = groups.flatMap(g => g.games || [])
-          const picksToShare = allFiltered.slice(0, 15)
-
-          let filterLabel = 'TOP PICKS'
-          let filterType = 'all'
-          if (filterBttsHitRate >= 60) { filterLabel = `BTTS ≥${filterBttsHitRate}%`; filterType = 'btts' }
-          if (filterO25 >= 60) { filterLabel = `O2.5 ≥${filterO25}%`; filterType = 'o25' }
-          if (filterOutcome !== 'all') { filterLabel = `1X2: ${filterOutcome}`; filterType = '1x2' }
-          if (filterDraw !== 0) { filterLabel = `Draw ≥${filterDraw}%`; filterType = 'draw' }
-          if (filterCountry !== 'all') { filterLabel = filterCountry; filterType = 'country' }
-          if (filterCorner !== 'all') {
-            filterLabel = filterCorner === 'plays' ? 'Corners: Plays' : filterCorner === 'over' ? 'Corners: OVER 10.5' : filterCorner === 'under' ? 'Corners: UNDER 10.5' : filterCorner === 'exp_high' ? 'Corners: Exp ≥ 10.5' : 'Corners: Exp < 9.5'
-            filterType = 'corners'
-          }
-          return (
-            <ShareModal
-              picks={picksToShare}
-              filterLabel={filterLabel}
-              date={selectedDate}
-              sport={sport}
-              filterType={filterType}
-              onClose={() => setShareOpen(false)}
-            />
-          )
-        })()}
 
         {/* Scroll to Top Button */}
         <button 
