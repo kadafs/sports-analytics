@@ -63,3 +63,11 @@ export async function fetchTeamLeaderboard(sport = 'football') {
   const d = await r.json()
   return d.leaderboard || []
 }
+
+export async function fetchBasketballSignalStats() {
+  try {
+    const r = await fetch(`${DATA}/basketball/basketball_signal_stats.json?t=${Date.now()}`)
+    if (r.ok) return r.json()
+  } catch (e) {}
+  return null
+}

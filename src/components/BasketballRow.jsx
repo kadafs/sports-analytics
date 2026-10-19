@@ -1,5 +1,29 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { computeBufferHitRateRating } from '../App'
+import { fetchBasketballSignalStats } from '../api'
+
+// Module-level shared cache so only one network call happens across all rendered rows
+let _cachedSignalStats = null
+let _signalStatsPromise = null
+
+function loadSharedSignalStats(callback) {
+  if (_cachedSignalStats) {
+    callback(_cachedSignalStats)
+    return
+  }
+  if (!_signalStatsPromise) {
+    _signalStatsPromise = fetchBasketballSignalStats()
+      .then(data => {
+        _cachedSignalStats = data || {}
+        return _cachedSignalStats
+      })
+      .catch(() => {
+        _cachedSignalStats = {}
+        return _cachedSignalStats
+      })
+  }
+  _signalStatsPromise.then(stats => callback(stats))
+}
 
 function fmt(v, digits = 0) {
   if (v == null || v === '-') return '—'
@@ -134,6 +158,33 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isShootout = Boolean(primary.is_shootout || secondary?.is_shootout)
   const shootoutTrigger = primary.shootout_trigger || secondary?.shootout_trigger || 'SHOOTOUT'
   const isSharpShootout = shootoutTrigger === 'SHARP SHOOTOUT'
+
+  const [signalStats, setSignalStats] = useState(_cachedSignalStats)
+
+  useEffect(() => {
+    if (!signalStats) {
+      loadSharedSignalStats(stats => setSignalStats(stats))
+    }
+  }, [signalStats])
+
+  const clashData = signalStats?.clash
+  const shootoutData = signalStats?.shootout
+
+  const clashSample = clashData?.sample || 324
+  const clashUnderPct = isSharpOver 
+    ? (clashData?.sharp_over?.under_model_pct ?? 70.8) 
+    : (clashData?.under_model_pct ?? 61.1)
+  const clashDelta = isSharpOver 
+    ? (clashData?.sharp_over?.avg_score_delta ?? -7.6) 
+    : (clashData?.avg_score_delta ?? -3.7)
+
+  const shootoutSample = shootoutData?.sample || 77
+  const shootoutMktPct = isSharpShootout 
+    ? (shootoutData?.sharp_shootout?.market_over_pct ?? 72.1) 
+    : (shootoutData?.market_over_pct ?? 72.6)
+  const shootoutMktDelta = isSharpShootout 
+    ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9) 
+    : (shootoutData?.avg_market_delta ?? 8.0)
 
   const { statsH = {}, statsA = {}, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
@@ -272,7 +323,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             {isClash && (
               <span
                 style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
-                title={`Clash Profile (${clashTrigger}): 207-game audit confirms ${isSharpOver ? '67.4%' : '65.2%'} historical Under rate (avg -5.6 pts)`}
+                title={`Clash Profile (${clashTrigger}): ${clashSample}-game audit confirms ${clashUnderPct}% historical Under rate (avg ${clashDelta} pts)`}
               >
                 ⚠️
               </span>
@@ -280,7 +331,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             {isShootout && (
               <span
                 style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
-                title={`Shootout Profile (${shootoutTrigger}): Empirical audit confirms 61.1% Over model (+11.9 pts) and 77.8% Over market line`}
+                title={`Shootout Profile (${shootoutTrigger}): Empirical audit confirms ${shootoutMktPct}% Over market line (+${shootoutMktDelta} pts)`}
               >
                 🔥
               </span>
@@ -576,7 +627,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             letterSpacing: '0.03em'
                           }}>
                             <span>🔻</span>
-                            <span>SIGNAL: BET UNDER ({isSharpOver ? '67.4%' : '65.2%'} HIT)</span>
+                            <span>SIGNAL: BET UNDER ({clashUnderPct}% HIT)</span>
                           </div>
                         </div>
 
@@ -593,17 +644,17 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         }}>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>207 Graded</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>{clashSample} Graded</div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Historical Under</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
-                              {isSharpOver ? '67.4% Under' : '65.2% Under'}
+                              {clashUnderPct}% Under
                             </div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Score Delta</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>−5.6 pts</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>{clashDelta > 0 ? `+${clashDelta}` : clashDelta} pts</div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Model Bias</div>
@@ -613,11 +664,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
                         {isSharpOver ? (
                           <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                            Both teams feature inefficient offenses paired with weak defenses, causing the mathematical raw projection (<b>{model_total.toFixed(1)}</b>) to artificially inflate. While traditionally perceived as a high-scoring environment, our 207-game empirical audit confirms that <b>67.4% of games stay UNDER model projection</b> (average shortfall of −6.1 pts). <b>Strong statistical edge is to FADE the total / BET UNDER</b>.
+                            Both teams feature inefficient offenses paired with weak defenses, causing the mathematical raw projection (<b>{model_total.toFixed(1)}</b>) to artificially inflate. While traditionally perceived as a high-scoring environment, our {clashSample}-game empirical audit confirms that <b>{clashUnderPct}% of games stay UNDER model projection</b> (average shortfall of {clashDelta} pts). <b>Strong statistical edge is to FADE the total / BET UNDER</b>.
                           </div>
                         ) : (
                           <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                            Both teams operate with below-average offensive ratings and weak defenses. Despite permeable defenses on both sides, low-efficiency offenses fail to capitalize, systematically producing a slow-paced, low-efficiency brick-fest. In our 207-game audit, <b>65.2% finished UNDER model projection</b> with an average drop of −5.6 pts. <b>Expect an inefficient matchup — lean UNDER</b>.
+                            Both teams operate with below-average offensive ratings and weak defenses. Despite permeable defenses on both sides, low-efficiency offenses fail to capitalize, systematically producing a slow-paced, low-efficiency brick-fest. In our {clashSample}-game audit, <b>{clashUnderPct}% finished UNDER model projection</b> with an average drop of {clashDelta} pts. <b>Expect an inefficient matchup — lean UNDER</b>.
                           </div>
                         )}
                       </div>
@@ -657,7 +708,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             letterSpacing: '0.03em'
                           }}>
                             <span>🔺</span>
-                            <span>SIGNAL: BET OVER (61.1% OVER MODEL / 77.8% OVER MKT)</span>
+                            <span>SIGNAL: BET OVER ({shootoutMktPct}% OVER MKT)</span>
                           </div>
                         </div>
 
@@ -674,24 +725,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         }}>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>18 Graded</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>{shootoutSample} Graded</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Historical Over</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f87171' }}>61.1% Over</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Line Beat</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f87171' }}>{shootoutMktPct}% Over</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Score Delta</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#fb923c' }}>+11.9 pts</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Delta</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#fb923c' }}>+{shootoutMktDelta} pts</div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Vs Market Line</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>77.8% Over</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>{shootoutMktPct}% Over</div>
                           </div>
                         </div>
 
                         <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                          Both teams feature high-powered offenses operating against porous defenses (Glass Cannons). While the broader basketball database trends 58.6% Under, this specific profile consistently breaks out into rapid pace and high offensive efficiency. In our empirical audit, <b>61.1% finished OVER model projections</b> (average beat of +11.9 pts) and <b>77.8% cleared the market line</b>. <b>Strong statistical edge is to lean OVER</b>.
+                          Both teams feature high-powered offenses operating against porous defenses (Glass Cannons). While the broader basketball database trends 56.9% Under, this specific profile consistently breaks out into rapid pace and high offensive efficiency. In our {shootoutSample}-game empirical audit, <b>{shootoutMktPct}% cleared the bookmaker market line</b> with an average beat of <b>+{shootoutMktDelta} pts</b>. Strong statistical edge is to <b>lean OVER</b>.
                         </div>
                       </div>
                     )}

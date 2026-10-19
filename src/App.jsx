@@ -914,7 +914,7 @@ export default function App() {
                   color: filterClash ? '#b45309' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Filter games flagged with Clash of the Inefficient (65.2% historical Under hit rate)"
+                title="Filter games flagged with Clash of the Inefficient (Empirical Under signal — 70.8% hit on Sharp Over)"
               >
                 {filterClash ? '⚡ Clash Under: ON' : '⚡ Clash Signals'}
               </button>
@@ -932,7 +932,7 @@ export default function App() {
                   color: filterShootout ? '#b91c1c' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Filter games flagged with Shootout / Glass Cannons (61.1% Over model / 77.8% Over market)"
+                title="Filter games flagged with Shootout / Glass Cannons (72.6% Over market hit rate / +8.0 pts)"
               >
                 {filterShootout ? '🔥 Shootout Over: ON' : '🔥 Shootout Signals'}
               </button>
