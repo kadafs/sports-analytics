@@ -70737,7 +70737,7 @@
       "time": "23:00",
       "away_team": "Caimanes del Llano",
       "home_team": "Motilones del Norte",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 168.87,
       "xpts_h": 76.4,
@@ -71329,7 +71329,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 19,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 36.1,
+      "total_delta": 18.87,
+      "signed_delta": -18.87,
+      "total_rpe": 12.58,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -79317,7 +79328,7 @@
       "time": "23:30",
       "away_team": "Valdivia",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.23,
       "xpts_h": 72.0,
@@ -79997,7 +80008,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 61,
+      "actual_away_score": 103,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 53,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 51.5,
+      "total_delta": 2.77,
+      "signed_delta": 2.77,
+      "total_rpe": 1.69,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -80011,7 +80033,7 @@
       "time": "22:15",
       "away_team": "Dorados",
       "home_team": "Fuerza Regia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNBP - Quarter-finals",
       "model_total": 178.47,
       "xpts_h": 94.0,
@@ -80815,7 +80837,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 90,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 49,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 57.7,
+      "total_delta": 12.53,
+      "signed_delta": 12.53,
+      "total_rpe": 6.56,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -80829,7 +80862,7 @@
       "time": "23:15",
       "away_team": "Mineros",
       "home_team": "Astros",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNBP - Quarter-finals",
       "model_total": 169.2,
       "xpts_h": 92.7,
@@ -81672,7 +81705,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 34,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 49.6,
+      "total_delta": 8.8,
+      "signed_delta": 8.8,
+      "total_rpe": 4.94,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -153347,17 +153391,17 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-19T00:13:22.782271",
+  "graded_at": "2026-10-19T12:45:07.683836",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 56,
-      "total": 90,
-      "pct": 62.2
+      "wins": 58,
+      "total": 92,
+      "pct": 63.0
     },
     "[  SRS   ]": {
-      "wins": 89,
-      "total": 121,
-      "pct": 73.6
+      "wins": 90,
+      "total": 123,
+      "pct": 73.2
     }
   }
 }
