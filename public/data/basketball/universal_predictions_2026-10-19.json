@@ -23425,7 +23425,7 @@
       "time": "23:30",
       "away_team": "Caribbean Storm Islands",
       "home_team": "Toros del Valle",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.71,
       "xpts_h": 97.8,
@@ -24017,7 +24017,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 30,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 51.0,
+      "total_delta": 15.29,
+      "signed_delta": 15.29,
+      "total_rpe": 8.59,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": true,
@@ -39052,12 +39063,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-10-20T01:06:35.641163",
+  "graded_at": "2026-10-20T04:08:04.948662",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 17,
-      "total": 24,
-      "pct": 70.8
+      "wins": 18,
+      "total": 25,
+      "pct": 72.0
     },
     "[ADVANCED]": {
       "wins": 15,
