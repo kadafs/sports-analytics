@@ -319,33 +319,25 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (country  !== 'all' && p.country        !== country)  return false
     if (sport === 'football' && drawMin !== 0) {
       if (drawMin === -1) {
-        // Smart Draw Mode:
-        // 1. High Draw Environment: ELITE/HIGH draw league or draw_value_flag
+        // Smart Draw Mode (100% Pure Mathematics - Zero Bookmaker Dependency):
+        // 1. High-Draw Environment: ELITE/HIGH draw tier league or draw_value_flag
         // 2. Model Draw Support: Model Draw >= 28%
-        // 3. Competitive Match: Neither team is a heavy favorite (<= 1.50 ML or win prob >= 65%)
-        // 4. Low Expected Goals: Match Total xG <= 2.8
+        // 3. Low Expected Goals: Match Total xG <= 2.8
+        // 4. Mathematical Parity / Deadlock: Neither team has > 45% model win probability
         const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
         const isHighDrawLeague = p.is_high_draw_league === true || (stats && (stats.draw_tier === 'ELITE' || stats.draw_tier === 'HIGH' || (stats.regressed_draw_rate || 0) >= 27.0 || (stats.raw_draw_rate || 0) >= 28.5))
         const isDrawValue = p.draw_value_flag === true
         const modelDrawProb = p.draw_prob_1x2 ?? p.draw_prob ?? 0
         if (!(isHighDrawLeague || isDrawValue) || modelDrawProb < 28.0) return false
 
-        // Rule 1: Competitive Match (no heavy favorite <= 1.50)
-        const mktHome = p.market_odds?.home_odds
-        const mktAway = p.market_odds?.away_odds
-        let hasHeavyFav = false
-        if (mktHome && mktAway && !isNaN(Number(mktHome)) && !isNaN(Number(mktAway))) {
-          if (Number(mktHome) <= 1.50 || Number(mktAway) <= 1.50) hasHeavyFav = true
-        } else {
-          const hProb = p.home_win_prob ?? 0
-          const aProb = p.away_win_prob ?? 0
-          if (hProb >= 65.0 || aProb >= 65.0) hasHeavyFav = true
-        }
-        if (hasHeavyFav) return false
-
-        // Rule 2: Low projected total goals (xG <= 2.8)
+        // Rule 1: Low projected total goals (xG <= 2.8)
         const xgTotal = p.xg_total ?? ((p.xg_home ?? 0) + (p.xg_away ?? 0))
         if (xgTotal > 2.8) return false
+
+        // Rule 2: Mathematical Parity / Deadlock (neither team favored > 45%)
+        const hProb = p.home_win_prob ?? 0
+        const aProb = p.away_win_prob ?? 0
+        if (hProb > 45.0 || aProb > 45.0) return false
       } else {
         const modelDrawProb = p.draw_prob_1x2 ?? p.draw_prob ?? 0
         if (modelDrawProb < drawMin) return false
