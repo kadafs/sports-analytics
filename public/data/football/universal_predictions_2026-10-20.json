@@ -285920,11 +285920,11 @@
         "sot_confidence_tier": "[PASS]",
         "sot_margin": 0.0
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -288815,6 +288815,29 @@
           "rank": 15,
           "form": "DDDLD"
         }
+      },
+      "total_delta": 0.6,
+      "signed_delta": -0.6,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": 9,
+      "actual_booking_pts": 95,
+      "actual_shots_home": 7,
+      "actual_shots_away": 21,
+      "actual_shots_total": 28,
+      "actual_sot_home": 2,
+      "actual_sot_away": 3,
+      "actual_sot_total": 5,
+      "post_match_xgot": {
+        "xgot_home": 1.4,
+        "xgot_away": 0.7,
+        "xgot_total": 2.1,
+        "home_gk_prevented": -0.3,
+        "away_gk_prevented": -0.6,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.6,
+        "away_finishing_delta": 0.3,
+        "insights": []
       }
     },
     {
@@ -288898,11 +288921,11 @@
         "sot_confidence_tier": "[PASS]",
         "sot_margin": 0.0
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -291793,6 +291816,31 @@
           "rank": 1,
           "form": "WDWDL"
         }
+      },
+      "total_delta": 2.05,
+      "signed_delta": -2.05,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": 12,
+      "actual_booking_pts": 20,
+      "actual_shots_home": 6,
+      "actual_shots_away": 18,
+      "actual_shots_total": 24,
+      "actual_sot_home": 1,
+      "actual_sot_away": 7,
+      "actual_sot_total": 8,
+      "post_match_xgot": {
+        "xgot_home": 0.7,
+        "xgot_away": 1.74,
+        "xgot_total": 2.44,
+        "home_gk_prevented": 1.74,
+        "away_gk_prevented": -0.3,
+        "home_gk_tier": "MASTERCLASS",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.3,
+        "away_finishing_delta": -1.74,
+        "insights": [
+          "HOME_GK_MASTERCLASS (+1.74 prevented)"
+        ]
       }
     },
     {
@@ -398073,11 +398121,11 @@
       }
     }
   ],
-  "graded_at": "2026-10-21T00:59:36.427748",
+  "graded_at": "2026-10-21T13:52:52.120578",
   "grade_summary": {
-    "outcome_wins": 50,
-    "outcome_total": 78,
-    "outcome_pct": 64.1,
+    "outcome_wins": 51,
+    "outcome_total": 80,
+    "outcome_pct": 63.8,
     "btts_wins": 10,
     "btts_total": 16,
     "btts_pct": 62.5,
