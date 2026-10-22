@@ -110308,7 +110308,7 @@
       "time": "23:30",
       "away_team": "Piratas de Bogota",
       "home_team": "Caimanes del Llano",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.55,
       "xpts_h": 89.8,
@@ -110881,7 +110881,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 91,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 47,
+      "halftime_total": 89,
+      "halftime_pct_of_model": 54.4,
+      "total_delta": 16.45,
+      "signed_delta": 16.45,
+      "total_rpe": 9.14,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -118229,7 +118240,7 @@
       "time": "23:00",
       "away_team": "Atlanta Hawks",
       "home_team": "Orlando Magic",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 216.1,
       "xpts_h": 103.3,
@@ -119185,7 +119196,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 125,
+      "actual_away_score": 132,
+      "actual_result": "AWAY",
+      "halftime_home_score": 62,
+      "halftime_away_score": 72,
+      "halftime_total": 134,
+      "halftime_pct_of_model": 62.0,
+      "total_delta": 40.9,
+      "signed_delta": 40.9,
+      "total_rpe": 15.91,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": true,
@@ -119199,7 +119221,7 @@
       "time": "23:00",
       "away_team": "Milwaukee Bucks",
       "home_team": "Washington Wizards",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 222.76,
       "xpts_h": 110.4,
@@ -120135,7 +120157,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 128,
+      "actual_away_score": 116,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 56,
+      "halftime_total": 107,
+      "halftime_pct_of_model": 48.0,
+      "total_delta": 21.24,
+      "signed_delta": 21.24,
+      "total_rpe": 8.7,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -120149,7 +120182,7 @@
       "time": "23:30",
       "away_team": "Charlotte Hornets",
       "home_team": "Brooklyn Nets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 210.36,
       "xpts_h": 92.6,
@@ -121124,7 +121157,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 110,
+      "actual_result": "AWAY",
+      "halftime_home_score": 48,
+      "halftime_away_score": 54,
+      "halftime_total": 102,
+      "halftime_pct_of_model": 48.5,
+      "total_delta": 2.64,
+      "signed_delta": 2.64,
+      "total_rpe": 1.24,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -121138,7 +121182,7 @@
       "time": "23:30",
       "away_team": "Minnesota Timberwolves",
       "home_team": "Miami Heat",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 226.09,
       "xpts_h": 111.0,
@@ -122094,7 +122138,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 106,
+      "actual_away_score": 131,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 69,
+      "halftime_total": 128,
+      "halftime_pct_of_model": 56.6,
+      "total_delta": 10.91,
+      "signed_delta": 10.91,
+      "total_rpe": 4.6,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_clash": false,
@@ -122108,7 +122163,7 @@
       "time": "23:30",
       "away_team": "Chicago Bulls",
       "home_team": "Toronto Raptors",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 219.75,
       "xpts_h": 121.6,
@@ -123064,7 +123119,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 135,
+      "actual_away_score": 92,
+      "actual_result": "HOME",
+      "halftime_home_score": 69,
+      "halftime_away_score": 44,
+      "halftime_total": 113,
+      "halftime_pct_of_model": 51.4,
+      "total_delta": 7.25,
+      "signed_delta": 7.25,
+      "total_rpe": 3.19,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -145181,17 +145247,17 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-22T00:42:03.298816",
+  "graded_at": "2026-10-22T03:36:48.887984",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 49,
-      "total": 74,
-      "pct": 66.2
+      "wins": 53,
+      "total": 79,
+      "pct": 67.1
     },
     "[  SRS   ]": {
       "wins": 41,
-      "total": 50,
-      "pct": 82.0
+      "total": 51,
+      "pct": 80.4
     }
   }
 }
