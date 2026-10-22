@@ -186,7 +186,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9) 
     : (shootoutData?.avg_market_delta ?? 8.0)
 
-  const { statsH = {}, statsA = {}, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
+  const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
   // Strip out league prefixes (e.g., 'BLNO - Semi-finals' -> 'Semi-finals')
@@ -455,6 +455,36 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         )}
                         {(hDelta != null || aDelta != null) && (
                           <StatRow label="Team ±Δ (Bias)" home={hDelta != null ? (hDelta > 0 ? `+${hDelta.toFixed(1)}` : hDelta.toFixed(1)) : '-'} away={aDelta != null ? (aDelta > 0 ? `+${aDelta.toFixed(1)}` : aDelta.toFixed(1)) : '-'} />
+                        )}
+                      </>
+                    );
+                  })()}
+                  {(sdiH || sdiA) && (() => {
+                    const getRiskColor = (risk) => {
+                      if (risk === 'HIGH') return '#ef4444'
+                      if (risk === 'MODERATE') return '#eab308'
+                      return '#22c55e'
+                    }
+                    const hLabel = sdiH ? `${sdiH.top1_pct}% (${sdiH.risk_label})` : '-'
+                    const aLabel = sdiA ? `${sdiA.top1_pct}% (${sdiA.risk_label})` : '-'
+                    const hPlayer = sdiH?.top_players?.[0] ? `${sdiH.top_players[0].name} (${sdiH.top_players[0].ppg} PPG)` : null
+                    const aPlayer = sdiA?.top_players?.[0] ? `${sdiA.top_players[0].name} (${sdiA.top_players[0].ppg} PPG)` : null
+
+                    return (
+                      <>
+                        <StatRow 
+                          label="Star Dependency (SDI)" 
+                          home={hLabel} 
+                          away={aLabel} 
+                          homeColor={sdiH ? getRiskColor(sdiH.risk) : undefined}
+                          awayColor={sdiA ? getRiskColor(sdiA.risk) : undefined}
+                          title="Star Dependency Index: % of scoring concentrated in top player. >=55% indicates high single-player dependency."
+                        />
+                        {(hPlayer || aPlayer) && (
+                          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#94a3b8', padding: '2px 8px 6px', fontStyle: 'italic' }}>
+                            <span>{hPlayer ? `⭐ ${hPlayer}` : ''}</span>
+                            <span style={{ textAlign: 'right' }}>{aPlayer ? `⭐ ${aPlayer}` : ''}</span>
+                          </div>
                         )}
                       </>
                     );
@@ -792,7 +822,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   )
 }
 
-function StatRow({ label, home, away, highlight }) {
+function StatRow({ label, home, away, highlight, homeColor, awayColor, title }) {
   const hVal = parseFloat(home)
   const aVal = parseFloat(away)
   let hCls = 'sr-val', aCls = 'sr-val'
@@ -806,10 +836,10 @@ function StatRow({ label, home, away, highlight }) {
     }
   }
   return (
-    <div className="stat-row">
-      <div className={hCls}>{home ?? '-'}</div>
+    <div className="stat-row" title={title}>
+      <div className={hCls} style={homeColor ? { color: homeColor } : {}}>{home ?? '-'}</div>
       <div className="sr-label">{label}</div>
-      <div className={aCls} style={{ textAlign: 'right' }}>{away ?? '-'}</div>
+      <div className={aCls} style={{ textAlign: 'right', ...(awayColor ? { color: awayColor } : {}) }}>{away ?? '-'}</div>
     </div>
   )
 }
