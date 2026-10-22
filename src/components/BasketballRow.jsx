@@ -336,14 +336,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 🔥
               </span>
             )}
-            {(sdiH?.risk === 'RED' || sdiA?.risk === 'RED' || (sdiH?.avg_sdi >= 55) || (sdiA?.avg_sdi >= 55)) && (
-              <span
-                style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
-                title={`High Star Dependency: ${sdiH?.risk === 'RED' || sdiH?.avg_sdi >= 55 ? home_team : ''} ${sdiA?.risk === 'RED' || sdiA?.avg_sdi >= 55 ? away_team : ''} relies heavily on key player (High Volatility)`}
-              >
-                ⭐
-              </span>
-            )}
             {isEliteBuffer && (
               <span
                 style={{
