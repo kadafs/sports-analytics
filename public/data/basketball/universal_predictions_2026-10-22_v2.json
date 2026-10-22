@@ -720,8 +720,42 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 57.9,
+          "top1_pct": 37.5,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "Derek St. Hilaire",
+              "times_top2": 2
+            },
+            {
+              "name": "Nikos Kamaras",
+              "times_top2": 2
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 47.5,
+          "top1_pct": 27.6,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Evdoxios Kapetakis",
+              "times_top2": 2
+            },
+            {
+              "name": "Mike Bothwell",
+              "times_top2": 1
+            },
+            {
+              "name": "Dimitris Hatzis",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -1991,7 +2025,34 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 40.0,
+          "top1_pct": 23.3,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Tomas Pavelka",
+              "times_top2": 4
+            },
+            {
+              "name": "Tray Buchanan",
+              "times_top2": 3
+            },
+            {
+              "name": "Rob Howard",
+              "times_top2": 2
+            },
+            {
+              "name": "Christian Tyler James",
+              "times_top2": 2
+            },
+            {
+              "name": "Mateo Dreznjak",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -2054,7 +2115,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Kansai Helios Dom\u017eale",
+                "name": "Kansai Helios Domžale",
                 "winner": true
               }
             },
@@ -3947,7 +4008,7 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 45.4,
+          "avg_sdi": 45.5,
           "top1_pct": 26.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
@@ -6187,7 +6248,30 @@
             }
           ]
         },
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 47.3,
+          "top1_pct": 28.1,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jojo Anderson",
+              "times_top2": 4
+            },
+            {
+              "name": "Joe Cookson",
+              "times_top2": 4
+            },
+            {
+              "name": "Erik Borg",
+              "times_top2": 1
+            },
+            {
+              "name": "Donnie Tillman",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -7825,8 +7909,62 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 51.0,
+          "top1_pct": 28.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Gustav Hansson",
+              "times_top2": 8
+            },
+            {
+              "name": "Lamonte Turner",
+              "times_top2": 6
+            },
+            {
+              "name": "Rob Carpenter",
+              "times_top2": 6
+            },
+            {
+              "name": "Jalen Leach",
+              "times_top2": 4
+            },
+            {
+              "name": "Rickard Jonatan Arvidsson",
+              "times_top2": 4
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 51.0,
+          "top1_pct": 28.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Gustav Hansson",
+              "times_top2": 8
+            },
+            {
+              "name": "Lamonte Turner",
+              "times_top2": 6
+            },
+            {
+              "name": "Rob Carpenter",
+              "times_top2": 6
+            },
+            {
+              "name": "Jalen Leach",
+              "times_top2": 4
+            },
+            {
+              "name": "Rickard Jonatan Arvidsson",
+              "times_top2": 4
+            }
+          ]
+        }
       }
     },
     {
@@ -9406,7 +9544,34 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 43.9,
+          "top1_pct": 24.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Kevin Durant\n                        \n\n                            F",
+              "times_top2": 11
+            },
+            {
+              "name": "Amen Thompson\n                        \n\n                            G",
+              "times_top2": 6
+            },
+            {
+              "name": "Alperen Sengun\n                        \n\n                            C",
+              "times_top2": 6
+            },
+            {
+              "name": "Jabari Smith Jr.\n                        \n\n                            F",
+              "times_top2": 3
+            },
+            {
+              "name": "Clint Capela\n                        \n\n                            C",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -12433,7 +12598,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 39.2,
+          "top1_pct": 20.9,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Tyrell Johnson",
+              "times_top2": 3
+            },
+            {
+              "name": "Chrunn Maurice Williamson",
+              "times_top2": 2
+            },
+            {
+              "name": "Dimitrije Nikolic",
+              "times_top2": 2
+            },
+            {
+              "name": "David Antonescu",
+              "times_top2": 1
+            },
+            {
+              "name": "Mihai Maciuca",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": {
           "avg_sdi": 42.6,
           "top1_pct": 23.4,
@@ -13123,7 +13315,30 @@
             }
           ]
         },
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 53.2,
+          "top1_pct": 29.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Kenny Dye",
+              "times_top2": 3
+            },
+            {
+              "name": "Juwan Gray",
+              "times_top2": 2
+            },
+            {
+              "name": "Demilade Adelekun",
+              "times_top2": 2
+            },
+            {
+              "name": "Albert Mark Stan",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -15270,7 +15485,30 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 41.2,
+          "top1_pct": 23.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Javonte Smart",
+              "times_top2": 3
+            },
+            {
+              "name": "Kristian Kullamae",
+              "times_top2": 1
+            },
+            {
+              "name": "Jalyn McCreary",
+              "times_top2": 1
+            },
+            {
+              "name": "Uros Plavsic",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -17482,8 +17720,38 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 50.9,
+          "top1_pct": 30.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Iva Slonjsak",
+              "times_top2": 1
+            },
+            {
+              "name": "Raneem Elgedawy",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 54.2,
+          "top1_pct": 29.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Michaela Vondrackova",
+              "times_top2": 1
+            },
+            {
+              "name": "Sara Rokkanen",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -19652,7 +19920,22 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 42.4,
+          "top1_pct": 25.8,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Karina Konstantinova",
+              "times_top2": 1
+            },
+            {
+              "name": "Jelena Mitrovic",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -21822,8 +22105,54 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 38.4,
+          "top1_pct": 20.3,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Stefan Milosevic",
+              "times_top2": 2
+            },
+            {
+              "name": "Luka Jovicic",
+              "times_top2": 1
+            },
+            {
+              "name": "Tarik Hrelja",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 42.6,
+          "top1_pct": 23.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Aaron Broussard",
+              "times_top2": 6
+            },
+            {
+              "name": "Aleksander Dziewa",
+              "times_top2": 3
+            },
+            {
+              "name": "Geno Crandall",
+              "times_top2": 1
+            },
+            {
+              "name": "Temidayo Yussef",
+              "times_top2": 1
+            },
+            {
+              "name": "Diogo Gameiro",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -24013,7 +24342,34 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 48.3,
+          "top1_pct": 27.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Harmoni Turner",
+              "times_top2": 4
+            },
+            {
+              "name": "Caroline Heriaud",
+              "times_top2": 2
+            },
+            {
+              "name": "Masseny Kaba",
+              "times_top2": 2
+            },
+            {
+              "name": "Elizabeth Balogun",
+              "times_top2": 1
+            },
+            {
+              "name": "Adja Kane",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -26183,8 +26539,38 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 34.2,
+          "top1_pct": 17.8,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Lena Gohlisch",
+              "times_top2": 1
+            },
+            {
+              "name": "Deeshyra Thomas",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 33.3,
+          "top1_pct": 17.9,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Micaela Kelly",
+              "times_top2": 1
+            },
+            {
+              "name": "Marie Vervaet",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -27245,7 +27631,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 40.3,
+          "top1_pct": 22.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jordan Loyd",
+              "times_top2": 14
+            },
+            {
+              "name": "Sehmus Hazer",
+              "times_top2": 8
+            },
+            {
+              "name": "P.J. Dozier",
+              "times_top2": 7
+            },
+            {
+              "name": "Ercan Osmani",
+              "times_top2": 5
+            },
+            {
+              "name": "Saben Lee",
+              "times_top2": 5
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -30532,34 +30945,7 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": {
-          "avg_sdi": 39.3,
-          "top1_pct": 22.0,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
-          "top_players": [
-            {
-              "name": "Nigel Hayes",
-              "times_top2": 11
-            },
-            {
-              "name": "Kendrick Nunn",
-              "times_top2": 8
-            },
-            {
-              "name": "Cedi Osman",
-              "times_top2": 5
-            },
-            {
-              "name": "Mathias Lessort",
-              "times_top2": 4
-            },
-            {
-              "name": "Sylvain Francisco",
-              "times_top2": 4
-            }
-          ]
-        },
+        "sdiH": null,
         "sdiA": {
           "avg_sdi": 38.7,
           "top1_pct": 21.7,
@@ -31648,7 +32034,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 38.7,
+          "top1_pct": 21.8,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Moses Wright",
+              "times_top2": 4
+            },
+            {
+              "name": "Marko Guduric",
+              "times_top2": 3
+            },
+            {
+              "name": "Alec Peters",
+              "times_top2": 2
+            },
+            {
+              "name": "Devon Hall",
+              "times_top2": 2
+            },
+            {
+              "name": "Garrison Mathews",
+              "times_top2": 2
+            }
+          ]
+        },
         "sdiA": {
           "avg_sdi": 39.3,
           "top1_pct": 22.1,
@@ -32757,7 +33170,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 39.4,
+          "top1_pct": 21.7,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Carlik Jones",
+              "times_top2": 12
+            },
+            {
+              "name": "Tonye Jekiri",
+              "times_top2": 4
+            },
+            {
+              "name": "Sterling Brown",
+              "times_top2": 3
+            },
+            {
+              "name": "Isaac Bonga",
+              "times_top2": 3
+            },
+            {
+              "name": "Lamar Stevens",
+              "times_top2": 2
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -33803,7 +34243,22 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 38.1,
+          "top1_pct": 21.4,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Kitija Laksa",
+              "times_top2": 1
+            },
+            {
+              "name": "Mariam Coulibaly",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -34891,8 +35346,50 @@
           "rank": null,
           "prior_blended": true
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 55.4,
+          "top1_pct": 32.1,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "Hind Ben Abdelkader",
+              "times_top2": 1
+            },
+            {
+              "name": "Maud Huijbens",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 38.7,
+          "top1_pct": 21.1,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "James Palmer",
+              "times_top2": 7
+            },
+            {
+              "name": "Errick McCollum",
+              "times_top2": 7
+            },
+            {
+              "name": "Can Korkmaz",
+              "times_top2": 5
+            },
+            {
+              "name": "Jerome Robinson",
+              "times_top2": 5
+            },
+            {
+              "name": "Sehmus Hazer",
+              "times_top2": 3
+            }
+          ]
+        }
       }
     },
     {
@@ -36227,7 +36724,30 @@
             }
           ]
         },
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 43.2,
+          "top1_pct": 24.1,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "R.J. Gunn",
+              "times_top2": 1
+            },
+            {
+              "name": "Nikola Jovanovic",
+              "times_top2": 1
+            },
+            {
+              "name": "Luka Kures",
+              "times_top2": 1
+            },
+            {
+              "name": "Bogdan Zimonjic",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -37520,7 +38040,34 @@
             }
           ]
         },
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 39.8,
+          "top1_pct": 21.5,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Boris Krnjajski",
+              "times_top2": 6
+            },
+            {
+              "name": "Josh Pierre-Louis",
+              "times_top2": 4
+            },
+            {
+              "name": "Le'tre Darthard",
+              "times_top2": 3
+            },
+            {
+              "name": "Marton Molnar",
+              "times_top2": 3
+            },
+            {
+              "name": "Auston Barnes",
+              "times_top2": 3
+            }
+          ]
+        }
       }
     },
     {
@@ -38669,7 +39216,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -38755,7 +39302,30 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 57.2,
+          "top1_pct": 32.0,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "Luca Bah",
+              "times_top2": 1
+            },
+            {
+              "name": "Ekene Adigwe",
+              "times_top2": 1
+            },
+            {
+              "name": "Nantti Ruuhilahti",
+              "times_top2": 1
+            },
+            {
+              "name": "Joseph Tala",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -39337,7 +39907,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Pyrint\u00f6 Akatemia A",
+                "name": "Pyrintö Akatemia A",
                 "logo": ""
               },
               "games": {
@@ -39422,8 +39992,42 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 47.4,
+          "top1_pct": 26.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jamal West Jr",
+              "times_top2": 6
+            },
+            {
+              "name": "Jordan Mason",
+              "times_top2": 5
+            },
+            {
+              "name": "Shawn Hopkins",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 62.6,
+          "top1_pct": 34.5,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "Ethan Pickett",
+              "times_top2": 2
+            },
+            {
+              "name": "Michael Pietrzyk",
+              "times_top2": 2
+            }
+          ]
+        }
       }
     },
     {
@@ -42417,7 +43021,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 38.7,
+          "top1_pct": 21.8,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Moses Wright",
+              "times_top2": 4
+            },
+            {
+              "name": "Marko Guduric",
+              "times_top2": 3
+            },
+            {
+              "name": "Alec Peters",
+              "times_top2": 2
+            },
+            {
+              "name": "Devon Hall",
+              "times_top2": 2
+            },
+            {
+              "name": "Garrison Mathews",
+              "times_top2": 2
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -44422,7 +45053,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 40.3,
+          "top1_pct": 21.6,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Pablo Sanchez",
+              "times_top2": 2
+            },
+            {
+              "name": "Michael Abiodun Nugu",
+              "times_top2": 1
+            },
+            {
+              "name": "Pau Trevino",
+              "times_top2": 1
+            },
+            {
+              "name": "Zack Rollins",
+              "times_top2": 1
+            },
+            {
+              "name": "Jacques-Melaine Sienche Guemeta",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -54563,8 +55221,62 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 45.2,
+          "top1_pct": 25.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Rhyne Howard",
+              "times_top2": 12
+            },
+            {
+              "name": "Allisha Gray",
+              "times_top2": 10
+            },
+            {
+              "name": "Angel Reese",
+              "times_top2": 10
+            },
+            {
+              "name": "Jordin Canada",
+              "times_top2": 5
+            },
+            {
+              "name": "Naz Hillmon",
+              "times_top2": 3
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 43.3,
+          "top1_pct": 23.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Gabby Williams",
+              "times_top2": 14
+            },
+            {
+              "name": "Janelle Salaun",
+              "times_top2": 7
+            },
+            {
+              "name": "Veronica Burton",
+              "times_top2": 7
+            },
+            {
+              "name": "Kaitlyn Chen",
+              "times_top2": 5
+            },
+            {
+              "name": "Kaila Charles",
+              "times_top2": 4
+            }
+          ]
+        }
       }
     },
     {
@@ -57346,30 +58058,30 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 48.1,
-          "top1_pct": 27.0,
+          "avg_sdi": 53.0,
+          "top1_pct": 32.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Akil Douglas",
-              "times_top2": 12
-            },
-            {
-              "name": "Ahmed Barba-Bey",
-              "times_top2": 11
-            },
-            {
-              "name": "Obiri Kyei",
+              "name": "Eryn Fisher",
               "times_top2": 7
             },
             {
-              "name": "Goc Malual",
-              "times_top2": 1
+              "name": "Mikayla Pirini",
+              "times_top2": 6
             },
             {
-              "name": "Chol Adup",
-              "times_top2": 1
+              "name": "Alexandra Kayrouz",
+              "times_top2": 6
+            },
+            {
+              "name": "Alexandria Oliver",
+              "times_top2": 4
+            },
+            {
+              "name": "Chantel Horvat",
+              "times_top2": 4
             }
           ]
         }
@@ -57756,7 +58468,30 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 45.8,
+          "top1_pct": 25.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Taran Armstrong",
+              "times_top2": 5
+            },
+            {
+              "name": "David Johnson",
+              "times_top2": 5
+            },
+            {
+              "name": "Will Magnay",
+              "times_top2": 3
+            },
+            {
+              "name": "Josh Bannan",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -58443,8 +59178,50 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 41.7,
+          "top1_pct": 23.3,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jokubas Rudaitis",
+              "times_top2": 2
+            },
+            {
+              "name": "Majus Bulanovas",
+              "times_top2": 2
+            },
+            {
+              "name": "Dominykas Grunkis",
+              "times_top2": 1
+            },
+            {
+              "name": "Dominykas Daubaris",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 44.8,
+          "top1_pct": 24.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Karolis Kokoska",
+              "times_top2": 2
+            },
+            {
+              "name": "Karolis Babusis",
+              "times_top2": 1
+            },
+            {
+              "name": "Sarunas Valunta",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -62002,7 +62779,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 41.9,
+          "top1_pct": 23.1,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Rihards Lomazs",
+              "times_top2": 11
+            },
+            {
+              "name": "Arnas Velicka",
+              "times_top2": 7
+            },
+            {
+              "name": "Yannick Franke",
+              "times_top2": 6
+            },
+            {
+              "name": "Donatas Tarolis",
+              "times_top2": 4
+            },
+            {
+              "name": "Elvar Fridriksson",
+              "times_top2": 4
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -62691,7 +63495,34 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 41.6,
+          "top1_pct": 24.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jerrick Harding",
+              "times_top2": 8
+            },
+            {
+              "name": "Ignas Sargiunas",
+              "times_top2": 6
+            },
+            {
+              "name": "Kenneth Smith",
+              "times_top2": 4
+            },
+            {
+              "name": "Gytis Masiulis",
+              "times_top2": 3
+            },
+            {
+              "name": "Augustas Marciulionis",
+              "times_top2": 3
+            }
+          ]
+        }
       }
     },
     {
@@ -63378,7 +64209,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 47.6,
+          "top1_pct": 27.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Titas Janusevicius",
+              "times_top2": 2
+            },
+            {
+              "name": "Gabrielius Celka",
+              "times_top2": 1
+            },
+            {
+              "name": "Nojus Vaivada",
+              "times_top2": 1
+            },
+            {
+              "name": "Kajus Leliukas",
+              "times_top2": 1
+            },
+            {
+              "name": "Augustinas Mikstas",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -65264,7 +66122,22 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 45.2,
+          "top1_pct": 23.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Matej Kavas",
+              "times_top2": 1
+            },
+            {
+              "name": "Dimitrios Klonaras",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -65819,8 +66692,38 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 48.8,
+          "top1_pct": 28.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Dominykas Milka",
+              "times_top2": 1
+            },
+            {
+              "name": "Luwane Pipkins",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 39.0,
+          "top1_pct": 24.4,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Keyshawn Woods",
+              "times_top2": 1
+            },
+            {
+              "name": "Igor Maric",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -66375,8 +67278,38 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 42.6,
+          "top1_pct": 24.1,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Unnsteinn Runar Karason",
+              "times_top2": 1
+            },
+            {
+              "name": "Jordan Semple",
+              "times_top2": 1
+            }
+          ]
+        },
+        "sdiA": {
+          "avg_sdi": 53.0,
+          "top1_pct": 32.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Luka Gasic",
+              "times_top2": 1
+            },
+            {
+              "name": "Hilmar Henningsson",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -66911,7 +67844,22 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 45.8,
+          "top1_pct": 23.4,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Bragi Gudmundsson",
+              "times_top2": 1
+            },
+            {
+              "name": "Daniel Love",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -67550,7 +68498,26 @@
           "prior_blended": false
         },
         "sdiH": null,
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 47.8,
+          "top1_pct": 26.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Djordje Gobovic",
+              "times_top2": 2
+            },
+            {
+              "name": "Stefan Mijovic",
+              "times_top2": 1
+            },
+            {
+              "name": "Samier Kinsler",
+              "times_top2": 1
+            }
+          ]
+        }
       }
     },
     {
@@ -69631,7 +70598,30 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 50.7,
+          "top1_pct": 31.4,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Dylan Schommer",
+              "times_top2": 3
+            },
+            {
+              "name": "Malik Bajo",
+              "times_top2": 2
+            },
+            {
+              "name": "Nate West",
+              "times_top2": 2
+            },
+            {
+              "name": "Kenan Bonga",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -74225,7 +75215,34 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 40.6,
+          "top1_pct": 22.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Melo Trimble",
+              "times_top2": 17
+            },
+            {
+              "name": "Livio Jean-Charles",
+              "times_top2": 8
+            },
+            {
+              "name": "Casper Ware",
+              "times_top2": 6
+            },
+            {
+              "name": "Samson Ruzhentsev",
+              "times_top2": 4
+            },
+            {
+              "name": "Ivan Ukhov",
+              "times_top2": 3
+            }
+          ]
+        },
         "sdiA": null
       }
     },
@@ -74921,7 +75938,30 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 45.7,
+          "top1_pct": 27.8,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jalen Blackmon",
+              "times_top2": 3
+            },
+            {
+              "name": "Isaiah Crawley",
+              "times_top2": 2
+            },
+            {
+              "name": "Nate Pollard",
+              "times_top2": 2
+            },
+            {
+              "name": "Daquan Smith",
+              "times_top2": 1
+            }
+          ]
+        },
         "sdiA": null
       }
     },

@@ -336,6 +336,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 🔥
               </span>
             )}
+            {(sdiH?.risk === 'RED' || sdiA?.risk === 'RED' || (sdiH?.avg_sdi >= 55) || (sdiA?.avg_sdi >= 55)) && (
+              <span
+                style={{ fontSize: '11px', lineHeight: 1, cursor: 'help' }}
+                title={`High Star Dependency: ${sdiH?.risk === 'RED' || sdiH?.avg_sdi >= 55 ? home_team : ''} ${sdiA?.risk === 'RED' || sdiA?.avg_sdi >= 55 ? away_team : ''} relies heavily on key player (High Volatility)`}
+              >
+                ⭐
+              </span>
+            )}
             {isEliteBuffer && (
               <span
                 style={{
@@ -459,16 +467,23 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       </>
                     );
                   })()}
-                  {(sdiH || sdiA) && (() => {
+                  {(() => {
                     const getRiskColor = (risk) => {
-                      if (risk === 'HIGH') return '#ef4444'
-                      if (risk === 'MODERATE') return '#eab308'
+                      if (risk === 'RED' || risk === 'HIGH') return '#ef4444'
+                      if (risk === 'AMBER' || risk === 'MODERATE') return '#eab308'
                       return '#22c55e'
                     }
-                    const hLabel = sdiH ? `${sdiH.top1_pct}% (${sdiH.risk_label})` : '-'
-                    const aLabel = sdiA ? `${sdiA.top1_pct}% (${sdiA.risk_label})` : '-'
-                    const hPlayer = sdiH?.top_players?.[0] ? `${sdiH.top_players[0].name} (${sdiH.top_players[0].ppg} PPG)` : null
-                    const aPlayer = sdiA?.top_players?.[0] ? `${sdiA.top_players[0].name} (${sdiA.top_players[0].ppg} PPG)` : null
+                    const hLabel = sdiH ? `${sdiH.top1_pct ?? sdiH.avg_sdi}% (${sdiH.risk_label || 'BALANCED'})` : '-'
+                    const aLabel = sdiA ? `${sdiA.top1_pct ?? sdiA.avg_sdi}% (${sdiA.risk_label || 'BALANCED'})` : '-'
+                    const formatPlayer = (sdi) => {
+                      if (!sdi?.top_players?.[0]) return null
+                      const p = sdi.top_players[0]
+                      if (p.ppg != null) return `${p.name} (${p.ppg} PPG)`
+                      if (p.times_top2 != null) return `${p.name} (${p.times_top2}x top scorer)`
+                      return p.name
+                    }
+                    const hPlayer = formatPlayer(sdiH)
+                    const aPlayer = formatPlayer(sdiA)
 
                     return (
                       <>
@@ -785,6 +800,61 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                     <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
                       * Calculated Match Projections
                     </div>
+                  </div>
+
+                  <div className="prob-section full">
+                    <div className="ps-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <span>Star Dependency Index (SDI)</span>
+                      <span style={{ fontSize: '10px', color: '#94a3b8', fontWeight: 500 }}>Roster Scoring Concentration</span>
+                    </div>
+                    {(() => {
+                      const getRiskColor = (risk) => {
+                        if (risk === 'RED' || risk === 'HIGH') return '#ef4444'
+                        if (risk === 'AMBER' || risk === 'MODERATE') return '#eab308'
+                        return '#22c55e'
+                      }
+                      const formatPlayer = (sdi) => {
+                        if (!sdi?.top_players?.[0]) return null
+                        const p = sdi.top_players[0]
+                        if (p.ppg != null) return `${p.name} (${p.ppg} PPG)`
+                        if (p.times_top2 != null) return `${p.name} (${p.times_top2}x top scorer)`
+                        return p.name
+                      }
+                      const hPlayer = formatPlayer(sdiH)
+                      const aPlayer = formatPlayer(sdiA)
+                      
+                      return (
+                        <>
+                          <div className="prob-outcome-row">
+                            <div className="po-box">
+                              <span className="po-val" style={{ color: sdiH ? getRiskColor(sdiH.risk) : '#94a3b8' }}>
+                                {sdiH ? `${sdiH.avg_sdi}%` : '—'}
+                              </span>
+                              <span className="po-lbl">{home_team} {sdiH ? `(${sdiH.risk_label || 'BALANCED'})` : '(Pending boxscores)'}</span>
+                              {hPlayer && (
+                                <div style={{ fontSize: '10px', color: '#94a3b8', marginTop: '4px', fontStyle: 'italic' }}>
+                                  ⭐ {hPlayer}
+                                </div>
+                              )}
+                            </div>
+                            <div className="po-box">
+                              <span className="po-val" style={{ color: sdiA ? getRiskColor(sdiA.risk) : '#94a3b8' }}>
+                                {sdiA ? `${sdiA.avg_sdi}%` : '—'}
+                              </span>
+                              <span className="po-lbl">{away_team} {sdiA ? `(${sdiA.risk_label || 'BALANCED'})` : '(Pending boxscores)'}</span>
+                              {aPlayer && (
+                                <div style={{ fontSize: '10px', color: '#94a3b8', marginTop: '4px', fontStyle: 'italic' }}>
+                                  ⭐ {aPlayer}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                          <div style={{ marginTop: 8, fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>
+                            * % of team scoring concentrated in top 2 players. &gt;=55% indicates high single-player volatility.
+                          </div>
+                        </>
+                      )
+                    })()}
                   </div>
 
                   <div className="prob-section">
