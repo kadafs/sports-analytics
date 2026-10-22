@@ -123078,7 +123078,7 @@
       "time": "22:30",
       "away_team": "Sao Jose",
       "home_team": "Bauru",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 170.8,
       "xpts_h": 93.6,
@@ -123704,7 +123704,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 34,
+      "halftime_away_score": 42,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 19.8,
+      "signed_delta": -19.8,
+      "total_rpe": 13.11,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -123718,7 +123729,7 @@
       "time": "22:30",
       "away_team": "Mogi",
       "home_team": "Franca",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.06,
       "xpts_h": 89.0,
@@ -124420,7 +124431,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 49,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 60.6,
+      "total_delta": 3.94,
+      "signed_delta": 3.94,
+      "total_rpe": 2.4,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -124434,7 +124456,7 @@
       "time": "22:30",
       "away_team": "Paulistano",
       "home_team": "Pato",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.02,
       "xpts_h": 67.0,
@@ -125060,7 +125082,18 @@
           "rank": null,
           "prior_blended": false
         }
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 28,
+      "halftime_away_score": 33,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 38.6,
+      "total_delta": 4.02,
+      "signed_delta": -4.02,
+      "total_rpe": 2.61,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -145148,7 +145181,7 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-21T22:37:00.138653",
+  "graded_at": "2026-10-22T00:42:03.298816",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 49,
@@ -145156,9 +145189,9 @@
       "pct": 66.2
     },
     "[  SRS   ]": {
-      "wins": 38,
-      "total": 47,
-      "pct": 80.9
+      "wins": 41,
+      "total": 50,
+      "pct": 82.0
     }
   }
 }
