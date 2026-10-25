@@ -91383,7 +91383,7 @@
       "time": "23:00",
       "away_team": "Capitanes Bogota",
       "home_team": "Caimanes del Llano",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.6,
       "xpts_h": 95.9,
@@ -91921,7 +91921,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 72,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 28,
+      "halftime_total": 60,
+      "halftime_pct_of_model": 36.7,
+      "total_delta": 21.6,
+      "signed_delta": -21.6,
+      "total_rpe": 15.21,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -100614,7 +100625,7 @@
       "time": "23:30",
       "away_team": "CD Puerto Varas",
       "home_team": "Valdivia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.22,
       "xpts_h": 94.1,
@@ -101297,7 +101308,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 34,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 52.1,
+      "total_delta": 17.78,
+      "signed_delta": 17.78,
+      "total_rpe": 9.93,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -146263,7 +146285,7 @@
       "time": "22:00",
       "away_team": "Miami Heat",
       "home_team": "Charlotte Hornets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 218.24,
       "xpts_h": 119.9,
@@ -147276,7 +147298,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 110,
+      "actual_result": "HOME",
+      "halftime_home_score": 66,
+      "halftime_away_score": 58,
+      "halftime_total": 124,
+      "halftime_pct_of_model": 56.8,
+      "total_delta": 6.76,
+      "signed_delta": 6.76,
+      "total_rpe": 3.0,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -147290,7 +147323,7 @@
       "time": "23:30",
       "away_team": "Brooklyn Nets",
       "home_team": "Cleveland Cavaliers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 222.35,
       "xpts_h": 120.1,
@@ -148283,7 +148316,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 125,
+      "actual_away_score": 121,
+      "actual_result": "HOME",
+      "halftime_home_score": 68,
+      "halftime_away_score": 54,
+      "halftime_total": 122,
+      "halftime_pct_of_model": 54.9,
+      "total_delta": 23.65,
+      "signed_delta": 23.65,
+      "total_rpe": 9.61,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -148297,7 +148341,7 @@
       "time": "23:30",
       "away_team": "Milwaukee Bucks",
       "home_team": "Philadelphia 76ers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 220.22,
       "xpts_h": 120.8,
@@ -149310,7 +149354,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 127,
+      "actual_away_score": 116,
+      "actual_result": "HOME",
+      "halftime_home_score": 64,
+      "halftime_away_score": 60,
+      "halftime_total": 124,
+      "halftime_pct_of_model": 56.3,
+      "total_delta": 22.78,
+      "signed_delta": 22.78,
+      "total_rpe": 9.37,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -255177,17 +255232,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-10-25T00:20:55.609001",
+  "graded_at": "2026-10-25T05:08:11.448583",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 108,
-      "total": 155,
-      "pct": 69.7
+      "wins": 111,
+      "total": 158,
+      "pct": 70.3
     },
     "[  SRS   ]": {
-      "wins": 105,
-      "total": 141,
-      "pct": 74.5
+      "wins": 106,
+      "total": 143,
+      "pct": 74.1
     }
   }
 }
