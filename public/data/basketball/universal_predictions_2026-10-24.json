@@ -150913,7 +150913,7 @@
       "time": "22:00",
       "away_team": "Botafogo",
       "home_team": "Pato",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.87,
       "xpts_h": 79.2,
@@ -151608,7 +151608,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 48,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 54.8,
+      "total_delta": 20.13,
+      "signed_delta": 20.13,
+      "total_rpe": 11.37,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -189885,7 +189896,7 @@
       "time": "19:30",
       "away_team": "Lusitania",
       "home_team": "Maia",
-      "status": "Quarter 4",
+      "status": "FT",
       "stage": "4",
       "model_total": 153.89,
       "xpts_h": 74.8,
@@ -190800,7 +190811,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 36,
+      "halftime_away_score": 44,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 52.0,
+      "total_delta": 5.11,
+      "signed_delta": 5.11,
+      "total_rpe": 3.21,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": true,
@@ -190814,7 +190836,7 @@
       "time": "19:30",
       "away_team": "Sangalhos",
       "home_team": "Barcelos",
-      "status": "Quarter 3",
+      "status": "FT",
       "stage": "4",
       "model_total": 142.74,
       "xpts_h": 78.5,
@@ -191708,7 +191730,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 47,
+      "actual_away_score": 69,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 37,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 48.3,
+      "total_delta": 26.74,
+      "signed_delta": -26.74,
+      "total_rpe": 23.05,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -246306,7 +246339,7 @@
       "time": "17:00",
       "away_team": "Grengewald Hueschtert",
       "home_team": "Kordall Steelers",
-      "status": "42",
+      "status": "FT",
       "stage": "6",
       "model_total": 170.1,
       "xpts_h": 77.6,
@@ -246970,7 +247003,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 33,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 48.2,
+      "total_delta": 22.1,
+      "signed_delta": -22.1,
+      "total_rpe": 14.93,
+      "accuracy_tier": "BUST"
     },
     {
       "is_clash": false,
@@ -255133,17 +255177,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-10-24T21:23:15.820968",
+  "graded_at": "2026-10-25T00:20:55.609001",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 108,
-      "total": 153,
-      "pct": 70.6
+      "total": 155,
+      "pct": 69.7
     },
     "[  SRS   ]": {
-      "wins": 104,
-      "total": 139,
-      "pct": 74.8
+      "wins": 105,
+      "total": 141,
+      "pct": 74.5
     }
   }
 }
