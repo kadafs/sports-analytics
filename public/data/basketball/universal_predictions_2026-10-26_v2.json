@@ -14963,7 +14963,7 @@
             {
               "position": 20,
               "team": {
-                "name": "W\u00fcrzburg Baskets",
+                "name": "Würzburg Baskets",
                 "logo": ""
               },
               "games": {
@@ -15568,7 +15568,7 @@
             "date": "Oct 16, 2026",
             "teams": {
               "home": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "winner": false
               },
               "away": {
@@ -15897,7 +15897,7 @@
             {
               "position": 13,
               "team": {
-                "name": "H\u00f6gsbo Basket",
+                "name": "Högsbo Basket",
                 "logo": ""
               },
               "games": {
@@ -26978,7 +26978,7 @@
       "time": "01:00",
       "away_team": "Memphis Grizzlies",
       "home_team": "Sacramento Kings",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 239.99,
       "xpts_h": 120.5,
@@ -27991,7 +27991,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 112,
+      "actual_away_score": 123,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 67,
+      "halftime_total": 126,
+      "halftime_pct_of_model": 52.5,
+      "total_delta": 4.99,
+      "signed_delta": -4.99,
+      "total_rpe": 2.12,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -34912,7 +34923,7 @@
             {
               "position": 13,
               "team": {
-                "name": "Tigers T\u00fcbingen",
+                "name": "Tigers Tübingen",
                 "logo": ""
               },
               "games": {
@@ -35000,7 +35011,7 @@
             {
               "position": 17,
               "team": {
-                "name": "Eisb\u00e4ren Bremerhaven",
+                "name": "Eisbären Bremerhaven",
                 "logo": ""
               },
               "games": {
@@ -47407,5 +47418,13 @@
         "sdiA": null
       }
     }
-  ]
+  ],
+  "graded_at": "2026-10-26T07:52:11.379092",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0
+    }
+  }
 }

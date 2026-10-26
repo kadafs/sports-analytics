@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:06:08.019773",
+  "updated_at": "2026-10-26T07:52:11.945408",
   "total_leagues": 168,
   "leaderboard": [
     {
@@ -276,6 +276,45 @@
       "adv": null
     },
     {
+      "name": "USA — NBA",
+      "league_id": 12,
+      "mape": 6.68,
+      "mae": 15.11,
+      "graded_totals": 101,
+      "bullseyes": 16,
+      "excellents": 22,
+      "solids": 23,
+      "misses": 12,
+      "busts": 28,
+      "ots": 3,
+      "avg_signed_delta": -1.08,
+      "outcome_w": 64,
+      "outcome_l": 40,
+      "outcome_hit_rate": 61.5,
+      "srs": null,
+      "adv": {
+        "mape": 6.68,
+        "mae": 15.11,
+        "graded_totals": 101,
+        "bullseyes": 16,
+        "excellents": 22,
+        "solids": 23,
+        "misses": 12,
+        "busts": 28,
+        "ots": 3,
+        "avg_signed_delta": -1.08,
+        "outcome_w": 64,
+        "outcome_l": 40,
+        "outcome_hit_rate": 61.5,
+        "flat_floor_hits": 58,
+        "flat_floor_total": 104,
+        "flat_floor_rate": 0.5577,
+        "avg_ht_pace": 50.7,
+        "ht_on_pace_rate": 53.8,
+        "ht_graded_count": 104
+      }
+    },
+    {
       "name": "CHINA — CBA",
       "league_id": 31,
       "mape": 6.7,
@@ -352,45 +391,6 @@
         "ht_graded_count": 2
       },
       "adv": null
-    },
-    {
-      "name": "USA — NBA",
-      "league_id": 12,
-      "mape": 6.73,
-      "mae": 15.22,
-      "graded_totals": 100,
-      "bullseyes": 16,
-      "excellents": 21,
-      "solids": 23,
-      "misses": 12,
-      "busts": 28,
-      "ots": 3,
-      "avg_signed_delta": -1.04,
-      "outcome_w": 64,
-      "outcome_l": 39,
-      "outcome_hit_rate": 62.1,
-      "srs": null,
-      "adv": {
-        "mape": 6.73,
-        "mae": 15.22,
-        "graded_totals": 100,
-        "bullseyes": 16,
-        "excellents": 21,
-        "solids": 23,
-        "misses": 12,
-        "busts": 28,
-        "ots": 3,
-        "avg_signed_delta": -1.04,
-        "outcome_w": 64,
-        "outcome_l": 39,
-        "outcome_hit_rate": 62.1,
-        "flat_floor_hits": 57,
-        "flat_floor_total": 103,
-        "flat_floor_rate": 0.5534,
-        "avg_ht_pace": 50.6,
-        "ht_on_pace_rate": 53.4,
-        "ht_graded_count": 103
-      }
     },
     {
       "name": "CHILE — LNB",

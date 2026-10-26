@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:06:05.445900",
+  "updated_at": "2026-10-26T07:52:10.473754",
   "total_leagues": 161,
   "leaderboard": [
     {
@@ -413,6 +413,45 @@
       "adv": null
     },
     {
+      "name": "USA — NBA",
+      "league_id": 12,
+      "mape": 6.96,
+      "mae": 16.32,
+      "graded_totals": 97,
+      "bullseyes": 17,
+      "excellents": 20,
+      "solids": 12,
+      "misses": 12,
+      "busts": 36,
+      "ots": 3,
+      "avg_signed_delta": 8.31,
+      "outcome_w": 63,
+      "outcome_l": 37,
+      "outcome_hit_rate": 63.0,
+      "srs": null,
+      "adv": {
+        "mape": 6.96,
+        "mae": 16.32,
+        "graded_totals": 97,
+        "bullseyes": 17,
+        "excellents": 20,
+        "solids": 12,
+        "misses": 12,
+        "busts": 36,
+        "ots": 3,
+        "avg_signed_delta": 8.31,
+        "outcome_w": 63,
+        "outcome_l": 37,
+        "outcome_hit_rate": 63.0,
+        "flat_floor_hits": 74,
+        "flat_floor_total": 100,
+        "flat_floor_rate": 0.74,
+        "avg_ht_pace": 52.5,
+        "ht_on_pace_rate": 65.0,
+        "ht_graded_count": 100
+      }
+    },
+    {
       "name": "CHILE — LNB",
       "league_id": 114,
       "mape": 6.98,
@@ -450,45 +489,6 @@
         "ht_graded_count": 60
       },
       "adv": null
-    },
-    {
-      "name": "USA — NBA",
-      "league_id": 12,
-      "mape": 6.98,
-      "mae": 16.38,
-      "graded_totals": 96,
-      "bullseyes": 17,
-      "excellents": 20,
-      "solids": 11,
-      "misses": 12,
-      "busts": 36,
-      "ots": 3,
-      "avg_signed_delta": 8.29,
-      "outcome_w": 63,
-      "outcome_l": 36,
-      "outcome_hit_rate": 63.6,
-      "srs": null,
-      "adv": {
-        "mape": 6.98,
-        "mae": 16.38,
-        "graded_totals": 96,
-        "bullseyes": 17,
-        "excellents": 20,
-        "solids": 11,
-        "misses": 12,
-        "busts": 36,
-        "ots": 3,
-        "avg_signed_delta": 8.29,
-        "outcome_w": 63,
-        "outcome_l": 36,
-        "outcome_hit_rate": 63.6,
-        "flat_floor_hits": 73,
-        "flat_floor_total": 99,
-        "flat_floor_rate": 0.7374,
-        "avg_ht_pace": 52.5,
-        "ht_on_pace_rate": 64.6,
-        "ht_graded_count": 99
-      }
     },
     {
       "name": "BULGARIA — NBL",
