@@ -303,7 +303,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -496,7 +496,25 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterShootout) {
       if (!p.is_shootout) return false
     }
-    
+    // SDI Filter (Basketball only)
+    if (sport === 'basketball' && filterSDI !== 'all') {
+      const hRisk = p.sdiH?.risk   // 'GREEN' | 'AMBER' | 'RED' | undefined
+      const aRisk = p.sdiA?.risk
+      // If either team has no SDI data and filter is active, hide the game
+      if (!hRisk || !aRisk) return false
+      if (filterSDI === 'balanced') {
+        // Show only games where BOTH teams are GREEN (low dependency, resilient)
+        if (hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
+      } else if (filterSDI === 'volatile') {
+        // Show games where AT LEAST ONE team is RED (high star dependency)
+        if (hRisk !== 'RED' && aRisk !== 'RED') return false
+      } else {
+        // Exact tier match for either team (amber / red / green)
+        const tier = filterSDI.toUpperCase()
+        if (hRisk !== tier && aRisk !== tier) return false
+      }
+    }
+
     return true
   })
 }
@@ -525,6 +543,7 @@ export default function App() {
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   const [filterClash, setFilterClash] = useState(false) // ⚡ Clash Under filter
   const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
+  const [filterSDI,      setFilterSDI]      = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -662,9 +681,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -868,6 +887,20 @@ export default function App() {
                 <option value="[NEUTRAL]">🟡 Neutral (16–27)</option>
                 <option value="[MARGINAL]">🟠 Marginal (1–15)</option>
                 <option value="[AVOID]">⛔ Avoid (0 pts)</option>
+              </select>
+
+              <select
+                className="filter-select"
+                style={{ width: '170px' }}
+                value={filterSDI}
+                onChange={e => setFilterSDI(e.target.value)}
+                title="Star Dependency Index — filter by scoring concentration risk tier"
+              >
+                <option value="all">⭐ SDI Risk: All</option>
+                <option value="balanced">🟢 Balanced (Both GREEN)</option>
+                <option value="amber">🟡 Moderate (Has AMBER)</option>
+                <option value="red">🔴 High Dep (Has RED)</option>
+                <option value="volatile">⚠️ Any Volatile (≥1 RED)</option>
               </select>
 
               <button
