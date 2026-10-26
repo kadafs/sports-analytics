@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { fetchDates, fetchPredictions, fetchLeaderboard, fetchTeamLeaderboard } from './api'
+import { fetchDates, fetchPredictions, fetchLeaderboard, fetchTeamLeaderboard, fetchSdiIndex } from './api'
 import Header from './components/Header'
 import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
@@ -15,6 +15,25 @@ function isPlayoffGame(stage = '') {
   if (!stage) return false
   const s = String(stage).toLowerCase()
   return s.includes('final') || s.includes('place') || s.includes('playoff') || s.includes('championship')
+}
+
+function getSdiRecord(teamName, sdiIndex) {
+  if (!teamName || !sdiIndex) return null
+  const key = teamName.toLowerCase().trim()
+  // 1. Exact match
+  let rec = sdiIndex[key]
+  if (rec) return rec
+  // 2. Women suffix variants
+  const words = key.split(' ')
+  if (key.endsWith(' w') || key.endsWith(' (w)')) {
+    rec = sdiIndex[words[0] + ' w']
+    if (rec) return rec
+  }
+  // 3. Single-word lookup (unique word shortcuts already indexed)
+  if (words.length === 1) {
+    rec = sdiIndex[words[0]]
+  }
+  return rec || null
 }
 
 function groupByLeague(predictions, sport) {
@@ -303,7 +322,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -496,20 +515,24 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterShootout) {
       if (!p.is_shootout) return false
     }
-    // SDI Filter (Basketball only)
+    // SDI Filter (Basketball only) — live lookup from team_sdi.json index
     if (sport === 'basketball' && filterSDI !== 'all') {
-      const hRisk = p.sdiH?.risk   // 'GREEN' | 'AMBER' | 'RED' | undefined
-      const aRisk = p.sdiA?.risk
-      // If either team has no SDI data and filter is active, hide the game
-      if (!hRisk || !aRisk) return false
+      // Prefer embedded sdiH/sdiA; fall back to live sdiIndex lookup
+      const hRec = p.sdiH || getSdiRecord(p.home_team, sdiIndex)
+      const aRec = p.sdiA || getSdiRecord(p.away_team, sdiIndex)
+      const hRisk = hRec?.risk
+      const aRisk = aRec?.risk
       if (filterSDI === 'balanced') {
-        // Show only games where BOTH teams are GREEN (low dependency, resilient)
-        if (hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
+        // Both teams must be GREEN (low scoring concentration)
+        if (!hRisk || !aRisk || hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
       } else if (filterSDI === 'volatile') {
-        // Show games where AT LEAST ONE team is RED (high star dependency)
+        // At least one team RED (high star dependency)
         if (hRisk !== 'RED' && aRisk !== 'RED') return false
+      } else if (filterSDI === 'no_data') {
+        // Only show games where NEITHER team has SDI data yet
+        if (hRisk || aRisk) return false
       } else {
-        // Exact tier match for either team (amber / red / green)
+        // Exact tier: at least one team must match (GREEN / AMBER / RED)
         const tier = filterSDI.toUpperCase()
         if (hRisk !== tier && aRisk !== tier) return false
       }
@@ -573,6 +596,7 @@ export default function App() {
   
   const [leaderboard,   setLeaderboard]   = useState([])
   const [teamLeaderboard, setTeamLeaderboard] = useState([])
+  const [sdiIndex,        setSdiIndex]        = useState({}) // team_name -> sdi record
   const [showScrollTop, setShowScrollTop] = useState(false)
 
   useEffect(() => {
@@ -681,9 +705,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI, sdiIndex
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI, sdiIndex])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 

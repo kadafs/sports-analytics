@@ -71,3 +71,36 @@ export async function fetchBasketballSignalStats() {
   } catch (e) {}
   return null
 }
+
+export async function fetchSdiIndex() {
+  try {
+    const r = await fetch(`${DATA}/basketball/team_sdi.json?t=${Date.now()}`)
+    if (!r.ok) return {}
+    const d = await r.json()
+    const STOP = new Set(['de','del','la','le','los','las','el','en','of','and','the','bc','bk','sk','fc','ac','sc','club','basket','basketball','sport','sports'])
+    const teams = d.teams || []
+    // Count first-words and individual words to identify unique shortcuts
+    const firstWordCounts = {}
+    const wordCounts = {}
+    for (const t of teams) {
+      const words = t.team.toLowerCase().split(' ')
+      firstWordCounts[words[0]] = (firstWordCounts[words[0]] || 0) + 1
+      for (const w of words) {
+        if (w.length >= 4 && !STOP.has(w)) wordCounts[w] = (wordCounts[w] || 0) + 1
+      }
+    }
+    const index = {}
+    for (const t of teams) {
+      const full = t.team.toLowerCase()
+      index[full] = t
+      const words = full.split(' ')
+      // Unique first-word shortcut
+      if (firstWordCounts[words[0]] === 1 && !(words[0] in index)) index[words[0]] = t
+      // Unique individual-word shortcuts
+      for (const w of words) {
+        if (w.length >= 4 && !STOP.has(w) && wordCounts[w] === 1 && !(w in index)) index[w] = t
+      }
+    }
+    return index
+  } catch (e) { return {} }
+}
