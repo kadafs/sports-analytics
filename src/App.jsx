@@ -675,6 +675,12 @@ export default function App() {
       .then(d => { if (isActive) setTeamLeaderboard(d) })
       .catch(e => console.warn(`Could not fetch ${sport} team leaderboard:`, e))
 
+    if (sport === 'basketball') {
+      fetchSdiIndex()
+        .then(idx => { if (isActive) setSdiIndex(idx) })
+        .catch(() => setSdiIndex({}))
+    }
+
     return () => { isActive = false }
   }, [sport])
 
