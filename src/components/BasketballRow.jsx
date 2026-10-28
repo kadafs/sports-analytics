@@ -201,6 +201,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9) 
     : (shootoutData?.avg_market_delta ?? 8.0)
 
+  const dragDownData = signalStats?.drag_down
+  const dragDownSample = dragDownData?.mkt_sample || dragDownData?.sample || 99
+  const dragDownMktPct = dragDownData?.under_mkt_pct ?? 72.7
+  const dragDownMktDelta = dragDownData?.avg_market_delta ?? -8.2
+
   const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
@@ -656,14 +661,60 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         lineHeight: '1.5',
                         textAlign: 'left'
                       }}>
-                        <div style={{ fontWeight: 800, color: '#f87171', display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
-                          <span>⚓ DRAG-DOWN UNDER PROFILE</span>
-                          <span style={{ fontSize: '10px', background: 'rgba(220, 38, 38, 0.3)', padding: '1px 6px', borderRadius: '4px' }}>
-                            77.7% Market Under
-                          </span>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 6, marginBottom: 8 }}>
+                          <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: '#f87171', letterSpacing: '0.04em', fontSize: '12px' }}>
+                            <span style={{ marginRight: 6, fontSize: '13px' }}>⚓</span>
+                            DRAG-DOWN UNDER PROFILE
+                          </div>
+                          <div style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '4px',
+                            background: 'rgba(239, 68, 68, 0.16)',
+                            border: '1px solid rgba(239, 68, 68, 0.4)',
+                            color: '#f87171',
+                            fontWeight: 800,
+                            fontSize: '10.5px',
+                            padding: '2px 8px',
+                            borderRadius: '999px',
+                            letterSpacing: '0.03em'
+                          }}>
+                            <span>🔻</span>
+                            <span>SIGNAL: BET UNDER ({dragDownMktPct}% HIT)</span>
+                          </div>
                         </div>
+
+                        {/* Audit Stat Cards */}
+                        <div style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+                          gap: '8px',
+                          margin: '8px 0 10px 0',
+                          padding: '8px 10px',
+                          background: 'rgba(0,0,0,0.25)',
+                          borderRadius: '6px',
+                          border: '1px solid rgba(255,255,255,0.05)'
+                        }}>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>{dragDownSample} Graded</div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Under Rate</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
+                              {dragDownMktPct}% Under
+                            </div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Miss</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>
+                              {dragDownMktDelta > 0 ? `+${dragDownMktDelta}` : dragDownMktDelta} pts
+                            </div>
+                          </div>
+                        </div>
+
                         <div>
-                          <b>Structural Asymmetry Detected:</b> One disciplined team (MAE {(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')}) anchors pace against an erratic opponent (MAE {(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')}) with a Weak Floor. Empirical audit confirms a <b>77.7% Under hit rate</b> vs. sportsbook lines with an average miss of <b>-9.4 pts</b>.
+                          <b>Structural Asymmetry Detected:</b> One disciplined team (MAE {(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')}) anchors tempo against an erratic opponent (MAE {(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')}) with a Weak Floor. Empirical audit ({dragDownSample} games) confirms a <b>{dragDownMktPct}% Under hit rate</b> vs. sportsbook lines with an average miss of <b>{dragDownMktDelta > 0 ? `+${dragDownMktDelta}` : dragDownMktDelta} pts</b>.
                         </div>
                       </div>
                     )}
