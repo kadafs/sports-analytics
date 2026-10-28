@@ -322,7 +322,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -515,6 +515,23 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterShootout) {
       if (!p.is_shootout) return false
     }
+    // Drag-Down Filter (Basketball only: 77.7% Under rate vs market, -9.4 pts miss)
+    if (sport === 'basketball' && filterDragDown) {
+      const maeH = p.mae_h ?? null
+      const maeA = p.mae_a ?? null
+      const band = (p.confidence_score_band || p.band || '')
+      const floorStatus = p.floor_status || ''
+      const isDragDown = Boolean(
+        p.is_drag_down || (
+          band.includes('[AVOID]') &&
+          floorStatus.startsWith('WEAK') &&
+          maeH != null && maeA != null &&
+          Math.min(maeH, maeA) <= 11.5 &&
+          Math.max(maeH, maeA) >= 14.5
+        )
+      )
+      if (!isDragDown) return false
+    }
     // SDI Filter (Basketball only) — live lookup from team_sdi.json index
     if (sport === 'basketball' && filterSDI !== 'all') {
       // Prefer embedded sdiH/sdiA; fall back to live sdiIndex lookup
@@ -566,6 +583,7 @@ export default function App() {
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   const [filterClash, setFilterClash] = useState(false) // ⚡ Clash Under filter
   const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
+  const [filterDragDown, setFilterDragDown] = useState(false) // ⚓ Drag-Down Under filter
   const [filterSDI,      setFilterSDI]      = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
   
   // High-level App View Mode 
@@ -711,9 +729,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI, sdiIndex
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterBuffer, filterShots, filterSDI, sdiIndex])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -766,6 +784,7 @@ export default function App() {
           setSmartEdgeFilter(false);
           setFilterClash(false);
           setFilterShootout(false);
+          setFilterDragDown(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -1008,6 +1027,24 @@ export default function App() {
                 title="Filter games flagged with Shootout / Glass Cannons (72.6% Over market hit rate / +8.0 pts)"
               >
                 {filterShootout ? '🔥 Shootout Over: ON' : '🔥 Shootout Signals'}
+              </button>
+
+              <button
+                onClick={() => setFilterDragDown(!filterDragDown)}
+                style={{
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  borderRadius: 6,
+                  border: `1px solid ${filterDragDown ? '#991b1b' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: filterDragDown ? '#fee2e2' : '#f8fafc',
+                  color: filterDragDown ? '#991b1b' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title="Filter Drag-Down Under games (Asymmetric MAE + Weak Floor: 77.7% empirical Under win rate / -9.4 pts vs market)"
+              >
+                {filterDragDown ? '⚓ Drag-Down Under: ON' : '⚓ Drag-Down Under'}
               </button>
             </div>
           )}

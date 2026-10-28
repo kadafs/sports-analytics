@@ -155,6 +155,21 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const clashTrigger = primary.clash_trigger || secondary?.clash_trigger || 'CLASH'
   const isSharpOver = clashTrigger === 'SHARP OVER'
 
+  // Drag-Down Under Indicator logic (77.7% Under rate vs market, -9.4 pts miss)
+  const maeH = primary.mae_h ?? (consolidatedGame?.mae_h ?? null)
+  const maeA = primary.mae_a ?? (consolidatedGame?.mae_a ?? null)
+  const confBand = (primary.confidence_score_band || primary.band || '')
+  const floorStatus = primary.floor_status || ''
+  const isDragDown = Boolean(
+    primary.is_drag_down || (
+      confBand.includes('[AVOID]') &&
+      floorStatus.startsWith('WEAK') &&
+      maeH != null && maeA != null &&
+      Math.min(maeH, maeA) <= 11.5 &&
+      Math.max(maeH, maeA) >= 14.5
+    )
+  )
+
   const isShootout = Boolean(primary.is_shootout || secondary?.is_shootout)
   const shootoutTrigger = primary.shootout_trigger || secondary?.shootout_trigger || 'SHOOTOUT'
   const isSharpShootout = shootoutTrigger === 'SHARP SHOOTOUT'
@@ -334,6 +349,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 title={`Shootout Profile (${shootoutTrigger}): Empirical audit confirms ${shootoutMktPct}% Over market line (+${shootoutMktDelta} pts)`}
               >
                 🔥
+              </span>
+            )}
+            {isDragDown && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(239, 68, 68, 0.15)',
+                  color: '#dc2626',
+                  border: '1px solid rgba(239, 68, 68, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Drag-Down Under Profile: Solid team (${(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')} MAE) vs Erratic team (${(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')} MAE) with Weak Floor. Empirical audit confirms 77.7% Under rate (-9.4 pts vs market).`}
+              >
+                ⚓ Drag-Down Under
               </span>
             )}
             {isEliteBuffer && (
@@ -625,6 +658,33 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         <span className="po-lbl">Calculated Edge</span>
                       </div>
                     </div>
+
+                    {isDragDown && (
+                      <div style={{
+                        marginTop: '16px',
+                        padding: '12px 16px',
+                        borderRadius: '8px',
+                        background: 'linear-gradient(135deg, rgba(220, 38, 38, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)',
+                        borderLeft: '4px solid #dc2626',
+                        borderTop: '1px solid rgba(255,255,255,0.08)',
+                        borderRight: '1px solid rgba(255,255,255,0.08)',
+                        borderBottom: '1px solid rgba(255,255,255,0.08)',
+                        color: '#f8fafc',
+                        fontSize: '11.5px',
+                        lineHeight: '1.5',
+                        textAlign: 'left'
+                      }}>
+                        <div style={{ fontWeight: 800, color: '#f87171', display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+                          <span>⚓ DRAG-DOWN UNDER PROFILE</span>
+                          <span style={{ fontSize: '10px', background: 'rgba(220, 38, 38, 0.3)', padding: '1px 6px', borderRadius: '4px' }}>
+                            77.7% Market Under
+                          </span>
+                        </div>
+                        <div>
+                          <b>Structural Asymmetry Detected:</b> One disciplined team (MAE {(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')}) anchors pace against an erratic opponent (MAE {(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')}) with a Weak Floor. Empirical audit confirms a <b>77.7% Under hit rate</b> vs. sportsbook lines with an average miss of <b>-9.4 pts</b>.
+                        </div>
+                      </div>
+                    )}
 
                     {isClash && (
                       <div style={{
