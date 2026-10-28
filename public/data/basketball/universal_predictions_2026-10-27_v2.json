@@ -50375,7 +50375,7 @@
       "time": "22:15",
       "away_team": "Bigua",
       "home_team": "Urunday",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 188.94,
       "xpts_h": 95.1,
@@ -50918,7 +50918,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "halftime_home_score": 56,
+      "halftime_away_score": 40,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 50.8,
+      "total_delta": 1.06,
+      "signed_delta": 1.06,
+      "total_rpe": 0.56,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_clash": false,
@@ -60452,7 +60463,7 @@
       "time": "22:00",
       "away_team": "Pato",
       "home_team": "Minas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 168.8,
       "xpts_h": 99.3,
@@ -61147,7 +61158,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 32,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 47.4,
+      "total_delta": 17.8,
+      "signed_delta": -17.8,
+      "total_rpe": 11.79,
+      "accuracy_tier": "MISS"
     },
     {
       "is_clash": false,
@@ -61161,7 +61183,7 @@
       "time": "22:30",
       "away_team": "Brasilia",
       "home_team": "Cruzeiro",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.54,
       "xpts_h": 71.9,
@@ -61856,7 +61878,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 49,
+      "halftime_away_score": 32,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 49.5,
+      "total_delta": 5.46,
+      "signed_delta": 5.46,
+      "total_rpe": 3.23,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_clash": false,
@@ -71693,7 +71726,7 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-10-27T22:13:10.450049",
+  "graded_at": "2026-10-28T01:20:40.711979",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 29,
@@ -71701,9 +71734,9 @@
       "pct": 65.9
     },
     "[  SRS   ]": {
-      "wins": 14,
-      "total": 27,
-      "pct": 51.9
+      "wins": 16,
+      "total": 30,
+      "pct": 53.3
     }
   }
 }
