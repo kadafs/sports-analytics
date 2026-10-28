@@ -351,24 +351,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 🔥
               </span>
             )}
-            {isDragDown && (
-              <span
-                style={{
-                  fontSize: '9.5px',
-                  lineHeight: 1,
-                  fontWeight: 800,
-                  background: 'rgba(239, 68, 68, 0.15)',
-                  color: '#dc2626',
-                  border: '1px solid rgba(239, 68, 68, 0.35)',
-                  borderRadius: '3px',
-                  padding: '1px 4px',
-                  cursor: 'help'
-                }}
-                title={`Drag-Down Under Profile: Solid team (${(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')} MAE) vs Erratic team (${(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')} MAE) with Weak Floor. Empirical audit confirms 77.7% Under rate (-9.4 pts vs market).`}
-              >
-                ⚓ Drag-Down Under
-              </span>
-            )}
             {isEliteBuffer && (
               <span
                 style={{
