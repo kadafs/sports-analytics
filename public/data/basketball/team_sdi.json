@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-30T06:28:57.012191",
-  "total_teams": 851,
-  "skipped_teams": 98,
+  "generated_at": "2026-10-30T09:47:17.780790",
+  "total_teams": 852,
+  "skipped_teams": 97,
   "min_games_filter": 3,
   "summary": {
-    "red_high_dependency": 20,
-    "amber_moderate": 700,
-    "green_balanced": 131
+    "red_high_dependency": 19,
+    "amber_moderate": 706,
+    "green_balanced": 127
   },
   "teams": [
     {
@@ -382,38 +382,6 @@
       ]
     },
     {
-      "team": "BBC Nyon",
-      "games_tracked": 7,
-      "avg_sdi": 56.2,
-      "avg_top1_pct": 34.7,
-      "max_sdi": 69.5,
-      "min_sdi": 40.7,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
-      "top_players": [
-        {
-          "name": "Elijah Elliott",
-          "times_top2": 5
-        },
-        {
-          "name": "Masiah Gilyard",
-          "times_top2": 4
-        },
-        {
-          "name": "Killian Martin",
-          "times_top2": 1
-        },
-        {
-          "name": "Malyk Rebetez",
-          "times_top2": 1
-        },
-        {
-          "name": "Karl Chavis",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Albury Wodonga W",
       "games_tracked": 16,
       "avg_sdi": 56.2,
@@ -585,6 +553,38 @@
         },
         {
           "name": "Noah Clarke",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "BBC Nyon",
+      "games_tracked": 11,
+      "avg_sdi": 54.8,
+      "avg_top1_pct": 33.8,
+      "max_sdi": 69.5,
+      "min_sdi": 40.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Elijah Elliott",
+          "times_top2": 9
+        },
+        {
+          "name": "Masiah Gilyard",
+          "times_top2": 6
+        },
+        {
+          "name": "Amadou Wade",
+          "times_top2": 3
+        },
+        {
+          "name": "Killian Martin",
+          "times_top2": 1
+        },
+        {
+          "name": "Malyk Rebetez",
           "times_top2": 1
         }
       ]
@@ -1578,6 +1578,38 @@
       ]
     },
     {
+      "team": "Toulouse",
+      "games_tracked": 12,
+      "avg_sdi": 52.4,
+      "avg_top1_pct": 29.5,
+      "max_sdi": 61.1,
+      "min_sdi": 45.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Laetitia Guapo",
+          "times_top2": 8
+        },
+        {
+          "name": "Dominique Toussaint",
+          "times_top2": 7
+        },
+        {
+          "name": "Taya Reimer",
+          "times_top2": 5
+        },
+        {
+          "name": "Jessica Lindstrom",
+          "times_top2": 2
+        },
+        {
+          "name": "Hortense Limouzin",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Las Vegas Aces",
       "games_tracked": 22,
       "avg_sdi": 52.4,
@@ -1974,70 +2006,6 @@
       ]
     },
     {
-      "team": "Toulouse",
-      "games_tracked": 7,
-      "avg_sdi": 51.8,
-      "avg_top1_pct": 29.2,
-      "max_sdi": 61.1,
-      "min_sdi": 45.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Dominique Toussaint",
-          "times_top2": 4
-        },
-        {
-          "name": "Laetitia Guapo",
-          "times_top2": 4
-        },
-        {
-          "name": "Taya Reimer",
-          "times_top2": 3
-        },
-        {
-          "name": "Hortense Limouzin",
-          "times_top2": 1
-        },
-        {
-          "name": "Manoe Cisse",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Sopron KC",
-      "games_tracked": 10,
-      "avg_sdi": 51.8,
-      "avg_top1_pct": 30.9,
-      "max_sdi": 59.7,
-      "min_sdi": 42.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Taz Sherman",
-          "times_top2": 4
-        },
-        {
-          "name": "Joshua Patton",
-          "times_top2": 4
-        },
-        {
-          "name": "Robert Ford",
-          "times_top2": 3
-        },
-        {
-          "name": "Trey Wertz",
-          "times_top2": 3
-        },
-        {
-          "name": "Daniel Kucsera",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Ehime Orange Vikings",
       "games_tracked": 10,
       "avg_sdi": 51.8,
@@ -2118,34 +2086,6 @@
         {
           "name": "Masahiro OkaBe",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "A++ Massagno",
-      "games_tracked": 6,
-      "avg_sdi": 51.5,
-      "avg_top1_pct": 30.0,
-      "max_sdi": 78.9,
-      "min_sdi": 37.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Zarique Nutter",
-          "times_top2": 6
-        },
-        {
-          "name": "Corey Tripp",
-          "times_top2": 4
-        },
-        {
-          "name": "Andrea Broggi",
-          "times_top2": 1
-        },
-        {
-          "name": "Dusan Mladjan",
-          "times_top2": 1
         }
       ]
     },
@@ -2242,6 +2182,38 @@
       ]
     },
     {
+      "team": "Weegree AZS Politechnika Opolska",
+      "games_tracked": 13,
+      "avg_sdi": 51.4,
+      "avg_top1_pct": 30.3,
+      "max_sdi": 67.9,
+      "min_sdi": 32.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Djorkaeff Campbell",
+          "times_top2": 9
+        },
+        {
+          "name": "Lukasz Kupczynski",
+          "times_top2": 5
+        },
+        {
+          "name": "Piotr Niedzwiedzki",
+          "times_top2": 3
+        },
+        {
+          "name": "Dominik Rutkowski",
+          "times_top2": 2
+        },
+        {
+          "name": "Tomasz Krzyminski",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Townsville W",
       "games_tracked": 12,
       "avg_sdi": 51.4,
@@ -2269,38 +2241,6 @@
         },
         {
           "name": "Bree Stephens",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Union Neuchatel Basket",
-      "games_tracked": 8,
-      "avg_sdi": 51.3,
-      "avg_top1_pct": 33.3,
-      "max_sdi": 70.6,
-      "min_sdi": 41.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Zion Russell",
-          "times_top2": 5
-        },
-        {
-          "name": "Silmy Joao Caputo",
-          "times_top2": 3
-        },
-        {
-          "name": "Nikola Damjanovic",
-          "times_top2": 3
-        },
-        {
-          "name": "Drew Ardouin",
-          "times_top2": 2
-        },
-        {
-          "name": "Justin Hill",
           "times_top2": 1
         }
       ]
@@ -2958,34 +2898,34 @@
       ]
     },
     {
-      "team": "Starwings Basket",
-      "games_tracked": 9,
+      "team": "Union Neuchatel Basket",
+      "games_tracked": 12,
       "avg_sdi": 50.5,
-      "avg_top1_pct": 29.0,
-      "max_sdi": 68.7,
-      "min_sdi": 43.2,
+      "avg_top1_pct": 32.5,
+      "max_sdi": 70.6,
+      "min_sdi": 41.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Jaylen McManus",
-          "times_top2": 6
+          "name": "Zion Russell",
+          "times_top2": 8
         },
         {
-          "name": "Marshall Walters",
-          "times_top2": 3
+          "name": "Nikola Damjanovic",
+          "times_top2": 5
         },
         {
-          "name": "Cameron Clark",
-          "times_top2": 3
+          "name": "Silmy Joao Caputo",
+          "times_top2": 4
         },
         {
-          "name": "Marko Aleksic",
-          "times_top2": 3
+          "name": "Drew Ardouin",
+          "times_top2": 4
         },
         {
-          "name": "Zachary Biku",
-          "times_top2": 2
+          "name": "Justin Hill",
+          "times_top2": 1
         }
       ]
     },
@@ -3278,38 +3218,6 @@
       ]
     },
     {
-      "team": "SZTE-Szedeák",
-      "games_tracked": 11,
-      "avg_sdi": 50.3,
-      "avg_top1_pct": 28.7,
-      "max_sdi": 69.4,
-      "min_sdi": 38.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Djordje Drenovac",
-          "times_top2": 9
-        },
-        {
-          "name": "Keegan Records",
-          "times_top2": 4
-        },
-        {
-          "name": "Jarvis Mitchell Moss Jr",
-          "times_top2": 3
-        },
-        {
-          "name": "Milos Glisic",
-          "times_top2": 3
-        },
-        {
-          "name": "Ethan Wright",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Saga Ballooners",
       "games_tracked": 23,
       "avg_sdi": 50.2,
@@ -3499,9 +3407,9 @@
     },
     {
       "team": "GC Zurich Wildcats",
-      "games_tracked": 6,
+      "games_tracked": 10,
       "avg_sdi": 50.1,
-      "avg_top1_pct": 29.9,
+      "avg_top1_pct": 29.6,
       "max_sdi": 56.2,
       "min_sdi": 44.2,
       "risk": "AMBER",
@@ -3509,11 +3417,11 @@
       "top_players": [
         {
           "name": "Dylan Schommer",
-          "times_top2": 4
+          "times_top2": 6
         },
         {
           "name": "Nate West",
-          "times_top2": 3
+          "times_top2": 6
         },
         {
           "name": "Malik Bajo",
@@ -3521,11 +3429,11 @@
         },
         {
           "name": "Kenan Bonga",
-          "times_top2": 1
+          "times_top2": 2
         },
         {
           "name": "Mihajlo Mitrovic",
-          "times_top2": 1
+          "times_top2": 2
         }
       ]
     },
@@ -3622,6 +3530,70 @@
         {
           "name": "Isabelle Harrison",
           "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Sopron KC",
+      "games_tracked": 14,
+      "avg_sdi": 49.9,
+      "avg_top1_pct": 29.2,
+      "max_sdi": 59.7,
+      "min_sdi": 39.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Robert Ford",
+          "times_top2": 6
+        },
+        {
+          "name": "Trey Wertz",
+          "times_top2": 6
+        },
+        {
+          "name": "Taz Sherman",
+          "times_top2": 4
+        },
+        {
+          "name": "Joshua Patton",
+          "times_top2": 4
+        },
+        {
+          "name": "Daniel Kucsera",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Starwings Basket",
+      "games_tracked": 12,
+      "avg_sdi": 49.9,
+      "avg_top1_pct": 29.2,
+      "max_sdi": 68.7,
+      "min_sdi": 43.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jaylen McManus",
+          "times_top2": 7
+        },
+        {
+          "name": "Cameron Clark",
+          "times_top2": 5
+        },
+        {
+          "name": "Marko Aleksic",
+          "times_top2": 4
+        },
+        {
+          "name": "Zachary Biku",
+          "times_top2": 4
+        },
+        {
+          "name": "Marshall Walters",
+          "times_top2": 3
         }
       ]
     },
@@ -3818,30 +3790,6 @@
       ]
     },
     {
-      "team": "Bordo Sportif Balikesir",
-      "games_tracked": 4,
-      "avg_sdi": 49.7,
-      "avg_top1_pct": 30.8,
-      "max_sdi": 53.9,
-      "min_sdi": 45.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Quentin Peterson",
-          "times_top2": 4
-        },
-        {
-          "name": "Zach Hankins",
-          "times_top2": 3
-        },
-        {
-          "name": "Edon Maxhuni",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Shiga Lakes",
       "games_tracked": 22,
       "avg_sdi": 49.7,
@@ -3870,6 +3818,38 @@
         {
           "name": "Daichi Nomoto",
           "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "SZTE-Szedeák",
+      "games_tracked": 16,
+      "avg_sdi": 49.7,
+      "avg_top1_pct": 28.4,
+      "max_sdi": 69.4,
+      "min_sdi": 38.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Djordje Drenovac",
+          "times_top2": 13
+        },
+        {
+          "name": "Milos Glisic",
+          "times_top2": 6
+        },
+        {
+          "name": "Keegan Records",
+          "times_top2": 4
+        },
+        {
+          "name": "Jarvis Mitchell Moss Jr",
+          "times_top2": 3
+        },
+        {
+          "name": "Ethan Wright",
+          "times_top2": 3
         }
       ]
     },
@@ -3930,38 +3910,6 @@
         {
           "name": "Dino Lamešić",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Landerneau",
-      "games_tracked": 8,
-      "avg_sdi": 49.6,
-      "avg_top1_pct": 28.7,
-      "max_sdi": 66.2,
-      "min_sdi": 36.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Harmoni Turner",
-          "times_top2": 6
-        },
-        {
-          "name": "Masseny Kaba",
-          "times_top2": 3
-        },
-        {
-          "name": "Caroline Heriaud",
-          "times_top2": 2
-        },
-        {
-          "name": "Dara Mabrey",
-          "times_top2": 2
-        },
-        {
-          "name": "Elizabeth Balogun",
-          "times_top2": 1
         }
       ]
     },
@@ -4310,6 +4258,38 @@
       ]
     },
     {
+      "team": "Ose Lions",
+      "games_tracked": 15,
+      "avg_sdi": 49.3,
+      "avg_top1_pct": 27.5,
+      "max_sdi": 61.0,
+      "min_sdi": 42.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Rayshon Harrison",
+          "times_top2": 8
+        },
+        {
+          "name": "Dusan Stojicic",
+          "times_top2": 6
+        },
+        {
+          "name": "Reaudale Shamaar Williams",
+          "times_top2": 4
+        },
+        {
+          "name": "Kedrian Johnson",
+          "times_top2": 4
+        },
+        {
+          "name": "Ismet Sejfic",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Cairns W",
       "games_tracked": 12,
       "avg_sdi": 49.3,
@@ -4438,33 +4418,61 @@
       ]
     },
     {
-      "team": "Weegree AZS Politechnika Opolska",
-      "games_tracked": 9,
-      "avg_sdi": 49.1,
-      "avg_top1_pct": 28.9,
-      "max_sdi": 67.9,
-      "min_sdi": 32.9,
+      "team": "A++ Massagno",
+      "games_tracked": 10,
+      "avg_sdi": 49.2,
+      "avg_top1_pct": 28.3,
+      "max_sdi": 78.9,
+      "min_sdi": 37.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Djorkaeff Campbell",
-          "times_top2": 5
+          "name": "Zarique Nutter",
+          "times_top2": 10
         },
         {
-          "name": "Piotr Niedzwiedzki",
-          "times_top2": 3
+          "name": "Corey Tripp",
+          "times_top2": 7
         },
         {
-          "name": "Lukasz Kupczynski",
-          "times_top2": 3
-        },
-        {
-          "name": "Dominik Rutkowski",
+          "name": "Dusan Mladjan",
           "times_top2": 2
         },
         {
-          "name": "Jordan Forbes",
+          "name": "Andrea Broggi",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Landerneau",
+      "games_tracked": 13,
+      "avg_sdi": 49.1,
+      "avg_top1_pct": 29.2,
+      "max_sdi": 66.2,
+      "min_sdi": 36.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Harmoni Turner",
+          "times_top2": 11
+        },
+        {
+          "name": "Masseny Kaba",
+          "times_top2": 5
+        },
+        {
+          "name": "Dara Mabrey",
+          "times_top2": 4
+        },
+        {
+          "name": "Caroline Heriaud",
+          "times_top2": 3
+        },
+        {
+          "name": "Elizabeth Balogun",
           "times_top2": 1
         }
       ]
@@ -4654,38 +4662,6 @@
       ]
     },
     {
-      "team": "BBC Monthey-Chablais",
-      "games_tracked": 7,
-      "avg_sdi": 49.0,
-      "avg_top1_pct": 29.1,
-      "max_sdi": 64.2,
-      "min_sdi": 37.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Enzo Oudart",
-          "times_top2": 5
-        },
-        {
-          "name": "Liban Aadan",
-          "times_top2": 4
-        },
-        {
-          "name": "Kendrick Tchoua",
-          "times_top2": 1
-        },
-        {
-          "name": "Zachary Biku",
-          "times_top2": 1
-        },
-        {
-          "name": "Abraham Johnson",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Salon Vilpas",
       "games_tracked": 12,
       "avg_sdi": 49.0,
@@ -4802,6 +4778,66 @@
         {
           "name": "Wilson Amos",
           "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Cayirova Belediye",
+      "games_tracked": 9,
+      "avg_sdi": 48.9,
+      "avg_top1_pct": 27.7,
+      "max_sdi": 56.6,
+      "min_sdi": 43.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jordon Crawford",
+          "times_top2": 8
+        },
+        {
+          "name": "Fabian White",
+          "times_top2": 4
+        },
+        {
+          "name": "Roberto Gallinat",
+          "times_top2": 3
+        },
+        {
+          "name": "Rasheed Sulaimon",
+          "times_top2": 2
+        },
+        {
+          "name": "Nysier Brooks",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Bordo Sportif Balikesir",
+      "games_tracked": 8,
+      "avg_sdi": 48.9,
+      "avg_top1_pct": 29.6,
+      "max_sdi": 53.9,
+      "min_sdi": 45.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Quentin Peterson",
+          "times_top2": 8
+        },
+        {
+          "name": "Zach Hankins",
+          "times_top2": 5
+        },
+        {
+          "name": "Edon Maxhuni",
+          "times_top2": 2
+        },
+        {
+          "name": "Damien Jefferson",
+          "times_top2": 1
         }
       ]
     },
@@ -4930,38 +4966,6 @@
         {
           "name": "Matteo Bogliardi",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Cayirova Belediye",
-      "games_tracked": 5,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 27.4,
-      "max_sdi": 56.6,
-      "min_sdi": 43.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jordon Crawford",
-          "times_top2": 4
-        },
-        {
-          "name": "Fabian White",
-          "times_top2": 2
-        },
-        {
-          "name": "Roberto Gallinat",
-          "times_top2": 2
-        },
-        {
-          "name": "Rasheed Sulaimon",
-          "times_top2": 1
-        },
-        {
-          "name": "Nysier Brooks",
-          "times_top2": 1
         }
       ]
     },
@@ -5282,6 +5286,38 @@
       ]
     },
     {
+      "team": "BBC Monthey-Chablais",
+      "games_tracked": 11,
+      "avg_sdi": 48.4,
+      "avg_top1_pct": 28.3,
+      "max_sdi": 64.2,
+      "min_sdi": 37.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Enzo Oudart",
+          "times_top2": 9
+        },
+        {
+          "name": "Liban Aadan",
+          "times_top2": 7
+        },
+        {
+          "name": "Dylan Gomwalk",
+          "times_top2": 2
+        },
+        {
+          "name": "Kendrick Tchoua",
+          "times_top2": 1
+        },
+        {
+          "name": "Zachary Biku",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Gold Coast",
       "games_tracked": 12,
       "avg_sdi": 48.4,
@@ -5434,38 +5470,6 @@
         {
           "name": "Mattias Palinckx",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Ose Lions",
-      "games_tracked": 10,
-      "avg_sdi": 48.3,
-      "avg_top1_pct": 27.1,
-      "max_sdi": 57.6,
-      "min_sdi": 42.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Reaudale Shamaar Williams",
-          "times_top2": 4
-        },
-        {
-          "name": "Dusan Stojicic",
-          "times_top2": 3
-        },
-        {
-          "name": "Rayshon Harrison",
-          "times_top2": 3
-        },
-        {
-          "name": "Ismet Sejfic",
-          "times_top2": 2
-        },
-        {
-          "name": "Eman Sertovic",
-          "times_top2": 2
         }
       ]
     },
@@ -5778,38 +5782,6 @@
         {
           "name": "Gabe Brown",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "La Tronche Meylan",
-      "games_tracked": 5,
-      "avg_sdi": 48.1,
-      "avg_top1_pct": 26.0,
-      "max_sdi": 56.7,
-      "min_sdi": 41.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Ashunae Durant",
-          "times_top2": 3
-        },
-        {
-          "name": "Elena Zemoura",
-          "times_top2": 2
-        },
-        {
-          "name": "Morgane Armant",
-          "times_top2": 2
-        },
-        {
-          "name": "Nathalie Desset",
-          "times_top2": 1
-        },
-        {
-          "name": "Jasmine Thomas",
-          "times_top2": 1
         }
       ]
     },
@@ -6686,38 +6658,6 @@
       ]
     },
     {
-      "team": "Yukatel Denizli Basket",
-      "games_tracked": 8,
-      "avg_sdi": 47.5,
-      "avg_top1_pct": 25.6,
-      "max_sdi": 57.9,
-      "min_sdi": 32.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Victor Bailey",
-          "times_top2": 6
-        },
-        {
-          "name": "John Meeks",
-          "times_top2": 4
-        },
-        {
-          "name": "Billy Ivey",
-          "times_top2": 2
-        },
-        {
-          "name": "Jhonathan Dunn",
-          "times_top2": 2
-        },
-        {
-          "name": "Marko Pecarski",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Donar Groningen",
       "games_tracked": 24,
       "avg_sdi": 47.5,
@@ -6777,6 +6717,38 @@
         },
         {
           "name": "Javante McCoy",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Lugano Tigers",
+      "games_tracked": 12,
+      "avg_sdi": 47.5,
+      "avg_top1_pct": 25.9,
+      "max_sdi": 53.8,
+      "min_sdi": 40.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Nathan Claerbaut",
+          "times_top2": 10
+        },
+        {
+          "name": "Andre Donnelly",
+          "times_top2": 7
+        },
+        {
+          "name": "Jeameril Wilson",
+          "times_top2": 4
+        },
+        {
+          "name": "Oliver Sassella",
+          "times_top2": 2
+        },
+        {
+          "name": "Andrea Broggi",
           "times_top2": 1
         }
       ]
@@ -6866,6 +6838,70 @@
       ]
     },
     {
+      "team": "Yukatel Denizli Basket",
+      "games_tracked": 12,
+      "avg_sdi": 47.4,
+      "avg_top1_pct": 25.2,
+      "max_sdi": 57.9,
+      "min_sdi": 32.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Victor Bailey",
+          "times_top2": 8
+        },
+        {
+          "name": "John Meeks",
+          "times_top2": 7
+        },
+        {
+          "name": "Billy Ivey",
+          "times_top2": 4
+        },
+        {
+          "name": "Jhonathan Dunn",
+          "times_top2": 3
+        },
+        {
+          "name": "Marko Pecarski",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Lattes Montpellier",
+      "games_tracked": 12,
+      "avg_sdi": 47.4,
+      "avg_top1_pct": 25.9,
+      "max_sdi": 62.7,
+      "min_sdi": 30.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Stella Johnson",
+          "times_top2": 6
+        },
+        {
+          "name": "Sarah Cisse",
+          "times_top2": 4
+        },
+        {
+          "name": "Garance Rabot",
+          "times_top2": 4
+        },
+        {
+          "name": "Laura Zolper",
+          "times_top2": 4
+        },
+        {
+          "name": "Oumou Diarisso",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Chiba Jets",
       "games_tracked": 22,
       "avg_sdi": 47.4,
@@ -6894,6 +6930,38 @@
         {
           "name": "Yuki Togashi",
           "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Pully Lausanne Foxes",
+      "games_tracked": 11,
+      "avg_sdi": 47.4,
+      "avg_top1_pct": 26.6,
+      "max_sdi": 61.9,
+      "min_sdi": 28.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Brendan Favre",
+          "times_top2": 6
+        },
+        {
+          "name": "Kendrick Tchoua",
+          "times_top2": 4
+        },
+        {
+          "name": "Kylen Milton",
+          "times_top2": 2
+        },
+        {
+          "name": "Jackson Price",
+          "times_top2": 2
+        },
+        {
+          "name": "Antonio Ballard",
+          "times_top2": 2
         }
       ]
     },
@@ -7009,38 +7077,6 @@
         },
         {
           "name": "Uros Banjac",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Budapesti Honved",
-      "games_tracked": 11,
-      "avg_sdi": 47.3,
-      "avg_top1_pct": 28.4,
-      "max_sdi": 54.4,
-      "min_sdi": 33.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Dorde Dimitrijevic",
-          "times_top2": 5
-        },
-        {
-          "name": "Brandon Rush",
-          "times_top2": 4
-        },
-        {
-          "name": "Jarvis Mitchell Moss Jr",
-          "times_top2": 4
-        },
-        {
-          "name": "Vincent Valerio-Bodon",
-          "times_top2": 3
-        },
-        {
-          "name": "Zachary Simmons",
           "times_top2": 1
         }
       ]
@@ -7334,6 +7370,38 @@
       ]
     },
     {
+      "team": "Miasto Szkla Krosno",
+      "games_tracked": 25,
+      "avg_sdi": 47.1,
+      "avg_top1_pct": 27.3,
+      "max_sdi": 58.6,
+      "min_sdi": 37.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jairus Hamilton",
+          "times_top2": 12
+        },
+        {
+          "name": "Ben Shungu",
+          "times_top2": 9
+        },
+        {
+          "name": "Jaylen Murray",
+          "times_top2": 7
+        },
+        {
+          "name": "Michal Jankowski",
+          "times_top2": 6
+        },
+        {
+          "name": "Charles Jackson",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "Victoria Libertas Pesaro",
       "games_tracked": 16,
       "avg_sdi": 47.1,
@@ -7394,38 +7462,6 @@
         {
           "name": "Tsubasa Kurihara",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Lugano Tigers",
-      "games_tracked": 8,
-      "avg_sdi": 47.1,
-      "avg_top1_pct": 25.9,
-      "max_sdi": 53.8,
-      "min_sdi": 40.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Nathan Claerbaut",
-          "times_top2": 6
-        },
-        {
-          "name": "Andre Donnelly",
-          "times_top2": 5
-        },
-        {
-          "name": "Oliver Sassella",
-          "times_top2": 2
-        },
-        {
-          "name": "Jeameril Wilson",
-          "times_top2": 2
-        },
-        {
-          "name": "Andrea Broggi",
-          "times_top2": 1
         }
       ]
     },
@@ -7582,38 +7618,6 @@
       ]
     },
     {
-      "team": "Miasto Szkla Krosno",
-      "games_tracked": 21,
-      "avg_sdi": 47.0,
-      "avg_top1_pct": 27.3,
-      "max_sdi": 58.6,
-      "min_sdi": 37.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jairus Hamilton",
-          "times_top2": 12
-        },
-        {
-          "name": "Ben Shungu",
-          "times_top2": 9
-        },
-        {
-          "name": "Charles Jackson",
-          "times_top2": 4
-        },
-        {
-          "name": "Jaylen Murray",
-          "times_top2": 4
-        },
-        {
-          "name": "Ivica Radic",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "Vitoria SC",
       "games_tracked": 11,
       "avg_sdi": 47.0,
@@ -7641,38 +7645,6 @@
         },
         {
           "name": "Tedoyame Simão",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Resovia",
-      "games_tracked": 8,
-      "avg_sdi": 47.0,
-      "avg_top1_pct": 27.4,
-      "max_sdi": 53.2,
-      "min_sdi": 40.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Santiago Vaulet",
-          "times_top2": 3
-        },
-        {
-          "name": "Cli'Ron Hornbeak",
-          "times_top2": 3
-        },
-        {
-          "name": "Oleksandr Antypov",
-          "times_top2": 3
-        },
-        {
-          "name": "Jan Gorenczyk",
-          "times_top2": 2
-        },
-        {
-          "name": "Mateusz Bartosz",
           "times_top2": 2
         }
       ]
@@ -7774,38 +7746,6 @@
       ]
     },
     {
-      "team": "Pully Lausanne Foxes",
-      "games_tracked": 8,
-      "avg_sdi": 47.0,
-      "avg_top1_pct": 26.8,
-      "max_sdi": 61.9,
-      "min_sdi": 28.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Brendan Favre",
-          "times_top2": 4
-        },
-        {
-          "name": "Kylen Milton",
-          "times_top2": 2
-        },
-        {
-          "name": "Jackson Price",
-          "times_top2": 2
-        },
-        {
-          "name": "Dequan Morris",
-          "times_top2": 2
-        },
-        {
-          "name": "Kendrick Tchoua",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Mackay W",
       "games_tracked": 12,
       "avg_sdi": 47.0,
@@ -7866,6 +7806,38 @@
         {
           "name": "Alvise Sarto",
           "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Resovia",
+      "games_tracked": 12,
+      "avg_sdi": 46.9,
+      "avg_top1_pct": 27.2,
+      "max_sdi": 59.5,
+      "min_sdi": 40.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Oleksandr Antypov",
+          "times_top2": 5
+        },
+        {
+          "name": "Mateusz Bartosz",
+          "times_top2": 4
+        },
+        {
+          "name": "Santiago Vaulet",
+          "times_top2": 3
+        },
+        {
+          "name": "Cli'Ron Hornbeak",
+          "times_top2": 3
+        },
+        {
+          "name": "Jan Gorenczyk",
+          "times_top2": 3
         }
       ]
     },
@@ -7966,34 +7938,34 @@
       ]
     },
     {
-      "team": "KKS Polonia Warszawa",
-      "games_tracked": 8,
+      "team": "DEAC",
+      "games_tracked": 16,
       "avg_sdi": 46.8,
-      "avg_top1_pct": 27.8,
-      "max_sdi": 54.5,
-      "min_sdi": 39.0,
+      "avg_top1_pct": 26.0,
+      "max_sdi": 56.6,
+      "min_sdi": 30.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Jacoby Ross",
+          "name": "Balint Mocsan",
+          "times_top2": 8
+        },
+        {
+          "name": "Zachary Simmons",
+          "times_top2": 7
+        },
+        {
+          "name": "Dimitrius Underwood",
           "times_top2": 4
         },
         {
-          "name": "Gal Gelinski",
+          "name": "Jorden Duffy",
+          "times_top2": 4
+        },
+        {
+          "name": "Marcus Tyus",
           "times_top2": 3
-        },
-        {
-          "name": "Jalen Sullinger",
-          "times_top2": 2
-        },
-        {
-          "name": "Shiloh Robinson",
-          "times_top2": 2
-        },
-        {
-          "name": "Jan Malesa",
-          "times_top2": 1
         }
       ]
     },
@@ -8222,38 +8194,6 @@
       ]
     },
     {
-      "team": "Angers",
-      "games_tracked": 6,
-      "avg_sdi": 46.6,
-      "avg_top1_pct": 28.4,
-      "max_sdi": 57.1,
-      "min_sdi": 44.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marta Hermida",
-          "times_top2": 4
-        },
-        {
-          "name": "Mariana Muadi Bulabula",
-          "times_top2": 2
-        },
-        {
-          "name": "Dayshanette Harris",
-          "times_top2": 2
-        },
-        {
-          "name": "Madison Avery Williams",
-          "times_top2": 1
-        },
-        {
-          "name": "Rosanne Le Seyec",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Altiri Chiba",
       "games_tracked": 24,
       "avg_sdi": 46.6,
@@ -8474,38 +8414,6 @@
       ]
     },
     {
-      "team": "Biotekno Korfez Basket",
-      "games_tracked": 8,
-      "avg_sdi": 46.5,
-      "avg_top1_pct": 27.2,
-      "max_sdi": 55.7,
-      "min_sdi": 39.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jonathan Davis",
-          "times_top2": 5
-        },
-        {
-          "name": "Oscar Cluff",
-          "times_top2": 3
-        },
-        {
-          "name": "Filip Barna",
-          "times_top2": 2
-        },
-        {
-          "name": "Matt Mitchell",
-          "times_top2": 2
-        },
-        {
-          "name": "Boo Buie",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Osaka Evessa",
       "games_tracked": 21,
       "avg_sdi": 46.5,
@@ -8534,6 +8442,70 @@
         {
           "name": "James Palmer",
           "times_top2": 5
+        }
+      ]
+    },
+    {
+      "team": "PGE Spójnia Stargard",
+      "games_tracked": 13,
+      "avg_sdi": 46.5,
+      "avg_top1_pct": 28.4,
+      "max_sdi": 57.1,
+      "min_sdi": 38.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Simeon Cottle",
+          "times_top2": 8
+        },
+        {
+          "name": "R.J. Glasper",
+          "times_top2": 6
+        },
+        {
+          "name": "Wojciech Czerlonko",
+          "times_top2": 4
+        },
+        {
+          "name": "Jalen Ray",
+          "times_top2": 2
+        },
+        {
+          "name": "Jakub Karolak",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Egis Kormend",
+      "games_tracked": 16,
+      "avg_sdi": 46.5,
+      "avg_top1_pct": 26.4,
+      "max_sdi": 54.3,
+      "min_sdi": 37.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Krisztofer Durazi",
+          "times_top2": 8
+        },
+        {
+          "name": "Marques Warrick",
+          "times_top2": 7
+        },
+        {
+          "name": "Uchenna Iroegbu",
+          "times_top2": 5
+        },
+        {
+          "name": "Jalen Moore",
+          "times_top2": 4
+        },
+        {
+          "name": "Kyle Foster",
+          "times_top2": 4
         }
       ]
     },
@@ -8758,38 +8730,6 @@
       ]
     },
     {
-      "team": "Alba Fehervar",
-      "games_tracked": 11,
-      "avg_sdi": 46.4,
-      "avg_top1_pct": 25.2,
-      "max_sdi": 57.1,
-      "min_sdi": 38.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marcell Pongo",
-          "times_top2": 6
-        },
-        {
-          "name": "Bojan Subotic",
-          "times_top2": 4
-        },
-        {
-          "name": "David Vojvoda",
-          "times_top2": 3
-        },
-        {
-          "name": "Strahinja Jovanovic",
-          "times_top2": 3
-        },
-        {
-          "name": "Isaiah Bigelow",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Neftchi IK",
       "games_tracked": 4,
       "avg_sdi": 46.4,
@@ -8982,6 +8922,38 @@
       ]
     },
     {
+      "team": "Budapesti Honved",
+      "games_tracked": 16,
+      "avg_sdi": 46.3,
+      "avg_top1_pct": 27.8,
+      "max_sdi": 54.4,
+      "min_sdi": 33.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jarvis Moss",
+          "times_top2": 6
+        },
+        {
+          "name": "Dorde Dimitrijevic",
+          "times_top2": 5
+        },
+        {
+          "name": "Vincent Valerio-Bodon",
+          "times_top2": 5
+        },
+        {
+          "name": "Brandon Rush",
+          "times_top2": 4
+        },
+        {
+          "name": "Jarvis Mitchell Moss Jr",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "Centrum Tigers",
       "games_tracked": 8,
       "avg_sdi": 46.3,
@@ -9010,38 +8982,6 @@
         {
           "name": "Morten Holsaeter",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "C.B. Zaragoza",
-      "games_tracked": 6,
-      "avg_sdi": 46.3,
-      "avg_top1_pct": 30.4,
-      "max_sdi": 56.8,
-      "min_sdi": 40.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Johnatan Thomas Zhao Olmos",
-          "times_top2": 4
-        },
-        {
-          "name": "Daniel Munoz Samatan",
-          "times_top2": 2
-        },
-        {
-          "name": "Adria Aragones",
-          "times_top2": 1
-        },
-        {
-          "name": "Daniel Arjol Lopez",
-          "times_top2": 1
-        },
-        {
-          "name": "Andrew Wyatt Young",
-          "times_top2": 1
         }
       ]
     },
@@ -9491,14 +9431,22 @@
     },
     {
       "team": "NKA Pecs",
-      "games_tracked": 11,
+      "games_tracked": 16,
       "avg_sdi": 46.1,
-      "avg_top1_pct": 26.2,
+      "avg_top1_pct": 26.0,
       "max_sdi": 54.2,
       "min_sdi": 39.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
+        {
+          "name": "James Moors",
+          "times_top2": 6
+        },
+        {
+          "name": "Jamarques Lawrence",
+          "times_top2": 6
+        },
         {
           "name": "Ibrahim Durmo",
           "times_top2": 5
@@ -9508,16 +9456,8 @@
           "times_top2": 3
         },
         {
-          "name": "James Moors",
+          "name": "Kieffer Punter",
           "times_top2": 3
-        },
-        {
-          "name": "Jamarques Lawrence",
-          "times_top2": 3
-        },
-        {
-          "name": "Gergo Meleg",
-          "times_top2": 2
         }
       ]
     },
@@ -9710,6 +9650,70 @@
         {
           "name": "Wayne Stewart",
           "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Chartres",
+      "games_tracked": 8,
+      "avg_sdi": 46.0,
+      "avg_top1_pct": 25.7,
+      "max_sdi": 50.9,
+      "min_sdi": 35.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Assitan Kone",
+          "times_top2": 7
+        },
+        {
+          "name": "Javyn Nicholson",
+          "times_top2": 5
+        },
+        {
+          "name": "Nicole Enabosi",
+          "times_top2": 1
+        },
+        {
+          "name": "Jasmine Bailey",
+          "times_top2": 1
+        },
+        {
+          "name": "Coralie Chabrier",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "C.B. Zaragoza",
+      "games_tracked": 7,
+      "avg_sdi": 46.0,
+      "avg_top1_pct": 29.7,
+      "max_sdi": 56.8,
+      "min_sdi": 40.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Johnatan Thomas Zhao Olmos",
+          "times_top2": 4
+        },
+        {
+          "name": "Daniel Munoz Samatan",
+          "times_top2": 2
+        },
+        {
+          "name": "Federico Copes",
+          "times_top2": 2
+        },
+        {
+          "name": "Jay Medor",
+          "times_top2": 2
+        },
+        {
+          "name": "Adria Aragones",
+          "times_top2": 1
         }
       ]
     },
@@ -9970,66 +9974,66 @@
       ]
     },
     {
-      "team": "Solvera Sokół Łańcut",
-      "games_tracked": 9,
+      "team": "KKS Polonia Warszawa",
+      "games_tracked": 12,
       "avg_sdi": 45.9,
-      "avg_top1_pct": 26.1,
-      "max_sdi": 58.8,
-      "min_sdi": 36.9,
+      "avg_top1_pct": 27.0,
+      "max_sdi": 54.5,
+      "min_sdi": 39.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Artur Labinowicz",
-          "times_top2": 3
+          "name": "Jacoby Ross",
+          "times_top2": 6
         },
         {
-          "name": "Milan Milovanovic",
-          "times_top2": 3
+          "name": "Gal Gelinski",
+          "times_top2": 6
         },
         {
-          "name": "Jermaine Couisnard",
-          "times_top2": 3
+          "name": "Jalen Sullinger",
+          "times_top2": 2
         },
         {
-          "name": "Piotr Wieloch",
-          "times_top2": 1
+          "name": "Shiloh Robinson",
+          "times_top2": 2
         },
         {
-          "name": "Mateusz Kaszowski",
-          "times_top2": 1
+          "name": "Maksymilian Duda",
+          "times_top2": 2
         }
       ]
     },
     {
-      "team": "Egis Kormend",
-      "games_tracked": 11,
+      "team": "Polonia Bytom",
+      "games_tracked": 9,
       "avg_sdi": 45.9,
-      "avg_top1_pct": 26.3,
-      "max_sdi": 54.3,
-      "min_sdi": 37.1,
+      "avg_top1_pct": 29.5,
+      "max_sdi": 60.8,
+      "min_sdi": 39.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Krisztofer Durazi",
-          "times_top2": 5
+          "name": "Devin Hutchinson",
+          "times_top2": 6
         },
         {
-          "name": "Jalen Moore",
-          "times_top2": 4
-        },
-        {
-          "name": "Kyle Foster",
-          "times_top2": 4
-        },
-        {
-          "name": "Uchenna Iroegbu",
+          "name": "Kacper Indyk",
           "times_top2": 3
         },
         {
-          "name": "Marques Warrick",
+          "name": "Sean Biernacki",
           "times_top2": 3
+        },
+        {
+          "name": "Jaroslaw Gizynski",
+          "times_top2": 3
+        },
+        {
+          "name": "Michał Medes",
+          "times_top2": 2
         }
       ]
     },
@@ -10130,6 +10134,70 @@
       ]
     },
     {
+      "team": "Angers",
+      "games_tracked": 10,
+      "avg_sdi": 45.8,
+      "avg_top1_pct": 27.4,
+      "max_sdi": 57.1,
+      "min_sdi": 44.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Marta Hermida",
+          "times_top2": 7
+        },
+        {
+          "name": "Mariana Muadi Bulabula",
+          "times_top2": 4
+        },
+        {
+          "name": "Dayshanette Harris",
+          "times_top2": 4
+        },
+        {
+          "name": "Eve Mahoutou",
+          "times_top2": 2
+        },
+        {
+          "name": "Madison Avery Williams",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "La Tronche Meylan",
+      "games_tracked": 10,
+      "avg_sdi": 45.8,
+      "avg_top1_pct": 24.9,
+      "max_sdi": 56.7,
+      "min_sdi": 33.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Ashunae Durant",
+          "times_top2": 5
+        },
+        {
+          "name": "Elena Zemoura",
+          "times_top2": 5
+        },
+        {
+          "name": "Morgane Armant",
+          "times_top2": 4
+        },
+        {
+          "name": "Jasmine Thomas",
+          "times_top2": 3
+        },
+        {
+          "name": "Tilise Boisseron",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "CAB Madeira",
       "games_tracked": 7,
       "avg_sdi": 45.8,
@@ -10190,38 +10258,6 @@
         {
           "name": "Trey Kell",
           "times_top2": 6
-        }
-      ]
-    },
-    {
-      "team": "PGE Spójnia Stargard",
-      "games_tracked": 9,
-      "avg_sdi": 45.8,
-      "avg_top1_pct": 27.7,
-      "max_sdi": 57.1,
-      "min_sdi": 38.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "R.J. Glasper",
-          "times_top2": 4
-        },
-        {
-          "name": "Simeon Cottle",
-          "times_top2": 4
-        },
-        {
-          "name": "Wojciech Czerlonko",
-          "times_top2": 3
-        },
-        {
-          "name": "Jalen Ray",
-          "times_top2": 2
-        },
-        {
-          "name": "Pawel Kikowski",
-          "times_top2": 1
         }
       ]
     },
@@ -10450,33 +10486,33 @@
       ]
     },
     {
-      "team": "Lions de Genève",
-      "games_tracked": 11,
-      "avg_sdi": 45.7,
-      "avg_top1_pct": 24.8,
-      "max_sdi": 63.8,
-      "min_sdi": 30.8,
+      "team": "KTE Duna Aszfalt",
+      "games_tracked": 16,
+      "avg_sdi": 45.6,
+      "avg_top1_pct": 25.1,
+      "max_sdi": 63.5,
+      "min_sdi": 35.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Ty Johnson",
+          "name": "Shaun Doss",
+          "times_top2": 10
+        },
+        {
+          "name": "Pavle Djurisic",
+          "times_top2": 8
+        },
+        {
+          "name": "Bojan Tomasevic",
           "times_top2": 6
         },
         {
-          "name": "Corey Floyd",
-          "times_top2": 5
-        },
-        {
-          "name": "Kevin Kalu",
+          "name": "Ilari Seppala",
           "times_top2": 3
         },
         {
-          "name": "Ja'Qualyn Gilbreath",
-          "times_top2": 2
-        },
-        {
-          "name": "Yuri Solca",
+          "name": "Djuro Dautovic",
           "times_top2": 2
         }
       ]
@@ -10698,6 +10734,38 @@
         {
           "name": "Abigail Meyers",
           "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Bursaspor Basketbol",
+      "games_tracked": 24,
+      "avg_sdi": 45.5,
+      "avg_top1_pct": 25.2,
+      "max_sdi": 59.4,
+      "min_sdi": 32.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Brandon Childress",
+          "times_top2": 7
+        },
+        {
+          "name": "Brandon Taylor",
+          "times_top2": 7
+        },
+        {
+          "name": "Javon Freeman-Liberty",
+          "times_top2": 5
+        },
+        {
+          "name": "Marcus Georges-Hunt",
+          "times_top2": 4
+        },
+        {
+          "name": "Mike Smith",
+          "times_top2": 4
         }
       ]
     },
@@ -11046,6 +11114,70 @@
       ]
     },
     {
+      "team": "Bourges",
+      "games_tracked": 11,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 26.4,
+      "max_sdi": 50.0,
+      "min_sdi": 37.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Sydney Wallace",
+          "times_top2": 6
+        },
+        {
+          "name": "Marie Paule Dally",
+          "times_top2": 5
+        },
+        {
+          "name": "Shakayla Thomas",
+          "times_top2": 5
+        },
+        {
+          "name": "Tima Pouye",
+          "times_top2": 1
+        },
+        {
+          "name": "Laetitia Guapo",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Alba Fehervar",
+      "games_tracked": 15,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 24.8,
+      "max_sdi": 57.1,
+      "min_sdi": 35.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Marcell Pongo",
+          "times_top2": 6
+        },
+        {
+          "name": "Bojan Subotic",
+          "times_top2": 6
+        },
+        {
+          "name": "David Vojvoda",
+          "times_top2": 4
+        },
+        {
+          "name": "Joshua Scott",
+          "times_top2": 4
+        },
+        {
+          "name": "Strahinja Jovanovic",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "CSU Sibiu",
       "games_tracked": 4,
       "avg_sdi": 45.4,
@@ -11206,34 +11338,34 @@
       ]
     },
     {
-      "team": "Lattes Montpellier",
-      "games_tracked": 7,
+      "team": "Villeneuve d'Ascq",
+      "games_tracked": 13,
       "avg_sdi": 45.3,
-      "avg_top1_pct": 24.9,
-      "max_sdi": 62.7,
-      "min_sdi": 30.3,
+      "avg_top1_pct": 27.3,
+      "max_sdi": 52.5,
+      "min_sdi": 33.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Stella Johnson",
+          "name": "Anna Ngo Ndjock",
+          "times_top2": 6
+        },
+        {
+          "name": "Steph Kostowicz",
+          "times_top2": 5
+        },
+        {
+          "name": "Maria Jespersen",
+          "times_top2": 4
+        },
+        {
+          "name": "Marie-Michelle Milapie",
+          "times_top2": 4
+        },
+        {
+          "name": "Stella Colas",
           "times_top2": 3
-        },
-        {
-          "name": "Sarah Cisse",
-          "times_top2": 2
-        },
-        {
-          "name": "Garance Rabot",
-          "times_top2": 2
-        },
-        {
-          "name": "Laura Zolper",
-          "times_top2": 2
-        },
-        {
-          "name": "Nell Angloma",
-          "times_top2": 1
         }
       ]
     },
@@ -11330,38 +11462,6 @@
         {
           "name": "Justin Banks",
           "times_top2": 5
-        }
-      ]
-    },
-    {
-      "team": "Hiopos Lleida",
-      "games_tracked": 10,
-      "avg_sdi": 45.3,
-      "avg_top1_pct": 26.3,
-      "max_sdi": 56.9,
-      "min_sdi": 35.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Melvin Ejim",
-          "times_top2": 6
-        },
-        {
-          "name": "James Batemon",
-          "times_top2": 5
-        },
-        {
-          "name": "Oriol Pauli",
-          "times_top2": 3
-        },
-        {
-          "name": "Darius McGhee",
-          "times_top2": 2
-        },
-        {
-          "name": "Zacharie Perrin",
-          "times_top2": 2
         }
       ]
     },
@@ -11490,38 +11590,6 @@
         {
           "name": "Rachel Bell",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Bourges",
-      "games_tracked": 7,
-      "avg_sdi": 45.2,
-      "avg_top1_pct": 26.4,
-      "max_sdi": 50.0,
-      "min_sdi": 37.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marie Paule Dally",
-          "times_top2": 3
-        },
-        {
-          "name": "Shakayla Thomas",
-          "times_top2": 3
-        },
-        {
-          "name": "Sydney Wallace",
-          "times_top2": 3
-        },
-        {
-          "name": "Tima Pouye",
-          "times_top2": 1
-        },
-        {
-          "name": "Laetitia Guapo",
-          "times_top2": 1
         }
       ]
     },
@@ -11746,6 +11814,38 @@
       ]
     },
     {
+      "team": "Scafati Basket",
+      "games_tracked": 8,
+      "avg_sdi": 45.2,
+      "avg_top1_pct": 25.1,
+      "max_sdi": 55.2,
+      "min_sdi": 38.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Ze'rik Onyema",
+          "times_top2": 4
+        },
+        {
+          "name": "Garrett Nevels",
+          "times_top2": 3
+        },
+        {
+          "name": "Charlie Moore",
+          "times_top2": 3
+        },
+        {
+          "name": "Chimezie Offurum",
+          "times_top2": 2
+        },
+        {
+          "name": "Bruno Mascolo",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Sydney Kings",
       "games_tracked": 14,
       "avg_sdi": 45.2,
@@ -11842,33 +11942,33 @@
       ]
     },
     {
-      "team": "DEAC",
-      "games_tracked": 11,
+      "team": "Lions de Genève",
+      "games_tracked": 15,
       "avg_sdi": 45.1,
-      "avg_top1_pct": 25.0,
-      "max_sdi": 56.6,
-      "min_sdi": 30.9,
+      "avg_top1_pct": 24.4,
+      "max_sdi": 63.8,
+      "min_sdi": 30.8,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Balint Mocsan",
+          "name": "Ty Johnson",
+          "times_top2": 8
+        },
+        {
+          "name": "Corey Floyd",
           "times_top2": 6
         },
         {
-          "name": "Marcus Tyus",
+          "name": "Kevin Kalu",
+          "times_top2": 5
+        },
+        {
+          "name": "Yuri Solca",
           "times_top2": 3
         },
         {
-          "name": "Zachary Simmons",
-          "times_top2": 3
-        },
-        {
-          "name": "Bojan Subotic",
-          "times_top2": 2
-        },
-        {
-          "name": "Danilo Ostojic",
+          "name": "Ja'Qualyn Gilbreath",
           "times_top2": 2
         }
       ]
@@ -12089,38 +12189,6 @@
         },
         {
           "name": "Lual-Daniel Rahama",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Bisbal Basquet",
-      "games_tracked": 6,
-      "avg_sdi": 45.0,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 59.7,
-      "min_sdi": 34.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Farouk Adebola Adebayo",
-          "times_top2": 3
-        },
-        {
-          "name": "Mikhail Mikhailov Paltarak",
-          "times_top2": 2
-        },
-        {
-          "name": "Adria Dominguez Espelt",
-          "times_top2": 2
-        },
-        {
-          "name": "Matthew Ragsdale",
-          "times_top2": 2
-        },
-        {
-          "name": "Xavier Torrent",
           "times_top2": 1
         }
       ]
@@ -12566,38 +12634,6 @@
       ]
     },
     {
-      "team": "Chartres",
-      "games_tracked": 5,
-      "avg_sdi": 44.8,
-      "avg_top1_pct": 25.3,
-      "max_sdi": 50.9,
-      "min_sdi": 35.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Assitan Kone",
-          "times_top2": 4
-        },
-        {
-          "name": "Javyn Nicholson",
-          "times_top2": 3
-        },
-        {
-          "name": "Nicole Enabosi",
-          "times_top2": 1
-        },
-        {
-          "name": "Jasmine Bailey",
-          "times_top2": 1
-        },
-        {
-          "name": "Coralie Chabrier",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Spartak Pleven",
       "games_tracked": 20,
       "avg_sdi": 44.8,
@@ -12662,6 +12698,38 @@
       ]
     },
     {
+      "team": "Phoenix Fóti Tigrisek",
+      "games_tracked": 10,
+      "avg_sdi": 44.8,
+      "avg_top1_pct": 28.4,
+      "max_sdi": 52.1,
+      "min_sdi": 38.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Shereef Mitchell",
+          "times_top2": 7
+        },
+        {
+          "name": "James Kinney",
+          "times_top2": 6
+        },
+        {
+          "name": "Boubacar Coulibaly",
+          "times_top2": 4
+        },
+        {
+          "name": "Levente Juhos",
+          "times_top2": 1
+        },
+        {
+          "name": "Andras Dancsecs",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Brillantes del Zulia",
       "games_tracked": 23,
       "avg_sdi": 44.8,
@@ -12717,6 +12785,66 @@
         },
         {
           "name": "Gian Clavell",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Bisbal Basquet",
+      "games_tracked": 7,
+      "avg_sdi": 44.8,
+      "avg_top1_pct": 24.4,
+      "max_sdi": 59.7,
+      "min_sdi": 34.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Farouk Adebola Adebayo",
+          "times_top2": 3
+        },
+        {
+          "name": "Matthew Ragsdale",
+          "times_top2": 3
+        },
+        {
+          "name": "Mikhail Mikhailov Paltarak",
+          "times_top2": 2
+        },
+        {
+          "name": "Xavier Torrent",
+          "times_top2": 2
+        },
+        {
+          "name": "Adria Dominguez Espelt",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Movistar Estudiantes 2",
+      "games_tracked": 3,
+      "avg_sdi": 44.8,
+      "avg_top1_pct": 24.6,
+      "max_sdi": 52.1,
+      "min_sdi": 34.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jadin Lucas Schilb",
+          "times_top2": 2
+        },
+        {
+          "name": "Pedro Robles Llanos",
+          "times_top2": 2
+        },
+        {
+          "name": "Miguel Sola Idrisu",
+          "times_top2": 1
+        },
+        {
+          "name": "Haile Aparicio Rodriguez",
           "times_top2": 1
         }
       ]
@@ -12850,38 +12978,6 @@
       ]
     },
     {
-      "team": "Bursaspor Basketbol",
-      "games_tracked": 20,
-      "avg_sdi": 44.7,
-      "avg_top1_pct": 24.6,
-      "max_sdi": 59.4,
-      "min_sdi": 32.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Brandon Childress",
-          "times_top2": 7
-        },
-        {
-          "name": "Marcus Georges-Hunt",
-          "times_top2": 4
-        },
-        {
-          "name": "Mike Smith",
-          "times_top2": 4
-        },
-        {
-          "name": "Brandon Taylor",
-          "times_top2": 4
-        },
-        {
-          "name": "Artur Konontsuk",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "NH Ostrava",
       "games_tracked": 25,
       "avg_sdi": 44.7,
@@ -12947,9 +13043,9 @@
     },
     {
       "team": "Pallacanestro Varese",
-      "games_tracked": 9,
+      "games_tracked": 13,
       "avg_sdi": 44.7,
-      "avg_top1_pct": 25.6,
+      "avg_top1_pct": 26.0,
       "max_sdi": 51.6,
       "min_sdi": 36.1,
       "risk": "AMBER",
@@ -12957,6 +13053,10 @@
       "top_players": [
         {
           "name": "Hunter Hale",
+          "times_top2": 8
+        },
+        {
+          "name": "David Duke",
           "times_top2": 4
         },
         {
@@ -12969,10 +13069,6 @@
         },
         {
           "name": "Davide Alviti",
-          "times_top2": 2
-        },
-        {
-          "name": "Carlos Stewart",
           "times_top2": 2
         }
       ]
@@ -13043,7 +13139,7 @@
     },
     {
       "team": "Pinar Karsiyaka",
-      "games_tracked": 19,
+      "games_tracked": 23,
       "avg_sdi": 44.6,
       "avg_top1_pct": 24.8,
       "max_sdi": 56.0,
@@ -13056,19 +13152,51 @@
           "times_top2": 13
         },
         {
+          "name": "Ishmael El-Amin",
+          "times_top2": 6
+        },
+        {
           "name": "Charles Manning",
+          "times_top2": 5
+        },
+        {
+          "name": "Steven Enoch",
           "times_top2": 5
         },
         {
           "name": "Michal Sokolowski",
           "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Biotekno Korfez Basket",
+      "games_tracked": 12,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 25.8,
+      "max_sdi": 55.7,
+      "min_sdi": 39.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jonathan Davis",
+          "times_top2": 6
         },
         {
-          "name": "Christian Bishop",
+          "name": "Oscar Cluff",
+          "times_top2": 5
+        },
+        {
+          "name": "Boo Buie",
+          "times_top2": 4
+        },
+        {
+          "name": "Filip Barna",
           "times_top2": 3
         },
         {
-          "name": "Ishmael El-Amin",
+          "name": "Matt Mitchell",
           "times_top2": 3
         }
       ]
@@ -13106,34 +13234,34 @@
       ]
     },
     {
-      "team": "Polonia Bytom",
-      "games_tracked": 5,
+      "team": "Solvera Sokół Łańcut",
+      "games_tracked": 13,
       "avg_sdi": 44.6,
-      "avg_top1_pct": 26.5,
-      "max_sdi": 53.8,
-      "min_sdi": 39.2,
+      "avg_top1_pct": 25.4,
+      "max_sdi": 58.8,
+      "min_sdi": 36.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Devin Hutchinson",
+          "name": "Jermaine Couisnard",
+          "times_top2": 6
+        },
+        {
+          "name": "Milan Milovanovic",
+          "times_top2": 4
+        },
+        {
+          "name": "Artur Labinowicz",
           "times_top2": 3
         },
         {
-          "name": "Kacper Indyk",
-          "times_top2": 2
+          "name": "Konrad Rosinski",
+          "times_top2": 3
         },
         {
-          "name": "Sean Biernacki",
+          "name": "Szymon Walski",
           "times_top2": 2
-        },
-        {
-          "name": "Jaroslaw Gizynski",
-          "times_top2": 2
-        },
-        {
-          "name": "Michał Medes",
-          "times_top2": 1
         }
       ]
     },
@@ -13234,38 +13362,6 @@
       ]
     },
     {
-      "team": "Jonavos CBet",
-      "games_tracked": 21,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 25.2,
-      "max_sdi": 55.8,
-      "min_sdi": 33.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Makai Ashton-Langford",
-          "times_top2": 10
-        },
-        {
-          "name": "Ben Krikke",
-          "times_top2": 7
-        },
-        {
-          "name": "Nicholas Johnson",
-          "times_top2": 5
-        },
-        {
-          "name": "Lukas Kreismontas",
-          "times_top2": 4
-        },
-        {
-          "name": "Olin Carter",
-          "times_top2": 4
-        }
-      ]
-    },
-    {
       "team": "Calgary Surge",
       "games_tracked": 11,
       "avg_sdi": 44.6,
@@ -13362,6 +13458,38 @@
       ]
     },
     {
+      "team": "Decka Pelplin",
+      "games_tracked": 13,
+      "avg_sdi": 44.5,
+      "avg_top1_pct": 25.8,
+      "max_sdi": 50.0,
+      "min_sdi": 40.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Przemyslaw Kuzkow",
+          "times_top2": 7
+        },
+        {
+          "name": "Samajae Haynes-Jones",
+          "times_top2": 7
+        },
+        {
+          "name": "Jayden Coke-Domingue",
+          "times_top2": 5
+        },
+        {
+          "name": "Filip Gurtatowski",
+          "times_top2": 5
+        },
+        {
+          "name": "Olivier Szczepanski",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Landstede Hammers",
       "games_tracked": 23,
       "avg_sdi": 44.5,
@@ -13390,6 +13518,38 @@
         {
           "name": "Erik Sajantila",
           "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Jonavos CBet",
+      "games_tracked": 25,
+      "avg_sdi": 44.5,
+      "avg_top1_pct": 25.2,
+      "max_sdi": 55.8,
+      "min_sdi": 33.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Makai Ashton-Langford",
+          "times_top2": 10
+        },
+        {
+          "name": "Nicholas Johnson",
+          "times_top2": 9
+        },
+        {
+          "name": "Ben Krikke",
+          "times_top2": 7
+        },
+        {
+          "name": "Lukas Kreismontas",
+          "times_top2": 4
+        },
+        {
+          "name": "Olin Carter",
+          "times_top2": 4
         }
       ]
     },
@@ -13458,38 +13618,6 @@
       ]
     },
     {
-      "team": "Phoenix Fóti Tigrisek",
-      "games_tracked": 5,
-      "avg_sdi": 44.4,
-      "avg_top1_pct": 28.1,
-      "max_sdi": 52.1,
-      "min_sdi": 38.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Shereef Mitchell",
-          "times_top2": 3
-        },
-        {
-          "name": "James Kinney",
-          "times_top2": 3
-        },
-        {
-          "name": "Boubacar Coulibaly",
-          "times_top2": 2
-        },
-        {
-          "name": "Levente Juhos",
-          "times_top2": 1
-        },
-        {
-          "name": "Andras Dancsecs",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Cedevita Junior",
       "games_tracked": 7,
       "avg_sdi": 44.4,
@@ -13550,38 +13678,6 @@
       ]
     },
     {
-      "team": "Villeneuve d'Ascq",
-      "games_tracked": 8,
-      "avg_sdi": 44.3,
-      "avg_top1_pct": 26.1,
-      "max_sdi": 52.5,
-      "min_sdi": 33.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Maria Jespersen",
-          "times_top2": 3
-        },
-        {
-          "name": "Anna Ngo Ndjock",
-          "times_top2": 3
-        },
-        {
-          "name": "Steph Kostowicz",
-          "times_top2": 3
-        },
-        {
-          "name": "Stella Colas",
-          "times_top2": 2
-        },
-        {
-          "name": "Marie-Michelle Milapie",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "ECE Triglav Kranj",
       "games_tracked": 19,
       "avg_sdi": 44.3,
@@ -13614,38 +13710,6 @@
       ]
     },
     {
-      "team": "Kotwica Kolobrzeg",
-      "games_tracked": 9,
-      "avg_sdi": 44.3,
-      "avg_top1_pct": 26.1,
-      "max_sdi": 53.8,
-      "min_sdi": 30.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "James Washington",
-          "times_top2": 4
-        },
-        {
-          "name": "Ke'jhan Feagin",
-          "times_top2": 3
-        },
-        {
-          "name": "Dominik Rutkowski",
-          "times_top2": 3
-        },
-        {
-          "name": "Wojciech Siembiga",
-          "times_top2": 2
-        },
-        {
-          "name": "Filip Malgorzaciak",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Levski Lukoil",
       "games_tracked": 19,
       "avg_sdi": 44.3,
@@ -13674,6 +13738,38 @@
         {
           "name": "Dimitar Marincheshki",
           "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Kansai Helios Domžale",
+      "games_tracked": 21,
+      "avg_sdi": 44.3,
+      "avg_top1_pct": 24.4,
+      "max_sdi": 63.8,
+      "min_sdi": 32.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jon Dolnicar",
+          "times_top2": 7
+        },
+        {
+          "name": "Alen Malovcic",
+          "times_top2": 7
+        },
+        {
+          "name": "Lenart Sirc",
+          "times_top2": 6
+        },
+        {
+          "name": "Jan Zemljic",
+          "times_top2": 6
+        },
+        {
+          "name": "Mark Morano Mahmutovic",
+          "times_top2": 4
         }
       ]
     },
@@ -13866,38 +13962,6 @@
       ]
     },
     {
-      "team": "Decka Pelplin",
-      "games_tracked": 9,
-      "avg_sdi": 44.2,
-      "avg_top1_pct": 26.0,
-      "max_sdi": 50.0,
-      "min_sdi": 40.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Przemyslaw Kuzkow",
-          "times_top2": 5
-        },
-        {
-          "name": "Jayden Coke-Domingue",
-          "times_top2": 4
-        },
-        {
-          "name": "Samajae Haynes-Jones",
-          "times_top2": 4
-        },
-        {
-          "name": "Filip Gurtatowski",
-          "times_top2": 3
-        },
-        {
-          "name": "Olivier Szczepanski",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "New York Liberty",
       "games_tracked": 23,
       "avg_sdi": 44.2,
@@ -13994,38 +14058,6 @@
       ]
     },
     {
-      "team": "Kansai Helios Domžale",
-      "games_tracked": 20,
-      "avg_sdi": 44.2,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 63.8,
-      "min_sdi": 32.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jon Dolnicar",
-          "times_top2": 7
-        },
-        {
-          "name": "Alen Malovcic",
-          "times_top2": 7
-        },
-        {
-          "name": "Lenart Sirc",
-          "times_top2": 6
-        },
-        {
-          "name": "Jan Zemljic",
-          "times_top2": 6
-        },
-        {
-          "name": "Mark Morano Mahmutovic",
-          "times_top2": 4
-        }
-      ]
-    },
-    {
       "team": "Iverioni",
       "games_tracked": 12,
       "avg_sdi": 44.1,
@@ -14053,38 +14085,6 @@
         },
         {
           "name": "Isaiah Addo-Ankrah",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Trabzonspor",
-      "games_tracked": 19,
-      "avg_sdi": 44.1,
-      "avg_top1_pct": 26.4,
-      "max_sdi": 56.6,
-      "min_sdi": 29.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marcquise Reed",
-          "times_top2": 14
-        },
-        {
-          "name": "Tony Taylor",
-          "times_top2": 5
-        },
-        {
-          "name": "Akwasi Yeboah",
-          "times_top2": 4
-        },
-        {
-          "name": "Joseph Girard III",
-          "times_top2": 2
-        },
-        {
-          "name": "Angel Delgado",
           "times_top2": 2
         }
       ]
@@ -14118,38 +14118,6 @@
         {
           "name": "Lucas Capalbo",
           "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Promitheas Patras",
-      "games_tracked": 8,
-      "avg_sdi": 44.1,
-      "avg_top1_pct": 25.0,
-      "max_sdi": 51.5,
-      "min_sdi": 35.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "New Williams",
-          "times_top2": 3
-        },
-        {
-          "name": "Kendal Coleman",
-          "times_top2": 3
-        },
-        {
-          "name": "Shannon Evans",
-          "times_top2": 2
-        },
-        {
-          "name": "Arnoldas Kulboka",
-          "times_top2": 2
-        },
-        {
-          "name": "Dae Dae Grant",
-          "times_top2": 2
         }
       ]
     },
@@ -14430,6 +14398,38 @@
       ]
     },
     {
+      "team": "Kotwica Kolobrzeg",
+      "games_tracked": 13,
+      "avg_sdi": 43.9,
+      "avg_top1_pct": 26.2,
+      "max_sdi": 53.8,
+      "min_sdi": 30.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "James Washington",
+          "times_top2": 6
+        },
+        {
+          "name": "Filip Malgorzaciak",
+          "times_top2": 4
+        },
+        {
+          "name": "Dominik Rutkowski",
+          "times_top2": 4
+        },
+        {
+          "name": "Ke'jhan Feagin",
+          "times_top2": 3
+        },
+        {
+          "name": "Pawel Leonczyk",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "SYNTAINICS MBC",
       "games_tracked": 13,
       "avg_sdi": 43.9,
@@ -14590,6 +14590,38 @@
       ]
     },
     {
+      "team": "Kaposvari KK",
+      "games_tracked": 16,
+      "avg_sdi": 43.8,
+      "avg_top1_pct": 24.3,
+      "max_sdi": 67.1,
+      "min_sdi": 33.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Quandre Bullock",
+          "times_top2": 9
+        },
+        {
+          "name": "Anthony Walker III",
+          "times_top2": 7
+        },
+        {
+          "name": "Mylik Wilson",
+          "times_top2": 4
+        },
+        {
+          "name": "Darrion Trammell",
+          "times_top2": 3
+        },
+        {
+          "name": "Jordan Brown",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "KB Trepca Mitrovice",
       "games_tracked": 4,
       "avg_sdi": 43.8,
@@ -14617,38 +14649,6 @@
         },
         {
           "name": "Drilon Hajrizi",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Spanish Basketball Academy",
-      "games_tracked": 6,
-      "avg_sdi": 43.8,
-      "avg_top1_pct": 26.2,
-      "max_sdi": 55.4,
-      "min_sdi": 37.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Dorde Simeunovic",
-          "times_top2": 3
-        },
-        {
-          "name": "Kamdyn Curfman",
-          "times_top2": 3
-        },
-        {
-          "name": "Alberto Moreno",
-          "times_top2": 1
-        },
-        {
-          "name": "Enrique Medina Roa",
-          "times_top2": 1
-        },
-        {
-          "name": "Gerardo Perez",
           "times_top2": 1
         }
       ]
@@ -14742,38 +14742,6 @@
         {
           "name": "Deshawn Stephens",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Lietkabelis",
-      "games_tracked": 27,
-      "avg_sdi": 43.7,
-      "avg_top1_pct": 24.9,
-      "max_sdi": 54.2,
-      "min_sdi": 32.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Kristian Kullamae",
-          "times_top2": 12
-        },
-        {
-          "name": "Jamel Morris",
-          "times_top2": 6
-        },
-        {
-          "name": "Ognjen Jaramaz",
-          "times_top2": 6
-        },
-        {
-          "name": "Paulius Danusevicius",
-          "times_top2": 5
-        },
-        {
-          "name": "Alexander Schumacher",
-          "times_top2": 5
         }
       ]
     },
@@ -15034,6 +15002,38 @@
       ]
     },
     {
+      "team": "Trabzonspor",
+      "games_tracked": 23,
+      "avg_sdi": 43.5,
+      "avg_top1_pct": 25.6,
+      "max_sdi": 56.6,
+      "min_sdi": 29.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Marcquise Reed",
+          "times_top2": 14
+        },
+        {
+          "name": "Tony Taylor",
+          "times_top2": 5
+        },
+        {
+          "name": "Akwasi Yeboah",
+          "times_top2": 4
+        },
+        {
+          "name": "Marcus Keene",
+          "times_top2": 4
+        },
+        {
+          "name": "Isaiah Canaan",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "Spartans Distrito Capital",
       "games_tracked": 23,
       "avg_sdi": 43.5,
@@ -15062,38 +15062,6 @@
         {
           "name": "Michael Watkins",
           "times_top2": 5
-        }
-      ]
-    },
-    {
-      "team": "Dolomiti Energia Trento",
-      "games_tracked": 8,
-      "avg_sdi": 43.5,
-      "avg_top1_pct": 24.8,
-      "max_sdi": 55.3,
-      "min_sdi": 32.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Quincy Olivari",
-          "times_top2": 6
-        },
-        {
-          "name": "Isaiah Bigelow",
-          "times_top2": 6
-        },
-        {
-          "name": "Darius Brown II",
-          "times_top2": 2
-        },
-        {
-          "name": "Jordan Bayehe",
-          "times_top2": 1
-        },
-        {
-          "name": "Jose Medina Bouza",
-          "times_top2": 1
         }
       ]
     },
@@ -15282,6 +15250,38 @@
       ]
     },
     {
+      "team": "Lietkabelis",
+      "games_tracked": 31,
+      "avg_sdi": 43.4,
+      "avg_top1_pct": 25.1,
+      "max_sdi": 54.2,
+      "min_sdi": 32.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Kristian Kullamae",
+          "times_top2": 12
+        },
+        {
+          "name": "Ognjen Jaramaz",
+          "times_top2": 7
+        },
+        {
+          "name": "Keondre Kennedy",
+          "times_top2": 7
+        },
+        {
+          "name": "Jamel Morris",
+          "times_top2": 6
+        },
+        {
+          "name": "Alexander Schumacher",
+          "times_top2": 6
+        }
+      ]
+    },
+    {
       "team": "Boulazac",
       "games_tracked": 21,
       "avg_sdi": 43.3,
@@ -15378,38 +15378,6 @@
       ]
     },
     {
-      "team": "Aliaga Petkim Spor",
-      "games_tracked": 19,
-      "avg_sdi": 43.3,
-      "avg_top1_pct": 24.2,
-      "max_sdi": 58.1,
-      "min_sdi": 30.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Stanley Whittaker",
-          "times_top2": 7
-        },
-        {
-          "name": "David Efianayi",
-          "times_top2": 7
-        },
-        {
-          "name": "Yannick Franke",
-          "times_top2": 5
-        },
-        {
-          "name": "Martynas Sajus",
-          "times_top2": 3
-        },
-        {
-          "name": "Khyri Thomas",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "Ryukyu Golden Kings",
       "games_tracked": 22,
       "avg_sdi": 43.3,
@@ -15469,38 +15437,6 @@
         },
         {
           "name": "Eric Washington",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "KTE Duna Aszfalt",
-      "games_tracked": 11,
-      "avg_sdi": 43.3,
-      "avg_top1_pct": 23.3,
-      "max_sdi": 63.5,
-      "min_sdi": 35.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Bojan Tomasevic",
-          "times_top2": 6
-        },
-        {
-          "name": "Shaun Doss",
-          "times_top2": 5
-        },
-        {
-          "name": "Pavle Djurisic",
-          "times_top2": 4
-        },
-        {
-          "name": "Ilari Seppala",
-          "times_top2": 3
-        },
-        {
-          "name": "Djuro Dautovic",
           "times_top2": 2
         }
       ]
@@ -15634,6 +15570,38 @@
       ]
     },
     {
+      "team": "Promitheas Patras",
+      "games_tracked": 9,
+      "avg_sdi": 43.2,
+      "avg_top1_pct": 25.0,
+      "max_sdi": 51.5,
+      "min_sdi": 35.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "New Williams",
+          "times_top2": 3
+        },
+        {
+          "name": "Kendal Coleman",
+          "times_top2": 3
+        },
+        {
+          "name": "Arnoldas Kulboka",
+          "times_top2": 3
+        },
+        {
+          "name": "Shannon Evans",
+          "times_top2": 2
+        },
+        {
+          "name": "Dae Dae Grant",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Clinica Ponferrada",
       "games_tracked": 7,
       "avg_sdi": 43.2,
@@ -15662,6 +15630,38 @@
         {
           "name": "Jamie Bergens",
           "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Pallacanestro Trieste",
+      "games_tracked": 13,
+      "avg_sdi": 43.2,
+      "avg_top1_pct": 24.0,
+      "max_sdi": 52.4,
+      "min_sdi": 36.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Colbey Ross",
+          "times_top2": 6
+        },
+        {
+          "name": "Lajae Jones",
+          "times_top2": 6
+        },
+        {
+          "name": "Josh Bannan",
+          "times_top2": 3
+        },
+        {
+          "name": "Jahmi'us Ramsey",
+          "times_top2": 3
+        },
+        {
+          "name": "Langston Galloway",
+          "times_top2": 3
         }
       ]
     },
@@ -15790,6 +15790,38 @@
         {
           "name": "Michael Christmas",
           "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Esenler Erokspor",
+      "games_tracked": 27,
+      "avg_sdi": 43.1,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 60.0,
+      "min_sdi": 26.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jordon Crawford",
+          "times_top2": 10
+        },
+        {
+          "name": "Mike Davis Jr",
+          "times_top2": 8
+        },
+        {
+          "name": "Langston Galloway",
+          "times_top2": 5
+        },
+        {
+          "name": "Egehan Arna",
+          "times_top2": 5
+        },
+        {
+          "name": "Errick McCollum",
+          "times_top2": 5
         }
       ]
     },
@@ -15954,6 +15986,38 @@
       ]
     },
     {
+      "team": "Aliaga Petkim Spor",
+      "games_tracked": 23,
+      "avg_sdi": 43.0,
+      "avg_top1_pct": 23.8,
+      "max_sdi": 58.1,
+      "min_sdi": 30.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Stanley Whittaker",
+          "times_top2": 7
+        },
+        {
+          "name": "David Efianayi",
+          "times_top2": 7
+        },
+        {
+          "name": "Yannick Franke",
+          "times_top2": 5
+        },
+        {
+          "name": "Khyri Thomas",
+          "times_top2": 5
+        },
+        {
+          "name": "Max Abmas",
+          "times_top2": 5
+        }
+      ]
+    },
+    {
       "team": "Merkezefendi",
       "games_tracked": 15,
       "avg_sdi": 43.0,
@@ -15986,66 +16050,66 @@
       ]
     },
     {
-      "team": "Basket Landes",
-      "games_tracked": 10,
+      "team": "Gargždai Basketball",
+      "games_tracked": 26,
       "avg_sdi": 43.0,
-      "avg_top1_pct": 24.2,
-      "max_sdi": 58.5,
-      "min_sdi": 33.0,
+      "avg_top1_pct": 24.7,
+      "max_sdi": 50.7,
+      "min_sdi": 33.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Murjanatu Liman Musa",
+          "name": "Justin Turner",
+          "times_top2": 11
+        },
+        {
+          "name": "Jaquan Carlos",
+          "times_top2": 8
+        },
+        {
+          "name": "Ben Krikke",
+          "times_top2": 6
+        },
+        {
+          "name": "Nojus Mineikis",
           "times_top2": 5
         },
         {
-          "name": "Trinity San Antonio",
-          "times_top2": 5
-        },
-        {
-          "name": "Mariama Daramy",
+          "name": "Laurynas Vaistaras",
           "times_top2": 3
-        },
-        {
-          "name": "Sophia Elenga",
-          "times_top2": 2
-        },
-        {
-          "name": "Yohana Ewodo",
-          "times_top2": 1
         }
       ]
     },
     {
-      "team": "Scafati Basket",
-      "games_tracked": 4,
+      "team": "Acqua S.Bernardo Cantù",
+      "games_tracked": 13,
       "avg_sdi": 43.0,
-      "avg_top1_pct": 23.4,
-      "max_sdi": 45.5,
-      "min_sdi": 38.1,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 56.9,
+      "min_sdi": 32.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Garrett Nevels",
-          "times_top2": 2
+          "name": "Savion Flagg",
+          "times_top2": 7
         },
         {
-          "name": "Ze'rik Onyema",
-          "times_top2": 2
+          "name": "Erick Green",
+          "times_top2": 3
         },
         {
-          "name": "Chimezie Offurum",
-          "times_top2": 1
+          "name": "Oumar Ballo",
+          "times_top2": 3
         },
         {
-          "name": "Bruno Mascolo",
-          "times_top2": 1
+          "name": "Davide Moretti",
+          "times_top2": 3
         },
         {
-          "name": "Charlie Moore",
-          "times_top2": 1
+          "name": "Osvaldas Olisevicius",
+          "times_top2": 3
         }
       ]
     },
@@ -16138,33 +16202,33 @@
       ]
     },
     {
-      "team": "Esenler Erokspor",
-      "games_tracked": 23,
+      "team": "Tofas Bursa",
+      "games_tracked": 27,
       "avg_sdi": 42.9,
-      "avg_top1_pct": 24.0,
-      "max_sdi": 60.0,
-      "min_sdi": 26.3,
+      "avg_top1_pct": 24.6,
+      "max_sdi": 55.3,
+      "min_sdi": 28.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Jordon Crawford",
+          "name": "Yigitcan Saybir",
           "times_top2": 10
         },
         {
-          "name": "Langston Galloway",
-          "times_top2": 5
+          "name": "Marek Blazevic",
+          "times_top2": 8
         },
         {
-          "name": "Egehan Arna",
-          "times_top2": 5
+          "name": "Alex Perez",
+          "times_top2": 8
         },
         {
-          "name": "Mike Davis Jr",
-          "times_top2": 5
+          "name": "Bryce Jones",
+          "times_top2": 7
         },
         {
-          "name": "Jeremy Simmons",
+          "name": "Hugo Besson",
           "times_top2": 4
         }
       ]
@@ -16394,6 +16458,70 @@
       ]
     },
     {
+      "team": "SKS Starogard Gdanski",
+      "games_tracked": 13,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 24.5,
+      "max_sdi": 49.4,
+      "min_sdi": 30.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Adrian Kordalski",
+          "times_top2": 7
+        },
+        {
+          "name": "Bartosz Wrobel",
+          "times_top2": 4
+        },
+        {
+          "name": "Jikari Johnson",
+          "times_top2": 4
+        },
+        {
+          "name": "De'Monte Buckingham",
+          "times_top2": 2
+        },
+        {
+          "name": "Bartosz Majewski",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Hiopos Lleida",
+      "games_tracked": 14,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 24.5,
+      "max_sdi": 56.9,
+      "min_sdi": 27.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "James Batemon",
+          "times_top2": 6
+        },
+        {
+          "name": "Melvin Ejim",
+          "times_top2": 6
+        },
+        {
+          "name": "Zacharie Perrin",
+          "times_top2": 4
+        },
+        {
+          "name": "Mikel Sanz",
+          "times_top2": 4
+        },
+        {
+          "name": "Oriol Pauli",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Gambusinos",
       "games_tracked": 12,
       "avg_sdi": 42.8,
@@ -16458,6 +16586,38 @@
       ]
     },
     {
+      "team": "Dolomiti Energia Trento",
+      "games_tracked": 12,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 24.5,
+      "max_sdi": 55.3,
+      "min_sdi": 32.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Quincy Olivari",
+          "times_top2": 10
+        },
+        {
+          "name": "Isaiah Bigelow",
+          "times_top2": 9
+        },
+        {
+          "name": "Darius Brown II",
+          "times_top2": 2
+        },
+        {
+          "name": "Charles Brown",
+          "times_top2": 1
+        },
+        {
+          "name": "Jordan Bayehe",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Helsingin NMKY",
       "games_tracked": 4,
       "avg_sdi": 42.8,
@@ -16514,38 +16674,6 @@
         {
           "name": "Tornike Shengelia",
           "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Kaposvari KK",
-      "games_tracked": 12,
-      "avg_sdi": 42.7,
-      "avg_top1_pct": 23.8,
-      "max_sdi": 67.1,
-      "min_sdi": 33.6,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Quandre Bullock",
-          "times_top2": 5
-        },
-        {
-          "name": "Mylik Wilson",
-          "times_top2": 4
-        },
-        {
-          "name": "Anthony Walker III",
-          "times_top2": 4
-        },
-        {
-          "name": "Darrion Trammell",
-          "times_top2": 3
-        },
-        {
-          "name": "Jordan Brown",
-          "times_top2": 3
         }
       ]
     },
@@ -16614,38 +16742,6 @@
       ]
     },
     {
-      "team": "Pallacanestro Reggiana",
-      "games_tracked": 4,
-      "avg_sdi": 42.7,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 48.7,
-      "min_sdi": 35.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jaylen Barford",
-          "times_top2": 2
-        },
-        {
-          "name": "Riccardo Rossato",
-          "times_top2": 2
-        },
-        {
-          "name": "Rob Edwards",
-          "times_top2": 1
-        },
-        {
-          "name": "Riccardo Visconti",
-          "times_top2": 1
-        },
-        {
-          "name": "Luca Severini",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Sunshine Coast",
       "games_tracked": 12,
       "avg_sdi": 42.7,
@@ -16673,38 +16769,6 @@
         },
         {
           "name": "Nelson Kahler",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Joventut Badalona",
-      "games_tracked": 20,
-      "avg_sdi": 42.6,
-      "avg_top1_pct": 23.9,
-      "max_sdi": 59.4,
-      "min_sdi": 31.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Gnere Alima",
-          "times_top2": 6
-        },
-        {
-          "name": "Laura Rachel Howard",
-          "times_top2": 4
-        },
-        {
-          "name": "Laia Lamana",
-          "times_top2": 4
-        },
-        {
-          "name": "Ricky Rubio",
-          "times_top2": 4
-        },
-        {
-          "name": "Lauren-Jenee Nneka Ebo",
           "times_top2": 3
         }
       ]
@@ -16966,6 +17030,38 @@
       ]
     },
     {
+      "team": "Spanish Basketball Academy",
+      "games_tracked": 7,
+      "avg_sdi": 42.6,
+      "avg_top1_pct": 25.5,
+      "max_sdi": 55.4,
+      "min_sdi": 35.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Dorde Simeunovic",
+          "times_top2": 3
+        },
+        {
+          "name": "Kamdyn Curfman",
+          "times_top2": 3
+        },
+        {
+          "name": "Alberto Moreno",
+          "times_top2": 1
+        },
+        {
+          "name": "Enrique Medina Roa",
+          "times_top2": 1
+        },
+        {
+          "name": "Gerardo Perez",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Diamond Valley",
       "games_tracked": 14,
       "avg_sdi": 42.6,
@@ -17062,38 +17158,6 @@
       ]
     },
     {
-      "team": "Tofas Bursa",
-      "games_tracked": 23,
-      "avg_sdi": 42.5,
-      "avg_top1_pct": 24.0,
-      "max_sdi": 55.3,
-      "min_sdi": 28.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marek Blazevic",
-          "times_top2": 8
-        },
-        {
-          "name": "Yigitcan Saybir",
-          "times_top2": 8
-        },
-        {
-          "name": "Alex Perez",
-          "times_top2": 8
-        },
-        {
-          "name": "Bryce Jones",
-          "times_top2": 6
-        },
-        {
-          "name": "Hugo Besson",
-          "times_top2": 4
-        }
-      ]
-    },
-    {
       "team": "Sutjeska Elektroprivreda",
       "games_tracked": 4,
       "avg_sdi": 42.5,
@@ -17114,70 +17178,6 @@
         {
           "name": "Filip Barovic",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Vikos Ioanninon",
-      "games_tracked": 5,
-      "avg_sdi": 42.5,
-      "avg_top1_pct": 23.7,
-      "max_sdi": 54.2,
-      "min_sdi": 34.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Keshawn Justice",
-          "times_top2": 2
-        },
-        {
-          "name": "Jordan Floyd",
-          "times_top2": 2
-        },
-        {
-          "name": "Dimitrios Georgiou",
-          "times_top2": 1
-        },
-        {
-          "name": "Michail Kamperidis",
-          "times_top2": 1
-        },
-        {
-          "name": "Quincy Anderson",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Gargždai Basketball",
-      "games_tracked": 22,
-      "avg_sdi": 42.5,
-      "avg_top1_pct": 24.4,
-      "max_sdi": 50.7,
-      "min_sdi": 33.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Justin Turner",
-          "times_top2": 11
-        },
-        {
-          "name": "Nojus Mineikis",
-          "times_top2": 5
-        },
-        {
-          "name": "Jaquan Carlos",
-          "times_top2": 5
-        },
-        {
-          "name": "Ben Krikke",
-          "times_top2": 4
-        },
-        {
-          "name": "Laurynas Vaistaras",
-          "times_top2": 3
         }
       ]
     },
@@ -17274,38 +17274,6 @@
         {
           "name": "Grzegorz Kaminski",
           "times_top2": 4
-        }
-      ]
-    },
-    {
-      "team": "Polonia Leszno",
-      "games_tracked": 8,
-      "avg_sdi": 42.4,
-      "avg_top1_pct": 23.3,
-      "max_sdi": 56.7,
-      "min_sdi": 34.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Wendell Mitchell",
-          "times_top2": 6
-        },
-        {
-          "name": "Szymon Ryzek",
-          "times_top2": 5
-        },
-        {
-          "name": "Seydougou Santis Fofana",
-          "times_top2": 2
-        },
-        {
-          "name": "Karol Kankowski",
-          "times_top2": 1
-        },
-        {
-          "name": "Michal Sitnik",
-          "times_top2": 1
         }
       ]
     },
@@ -17722,34 +17690,34 @@
       ]
     },
     {
-      "team": "Nutribullet Treviso",
-      "games_tracked": 9,
+      "team": "Nevezis",
+      "games_tracked": 25,
       "avg_sdi": 42.2,
-      "avg_top1_pct": 23.0,
-      "max_sdi": 47.3,
-      "min_sdi": 36.4,
+      "avg_top1_pct": 24.0,
+      "max_sdi": 55.8,
+      "min_sdi": 27.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "J.P. Macura",
-          "times_top2": 6
+          "name": "Dylan Andrews",
+          "times_top2": 9
         },
         {
-          "name": "Dewayne Russell",
+          "name": "Selton Miguel",
+          "times_top2": 8
+        },
+        {
+          "name": "Josh Jefferson",
+          "times_top2": 7
+        },
+        {
+          "name": "Trenton McLaughlin",
+          "times_top2": 5
+        },
+        {
+          "name": "J.D. Muila",
           "times_top2": 4
-        },
-        {
-          "name": "Alessandro Cappelletti",
-          "times_top2": 3
-        },
-        {
-          "name": "Ed Croswell",
-          "times_top2": 2
-        },
-        {
-          "name": "Muhammad-Ali Abdur-Rahkman",
-          "times_top2": 1
         }
       ]
     },
@@ -17818,6 +17786,38 @@
       ]
     },
     {
+      "team": "MoraBanc Andorra",
+      "games_tracked": 14,
+      "avg_sdi": 42.1,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 51.9,
+      "min_sdi": 31.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Artem Pustovyi",
+          "times_top2": 7
+        },
+        {
+          "name": "Aaron Best",
+          "times_top2": 4
+        },
+        {
+          "name": "Kyle Kuric",
+          "times_top2": 4
+        },
+        {
+          "name": "Kassius Robertson",
+          "times_top2": 3
+        },
+        {
+          "name": "Shannon Evans",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Badajoz",
       "games_tracked": 3,
       "avg_sdi": 42.1,
@@ -17837,6 +17837,38 @@
         },
         {
           "name": "Joshua Ugochuwku Nwankwo",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Nutribullet Treviso",
+      "games_tracked": 13,
+      "avg_sdi": 42.1,
+      "avg_top1_pct": 22.7,
+      "max_sdi": 47.3,
+      "min_sdi": 36.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "J.P. Macura",
+          "times_top2": 9
+        },
+        {
+          "name": "Dewayne Russell",
+          "times_top2": 8
+        },
+        {
+          "name": "Alessandro Cappelletti",
+          "times_top2": 4
+        },
+        {
+          "name": "Ed Croswell",
+          "times_top2": 2
+        },
+        {
+          "name": "Muhammad-Ali Abdur-Rahkman",
           "times_top2": 1
         }
       ]
@@ -17962,66 +17994,66 @@
       ]
     },
     {
-      "team": "San Pablo Burgos",
+      "team": "Basket Landes",
       "games_tracked": 15,
       "avg_sdi": 42.0,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 53.8,
+      "avg_top1_pct": 23.5,
+      "max_sdi": 58.5,
       "min_sdi": 33.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Gonzalo Corbalan",
-          "times_top2": 5
+          "name": "Trinity San Antonio",
+          "times_top2": 9
         },
         {
-          "name": "D.J. Steward",
-          "times_top2": 5
+          "name": "Murjanatu Liman Musa",
+          "times_top2": 7
         },
         {
-          "name": "Sekou Doumbouya",
-          "times_top2": 5
+          "name": "Mariama Daramy",
+          "times_top2": 6
         },
         {
-          "name": "Chase Audige",
-          "times_top2": 3
+          "name": "Sophia Elenga",
+          "times_top2": 2
         },
         {
-          "name": "Jermaine Samuels",
+          "name": "Becky Massey",
           "times_top2": 2
         }
       ]
     },
     {
-      "team": "Neptunas",
-      "games_tracked": 26,
+      "team": "Polonia Leszno",
+      "games_tracked": 12,
       "avg_sdi": 42.0,
-      "avg_top1_pct": 23.2,
-      "max_sdi": 68.8,
-      "min_sdi": 26.0,
+      "avg_top1_pct": 22.9,
+      "max_sdi": 56.7,
+      "min_sdi": 34.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Rihards Lomazs",
-          "times_top2": 11
+          "name": "Wendell Mitchell",
+          "times_top2": 9
         },
         {
-          "name": "Arnas Velicka",
+          "name": "Szymon Ryzek",
           "times_top2": 7
         },
         {
-          "name": "Yannick Franke",
-          "times_top2": 6
+          "name": "Adrian Bogucki",
+          "times_top2": 3
         },
         {
-          "name": "Donatas Tarolis",
-          "times_top2": 5
+          "name": "Seydougou Santis Fofana",
+          "times_top2": 2
         },
         {
-          "name": "Harrison Cleary",
-          "times_top2": 4
+          "name": "Michal Sitnik",
+          "times_top2": 2
         }
       ]
     },
@@ -18054,34 +18086,34 @@
       ]
     },
     {
-      "team": "Pallacanestro Trieste",
-      "games_tracked": 9,
+      "team": "Sant Antoni",
+      "games_tracked": 6,
       "avg_sdi": 42.0,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 52.4,
-      "min_sdi": 36.0,
+      "avg_top1_pct": 25.0,
+      "max_sdi": 50.6,
+      "min_sdi": 33.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Josh Bannan",
+          "name": "Kai Andrew Johnson",
           "times_top2": 3
         },
         {
-          "name": "Jahmi'us Ramsey",
-          "times_top2": 3
-        },
-        {
-          "name": "Colbey Ross",
-          "times_top2": 3
-        },
-        {
-          "name": "Lajae Jones",
-          "times_top2": 3
-        },
-        {
-          "name": "Langston Galloway",
+          "name": "Emil Stoilov",
           "times_top2": 2
+        },
+        {
+          "name": "Jeffrey Solarin",
+          "times_top2": 1
+        },
+        {
+          "name": "Daniel De La Rua",
+          "times_top2": 1
+        },
+        {
+          "name": "Rodrigo Gomez",
+          "times_top2": 1
         }
       ]
     },
@@ -18214,34 +18246,34 @@
       ]
     },
     {
-      "team": "Lyon",
-      "games_tracked": 7,
+      "team": "Unicaja Malaga",
+      "games_tracked": 13,
       "avg_sdi": 41.9,
-      "avg_top1_pct": 23.4,
-      "max_sdi": 49.2,
-      "min_sdi": 32.9,
+      "avg_top1_pct": 25.5,
+      "max_sdi": 51.2,
+      "min_sdi": 32.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Leck-Olivia Yale",
+          "name": "Amine Noua",
+          "times_top2": 6
+        },
+        {
+          "name": "Kendrick Perry",
+          "times_top2": 5
+        },
+        {
+          "name": "Ignas Brazdeikis",
+          "times_top2": 4
+        },
+        {
+          "name": "Aleksander Balcerowski",
           "times_top2": 3
         },
         {
-          "name": "Asianae Johnson",
-          "times_top2": 3
-        },
-        {
-          "name": "Samantha Peytour",
+          "name": "James Webb",
           "times_top2": 2
-        },
-        {
-          "name": "Naomi Mbandu",
-          "times_top2": 2
-        },
-        {
-          "name": "Jess-Mine Zodia",
-          "times_top2": 1
         }
       ]
     },
@@ -18273,6 +18305,70 @@
         },
         {
           "name": "Alonzo Verge",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Vikos Ioanninon",
+      "games_tracked": 6,
+      "avg_sdi": 41.9,
+      "avg_top1_pct": 23.1,
+      "max_sdi": 54.2,
+      "min_sdi": 34.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jordan Floyd",
+          "times_top2": 3
+        },
+        {
+          "name": "Keshawn Justice",
+          "times_top2": 2
+        },
+        {
+          "name": "Dimitrios Georgiou",
+          "times_top2": 1
+        },
+        {
+          "name": "Michail Kamperidis",
+          "times_top2": 1
+        },
+        {
+          "name": "Quincy Anderson",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Pallacanestro Reggiana",
+      "games_tracked": 8,
+      "avg_sdi": 41.9,
+      "avg_top1_pct": 23.2,
+      "max_sdi": 48.7,
+      "min_sdi": 35.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jaylen Barford",
+          "times_top2": 4
+        },
+        {
+          "name": "Riccardo Rossato",
+          "times_top2": 3
+        },
+        {
+          "name": "Jaime Echenique",
+          "times_top2": 3
+        },
+        {
+          "name": "Rob Edwards",
+          "times_top2": 2
+        },
+        {
+          "name": "Riccardo Visconti",
           "times_top2": 2
         }
       ]
@@ -18374,33 +18470,33 @@
       ]
     },
     {
-      "team": "MoraBanc Andorra",
-      "games_tracked": 10,
+      "team": "Notec Inowroclaw",
+      "games_tracked": 11,
       "avg_sdi": 41.8,
-      "avg_top1_pct": 24.0,
-      "max_sdi": 51.9,
+      "avg_top1_pct": 23.4,
+      "max_sdi": 50.6,
       "min_sdi": 31.8,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Artem Pustovyi",
-          "times_top2": 5
+          "name": "Piotr Lis",
+          "times_top2": 4
         },
         {
-          "name": "Aaron Best",
+          "name": "Michal Kroczak",
+          "times_top2": 4
+        },
+        {
+          "name": "Radoslaw Trubacz",
           "times_top2": 3
         },
         {
-          "name": "Shannon Evans",
-          "times_top2": 2
+          "name": "Jakub Kobel",
+          "times_top2": 3
         },
         {
-          "name": "Kyle Kuric",
-          "times_top2": 2
-        },
-        {
-          "name": "Kassius Robertson",
+          "name": "Darrell Harris",
           "times_top2": 2
         }
       ]
@@ -18434,6 +18530,38 @@
         {
           "name": "Alberto Martin",
           "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Neptunas",
+      "games_tracked": 30,
+      "avg_sdi": 41.8,
+      "avg_top1_pct": 23.0,
+      "max_sdi": 68.8,
+      "min_sdi": 26.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Rihards Lomazs",
+          "times_top2": 11
+        },
+        {
+          "name": "Yannick Franke",
+          "times_top2": 9
+        },
+        {
+          "name": "Arnas Velicka",
+          "times_top2": 7
+        },
+        {
+          "name": "Donatas Tarolis",
+          "times_top2": 6
+        },
+        {
+          "name": "Mindaugas Girdziunas",
+          "times_top2": 5
         }
       ]
     },
@@ -18690,34 +18818,34 @@
       ]
     },
     {
-      "team": "SKS Starogard Gdanski",
-      "games_tracked": 9,
+      "team": "Umana Reyer Venezia",
+      "games_tracked": 21,
       "avg_sdi": 41.7,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 49.4,
-      "min_sdi": 30.6,
+      "avg_top1_pct": 23.4,
+      "max_sdi": 52.9,
+      "min_sdi": 26.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Adrian Kordalski",
-          "times_top2": 4
+          "name": "Kyle Wiltjer",
+          "times_top2": 9
         },
         {
-          "name": "De'Monte Buckingham",
-          "times_top2": 2
+          "name": "Jordan Parks",
+          "times_top2": 8
         },
         {
-          "name": "Bartosz Majewski",
-          "times_top2": 2
+          "name": "Glynn Watson Jr",
+          "times_top2": 7
         },
         {
-          "name": "Ilja Gromovs",
-          "times_top2": 2
+          "name": "R.J. Cole",
+          "times_top2": 3
         },
         {
-          "name": "Bartosz Wrobel",
-          "times_top2": 2
+          "name": "Leonardo Candi",
+          "times_top2": 3
         }
       ]
     },
@@ -18786,6 +18914,38 @@
       ]
     },
     {
+      "team": "San Pablo Burgos",
+      "games_tracked": 19,
+      "avg_sdi": 41.7,
+      "avg_top1_pct": 23.3,
+      "max_sdi": 53.8,
+      "min_sdi": 33.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Sekou Doumbouya",
+          "times_top2": 8
+        },
+        {
+          "name": "D.J. Steward",
+          "times_top2": 7
+        },
+        {
+          "name": "Gonzalo Corbalan",
+          "times_top2": 5
+        },
+        {
+          "name": "Chase Audige",
+          "times_top2": 5
+        },
+        {
+          "name": "Balsa Koprivica",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Coviran Granada",
       "games_tracked": 9,
       "avg_sdi": 41.7,
@@ -18842,38 +19002,6 @@
         {
           "name": "Dominykas Daubaris",
           "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "BC Roma",
-      "games_tracked": 8,
-      "avg_sdi": 41.7,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 57.7,
-      "min_sdi": 35.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Nico Mannion",
-          "times_top2": 6
-        },
-        {
-          "name": "Marko Simonovic",
-          "times_top2": 2
-        },
-        {
-          "name": "Gerald Ayayi",
-          "times_top2": 2
-        },
-        {
-          "name": "Erik Stevenson",
-          "times_top2": 2
-        },
-        {
-          "name": "Arturs Strautins",
-          "times_top2": 2
         }
       ]
     },
@@ -19158,38 +19286,6 @@
       ]
     },
     {
-      "team": "Casademont Zaragoza",
-      "games_tracked": 25,
-      "avg_sdi": 41.5,
-      "avg_top1_pct": 23.8,
-      "max_sdi": 61.8,
-      "min_sdi": 26.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Aminata Gueye",
-          "times_top2": 6
-        },
-        {
-          "name": "Merritt Hempe",
-          "times_top2": 6
-        },
-        {
-          "name": "Carla Leite",
-          "times_top2": 4
-        },
-        {
-          "name": "Stephanie Mawuli",
-          "times_top2": 3
-        },
-        {
-          "name": "Helena Pueyo",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "MKS Dąbrowa Górnicza",
       "games_tracked": 20,
       "avg_sdi": 41.5,
@@ -19254,66 +19350,34 @@
       ]
     },
     {
-      "team": "Notec Inowroclaw",
-      "games_tracked": 7,
+      "team": "Lyon",
+      "games_tracked": 12,
       "avg_sdi": 41.5,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 50.6,
-      "min_sdi": 31.8,
+      "avg_top1_pct": 23.0,
+      "max_sdi": 49.2,
+      "min_sdi": 32.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Piotr Lis",
-          "times_top2": 3
+          "name": "Leck-Olivia Yale",
+          "times_top2": 6
         },
         {
-          "name": "Radoslaw Trubacz",
-          "times_top2": 2
+          "name": "Asianae Johnson",
+          "times_top2": 6
         },
         {
-          "name": "Darrell Harris",
-          "times_top2": 2
-        },
-        {
-          "name": "Michal Kroczak",
-          "times_top2": 2
-        },
-        {
-          "name": "Jakub Kobel",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Nevezis",
-      "games_tracked": 21,
-      "avg_sdi": 41.5,
-      "avg_top1_pct": 23.5,
-      "max_sdi": 55.8,
-      "min_sdi": 27.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Selton Miguel",
-          "times_top2": 8
-        },
-        {
-          "name": "Josh Jefferson",
-          "times_top2": 7
-        },
-        {
-          "name": "Trenton McLaughlin",
-          "times_top2": 5
-        },
-        {
-          "name": "Dylan Andrews",
-          "times_top2": 5
-        },
-        {
-          "name": "J.D. Muila",
+          "name": "Samantha Peytour",
           "times_top2": 4
+        },
+        {
+          "name": "Naomi Mbandu",
+          "times_top2": 4
+        },
+        {
+          "name": "Jess-Mine Zodia",
+          "times_top2": 1
         }
       ]
     },
@@ -19350,6 +19414,38 @@
       ]
     },
     {
+      "team": "Joventut Badalona",
+      "games_tracked": 24,
+      "avg_sdi": 41.4,
+      "avg_top1_pct": 23.2,
+      "max_sdi": 59.4,
+      "min_sdi": 31.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Gnere Alima",
+          "times_top2": 6
+        },
+        {
+          "name": "Nicolas Laprovittola",
+          "times_top2": 6
+        },
+        {
+          "name": "Ricky Rubio",
+          "times_top2": 5
+        },
+        {
+          "name": "Laura Rachel Howard",
+          "times_top2": 4
+        },
+        {
+          "name": "Laia Lamana",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "Gries-Souffel",
       "games_tracked": 9,
       "avg_sdi": 41.4,
@@ -19378,6 +19474,38 @@
         {
           "name": "Killian Malwaya",
           "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "BC Roma",
+      "games_tracked": 12,
+      "avg_sdi": 41.4,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 57.7,
+      "min_sdi": 35.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Nico Mannion",
+          "times_top2": 9
+        },
+        {
+          "name": "Erik Stevenson",
+          "times_top2": 4
+        },
+        {
+          "name": "Kelly Olynyk",
+          "times_top2": 4
+        },
+        {
+          "name": "Arturs Strautins",
+          "times_top2": 3
+        },
+        {
+          "name": "Marko Simonovic",
+          "times_top2": 2
         }
       ]
     },
@@ -19474,38 +19602,6 @@
         {
           "name": "Malik Morgan",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Umana Reyer Venezia",
-      "games_tracked": 17,
-      "avg_sdi": 41.3,
-      "avg_top1_pct": 23.3,
-      "max_sdi": 52.9,
-      "min_sdi": 26.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Kyle Wiltjer",
-          "times_top2": 7
-        },
-        {
-          "name": "Jordan Parks",
-          "times_top2": 6
-        },
-        {
-          "name": "Glynn Watson Jr",
-          "times_top2": 5
-        },
-        {
-          "name": "R.J. Cole",
-          "times_top2": 3
-        },
-        {
-          "name": "Francesca Pan",
-          "times_top2": 2
         }
       ]
     },
@@ -19766,6 +19862,38 @@
       ]
     },
     {
+      "team": "UCAM Murcia",
+      "games_tracked": 16,
+      "avg_sdi": 41.2,
+      "avg_top1_pct": 22.9,
+      "max_sdi": 52.3,
+      "min_sdi": 31.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Michael Forrest",
+          "times_top2": 6
+        },
+        {
+          "name": "Dylan Ennis",
+          "times_top2": 6
+        },
+        {
+          "name": "David Dejulius",
+          "times_top2": 5
+        },
+        {
+          "name": "Kelan Martin",
+          "times_top2": 4
+        },
+        {
+          "name": "Jonah Radebaugh",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Rostock Seawolves",
       "games_tracked": 18,
       "avg_sdi": 41.2,
@@ -19830,6 +19958,38 @@
       ]
     },
     {
+      "team": "Casademont Zaragoza",
+      "games_tracked": 29,
+      "avg_sdi": 41.1,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 61.8,
+      "min_sdi": 26.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Aminata Gueye",
+          "times_top2": 6
+        },
+        {
+          "name": "Merritt Hempe",
+          "times_top2": 6
+        },
+        {
+          "name": "Justin Jaworski",
+          "times_top2": 6
+        },
+        {
+          "name": "Carla Leite",
+          "times_top2": 4
+        },
+        {
+          "name": "Stephanie Mawuli",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Basket Brno",
       "games_tracked": 29,
       "avg_sdi": 41.1,
@@ -19858,70 +20018,6 @@
         {
           "name": "Adam Kejval",
           "times_top2": 5
-        }
-      ]
-    },
-    {
-      "team": "Olympiacos Piraeus",
-      "games_tracked": 26,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 23.2,
-      "max_sdi": 61.0,
-      "min_sdi": 29.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Sasha Vezenkov",
-          "times_top2": 15
-        },
-        {
-          "name": "Tyler Dorsey",
-          "times_top2": 10
-        },
-        {
-          "name": "Evan Fournier",
-          "times_top2": 6
-        },
-        {
-          "name": "Alec Peters",
-          "times_top2": 3
-        },
-        {
-          "name": "Nikola Milutinov",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Rytas Vilnius",
-      "games_tracked": 19,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 60.4,
-      "min_sdi": 27.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jerrick Harding",
-          "times_top2": 8
-        },
-        {
-          "name": "Ignas Sargiunas",
-          "times_top2": 6
-        },
-        {
-          "name": "Kenneth Smith",
-          "times_top2": 4
-        },
-        {
-          "name": "Gytis Masiulis",
-          "times_top2": 3
-        },
-        {
-          "name": "Augustas Marciulionis",
-          "times_top2": 3
         }
       ]
     },
@@ -20118,6 +20214,38 @@
       ]
     },
     {
+      "team": "Olympiacos Piraeus",
+      "games_tracked": 27,
+      "avg_sdi": 41.0,
+      "avg_top1_pct": 23.2,
+      "max_sdi": 61.0,
+      "min_sdi": 29.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Sasha Vezenkov",
+          "times_top2": 16
+        },
+        {
+          "name": "Tyler Dorsey",
+          "times_top2": 10
+        },
+        {
+          "name": "Evan Fournier",
+          "times_top2": 6
+        },
+        {
+          "name": "Alec Peters",
+          "times_top2": 3
+        },
+        {
+          "name": "Nikola Milutinov",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "MLP Academics Heidelberg",
       "games_tracked": 11,
       "avg_sdi": 41.0,
@@ -20182,38 +20310,6 @@
       ]
     },
     {
-      "team": "Fenerbahce Istanbul",
-      "games_tracked": 40,
-      "avg_sdi": 40.9,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 53.0,
-      "min_sdi": 27.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Talen Horton-Tucker",
-          "times_top2": 19
-        },
-        {
-          "name": "Wade Baldwin",
-          "times_top2": 15
-        },
-        {
-          "name": "Tarik Biberovic",
-          "times_top2": 7
-        },
-        {
-          "name": "Nicolo Melli",
-          "times_top2": 6
-        },
-        {
-          "name": "Shavon Shields",
-          "times_top2": 6
-        }
-      ]
-    },
-    {
       "team": "Buyukcekmece",
       "games_tracked": 15,
       "avg_sdi": 40.9,
@@ -20246,6 +20342,38 @@
       ]
     },
     {
+      "team": "Charnay",
+      "games_tracked": 13,
+      "avg_sdi": 40.9,
+      "avg_top1_pct": 22.0,
+      "max_sdi": 49.4,
+      "min_sdi": 35.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Maye Toure",
+          "times_top2": 7
+        },
+        {
+          "name": "McKenzie Forbes",
+          "times_top2": 4
+        },
+        {
+          "name": "Alberte Rimdal",
+          "times_top2": 4
+        },
+        {
+          "name": "Laura Ziegler",
+          "times_top2": 3
+        },
+        {
+          "name": "Molly Gmasnoh Kaiser",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Ovarense GAVEX",
       "games_tracked": 11,
       "avg_sdi": 40.9,
@@ -20274,38 +20402,6 @@
         {
           "name": "Jordan Wood",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Enea Basket Poznan",
-      "games_tracked": 9,
-      "avg_sdi": 40.9,
-      "avg_top1_pct": 22.3,
-      "max_sdi": 50.5,
-      "min_sdi": 34.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Patryk Stankowski",
-          "times_top2": 4
-        },
-        {
-          "name": "Filip Siewruk",
-          "times_top2": 4
-        },
-        {
-          "name": "Devontae Blanton",
-          "times_top2": 3
-        },
-        {
-          "name": "James Washington",
-          "times_top2": 2
-        },
-        {
-          "name": "Kacper Makowski",
-          "times_top2": 1
         }
       ]
     },
@@ -20369,38 +20465,6 @@
         },
         {
           "name": "Tsvetomir Chernokozhev",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "UCAM Murcia",
-      "games_tracked": 12,
-      "avg_sdi": 40.9,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 52.3,
-      "min_sdi": 31.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "David Dejulius",
-          "times_top2": 5
-        },
-        {
-          "name": "Kelan Martin",
-          "times_top2": 4
-        },
-        {
-          "name": "Michael Forrest",
-          "times_top2": 4
-        },
-        {
-          "name": "Dylan Ennis",
-          "times_top2": 3
-        },
-        {
-          "name": "Jonah Radebaugh",
           "times_top2": 2
         }
       ]
@@ -20470,33 +20534,65 @@
       ]
     },
     {
-      "team": "Unicaja Malaga",
-      "games_tracked": 9,
+      "team": "Fenerbahce Istanbul",
+      "games_tracked": 44,
       "avg_sdi": 40.8,
-      "avg_top1_pct": 24.4,
-      "max_sdi": 51.2,
-      "min_sdi": 32.4,
+      "avg_top1_pct": 23.5,
+      "max_sdi": 53.0,
+      "min_sdi": 27.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Aleksander Balcerowski",
-          "times_top2": 3
+          "name": "Talen Horton-Tucker",
+          "times_top2": 22
         },
         {
-          "name": "Kendrick Perry",
-          "times_top2": 3
+          "name": "Wade Baldwin",
+          "times_top2": 16
         },
         {
-          "name": "Amine Noua",
-          "times_top2": 3
+          "name": "Nicolo Melli",
+          "times_top2": 7
         },
         {
-          "name": "James Webb",
+          "name": "Tarik Biberovic",
+          "times_top2": 7
+        },
+        {
+          "name": "Shavon Shields",
+          "times_top2": 6
+        }
+      ]
+    },
+    {
+      "team": "Enea Basket Poznan",
+      "games_tracked": 13,
+      "avg_sdi": 40.8,
+      "avg_top1_pct": 22.2,
+      "max_sdi": 50.5,
+      "min_sdi": 34.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Filip Siewruk",
+          "times_top2": 7
+        },
+        {
+          "name": "Devontae Blanton",
+          "times_top2": 5
+        },
+        {
+          "name": "Patryk Stankowski",
+          "times_top2": 4
+        },
+        {
+          "name": "James Washington",
           "times_top2": 2
         },
         {
-          "name": "Ignas Brazdeikis",
+          "name": "Somto Dimanochie",
           "times_top2": 2
         }
       ]
@@ -20690,38 +20786,6 @@
       ]
     },
     {
-      "team": "Charleville Mezieres",
-      "games_tracked": 7,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 23.2,
-      "max_sdi": 60.0,
-      "min_sdi": 31.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Coline Franchelin",
-          "times_top2": 7
-        },
-        {
-          "name": "Vaciana Gomis",
-          "times_top2": 3
-        },
-        {
-          "name": "Noemie Brochant",
-          "times_top2": 2
-        },
-        {
-          "name": "Tiffany Clarke",
-          "times_top2": 1
-        },
-        {
-          "name": "Koi Love",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Tokyo SunRockers",
       "games_tracked": 8,
       "avg_sdi": 40.7,
@@ -20786,38 +20850,6 @@
       ]
     },
     {
-      "team": "La Laguna Tenerife",
-      "games_tracked": 14,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 22.6,
-      "max_sdi": 50.0,
-      "min_sdi": 31.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Marcelinho Huertas",
-          "times_top2": 9
-        },
-        {
-          "name": "Giorgi Shermadini",
-          "times_top2": 4
-        },
-        {
-          "name": "Vince Hunter",
-          "times_top2": 4
-        },
-        {
-          "name": "Kyle Guy",
-          "times_top2": 3
-        },
-        {
-          "name": "Patty Mills",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "Santos de San Luis Potosi",
       "games_tracked": 12,
       "avg_sdi": 40.7,
@@ -20850,38 +20882,6 @@
       ]
     },
     {
-      "team": "Szolnoki Olajbanyasz",
-      "games_tracked": 16,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 22.1,
-      "max_sdi": 48.3,
-      "min_sdi": 29.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Boris Krnjajski",
-          "times_top2": 7
-        },
-        {
-          "name": "Auston Barnes",
-          "times_top2": 4
-        },
-        {
-          "name": "Josh Pierre-Louis",
-          "times_top2": 4
-        },
-        {
-          "name": "Le'tre Darthard",
-          "times_top2": 3
-        },
-        {
-          "name": "Marton Molnar",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "Fraport Skyliners",
       "games_tracked": 15,
       "avg_sdi": 40.7,
@@ -20909,70 +20909,6 @@
         },
         {
           "name": "Radii Caisin",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Kolossos H Hotels",
-      "games_tracked": 8,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 22.0,
-      "max_sdi": 46.4,
-      "min_sdi": 30.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Payton Willis",
-          "times_top2": 3
-        },
-        {
-          "name": "Tevin Mack",
-          "times_top2": 3
-        },
-        {
-          "name": "Giorgos Kamperidis",
-          "times_top2": 2
-        },
-        {
-          "name": "Ezra Manjon",
-          "times_top2": 2
-        },
-        {
-          "name": "Jackson Kreuser",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Acqua S.Bernardo Cantù",
-      "games_tracked": 9,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 22.3,
-      "max_sdi": 56.9,
-      "min_sdi": 32.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Erick Green",
-          "times_top2": 3
-        },
-        {
-          "name": "Oumar Ballo",
-          "times_top2": 3
-        },
-        {
-          "name": "Savion Flagg",
-          "times_top2": 3
-        },
-        {
-          "name": "Xavier Sneed",
-          "times_top2": 2
-        },
-        {
-          "name": "Davide Moretti",
           "times_top2": 2
         }
       ]
@@ -21294,6 +21230,38 @@
       ]
     },
     {
+      "team": "Ciudad Molina",
+      "games_tracked": 7,
+      "avg_sdi": 40.6,
+      "avg_top1_pct": 23.7,
+      "max_sdi": 49.3,
+      "min_sdi": 31.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Juan Ignacio Tavelli",
+          "times_top2": 4
+        },
+        {
+          "name": "Herve Kabasele",
+          "times_top2": 3
+        },
+        {
+          "name": "Carlos Toledo",
+          "times_top2": 2
+        },
+        {
+          "name": "Sergio Romero",
+          "times_top2": 2
+        },
+        {
+          "name": "Andres Duval",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "U-BT Cluj Napoca",
       "games_tracked": 4,
       "avg_sdi": 40.6,
@@ -21482,6 +21450,38 @@
       ]
     },
     {
+      "team": "La Laguna Tenerife",
+      "games_tracked": 18,
+      "avg_sdi": 40.5,
+      "avg_top1_pct": 22.5,
+      "max_sdi": 50.0,
+      "min_sdi": 28.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Marcelinho Huertas",
+          "times_top2": 12
+        },
+        {
+          "name": "Vince Hunter",
+          "times_top2": 6
+        },
+        {
+          "name": "Kyle Guy",
+          "times_top2": 5
+        },
+        {
+          "name": "Giorgi Shermadini",
+          "times_top2": 4
+        },
+        {
+          "name": "Patty Mills",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Bigbank/Kalev",
       "games_tracked": 13,
       "avg_sdi": 40.5,
@@ -21542,38 +21542,6 @@
         {
           "name": "Erikas Venskus",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Tauragė",
-      "games_tracked": 7,
-      "avg_sdi": 40.5,
-      "avg_top1_pct": 22.3,
-      "max_sdi": 51.2,
-      "min_sdi": 33.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "James Blackmon",
-          "times_top2": 4
-        },
-        {
-          "name": "Vaidas Kariniauskas",
-          "times_top2": 3
-        },
-        {
-          "name": "Vitalijus Kozys",
-          "times_top2": 2
-        },
-        {
-          "name": "Andrii Voinalovych",
-          "times_top2": 1
-        },
-        {
-          "name": "Donovan Jackson",
-          "times_top2": 1
         }
       ]
     },
@@ -21702,6 +21670,70 @@
       ]
     },
     {
+      "team": "Kolossos H Hotels",
+      "games_tracked": 9,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 22.2,
+      "max_sdi": 46.4,
+      "min_sdi": 30.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Giorgos Kamperidis",
+          "times_top2": 3
+        },
+        {
+          "name": "Payton Willis",
+          "times_top2": 3
+        },
+        {
+          "name": "Tevin Mack",
+          "times_top2": 3
+        },
+        {
+          "name": "Ezra Manjon",
+          "times_top2": 2
+        },
+        {
+          "name": "Jackson Kreuser",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Tauragė",
+      "games_tracked": 12,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 22.5,
+      "max_sdi": 51.2,
+      "min_sdi": 33.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "James Blackmon",
+          "times_top2": 7
+        },
+        {
+          "name": "Vaidas Kariniauskas",
+          "times_top2": 5
+        },
+        {
+          "name": "Vitalijus Kozys",
+          "times_top2": 3
+        },
+        {
+          "name": "Donovan Jackson",
+          "times_top2": 2
+        },
+        {
+          "name": "Benas Griciunas",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "BK Ventspils",
       "games_tracked": 12,
       "avg_sdi": 40.4,
@@ -21734,33 +21766,33 @@
       ]
     },
     {
-      "team": "Ciudad Molina",
+      "team": "C.B. Moron",
       "games_tracked": 6,
       "avg_sdi": 40.4,
-      "avg_top1_pct": 23.8,
-      "max_sdi": 49.3,
-      "min_sdi": 31.9,
+      "avg_top1_pct": 22.2,
+      "max_sdi": 47.1,
+      "min_sdi": 36.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Herve Kabasele",
-          "times_top2": 3
-        },
-        {
-          "name": "Juan Ignacio Tavelli",
-          "times_top2": 3
-        },
-        {
-          "name": "Carlos Toledo",
+          "name": "Sidney Correia",
           "times_top2": 2
         },
         {
-          "name": "Andres Duval",
+          "name": "Jose Jimenez",
+          "times_top2": 2
+        },
+        {
+          "name": "Javier Marin Ortega",
           "times_top2": 1
         },
         {
-          "name": "Adrian Mendez",
+          "name": "Alejandro Marin",
+          "times_top2": 1
+        },
+        {
+          "name": "Antonio Burgos",
           "times_top2": 1
         }
       ]
@@ -21862,38 +21894,6 @@
       ]
     },
     {
-      "team": "Anadolu Efes Istanbul",
-      "games_tracked": 37,
-      "avg_sdi": 40.3,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 55.3,
-      "min_sdi": 28.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jordan Loyd",
-          "times_top2": 15
-        },
-        {
-          "name": "Sehmus Hazer",
-          "times_top2": 8
-        },
-        {
-          "name": "P.J. Dozier",
-          "times_top2": 7
-        },
-        {
-          "name": "Saben Lee",
-          "times_top2": 5
-        },
-        {
-          "name": "Ercan Osmani",
-          "times_top2": 5
-        }
-      ]
-    },
-    {
       "team": "Vichy",
       "games_tracked": 9,
       "avg_sdi": 40.3,
@@ -21958,65 +21958,129 @@
       ]
     },
     {
-      "team": "Siauliai",
-      "games_tracked": 27,
+      "team": "Basquet Girona",
+      "games_tracked": 18,
       "avg_sdi": 40.3,
-      "avg_top1_pct": 23.4,
-      "max_sdi": 55.4,
-      "min_sdi": 29.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Cedric Henderson",
-          "times_top2": 16
-        },
-        {
-          "name": "Dayvion McKnight",
-          "times_top2": 9
-        },
-        {
-          "name": "Oskaras Pleikys",
-          "times_top2": 6
-        },
-        {
-          "name": "Selim Fofana",
-          "times_top2": 5
-        },
-        {
-          "name": "Dovydas Romancenko",
-          "times_top2": 4
-        }
-      ]
-    },
-    {
-      "team": "Sant Antoni",
-      "games_tracked": 5,
-      "avg_sdi": 40.3,
-      "avg_top1_pct": 23.9,
-      "max_sdi": 48.9,
+      "avg_top1_pct": 23.1,
+      "max_sdi": 53.6,
       "min_sdi": 33.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Kai Andrew Johnson",
+          "name": "Jassel Perez",
+          "times_top2": 9
+        },
+        {
+          "name": "Mac McClung",
+          "times_top2": 8
+        },
+        {
+          "name": "Otis Livingston",
+          "times_top2": 4
+        },
+        {
+          "name": "Derek Needham",
+          "times_top2": 4
+        },
+        {
+          "name": "Martinas Geben",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Szolnoki Olajbanyasz",
+      "games_tracked": 20,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 21.7,
+      "max_sdi": 48.3,
+      "min_sdi": 29.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Boris Krnjajski",
+          "times_top2": 8
+        },
+        {
+          "name": "Auston Barnes",
+          "times_top2": 7
+        },
+        {
+          "name": "Josh Pierre-Louis",
+          "times_top2": 5
+        },
+        {
+          "name": "Marton Molnar",
+          "times_top2": 4
+        },
+        {
+          "name": "Khalil Brantley",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Juventus Utena",
+      "games_tracked": 10,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 23.0,
+      "max_sdi": 47.4,
+      "min_sdi": 34.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Tevian Jones",
+          "times_top2": 6
+        },
+        {
+          "name": "Cameron Reynolds",
+          "times_top2": 4
+        },
+        {
+          "name": "Emmanuel Nzekwesi",
+          "times_top2": 3
+        },
+        {
+          "name": "Laurynas Beliauskas",
           "times_top2": 2
         },
         {
-          "name": "Emil Stoilov",
+          "name": "Jack Pagenkopf",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Logro Basket",
+      "games_tracked": 7,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 23.2,
+      "max_sdi": 50.0,
+      "min_sdi": 29.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Zack Rollins",
+          "times_top2": 3
+        },
+        {
+          "name": "Pape Bocar Sall",
           "times_top2": 2
         },
         {
-          "name": "Jeffrey Solarin",
+          "name": "Alec Jordan Plitzuweit",
+          "times_top2": 2
+        },
+        {
+          "name": "Adrian Naeem Bird-Jelinek",
           "times_top2": 1
         },
         {
-          "name": "Daniel De La Rua",
-          "times_top2": 1
-        },
-        {
-          "name": "Rodrigo Gomez",
+          "name": "Iker Montero",
           "times_top2": 1
         }
       ]
@@ -22146,38 +22210,6 @@
         {
           "name": "Xavier Castaneda",
           "times_top2": 5
-        }
-      ]
-    },
-    {
-      "team": "Charnay",
-      "games_tracked": 8,
-      "avg_sdi": 40.2,
-      "avg_top1_pct": 22.0,
-      "max_sdi": 46.3,
-      "min_sdi": 35.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Maye Toure",
-          "times_top2": 3
-        },
-        {
-          "name": "Alberte Rimdal",
-          "times_top2": 3
-        },
-        {
-          "name": "Laura Ziegler",
-          "times_top2": 2
-        },
-        {
-          "name": "Molly Gmasnoh Kaiser",
-          "times_top2": 2
-        },
-        {
-          "name": "McKenzie Forbes",
-          "times_top2": 2
         }
       ]
     },
@@ -22438,6 +22470,38 @@
       ]
     },
     {
+      "team": "Rytas Vilnius",
+      "games_tracked": 24,
+      "avg_sdi": 40.1,
+      "avg_top1_pct": 22.6,
+      "max_sdi": 60.4,
+      "min_sdi": 27.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jerrick Harding",
+          "times_top2": 8
+        },
+        {
+          "name": "Ignas Sargiunas",
+          "times_top2": 6
+        },
+        {
+          "name": "Arturas Gudaitis",
+          "times_top2": 5
+        },
+        {
+          "name": "Kenneth Smith",
+          "times_top2": 4
+        },
+        {
+          "name": "Augustas Marciulionis",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "San Antonio Spurs",
       "games_tracked": 18,
       "avg_sdi": 40.0,
@@ -22535,33 +22599,129 @@
     },
     {
       "team": "BAXI Manresa",
-      "games_tracked": 15,
+      "games_tracked": 19,
       "avg_sdi": 40.0,
-      "avg_top1_pct": 22.2,
+      "avg_top1_pct": 22.3,
       "max_sdi": 52.6,
       "min_sdi": 30.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
+          "name": "J.D. Notae",
+          "times_top2": 8
+        },
+        {
           "name": "Alejandro Reyes",
           "times_top2": 5
         },
         {
-          "name": "J.D. Notae",
+          "name": "Timmy Allen",
           "times_top2": 5
         },
         {
-          "name": "Timmy Allen",
+          "name": "Nick Ongenda",
           "times_top2": 4
         },
         {
-          "name": "Nick Ongenda",
+          "name": "Pierre Oriola",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Melilla Ciudad Del Deporte 1",
+      "games_tracked": 8,
+      "avg_sdi": 40.0,
+      "avg_top1_pct": 22.7,
+      "max_sdi": 50.0,
+      "min_sdi": 31.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Sebastian Aris Ceccardi",
           "times_top2": 3
         },
         {
-          "name": "Ferran Bassas",
+          "name": "Pa Mor Diene",
+          "times_top2": 3
+        },
+        {
+          "name": "Ivan Cruz",
           "times_top2": 2
+        },
+        {
+          "name": "Jahvaughn Powell",
+          "times_top2": 2
+        },
+        {
+          "name": "Hector Figueroa",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Biele ISB",
+      "games_tracked": 7,
+      "avg_sdi": 40.0,
+      "avg_top1_pct": 24.3,
+      "max_sdi": 45.5,
+      "min_sdi": 36.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Nazir Williams",
+          "times_top2": 4
+        },
+        {
+          "name": "Jordan Matthew Jermain",
+          "times_top2": 3
+        },
+        {
+          "name": "Thierry Sagna",
+          "times_top2": 2
+        },
+        {
+          "name": "Ierai Aizpitarte",
+          "times_top2": 1
+        },
+        {
+          "name": "Adria Moncanut",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Amics Castello",
+      "games_tracked": 7,
+      "avg_sdi": 40.0,
+      "avg_top1_pct": 21.7,
+      "max_sdi": 44.8,
+      "min_sdi": 30.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Ignacio Rosa",
+          "times_top2": 3
+        },
+        {
+          "name": "Gonzalo Iglesias",
+          "times_top2": 3
+        },
+        {
+          "name": "Sesan Russell",
+          "times_top2": 2
+        },
+        {
+          "name": "Roger Fabrega Urpina",
+          "times_top2": 2
+        },
+        {
+          "name": "Pedro Garcia",
+          "times_top2": 1
         }
       ]
     },
@@ -22654,6 +22814,38 @@
         {
           "name": "Jakub Witor Urbaniak",
           "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Anadolu Efes Istanbul",
+      "games_tracked": 41,
+      "avg_sdi": 39.9,
+      "avg_top1_pct": 22.6,
+      "max_sdi": 55.3,
+      "min_sdi": 28.4,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Jordan Loyd",
+          "times_top2": 16
+        },
+        {
+          "name": "Sehmus Hazer",
+          "times_top2": 8
+        },
+        {
+          "name": "P.J. Dozier",
+          "times_top2": 7
+        },
+        {
+          "name": "Ercan Osmani",
+          "times_top2": 6
+        },
+        {
+          "name": "Dario Saric",
+          "times_top2": 6
         }
       ]
     },
@@ -22818,70 +23010,6 @@
       ]
     },
     {
-      "team": "Biele ISB",
-      "games_tracked": 6,
-      "avg_sdi": 39.9,
-      "avg_top1_pct": 24.6,
-      "max_sdi": 45.5,
-      "min_sdi": 36.0,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Nazir Williams",
-          "times_top2": 4
-        },
-        {
-          "name": "Thierry Sagna",
-          "times_top2": 2
-        },
-        {
-          "name": "Jordan Matthew Jermain",
-          "times_top2": 2
-        },
-        {
-          "name": "Ierai Aizpitarte",
-          "times_top2": 1
-        },
-        {
-          "name": "Adria Moncanut",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Logro Basket",
-      "games_tracked": 6,
-      "avg_sdi": 39.9,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 50.0,
-      "min_sdi": 29.6,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Pape Bocar Sall",
-          "times_top2": 2
-        },
-        {
-          "name": "Alec Jordan Plitzuweit",
-          "times_top2": 2
-        },
-        {
-          "name": "Zack Rollins",
-          "times_top2": 2
-        },
-        {
-          "name": "Adrian Naeem Bird-Jelinek",
-          "times_top2": 1
-        },
-        {
-          "name": "Iker Montero",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Golden State Warriors",
       "games_tracked": 18,
       "avg_sdi": 39.8,
@@ -22914,6 +23042,38 @@
       ]
     },
     {
+      "team": "Leyma Coruña",
+      "games_tracked": 12,
+      "avg_sdi": 39.8,
+      "avg_top1_pct": 22.3,
+      "max_sdi": 55.6,
+      "min_sdi": 32.4,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Alonzo Verge",
+          "times_top2": 7
+        },
+        {
+          "name": "Lukas Uleckas",
+          "times_top2": 4
+        },
+        {
+          "name": "Paul Jorgensen",
+          "times_top2": 3
+        },
+        {
+          "name": "Caio Pacheco",
+          "times_top2": 3
+        },
+        {
+          "name": "Tomas Dimsa",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Grupo Alega Cantabria",
       "games_tracked": 7,
       "avg_sdi": 39.8,
@@ -22942,70 +23102,6 @@
         {
           "name": "Reggie Johnson",
           "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Juventus Utena",
-      "games_tracked": 6,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 22.8,
-      "max_sdi": 46.5,
-      "min_sdi": 34.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Tevian Jones",
-          "times_top2": 4
-        },
-        {
-          "name": "Cameron Reynolds",
-          "times_top2": 3
-        },
-        {
-          "name": "Laurynas Beliauskas",
-          "times_top2": 1
-        },
-        {
-          "name": "Chase Hunter",
-          "times_top2": 1
-        },
-        {
-          "name": "Emmanuel Nzekwesi",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Bertram Tortona",
-      "games_tracked": 13,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 54.4,
-      "min_sdi": 33.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Dante Maddox Jr.",
-          "times_top2": 5
-        },
-        {
-          "name": "Christian Vital",
-          "times_top2": 4
-        },
-        {
-          "name": "Prentiss Hubb",
-          "times_top2": 4
-        },
-        {
-          "name": "Justin Gorham",
-          "times_top2": 3
-        },
-        {
-          "name": "Giordano Bortolani",
-          "times_top2": 3
         }
       ]
     },
@@ -23138,66 +23234,66 @@
       ]
     },
     {
-      "team": "Amics Castello",
-      "games_tracked": 6,
-      "avg_sdi": 39.7,
-      "avg_top1_pct": 21.9,
-      "max_sdi": 44.8,
-      "min_sdi": 30.6,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Ignacio Rosa",
-          "times_top2": 3
-        },
-        {
-          "name": "Sesan Russell",
-          "times_top2": 2
-        },
-        {
-          "name": "Roger Fabrega Urpina",
-          "times_top2": 2
-        },
-        {
-          "name": "Gonzalo Iglesias",
-          "times_top2": 2
-        },
-        {
-          "name": "Pedro Garcia",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Apu Old Wild West Udine",
-      "games_tracked": 9,
+      "games_tracked": 13,
       "avg_sdi": 39.7,
-      "avg_top1_pct": 22.2,
+      "avg_top1_pct": 22.4,
       "max_sdi": 48.2,
       "min_sdi": 30.5,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Semaj Christon",
-          "times_top2": 4
-        },
-        {
           "name": "Raequan Battle",
-          "times_top2": 3
+          "times_top2": 5
         },
         {
           "name": "Denzel Valentine",
-          "times_top2": 3
+          "times_top2": 5
+        },
+        {
+          "name": "Semaj Christon",
+          "times_top2": 4
         },
         {
           "name": "Andrea Calzavara",
           "times_top2": 2
         },
         {
-          "name": "Mirza Alibegovic",
-          "times_top2": 1
+          "name": "Nick McGlynn",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Bertram Tortona",
+      "games_tracked": 17,
+      "avg_sdi": 39.7,
+      "avg_top1_pct": 22.7,
+      "max_sdi": 54.4,
+      "min_sdi": 33.7,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Dante Maddox Jr.",
+          "times_top2": 8
+        },
+        {
+          "name": "Prentiss Hubb",
+          "times_top2": 5
+        },
+        {
+          "name": "Giordano Bortolani",
+          "times_top2": 5
+        },
+        {
+          "name": "Christian Vital",
+          "times_top2": 4
+        },
+        {
+          "name": "Justin Gorham",
+          "times_top2": 4
         }
       ]
     },
@@ -23266,34 +23362,34 @@
       ]
     },
     {
-      "team": "Basquet Girona",
-      "games_tracked": 14,
+      "team": "Charleville Mezieres",
+      "games_tracked": 12,
       "avg_sdi": 39.6,
-      "avg_top1_pct": 22.5,
-      "max_sdi": 53.6,
-      "min_sdi": 33.3,
+      "avg_top1_pct": 22.2,
+      "max_sdi": 60.0,
+      "min_sdi": 31.7,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Jassel Perez",
-          "times_top2": 6
+          "name": "Coline Franchelin",
+          "times_top2": 12
         },
         {
-          "name": "Mac McClung",
+          "name": "Vaciana Gomis",
           "times_top2": 5
         },
         {
-          "name": "Otis Livingston",
+          "name": "Noemie Brochant",
           "times_top2": 4
         },
         {
-          "name": "Derek Needham",
-          "times_top2": 4
-        },
-        {
-          "name": "Martinas Geben",
+          "name": "Tiffany Clarke",
           "times_top2": 2
+        },
+        {
+          "name": "Koi Love",
+          "times_top2": 1
         }
       ]
     },
@@ -23362,6 +23458,38 @@
       ]
     },
     {
+      "team": "Siauliai",
+      "games_tracked": 31,
+      "avg_sdi": 39.6,
+      "avg_top1_pct": 22.8,
+      "max_sdi": 55.4,
+      "min_sdi": 29.3,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Cedric Henderson",
+          "times_top2": 17
+        },
+        {
+          "name": "Dayvion McKnight",
+          "times_top2": 9
+        },
+        {
+          "name": "Selim Fofana",
+          "times_top2": 7
+        },
+        {
+          "name": "Oskaras Pleikys",
+          "times_top2": 6
+        },
+        {
+          "name": "Dovydas Romancenko",
+          "times_top2": 5
+        }
+      ]
+    },
+    {
       "team": "Basquet Gandia",
       "games_tracked": 7,
       "avg_sdi": 39.6,
@@ -23426,6 +23554,70 @@
       ]
     },
     {
+      "team": "GKS Tychy",
+      "games_tracked": 13,
+      "avg_sdi": 39.5,
+      "avg_top1_pct": 22.5,
+      "max_sdi": 52.1,
+      "min_sdi": 29.2,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Sebastian Bozenko",
+          "times_top2": 5
+        },
+        {
+          "name": "Damian Jeszke",
+          "times_top2": 5
+        },
+        {
+          "name": "Szymon Kiwilsza",
+          "times_top2": 4
+        },
+        {
+          "name": "Tomasz Snieg",
+          "times_top2": 3
+        },
+        {
+          "name": "Szymon Walski",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Atomeromu SE",
+      "games_tracked": 16,
+      "avg_sdi": 39.5,
+      "avg_top1_pct": 21.8,
+      "max_sdi": 46.3,
+      "min_sdi": 33.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Jay Jay Chandler",
+          "times_top2": 10
+        },
+        {
+          "name": "Szilard Benke",
+          "times_top2": 9
+        },
+        {
+          "name": "Clarence Daniels",
+          "times_top2": 5
+        },
+        {
+          "name": "Deon Edwin",
+          "times_top2": 4
+        },
+        {
+          "name": "Trevon Bluiett",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Telekom Baskets Bonn",
       "games_tracked": 11,
       "avg_sdi": 39.5,
@@ -23453,38 +23645,6 @@
         },
         {
           "name": "Alijah Comithier",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Maxima Roma",
-      "games_tracked": 8,
-      "avg_sdi": 39.5,
-      "avg_top1_pct": 21.0,
-      "max_sdi": 48.9,
-      "min_sdi": 33.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Miro Bilan",
-          "times_top2": 4
-        },
-        {
-          "name": "Mirza Alibegovic",
-          "times_top2": 2
-        },
-        {
-          "name": "Brynton Lemar",
-          "times_top2": 2
-        },
-        {
-          "name": "Xavier Moon",
-          "times_top2": 2
-        },
-        {
-          "name": "Aaron Holiday",
           "times_top2": 2
         }
       ]
@@ -23522,34 +23682,34 @@
       ]
     },
     {
-      "team": "Tezenis Verona",
-      "games_tracked": 13,
+      "team": "Turk Telekom",
+      "games_tracked": 30,
       "avg_sdi": 39.4,
-      "avg_top1_pct": 21.7,
-      "max_sdi": 51.2,
-      "min_sdi": 31.5,
+      "avg_top1_pct": 23.3,
+      "max_sdi": 53.8,
+      "min_sdi": 28.0,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Tyrus McGee",
-          "times_top2": 4
+          "name": "Dogus Ozdemiroglu",
+          "times_top2": 10
         },
         {
-          "name": "Federico Zampini",
-          "times_top2": 4
+          "name": "Jerrick Harding",
+          "times_top2": 10
         },
         {
-          "name": "Mike Tobey",
-          "times_top2": 4
+          "name": "Uros Trifunovic",
+          "times_top2": 7
         },
         {
-          "name": "Andrea Loro",
-          "times_top2": 3
+          "name": "Kyle Allman",
+          "times_top2": 7
         },
         {
-          "name": "Justin Johnson",
-          "times_top2": 3
+          "name": "Jaleen Smith",
+          "times_top2": 5
         }
       ]
     },
@@ -23650,38 +23810,6 @@
       ]
     },
     {
-      "team": "C.B. Moron",
-      "games_tracked": 5,
-      "avg_sdi": 39.4,
-      "avg_top1_pct": 21.9,
-      "max_sdi": 47.1,
-      "min_sdi": 36.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Sidney Correia",
-          "times_top2": 2
-        },
-        {
-          "name": "Javier Marin Ortega",
-          "times_top2": 1
-        },
-        {
-          "name": "Jose Jimenez",
-          "times_top2": 1
-        },
-        {
-          "name": "Alejandro Marin",
-          "times_top2": 1
-        },
-        {
-          "name": "Antonio Burgos",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Real Valladolid",
       "games_tracked": 7,
       "avg_sdi": 39.3,
@@ -23778,70 +23906,6 @@
       ]
     },
     {
-      "team": "Atomeromu SE",
-      "games_tracked": 11,
-      "avg_sdi": 39.2,
-      "avg_top1_pct": 21.6,
-      "max_sdi": 46.0,
-      "min_sdi": 33.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Szilard Benke",
-          "times_top2": 6
-        },
-        {
-          "name": "Jay Jay Chandler",
-          "times_top2": 5
-        },
-        {
-          "name": "Deon Edwin",
-          "times_top2": 4
-        },
-        {
-          "name": "Clarence Daniels",
-          "times_top2": 3
-        },
-        {
-          "name": "Trevon Bluiett",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Fribourg Olympic",
-      "games_tracked": 11,
-      "avg_sdi": 39.2,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 57.8,
-      "min_sdi": 24.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Boris Mbala",
-          "times_top2": 4
-        },
-        {
-          "name": "Adrien Moerman",
-          "times_top2": 4
-        },
-        {
-          "name": "Bryan Colon Heredia",
-          "times_top2": 2
-        },
-        {
-          "name": "Massimiliano Dell'acqua",
-          "times_top2": 2
-        },
-        {
-          "name": "Izan Le Meut",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
       "team": "CSM Corona Brasov",
       "games_tracked": 5,
       "avg_sdi": 39.2,
@@ -23906,66 +23970,34 @@
       ]
     },
     {
-      "team": "Turk Telekom",
-      "games_tracked": 26,
+      "team": "WKK Wroclaw",
+      "games_tracked": 12,
       "avg_sdi": 39.1,
-      "avg_top1_pct": 22.6,
-      "max_sdi": 53.8,
-      "min_sdi": 28.0,
+      "avg_top1_pct": 21.2,
+      "max_sdi": 45.4,
+      "min_sdi": 33.3,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Dogus Ozdemiroglu",
-          "times_top2": 8
-        },
-        {
-          "name": "Kyle Allman",
-          "times_top2": 7
-        },
-        {
-          "name": "Jerrick Harding",
-          "times_top2": 7
-        },
-        {
-          "name": "Uros Trifunovic",
+          "name": "Brad Waldow",
           "times_top2": 6
         },
         {
-          "name": "Jaleen Smith",
-          "times_top2": 5
-        }
-      ]
-    },
-    {
-      "team": "FC Barcelona",
-      "games_tracked": 29,
-      "avg_sdi": 39.1,
-      "avg_top1_pct": 22.2,
-      "max_sdi": 55.0,
-      "min_sdi": 28.1,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Kevin Punter",
-          "times_top2": 15
-        },
-        {
-          "name": "Will Clyburn",
-          "times_top2": 9
-        },
-        {
-          "name": "Dario Brizuela",
-          "times_top2": 5
-        },
-        {
-          "name": "Tornike Shengelia",
-          "times_top2": 5
-        },
-        {
-          "name": "Jan Vesely",
+          "name": "Mateusz Orlowski",
           "times_top2": 4
+        },
+        {
+          "name": "Jakub Galewski",
+          "times_top2": 3
+        },
+        {
+          "name": "Michal Jedrzejewski",
+          "times_top2": 3
+        },
+        {
+          "name": "Maksymilian Zagorski",
+          "times_top2": 2
         }
       ]
     },
@@ -24030,38 +24062,6 @@
         {
           "name": "Gyasi Powell",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Leyma Coruña",
-      "games_tracked": 8,
-      "avg_sdi": 39.0,
-      "avg_top1_pct": 21.7,
-      "max_sdi": 55.6,
-      "min_sdi": 32.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Alonzo Verge",
-          "times_top2": 4
-        },
-        {
-          "name": "Caio Pacheco",
-          "times_top2": 3
-        },
-        {
-          "name": "Lukas Uleckas",
-          "times_top2": 2
-        },
-        {
-          "name": "Paul Jorgensen",
-          "times_top2": 2
-        },
-        {
-          "name": "George Conditt",
-          "times_top2": 1
         }
       ]
     },
@@ -24226,38 +24226,6 @@
       ]
     },
     {
-      "team": "Melilla Ciudad Del Deporte 1",
-      "games_tracked": 7,
-      "avg_sdi": 38.9,
-      "avg_top1_pct": 21.8,
-      "max_sdi": 50.0,
-      "min_sdi": 31.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Sebastian Aris Ceccardi",
-          "times_top2": 3
-        },
-        {
-          "name": "Ivan Cruz",
-          "times_top2": 2
-        },
-        {
-          "name": "Jahvaughn Powell",
-          "times_top2": 2
-        },
-        {
-          "name": "Pa Mor Diene",
-          "times_top2": 2
-        },
-        {
-          "name": "Sergio Rodriguez Febles",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Split",
       "games_tracked": 12,
       "avg_sdi": 38.9,
@@ -24290,66 +24258,34 @@
       ]
     },
     {
-      "team": "Bahcesehir",
-      "games_tracked": 26,
-      "avg_sdi": 38.8,
-      "avg_top1_pct": 21.3,
-      "max_sdi": 51.9,
-      "min_sdi": 28.7,
+      "team": "Fribourg Olympic",
+      "games_tracked": 15,
+      "avg_sdi": 38.9,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 57.8,
+      "min_sdi": 24.5,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Malachi Flynn",
-          "times_top2": 13
-        },
-        {
-          "name": "Tyler Cavanaugh",
-          "times_top2": 8
-        },
-        {
-          "name": "Caleb Homesley",
-          "times_top2": 8
-        },
-        {
-          "name": "Hunter Hale",
+          "name": "Boris Mbala",
           "times_top2": 6
         },
         {
-          "name": "Marcquise Reed",
+          "name": "Adrien Moerman",
+          "times_top2": 6
+        },
+        {
+          "name": "Izan Le Meut",
           "times_top2": 4
-        }
-      ]
-    },
-    {
-      "team": "WKK Wroclaw",
-      "games_tracked": 8,
-      "avg_sdi": 38.8,
-      "avg_top1_pct": 21.2,
-      "max_sdi": 45.4,
-      "min_sdi": 33.3,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
+        },
         {
-          "name": "Jakub Galewski",
+          "name": "Massimiliano Dell'acqua",
           "times_top2": 3
         },
         {
-          "name": "Brad Waldow",
-          "times_top2": 3
-        },
-        {
-          "name": "Michal Jedrzejewski",
+          "name": "Bryan Colon Heredia",
           "times_top2": 2
-        },
-        {
-          "name": "Mateusz Orlowski",
-          "times_top2": 2
-        },
-        {
-          "name": "Fryderyk Matusiak",
-          "times_top2": 1
         }
       ]
     },
@@ -24450,6 +24386,38 @@
       ]
     },
     {
+      "team": "Maxima Roma",
+      "games_tracked": 12,
+      "avg_sdi": 38.8,
+      "avg_top1_pct": 20.7,
+      "max_sdi": 48.9,
+      "min_sdi": 33.3,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Miro Bilan",
+          "times_top2": 5
+        },
+        {
+          "name": "Xavier Moon",
+          "times_top2": 4
+        },
+        {
+          "name": "Mirza Alibegovic",
+          "times_top2": 3
+        },
+        {
+          "name": "Brynton Lemar",
+          "times_top2": 3
+        },
+        {
+          "name": "Aaron Holiday",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Memphis Grizzlies",
       "games_tracked": 19,
       "avg_sdi": 38.7,
@@ -24510,6 +24478,38 @@
         {
           "name": "Ben Kovac",
           "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Tezenis Verona",
+      "games_tracked": 17,
+      "avg_sdi": 38.7,
+      "avg_top1_pct": 21.1,
+      "max_sdi": 51.2,
+      "min_sdi": 31.5,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Mike Tobey",
+          "times_top2": 7
+        },
+        {
+          "name": "Federico Zampini",
+          "times_top2": 5
+        },
+        {
+          "name": "Tyrus McGee",
+          "times_top2": 4
+        },
+        {
+          "name": "Andrea Loro",
+          "times_top2": 3
+        },
+        {
+          "name": "Justin Johnson",
+          "times_top2": 3
         }
       ]
     },
@@ -24578,6 +24578,70 @@
       ]
     },
     {
+      "team": "Bahcesehir",
+      "games_tracked": 30,
+      "avg_sdi": 38.6,
+      "avg_top1_pct": 21.3,
+      "max_sdi": 51.9,
+      "min_sdi": 28.7,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Malachi Flynn",
+          "times_top2": 15
+        },
+        {
+          "name": "Tyler Cavanaugh",
+          "times_top2": 8
+        },
+        {
+          "name": "Caleb Homesley",
+          "times_top2": 8
+        },
+        {
+          "name": "Hunter Hale",
+          "times_top2": 6
+        },
+        {
+          "name": "Marcquise Reed",
+          "times_top2": 6
+        }
+      ]
+    },
+    {
+      "team": "FC Barcelona",
+      "games_tracked": 33,
+      "avg_sdi": 38.6,
+      "avg_top1_pct": 21.9,
+      "max_sdi": 55.0,
+      "min_sdi": 28.1,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Kevin Punter",
+          "times_top2": 17
+        },
+        {
+          "name": "Will Clyburn",
+          "times_top2": 9
+        },
+        {
+          "name": "Justin Robinson",
+          "times_top2": 6
+        },
+        {
+          "name": "Dario Brizuela",
+          "times_top2": 5
+        },
+        {
+          "name": "Tornike Shengelia",
+          "times_top2": 5
+        }
+      ]
+    },
+    {
       "team": "CB Zamora",
       "games_tracked": 7,
       "avg_sdi": 38.6,
@@ -24610,66 +24674,34 @@
       ]
     },
     {
-      "team": "Falco Szombathely",
-      "games_tracked": 12,
+      "team": "Baloncesto Toledo",
+      "games_tracked": 8,
       "avg_sdi": 38.6,
-      "avg_top1_pct": 22.1,
-      "max_sdi": 48.6,
-      "min_sdi": 29.2,
+      "avg_top1_pct": 22.0,
+      "max_sdi": 51.5,
+      "min_sdi": 33.7,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Zoltan Perl",
-          "times_top2": 10
+          "name": "Sergio Mendiola",
+          "times_top2": 4
         },
         {
-          "name": "Patrick Whelan",
-          "times_top2": 3
-        },
-        {
-          "name": "Aleksa Novakovic",
+          "name": "Alejandro Harguindey",
           "times_top2": 2
         },
         {
-          "name": "Benedek Varadi",
+          "name": "Miguel Serrano",
           "times_top2": 2
         },
         {
-          "name": "Dez Tanoh",
+          "name": "Daniel Abreu",
+          "times_top2": 2
+        },
+        {
+          "name": "Fernando Sierra",
           "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Napolibasket",
-      "games_tracked": 12,
-      "avg_sdi": 38.6,
-      "avg_top1_pct": 21.5,
-      "max_sdi": 50.0,
-      "min_sdi": 30.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Jeff Dowtin",
-          "times_top2": 7
-        },
-        {
-          "name": "Andrej Jakimovski",
-          "times_top2": 3
-        },
-        {
-          "name": "Rasir Bolton",
-          "times_top2": 2
-        },
-        {
-          "name": "Leonardo Tote",
-          "times_top2": 2
-        },
-        {
-          "name": "Markel Brown",
-          "times_top2": 2
         }
       ]
     },
@@ -24702,38 +24734,6 @@
         {
           "name": "Ayo Dosunmu\n                        \n\n                            F",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Baskonia Vitoria-Gasteiz",
-      "games_tracked": 27,
-      "avg_sdi": 38.5,
-      "avg_top1_pct": 21.5,
-      "max_sdi": 53.4,
-      "min_sdi": 26.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Trent Forrest",
-          "times_top2": 8
-        },
-        {
-          "name": "Timothe Luwawu-Cabarrot",
-          "times_top2": 8
-        },
-        {
-          "name": "A.J. Lawson",
-          "times_top2": 6
-        },
-        {
-          "name": "Kobi Simmons",
-          "times_top2": 5
-        },
-        {
-          "name": "Mamadi Diakite",
-          "times_top2": 5
         }
       ]
     },
@@ -24898,38 +24898,6 @@
       ]
     },
     {
-      "team": "Galatasaray",
-      "games_tracked": 23,
-      "avg_sdi": 38.2,
-      "avg_top1_pct": 20.8,
-      "max_sdi": 47.8,
-      "min_sdi": 27.3,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "James Palmer",
-          "times_top2": 7
-        },
-        {
-          "name": "Errick McCollum",
-          "times_top2": 7
-        },
-        {
-          "name": "Can Korkmaz",
-          "times_top2": 5
-        },
-        {
-          "name": "Jerome Robinson",
-          "times_top2": 5
-        },
-        {
-          "name": "Sehmus Hazer",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
       "team": "Besiktas S.J.",
       "games_tracked": 17,
       "avg_sdi": 38.2,
@@ -24957,38 +24925,6 @@
         },
         {
           "name": "Brynton Lemar",
-          "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Armani Olimpia Milan",
-      "games_tracked": 12,
-      "avg_sdi": 38.2,
-      "avg_top1_pct": 21.4,
-      "max_sdi": 44.7,
-      "min_sdi": 29.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Moses Wright",
-          "times_top2": 4
-        },
-        {
-          "name": "Marko Guduric",
-          "times_top2": 3
-        },
-        {
-          "name": "Alec Peters",
-          "times_top2": 3
-        },
-        {
-          "name": "Devon Hall",
-          "times_top2": 3
-        },
-        {
-          "name": "Garrison Mathews",
           "times_top2": 3
         }
       ]
@@ -25122,6 +25058,38 @@
       ]
     },
     {
+      "team": "Monbus Obradoiro",
+      "games_tracked": 11,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 21.0,
+      "max_sdi": 46.1,
+      "min_sdi": 32.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Joel Soriano",
+          "times_top2": 4
+        },
+        {
+          "name": "Caleb Agada",
+          "times_top2": 4
+        },
+        {
+          "name": "Yunio Barrueta",
+          "times_top2": 4
+        },
+        {
+          "name": "Brandon Childress",
+          "times_top2": 3
+        },
+        {
+          "name": "Alex Barcello",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Súper Agropal Palencia",
       "games_tracked": 3,
       "avg_sdi": 37.9,
@@ -25150,8 +25118,104 @@
       ]
     },
     {
+      "team": "Armani Olimpia Milan",
+      "games_tracked": 16,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 21.0,
+      "max_sdi": 44.7,
+      "min_sdi": 29.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Garrison Mathews",
+          "times_top2": 5
+        },
+        {
+          "name": "Jason Burnell",
+          "times_top2": 5
+        },
+        {
+          "name": "Marko Guduric",
+          "times_top2": 4
+        },
+        {
+          "name": "Moses Wright",
+          "times_top2": 4
+        },
+        {
+          "name": "R.J. Cole",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
+      "team": "Ilirija",
+      "games_tracked": 20,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 20.6,
+      "max_sdi": 45.1,
+      "min_sdi": 26.4,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Robert Jurkovic",
+          "times_top2": 8
+        },
+        {
+          "name": "Wendell Green",
+          "times_top2": 6
+        },
+        {
+          "name": "Mark Padjen",
+          "times_top2": 4
+        },
+        {
+          "name": "Boban Marjanovic",
+          "times_top2": 3
+        },
+        {
+          "name": "Tim Tomazic",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Galatasaray",
+      "games_tracked": 27,
+      "avg_sdi": 37.8,
+      "avg_top1_pct": 20.3,
+      "max_sdi": 47.8,
+      "min_sdi": 27.3,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "James Palmer",
+          "times_top2": 7
+        },
+        {
+          "name": "Errick McCollum",
+          "times_top2": 7
+        },
+        {
+          "name": "Sehmus Hazer",
+          "times_top2": 6
+        },
+        {
+          "name": "Can Korkmaz",
+          "times_top2": 5
+        },
+        {
+          "name": "Jerome Robinson",
+          "times_top2": 5
+        }
+      ]
+    },
+    {
       "team": "LKS Lodz",
-      "games_tracked": 9,
+      "games_tracked": 13,
       "avg_sdi": 37.8,
       "avg_top1_pct": 21.2,
       "max_sdi": 50.0,
@@ -25160,56 +25224,56 @@
       "risk_label": "BALANCED",
       "top_players": [
         {
+          "name": "Marcel Ponitka",
+          "times_top2": 6
+        },
+        {
+          "name": "Jalen Sullinger",
+          "times_top2": 5
+        },
+        {
           "name": "Jaquan Carlos",
           "times_top2": 3
         },
         {
-          "name": "Marcel Ponitka",
+          "name": "Michal Kolodziej",
           "times_top2": 3
         },
         {
-          "name": "Chauncey Collins",
-          "times_top2": 2
-        },
-        {
-          "name": "Michal Kolodziej",
-          "times_top2": 2
-        },
-        {
           "name": "Artur Łabinowicz",
-          "times_top2": 2
+          "times_top2": 3
         }
       ]
     },
     {
-      "team": "Zalgiris Kaunas",
-      "games_tracked": 40,
+      "team": "Baskonia Vitoria-Gasteiz",
+      "games_tracked": 31,
       "avg_sdi": 37.8,
-      "avg_top1_pct": 21.1,
-      "max_sdi": 55.1,
-      "min_sdi": 27.6,
+      "avg_top1_pct": 21.2,
+      "max_sdi": 53.4,
+      "min_sdi": 26.5,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Moses Wright",
-          "times_top2": 10
-        },
-        {
-          "name": "Sylvain Francisco",
+          "name": "Trent Forrest",
           "times_top2": 8
         },
         {
-          "name": "Dustin Sleva",
+          "name": "Timothe Luwawu-Cabarrot",
+          "times_top2": 8
+        },
+        {
+          "name": "A.J. Lawson",
           "times_top2": 7
         },
         {
-          "name": "Jonas Valanciunas",
-          "times_top2": 7
+          "name": "Kobi Simmons",
+          "times_top2": 6
         },
         {
-          "name": "Deividas Sirvydis",
-          "times_top2": 7
+          "name": "Chris Duarte",
+          "times_top2": 6
         }
       ]
     },
@@ -25278,66 +25342,34 @@
       ]
     },
     {
-      "team": "Monbus Obradoiro",
-      "games_tracked": 7,
+      "team": "Zalgiris Kaunas",
+      "games_tracked": 44,
       "avg_sdi": 37.7,
-      "avg_top1_pct": 20.5,
-      "max_sdi": 45.7,
-      "min_sdi": 32.9,
+      "avg_top1_pct": 21.1,
+      "max_sdi": 55.1,
+      "min_sdi": 27.6,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Yunio Barrueta",
-          "times_top2": 3
+          "name": "Moses Wright",
+          "times_top2": 10
         },
         {
-          "name": "Brandon Childress",
-          "times_top2": 2
+          "name": "Jonas Valanciunas",
+          "times_top2": 9
         },
         {
-          "name": "Joel Soriano",
-          "times_top2": 2
-        },
-        {
-          "name": "Caleb Agada",
-          "times_top2": 2
-        },
-        {
-          "name": "Alex Barcello",
-          "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Ilirija",
-      "games_tracked": 19,
-      "avg_sdi": 37.7,
-      "avg_top1_pct": 20.4,
-      "max_sdi": 45.1,
-      "min_sdi": 26.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Robert Jurkovic",
+          "name": "Sylvain Francisco",
           "times_top2": 8
         },
         {
-          "name": "Wendell Green",
-          "times_top2": 6
+          "name": "Deividas Sirvydis",
+          "times_top2": 8
         },
         {
-          "name": "Mark Padjen",
-          "times_top2": 4
-        },
-        {
-          "name": "Boban Marjanovic",
-          "times_top2": 3
-        },
-        {
-          "name": "Tim Tomazic",
-          "times_top2": 3
+          "name": "Dustin Sleva",
+          "times_top2": 7
         }
       ]
     },
@@ -25438,42 +25470,10 @@
       ]
     },
     {
-      "team": "Baloncesto Toledo",
-      "games_tracked": 7,
-      "avg_sdi": 37.6,
-      "avg_top1_pct": 21.1,
-      "max_sdi": 51.5,
-      "min_sdi": 33.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Sergio Mendiola",
-          "times_top2": 4
-        },
-        {
-          "name": "Miguel Serrano",
-          "times_top2": 2
-        },
-        {
-          "name": "Daniel Abreu",
-          "times_top2": 2
-        },
-        {
-          "name": "Fernando Sierra",
-          "times_top2": 1
-        },
-        {
-          "name": "Tiago Teixeira",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Jaen Paraiso Interior FS",
-      "games_tracked": 3,
+      "games_tracked": 4,
       "avg_sdi": 37.6,
-      "avg_top1_pct": 21.8,
+      "avg_top1_pct": 21.2,
       "max_sdi": 44.0,
       "min_sdi": 29.4,
       "risk": "GREEN",
@@ -25484,11 +25484,11 @@
           "times_top2": 2
         },
         {
-          "name": "Joaquin Cebolla Herrera",
-          "times_top2": 1
+          "name": "Curtis Larousse",
+          "times_top2": 2
         },
         {
-          "name": "Curtis Larousse",
+          "name": "Joaquin Cebolla Herrera",
           "times_top2": 1
         },
         {
@@ -25662,6 +25662,38 @@
       ]
     },
     {
+      "team": "Napolibasket",
+      "games_tracked": 16,
+      "avg_sdi": 37.4,
+      "avg_top1_pct": 20.6,
+      "max_sdi": 50.0,
+      "min_sdi": 28.3,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Jeff Dowtin",
+          "times_top2": 10
+        },
+        {
+          "name": "Andrej Jakimovski",
+          "times_top2": 4
+        },
+        {
+          "name": "Jahmi'us Ramsey",
+          "times_top2": 3
+        },
+        {
+          "name": "Markel Brown",
+          "times_top2": 3
+        },
+        {
+          "name": "Rasir Bolton",
+          "times_top2": 2
+        }
+      ]
+    },
+    {
       "team": "Brooklyn Nets",
       "games_tracked": 17,
       "avg_sdi": 37.3,
@@ -25694,33 +25726,33 @@
       ]
     },
     {
-      "team": "GKS Tychy",
-      "games_tracked": 9,
+      "team": "Falco Szombathely",
+      "games_tracked": 17,
       "avg_sdi": 37.3,
-      "avg_top1_pct": 21.1,
-      "max_sdi": 52.1,
+      "avg_top1_pct": 21.2,
+      "max_sdi": 48.6,
       "min_sdi": 29.2,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Sebastian Bozenko",
-          "times_top2": 3
+          "name": "Zoltan Perl",
+          "times_top2": 13
         },
         {
-          "name": "Szymon Kiwilsza",
-          "times_top2": 3
+          "name": "Patrick Whelan",
+          "times_top2": 4
         },
         {
-          "name": "Damian Jeszke",
-          "times_top2": 3
+          "name": "Benedek Varadi",
+          "times_top2": 4
         },
         {
-          "name": "Szymon Walski",
+          "name": "Aleksa Novakovic",
           "times_top2": 2
         },
         {
-          "name": "Tomasz Snieg",
+          "name": "Joshua Patton",
           "times_top2": 2
         }
       ]
@@ -25822,6 +25854,38 @@
       ]
     },
     {
+      "team": "Besiktas Istanbul",
+      "games_tracked": 16,
+      "avg_sdi": 37.0,
+      "avg_top1_pct": 20.9,
+      "max_sdi": 43.2,
+      "min_sdi": 30.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Jaylen Nowell",
+          "times_top2": 7
+        },
+        {
+          "name": "Eugene Omoruyi",
+          "times_top2": 6
+        },
+        {
+          "name": "Anthony Brown",
+          "times_top2": 4
+        },
+        {
+          "name": "Scottie Wilbekin",
+          "times_top2": 4
+        },
+        {
+          "name": "David Dejulius",
+          "times_top2": 3
+        }
+      ]
+    },
+    {
       "team": "Bamberg Baskets",
       "games_tracked": 13,
       "avg_sdi": 37.0,
@@ -25914,38 +25978,6 @@
         {
           "name": "Gora Camara",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Besiktas Istanbul",
-      "games_tracked": 12,
-      "avg_sdi": 36.9,
-      "avg_top1_pct": 20.6,
-      "max_sdi": 43.2,
-      "min_sdi": 30.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Jaylen Nowell",
-          "times_top2": 5
-        },
-        {
-          "name": "Eugene Omoruyi",
-          "times_top2": 4
-        },
-        {
-          "name": "Scottie Wilbekin",
-          "times_top2": 4
-        },
-        {
-          "name": "Anthony Brown",
-          "times_top2": 3
-        },
-        {
-          "name": "Ante Zizic",
-          "times_top2": 2
         }
       ]
     },
@@ -26046,34 +26078,34 @@
       ]
     },
     {
-      "team": "Valencia Basket",
-      "games_tracked": 29,
+      "team": "Rio Breogan",
+      "games_tracked": 14,
       "avg_sdi": 36.8,
-      "avg_top1_pct": 21.2,
-      "max_sdi": 51.1,
-      "min_sdi": 27.0,
+      "avg_top1_pct": 20.6,
+      "max_sdi": 42.2,
+      "min_sdi": 27.3,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Jean Claudio Montero",
-          "times_top2": 10
+          "name": "Dominik Mavra",
+          "times_top2": 5
         },
         {
-          "name": "Brancou Badio",
-          "times_top2": 8
+          "name": "Francis Alonso",
+          "times_top2": 5
         },
         {
-          "name": "T.J. Shorts",
-          "times_top2": 8
+          "name": "Tevin Brown",
+          "times_top2": 4
         },
         {
-          "name": "Kameron Taylor",
-          "times_top2": 6
+          "name": "Mihajlo Andric",
+          "times_top2": 3
         },
         {
-          "name": "Nikola Mirotic",
-          "times_top2": 6
+          "name": "Francisco Alonso",
+          "times_top2": 3
         }
       ]
     },
@@ -26110,34 +26142,34 @@
       ]
     },
     {
-      "team": "Surne Bilbao",
-      "games_tracked": 11,
+      "team": "Valencia Basket",
+      "games_tracked": 33,
       "avg_sdi": 36.7,
-      "avg_top1_pct": 20.9,
-      "max_sdi": 58.9,
-      "min_sdi": 29.8,
+      "avg_top1_pct": 21.1,
+      "max_sdi": 51.1,
+      "min_sdi": 27.0,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Darrun Hilliard",
+          "name": "T.J. Shorts",
+          "times_top2": 11
+        },
+        {
+          "name": "Jean Claudio Montero",
+          "times_top2": 10
+        },
+        {
+          "name": "Brancou Badio",
           "times_top2": 8
         },
         {
-          "name": "Margiris Normantas",
-          "times_top2": 3
+          "name": "Nikola Mirotic",
+          "times_top2": 7
         },
         {
-          "name": "Tryggvi Hlinason",
-          "times_top2": 2
-        },
-        {
-          "name": "Melwin Pantzar",
-          "times_top2": 2
-        },
-        {
-          "name": "Harald Frey",
-          "times_top2": 2
+          "name": "Armoni Brooks",
+          "times_top2": 7
         }
       ]
     },
@@ -26238,6 +26270,38 @@
       ]
     },
     {
+      "team": "Virtus Bologna",
+      "games_tracked": 16,
+      "avg_sdi": 36.6,
+      "avg_top1_pct": 20.3,
+      "max_sdi": 44.9,
+      "min_sdi": 29.6,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Marcus Carr",
+          "times_top2": 7
+        },
+        {
+          "name": "Derrick Alston",
+          "times_top2": 7
+        },
+        {
+          "name": "Trent Frazier",
+          "times_top2": 6
+        },
+        {
+          "name": "Aliou Diarra",
+          "times_top2": 4
+        },
+        {
+          "name": "Wendell Moore",
+          "times_top2": 4
+        }
+      ]
+    },
+    {
       "team": "VET-CONCEPT Gladiators Trier",
       "games_tracked": 17,
       "avg_sdi": 36.6,
@@ -26298,38 +26362,6 @@
         {
           "name": "T.J. Campbell",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Virtus Bologna",
-      "games_tracked": 12,
-      "avg_sdi": 36.5,
-      "avg_top1_pct": 20.1,
-      "max_sdi": 43.2,
-      "min_sdi": 29.6,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Derrick Alston",
-          "times_top2": 6
-        },
-        {
-          "name": "Marcus Carr",
-          "times_top2": 5
-        },
-        {
-          "name": "Aliou Diarra",
-          "times_top2": 4
-        },
-        {
-          "name": "Wendell Moore",
-          "times_top2": 3
-        },
-        {
-          "name": "Trent Frazier",
-          "times_top2": 3
         }
       ]
     },
@@ -26454,22 +26486,54 @@
       ]
     },
     {
+      "team": "Maderas Sorli Benicarlo",
+      "games_tracked": 7,
+      "avg_sdi": 36.1,
+      "avg_top1_pct": 19.7,
+      "max_sdi": 42.0,
+      "min_sdi": 29.2,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Nikola Rakocevic",
+          "times_top2": 2
+        },
+        {
+          "name": "Anthony Libroia",
+          "times_top2": 2
+        },
+        {
+          "name": "David Orrit",
+          "times_top2": 2
+        },
+        {
+          "name": "Aleix Haro",
+          "times_top2": 1
+        },
+        {
+          "name": "Amadi Ikpeze",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Real Madrid",
-      "games_tracked": 30,
-      "avg_sdi": 35.9,
-      "avg_top1_pct": 20.1,
+      "games_tracked": 34,
+      "avg_sdi": 36.0,
+      "avg_top1_pct": 20.0,
       "max_sdi": 50.4,
       "min_sdi": 25.8,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Mario Hezonja",
-          "times_top2": 11
+          "name": "Theo Maledon",
+          "times_top2": 12
         },
         {
-          "name": "Theo Maledon",
-          "times_top2": 10
+          "name": "Mario Hezonja",
+          "times_top2": 11
         },
         {
           "name": "Facundo Campazzo",
@@ -26477,7 +26541,7 @@
         },
         {
           "name": "Andres Feliz",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Walter Tavares",
@@ -26518,66 +26582,66 @@
       ]
     },
     {
-      "team": "Maderas Sorli Benicarlo",
-      "games_tracked": 6,
-      "avg_sdi": 35.7,
-      "avg_top1_pct": 19.4,
-      "max_sdi": 42.0,
-      "min_sdi": 29.2,
+      "team": "Surne Bilbao",
+      "games_tracked": 15,
+      "avg_sdi": 35.5,
+      "avg_top1_pct": 20.0,
+      "max_sdi": 58.9,
+      "min_sdi": 29.8,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Nikola Rakocevic",
+          "name": "Darrun Hilliard",
+          "times_top2": 11
+        },
+        {
+          "name": "Margiris Normantas",
+          "times_top2": 5
+        },
+        {
+          "name": "Luke Petrasek",
+          "times_top2": 3
+        },
+        {
+          "name": "Tryggvi Hlinason",
           "times_top2": 2
         },
         {
-          "name": "Anthony Libroia",
+          "name": "Melwin Pantzar",
           "times_top2": 2
-        },
-        {
-          "name": "Aleix Haro",
-          "times_top2": 1
-        },
-        {
-          "name": "Amadi Ikpeze",
-          "times_top2": 1
-        },
-        {
-          "name": "Pablo Harguindey Maneiro",
-          "times_top2": 1
         }
       ]
     },
     {
-      "team": "Rio Breogan",
-      "games_tracked": 10,
+      "team": "Algeciras",
+      "games_tracked": 4,
       "avg_sdi": 35.3,
-      "avg_top1_pct": 19.6,
-      "max_sdi": 42.2,
-      "min_sdi": 27.3,
+      "avg_top1_pct": 19.8,
+      "max_sdi": 40.8,
+      "min_sdi": 29.9,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Dominik Mavra",
-          "times_top2": 4
-        },
-        {
-          "name": "Mihajlo Andric",
-          "times_top2": 3
-        },
-        {
-          "name": "Francisco Alonso",
-          "times_top2": 3
-        },
-        {
-          "name": "Keandre Cook",
+          "name": "Bernardo Garcia",
           "times_top2": 2
         },
         {
-          "name": "Rasir Bolton",
+          "name": "David Ramirez Sanchez",
           "times_top2": 2
+        },
+        {
+          "name": "Alberto Artiles",
+          "times_top2": 1
+        },
+        {
+          "name": "Alejandro Marin",
+          "times_top2": 1
+        },
+        {
+          "name": "Treydel Ross Fields",
+          "times_top2": 1
         }
       ]
     },
@@ -26730,38 +26794,6 @@
         {
           "name": "Shamar Wright",
           "times_top2": 2
-        }
-      ]
-    },
-    {
-      "team": "Algeciras",
-      "games_tracked": 3,
-      "avg_sdi": 33.5,
-      "avg_top1_pct": 17.4,
-      "max_sdi": 36.7,
-      "min_sdi": 29.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Bernardo Garcia",
-          "times_top2": 2
-        },
-        {
-          "name": "Alberto Artiles",
-          "times_top2": 1
-        },
-        {
-          "name": "David Ramirez Sanchez",
-          "times_top2": 1
-        },
-        {
-          "name": "Alejandro Marin",
-          "times_top2": 1
-        },
-        {
-          "name": "Treydel Ross Fields",
-          "times_top2": 1
         }
       ]
     },
