@@ -331,7 +331,13 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (filterWomen === 'men'   &&  isWomensLeague(p.league)) return false
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
-    if (decision !== 'all' && pDecision !== decision) return false
+    if (decision !== 'all') {
+      if (sport === 'basketball' && decision === 'plays') {
+        if (pDecision !== 'PLAY OVER' && pDecision !== 'PLAY UNDER') return false
+      } else if (pDecision !== decision) {
+        return false
+      }
+    }
     if (outcome !== 'all' && p.outcome_decision && !p.outcome_decision.startsWith(outcome)) return false
     if (outcome !== 'all' && !p.outcome_decision) return false
     
@@ -936,6 +942,14 @@ export default function App() {
                 <option value="[NEUTRAL]">🟡 Neutral (16–27)</option>
                 <option value="[MARGINAL]">🟠 Marginal (1–15)</option>
                 <option value="[AVOID]">⛔ Avoid (0 pts)</option>
+              </select>
+
+              <select className="filter-select" style={{ width: '165px' }} value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
+                <option value="all">MBET Edge: All</option>
+                <option value="plays">🎯 Plays (Clears MBET)</option>
+                <option value="PLAY OVER">🟢 PLAY OVER</option>
+                <option value="PLAY UNDER">🔴 PLAY UNDER</option>
+                <option value="PASS">⚪ PASS / Below MBET</option>
               </select>
 
               <select
