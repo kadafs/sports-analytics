@@ -1,11 +1,36 @@
 {
   "dates": [
     {
-      "date": "2026-10-29_v2",
-      "total": 78,
+      "date": "2026-10-31_v2",
+      "total": 333,
       "graded": false,
       "graded_count": 0,
       "grade_summary": null
+    },
+    {
+      "date": "2026-10-30_v2",
+      "total": 121,
+      "graded": false,
+      "graded_count": 0,
+      "grade_summary": null
+    },
+    {
+      "date": "2026-10-29_v2",
+      "total": 78,
+      "graded": true,
+      "graded_count": 75,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 21,
+          "total": 33,
+          "pct": 63.6
+        },
+        "[ADVANCED]": {
+          "wins": 28,
+          "total": 42,
+          "pct": 66.7
+        }
+      }
     },
     {
       "date": "2026-10-28_v2",

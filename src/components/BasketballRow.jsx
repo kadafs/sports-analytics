@@ -243,6 +243,9 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isEliteBuffer = bufRatingObj?.tier === '[ELITE BUFFER]'
   const isStrongBuffer = bufRatingObj?.tier === '[STRONG BUFFER]'
   const bufScore = bufRatingObj?.score ?? 0
+
+  const isUnderMbetPlay = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (primary.mbet_threshold || 4.0))
+  const effectiveDecision = decision === 'PLAY UNDER' || isUnderMbetPlay ? 'PLAY UNDER' : decision
   
   const getStabilityColor = (volatility) => {
     if (volatility == null) return 'inherit';
@@ -407,7 +410,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
         {/* MODEL COLUMN — ADV total + optional SRS flag below */}
         <div className="stat-col center match-model-col">
-          <div className={`bball-model-box ${decision === 'PLAY OVER' ? 'over' : decision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: 1 }}>
+          <div className={`bball-model-box ${effectiveDecision === 'PLAY OVER' ? 'over' : effectiveDecision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: 1 }}>
             <span style={{ fontSize: hasSRSFlag ? '0.9em' : 'inherit', marginTop: hasSRSFlag ? 1 : 0 }}>
               {model_total > 0 ? model_total.toFixed(1) : '—'}
             </span>

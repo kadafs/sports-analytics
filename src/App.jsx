@@ -332,8 +332,24 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
     if (decision !== 'all') {
-      if (sport === 'basketball' && decision === 'plays') {
-        if (pDecision !== 'PLAY OVER' && pDecision !== 'PLAY UNDER') return false
+      if (sport === 'basketball') {
+        const mkt = p.market_total
+        const mdl = p.model_total
+        const mbet = p.mbet_threshold || 4.0
+        const isUnderPlay = pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= mbet)
+        const isOverPlay = pDecision === 'PLAY OVER'
+
+        if (decision === 'plays') {
+          if (!isOverPlay && !isUnderPlay) return false
+        } else if (decision === 'PLAY OVER') {
+          if (!isOverPlay) return false
+        } else if (decision === 'PLAY UNDER') {
+          if (!isUnderPlay) return false
+        } else if (decision === 'PASS') {
+          if (isOverPlay || isUnderPlay) return false
+        } else if (pDecision !== decision) {
+          return false
+        }
       } else if (pDecision !== decision) {
         return false
       }
