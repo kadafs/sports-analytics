@@ -537,19 +537,14 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterShootout) {
       if (!p.is_shootout) return false
     }
-    // Drag-Down Filter (Basketball only: 77.7% Under rate vs market, -9.4 pts miss)
+    // Drag-Down Filter (Basketball only: 70.8% Under rate vs baseline, -8.4 pts miss)
     if (sport === 'basketball' && filterDragDown) {
-      const maeH = p.mae_h ?? null
-      const maeA = p.mae_a ?? null
       const band = (p.confidence_score_band || p.band || '')
       const floorStatus = p.floor_status || ''
       const isDragDown = Boolean(
         p.is_drag_down || (
           band.includes('[AVOID]') &&
-          floorStatus.startsWith('WEAK') &&
-          maeH != null && maeA != null &&
-          Math.min(maeH, maeA) <= 11.5 &&
-          Math.max(maeH, maeA) >= 14.5
+          floorStatus.startsWith('WEAK')
         )
       )
       if (!isDragDown) return false
@@ -1036,7 +1031,7 @@ export default function App() {
                   color: filterClash ? '#b45309' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Filter games flagged with Clash of the Inefficient (Empirical Under signal — 70.8% hit on Sharp Over)"
+                title="Filter games flagged with Clash of the Inefficient (59.1% Under baseline / +12.8% ROI on Regular Clash)"
               >
                 {filterClash ? '⚡ Clash Under: ON' : '⚡ Clash Signals'}
               </button>
@@ -1054,7 +1049,7 @@ export default function App() {
                   color: filterShootout ? '#b91c1c' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Filter games flagged with Shootout / Glass Cannons (72.6% Over market hit rate / +8.0 pts)"
+                title="Filter games flagged with Shootout / Glass Cannons (73.8% Over baseline / +9.5 pts / +40.9% ROI)"
               >
                 {filterShootout ? '🔥 Shootout Over: ON' : '🔥 Shootout Signals'}
               </button>
@@ -1072,7 +1067,7 @@ export default function App() {
                   color: filterDragDown ? '#991b1b' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Filter Drag-Down Under games (Asymmetric MAE + Weak Floor: 77.7% empirical Under win rate / -9.4 pts vs market)"
+                title="Filter Drag-Down Under games (Weak Floor Avoid: 70.8% Under baseline / -8.4 pts / +35.2% ROI)"
               >
                 {filterDragDown ? '⚓ Drag-Down Under: ON' : '⚓ Drag-Down Under'}
               </button>

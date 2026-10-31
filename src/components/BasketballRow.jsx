@@ -155,7 +155,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const clashTrigger = primary.clash_trigger || secondary?.clash_trigger || 'CLASH'
   const isSharpOver = clashTrigger === 'SHARP OVER'
 
-  // Drag-Down Under Indicator logic (77.7% Under rate vs market, -9.4 pts miss)
+  // Drag-Down Under Indicator logic (70.8% Under rate vs baseline, -8.4 pts miss)
   const maeH = primary.mae_h ?? (consolidatedGame?.mae_h ?? null)
   const maeA = primary.mae_a ?? (consolidatedGame?.mae_a ?? null)
   const confBand = (primary.confidence_score_band || primary.band || '')
@@ -163,10 +163,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isDragDown = Boolean(
     primary.is_drag_down || (
       confBand.includes('[AVOID]') &&
-      floorStatus.startsWith('WEAK') &&
-      maeH != null && maeA != null &&
-      Math.min(maeH, maeA) <= 11.5 &&
-      Math.max(maeH, maeA) >= 14.5
+      floorStatus.startsWith('WEAK')
     )
   )
 
@@ -185,26 +182,26 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const clashData = signalStats?.clash
   const shootoutData = signalStats?.shootout
 
-  const clashSample = clashData?.sample || 324
+  const clashSample = clashData?.sample || 472
   const clashUnderPct = isSharpOver 
-    ? (clashData?.sharp_over?.under_model_pct ?? 70.8) 
-    : (clashData?.under_model_pct ?? 61.1)
+    ? (clashData?.sharp_over?.under_model_pct ?? 72.9) 
+    : (clashData?.under_model_pct ?? 63.8)
   const clashDelta = isSharpOver 
-    ? (clashData?.sharp_over?.avg_score_delta ?? -7.6) 
-    : (clashData?.avg_score_delta ?? -3.7)
+    ? (clashData?.sharp_over?.avg_score_delta ?? -8.3) 
+    : (clashData?.avg_score_delta ?? -4.9)
 
-  const shootoutSample = shootoutData?.sample || 77
+  const shootoutSample = shootoutData?.sample || 113
   const shootoutMktPct = isSharpShootout 
-    ? (shootoutData?.sharp_shootout?.market_over_pct ?? 72.1) 
-    : (shootoutData?.market_over_pct ?? 72.6)
+    ? (shootoutData?.sharp_shootout?.market_over_pct ?? 73.5) 
+    : (shootoutData?.market_over_pct ?? 73.8)
   const shootoutMktDelta = isSharpShootout 
-    ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9) 
-    : (shootoutData?.avg_market_delta ?? 8.0)
+    ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 8.8) 
+    : (shootoutData?.avg_market_delta ?? 9.5)
 
   const dragDownData = signalStats?.drag_down
-  const dragDownSample = dragDownData?.mkt_sample || dragDownData?.sample || 99
-  const dragDownMktPct = dragDownData?.under_mkt_pct ?? 72.7
-  const dragDownMktDelta = dragDownData?.avg_market_delta ?? -8.2
+  const dragDownSample = dragDownData?.mkt_sample || dragDownData?.sample || 120
+  const dragDownMktPct = dragDownData?.under_mkt_pct ?? 70.8
+  const dragDownMktDelta = dragDownData?.avg_market_delta ?? -8.4
 
   const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
@@ -641,7 +638,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       </div>
                       <div className="po-box">
                         <span className="po-val">{market_total ? market_total.toFixed(1) : '—'}</span>
-                        <span className="po-lbl">Market Line</span>
+                        <span className="po-lbl" title="League historical baseline scoring benchmark">Baseline Total</span>
                       </div>
                       <div className="po-box">
                         <span className={`po-val ${edge > 0 ? 'better' : ''}`}>{fmt(edge, 1)}</span>
@@ -703,13 +700,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>{dragDownSample} Graded</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Under Rate</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Baseline Under Rate</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
                               {dragDownMktPct}% Under
                             </div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Miss</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Baseline Miss</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>
                               {dragDownMktDelta > 0 ? `+${dragDownMktDelta}` : dragDownMktDelta} pts
                             </div>
@@ -717,7 +714,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         </div>
 
                         <div>
-                          <b>Structural Asymmetry Detected:</b> One disciplined team (MAE {(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')}) anchors tempo against an erratic opponent (MAE {(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')}) with a Weak Floor. Empirical audit ({dragDownSample} games) confirms a <b>{dragDownMktPct}% Under hit rate</b> vs. sportsbook lines with an average miss of <b>{dragDownMktDelta > 0 ? `+${dragDownMktDelta}` : dragDownMktDelta} pts</b>.
+                          <b>Structural Asymmetry Detected:</b> One disciplined team (MAE {(maeH != null && maeA != null ? Math.min(maeH, maeA).toFixed(1) : '-')}) anchors tempo against an erratic opponent (MAE {(maeH != null && maeA != null ? Math.max(maeH, maeA).toFixed(1) : '-')}) with a Weak Floor. Empirical audit ({dragDownSample} games) confirms a <b>{dragDownMktPct}% Under hit rate</b> vs. baseline totals with an average miss of <b>{dragDownMktDelta > 0 ? `+${dragDownMktDelta}` : dragDownMktDelta} pts</b>.
                         </div>
                       </div>
                     )}
@@ -861,21 +858,21 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>{shootoutSample} Graded</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Line Beat</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Baseline Line Beat</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#f87171' }}>{shootoutMktPct}% Over</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Delta</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Baseline Delta</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#fb923c' }}>+{shootoutMktDelta} pts</div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Vs Market Line</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Vs Baseline Total</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>{shootoutMktPct}% Over</div>
                           </div>
                         </div>
 
                         <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                          Both teams feature high-powered offenses operating against porous defenses (Glass Cannons). While the broader basketball database trends 56.9% Under, this specific profile consistently breaks out into rapid pace and high offensive efficiency. In our {shootoutSample}-game empirical audit, <b>{shootoutMktPct}% cleared the bookmaker market line</b> with an average beat of <b>+{shootoutMktDelta} pts</b>. Strong statistical edge is to <b>lean OVER</b>.
+                          Both teams feature high-powered offenses operating against porous defenses (Glass Cannons). While the broader basketball database trends 56.9% Under, this specific profile consistently breaks out into rapid pace and high offensive efficiency. In our {shootoutSample}-game empirical audit, <b>{shootoutMktPct}% cleared the baseline total</b> with an average beat of <b>+{shootoutMktDelta} pts</b>. Strong statistical edge is to <b>lean OVER</b>.
                         </div>
                       </div>
                     )}
