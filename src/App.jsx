@@ -586,26 +586,16 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 
       const absEdge = Math.abs(edge)
 
-      if (filterNormalEdge === '3') {
-        if (absEdge < 3.0) return false
-      } else if (filterNormalEdge === '4') {
-        if (absEdge < 4.0) return false
-      } else if (filterNormalEdge === '5') {
+      if (filterNormalEdge === '5') {
         if (absEdge < 5.0) return false
-      } else if (filterNormalEdge === '6') {
-        if (absEdge < 6.0) return false
       } else if (filterNormalEdge === '7') {
         if (absEdge < 7.0) return false
       } else if (filterNormalEdge === '10') {
         if (absEdge < 10.0) return false
       } else if (filterNormalEdge === '15') {
         if (absEdge < 15.0) return false
-      } else if (filterNormalEdge === 'over_4') {
-        if (edge < 4.0) return false
       } else if (filterNormalEdge === 'over_5') {
         if (edge < 5.0) return false
-      } else if (filterNormalEdge === 'under_4') {
-        if (edge > -4.0) return false
       } else if (filterNormalEdge === 'under_7') {
         if (edge > -7.0) return false
       }
@@ -1012,15 +1002,11 @@ export default function App() {
                 title="Normal (Raw) Edge: |Model Total - Market Line|"
               >
                 <option value="all">Normal Edge: All</option>
-                <option value="3">🟢 Edge ≥ 3.0 pts</option>
-                <option value="4">⭐ Edge ≥ 4.0 pts</option>
                 <option value="5">🔥 Edge ≥ 5.0 pts</option>
                 <option value="7">💎 Edge ≥ 7.0 pts</option>
                 <option value="10">🚀 Edge ≥ 10.0 pts</option>
                 <option value="15">🏆 Edge ≥ 15.0 pts</option>
-                <option value="over_4">📈 Normal OVER (≥ 4.0)</option>
                 <option value="over_5">📈 Normal OVER (≥ 5.0)</option>
-                <option value="under_4">📉 Normal UNDER (≥ 4.0)</option>
                 <option value="under_7">📉 Normal UNDER (≥ 7.0)</option>
               </select>
 
