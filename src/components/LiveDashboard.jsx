@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './LiveDashboard.css';
+import LiveBasketballDashboard from './LiveBasketballDashboard';
 
-export default function LiveDashboard() {
+export default function LiveDashboard({ sport = 'football' }) {
+  if (sport === 'basketball') {
+    return <LiveBasketballDashboard />;
+  }
+
   const [liveData, setLiveData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

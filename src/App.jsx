@@ -1107,10 +1107,10 @@ export default function App() {
             <button
               className={`control-btn ${viewMode === 'live' ? 'active' : ''}`}
               onClick={() => setViewMode(viewMode === 'live' ? 'matches' : 'live')}
-              style={{ background: viewMode === 'live' ? '#ef4444' : '', color: viewMode === 'live' ? '#fff' : '', fontWeight: 700 }}
+              style={{ background: viewMode === 'live' ? (sport === 'basketball' ? '#f97316' : '#ef4444') : '', color: viewMode === 'live' ? '#fff' : '', fontWeight: 700 }}
               title="Live In-Play Radar"
             >
-              🔴 LIVE
+              {sport === 'basketball' ? '🏀 LIVE' : '🔴 LIVE'}
             </button>
             <button
               className={`night-shift-btn ${nightShift ? 'active' : ''}`}
@@ -1134,7 +1134,7 @@ export default function App() {
         )}
 
         {viewMode === 'live' && (
-          <LiveDashboard />
+          <LiveDashboard sport={sport} />
         )}
 
         {!loading && !error && viewMode === 'matches' && groups.length > 0 && (
