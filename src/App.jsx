@@ -265,9 +265,12 @@ function getTeamBufferStats(teamName, leagueId, teamLbMap, teamLeaderboard) {
   if (!entry && leagueId >= 11600 && leagueId <= 11699 && teamLbMap) {
     entry = teamLbMap.get(`116__${teamName.toLowerCase().trim()}`)
   }
+  if (!entry && leagueId >= 42300 && leagueId <= 42399 && teamLbMap) {
+    entry = teamLbMap.get(`423__${teamName.toLowerCase().trim()}`)
+  }
   if (!entry && Array.isArray(teamLeaderboard)) {
     const nameLower = teamName.toLowerCase().trim()
-    entry = teamLeaderboard.find(t => (t.league_id === leagueId || (leagueId >= 11600 && leagueId <= 11699 && t.league_id === 116)) && (
+    entry = teamLeaderboard.find(t => (t.league_id === leagueId || (leagueId >= 11600 && leagueId <= 11699 && t.league_id === 116) || (leagueId >= 42300 && leagueId <= 42399 && t.league_id === 423)) && (
       (t.name || '').toLowerCase().trim() === nameLower ||
       (t.name || '').toLowerCase().includes(nameLower) ||
       nameLower.includes((t.name || '').toLowerCase().trim())
