@@ -246,6 +246,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
   const isUnderMbetPlay = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (primary.mbet_threshold || 4.0))
   const effectiveDecision = decision === 'PLAY UNDER' || isUnderMbetPlay ? 'PLAY UNDER' : decision
+  const bookmakerName = primary.bookmaker || (primary.odds_source && primary.odds_source !== 'BASELINE' && primary.odds_source !== 'AVERAGE' ? primary.odds_source : null)
   
   const getStabilityColor = (volatility) => {
     if (volatility == null) return 'inherit';
@@ -393,6 +394,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 title={`Historical Buffer Hit Rate: Strong (${bufScore}/32, Floor: ${(model_total - 5.0).toFixed(1)} pts)`}
               >
                 🛡️ Strong Floor
+              </span>
+            )}
+            {bookmakerName && (
+              <span
+                style={{
+                  fontSize: '9px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(99, 102, 241, 0.15)',
+                  color: '#6366f1',
+                  border: '1px solid rgba(99, 102, 241, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Sharp sportsbook line from ${bookmakerName} (${market_total ? market_total.toFixed(1) : ''})`}
+              >
+                📊 {bookmakerName}
               </span>
             )}
           </div>
@@ -641,11 +660,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       </div>
                       <div className="po-box">
                         <span className="po-val">{market_total ? market_total.toFixed(1) : '—'}</span>
-                        <span className="po-lbl">Market Line</span>
+                        <span className="po-lbl">Market Line {bookmakerName ? `(${bookmakerName})` : ''}</span>
                       </div>
                       <div className="po-box">
                         <span className={`po-val ${edge > 0 ? 'better' : ''}`}>{fmt(edge, 1)}</span>
-                        <span className="po-lbl">Calculated Edge</span>
+                        <span className="po-lbl">Normal Edge</span>
                       </div>
                     </div>
 

@@ -322,7 +322,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterRealLinesOnly = false) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -577,6 +577,57 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       }
     }
 
+    // Normal (Raw) Edge Filter (Basketball only)
+    if (sport === 'basketball' && filterNormalEdge !== 'all') {
+      const mkt = p.market_total
+      const mdl = p.model_total
+      const edge = p.edge != null ? p.edge : (mkt && mdl && mkt > 50 ? Math.round((mdl - mkt) * 10) / 10 : null)
+      if (edge == null) return false
+
+      const absEdge = Math.abs(edge)
+      const src = p.odds_source || p.bookmaker
+      const isReal = Boolean(src && src !== 'BASELINE' && src !== 'AVERAGE')
+
+      if (filterNormalEdge === 'any') {
+        if (absEdge < 0.1) return false
+      } else if (filterNormalEdge === '3') {
+        if (absEdge < 3.0) return false
+      } else if (filterNormalEdge === '4') {
+        if (absEdge < 4.0) return false
+      } else if (filterNormalEdge === '5') {
+        if (absEdge < 5.0) return false
+      } else if (filterNormalEdge === '6') {
+        if (absEdge < 6.0) return false
+      } else if (filterNormalEdge === '7') {
+        if (absEdge < 7.0) return false
+      } else if (filterNormalEdge === '10') {
+        if (absEdge < 10.0) return false
+      } else if (filterNormalEdge === '15') {
+        if (absEdge < 15.0) return false
+      } else if (filterNormalEdge === 'over_4') {
+        if (edge < 4.0) return false
+      } else if (filterNormalEdge === 'over_5') {
+        if (edge < 5.0) return false
+      } else if (filterNormalEdge === 'under_4') {
+        if (edge > -4.0) return false
+      } else if (filterNormalEdge === 'under_7') {
+        if (edge > -7.0) return false
+      } else if (filterNormalEdge === 'real_only') {
+        if (!isReal) return false
+      } else if (filterNormalEdge === 'real_5') {
+        if (!isReal || absEdge < 5.0) return false
+      } else if (filterNormalEdge === 'real_7') {
+        if (!isReal || absEdge < 7.0) return false
+      }
+    }
+
+    // Real Sportsbook Lines Only Filter (Basketball only)
+    if (sport === 'basketball' && filterRealLinesOnly) {
+      const src = p.odds_source || p.bookmaker
+      const isReal = Boolean(src && src !== 'BASELINE' && src !== 'AVERAGE')
+      if (!isReal) return false
+    }
+
     return true
   })
 }
@@ -607,6 +658,8 @@ export default function App() {
   const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
   const [filterDragDown, setFilterDragDown] = useState(false) // ⚓ Drag-Down Under filter
   const [filterSDI,      setFilterSDI]      = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
+  const [filterNormalEdge, setFilterNormalEdge] = useState('all') // 📏 Normal Edge filter: all | 3 | 4 | 5 | 7 | 10 | 15 | over_4 | under_4
+  const [filterRealLinesOnly, setFilterRealLinesOnly] = useState(false) // 📊 Real Sportsbook Lines Only
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -751,9 +804,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterRealLinesOnly
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterRealLinesOnly])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -807,6 +860,8 @@ export default function App() {
           setFilterClash(false);
           setFilterShootout(false);
           setFilterDragDown(false);
+          setFilterNormalEdge('all');
+          setFilterRealLinesOnly(false);
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -970,6 +1025,30 @@ export default function App() {
 
               <select
                 className="filter-select"
+                style={{ width: '165px' }}
+                value={filterNormalEdge}
+                onChange={e => setFilterNormalEdge(e.target.value)}
+                title="Normal (Raw) Edge: |Model Total - Market Line|"
+              >
+                <option value="all">Normal Edge: All</option>
+                <option value="any">⚡ Any Edge (&gt; 0 pts)</option>
+                <option value="3">🟢 Edge ≥ 3.0 pts</option>
+                <option value="4">⭐ Edge ≥ 4.0 pts</option>
+                <option value="5">🔥 Edge ≥ 5.0 pts (Profitable)</option>
+                <option value="7">💎 Edge ≥ 7.0 pts</option>
+                <option value="10">🚀 Edge ≥ 10.0 pts</option>
+                <option value="15">🏆 Edge ≥ 15.0 pts (Crush)</option>
+                <option value="over_4">📈 Normal OVER (≥ 4.0)</option>
+                <option value="over_5">📈 Normal OVER (≥ 5.0)</option>
+                <option value="under_4">📉 Normal UNDER (≥ 4.0)</option>
+                <option value="under_7">📉 Normal UNDER (≥ 7.0)</option>
+                <option value="real_only">🎯 Real Lines Only</option>
+                <option value="real_5">🔥 Real Lines (Edge ≥ 5.0)</option>
+                <option value="real_7">💎 Real Lines (Edge ≥ 7.0)</option>
+              </select>
+
+              <select
+                className="filter-select"
                 style={{ width: '170px' }}
                 value={filterSDI}
                 onChange={e => setFilterSDI(e.target.value)}
@@ -1021,6 +1100,24 @@ export default function App() {
                 title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with ≥10 graded games"
               >
                 {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
+              </button>
+
+              <button
+                onClick={() => setFilterRealLinesOnly(!filterRealLinesOnly)}
+                style={{
+                  padding: '4px 10px',
+                  fontSize: 12,
+                  fontWeight: 800,
+                  borderRadius: 6,
+                  border: `1px solid ${filterRealLinesOnly ? '#38bdf8' : '#e2e8f0'}`,
+                  cursor: 'pointer',
+                  background: filterRealLinesOnly ? '#e0f2fe' : '#f8fafc',
+                  color: filterRealLinesOnly ? '#0369a1' : '#64748b',
+                  transition: 'all 0.15s'
+                }}
+                title="Only show matches with real sportsbook market lines (Pinnacle, Bet365, 1xBet, etc.)"
+              >
+                {filterRealLinesOnly ? '📊 Real Lines: ON' : '📊 Real Lines Only'}
               </button>
 
               <button
