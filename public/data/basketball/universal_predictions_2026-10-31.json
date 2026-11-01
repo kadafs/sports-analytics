@@ -110205,7 +110205,7 @@
       "time": "23:00",
       "away_team": "Espanol Osorno",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.6,
       "xpts_h": 76.5,
@@ -110869,7 +110869,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 36,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 42.5,
+      "total_delta": 0.6,
+      "signed_delta": -0.6,
+      "total_rpe": 0.38,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_drag_down": false,
@@ -110884,7 +110895,7 @@
       "time": "23:30",
       "away_team": "Leones Quilpue",
       "home_team": "CD Puerto Varas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.39,
       "xpts_h": 67.9,
@@ -111491,7 +111502,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 61,
+      "actual_away_score": 86,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 46,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 44.5,
+      "total_delta": 10.39,
+      "signed_delta": -10.39,
+      "total_rpe": 7.07,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_drag_down": false,
@@ -152947,7 +152969,7 @@
       "time": "22:00",
       "away_team": "Philadelphia 76ers",
       "home_team": "Charlotte Hornets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 211.91,
       "xpts_h": 107.0,
@@ -153960,7 +153982,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 104,
+      "actual_away_score": 109,
+      "actual_result": "AWAY",
+      "halftime_home_score": 54,
+      "halftime_away_score": 57,
+      "halftime_total": 111,
+      "halftime_pct_of_model": 52.4,
+      "total_delta": 1.09,
+      "signed_delta": 1.09,
+      "total_rpe": 0.51,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_drag_down": false,
@@ -259234,17 +259267,17 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-10-31T23:11:48.073018",
+  "graded_at": "2026-11-01T01:09:23.108443",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 109,
-      "total": 170,
-      "pct": 64.1
+      "total": 171,
+      "pct": 63.7
     },
     "[  SRS   ]": {
-      "wins": 101,
-      "total": 146,
-      "pct": 69.2
+      "wins": 103,
+      "total": 148,
+      "pct": 69.6
     }
   }
 }
