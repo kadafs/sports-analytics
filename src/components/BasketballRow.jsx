@@ -396,24 +396,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 🛡️ Strong Floor
               </span>
             )}
-            {bookmakerName && (
-              <span
-                style={{
-                  fontSize: '9px',
-                  lineHeight: 1,
-                  fontWeight: 800,
-                  background: 'rgba(99, 102, 241, 0.15)',
-                  color: '#6366f1',
-                  border: '1px solid rgba(99, 102, 241, 0.35)',
-                  borderRadius: '3px',
-                  padding: '1px 4px',
-                  cursor: 'help'
-                }}
-                title={`Sharp sportsbook line from ${bookmakerName} (${market_total ? market_total.toFixed(1) : ''})`}
-              >
-                📊 {bookmakerName}
-              </span>
-            )}
+
           </div>
         </div>
 
