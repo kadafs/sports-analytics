@@ -73546,7 +73546,7 @@
       "time": "15:30",
       "away_team": "Osnabruck W",
       "home_team": "Eigner Angels Nordlingen W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 146.45,
       "xpts_h": 66.4,
@@ -74219,7 +74219,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 40,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 43.7,
+      "total_delta": 4.45,
+      "signed_delta": -4.45,
+      "total_rpe": 3.13,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_drag_down": false,
@@ -279787,12 +279798,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-11-02T01:32:18.575212",
+  "graded_at": "2026-11-02T22:18:42.524922",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 114,
-      "total": 148,
-      "pct": 77.0
+      "wins": 115,
+      "total": 149,
+      "pct": 77.2
     },
     "[ADVANCED]": {
       "wins": 55,
