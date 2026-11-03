@@ -174,6 +174,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const shootoutTrigger = primary.shootout_trigger || secondary?.shootout_trigger || 'SHOOTOUT'
   const isSharpShootout = shootoutTrigger === 'SHARP SHOOTOUT'
 
+  // Mismatch & Responsible Staking Badge
+  const isMismatch = Boolean(primary.is_mismatch ?? consolidatedGame?.is_mismatch)
+  const riskLevel = primary.risk_level || consolidatedGame?.risk_level || 'LOW'
+  const mismatchBadge = primary.mismatch_badge || consolidatedGame?.mismatch_badge || ''
+  const mismatchTrigger = primary.mismatch_trigger || consolidatedGame?.mismatch_trigger || ''
+  const recommendedStake = primary.recommended_stake || consolidatedGame?.recommended_stake || '1.00u'
+  const totalsAdvice = primary.totals_advice || consolidatedGame?.totals_advice || ''
+
   const [signalStats, setSignalStats] = useState(_cachedSignalStats)
 
   useEffect(() => {
@@ -396,6 +404,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 🛡️ Strong Floor
               </span>
             )}
+            {isMismatch && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: riskLevel === 'EXTREME' ? 'rgba(239, 68, 68, 0.15)' : 'rgba(245, 158, 11, 0.15)',
+                  color: riskLevel === 'EXTREME' ? '#ef4444' : '#f59e0b',
+                  border: riskLevel === 'EXTREME' ? '1px solid rgba(239, 68, 68, 0.35)' : '1px solid rgba(245, 158, 11, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`${mismatchBadge || 'Buy Game Mismatch'}: ${mismatchTrigger || 'High blowout variance'}. Recommended Stake: ${recommendedStake}. Advice: ${totalsAdvice}`}
+              >
+                {mismatchBadge || (riskLevel === 'EXTREME' ? '⚠️ Buy Game (0.25u)' : '⚠️ Mismatch (0.5u)')}
+              </span>
+            )}
 
           </div>
         </div>
@@ -457,6 +483,30 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 {gameStageRaw && (
                   <div style={{ textAlign: 'center', fontSize: 11, fontWeight: 700, color: '#3b82f6', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
                     {gameStageRaw}
+                  </div>
+                )}
+                {isMismatch && (
+                  <div style={{
+                    margin: '8px 0 12px',
+                    padding: '8px 12px',
+                    background: riskLevel === 'EXTREME' ? 'rgba(239, 68, 68, 0.1)' : 'rgba(245, 158, 11, 0.1)',
+                    borderLeft: `4px solid ${riskLevel === 'EXTREME' ? '#ef4444' : '#f59e0b'}`,
+                    borderRadius: '4px',
+                    fontSize: '12px'
+                  }}>
+                    <div style={{ fontWeight: 800, color: riskLevel === 'EXTREME' ? '#ef4444' : '#f59e0b', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <span>⚠️</span>
+                      <span>{riskLevel === 'EXTREME' ? 'BUY GAME / EXTREME MISMATCH' : 'HIGH SPREAD MISMATCH'}</span>
+                      <span style={{ marginLeft: 'auto', background: riskLevel === 'EXTREME' ? '#ef4444' : '#f59e0b', color: '#fff', padding: '1px 6px', borderRadius: '3px', fontSize: '10px' }}>
+                        STAKE: {recommendedStake}
+                      </span>
+                    </div>
+                    <div style={{ color: '#cbd5e1', marginTop: '4px', fontSize: '11px' }}>
+                      <strong>Trigger:</strong> {mismatchTrigger}
+                    </div>
+                    <div style={{ color: '#94a3b8', marginTop: '2px', fontSize: '10.5px' }}>
+                      <strong>Totals Advice:</strong> {totalsAdvice || 'Full-game totals have high variance in blowout conditions. Lean Team Totals or PASS.'}
+                    </div>
                   </div>
                 )}
                 <div className="stats-body">
