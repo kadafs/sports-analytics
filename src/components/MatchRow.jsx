@@ -183,54 +183,6 @@ export default function MatchRow({ game }) {
               </span>
             )}
           </div>
-          {/* HSH (Highest-Scoring Half) Badge */}
-          {(() => {
-            const hsh = game.hsh || {}
-            const dec = hsh.hsh_decision || game.hsh_decision
-            if (!dec || dec === 'PASS') return null
-            const is2H = dec === '2H'
-            const prob = is2H ? hsh.hsh_prob_2h : hsh.hsh_prob_1h
-            const edge = hsh.hsh_edge || 0
-            const src = (hsh.hsh_source || 'model').replace('_', ' ')
-            const isWin = isGraded && (game.hsh_grade === 'WIN' || game.actual_hsh_result === dec)
-            const isLoss = isGraded && (game.hsh_grade === 'LOSS' || (game.actual_hsh_result && game.actual_hsh_result !== dec))
-
-            const bg = is2H ? 'rgba(56, 189, 248, 0.12)' : 'rgba(245, 158, 11, 0.12)'
-            const border = is2H ? '1px solid rgba(56, 189, 248, 0.35)' : '1px solid rgba(245, 158, 11, 0.35)'
-            const color = is2H ? '#38bdf8' : '#f59e0b'
-            const title = `Highest-Scoring Half Pick: ${dec} (${prob ? Math.round(prob) : 0}% prob, +${edge}% edge)
-Profile: ${src}`
-
-            return (
-              <div style={{ marginTop: 3, display: 'flex', alignItems: 'center', gap: '5px' }}>
-                <span
-                  style={{
-                    fontSize: '9.5px',
-                    lineHeight: 1,
-                    fontWeight: 700,
-                    background: bg,
-                    border,
-                    color,
-                    borderRadius: '3px',
-                    padding: '1.5px 5px',
-                    cursor: 'help',
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '3px'
-                  }}
-                  title={title}
-                >
-                  ⏱️ HSH: <b>{dec}</b>
-                  {prob ? <span style={{ opacity: 0.85, fontSize: '8.5px' }}>({Math.round(prob)}%)</span> : null}
-                  {isGraded && (
-                    <span style={{ fontSize: '9px', marginLeft: 1 }}>
-                      {isWin ? '✅' : isLoss ? '❌' : ''}
-                    </span>
-                  )}
-                </span>
-              </div>
-            )
-          })()}
         </div>
 
 
