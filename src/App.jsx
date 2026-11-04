@@ -164,9 +164,9 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
       const bIsWorld = (b.country || '').trim().toUpperCase() === 'WORLD'
       if (aIsWorld && !bIsWorld) return -1
       if (!aIsWorld && bIsWorld) return 1
-      const cDiff = a.country.localeCompare(b.country)
+      const cDiff = (a.country || '').localeCompare(b.country || '')
       if (cDiff !== 0) return cDiff
-      return a.league.localeCompare(b.league)
+      return (a.league || '').localeCompare(b.league || '')
     })
   }
   if (sortBy === 'time') return [...groups]
@@ -239,7 +239,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
     return [...groups].sort((a, b) => {
       const scoreDiff = computeRankScore(b) - computeRankScore(a)
       if (scoreDiff !== 0) return scoreDiff
-      return a.league.localeCompare(b.league)
+      return (a.league || '').localeCompare(b.league || '')
     })
   }
 
@@ -252,7 +252,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
     const aPrio = LEAGUE_PRIORITY[a.league_id] || 999
     const bPrio = LEAGUE_PRIORITY[b.league_id] || 999
     if (aPrio !== bPrio) return aPrio - bPrio
-    return a.league.localeCompare(b.league)
+    return (a.league || '').localeCompare(b.league || '')
   })
 }
 
