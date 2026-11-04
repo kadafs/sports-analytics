@@ -54,6 +54,9 @@ function groupByLeague(predictions, sport) {
             home_team: game.home_team,
             away_team: game.away_team,
             time: game.time,
+            league: group.league,
+            league_id: group.league_id,
+            country: group.country,
             predictions: {}
           })
         }
@@ -776,7 +779,7 @@ export default function App() {
   const countries = useMemo(() => {
     if (!data || !data.predictions) return []
     const list = [...new Set(data.predictions.map(p => p.country).filter(Boolean))]
-    list.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+    list.sort((a, b) => String(a || '').localeCompare(String(b || ''), undefined, { sensitivity: 'base' }))
     return ['all', ...list]
   }, [data])
 
