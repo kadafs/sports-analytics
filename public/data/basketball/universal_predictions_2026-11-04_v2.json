@@ -153730,7 +153730,7 @@
       "time": "00:30",
       "away_team": "Gimnasia",
       "home_team": "Atenas",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 162.59,
       "xpts_h": 82.5,
@@ -154857,7 +154857,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 33,
+      "halftime_away_score": 32,
+      "halftime_total": 65,
+      "halftime_pct_of_model": 40.0,
+      "total_delta": 14.59,
+      "signed_delta": -14.59,
+      "total_rpe": 9.86,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -500499,7 +500510,7 @@
             {
               "position": 6,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -504388,5 +504399,13 @@
         "sdiA": null
       }
     }
-  ]
+  ],
+  "graded_at": "2026-11-04T01:18:15.329866",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0
+    }
+  }
 }
