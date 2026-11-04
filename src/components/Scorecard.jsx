@@ -75,6 +75,25 @@ export default function Scorecard({ data, sport = 'football' }) {
   const bookingT   = summary?.booking_total ?? clientBooking.length
   const bookingPct = summary?.booking_pct   ?? (bookingT > 0 ? Math.round((bookingW / bookingT) * 100) : null)
 
+  // Highest-Scoring Half (HSH)
+  const clientHsh = graded.filter(p => {
+    const h = p.hsh || {}
+    const dec = h.hsh_decision || p.hsh_decision
+    return dec && dec !== 'PASS' && (p.actual_hsh_result || p.actual_ht_home != null)
+  })
+  const clientHshW = clientHsh.filter(p => {
+    const h = p.hsh || {}
+    const dec = h.hsh_decision || p.hsh_decision
+    const htGoals = (p.actual_ht_home ?? 0) + (p.actual_ht_away ?? 0)
+    const ftGoals = (p.actual_home_goals ?? 0) + (p.actual_away_goals ?? 0)
+    const shGoals = ftGoals - htGoals
+    const actRes = p.actual_hsh_result || (htGoals > shGoals ? '1H' : shGoals > htGoals ? '2H' : 'TIE')
+    return dec === actRes
+  }).length
+  const hshW = clientHshW
+  const hshT = clientHsh.length
+  const hshPct = hshT > 0 ? Math.round((hshW / hshT) * 100) : null
+
   return (
     <div className="scorecard">
       <div className="scorecard-title">📊 Grade Summary</div>
@@ -113,6 +132,16 @@ export default function Scorecard({ data, sport = 'football' }) {
           <span className="sc-record">{bookingW}W – {bookingT - bookingW}L</span>
           {bookingPct != null && (
             <span className="sc-pct" style={{ color: pctColor(bookingPct) }}>{bookingPct}%</span>
+          )}
+        </div>
+      )}
+
+      {isFootball && hshT != null && hshT > 0 && (
+        <div className="scorecard-stat">
+          <span className="sc-label">HSH (2H/1H)</span>
+          <span className="sc-record">{hshW}W – {hshT - hshW}L</span>
+          {hshPct != null && (
+            <span className="sc-pct" style={{ color: pctColor(hshPct) }}>{hshPct}%</span>
           )}
         </div>
       )}

@@ -183,6 +183,54 @@ export default function MatchRow({ game }) {
               </span>
             )}
           </div>
+          {/* HSH (Highest-Scoring Half) Badge */}
+          {(() => {
+            const hsh = game.hsh || {}
+            const dec = hsh.hsh_decision || game.hsh_decision
+            if (!dec || dec === 'PASS') return null
+            const is2H = dec === '2H'
+            const prob = is2H ? hsh.hsh_prob_2h : hsh.hsh_prob_1h
+            const edge = hsh.hsh_edge || 0
+            const src = (hsh.hsh_source || 'model').replace('_', ' ')
+            const isWin = isGraded && (game.hsh_grade === 'WIN' || game.actual_hsh_result === dec)
+            const isLoss = isGraded && (game.hsh_grade === 'LOSS' || (game.actual_hsh_result && game.actual_hsh_result !== dec))
+
+            const bg = is2H ? 'rgba(56, 189, 248, 0.12)' : 'rgba(245, 158, 11, 0.12)'
+            const border = is2H ? '1px solid rgba(56, 189, 248, 0.35)' : '1px solid rgba(245, 158, 11, 0.35)'
+            const color = is2H ? '#38bdf8' : '#f59e0b'
+            const title = `Highest-Scoring Half Pick: ${dec} (${prob ? Math.round(prob) : 0}% prob, +${edge}% edge)
+Profile: ${src}`
+
+            return (
+              <div style={{ marginTop: 3, display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <span
+                  style={{
+                    fontSize: '9.5px',
+                    lineHeight: 1,
+                    fontWeight: 700,
+                    background: bg,
+                    border,
+                    color,
+                    borderRadius: '3px',
+                    padding: '1.5px 5px',
+                    cursor: 'help',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '3px'
+                  }}
+                  title={title}
+                >
+                  ⏱️ HSH: <b>{dec}</b>
+                  {prob ? <span style={{ opacity: 0.85, fontSize: '8.5px' }}>({Math.round(prob)}%)</span> : null}
+                  {isGraded && (
+                    <span style={{ fontSize: '9px', marginLeft: 1 }}>
+                      {isWin ? '✅' : isLoss ? '❌' : ''}
+                    </span>
+                  )}
+                </span>
+              </div>
+            )
+          })()}
         </div>
 
 
@@ -753,6 +801,142 @@ export default function MatchRow({ game }) {
                       * First Half Poisson Projections
                     </div>
                   </div>
+
+                  {/* Highest-Scoring Half (HSH Engine) Section */}
+                  {game.hsh && (
+                    <div className="prob-section">
+                      <div className="ps-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span>Highest-Scoring Half (HSH)</span>
+                        {game.hsh.hsh_source && (
+                          <span style={{
+                            fontSize: 9,
+                            fontWeight: 700,
+                            color: game.hsh.hsh_source === 'team_profile' ? '#10b981' : game.hsh.hsh_source === 'league_prior' ? '#38bdf8' : '#94a3b8',
+                            background: 'rgba(255,255,255,0.05)',
+                            padding: '1px 5px',
+                            borderRadius: 3,
+                            textTransform: 'uppercase'
+                          }}>
+                            {game.hsh.hsh_source.replace('_', ' ')}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* 3-Box Distribution: 1H | TIE | 2H */}
+                      <div style={{ display: 'flex', gap: 8, marginBottom: 12 }}>
+                        {/* 1st Half */}
+                        <div style={{
+                          flex: 1,
+                          background: game.hsh.hsh_decision === '1H' ? 'rgba(245,158,11,0.14)' : 'rgba(148,163,184,0.06)',
+                          border: `1px solid ${game.hsh.hsh_decision === '1H' ? 'rgba(245,158,11,0.4)' : 'rgba(148,163,184,0.15)'}`,
+                          borderRadius: 6,
+                          padding: '6px 6px',
+                          textAlign: 'center'
+                        }}>
+                          <div style={{ fontSize: 10, color: '#94a3b8', textTransform: 'uppercase', marginBottom: 2 }}>1st Half</div>
+                          <div style={{ fontSize: 18, fontWeight: 800, color: game.hsh.hsh_decision === '1H' ? '#f59e0b' : '#cbd5e1', lineHeight: 1 }}>
+                            {fmt(game.hsh.hsh_prob_1h)}%
+                          </div>
+                          <div style={{ fontSize: 9, color: '#64748b', marginTop: 2 }}>
+                            {game.hsh.hsh_h1_goals != null ? `${fmt(game.hsh.hsh_h1_goals, 2)} exp` : '1H Peak'}
+                          </div>
+                        </div>
+
+                        {/* Equal / Tie */}
+                        <div style={{
+                          flex: 1,
+                          background: 'rgba(148,163,184,0.06)',
+                          border: '1px solid rgba(148,163,184,0.15)',
+                          borderRadius: 6,
+                          padding: '6px 6px',
+                          textAlign: 'center'
+                        }}>
+                          <div style={{ fontSize: 10, color: '#94a3b8', textTransform: 'uppercase', marginBottom: 2 }}>Equal</div>
+                          <div style={{ fontSize: 18, fontWeight: 800, color: '#94a3b8', lineHeight: 1 }}>
+                            {fmt(game.hsh.hsh_prob_tie)}%
+                          </div>
+                          <div style={{ fontSize: 9, color: '#64748b', marginTop: 2 }}>Tie</div>
+                        </div>
+
+                        {/* 2nd Half */}
+                        <div style={{
+                          flex: 1,
+                          background: game.hsh.hsh_decision === '2H' ? 'rgba(56,189,248,0.14)' : 'rgba(148,163,184,0.06)',
+                          border: `1px solid ${game.hsh.hsh_decision === '2H' ? 'rgba(56,189,248,0.4)' : 'rgba(148,163,184,0.15)'}`,
+                          borderRadius: 6,
+                          padding: '6px 6px',
+                          textAlign: 'center'
+                        }}>
+                          <div style={{ fontSize: 10, color: '#94a3b8', textTransform: 'uppercase', marginBottom: 2 }}>2nd Half</div>
+                          <div style={{ fontSize: 18, fontWeight: 800, color: game.hsh.hsh_decision === '2H' ? '#38bdf8' : '#cbd5e1', lineHeight: 1 }}>
+                            {fmt(game.hsh.hsh_prob_2h)}%
+                          </div>
+                          <div style={{ fontSize: 9, color: '#64748b', marginTop: 2 }}>
+                            {game.hsh.hsh_h2_goals != null ? `${fmt(game.hsh.hsh_h2_goals, 2)} exp` : '2H Peak'}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Decision & Edge Card */}
+                      <div style={{
+                        padding: '8px 10px',
+                        borderRadius: 6,
+                        background: game.hsh.hsh_decision && game.hsh.hsh_decision !== 'PASS' ? 'rgba(16,185,129,0.08)' : 'rgba(148,163,184,0.06)',
+                        border: `1px solid ${game.hsh.hsh_decision && game.hsh.hsh_decision !== 'PASS' ? 'rgba(16,185,129,0.25)' : 'rgba(148,163,184,0.15)'}`,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        fontSize: 11
+                      }}>
+                        <div>
+                          <span style={{ color: '#94a3b8', fontWeight: 600 }}>Decision: </span>
+                          <b style={{
+                            color: game.hsh.hsh_decision === '2H' ? '#38bdf8' : game.hsh.hsh_decision === '1H' ? '#f59e0b' : '#94a3b8'
+                          }}>
+                            {game.hsh.hsh_decision !== 'PASS' ? `PLAY ${game.hsh.hsh_decision}` : 'PASS'}
+                          </b>
+                          {game.hsh.hsh_edge > 0 && game.hsh.hsh_decision !== 'PASS' && (
+                            <span style={{ marginLeft: 6, color: '#10b981', fontWeight: 700, fontSize: 10 }}>
+                              (+{game.hsh.hsh_edge}% edge)
+                            </span>
+                          )}
+                        </div>
+
+                        {/* Graded Result if finished */}
+                        {isGraded && (game.actual_hsh_result || game.actual_ht_home != null) && (() => {
+                          const htGoals = (game.actual_ht_home ?? 0) + (game.actual_ht_away ?? 0)
+                          const ftGoals = (game.actual_home_goals ?? 0) + (game.actual_away_goals ?? 0)
+                          const shGoals = ftGoals - htGoals
+                          const actRes = game.actual_hsh_result || (htGoals > shGoals ? '1H' : shGoals > htGoals ? '2H' : 'TIE')
+                          const isHshWin = game.hsh.hsh_decision && game.hsh.hsh_decision !== 'PASS' && actRes === game.hsh.hsh_decision
+
+                          return (
+                            <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                              <span style={{ fontSize: 10, color: '#94a3b8' }}>
+                                Actual: <b>{actRes}</b> (1H: {htGoals}g, 2H: {shGoals}g)
+                              </span>
+                              {game.hsh.hsh_decision !== 'PASS' && (
+                                <span style={{
+                                  fontSize: 10,
+                                  fontWeight: 800,
+                                  color: isHshWin ? '#10b981' : '#f87171',
+                                  background: isHshWin ? 'rgba(16,185,129,0.15)' : 'rgba(239,68,68,0.15)',
+                                  padding: '1px 5px',
+                                  borderRadius: 3
+                                }}>
+                                  {isHshWin ? 'WIN ✅' : 'LOSS ❌'}
+                                </span>
+                              )}
+                            </div>
+                          )
+                        })()}
+                      </div>
+
+                      <div style={{ marginTop: 8, fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>
+                        * Bivariate Poisson 1H vs 2H Goal Distribution (Threshold: &ge; 8.0% edge over 33.3% breakeven)
+                      </div>
+                    </div>
+                  )}
 
 
                   {/* Corners & Booking Detail */}

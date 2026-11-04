@@ -331,7 +331,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -460,6 +460,18 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'football' && filterO25 > 0) {
       const o25Prob = (p.match_center || {}).over_2_5_prob ?? p.over_2_5_prob ?? 0
       if (o25Prob < filterO25) return false
+    }
+
+    if (sport === 'football' && filterHsh !== 'all') {
+      const hsh = p.hsh || {}
+      const dec = hsh.hsh_decision || p.hsh_decision
+      if (filterHsh === 'plays') {
+        if (!dec || dec === 'PASS') return false
+      } else if (filterHsh === '2h') {
+        if (dec !== '2H') return false
+      } else if (filterHsh === '1h') {
+        if (dec !== '1H') return false
+      }
     }
     
     // MAPE Filter -- league-level accuracy check (Basketball only)
@@ -630,6 +642,7 @@ export default function App() {
   const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
   const [filterO25,     setFilterO25]     = useState(0)    // min Over 2.5 probability percentage
+  const [filterHsh,     setFilterHsh]     = useState('all') // 'all' | 'plays' | '2h' | '1h'
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
   const [filterBuffer,     setFilterBuffer]     = useState('all') // 'all' | '[STRONG]+' | '[ELITE BUFFER]' | '[STRONG BUFFER]' | '[NEUTRAL]' | '[AVOID]'
@@ -785,9 +798,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -832,6 +845,7 @@ export default function App() {
           setFilterDraw(0); 
           setFilterBttsHitRate(0);
           setFilterO25(0);
+          setFilterHsh('all');
           setFilterMape(100);
           setFilterConfidence('all');
           setFilterBuffer('all');
@@ -959,6 +973,13 @@ export default function App() {
                 <option value="sot_elite">🎯 [ELITE SOT] Only</option>
                 <option value="sot_all">🎯 Any SoT Play</option>
                 <option value="plays">⚽ Any Shots/SoT</option>
+              </select>
+
+              <select className="filter-select" value={filterHsh} onChange={e => setFilterHsh(e.target.value)}>
+                <option value="all">HSH (All)</option>
+                <option value="plays">⏱️ HSH Plays (1H / 2H)</option>
+                <option value="2h">⏱️ HSH: 2nd Half (2H)</option>
+                <option value="1h">⏱️ HSH: 1st Half (1H)</option>
               </select>
             </div>
           )}
