@@ -149287,7 +149287,7 @@
       "time": "23:30",
       "away_team": "Piratas de Bogota",
       "home_team": "Toros del Valle",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LBP - Semi-finals",
       "model_total": 162.81,
       "xpts_h": 93.5,
@@ -150418,7 +150418,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 39,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 47.3,
+      "total_delta": 0.19,
+      "signed_delta": 0.19,
+      "total_rpe": 0.12,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -160742,7 +160753,7 @@
       "time": "23:00",
       "away_team": "Cearense",
       "home_team": "Mogi",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.66,
       "xpts_h": 103.5,
@@ -161738,7 +161749,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 33,
+      "halftime_away_score": 42,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 47.0,
+      "total_delta": 7.34,
+      "signed_delta": 7.34,
+      "total_rpe": 4.4,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -161762,7 +161784,7 @@
       "time": "23:15",
       "away_team": "Flamengo",
       "home_team": "Brasilia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.6,
       "xpts_h": 83.4,
@@ -162819,7 +162841,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 91,
+      "actual_result": "AWAY",
+      "halftime_home_score": 46,
+      "halftime_away_score": 59,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 63.4,
+      "total_delta": 12.4,
+      "signed_delta": 12.4,
+      "total_rpe": 6.97,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -482809,7 +482842,7 @@
       "time": "23:00",
       "away_team": "Delaware W",
       "home_team": "Virginia Tech W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 139.42,
       "xpts_h": 76.9,
@@ -498513,7 +498546,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 53,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "halftime_home_score": 19,
+      "halftime_away_score": 53,
+      "halftime_total": 72,
+      "halftime_pct_of_model": 51.6,
+      "total_delta": 14.58,
+      "signed_delta": 14.58,
+      "total_rpe": 9.47,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -507926,7 +507970,7 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-05T00:47:57.344874",
+  "graded_at": "2026-11-05T02:26:46.738430",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 51,
@@ -507934,9 +507978,9 @@
       "pct": 76.1
     },
     "[  SRS   ]": {
-      "wins": 38,
-      "total": 52,
-      "pct": 73.1
+      "wins": 40,
+      "total": 56,
+      "pct": 71.4
     }
   }
 }
