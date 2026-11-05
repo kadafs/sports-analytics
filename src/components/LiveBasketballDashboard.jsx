@@ -24,12 +24,14 @@ export default function LiveBasketballDashboard() {
   useEffect(() => {
     const fetchData = async () => {
       let data = null;
+      let gistReachable = false;
 
       // 1. Try Gist first if GIST_ID is present
       if (GIST_ID) {
         try {
           const res = await fetch(`https://api.github.com/gists/${GIST_ID}`, { cache: 'no-store' });
           if (res.ok) {
+            gistReachable = true;
             const json = await res.json();
             const content = json.files?.["live_basketball.json"]?.content;
             if (content) {
@@ -53,6 +55,17 @@ export default function LiveBasketballDashboard() {
         }
       }
 
+      // 3. If Gist is reachable but live_basketball.json has not yet been seeded with active games
+      if (!data && gistReachable) {
+        data = {
+          updated_at: null,
+          active_games_count: 0,
+          alerts_count: 0,
+          alerts: [],
+          games: []
+        };
+      }
+
       if (data) {
         setLiveData(data);
         setError(null);
@@ -64,7 +77,7 @@ export default function LiveBasketballDashboard() {
         if (!GIST_ID) {
           setError("No VITE_LIVE_GIST_ID configured and local live data unavailable.");
         } else {
-          setError("Failed to fetch live basketball data.");
+          setError("Failed to fetch live basketball data. Please verify GitHub Gist connection.");
         }
       }
       setLoading(false);
