@@ -10,15 +10,12 @@ export default function LiveDashboard({ sport = 'football' }) {
   const [liveData, setLiveData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [viewMode, setViewMode] = useState('actionable');
-  const [expandedMatchId, setExpandedMatchId] = useState(null); // 'actionable' or 'all'
+  const [viewMode, setViewMode] = useState('actionable'); // 'actionable' or 'all'
+  const [expandedMatchId, setExpandedMatchId] = useState(null);
 
-  // The Gist URL where the live engine pushes data
   const GIST_ID = import.meta.env.VITE_LIVE_GIST_ID;
-  
-  // If the Gist hasn't been updated in > 3 minutes, the engine is offline
-  const ENGINE_STALE_THRESHOLD_MS = 3 * 60 * 1000;
-  
+  const ENGINE_STALE_THRESHOLD_MS = 10 * 60 * 1000;
+
   const isEngineOnline = (data) => {
     if (!data?.updated_at) return false;
     const lastUpdate = new Date(data.updated_at).getTime();
@@ -30,99 +27,177 @@ export default function LiveDashboard({ sport = 'football' }) {
   };
 
   useEffect(() => {
-    if (!GIST_ID) {
-      setError("No VITE_LIVE_GIST_ID provided in environment variables.");
-      setLoading(false);
-      return;
-    }
-
     const fetchData = async () => {
-      try {
-        const response = await fetch(`https://api.github.com/gists/${GIST_ID}`, { cache: 'no-store' });
-        if (!response.ok) throw new Error("Failed to fetch live data");
-        const json = await response.json();
-        
-        const fileContent = json.files["live_momentum.json"]?.content;
-        if (!fileContent) throw new Error("No live_momentum.json found in Gist");
-        
-        const data = JSON.parse(fileContent);
+      let data = null;
+      let gistReachable = false;
+
+      // 1. Try Gist first if GIST_ID is present
+      if (GIST_ID) {
+        try {
+          const res = await fetch(`https://api.github.com/gists/${GIST_ID}`, { cache: 'no-store' });
+          if (res.ok) {
+            gistReachable = true;
+            const json = await res.json();
+            const fileContent = json.files?.["live_momentum.json"]?.content;
+            if (fileContent) {
+              data = JSON.parse(fileContent);
+            }
+          }
+        } catch (err) {
+          console.warn("Gist fetch error for live football, attempting fallback:", err);
+        }
+      }
+
+      // 2. Fallback to local static file
+      if (!data) {
+        try {
+          const res = await fetch(`/data/football/live_momentum.json?t=${Date.now()}`);
+          if (res.ok) {
+            data = await res.json();
+          }
+        } catch (err) {
+          try {
+            const res2 = await fetch(`/live_momentum.json?t=${Date.now()}`);
+            if (res2.ok) {
+              data = await res2.json();
+            }
+          } catch (e) {
+            // ignore
+          }
+        }
+      }
+
+      // 3. If Gist is reachable but live_momentum.json has not yet been seeded
+      if (!data && gistReachable) {
+        data = {
+          updated_at: null,
+          active_games: 0,
+          matches: []
+        };
+      }
+
+      if (data) {
         setLiveData(data);
         setError(null);
-      } catch (err) {
-        console.error("Live fetch error:", err);
-        setError("Failed to fetch live data. Ensure engine is running.");
-      } finally {
-        setLoading(false);
+      } else {
+        if (!GIST_ID) {
+          setError("No VITE_LIVE_GIST_ID configured and local live data unavailable.");
+        } else {
+          setError("Failed to fetch live football data. Ensure live engine has run.");
+        }
       }
+      setLoading(false);
     };
 
     fetchData();
-    const interval = setInterval(fetchData, 60000);
+    const interval = setInterval(fetchData, 30000);
     return () => clearInterval(interval);
   }, [GIST_ID]);
 
-  if (loading) return <div className="live-dashboard-loading">Loading live radar...</div>;
-  if (error && !liveData) return <div className="live-dashboard-error">{error}</div>;
-  if (!liveData || !isEngineOnline(liveData)) return (
-    <div className="live-dashboard-offline">
-      <span className="offline-dot"></span>
-      <span>Live Engine offline — no active session</span>
-    </div>
-  );
-  if (liveData.active_games === 0) return <div className="live-dashboard-empty">No live games tracked currently.</div>;
+  if (loading) {
+    return (
+      <div className="live-dashboard-loading">
+        <div className="radar-ping"></div>
+        <span>Connecting to Football In-Play Engine...</span>
+      </div>
+    );
+  }
 
-  const actionableMatches = liveData.matches.filter(m => m.triggers.length > 0 || Math.abs(m.momentum_diff) >= 20);
-  const matchesToDisplay = viewMode === 'actionable' ? actionableMatches : liveData.matches;
+  if (error && !liveData) {
+    return <div className="live-dashboard-error">{error}</div>;
+  }
+
+  const allMatches = liveData?.matches || [];
+  const actionableMatches = allMatches.filter(m => (m.triggers && m.triggers.length > 0) || Math.abs(m.momentum_diff || 0) >= 20);
+  const matchesToDisplay = viewMode === 'actionable' ? actionableMatches : allMatches;
 
   return (
     <div className="live-dashboard">
+      {/* ── Header ── */}
       <div className="live-header">
-        <h2><div className="radar-ping"></div> LIVE IN-PLAY RADAR</h2>
+        <div className="header-title-box">
+          <h2>
+            <span className="radar-ping"></span>
+            LIVE IN-PLAY RADAR
+          </h2>
+          <span className="header-subtitle">
+            Real-Time Pressure Index (PI) · Live xGOT · Tactical Momentum Triggers
+          </span>
+        </div>
+
         <div className="live-controls">
           <button 
             className={`view-btn ${viewMode === 'actionable' ? 'active' : ''}`}
             onClick={() => setViewMode('actionable')}
           >
-            Actionable Only ({actionableMatches.length})
+            Actionable Signals ({actionableMatches.length})
           </button>
           <button 
             className={`view-btn ${viewMode === 'all' ? 'active' : ''}`}
             onClick={() => setViewMode('all')}
           >
-            All Live ({liveData.matches.length})
+            All Live Matches ({allMatches.length})
           </button>
         </div>
       </div>
       
+      {/* ── Status Meta Bar ── */}
       <div className="live-meta">
-        <span>Last Updated: {new Date(liveData.updated_at).toLocaleTimeString()}</span>
+        <div className="meta-left">
+          <span className={`status-indicator ${isEngineOnline(liveData) ? 'online' : 'standby'}`}></span>
+          <span>
+            {isEngineOnline(liveData) ? 'Live Polling Active' : 'Standby / Offline'}
+          </span>
+          <span className="meta-divider">•</span>
+          <span>Last Updated: {liveData?.updated_at ? new Date(liveData.updated_at).toLocaleTimeString() : '—'}</span>
+        </div>
+        <div className="meta-right">
+          <span>Tracking <strong>{allMatches.length}</strong> active matches</span>
+        </div>
       </div>
 
+      {/* ── Matches Grid ── */}
       <div className="live-matches-grid">
         {matchesToDisplay.length === 0 ? (
-          <div className="live-dashboard-empty">No actionable games right now.</div>
+          <div className="live-dashboard-empty">
+            <div className="empty-radar-icon">📡</div>
+            <h3>No Live Matches Under Current Filter</h3>
+            <p>
+              {viewMode === 'actionable' && allMatches.length > 0
+                ? 'No matches meet high-conviction pressure/xGOT triggers right now. Switch to "All Live Matches" to view all games in progress.'
+                : 'The Football In-Play Engine is monitoring upcoming fixtures. Active match momentum, Pressure Index, and xGOT will stream here.'}
+            </p>
+          </div>
         ) : (
           matchesToDisplay.map((match) => (
-            <div key={match.fixture_id} className={`live-match-card ${match.triggers.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`} onClick={() => toggleExpand(match.fixture_id)}>
+            <div 
+              key={match.fixture_id} 
+              className={`live-match-card ${match.triggers?.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`} 
+              onClick={() => toggleExpand(match.fixture_id)}
+            >
               <div className="match-header">
                 <span className="match-time">{match.status} {match.elapsed}'</span>
-                {match.triggers.map(t => {
-                  let cls = 'trigger-badge';
-                  if (t.includes('SIEGE') || t.includes('RED')) cls += ' siege';
-                  else if (t.includes('HEROICS')) cls += ' heroics';
-                  return <span key={t} className={cls}>{t.replace(/_/g, ' ')}</span>
-                })}
+                <div className="match-triggers">
+                  {match.triggers?.map(t => {
+                    let cls = 'trigger-badge';
+                    if (t.includes('SIEGE') || t.includes('RED')) cls += ' siege';
+                    else if (t.includes('HEROICS')) cls += ' heroics';
+                    return <span key={t} className={cls}>{t.replace(/_/g, ' ')}</span>
+                  })}
+                </div>
               </div>
+
               <div className="match-teams">
-                <div className={`team ${match.score.split('-')[0] < match.score.split('-')[1] ? 'losing' : ''}`}>
-                  <span className="name">{match.match.split(' vs ')[0]}</span>
-                  <span className="score">{match.score.split('-')[0]}</span>
+                <div className={`team ${(match.score?.split('-')[0] || 0) < (match.score?.split('-')[1] || 0) ? 'losing' : ''}`}>
+                  <span className="name">{match.match?.split(' vs ')[0] || 'Home'}</span>
+                  <span className="score">{match.score?.split('-')[0] ?? 0}</span>
                 </div>
-                <div className={`team ${match.score.split('-')[1] < match.score.split('-')[0] ? 'losing' : ''}`}>
-                  <span className="name">{match.match.split(' vs ')[1]}</span>
-                  <span className="score">{match.score.split('-')[1]}</span>
+                <div className={`team ${(match.score?.split('-')[1] || 0) < (match.score?.split('-')[0] || 0) ? 'losing' : ''}`}>
+                  <span className="name">{match.match?.split(' vs ')[1] || 'Away'}</span>
+                  <span className="score">{match.score?.split('-')[1] ?? 0}</span>
                 </div>
               </div>
+
               <div className="match-stats">
                 <div className="stat-row">
                   <span className="stat-label">Pressure Index (PI)</span>
@@ -135,9 +210,9 @@ export default function LiveDashboard({ sport = 'football' }) {
                 <div className="stat-row">
                   <span className="stat-label">Shots on Goal</span>
                   <div className="stat-values">
-                    <span>{match.stats.home.shots_on_goal}</span>
+                    <span>{match.stats?.home?.shots_on_goal ?? 0}</span>
                     <span>-</span>
-                    <span>{match.stats.away.shots_on_goal}</span>
+                    <span>{match.stats?.away?.shots_on_goal ?? 0}</span>
                   </div>
                 </div>
                 <div className="stat-row">
@@ -154,29 +229,32 @@ export default function LiveDashboard({ sport = 'football' }) {
                 </div>
                 <div className="stat-row-vertical">
                   <div className="stat-label-split">
-                    <span className="poss-val home-poss">{match.stats.home.possession}%</span>
+                    <span className="poss-val home-poss">{match.stats?.home?.possession ?? 50}%</span>
                     <span className="stat-label">Possession</span>
-                    <span className="poss-val away-poss">{match.stats.away.possession}%</span>
+                    <span className="poss-val away-poss">{match.stats?.away?.possession ?? 50}%</span>
                   </div>
                   <div className="possession-bar-container">
-                    <div className="possession-bar home" style={{ width: `${match.stats.home.possession}%` }}></div>
-                    <div className="possession-bar away" style={{ width: `${match.stats.away.possession}%` }}></div>
+                    <div className="possession-bar home" style={{ width: `${match.stats?.home?.possession ?? 50}%` }}></div>
+                    <div className="possession-bar away" style={{ width: `${match.stats?.away?.possession ?? 50}%` }}></div>
                   </div>
                 </div>
               </div>
-              <div className="match-prematch">
-                <small>Pre-match Expectation:</small>
-                <div className="probs-bar-container">
-                  <div className="prob-bar home" style={{ width: `${match.pre_match_prediction.home_win}%` }}></div>
-                  <div className="prob-bar draw" style={{ width: `${match.pre_match_prediction.draw}%` }}></div>
-                  <div className="prob-bar away" style={{ width: `${match.pre_match_prediction.away_win}%` }}></div>
+
+              {match.pre_match_prediction && (
+                <div className="match-prematch">
+                  <small>Pre-match Probabilities:</small>
+                  <div className="probs-bar-container">
+                    <div className="prob-bar home" style={{ width: `${match.pre_match_prediction.home_win}%` }}></div>
+                    <div className="prob-bar draw" style={{ width: `${match.pre_match_prediction.draw}%` }}></div>
+                    <div className="prob-bar away" style={{ width: `${match.pre_match_prediction.away_win}%` }}></div>
+                  </div>
+                  <div className="probs-labels">
+                    <span className="home-lbl">{match.pre_match_prediction.home_win}% H</span>
+                    <span className="draw-lbl">{match.pre_match_prediction.draw}% D</span>
+                    <span className="away-lbl">{match.pre_match_prediction.away_win}% A</span>
+                  </div>
                 </div>
-                <div className="probs-labels">
-                  <span className="home-lbl">{match.pre_match_prediction.home_win}%</span>
-                  <span className="draw-lbl">{match.pre_match_prediction.draw}%</span>
-                  <span className="away-lbl">{match.pre_match_prediction.away_win}%</span>
-                </div>
-              </div>
+              )}
               
               {expandedMatchId === match.fixture_id && (
                 <div className="live-match-expanded">
@@ -188,11 +266,11 @@ export default function LiveDashboard({ sport = 'football' }) {
                     <div className="expanded-stat-col">
                       <div className="stat-label">GK Goals Prevented</div>
                       <div className="stat-values">
-                        <span style={{ color: (match.home_gk_prevented || 0) > 0 ? '#4ade80' : '' }}>
+                        <span className={(match.home_gk_prevented || 0) > 0 ? 'gk-good' : ''}>
                           {match.home_gk_prevented != null ? (match.home_gk_prevented > 0 ? `+${match.home_gk_prevented}` : match.home_gk_prevented) : '-'}
                         </span>
                         {' - '}
-                        <span style={{ color: (match.away_gk_prevented || 0) > 0 ? '#4ade80' : '' }}>
+                        <span className={(match.away_gk_prevented || 0) > 0 ? 'gk-good' : ''}>
                           {match.away_gk_prevented != null ? (match.away_gk_prevented > 0 ? `+${match.away_gk_prevented}` : match.away_gk_prevented) : '-'}
                         </span>
                       </div>
