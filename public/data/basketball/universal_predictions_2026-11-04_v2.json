@@ -156937,7 +156937,7 @@
       "time": "00:30",
       "away_team": "Argentino",
       "home_team": "La Union",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 164.81,
       "xpts_h": 79.6,
@@ -157954,7 +157954,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 57,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 30,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 41.3,
+      "total_delta": 32.81,
+      "signed_delta": -32.81,
+      "total_rpe": 24.86,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -507970,7 +507981,7 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-05T02:26:46.738430",
+  "graded_at": "2026-11-05T08:18:41.813193",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 51,
@@ -507979,8 +507990,8 @@
     },
     "[  SRS   ]": {
       "wins": 40,
-      "total": 56,
-      "pct": 71.4
+      "total": 57,
+      "pct": 70.2
     }
   }
 }
