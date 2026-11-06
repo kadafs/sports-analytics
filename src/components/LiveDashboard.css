@@ -7,7 +7,7 @@
 }
 
 /* ── Top Header ── */
-.live-header {
+.live-dashboard .live-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
   gap: 12px;
 }
 
-.header-title-box h2 {
+.live-dashboard .header-title-box h2 {
   margin: 0;
   display: flex;
   align-items: center;
@@ -29,20 +29,20 @@
   color: var(--text-primary, #e2e8f0);
 }
 
-.header-subtitle {
+.live-dashboard .header-subtitle {
   font-size: 12px;
   color: var(--text-secondary, #94a3b8);
   display: block;
   margin-top: 3px;
 }
 
-.live-controls {
+.live-dashboard .live-controls {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
 }
 
-.view-btn {
+.live-dashboard .view-btn {
   background: var(--bg-row-alt, #1a2035);
   border: 1px solid var(--border, #252d3d);
   color: var(--text-secondary, #94a3b8);
@@ -54,19 +54,19 @@
   transition: all 0.15s ease;
 }
 
-.view-btn:hover {
+.live-dashboard .view-btn:hover {
   background: var(--border, #252d3d);
   color: var(--text-primary, #e2e8f0);
 }
 
-.view-btn.active {
+.live-dashboard .view-btn.active {
   background: var(--brand, #2563eb);
   color: #ffffff;
   border-color: var(--brand, #2563eb);
 }
 
 /* ── Status Meta Bar ── */
-.live-meta {
+.live-dashboard .live-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,28 +79,28 @@
   border: 1px solid var(--border, #252d3d);
 }
 
-.meta-left {
+.live-dashboard .meta-left {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.status-indicator {
+.live-dashboard .status-indicator {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   display: inline-block;
 }
 
-.status-indicator.online {
+.live-dashboard .status-indicator.online {
   background: #22c55e;
 }
 
-.status-indicator.standby {
+.live-dashboard .status-indicator.standby {
   background: #64748b;
 }
 
-.radar-ping {
+.live-dashboard .radar-ping {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -108,18 +108,18 @@
   background: var(--brand, #2563eb);
 }
 
-.meta-divider {
+.live-dashboard .meta-divider {
   color: var(--border, #252d3d);
 }
 
 /* ── Matches Grid ── */
-.live-matches-grid {
+.live-dashboard .live-matches-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 14px;
 }
 
-.live-match-card {
+.live-dashboard .live-match-card {
   background: var(--bg-card, #161b27);
   border: 1px solid var(--border, #252d3d);
   border-radius: 8px;
@@ -131,21 +131,21 @@
   gap: 8px;
 }
 
-.live-match-card:hover {
+.live-dashboard .live-match-card:hover {
   border-color: #3b455b;
 }
 
-.live-match-card.highlight {
+.live-dashboard .live-match-card.highlight {
   border-left: 3px solid var(--brand, #2563eb);
 }
 
-.match-header {
+.live-dashboard .match-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.match-time {
+.live-dashboard .live-clock-pill {
   font-size: 11px;
   font-weight: 700;
   color: #22c55e;
@@ -155,13 +155,13 @@
   border: 1px solid rgba(34, 197, 94, 0.2);
 }
 
-.match-triggers {
+.live-dashboard .match-triggers {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
 }
 
-.trigger-badge {
+.live-dashboard .trigger-badge {
   font-size: 10px;
   font-weight: 700;
   padding: 2px 6px;
@@ -171,53 +171,53 @@
   border: 1px solid rgba(37, 99, 235, 0.25);
 }
 
-.trigger-badge.siege {
+.live-dashboard .trigger-badge.siege {
   background: rgba(239, 68, 68, 0.12);
   color: #f87171;
   border-color: rgba(239, 68, 68, 0.25);
 }
 
-.trigger-badge.heroics {
+.live-dashboard .trigger-badge.heroics {
   background: rgba(245, 158, 11, 0.12);
   color: #fbbf24;
   border-color: rgba(245, 158, 11, 0.25);
 }
 
 /* Match Teams */
-.match-teams {
+.live-dashboard .match-teams {
   background: var(--bg-row-alt, #1a2035);
   border-radius: 6px;
   padding: 8px 10px;
   border: 1px solid var(--border-soft, #1e2638);
 }
 
-.team {
+.live-dashboard .team {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px 0;
 }
 
-.team .name {
+.live-dashboard .team .name {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-primary, #e2e8f0);
 }
 
-.team .score {
+.live-dashboard .team .score {
   font-size: 15px;
   font-weight: 700;
   color: var(--text-primary, #ffffff);
   font-variant-numeric: tabular-nums;
 }
 
-.team.losing .name,
-.team.losing .score {
+.live-dashboard .team.losing .name,
+.live-dashboard .team.losing .score {
   color: var(--text-secondary, #94a3b8);
 }
 
 /* Match Stats */
-.match-stats {
+.live-dashboard .match-stats {
   background: var(--bg-row-alt, #1a2035);
   border-radius: 6px;
   padding: 8px 10px;
@@ -227,21 +227,21 @@
   gap: 6px;
 }
 
-.stat-row {
+.live-dashboard .stat-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 11px;
 }
 
-.stat-label {
+.live-dashboard .stat-label {
   color: var(--text-muted, #64748b);
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.stat-values {
+.live-dashboard .stat-values {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -250,40 +250,40 @@
   color: var(--text-primary, #e2e8f0);
 }
 
-.stat-values .vs {
+.live-dashboard .stat-values .vs {
   color: var(--text-muted, #64748b);
   font-weight: 400;
   font-size: 10px;
 }
 
-.stat-values .pi.dom {
+.live-dashboard .stat-values .pi.dom {
   color: var(--brand, #60a5fa);
 }
 
-.stat-values .xgot-val.dom {
+.live-dashboard .stat-values .xgot-val.dom {
   color: #10b981;
 }
 
-.stat-row-vertical {
+.live-dashboard .stat-row-vertical {
   display: flex;
   flex-direction: column;
   gap: 4px;
   margin-top: 2px;
 }
 
-.stat-label-split {
+.live-dashboard .stat-label-split {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.poss-val {
+.live-dashboard .poss-val {
   font-size: 10px;
   font-weight: 700;
   color: var(--text-secondary, #94a3b8);
 }
 
-.possession-bar-container {
+.live-dashboard .possession-bar-container {
   display: flex;
   height: 4px;
   border-radius: 2px;
@@ -291,23 +291,23 @@
   background: var(--bg-card, #161b27);
 }
 
-.possession-bar.home {
+.live-dashboard .possession-bar.home {
   background: var(--brand, #2563eb);
 }
 
-.possession-bar.away {
+.live-dashboard .possession-bar.away {
   background: #64748b;
 }
 
 /* Pre-match Probs Bar */
-.match-prematch {
+.live-dashboard .match-prematch {
   background: var(--bg-row-alt, #1a2035);
   border-radius: 6px;
   padding: 6px 10px;
   border: 1px solid var(--border-soft, #1e2638);
 }
 
-.match-prematch small {
+.live-dashboard .match-prematch small {
   font-size: 9px;
   text-transform: uppercase;
   color: var(--text-muted, #64748b);
@@ -316,7 +316,7 @@
   margin-bottom: 4px;
 }
 
-.probs-bar-container {
+.live-dashboard .probs-bar-container {
   display: flex;
   height: 4px;
   border-radius: 2px;
@@ -325,11 +325,11 @@
   margin-bottom: 4px;
 }
 
-.prob-bar.home { background: #3b82f6; }
-.prob-bar.draw { background: #94a3b8; }
-.prob-bar.away { background: #ef4444; }
+.live-dashboard .prob-bar.home { background: #3b82f6; }
+.live-dashboard .prob-bar.draw { background: #94a3b8; }
+.live-dashboard .prob-bar.away { background: #ef4444; }
 
-.probs-labels {
+.live-dashboard .probs-labels {
   display: flex;
   justify-content: space-between;
   font-size: 10px;
@@ -338,7 +338,7 @@
 }
 
 /* Expanded Section */
-.live-match-expanded {
+.live-dashboard .live-match-expanded {
   background: var(--bg-row-alt, #1a2035);
   border-radius: 6px;
   padding: 10px;
@@ -348,38 +348,38 @@
   gap: 8px;
 }
 
-.expanded-stats-grid {
+.live-dashboard .expanded-stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
 }
 
-.expanded-stat-col {
+.live-dashboard .expanded-stat-col {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.expanded-stat-col .stat-label {
+.live-dashboard .expanded-stat-col .stat-label {
   font-size: 9px;
 }
 
-.expanded-stat-col .stat-values {
+.live-dashboard .expanded-stat-col .stat-values {
   font-size: 11px;
 }
 
-.gk-good {
+.live-dashboard .gk-good {
   color: #10b981;
 }
 
-.recent-events-timeline h4 {
+.live-dashboard .recent-events-timeline h4 {
   margin: 0 0 4px 0;
   font-size: 10px;
   text-transform: uppercase;
   color: var(--text-muted, #64748b);
 }
 
-.recent-events-timeline ul {
+.live-dashboard .recent-events-timeline ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -388,7 +388,7 @@
   gap: 4px;
 }
 
-.recent-events-timeline li {
+.live-dashboard .recent-events-timeline li {
   font-size: 11px;
   color: var(--text-secondary, #94a3b8);
   display: flex;
@@ -396,12 +396,12 @@
   gap: 6px;
 }
 
-.event-time {
+.live-dashboard .event-time {
   font-weight: 700;
   color: var(--text-primary, #e2e8f0);
 }
 
-.event-type {
+.live-dashboard .event-type {
   font-size: 9px;
   font-weight: 700;
   padding: 1px 4px;
@@ -412,7 +412,7 @@
 }
 
 /* Empty State & Errors */
-.live-dashboard-empty {
+.live-dashboard .live-dashboard-empty {
   background: var(--bg-card, #161b27);
   border: 1px solid var(--border, #252d3d);
   border-radius: 8px;
@@ -421,14 +421,14 @@
   grid-column: 1 / -1;
 }
 
-.live-dashboard-empty h3 {
+.live-dashboard .live-dashboard-empty h3 {
   margin: 0 0 6px 0;
   font-size: 15px;
   font-weight: 600;
   color: var(--text-primary, #e2e8f0);
 }
 
-.live-dashboard-empty p {
+.live-dashboard .live-dashboard-empty p {
   margin: 0;
   font-size: 12px;
   color: var(--text-muted, #64748b);

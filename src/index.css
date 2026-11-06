@@ -522,6 +522,10 @@
     font-weight: 600;
     color: var(--text-secondary);
     font-variant-numeric: tabular-nums;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
   }
 
   /* Teams cell */

@@ -55,8 +55,8 @@ export default function LiveBasketballDashboard() {
         }
       }
 
-      // 3. If Gist is reachable but live_basketball.json has not yet been seeded with active games
-      if (!data && gistReachable) {
+      // 3. Fallback standby state so the radar stays gracefully connected
+      if (!data) {
         data = {
           updated_at: null,
           active_games_count: 0,
@@ -66,19 +66,11 @@ export default function LiveBasketballDashboard() {
         };
       }
 
-      if (data) {
-        setLiveData(data);
-        setError(null);
-        // Default to 'alerts' view if alerts exist on first load
-        if (data.alerts && data.alerts.length > 0 && filterMode === 'all') {
-          setFilterMode('alerts');
-        }
-      } else {
-        if (!GIST_ID) {
-          setError("No VITE_LIVE_GIST_ID configured and local live data unavailable.");
-        } else {
-          setError("Failed to fetch live basketball data. Please verify GitHub Gist connection.");
-        }
+      setLiveData(data);
+      setError(null);
+      // Default to 'alerts' view if alerts exist on first load
+      if (data.alerts && data.alerts.length > 0 && filterMode === 'all') {
+        setFilterMode('alerts');
       }
       setLoading(false);
     };

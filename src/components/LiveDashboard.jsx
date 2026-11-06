@@ -176,7 +176,7 @@ export default function LiveDashboard({ sport = 'football' }) {
               onClick={() => toggleExpand(match.fixture_id)}
             >
               <div className="match-header">
-                <span className="match-time">{match.status} {match.elapsed}'</span>
+                <span className="live-clock-pill">{match.status} {match.elapsed}'</span>
                 <div className="match-triggers">
                   {match.triggers?.map(t => {
                     let cls = 'trigger-badge';
