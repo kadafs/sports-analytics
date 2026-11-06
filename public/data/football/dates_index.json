@@ -11,8 +11,27 @@
       "date": "2026-11-05",
       "total": 138,
       "graded": true,
-      "graded_count": 3,
-      "grade_summary": null
+      "graded_count": 126,
+      "grade_summary": {
+        "outcome_wins": 32,
+        "outcome_total": 43,
+        "outcome_pct": 74.4,
+        "btts_wins": 10,
+        "btts_total": 17,
+        "btts_pct": 58.8,
+        "corners_wins": 16,
+        "corners_total": 23,
+        "corners_pct": 69.6,
+        "booking_wins": 28,
+        "booking_total": 41,
+        "booking_pct": 68.3,
+        "shots_wins": 15,
+        "shots_total": 35,
+        "shots_pct": 42.9,
+        "sot_wins": 14,
+        "sot_total": 25,
+        "sot_pct": 56.0
+      }
     },
     {
       "date": "2026-11-04",
@@ -31,10 +50,10 @@
         "corners_pct": 55.6,
         "booking_wins": 12,
         "booking_total": 24,
-        "booking_pct": 50,
+        "booking_pct": 50.0,
         "shots_wins": 11,
         "shots_total": 25,
-        "shots_pct": 44,
+        "shots_pct": 44.0,
         "sot_wins": 14,
         "sot_total": 17,
         "sot_pct": 82.4
@@ -54,7 +73,7 @@
         "btts_pct": 58.8,
         "corners_wins": 4,
         "corners_total": 4,
-        "corners_pct": 100,
+        "corners_pct": 100.0,
         "booking_wins": 16,
         "booking_total": 33,
         "booking_pct": 48.5,
@@ -89,7 +108,7 @@
         "shots_pct": 55.8,
         "sot_wins": 14,
         "sot_total": 28,
-        "sot_pct": 50
+        "sot_pct": 50.0
       }
     }
   ]
