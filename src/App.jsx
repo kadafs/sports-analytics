@@ -539,29 +539,20 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     }
     
     // Smart Edge Filter (Basketball only)
+    // Conditions: Min Games >= 8 + Confidence Level: Solid+ + Buffer Floor: Strong+
     if (sport === 'basketball' && smartEdgeFilter) {
-      // 1. Volume Check (>= 10 graded games in leaderboard)
-      const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
-      if (!stats) return false
-      // 1. Team Volume Check (Both teams must have >= 10 matches played)
-      const mc = p.match_center || {}
-      const hMatches = mc.statsH?.played || 0
-      const aMatches = mc.statsA?.played || 0
-      
-      if (hMatches < 10 || aMatches < 10) return false
+      // 1. Min Games >= 8 (both teams must have >= 8 graded/played games)
+      const gh = p.graded_h != null ? p.graded_h : (p.match_center?.statsH?.played ?? 0)
+      const ga = p.graded_a != null ? p.graded_a : (p.match_center?.statsA?.played ?? 0)
+      if (Math.min(gh, ga) < 8) return false
 
-      // 2. Stability Check
-      const h_vol = p.home_team_volatility
-      const a_vol = p.away_team_volatility
-      if (h_vol == null || a_vol == null) return false
+      // 2. Confidence Level: Solid+ ([ELITE], [HIGH], [SOLID])
+      const band = (p.confidence_score_band || '').trim()
+      if (!['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) return false
 
-      if (isWomensLeague(p.league)) {
-        // Women: Both Colored (<= 16.6)
-        if (h_vol > 16.6 || a_vol > 16.6) return false
-      } else {
-        // Men: Both Green (< 14.8)
-        if (h_vol >= 14.8 || a_vol >= 14.8) return false
-      }
+      // 3. Buffer Floor: Strong+ ([ELITE BUFFER] or [STRONG BUFFER])
+      const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
+      if (!['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf.tier)) return false
     }
     // Clash Filter (Basketball only: 65.2% Under rate)
     if (sport === 'basketball' && filterClash) {
@@ -1133,7 +1124,7 @@ export default function App() {
                   color: smartEdgeFilter ? '#854d0e' : '#64748b',
                   transition: 'all 0.15s'
                 }}
-                title="Only show Men (Green/Green) and Women (Colored/Colored) in leagues with ≥10 graded games"
+                title="Smart Edge: Min 8+ games played · Confidence Solid+ · Buffer Floor Strong+"
               >
                 {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
               </button>
