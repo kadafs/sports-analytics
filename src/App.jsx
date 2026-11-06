@@ -475,10 +475,12 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     }
 
     // Standalone Minimum Games / Sample Filter (Basketball & Football)
+    // Uses current-season matches played (match_center.statsH/A.played) as the primary source,
+    // since graded_h/graded_a reflect all-time historical audit count — not the current season.
     if (filterMinGames > 0) {
       if (sport === 'basketball') {
-        const gamesH = p.graded_h != null ? p.graded_h : (p.match_center?.statsH?.played ?? 0)
-        const gamesA = p.graded_a != null ? p.graded_a : (p.match_center?.statsA?.played ?? 0)
+        const gamesH = p.match_center?.statsH?.played ?? p.graded_h ?? 0
+        const gamesA = p.match_center?.statsA?.played ?? p.graded_a ?? 0
         if (gamesH < filterMinGames || gamesA < filterMinGames) return false
       } else if (sport === 'football') {
         const gamesH = p.match_center?.statsH?.played ?? p.home_stats?.played ?? 0
@@ -541,9 +543,9 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     // Smart Edge Filter (Basketball only)
     // Conditions: Min Games >= 8 + Confidence Level: Solid+ + Buffer Floor: Strong+
     if (sport === 'basketball' && smartEdgeFilter) {
-      // 1. Min Games >= 8 (both teams must have >= 8 graded/played games)
-      const gh = p.graded_h != null ? p.graded_h : (p.match_center?.statsH?.played ?? 0)
-      const ga = p.graded_a != null ? p.graded_a : (p.match_center?.statsA?.played ?? 0)
+      // 1. Min Games >= 8 (current-season matches played — statsH/A.played takes priority over graded_h/a which is all-time)
+      const gh = p.match_center?.statsH?.played ?? p.graded_h ?? 0
+      const ga = p.match_center?.statsA?.played ?? p.graded_a ?? 0
       if (Math.min(gh, ga) < 8) return false
 
       // 2. Confidence Level: Solid+ ([ELITE], [HIGH], [SOLID])
