@@ -222,8 +222,8 @@ export default function LiveBasketballDashboard() {
             {filterMode === 'alerts'
               ? 'No high-conviction live signals triggered right now. Switch to "All Live Games" to view all games in progress.'
               : filterMode === 'ht'
-              ? 'No games currently at Halftime. Switch to "All Live Games" to see active quarters.'
-              : 'The In-Play Engine is continuously monitoring global tip-offs.'}
+                ? 'No games currently at Halftime. Switch to "All Live Games" to see active quarters.'
+                : 'The In-Play Engine is continuously monitoring global tip-offs.'}
           </p>
         </div>
       ) : (

@@ -126,13 +126,13 @@ export default function LiveDashboard({ sport = 'football' }) {
         </div>
 
         <div className="live-controls">
-          <button 
+          <button
             className={`view-btn ${viewMode === 'actionable' ? 'active' : ''}`}
             onClick={() => setViewMode('actionable')}
           >
             Actionable Signals ({actionableMatches.length})
           </button>
-          <button 
+          <button
             className={`view-btn ${viewMode === 'all' ? 'active' : ''}`}
             onClick={() => setViewMode('all')}
           >
@@ -140,7 +140,7 @@ export default function LiveDashboard({ sport = 'football' }) {
           </button>
         </div>
       </div>
-      
+
       {/* ── Status Meta Bar ── */}
       <div className="live-meta">
         <div className="meta-left">
@@ -170,9 +170,9 @@ export default function LiveDashboard({ sport = 'football' }) {
           </div>
         ) : (
           matchesToDisplay.map((match) => (
-            <div 
-              key={match.fixture_id} 
-              className={`live-match-card ${match.triggers?.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`} 
+            <div
+              key={match.fixture_id}
+              className={`live-match-card ${match.triggers?.length > 0 ? 'highlight' : ''} ${expandedMatchId === match.fixture_id ? 'expanded' : ''}`}
               onClick={() => toggleExpand(match.fixture_id)}
             >
               <div className="match-header">
@@ -255,7 +255,7 @@ export default function LiveDashboard({ sport = 'football' }) {
                   </div>
                 </div>
               )}
-              
+
               {expandedMatchId === match.fixture_id && (
                 <div className="live-match-expanded">
                   <div className="expanded-stats-grid">
@@ -284,14 +284,14 @@ export default function LiveDashboard({ sport = 'football' }) {
                       <div className="stat-values"><span>{match.stats?.home?.yellow_cards || 0}</span> - <span>{match.stats?.away?.yellow_cards || 0}</span></div>
                     </div>
                   </div>
-                  
+
                   {match.recent_events && match.recent_events.length > 0 && (
                     <div className="recent-events-timeline">
                       <h4>Recent Events</h4>
                       <ul>
                         {match.recent_events.map((e, idx) => (
                           <li key={idx}>
-                            <span className="event-time">{e.time}'</span> 
+                            <span className="event-time">{e.time}'</span>
                             <span className={`event-type type-${e.type?.toLowerCase()}`}>{e.type}</span>
                             <span className="event-detail">{e.detail} - {e.player} ({e.team})</span>
                           </li>
@@ -301,7 +301,7 @@ export default function LiveDashboard({ sport = 'football' }) {
                   )}
                 </div>
               )}
-              
+
             </div>
           ))
         )}
