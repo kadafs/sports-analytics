@@ -331,7 +331,7 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -471,6 +471,19 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (dec !== '2H') return false
       } else if (filterHsh === '1h') {
         if (dec !== '1H') return false
+      }
+    }
+
+    // Standalone Minimum Games / Sample Filter (Basketball & Football)
+    if (filterMinGames > 0) {
+      if (sport === 'basketball') {
+        const gamesH = p.graded_h != null ? p.graded_h : (p.match_center?.statsH?.played ?? 0)
+        const gamesA = p.graded_a != null ? p.graded_a : (p.match_center?.statsA?.played ?? 0)
+        if (gamesH < filterMinGames || gamesA < filterMinGames) return false
+      } else if (sport === 'football') {
+        const gamesH = p.match_center?.statsH?.played ?? p.home_stats?.played ?? 0
+        const gamesA = p.match_center?.statsA?.played ?? p.away_stats?.played ?? 0
+        if (gamesH < filterMinGames || gamesA < filterMinGames) return false
       }
     }
     
@@ -646,6 +659,7 @@ export default function App() {
   const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
   const [filterBuffer,     setFilterBuffer]     = useState('all') // 'all' | '[STRONG]+' | '[ELITE BUFFER]' | '[STRONG BUFFER]' | '[NEUTRAL]' | '[AVOID]'
+  const [filterMinGames,   setFilterMinGames]   = useState(0)     // 0 = all, 3 = min 3+ games
   const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
   const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
@@ -798,9 +812,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -849,6 +863,7 @@ export default function App() {
           setFilterMape(100);
           setFilterConfidence('all');
           setFilterBuffer('all');
+          setFilterMinGames(0);
           setFilterWomen('all');
           setHidePlayoffs(false);
           setSmartEdgeFilter(false);
@@ -981,6 +996,20 @@ export default function App() {
                 <option value="2h">⏱️ HSH: 2nd Half (2H)</option>
                 <option value="1h">⏱️ HSH: 1st Half (1H)</option>
               </select>
+
+              <select
+                className="filter-select"
+                style={{ width: '135px' }}
+                value={filterMinGames}
+                onChange={e => setFilterMinGames(Number(e.target.value))}
+                title="Minimum games played by both teams"
+              >
+                <option value={0}>Min Games: All</option>
+                <option value={3}>Min Games: 3+</option>
+                <option value={5}>Min Games: 5+</option>
+                <option value={8}>Min Games: 8+</option>
+                <option value={10}>Min Games: 10+</option>
+              </select>
             </div>
           )}
 
@@ -1014,6 +1043,20 @@ export default function App() {
                 <option value="[NEUTRAL]">🟡 Neutral (16–27)</option>
                 <option value="[MARGINAL]">🟠 Marginal (1–15)</option>
                 <option value="[AVOID]">⛔ Avoid (0 pts)</option>
+              </select>
+
+              <select
+                className="filter-select"
+                style={{ width: '135px' }}
+                value={filterMinGames}
+                onChange={e => setFilterMinGames(Number(e.target.value))}
+                title="Minimum games played / graded by both teams"
+              >
+                <option value={0}>Min Games: All</option>
+                <option value={3}>Min Games: 3+</option>
+                <option value={5}>Min Games: 5+</option>
+                <option value={8}>Min Games: 8+</option>
+                <option value={10}>Min Games: 10+</option>
               </select>
 
               <select className="filter-select" style={{ width: '165px' }} value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
