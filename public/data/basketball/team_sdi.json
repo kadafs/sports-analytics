@@ -1,65 +1,13 @@
 {
-  "generated_at": "2026-11-07T02:17:40.829801",
-  "total_teams": 1363,
+  "generated_at": "2026-11-07T07:10:00.341262",
+  "total_teams": 1365,
   "source": "api-basketball",
   "summary": {
-    "red_high_dependency": 59,
-    "amber_moderate": 1044,
-    "green_balanced": 260
+    "red_high_dependency": 57,
+    "amber_moderate": 1047,
+    "green_balanced": 261
   },
   "teams": [
-    {
-      "team": "Polabi",
-      "games_tracked": 2,
-      "avg_sdi": 177.3,
-      "avg_top1_pct": 97.2,
-      "max_sdi": 315.4,
-      "min_sdi": 39.2,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
-      "top_players": [
-        {
-          "name": "Kotasek Eduard",
-          "times_top2": 1
-        },
-        {
-          "name": "Kolar Adam",
-          "times_top2": 1
-        },
-        {
-          "name": "T. Dlugos",
-          "times_top2": 1
-        },
-        {
-          "name": "T. Stanko",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Sokol Prazsky",
-      "games_tracked": 2,
-      "avg_sdi": 112.1,
-      "avg_top1_pct": 63.5,
-      "max_sdi": 191.3,
-      "min_sdi": 32.9,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
-      "top_players": [
-        {
-          "name": "F. Novotny",
-          "times_top2": 2
-        },
-        {
-          "name": "A. Ruzicka",
-          "times_top2": 1
-        },
-        {
-          "name": "Mikula Tobias",
-          "times_top2": 1
-        }
-      ]
-    },
     {
       "team": "Inner West W",
       "games_tracked": 16,
@@ -3456,6 +3404,30 @@
         },
         {
           "name": "D. Saar",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "MS Academy",
+      "games_tracked": 2,
+      "avg_sdi": 52.2,
+      "avg_top1_pct": 28.8,
+      "max_sdi": 59.2,
+      "min_sdi": 45.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "P. Czudek",
+          "times_top2": 2
+        },
+        {
+          "name": "J. Stehlik",
+          "times_top2": 1
+        },
+        {
+          "name": "V. Novak",
           "times_top2": 1
         }
       ]
@@ -26641,6 +26613,34 @@
       ]
     },
     {
+      "team": "Polabi",
+      "games_tracked": 2,
+      "avg_sdi": 41.7,
+      "avg_top1_pct": 24.5,
+      "max_sdi": 44.1,
+      "min_sdi": 39.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Kotasek Eduard",
+          "times_top2": 1
+        },
+        {
+          "name": "Kolar Adam",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Dlugos",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Stanko",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Batumi",
       "games_tracked": 4,
       "avg_sdi": 41.7,
@@ -30781,6 +30781,30 @@
       ]
     },
     {
+      "team": "Besiktas",
+      "games_tracked": 2,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 21.9,
+      "max_sdi": 46.3,
+      "min_sdi": 34.4,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Gabriel Wenyen",
+          "times_top2": 2
+        },
+        {
+          "name": "Omoruyi Eugene",
+          "times_top2": 1
+        },
+        {
+          "name": "Birsen James",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Dubai",
       "games_tracked": 2,
       "avg_sdi": 40.2,
@@ -32496,30 +32520,6 @@
         },
         {
           "name": "J. Perez",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Besiktas",
-      "games_tracked": 2,
-      "avg_sdi": 39.6,
-      "avg_top1_pct": 21.5,
-      "max_sdi": 44.9,
-      "min_sdi": 34.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Gabriel Wenyen",
-          "times_top2": 2
-        },
-        {
-          "name": "Omoruyi Eugene",
-          "times_top2": 1
-        },
-        {
-          "name": "Birsen James",
           "times_top2": 1
         }
       ]
@@ -34353,6 +34353,30 @@
       ]
     },
     {
+      "team": "Sokol Prazsky",
+      "games_tracked": 2,
+      "avg_sdi": 38.5,
+      "avg_top1_pct": 21.6,
+      "max_sdi": 44.0,
+      "min_sdi": 32.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "F. Novotny",
+          "times_top2": 2
+        },
+        {
+          "name": "A. Ruzicka",
+          "times_top2": 1
+        },
+        {
+          "name": "Mikula Tobias",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "EPG Baskets Koblenz",
       "games_tracked": 28,
       "avg_sdi": 38.5,
@@ -35440,6 +35464,34 @@
         },
         {
           "name": "K. Bata",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Zlin",
+      "games_tracked": 2,
+      "avg_sdi": 37.8,
+      "avg_top1_pct": 19.8,
+      "max_sdi": 41.2,
+      "min_sdi": 34.4,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Muller Martin",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Jansa",
+          "times_top2": 1
+        },
+        {
+          "name": "J. Micka",
+          "times_top2": 1
+        },
+        {
+          "name": "Krakovic Jakub",
           "times_top2": 1
         }
       ]
