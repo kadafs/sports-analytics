@@ -1545416,7 +1545416,7 @@
       "time": "18:15",
       "away_team": "Zlin",
       "home_team": "MS Academy",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 165.89,
       "xpts_h": 69.5,
@@ -1546561,7 +1546561,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 122,
+      "actual_result": "AWAY",
+      "halftime_home_score": 46,
+      "halftime_away_score": 60,
+      "halftime_total": 106,
+      "halftime_pct_of_model": 63.9,
+      "total_delta": 27.11,
+      "signed_delta": 27.11,
+      "total_rpe": 14.05,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1546585,7 +1546596,7 @@
       "time": "18:30",
       "away_team": "Polabi",
       "home_team": "Sokol Prazsky",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "8",
       "model_total": 176.42,
       "xpts_h": 84.0,
@@ -1547730,7 +1547741,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 26,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 39.7,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1730800,7 +1730821,7 @@
       "time": "23:30",
       "away_team": "Valparaiso",
       "home_team": "Purdue",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 150.96,
       "xpts_h": 90.9,
@@ -1746612,7 +1746633,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 20,
+      "halftime_total": 52,
+      "halftime_pct_of_model": 34.4,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -2087655,7 +2087686,7 @@
       "time": "19:00",
       "away_team": "Denain-Voltaire",
       "home_team": "La Rochelle",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 169.54,
       "xpts_h": 80.6,
@@ -2088854,7 +2088885,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 35,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 11.54,
+      "signed_delta": -11.54,
+      "total_rpe": 7.3,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -2090085,7 +2090127,7 @@
       "time": "19:00",
       "away_team": "Evreux",
       "home_team": "Chalons-Reims",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 169.26,
       "xpts_h": 93.1,
@@ -2091276,7 +2091318,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 48,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 46.1,
+      "total_delta": 21.26,
+      "signed_delta": -21.26,
+      "total_rpe": 14.36,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -2103273,12 +2103326,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-11-07T01:56:06.088849",
+  "graded_at": "2026-11-07T03:28:29.011259",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 124,
-      "total": 180,
-      "pct": 68.9
+      "wins": 125,
+      "total": 185,
+      "pct": 67.6
     },
     "[ADVANCED]": {
       "wins": 36,
