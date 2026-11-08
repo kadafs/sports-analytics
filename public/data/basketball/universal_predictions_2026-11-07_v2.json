@@ -806118,7 +806118,7 @@
       "time": "17:00",
       "away_team": "Tal Tech",
       "home_team": "Rigas Zelli",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.25,
       "xpts_h": 92.3,
@@ -807112,7 +807112,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 31,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 44.4,
+      "total_delta": 6.25,
+      "signed_delta": -6.25,
+      "total_rpe": 3.96,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1015679,7 +1015690,7 @@
       "time": "20:00",
       "away_team": "N. Carolina Central",
       "home_team": "Longwood",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 155.32,
       "xpts_h": 80.4,
@@ -1031512,7 +1031523,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 27,
+      "halftime_total": 62,
+      "halftime_pct_of_model": 39.9,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1110929,7 +1110950,7 @@
       "time": "21:00",
       "away_team": "Lafayette",
       "home_team": "Saint Josephs Hawks",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 168.29,
       "xpts_h": 71.2,
@@ -1126831,7 +1126852,17 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 67,
+      "actual_away_score": 57,
+      "actual_result": "HOME",
+      "halftime_home_score": 31,
+      "halftime_away_score": 24,
+      "halftime_total": 55,
+      "halftime_pct_of_model": 32.7,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1964988,7 +1965019,7 @@
       "time": "22:00",
       "away_team": "Liberty W",
       "home_team": "East Carolina W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.08,
       "xpts_h": 66.2,
@@ -1980741,7 +1980772,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 49,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "halftime_home_score": 18,
+      "halftime_away_score": 33,
+      "halftime_total": 51,
+      "halftime_pct_of_model": 38.6,
+      "total_delta": 1.08,
+      "signed_delta": -1.08,
+      "total_rpe": 0.82,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -2208199,16 +2208241,16 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-08T08:44:04.895020",
+  "graded_at": "2026-11-08T15:44:23.821414",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 184,
-      "total": 249,
-      "pct": 73.9
+      "total": 250,
+      "pct": 73.6
     },
     "[ADVANCED]": {
-      "wins": 145,
-      "total": 210,
+      "wins": 147,
+      "total": 213,
       "pct": 69.0
     }
   }
