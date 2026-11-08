@@ -1,65 +1,13 @@
 {
-  "generated_at": "2026-11-08T09:56:00.055360",
+  "generated_at": "2026-11-08T13:40:05.376400",
   "total_teams": 1444,
   "source": "api-basketball",
   "summary": {
-    "red_high_dependency": 68,
-    "amber_moderate": 1114,
-    "green_balanced": 262
+    "red_high_dependency": 66,
+    "amber_moderate": 1115,
+    "green_balanced": 263
   },
   "teams": [
-    {
-      "team": "Rigas Zelli",
-      "games_tracked": 2,
-      "avg_sdi": 356.8,
-      "avg_top1_pct": 210.0,
-      "max_sdi": 675.0,
-      "min_sdi": 38.5,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
-      "top_players": [
-        {
-          "name": "T. Perkins",
-          "times_top2": 1
-        },
-        {
-          "name": "B. Shungu",
-          "times_top2": 1
-        },
-        {
-          "name": "Skuja Toms",
-          "times_top2": 1
-        },
-        {
-          "name": "Wahl Tyler",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Tal Tech",
-      "games_tracked": 2,
-      "avg_sdi": 227.2,
-      "avg_top1_pct": 135.4,
-      "max_sdi": 412.5,
-      "min_sdi": 41.8,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
-      "top_players": [
-        {
-          "name": "O. Metsalu",
-          "times_top2": 2
-        },
-        {
-          "name": "T. Niits",
-          "times_top2": 1
-        },
-        {
-          "name": "S. Post",
-          "times_top2": 1
-        }
-      ]
-    },
     {
       "team": "BBC Troistorrents W",
       "games_tracked": 2,
@@ -16213,6 +16161,30 @@
         {
           "name": "Munoz Renato",
           "times_top2": 2
+        }
+      ]
+    },
+    {
+      "team": "Tal Tech",
+      "games_tracked": 2,
+      "avg_sdi": 45.9,
+      "avg_top1_pct": 25.6,
+      "max_sdi": 50.0,
+      "min_sdi": 41.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "O. Metsalu",
+          "times_top2": 2
+        },
+        {
+          "name": "T. Niits",
+          "times_top2": 1
+        },
+        {
+          "name": "S. Post",
+          "times_top2": 1
         }
       ]
     },
@@ -39885,6 +39857,34 @@
         {
           "name": "Vojtech Hruban",
           "times_top2": 3
+        }
+      ]
+    },
+    {
+      "team": "Rigas Zelli",
+      "games_tracked": 2,
+      "avg_sdi": 33.9,
+      "avg_top1_pct": 18.7,
+      "max_sdi": 38.5,
+      "min_sdi": 29.3,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "T. Perkins",
+          "times_top2": 1
+        },
+        {
+          "name": "B. Shungu",
+          "times_top2": 1
+        },
+        {
+          "name": "Skuja Toms",
+          "times_top2": 1
+        },
+        {
+          "name": "Wahl Tyler",
+          "times_top2": 1
         }
       ]
     },
