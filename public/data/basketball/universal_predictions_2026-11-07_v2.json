@@ -795539,7 +795539,7 @@
       "time": "23:30",
       "away_team": "Puente Alto",
       "home_team": "Puerto Montt",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNB - Quarter-finals",
       "model_total": 157.57,
       "xpts_h": 76.1,
@@ -797637,7 +797637,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 47,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 57.8,
+      "total_delta": 2.57,
+      "signed_delta": -2.57,
+      "total_rpe": 1.66,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -1428337,7 +1428348,7 @@
       "time": "23:30",
       "away_team": "Morgan State",
       "home_team": "Niagara",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 146.12,
       "xpts_h": 39.1,
@@ -1444197,7 +1444208,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "total_delta": 6.12,
+      "signed_delta": -6.12,
+      "total_rpe": 4.37,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -2012290,7 +2012308,7 @@
       "time": "23:00",
       "away_team": "San Diego W",
       "home_team": "UC San Diego Tritons W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 128.9,
       "xpts_h": 76.8,
@@ -2028016,7 +2028034,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 30,
+      "halftime_away_score": 38,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 52.8,
+      "total_delta": 49.1,
+      "signed_delta": 49.1,
+      "total_rpe": 27.58,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -2043845,7 +2043874,7 @@
       "time": "23:30",
       "away_team": "Buffalo W",
       "home_team": "Youngstown State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.15,
       "xpts_h": 85.4,
@@ -2059571,7 +2059600,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 62,
+      "actual_result": "HOME",
+      "halftime_home_score": 39,
+      "halftime_away_score": 38,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 58.3,
+      "total_delta": 15.85,
+      "signed_delta": 15.85,
+      "total_rpe": 10.71,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -2208159,17 +2208199,17 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-08T01:27:27.611179",
+  "graded_at": "2026-11-08T08:44:04.895020",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 182,
-      "total": 246,
-      "pct": 74.0
+      "wins": 184,
+      "total": 249,
+      "pct": 73.9
     },
     "[ADVANCED]": {
       "wins": 145,
-      "total": 209,
-      "pct": 69.4
+      "total": 210,
+      "pct": 69.0
     }
   }
 }
