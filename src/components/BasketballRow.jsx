@@ -234,6 +234,12 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isSRSFallback = !isAdvanced && leagueHasAdv   // ADV league but this game used SRS
   const showBadge = !isFinished && isSRSFallback
 
+  // Early-season low-trust flag: one or both teams have < 8 current-season games
+  const earlySeasonFlag = Boolean(primary.early_season_flag)
+  const homeSeasonGames = primary.home_season_games ?? statsH?.current_season_games ?? null
+  const awaySeasonGames = primary.away_season_games ?? statsA?.current_season_games ?? null
+  const showEarlySeasonBadge = !isFinished && earlySeasonFlag
+
   const isHomeStable = home_team_volatility != null && home_team_volatility <= 16.6
   const isAwayStable = away_team_volatility != null && away_team_volatility <= 16.6
   
@@ -310,6 +316,27 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               title: 'ADV data missing for this team — using SRS fallback',
             }}>
               SRS ⚠
+            </div>
+          )}
+          {showEarlySeasonBadge && (
+            <div
+              title={`Early season — ratings blended with prior season data (${homeSeasonGames ?? '?'} home gp / ${awaySeasonGames ?? '?'} away gp)`}
+              style={{
+                marginTop: 2,
+                fontSize: 7,
+                fontWeight: 800,
+                padding: '1px 3px',
+                borderRadius: 2,
+                display: 'inline-block',
+                background: '#d97706',
+                color: '#fff',
+                opacity: 0.9,
+                textAlign: 'center',
+                lineHeight: 1,
+                cursor: 'help',
+              }}
+            >
+              📊 EARLY
             </div>
           )}
         </div>
