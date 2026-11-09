@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T08:24:14.371289",
+  "generated_at": "2026-11-09T20:16:09.139148",
   "total_teams": 1466,
   "source": "api-basketball",
   "summary": {
     "red_high_dependency": 69,
-    "amber_moderate": 1127,
-    "green_balanced": 270
+    "amber_moderate": 1128,
+    "green_balanced": 269
   },
   "teams": [
     {
@@ -27865,6 +27865,34 @@
       ]
     },
     {
+      "team": "Motilones del Norte",
+      "games_tracked": 4,
+      "avg_sdi": 42.0,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 47.7,
+      "min_sdi": 35.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "D. Dominguez",
+          "times_top2": 4
+        },
+        {
+          "name": "S. Ramirez",
+          "times_top2": 2
+        },
+        {
+          "name": "E. Hernandez",
+          "times_top2": 1
+        },
+        {
+          "name": "Ireland Jeremy",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "San Antonio Spurs",
       "games_tracked": 4,
       "avg_sdi": 41.9,
@@ -28420,34 +28448,6 @@
         },
         {
           "name": "M. Eddings",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Motilones del Norte",
-      "games_tracked": 3,
-      "avg_sdi": 41.8,
-      "avg_top1_pct": 23.0,
-      "max_sdi": 47.7,
-      "min_sdi": 35.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "D. Dominguez",
-          "times_top2": 3
-        },
-        {
-          "name": "S. Ramirez",
-          "times_top2": 1
-        },
-        {
-          "name": "E. Hernandez",
-          "times_top2": 1
-        },
-        {
-          "name": "Ireland Jeremy",
           "times_top2": 1
         }
       ]
@@ -32320,6 +32320,38 @@
         },
         {
           "name": "Thomas Khyri",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Paisas",
+      "games_tracked": 4,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 23.1,
+      "max_sdi": 47.4,
+      "min_sdi": 35.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Roque Romario",
+          "times_top2": 2
+        },
+        {
+          "name": "J. Artis",
+          "times_top2": 2
+        },
+        {
+          "name": "Pena Alvaro",
+          "times_top2": 1
+        },
+        {
+          "name": "C. Garcia",
+          "times_top2": 1
+        },
+        {
+          "name": "M. Jackson",
           "times_top2": 1
         }
       ]
@@ -37337,38 +37369,6 @@
         {
           "name": "Brynton Lemar",
           "times_top2": 3
-        }
-      ]
-    },
-    {
-      "team": "Paisas",
-      "games_tracked": 3,
-      "avg_sdi": 38.1,
-      "avg_top1_pct": 20.1,
-      "max_sdi": 40.0,
-      "min_sdi": 35.6,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "J. Artis",
-          "times_top2": 2
-        },
-        {
-          "name": "C. Garcia",
-          "times_top2": 1
-        },
-        {
-          "name": "M. Jackson",
-          "times_top2": 1
-        },
-        {
-          "name": "Roque Romario",
-          "times_top2": 1
-        },
-        {
-          "name": "G. Cordero",
-          "times_top2": 1
         }
       ]
     },
