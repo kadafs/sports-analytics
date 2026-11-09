@@ -195134,7 +195134,7 @@
       "time": "10:05",
       "away_team": "Altiri Chiba",
       "home_team": "Brave Thunders",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.65,
       "xpts_h": 83.3,
@@ -196622,7 +196622,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 39,
+      "halftime_away_score": 40,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 47.7,
+      "total_delta": 4.65,
+      "signed_delta": -4.65,
+      "total_rpe": 2.89,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -196649,7 +196660,7 @@
       "time": "10:05",
       "away_team": "Diamond Dolphins",
       "home_team": "Gunma",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.09,
       "xpts_h": 78.0,
@@ -198086,7 +198097,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 34,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 51.0,
+      "total_delta": 9.91,
+      "signed_delta": 9.91,
+      "total_rpe": 6.08,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -198113,7 +198135,7 @@
       "time": "10:05",
       "away_team": "Ryukyu",
       "home_team": "Ibaraki Robots",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.38,
       "xpts_h": 74.5,
@@ -199554,7 +199576,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 39,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 53.8,
+      "total_delta": 2.38,
+      "signed_delta": -2.38,
+      "total_rpe": 1.57,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -199581,7 +199614,7 @@
       "time": "10:05",
       "away_team": "Sendai",
       "home_team": "Nagasaki",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.7,
       "xpts_h": 76.8,
@@ -201018,7 +201051,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 107,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 58,
+      "halftime_total": 117,
+      "halftime_pct_of_model": 75.6,
+      "total_delta": 39.3,
+      "signed_delta": 39.3,
+      "total_rpe": 20.26,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -201045,7 +201089,7 @@
       "time": "10:05",
       "away_team": "Toyama",
       "home_team": "Shimane",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.21,
       "xpts_h": 77.4,
@@ -202508,7 +202552,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 108,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 33,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 55.1,
+      "total_delta": 28.79,
+      "signed_delta": 28.79,
+      "total_rpe": 15.73,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -202535,7 +202590,7 @@
       "time": "10:15",
       "away_team": "Levanga Hokkaido",
       "home_team": "Kyoto",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 170.52,
       "xpts_h": 88.3,
@@ -203976,7 +204031,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 41,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 41.6,
+      "total_delta": 6.52,
+      "signed_delta": -6.52,
+      "total_rpe": 3.98,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -205129,7 +205195,7 @@
       "home_season_games": 5,
       "away_season_games": 6,
       "league_id": 104,
-      "league": "Basketbol S\u00fcper Ligi",
+      "league": "Basketbol Süper Ligi",
       "country": "Turkey",
       "date": "2026-11-09",
       "time": "16:00",
@@ -205410,7 +205476,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205453,7 +205519,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205496,7 +205562,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205539,7 +205605,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205582,7 +205648,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205625,7 +205691,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205668,7 +205734,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205711,7 +205777,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205754,7 +205820,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205797,7 +205863,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205840,7 +205906,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205883,7 +205949,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205926,7 +205992,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -205969,7 +206035,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -206012,7 +206078,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -206055,7 +206121,7 @@
               },
               "league": {
                 "id": 104,
-                "name": "Basketbol S\u00fcper Ligi",
+                "name": "Basketbol Süper Ligi",
                 "type": "League",
                 "season": "2026-2027",
                 "logo": "https://media.api-sports.io/basketball/leagues/104.png"
@@ -210722,7 +210788,7 @@
       "time": "10:00",
       "away_team": "Suwon KT",
       "home_team": "Seoul Thunders",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 174.38,
       "xpts_h": 89.1,
@@ -211501,7 +211567,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 46,
+      "halftime_total": 86,
+      "halftime_pct_of_model": 49.3,
+      "total_delta": 11.38,
+      "signed_delta": -11.38,
+      "total_rpe": 6.98,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -217514,7 +217591,7 @@
       "time": "10:30",
       "away_team": "San Juan Knights",
       "home_team": "Abra Weavers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "MPBL - Semi-finals",
       "model_total": 154.8,
       "xpts_h": 85.5,
@@ -219046,7 +219123,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 28,
+      "halftime_total": 63,
+      "halftime_pct_of_model": 40.7,
+      "total_delta": 13.8,
+      "signed_delta": -13.8,
+      "total_rpe": 9.79,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -219073,7 +219161,7 @@
       "time": "00:00",
       "away_team": "Utah Jazz",
       "home_team": "Minnesota Timberwolves",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 226.3,
       "xpts_h": 120.7,
@@ -223290,7 +223378,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 100,
+      "actual_result": "HOME",
+      "halftime_home_score": 57,
+      "halftime_away_score": 51,
+      "halftime_total": 108,
+      "halftime_pct_of_model": 47.7,
+      "total_delta": 11.3,
+      "signed_delta": -11.3,
+      "total_rpe": 5.26,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -223317,7 +223416,7 @@
       "time": "00:30",
       "away_team": "Brooklyn Nets",
       "home_team": "Dallas Mavericks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 224.65,
       "xpts_h": 116.3,
@@ -227538,7 +227637,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 130,
+      "actual_away_score": 93,
+      "actual_result": "HOME",
+      "halftime_home_score": 66,
+      "halftime_away_score": 46,
+      "halftime_total": 112,
+      "halftime_pct_of_model": 49.9,
+      "total_delta": 1.65,
+      "signed_delta": -1.65,
+      "total_rpe": 0.74,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -227565,7 +227675,7 @@
       "time": "01:00",
       "away_team": "Boston Celtics",
       "home_team": "Milwaukee Bucks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 226.31,
       "xpts_h": 104.3,
@@ -231807,7 +231917,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 117,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 58,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 45.5,
+      "total_delta": 12.31,
+      "signed_delta": -12.31,
+      "total_rpe": 5.75,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -231834,7 +231955,7 @@
       "time": "02:00",
       "away_team": "New Orleans Pelicans",
       "home_team": "Los Angeles Clippers",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 229.61,
       "xpts_h": 116.3,
@@ -236059,7 +236180,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 139,
+      "actual_away_score": 123,
+      "actual_result": "HOME",
+      "halftime_home_score": 67,
+      "halftime_away_score": 60,
+      "halftime_total": 127,
+      "halftime_pct_of_model": 55.3,
+      "total_delta": 32.39,
+      "signed_delta": 32.39,
+      "total_rpe": 12.36,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -236086,7 +236218,7 @@
       "time": "02:00",
       "away_team": "Miami Heat",
       "home_team": "Sacramento Kings",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 242.96,
       "xpts_h": 119.4,
@@ -240311,7 +240443,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 108,
+      "actual_away_score": 114,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 68,
+      "halftime_total": 127,
+      "halftime_pct_of_model": 52.3,
+      "total_delta": 20.96,
+      "signed_delta": -20.96,
+      "total_rpe": 9.44,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -240338,7 +240481,7 @@
       "time": "00:30",
       "away_team": "Texas Legends",
       "home_team": "Mexico City Capitanes",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 204.19,
       "xpts_h": 104.9,
@@ -243166,7 +243309,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 91,
+      "actual_result": "HOME",
+      "halftime_home_score": 57,
+      "halftime_away_score": 58,
+      "halftime_total": 115,
+      "halftime_pct_of_model": 56.3,
+      "total_delta": 6.19,
+      "signed_delta": -6.19,
+      "total_rpe": 3.13,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -496051,7 +496205,7 @@
       "time": "10:00",
       "away_team": "Woori WON W",
       "home_team": "KB Stars W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 122.13,
       "xpts_h": 68.8,
@@ -496468,7 +496622,31 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 51,
+      "actual_away_score": 57,
+      "actual_result": "AWAY",
+      "halftime_home_score": 29,
+      "halftime_away_score": 31,
+      "halftime_total": 60,
+      "halftime_pct_of_model": 49.1,
+      "total_delta": 14.13,
+      "signed_delta": -14.13,
+      "total_rpe": 13.08,
+      "accuracy_tier": "SOLID"
     }
-  ]
+  ],
+  "graded_at": "2026-11-09T14:25:20.127135",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 13,
+      "total": 19,
+      "pct": 68.4
+    },
+    "[  SRS   ]": {
+      "wins": 4,
+      "total": 5,
+      "pct": 80.0
+    }
+  }
 }
