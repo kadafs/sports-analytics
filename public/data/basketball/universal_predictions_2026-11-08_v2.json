@@ -774618,7 +774618,7 @@
       "time": "18:00",
       "away_team": "Sacred Heart",
       "home_team": "New Hampshire Wildcats",
-      "status": "Quarter 2",
+      "status": "AOT",
       "stage": "",
       "model_total": 153.34,
       "xpts_h": 76.5,
@@ -790472,7 +790472,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 81,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 33,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 43.7,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -885744,7 +885754,7 @@
       "time": "19:00",
       "away_team": "Central Connecticut State",
       "home_team": "Dartmouth",
-      "status": "Quarter 1",
+      "status": "AOT",
       "stage": "",
       "model_total": 152.96,
       "xpts_h": 83.4,
@@ -901625,7 +901635,17 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 33,
+      "halftime_total": 63,
+      "halftime_pct_of_model": 41.2,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1028687,7 +1028707,7 @@
       "time": "21:30",
       "away_team": "St. Marys (CA)",
       "home_team": "Nevada",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 146.3,
       "xpts_h": 70.5,
@@ -1044520,7 +1044540,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 95,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 35,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 52.6,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -2077330,12 +2077360,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-11-09T01:44:56.914756",
+  "graded_at": "2026-11-10T19:45:20.503388",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 97,
-      "total": 159,
-      "pct": 61.0
+      "wins": 98,
+      "total": 162,
+      "pct": 60.5
     },
     "[  SRS   ]": {
       "wins": 107,
