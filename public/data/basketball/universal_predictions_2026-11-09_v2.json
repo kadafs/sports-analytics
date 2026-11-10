@@ -215740,7 +215740,7 @@
       "time": "23:30",
       "away_team": "Avellaneda W",
       "home_team": "Obras Sanitarias W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.01,
       "xpts_h": 85.1,
@@ -216885,7 +216885,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 35,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 59.1,
+      "total_delta": 33.99,
+      "signed_delta": 33.99,
+      "total_rpe": 20.48,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -497174,12 +497185,12 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-11-10T04:07:55.098664",
+  "graded_at": "2026-11-10T07:22:48.929555",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 24,
-      "total": 35,
-      "pct": 68.6
+      "wins": 25,
+      "total": 36,
+      "pct": 69.4
     },
     "[ADVANCED]": {
       "wins": 25,
