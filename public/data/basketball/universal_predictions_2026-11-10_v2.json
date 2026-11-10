@@ -1186,7 +1186,7 @@
       "time": "00:00",
       "away_team": "Berazategui W",
       "home_team": "Regatas San Nicolas W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 129.34,
       "xpts_h": 45.8,
@@ -2376,7 +2376,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 52,
+      "actual_away_score": 87,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 45,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 53.3,
+      "total_delta": 9.66,
+      "signed_delta": 9.66,
+      "total_rpe": 6.95,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -2403,7 +2414,7 @@
       "time": "00:30",
       "away_team": "Nacional",
       "home_team": "Bigua",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 187.48,
       "xpts_h": 92.5,
@@ -3202,7 +3213,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 110,
+      "actual_away_score": 89,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 44,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 51.7,
+      "total_delta": 11.52,
+      "signed_delta": 11.52,
+      "total_rpe": 5.79,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -3229,7 +3251,7 @@
       "time": "00:00",
       "away_team": "Grambling St.",
       "home_team": "Texas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 151.99,
       "xpts_h": 90.0,
@@ -19125,7 +19147,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 93,
+      "actual_result": "AWAY",
+      "total_delta": 3.01,
+      "signed_delta": 3.01,
+      "total_rpe": 1.94,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -19152,7 +19181,7 @@
       "time": "00:00",
       "away_team": "Radford",
       "home_team": "Tennessee",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 151.93,
       "xpts_h": 85.6,
@@ -35069,7 +35098,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 47,
+      "actual_away_score": 70,
+      "actual_result": "AWAY",
+      "total_delta": 34.93,
+      "signed_delta": -34.93,
+      "total_rpe": 29.85,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -35096,7 +35132,7 @@
       "time": "00:00",
       "away_team": "Brescia",
       "home_team": "Ball State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 139.65,
       "xpts_h": 71.7,
@@ -50907,7 +50943,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 26,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 50.8,
+      "total_delta": 13.35,
+      "signed_delta": 13.35,
+      "total_rpe": 8.73,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -50934,7 +50981,7 @@
       "time": "00:00",
       "away_team": "Florida Gulf Coast",
       "home_team": "Georgia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 169.5,
       "xpts_h": 93.8,
@@ -66851,7 +66898,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "total_delta": 17.5,
+      "signed_delta": -17.5,
+      "total_rpe": 11.51,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -66878,7 +66932,7 @@
       "time": "00:00",
       "away_team": "Cleveland State",
       "home_team": "Bowling Green",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.29,
       "xpts_h": 90.5,
@@ -82738,7 +82792,14 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 95,
+      "actual_result": "AWAY",
+      "total_delta": 9.71,
+      "signed_delta": 9.71,
+      "total_rpe": 5.58,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -82765,7 +82826,7 @@
       "time": "00:00",
       "away_team": "LIU Sharks",
       "home_team": "Towson",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 137.39,
       "xpts_h": 73.8,
@@ -98659,7 +98720,14 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 46,
+      "actual_away_score": 66,
+      "actual_result": "AWAY",
+      "total_delta": 25.39,
+      "signed_delta": -25.39,
+      "total_rpe": 22.67,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -98686,7 +98754,7 @@
       "time": "00:00",
       "away_team": "South Carolina St",
       "home_team": "Chicago State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 145.95,
       "xpts_h": 73.8,
@@ -114540,7 +114608,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "total_delta": 3.05,
+      "signed_delta": 3.05,
+      "total_rpe": 2.05,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -114567,7 +114642,7 @@
       "time": "00:00",
       "away_team": "Washington Shoremen",
       "home_team": "Loyola Maryland",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.93,
       "xpts_h": 68.6,
@@ -130378,7 +130453,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 106,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 25,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 47.4,
+      "total_delta": 16.07,
+      "signed_delta": 16.07,
+      "total_rpe": 9.45,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -130405,7 +130491,7 @@
       "time": "00:00",
       "away_team": "UMKC",
       "home_team": "Jacksonville Dolphins",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 149.02,
       "xpts_h": 81.7,
@@ -146259,7 +146345,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 61,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "total_delta": 9.02,
+      "signed_delta": -9.02,
+      "total_rpe": 6.44,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -146286,7 +146379,7 @@
       "time": "00:00",
       "away_team": "Simpson (Iowa)",
       "home_team": "Western Illinois",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 138.3,
       "xpts_h": 52.5,
@@ -162097,7 +162190,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 48,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 22,
+      "halftime_total": 62,
+      "halftime_pct_of_model": 44.8,
+      "total_delta": 0.3,
+      "signed_delta": -0.3,
+      "total_rpe": 0.22,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -162124,7 +162228,7 @@
       "time": "00:00",
       "away_team": "Wagner",
       "home_team": "UConn",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 140.18,
       "xpts_h": 86.4,
@@ -177978,7 +178082,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 41,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "total_delta": 16.18,
+      "signed_delta": -16.18,
+      "total_rpe": 13.05,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -178005,7 +178116,7 @@
       "time": "00:00",
       "away_team": "Eastern Illinois",
       "home_team": "Notre Dame",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 145.33,
       "xpts_h": 80.6,
@@ -193880,7 +193991,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 94,
+      "actual_result": "AWAY",
+      "total_delta": 18.67,
+      "signed_delta": 18.67,
+      "total_rpe": 11.38,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -193907,7 +194025,7 @@
       "time": "00:00",
       "away_team": "North Florida",
       "home_team": "Miami (FL)",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.77,
       "xpts_h": 95.4,
@@ -209784,7 +209902,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 51,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "total_delta": 22.77,
+      "signed_delta": -22.77,
+      "total_rpe": 16.26,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -209811,7 +209936,7 @@
       "time": "00:00",
       "away_team": "NC Greensboro",
       "home_team": "Illinois (Chi.)",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.72,
       "xpts_h": 82.1,
@@ -225665,7 +225790,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 82,
+      "actual_result": "AWAY",
+      "total_delta": 3.28,
+      "signed_delta": 3.28,
+      "total_rpe": 2.13,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -225692,7 +225824,7 @@
       "time": "00:00",
       "away_team": "Stonehill",
       "home_team": "Columbia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 142.48,
       "xpts_h": 79.5,
@@ -241567,7 +241699,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 55,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "total_delta": 12.48,
+      "signed_delta": -12.48,
+      "total_rpe": 9.6,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -241594,7 +241733,7 @@
       "time": "00:00",
       "away_team": "USC Upstate",
       "home_team": "Coastal Carolina",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 148.8,
       "xpts_h": 75.8,
@@ -257448,7 +257587,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 56,
+      "actual_away_score": 65,
+      "actual_result": "AWAY",
+      "total_delta": 27.8,
+      "signed_delta": -27.8,
+      "total_rpe": 22.98,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -257475,7 +257621,7 @@
       "time": "00:00",
       "away_team": "North Dakota",
       "home_team": "Clemson",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.21,
       "xpts_h": 82.8,
@@ -273392,7 +273538,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 77,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "total_delta": 21.79,
+      "signed_delta": 21.79,
+      "total_rpe": 12.89,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -273419,7 +273572,7 @@
       "time": "00:00",
       "away_team": "Minnesota",
       "home_team": "Cincinnati",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.43,
       "xpts_h": 68.9,
@@ -289273,7 +289426,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "total_delta": 8.43,
+      "signed_delta": -8.43,
+      "total_rpe": 6.8,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -289300,7 +289460,7 @@
       "time": "00:30",
       "away_team": "Jackson State",
       "home_team": "Mississippi St.",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.53,
       "xpts_h": 93.5,
@@ -305154,7 +305314,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 57,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "total_delta": 5.53,
+      "signed_delta": -5.53,
+      "total_rpe": 3.57,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -305181,7 +305348,7 @@
       "time": "00:30",
       "away_team": "Oakland",
       "home_team": "Alabama",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 176.28,
       "xpts_h": 97.5,
@@ -321119,7 +321286,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 109,
+      "actual_result": "AWAY",
+      "total_delta": 0.72,
+      "signed_delta": 0.72,
+      "total_rpe": 0.41,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -321146,7 +321320,7 @@
       "time": "00:30",
       "away_team": "Florida A&M",
       "home_team": "UAB",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.05,
       "xpts_h": 81.6,
@@ -337000,7 +337174,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "total_delta": 5.95,
+      "signed_delta": 5.95,
+      "total_rpe": 3.81,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -337027,7 +337208,7 @@
       "time": "00:30",
       "away_team": "CBS Ambassadors",
       "home_team": "McNeese State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 165.62,
       "xpts_h": 114.6,
@@ -352860,7 +353041,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 135,
+      "actual_away_score": 87,
+      "actual_result": "HOME",
+      "halftime_home_score": 63,
+      "halftime_away_score": 44,
+      "halftime_total": 107,
+      "halftime_pct_of_model": 64.6,
+      "total_delta": 56.38,
+      "signed_delta": 56.38,
+      "total_rpe": 25.4,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -352887,7 +353079,7 @@
       "time": "01:00",
       "away_team": "North Alabama",
       "home_team": "Oklahoma",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 149.45,
       "xpts_h": 85.6,
@@ -368823,7 +369015,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 81,
+      "actual_result": "AWAY",
+      "total_delta": 3.55,
+      "signed_delta": 3.55,
+      "total_rpe": 2.32,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -368850,7 +369049,7 @@
       "time": "01:00",
       "away_team": "Louisiana Monroe",
       "home_team": "Texas A&M",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 166.35,
       "xpts_h": 97.2,
@@ -384767,7 +384966,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 67,
+      "actual_away_score": 108,
+      "actual_result": "AWAY",
+      "total_delta": 8.65,
+      "signed_delta": 8.65,
+      "total_rpe": 4.94,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -384794,7 +385000,7 @@
       "time": "01:00",
       "away_team": "Fisk",
       "home_team": "Tennessee State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.95,
       "xpts_h": 91.1,
@@ -400627,7 +400833,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 123,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 36,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 55.2,
+      "total_delta": 33.05,
+      "signed_delta": 33.05,
+      "total_rpe": 16.86,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -400654,7 +400871,7 @@
       "time": "01:00",
       "away_team": "Boston University",
       "home_team": "Northwestern",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.11,
       "xpts_h": 83.8,
@@ -416594,7 +416811,14 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 55,
+      "actual_away_score": 72,
+      "actual_result": "AWAY",
+      "total_delta": 25.11,
+      "signed_delta": -25.11,
+      "total_rpe": 19.77,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -416621,7 +416845,7 @@
       "time": "01:00",
       "away_team": "Siu Edwardsville",
       "home_team": "Missouri",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 141.09,
       "xpts_h": 76.9,
@@ -432559,7 +432783,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 58,
+      "actual_away_score": 96,
+      "actual_result": "AWAY",
+      "total_delta": 12.91,
+      "signed_delta": 12.91,
+      "total_rpe": 8.38,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -432586,7 +432817,7 @@
       "time": "01:00",
       "away_team": "Louisiana Tech",
       "home_team": "LSU",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 138.42,
       "xpts_h": 73.6,
@@ -448440,7 +448671,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 50,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "total_delta": 1.58,
+      "signed_delta": 1.58,
+      "total_rpe": 1.13,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -448467,7 +448705,7 @@
       "time": "01:00",
       "away_team": "Southern-New O.",
       "home_team": "Louisiana Lafayette",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 142.74,
       "xpts_h": 72.1,
@@ -464278,7 +464516,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 56,
+      "actual_away_score": 39,
+      "actual_result": "HOME",
+      "halftime_home_score": 26,
+      "halftime_away_score": 15,
+      "halftime_total": 41,
+      "halftime_pct_of_model": 28.7,
+      "total_delta": 47.74,
+      "signed_delta": -47.74,
+      "total_rpe": 50.25,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -464305,7 +464554,7 @@
       "time": "01:30",
       "away_team": "Illinois State",
       "home_team": "Purdue",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.42,
       "xpts_h": 81.4,
@@ -480159,7 +480408,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 76,
+      "actual_result": "AWAY",
+      "total_delta": 15.42,
+      "signed_delta": -15.42,
+      "total_rpe": 11.42,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -480186,7 +480442,7 @@
       "time": "02:00",
       "away_team": "Alabama A&M",
       "home_team": "DePaul",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 137.09,
       "xpts_h": 74.7,
@@ -496040,7 +496296,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 47,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "total_delta": 6.09,
+      "signed_delta": -6.09,
+      "total_rpe": 4.65,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -496067,7 +496330,7 @@
       "time": "02:00",
       "away_team": "Seton Hall",
       "home_team": "Charlotte",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.27,
       "xpts_h": 64.7,
@@ -511944,7 +512207,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 68,
+      "actual_result": "AWAY",
+      "total_delta": 5.27,
+      "signed_delta": -5.27,
+      "total_rpe": 4.05,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -511971,7 +512241,7 @@
       "time": "02:00",
       "away_team": "Appalachian State",
       "home_team": "Auburn",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.21,
       "xpts_h": 81.1,
@@ -527804,7 +528074,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 53,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "total_delta": 19.21,
+      "signed_delta": -19.21,
+      "total_rpe": 15.01,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -527831,7 +528108,7 @@
       "time": "02:30",
       "away_team": "East. Washington",
       "home_team": "Oregon State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.99,
       "xpts_h": 81.7,
@@ -543685,7 +543962,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 94,
+      "actual_result": "AWAY",
+      "total_delta": 22.01,
+      "signed_delta": 22.01,
+      "total_rpe": 12.37,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -543712,7 +543996,7 @@
       "time": "02:30",
       "away_team": "UT Arlington",
       "home_team": "Bethesda",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.96,
       "xpts_h": 44.7,
@@ -559650,7 +559934,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 65,
+      "actual_away_score": 116,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 57,
+      "halftime_total": 89,
+      "halftime_pct_of_model": 57.8,
+      "total_delta": 27.04,
+      "signed_delta": 27.04,
+      "total_rpe": 14.94,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -559677,7 +559972,7 @@
       "time": "03:00",
       "away_team": "Rice",
       "home_team": "Stanford",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.33,
       "xpts_h": 80.3,
@@ -575531,7 +575826,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 91,
+      "actual_result": "AWAY",
+      "total_delta": 16.67,
+      "signed_delta": 16.67,
+      "total_rpe": 10.16,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -575558,7 +575860,7 @@
       "time": "03:00",
       "away_team": "Miss. Valley St.",
       "home_team": "Washington",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.57,
       "xpts_h": 93.5,
@@ -591454,7 +591756,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "total_delta": 6.57,
+      "signed_delta": -6.57,
+      "total_rpe": 4.66,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -591481,7 +591790,7 @@
       "time": "04:59",
       "away_team": "Portland",
       "home_team": "Hawaii",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.41,
       "xpts_h": 82.4,
@@ -607419,7 +607728,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "total_delta": 16.41,
+      "signed_delta": -16.41,
+      "total_rpe": 11.81,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -607446,7 +607762,7 @@
       "time": "00:00",
       "away_team": "Lamar W",
       "home_team": "Texas Tech W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 129.76,
       "xpts_h": 78.0,
@@ -623193,7 +623509,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 28,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 16,
+      "halftime_total": 57,
+      "halftime_pct_of_model": 43.9,
+      "total_delta": 23.76,
+      "signed_delta": -23.76,
+      "total_rpe": 22.42,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -623220,7 +623547,7 @@
       "time": "00:00",
       "away_team": "Carolina University W",
       "home_team": "Queens Royals W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 146.79,
       "xpts_h": 97.1,
@@ -638988,7 +639315,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 40,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 21,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 41.6,
+      "total_delta": 20.79,
+      "signed_delta": -20.79,
+      "total_rpe": 16.5,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -639015,7 +639353,7 @@
       "time": "00:00",
       "away_team": "MUW Owls W",
       "home_team": "Jackson State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 134.12,
       "xpts_h": 68.7,
@@ -654740,7 +655078,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 31,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 55.2,
+      "total_delta": 20.88,
+      "signed_delta": 20.88,
+      "total_rpe": 13.47,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -654767,7 +655116,7 @@
       "time": "00:00",
       "away_team": "Bradley W",
       "home_team": "Indiana W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.17,
       "xpts_h": 80.3,
@@ -670598,7 +670947,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 56,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 26,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 46.2,
+      "total_delta": 7.17,
+      "signed_delta": -7.17,
+      "total_rpe": 5.12,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -670625,7 +670985,7 @@
       "time": "00:00",
       "away_team": "Penn State W",
       "home_team": "Dayton W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.67,
       "xpts_h": 81.8,
@@ -686372,7 +686732,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "halftime_home_score": 29,
+      "halftime_away_score": 37,
+      "halftime_total": 66,
+      "halftime_pct_of_model": 42.1,
+      "total_delta": 8.67,
+      "signed_delta": -8.67,
+      "total_rpe": 5.86,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -686399,7 +686770,7 @@
       "time": "00:00",
       "away_team": "Coppin State W",
       "home_team": "Central Connecticut State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 131.41,
       "xpts_h": 53.9,
@@ -702194,7 +702565,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 60,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 26,
+      "halftime_away_score": 33,
+      "halftime_total": 59,
+      "halftime_pct_of_model": 44.9,
+      "total_delta": 6.59,
+      "signed_delta": 6.59,
+      "total_rpe": 4.78,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -702221,7 +702603,7 @@
       "time": "00:00",
       "away_team": "UALR W",
       "home_team": "Memphis Tigers W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 129.44,
       "xpts_h": 65.1,
@@ -718016,7 +718398,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 48,
+      "actual_result": "HOME",
+      "halftime_home_score": 25,
+      "halftime_away_score": 15,
+      "halftime_total": 40,
+      "halftime_pct_of_model": 30.9,
+      "total_delta": 19.44,
+      "signed_delta": -19.44,
+      "total_rpe": 17.67,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -718043,7 +718436,7 @@
       "time": "00:00",
       "away_team": "Miss. Valley St. W",
       "home_team": "Southern Mississippi W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.43,
       "xpts_h": 97.5,
@@ -733811,7 +734204,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 55,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 29,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 47.6,
+      "total_delta": 23.43,
+      "signed_delta": -23.43,
+      "total_rpe": 18.02,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -733838,7 +734242,7 @@
       "time": "00:00",
       "away_team": "North Alabama W",
       "home_team": "Jacksonville St. W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 123.14,
       "xpts_h": 68.3,
@@ -749606,7 +750010,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 66,
+      "actual_result": "AWAY",
+      "halftime_home_score": 25,
+      "halftime_away_score": 32,
+      "halftime_total": 57,
+      "halftime_pct_of_model": 46.3,
+      "total_delta": 5.86,
+      "signed_delta": 5.86,
+      "total_rpe": 4.54,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -749633,7 +750048,7 @@
       "time": "00:00",
       "away_team": "Longwood W",
       "home_team": "Charlotte 49ers W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 139.01,
       "xpts_h": 60.2,
@@ -765424,7 +765839,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 86,
+      "actual_away_score": 72,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 43,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 58.3,
+      "total_delta": 18.99,
+      "signed_delta": 18.99,
+      "total_rpe": 12.02,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -765451,7 +765877,7 @@
       "time": "00:00",
       "away_team": "Apprentice Builders W",
       "home_team": "Hampton W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 129.6,
       "xpts_h": 70.3,
@@ -781198,7 +781624,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 43,
+      "actual_result": "HOME",
+      "halftime_home_score": 45,
+      "halftime_away_score": 19,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 49.4,
+      "total_delta": 16.4,
+      "signed_delta": 16.4,
+      "total_rpe": 11.23,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -781225,7 +781662,7 @@
       "time": "00:30",
       "away_team": "Morehead State W",
       "home_team": "Vanderbilt W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.02,
       "xpts_h": 104.1,
@@ -796993,7 +797430,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 102,
+      "actual_away_score": 50,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 26,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 52.0,
+      "total_delta": 0.02,
+      "signed_delta": -0.02,
+      "total_rpe": 0.01,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -797020,7 +797468,7 @@
       "time": "00:30",
       "away_team": "UMKC W",
       "home_team": "Arkansas Razorbacks W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.05,
       "xpts_h": 86.9,
@@ -812788,7 +813236,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 42,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 59.6,
+      "total_delta": 13.95,
+      "signed_delta": 13.95,
+      "total_rpe": 8.21,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -812815,7 +813274,7 @@
       "time": "00:30",
       "away_team": "Central Arkansas W",
       "home_team": "Louisiana Monroe W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.46,
       "xpts_h": 64.2,
@@ -828583,7 +829042,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 49,
+      "actual_away_score": 61,
+      "actual_result": "AWAY",
+      "halftime_home_score": 27,
+      "halftime_away_score": 34,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 45.0,
+      "total_delta": 25.46,
+      "signed_delta": -25.46,
+      "total_rpe": 23.15,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -828610,7 +829080,7 @@
       "time": "00:30",
       "away_team": "Western Illinois W",
       "home_team": "Nebraska O. W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 138.71,
       "xpts_h": 41.8,
@@ -844378,7 +844848,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 54,
+      "actual_away_score": 57,
+      "actual_result": "AWAY",
+      "halftime_home_score": 27,
+      "halftime_away_score": 20,
+      "halftime_total": 47,
+      "halftime_pct_of_model": 33.9,
+      "total_delta": 27.71,
+      "signed_delta": -27.71,
+      "total_rpe": 24.96,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -844405,7 +844886,7 @@
       "time": "01:00",
       "away_team": "Creighton Bluejays W",
       "home_team": "North Dakota St W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.16,
       "xpts_h": 83.0,
@@ -860152,7 +860633,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 60,
+      "actual_away_score": 66,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 31,
+      "halftime_total": 55,
+      "halftime_pct_of_model": 37.4,
+      "total_delta": 21.16,
+      "signed_delta": -21.16,
+      "total_rpe": 16.79,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -860179,7 +860671,7 @@
       "time": "01:30",
       "away_team": "Gilbert Buccaneers W",
       "home_team": "Southern Utah W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 141.19,
       "xpts_h": 84.4,
@@ -875926,7 +876418,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 56,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 27,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 53.1,
+      "total_delta": 12.81,
+      "signed_delta": 12.81,
+      "total_rpe": 8.32,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -875953,7 +876456,7 @@
       "time": "02:00",
       "away_team": "Seattle U Redhawks W",
       "home_team": "UC Santa Barbara W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.21,
       "xpts_h": 86.7,
@@ -891748,7 +892251,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 48,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 47,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 52.5,
+      "total_delta": 4.79,
+      "signed_delta": 4.79,
+      "total_rpe": 3.42,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -891775,7 +892289,7 @@
       "time": "02:00",
       "away_team": "Santa Clara W",
       "home_team": "Long Beach State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 149.71,
       "xpts_h": 48.1,
@@ -907522,7 +908036,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 89,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 39,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 60.1,
+      "total_delta": 9.29,
+      "signed_delta": 9.29,
+      "total_rpe": 5.84,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -907549,7 +908074,7 @@
       "time": "02:00",
       "away_team": "Bethune-Cookman W",
       "home_team": "Utah Utes W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.64,
       "xpts_h": 81.1,
@@ -923317,7 +923842,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 47,
+      "actual_away_score": 65,
+      "actual_result": "AWAY",
+      "halftime_home_score": 18,
+      "halftime_away_score": 33,
+      "halftime_total": 51,
+      "halftime_pct_of_model": 38.4,
+      "total_delta": 20.64,
+      "signed_delta": -20.64,
+      "total_rpe": 18.43,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -923344,7 +923880,7 @@
       "time": "02:00",
       "away_team": "Cal Poly W",
       "home_team": "Idaho State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 124.98,
       "xpts_h": 78.3,
@@ -939112,7 +939648,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 51,
+      "actual_result": "HOME",
+      "halftime_home_score": 31,
+      "halftime_away_score": 28,
+      "halftime_total": 59,
+      "halftime_pct_of_model": 47.2,
+      "total_delta": 9.98,
+      "signed_delta": -9.98,
+      "total_rpe": 8.68,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -939139,7 +939686,7 @@
       "time": "03:00",
       "away_team": "Oregon W",
       "home_team": "Grand Canyon W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 141.77,
       "xpts_h": 59.9,
@@ -954886,7 +955433,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 28,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 52.2,
+      "total_delta": 13.23,
+      "signed_delta": 13.23,
+      "total_rpe": 8.54,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -986560,7 +987118,7 @@
             {
               "position": 7,
               "team": {
-                "name": "Boulogne Cote d\u2019Opale",
+                "name": "Boulogne Cote d’Opale",
                 "logo": ""
               },
               "games": {
@@ -1000265,7 +1000823,7 @@
       "time": "00:00",
       "away_team": "Los Angeles Lakers",
       "home_team": "Atlanta Hawks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 233.73,
       "xpts_h": 117.4,
@@ -1004486,7 +1005044,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 124,
+      "actual_result": "AWAY",
+      "halftime_home_score": 57,
+      "halftime_away_score": 68,
+      "halftime_total": 125,
+      "halftime_pct_of_model": 53.5,
+      "total_delta": 4.27,
+      "signed_delta": 4.27,
+      "total_rpe": 1.79,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1004513,7 +1005082,7 @@
       "time": "00:00",
       "away_team": "Cleveland Cavaliers",
       "home_team": "Charlotte Hornets",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 215.01,
       "xpts_h": 103.5,
@@ -1008742,7 +1009311,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 124,
+      "actual_away_score": 112,
+      "actual_result": "HOME",
+      "halftime_home_score": 69,
+      "halftime_away_score": 53,
+      "halftime_total": 122,
+      "halftime_pct_of_model": 56.7,
+      "total_delta": 20.99,
+      "signed_delta": 20.99,
+      "total_rpe": 8.89,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -1008769,7 +1009349,7 @@
       "time": "00:00",
       "away_team": "Washington Wizards",
       "home_team": "Detroit Pistons",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 220.76,
       "xpts_h": 119.5,
@@ -1013019,7 +1013599,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 122,
+      "actual_away_score": 111,
+      "actual_result": "HOME",
+      "halftime_home_score": 68,
+      "halftime_away_score": 58,
+      "halftime_total": 126,
+      "halftime_pct_of_model": 57.1,
+      "total_delta": 12.24,
+      "signed_delta": 12.24,
+      "total_rpe": 5.25,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1013046,7 +1013637,7 @@
       "time": "00:30",
       "away_team": "Memphis Grizzlies",
       "home_team": "Toronto Raptors",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 231.56,
       "xpts_h": 122.9,
@@ -1017271,7 +1017862,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 102,
+      "actual_away_score": 118,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 59,
+      "halftime_total": 112,
+      "halftime_pct_of_model": 48.4,
+      "total_delta": 11.56,
+      "signed_delta": -11.56,
+      "total_rpe": 5.25,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1017298,7 +1017900,7 @@
       "time": "01:00",
       "away_team": "Indiana Pacers",
       "home_team": "Dallas Mavericks",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 226.0,
       "xpts_h": 116.8,
@@ -1021552,7 +1022154,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 125,
+      "actual_away_score": 122,
+      "actual_result": "HOME",
+      "halftime_home_score": 56,
+      "halftime_away_score": 66,
+      "halftime_total": 122,
+      "halftime_pct_of_model": 54.0,
+      "total_delta": 21.0,
+      "signed_delta": 21.0,
+      "total_rpe": 8.5,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -1021579,7 +1022192,7 @@
       "time": "01:30",
       "away_team": "Denver Nuggets",
       "home_team": "Houston Rockets",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 224.18,
       "xpts_h": 115.0,
@@ -1025808,7 +1026421,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 110,
+      "actual_away_score": 100,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 40,
+      "halftime_total": 94,
+      "halftime_pct_of_model": 41.9,
+      "total_delta": 14.18,
+      "signed_delta": -14.18,
+      "total_rpe": 6.75,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1025835,7 +1026459,7 @@
       "time": "02:00",
       "away_team": "San Antonio Spurs",
       "home_team": "Phoenix Suns",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 227.4,
       "xpts_h": 109.5,
@@ -1030102,7 +1030726,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 122,
+      "actual_result": "AWAY",
+      "halftime_home_score": 46,
+      "halftime_away_score": 61,
+      "halftime_total": 107,
+      "halftime_pct_of_model": 47.1,
+      "total_delta": 9.4,
+      "signed_delta": -9.4,
+      "total_rpe": 4.31,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1030129,7 +1030764,7 @@
       "time": "03:00",
       "away_team": "New Orleans Pelicans",
       "home_team": "Golden State Warriors",
-      "status": "Game Finished",
+      "status": "FT",
       "stage": "",
       "model_total": 231.48,
       "xpts_h": 118.9,
@@ -1034354,7 +1034989,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 138,
+      "actual_away_score": 87,
+      "actual_result": "HOME",
+      "halftime_home_score": 72,
+      "halftime_away_score": 43,
+      "halftime_total": 115,
+      "halftime_pct_of_model": 49.7,
+      "total_delta": 6.48,
+      "signed_delta": -6.48,
+      "total_rpe": 2.88,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1396987,7 +1397633,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -1401192,5 +1401838,18 @@
         "sdiA": null
       }
     }
-  ]
+  ],
+  "graded_at": "2026-11-10T07:52:04.495077",
+  "grade_summary": {
+    "[  SRS   ]": {
+      "wins": 15,
+      "total": 24,
+      "pct": 62.5
+    },
+    "[ADVANCED]": {
+      "wins": 14,
+      "total": 46,
+      "pct": 30.4
+    }
+  }
 }
