@@ -677445,7 +677445,7 @@
       "time": "15:00",
       "away_team": "Panerythraikos",
       "home_team": "Koroivos",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 169.23,
       "xpts_h": 87.8,
@@ -678418,7 +678418,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 32,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 43.7,
+      "total_delta": 21.23,
+      "signed_delta": -21.23,
+      "total_rpe": 14.34,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -2208241,7 +2208252,7 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-08T22:34:39.385281",
+  "graded_at": "2026-11-10T19:35:25.057493",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 184,
@@ -2208249,9 +2208260,9 @@
       "pct": 73.6
     },
     "[ADVANCED]": {
-      "wins": 147,
-      "total": 213,
-      "pct": 69.0
+      "wins": 148,
+      "total": 214,
+      "pct": 69.2
     }
   }
 }
