@@ -435423,6 +435423,761 @@
       "clash_trigger": "",
       "is_shootout": false,
       "shootout_trigger": "",
+      "early_season_flag": true,
+      "home_season_games": 5,
+      "away_season_games": 4,
+      "league_id": 396,
+      "league": "Higher League",
+      "country": "Kazakhstan",
+      "date": "2026-11-11",
+      "time": "10:00",
+      "away_team": "ChelSU Kostanay",
+      "home_team": "Bars Petropavlovsk",
+      "status": "FT",
+      "stage": "",
+      "model_total": 154.79,
+      "xpts_h": 95.6,
+      "xpts_a": 59.1,
+      "probs_1x2": {
+        "home": 99.9,
+        "away": 0.1
+      },
+      "predicted_result": "HOME",
+      "home_source": "SRS",
+      "away_source": "SRS",
+      "home_team_volatility": 17.12,
+      "away_team_volatility": 21.4,
+      "game_id": 525855,
+      "market_total": null,
+      "edge": null,
+      "side": null,
+      "decision": "MODEL ONLY",
+      "confidence": "-",
+      "odds_source": "CALIBRATED_BASELINE",
+      "bookmaker": null,
+      "odds_over": null,
+      "odds_under": null,
+      "baseline_total": 150.6,
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 33.3,
+      "floor_status": "MARGINAL",
+      "buffer_score": 12,
+      "buffer_tier": "[MARGINAL]",
+      "weighted_hit_rate": 0.54,
+      "mae_h": 10.28,
+      "mae_a": 18.38,
+      "bias_h": -4.01,
+      "bias_a": 0.98,
+      "graded_h": 5,
+      "graded_a": 4,
+      "mbet_threshold": 18.4,
+      "model_architecture": "[  SRS   ]",
+      "mode": "full",
+      "config_source": "api-recalibrated",
+      "tier": "top_domestic",
+      "timestamp": "2026-11-11T10:46:02.299746+00:00",
+      "match_center": {
+        "h2h": [],
+        "recentH": [
+          {
+            "date": "2026-10-14",
+            "teams": {
+              "home": {
+                "name": "Bars Petropavlovsk",
+                "winner": true
+              },
+              "away": {
+                "name": "Arlans",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 77
+              },
+              "away": {
+                "total": 54
+              }
+            }
+          },
+          {
+            "date": "2026-10-13",
+            "teams": {
+              "home": {
+                "name": "Karaganda",
+                "winner": false
+              },
+              "away": {
+                "name": "Bars Petropavlovsk",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 67
+              },
+              "away": {
+                "total": 82
+              }
+            }
+          },
+          {
+            "date": "2026-10-12",
+            "teams": {
+              "home": {
+                "name": "Bars Petropavlovsk",
+                "winner": true
+              },
+              "away": {
+                "name": "Tigers-KazATU",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 74
+              },
+              "away": {
+                "total": 70
+              }
+            }
+          },
+          {
+            "date": "2026-10-11",
+            "teams": {
+              "home": {
+                "name": "Bars Petropavlovsk",
+                "winner": true
+              },
+              "away": {
+                "name": "Arlans",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 101
+              },
+              "away": {
+                "total": 70
+              }
+            }
+          },
+          {
+            "date": "2026-10-10",
+            "teams": {
+              "home": {
+                "name": "Karaganda",
+                "winner": false
+              },
+              "away": {
+                "name": "Bars Petropavlovsk",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          }
+        ],
+        "recentA": [
+          {
+            "date": "2026-10-25",
+            "teams": {
+              "home": {
+                "name": "Pavlodar",
+                "winner": false
+              },
+              "away": {
+                "name": "ChelSU Kostanay",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 55
+              },
+              "away": {
+                "total": 86
+              }
+            }
+          },
+          {
+            "date": "2026-10-24",
+            "teams": {
+              "home": {
+                "name": "ChelSU Kostanay",
+                "winner": false
+              },
+              "away": {
+                "name": "BC Almaty 2",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 58
+              },
+              "away": {
+                "total": 71
+              }
+            }
+          },
+          {
+            "date": "2026-10-23",
+            "teams": {
+              "home": {
+                "name": "ChelSU Kostanay",
+                "winner": false
+              },
+              "away": {
+                "name": "Tulpar",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 86
+              },
+              "away": {
+                "total": 96
+              }
+            }
+          },
+          {
+            "date": "2026-10-22",
+            "teams": {
+              "home": {
+                "name": "Pavlodar",
+                "winner": false
+              },
+              "away": {
+                "name": "ChelSU Kostanay",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 61
+              },
+              "away": {
+                "total": 88
+              }
+            }
+          },
+          {
+            "date": "2026-10-21",
+            "teams": {
+              "home": {
+                "name": "ChelSU Kostanay",
+                "winner": false
+              },
+              "away": {
+                "name": "BC Almaty 2",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 64
+              },
+              "away": {
+                "total": 79
+              }
+            }
+          }
+        ],
+        "full_standings": [
+          [
+            {
+              "position": 1,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 775,
+                "name": "Bars Petropavlovsk",
+                "logo": "https://media.api-sports.io/basketball/teams/775.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 5,
+                  "percentage": "1.000"
+                },
+                "lose": {
+                  "total": 0,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 429,
+                "against": 327
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 2,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 7994,
+                "name": "Tulpar",
+                "logo": "https://media.api-sports.io/basketball/teams/7994.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.800"
+                },
+                "lose": {
+                  "total": 1,
+                  "percentage": "0.200"
+                }
+              },
+              "points": {
+                "for": 448,
+                "against": 362
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 3,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 774,
+                "name": "BC Almaty 2",
+                "logo": "https://media.api-sports.io/basketball/teams/774.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.800"
+                },
+                "lose": {
+                  "total": 1,
+                  "percentage": "0.200"
+                }
+              },
+              "points": {
+                "for": 416,
+                "against": 363
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 4,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 6006,
+                "name": "Tigers-KazATU",
+                "logo": "https://media.api-sports.io/basketball/teams/6006.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.600"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.400"
+                }
+              },
+              "points": {
+                "for": 377,
+                "against": 348
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 5,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 3208,
+                "name": "ChelSU Kostanay",
+                "logo": "https://media.api-sports.io/basketball/teams/3208.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3,
+                  "percentage": "0.600"
+                }
+              },
+              "points": {
+                "for": 382,
+                "against": 362
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 6,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 2353,
+                "name": "Karaganda",
+                "logo": "https://media.api-sports.io/basketball/teams/2353.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.400"
+                },
+                "lose": {
+                  "total": 3,
+                  "percentage": "0.600"
+                }
+              },
+              "points": {
+                "for": 341,
+                "against": 374
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 7,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 3212,
+                "name": "Shymkent",
+                "logo": "https://media.api-sports.io/basketball/teams/3212.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 0,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 0,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 0,
+                "against": 0
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 8,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 6259,
+                "name": "Turan",
+                "logo": "https://media.api-sports.io/basketball/teams/6259.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 0,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 0,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 0,
+                "against": 0
+              },
+              "form": null,
+              "description": "Promotion - Higher League (Play Offs)"
+            },
+            {
+              "position": 9,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 7545,
+                "name": "Arlans",
+                "logo": "https://media.api-sports.io/basketball/teams/7545.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 5,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 341,
+                "against": 439
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "Higher League - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
+                "id": 777,
+                "name": "Pavlodar",
+                "logo": "https://media.api-sports.io/basketball/teams/777.png"
+              },
+              "league": {
+                "id": 396,
+                "name": "Higher League",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
+              },
+              "country": {
+                "id": 25,
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "flag": "https://media.api-sports.io/flags/kz.svg"
+              },
+              "games": {
+                "played": 5,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 5,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 312,
+                "against": 471
+              },
+              "form": null,
+              "description": null
+            }
+          ]
+        ],
+        "statsH": {
+          "played": 5,
+          "current_season_games": 5,
+          "model_games": 28,
+          "win_pct": 0.75,
+          "scored": 116.0,
+          "conceded": 77.2,
+          "sos": 1.48,
+          "rank": null,
+          "prior_blended": false
+        },
+        "statsA": {
+          "played": 4,
+          "current_season_games": 4,
+          "model_games": 24,
+          "win_pct": 0.458,
+          "scored": 96.0,
+          "conceded": 100.8,
+          "sos": -2.23,
+          "rank": null,
+          "prior_blended": false
+        },
+        "sdiH": null,
+        "sdiA": null
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 44,
+      "actual_result": "HOME",
+      "halftime_home_score": 37,
+      "halftime_away_score": 21,
+      "halftime_total": 58,
+      "halftime_pct_of_model": 37.5,
+      "total_delta": 36.79,
+      "signed_delta": -36.79,
+      "total_rpe": 31.18,
+      "accuracy_tier": "BUST"
+    },
+    {
+      "is_mismatch": false,
+      "mismatch_info": {
+        "is_mismatch": false,
+        "home_conf": null,
+        "away_conf": null,
+        "home_tier": null,
+        "away_tier": null,
+        "tier_gap": 0
+      },
+      "is_drag_down": false,
+      "is_clash": false,
+      "clash_trigger": "",
+      "is_shootout": false,
+      "shootout_trigger": "",
       "early_season_flag": false,
       "home_season_games": 15,
       "away_season_games": 16,
@@ -435433,7 +436188,7 @@
       "time": "10:05",
       "away_team": "Ibaraki Robots",
       "home_team": "Akita",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 158.93,
       "xpts_h": 76.5,
@@ -435460,25 +436215,68 @@
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 24.0,
-      "floor_status": "MARGINAL",
-      "buffer_score": 16,
-      "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.6417,
-      "mae_h": 18.37,
-      "mae_a": 11.91,
-      "bias_h": 9.49,
-      "bias_a": 2.31,
-      "graded_h": 15,
-      "graded_a": 16,
+      "floor_status": "OK",
+      "buffer_score": 33,
+      "buffer_tier": "[STRONG BUFFER]",
+      "weighted_hit_rate": 0.6633,
+      "mae_h": 18.41,
+      "mae_a": 12.33,
+      "bias_h": 10.08,
+      "bias_a": 3.3,
+      "graded_h": 16,
+      "graded_a": 17,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:23.689987+00:00",
+      "timestamp": "2026-11-11T12:45:14.961182+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Akita",
+                "winner": null
+              },
+              "away": {
+                "name": "Ibaraki Robots",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 83
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Akita",
+                "winner": false
+              },
+              "away": {
+                "name": "Ibaraki Robots",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 83
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          },
           {
             "date": "2026-11-08",
             "teams": {
@@ -435562,30 +436360,30 @@
                 "total": 89
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-26",
+            "date": "2026-11-11",
             "teams": {
               "home": {
-                "name": "Kyoto",
-                "winner": true
-              },
-              "away": {
                 "name": "Akita",
                 "winner": false
+              },
+              "away": {
+                "name": "Ibaraki Robots",
+                "winner": true
               }
             },
             "scores": {
               "home": {
-                "total": 79
+                "total": 83
               },
               "away": {
-                "total": 71
+                "total": 95
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -435667,27 +436465,6 @@
               },
               "away": {
                 "total": 69
-              }
-            }
-          },
-          {
-            "date": "2026-10-26",
-            "teams": {
-              "home": {
-                "name": "Toyama",
-                "winner": false
-              },
-              "away": {
-                "name": "Ibaraki Robots",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 61
-              },
-              "away": {
-                "total": 83
               }
             }
           }
@@ -436872,18 +437649,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 83,
-      "actual_away_score": 95,
-      "actual_result": "AWAY",
-      "halftime_home_score": 50,
-      "halftime_away_score": 44,
-      "halftime_total": 94,
-      "halftime_pct_of_model": 59.1,
-      "total_delta": 19.07,
-      "signed_delta": 19.07,
-      "total_rpe": 10.71,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "is_mismatch": false,
@@ -436910,7 +437676,7 @@
       "time": "10:05",
       "away_team": "Nagasaki",
       "home_team": "Alvark",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 154.35,
       "xpts_h": 80.9,
@@ -436940,22 +437706,65 @@
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.575,
-      "mae_h": 13.81,
-      "mae_a": 16.88,
-      "bias_h": 8.23,
-      "bias_a": -3.49,
-      "graded_h": 15,
-      "graded_a": 15,
+      "weighted_hit_rate": 0.6,
+      "mae_h": 12.99,
+      "mae_a": 15.87,
+      "bias_h": 7.76,
+      "bias_a": -3.23,
+      "graded_h": 16,
+      "graded_a": 16,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:24.006658+00:00",
+      "timestamp": "2026-11-11T12:45:15.166579+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Alvark",
+                "winner": null
+              },
+              "away": {
+                "name": "Nagasaki",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 73
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Alvark",
+                "winner": true
+              },
+              "away": {
+                "name": "Nagasaki",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 82
+              },
+              "away": {
+                "total": 73
+              }
+            }
+          },
           {
             "date": "2026-11-08",
             "teams": {
@@ -437039,30 +437848,30 @@
                 "total": 90
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-26",
+            "date": "2026-11-11",
             "teams": {
               "home": {
-                "name": "Saga",
-                "winner": false
-              },
-              "away": {
                 "name": "Alvark",
                 "winner": true
+              },
+              "away": {
+                "name": "Nagasaki",
+                "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 88
+                "total": 82
               },
               "away": {
-                "total": 112
+                "total": 73
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -437144,27 +437953,6 @@
               },
               "away": {
                 "total": 81
-              }
-            }
-          },
-          {
-            "date": "2026-10-26",
-            "teams": {
-              "home": {
-                "name": "Nagasaki",
-                "winner": true
-              },
-              "away": {
-                "name": "Ryukyu",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 101
-              },
-              "away": {
-                "total": 84
               }
             }
           }
@@ -438361,18 +439149,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 82,
-      "actual_away_score": 73,
-      "actual_result": "HOME",
-      "halftime_home_score": 33,
-      "halftime_away_score": 40,
-      "halftime_total": 73,
-      "halftime_pct_of_model": 47.3,
-      "total_delta": 0.65,
-      "signed_delta": 0.65,
-      "total_rpe": 0.42,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "is_mismatch": false,
@@ -438399,7 +439176,7 @@
       "time": "10:05",
       "away_team": "Shimane",
       "home_team": "Brave Thunders",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 160.32,
       "xpts_h": 78.8,
@@ -438424,26 +439201,47 @@
       "odds_over": 1.92,
       "odds_under": 1.9,
       "baseline_total": null,
-      "confidence_score_band": "[SOLID]",
-      "confidence_score": 64.0,
+      "confidence_score_band": "[MODERATE]",
+      "confidence_score": 57.3,
       "floor_status": "OK",
       "buffer_score": 33,
       "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.7087,
-      "mae_h": 12.58,
-      "mae_a": 12.33,
-      "bias_h": 0.77,
-      "bias_a": 3.55,
-      "graded_h": 15,
-      "graded_a": 13,
+      "weighted_hit_rate": 0.7286,
+      "mae_h": 12.34,
+      "mae_a": 12.07,
+      "bias_h": 1.26,
+      "bias_a": 3.91,
+      "graded_h": 16,
+      "graded_a": 14,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:24.435131+00:00",
+      "timestamp": "2026-11-11T12:45:15.524972+00:00",
       "match_center": {
         "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Brave Thunders",
+                "winner": null
+              },
+              "away": {
+                "name": "Shimane",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 74
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          },
           {
             "date": "2026-10-19",
             "teams": {
@@ -438467,6 +439265,27 @@
           }
         ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Brave Thunders",
+                "winner": false
+              },
+              "away": {
+                "name": "Shimane",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 74
+              },
+              "away": {
+                "total": 95
+              }
+            }
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -438550,30 +439369,30 @@
                 "total": 75
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-26",
+            "date": "2026-11-11",
             "teams": {
               "home": {
-                "name": "Utsunomiya Brex",
+                "name": "Brave Thunders",
                 "winner": false
               },
               "away": {
-                "name": "Brave Thunders",
+                "name": "Shimane",
                 "winner": true
               }
             },
             "scores": {
               "home": {
-                "total": 89
+                "total": 74
               },
               "away": {
-                "total": 92
+                "total": 95
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -438655,27 +439474,6 @@
               },
               "away": {
                 "total": 86
-              }
-            }
-          },
-          {
-            "date": "2026-10-24",
-            "teams": {
-              "home": {
-                "name": "Toyama",
-                "winner": true
-              },
-              "away": {
-                "name": "Shimane",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 82
-              },
-              "away": {
-                "total": 79
               }
             }
           }
@@ -439860,18 +440658,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 74,
-      "actual_away_score": 95,
-      "actual_result": "AWAY",
-      "halftime_home_score": 38,
-      "halftime_away_score": 50,
-      "halftime_total": 88,
-      "halftime_pct_of_model": 54.9,
-      "total_delta": 8.68,
-      "signed_delta": 8.68,
-      "total_rpe": 5.14,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "is_mismatch": false,
@@ -439898,7 +440685,7 @@
       "time": "10:05",
       "away_team": "Sendai",
       "home_team": "Hiroshima D.",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 170.87,
       "xpts_h": 84.2,
@@ -439924,26 +440711,69 @@
       "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 40.0,
+      "confidence_score": 33.3,
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.55,
-      "mae_h": 17.43,
-      "mae_a": 13.99,
-      "bias_h": -1.89,
-      "bias_a": 0.75,
-      "graded_h": 14,
-      "graded_a": 15,
+      "weighted_hit_rate": 0.5788,
+      "mae_h": 18.01,
+      "mae_a": 14.75,
+      "bias_h": -0.02,
+      "bias_a": 2.34,
+      "graded_h": 15,
+      "graded_a": 16,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:24.749315+00:00",
+      "timestamp": "2026-11-11T12:45:15.732762+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Hiroshima D.",
+                "winner": null
+              },
+              "away": {
+                "name": "Sendai",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 91
+              },
+              "away": {
+                "total": 106
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Hiroshima D.",
+                "winner": false
+              },
+              "away": {
+                "name": "Sendai",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 91
+              },
+              "away": {
+                "total": 106
+              }
+            }
+          },
           {
             "date": "2026-11-06",
             "teams": {
@@ -440027,30 +440857,30 @@
                 "total": 90
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-24",
+            "date": "2026-11-11",
             "teams": {
               "home": {
                 "name": "Hiroshima D.",
                 "winner": false
               },
               "away": {
-                "name": "Levanga Hokkaido",
+                "name": "Sendai",
                 "winner": true
               }
             },
             "scores": {
               "home": {
-                "total": 93
+                "total": 91
               },
               "away": {
-                "total": 96
+                "total": 106
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -440132,27 +440962,6 @@
               },
               "away": {
                 "total": 80
-              }
-            }
-          },
-          {
-            "date": "2026-10-26",
-            "teams": {
-              "home": {
-                "name": "Shimane",
-                "winner": false
-              },
-              "away": {
-                "name": "Sendai",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 85
-              },
-              "away": {
-                "total": 86
               }
             }
           }
@@ -441341,18 +442150,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 91,
-      "actual_away_score": 106,
-      "actual_result": "AWAY",
-      "halftime_home_score": 48,
-      "halftime_away_score": 60,
-      "halftime_total": 108,
-      "halftime_pct_of_model": 63.2,
-      "total_delta": 26.13,
-      "signed_delta": 26.13,
-      "total_rpe": 13.26,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -441379,7 +442177,7 @@
       "time": "10:05",
       "away_team": "NeoPhoenix",
       "home_team": "Levanga Hokkaido",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 175.04,
       "xpts_h": 84.8,
@@ -441405,26 +442203,69 @@
       "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 37.3,
+      "confidence_score": 30.7,
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.6143,
-      "mae_h": 16.84,
-      "mae_a": 13.35,
-      "bias_h": 11.91,
-      "bias_a": -2.03,
-      "graded_h": 13,
-      "graded_a": 10,
+      "weighted_hit_rate": 0.6473,
+      "mae_h": 17.85,
+      "mae_a": 14.95,
+      "bias_h": 13.27,
+      "bias_a": 0.97,
+      "graded_h": 14,
+      "graded_a": 11,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:25.083095+00:00",
+      "timestamp": "2026-11-11T12:45:15.931673+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Levanga Hokkaido",
+                "winner": null
+              },
+              "away": {
+                "name": "NeoPhoenix",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 96
+              },
+              "away": {
+                "total": 110
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Levanga Hokkaido",
+                "winner": false
+              },
+              "away": {
+                "name": "NeoPhoenix",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 96
+              },
+              "away": {
+                "total": 110
+              }
+            }
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -441508,30 +442349,30 @@
                 "total": 69
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-24",
+            "date": "2026-11-11",
             "teams": {
               "home": {
-                "name": "Hiroshima D.",
+                "name": "Levanga Hokkaido",
                 "winner": false
               },
               "away": {
-                "name": "Levanga Hokkaido",
+                "name": "NeoPhoenix",
                 "winner": true
               }
             },
             "scores": {
               "home": {
-                "total": 93
+                "total": 96
               },
               "away": {
-                "total": 96
+                "total": 110
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-08",
             "teams": {
@@ -441613,27 +442454,6 @@
               },
               "away": {
                 "total": 91
-              }
-            }
-          },
-          {
-            "date": "2026-10-19",
-            "teams": {
-              "home": {
-                "name": "Hiroshima D.",
-                "winner": true
-              },
-              "away": {
-                "name": "NeoPhoenix",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 77
-              },
-              "away": {
-                "total": 75
               }
             }
           }
@@ -442818,18 +443638,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 96,
-      "actual_away_score": 110,
-      "actual_result": "AWAY",
-      "halftime_home_score": 44,
-      "halftime_away_score": 61,
-      "halftime_total": 105,
-      "halftime_pct_of_model": 60.0,
-      "total_delta": 30.96,
-      "signed_delta": 30.96,
-      "total_rpe": 15.03,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -442856,7 +443665,7 @@
       "time": "10:05",
       "away_team": "Kyoto",
       "home_team": "Utsunomiya Brex",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 166.43,
       "xpts_h": 84.2,
@@ -442886,22 +443695,65 @@
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.5143,
-      "mae_h": 11.51,
-      "mae_a": 17.09,
-      "bias_h": 0.55,
-      "bias_a": -1.47,
-      "graded_h": 14,
-      "graded_a": 13,
+      "weighted_hit_rate": 0.5467,
+      "mae_h": 10.9,
+      "mae_a": 16.04,
+      "bias_h": 0.35,
+      "bias_a": -1.54,
+      "graded_h": 15,
+      "graded_a": 14,
       "mbet_threshold": 15.1,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:25.408105+00:00",
+      "timestamp": "2026-11-11T12:45:16.156369+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Utsunomiya Brex",
+                "winner": null
+              },
+              "away": {
+                "name": "Kyoto",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 94
+              },
+              "away": {
+                "total": 70
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "Utsunomiya Brex",
+                "winner": true
+              },
+              "away": {
+                "name": "Kyoto",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 94
+              },
+              "away": {
+                "total": 70
+              }
+            }
+          },
           {
             "date": "2026-11-07",
             "teams": {
@@ -442985,30 +443837,30 @@
                 "total": 92
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-24",
+            "date": "2026-11-11",
             "teams": {
               "home": {
                 "name": "Utsunomiya Brex",
                 "winner": true
               },
               "away": {
-                "name": "Shinshu",
+                "name": "Kyoto",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 87
+                "total": 94
               },
               "away": {
-                "total": 80
+                "total": 70
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-09",
             "teams": {
@@ -443090,27 +443942,6 @@
               },
               "away": {
                 "total": 72
-              }
-            }
-          },
-          {
-            "date": "2026-10-26",
-            "teams": {
-              "home": {
-                "name": "Kyoto",
-                "winner": true
-              },
-              "away": {
-                "name": "Akita",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 79
-              },
-              "away": {
-                "total": 71
               }
             }
           }
@@ -444303,18 +445134,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 94,
-      "actual_away_score": 70,
-      "actual_result": "HOME",
-      "halftime_home_score": 41,
-      "halftime_away_score": 35,
-      "halftime_total": 76,
-      "halftime_pct_of_model": 45.7,
-      "total_delta": 2.43,
-      "signed_delta": -2.43,
-      "total_rpe": 1.48,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "is_mismatch": false,
@@ -444363,8 +445183,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.84,
-      "odds_under": 1.83,
+      "odds_over": 1.85,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
@@ -444383,7 +445203,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-11T10:45:26.659018+00:00",
+      "timestamp": "2026-11-11T12:45:16.963439+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -445181,7 +446001,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-11T10:45:26.991659+00:00",
+      "timestamp": "2026-11-11T12:45:17.181401+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -445971,7 +446791,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-11T10:45:27.557968+00:00",
+      "timestamp": "2026-11-11T12:45:17.373261+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -446765,7 +447585,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:28.725930+00:00",
+      "timestamp": "2026-11-11T12:45:18.337969+00:00",
       "match_center": {
         "h2h": [
           {
@@ -448439,7 +449259,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:29.004394+00:00",
+      "timestamp": "2026-11-11T12:45:18.534141+00:00",
       "match_center": {
         "h2h": [
           {
@@ -450085,8 +450905,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.91,
+      "odds_over": 1.88,
+      "odds_under": 1.92,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 66.7,
@@ -450105,7 +450925,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:29.329639+00:00",
+      "timestamp": "2026-11-11T12:45:18.733452+00:00",
       "match_center": {
         "h2h": [
           {
@@ -451775,7 +452595,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:29.651730+00:00",
+      "timestamp": "2026-11-11T12:45:18.963145+00:00",
       "match_center": {
         "h2h": [
           {
@@ -453445,7 +454265,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:31.597076+00:00",
+      "timestamp": "2026-11-11T12:45:20.317752+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -453835,7 +454655,7 @@
               "times_top2": 5
             },
             {
-              "name": "Vid Tamše",
+              "name": "Vid Tam\u0161e",
               "times_top2": 5
             },
             {
@@ -453843,7 +454663,7 @@
               "times_top2": 4
             },
             {
-              "name": "Aljaž Križan",
+              "name": "Alja\u017e Kri\u017ean",
               "times_top2": 2
             },
             {
@@ -453945,7 +454765,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:33.014456+00:00",
+      "timestamp": "2026-11-11T12:45:21.057018+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -454374,7 +455194,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:34.440024+00:00",
+      "timestamp": "2026-11-11T12:45:21.818118+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -454862,7 +455682,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:35.870468+00:00",
+      "timestamp": "2026-11-11T12:45:22.613527+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -455291,7 +456111,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:37.149881+00:00",
+      "timestamp": "2026-11-11T12:45:23.466703+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -455741,8 +456561,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.81,
+      "odds_over": 1.88,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 33.3,
@@ -455761,7 +456581,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:39.265036+00:00",
+      "timestamp": "2026-11-11T12:45:24.920934+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -456420,7 +457240,7 @@
       "time": "10:10",
       "away_team": "Fubon Braves",
       "home_team": "KCC Egis",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 191.94,
       "xpts_h": 97.7,
@@ -456445,27 +457265,70 @@
       "odds_over": 1.88,
       "odds_under": 1.86,
       "baseline_total": null,
-      "confidence_score_band": "[AVOID]",
-      "confidence_score": 24.0,
-      "floor_status": "LOW_N(1)",
-      "buffer_score": 15,
+      "confidence_score_band": "[MODERATE]",
+      "confidence_score": 50.7,
+      "floor_status": "LOW_N(2)",
+      "buffer_score": 4,
       "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 1.0,
-      "mae_h": 25.82,
-      "mae_a": 6.53,
-      "bias_h": 25.82,
-      "bias_a": 6.53,
-      "graded_h": 2,
-      "graded_a": 1,
+      "weighted_hit_rate": 0.5667,
+      "mae_h": 25.19,
+      "mae_a": 15.24,
+      "bias_h": 9.23,
+      "bias_a": -8.71,
+      "graded_h": 3,
+      "graded_a": 2,
       "mbet_threshold": 13.0,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:40.193309+00:00",
+      "timestamp": "2026-11-11T12:45:25.510709+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "KCC Egis",
+                "winner": null
+              },
+              "away": {
+                "name": "Fubon Braves",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 80
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "KCC Egis",
+                "winner": true
+              },
+              "away": {
+                "name": "Fubon Braves",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 80
+              }
+            }
+          },
           {
             "date": "2026-11-05",
             "teams": {
@@ -456510,6 +457373,27 @@
           }
         ],
         "recentA": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "KCC Egis",
+                "winner": true
+              },
+              "away": {
+                "name": "Fubon Braves",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 88
+              },
+              "away": {
+                "total": 80
+              }
+            }
+          },
           {
             "date": "2026-10-03",
             "teams": {
@@ -457095,18 +457979,7 @@
           ]
         },
         "sdiA": null
-      },
-      "actual_home_score": 88,
-      "actual_away_score": 80,
-      "actual_result": "HOME",
-      "halftime_home_score": 39,
-      "halftime_away_score": 46,
-      "halftime_total": 85,
-      "halftime_pct_of_model": 44.3,
-      "total_delta": 23.94,
-      "signed_delta": -23.94,
-      "total_rpe": 14.25,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -457175,7 +458048,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:41.155959+00:00",
+      "timestamp": "2026-11-11T12:45:26.151772+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -458232,15 +459105,15 @@
       "home_team_volatility": 18.63,
       "away_team_volatility": 3.79,
       "game_id": 520915,
-      "market_total": 155.5,
-      "edge": 9.2,
+      "market_total": 157.5,
+      "edge": 7.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_over": 1.82,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 68.0,
@@ -458259,7 +459132,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:41.460568+00:00",
+      "timestamp": "2026-11-11T12:45:26.361971+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -459302,8 +460175,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.82,
+      "odds_over": 1.83,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 45.3,
@@ -459322,7 +460195,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:41.736016+00:00",
+      "timestamp": "2026-11-11T12:45:26.547844+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -460323,8 +461196,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.9,
+      "odds_over": 1.93,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 10.7,
@@ -460343,7 +461216,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:43.079185+00:00",
+      "timestamp": "2026-11-11T12:45:27.445584+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -462040,15 +462913,15 @@
       "home_team_volatility": 16.1,
       "away_team_volatility": 15.85,
       "game_id": 503551,
-      "market_total": 168.5,
-      "edge": 7.0,
+      "market_total": 168.0,
+      "edge": 7.5,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.93,
-      "odds_under": 1.88,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 61.3,
@@ -462067,7 +462940,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:43.391642+00:00",
+      "timestamp": "2026-11-11T12:45:27.671334+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -463779,8 +464652,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.91,
-      "odds_under": 1.91,
+      "odds_over": 1.92,
+      "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 66.7,
@@ -463799,7 +464672,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:43.688482+00:00",
+      "timestamp": "2026-11-11T12:45:27.872755+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -465504,15 +466377,15 @@
       "home_team_volatility": 22.63,
       "away_team_volatility": 14.32,
       "game_id": 503563,
-      "market_total": 164.5,
-      "edge": 7.7,
+      "market_total": 166.0,
+      "edge": 6.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.93,
-      "odds_under": 1.88,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 24.0,
@@ -465531,7 +466404,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:43.967857+00:00",
+      "timestamp": "2026-11-11T12:45:28.067542+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -467271,7 +468144,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:44.253300+00:00",
+      "timestamp": "2026-11-11T12:45:28.262289+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -468983,8 +469856,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.92,
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 49.3,
@@ -469003,7 +469876,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:44.575608+00:00",
+      "timestamp": "2026-11-11T12:45:28.463518+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -470708,15 +471581,15 @@
       "home_team_volatility": 26.45,
       "away_team_volatility": 18.76,
       "game_id": 503560,
-      "market_total": 186.0,
-      "edge": -1.7,
+      "market_total": 187.5,
+      "edge": -3.2,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.9,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
@@ -470735,7 +471608,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:44.877495+00:00",
+      "timestamp": "2026-11-11T12:45:28.694088+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -472447,8 +473320,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.91,
-      "odds_under": 1.94,
+      "odds_over": 1.92,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 53.3,
@@ -472467,7 +473340,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:45:46.350699+00:00",
+      "timestamp": "2026-11-11T12:45:29.544757+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -473660,15 +474533,15 @@
       "home_team_volatility": 19.33,
       "away_team_volatility": 20.11,
       "game_id": 508683,
-      "market_total": 167.5,
-      "edge": 0.4,
+      "market_total": 167.0,
+      "edge": 0.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.9,
-      "odds_under": 1.94,
+      "odds_under": 1.95,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 9.3,
@@ -473687,7 +474560,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:45:46.687954+00:00",
+      "timestamp": "2026-11-11T12:45:29.743727+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -474872,15 +475745,15 @@
       "home_team_volatility": 21.95,
       "away_team_volatility": 13.6,
       "game_id": 534301,
-      "market_total": 148.5,
-      "edge": 9.9,
+      "market_total": 149.5,
+      "edge": 8.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.87,
-      "odds_under": 1.87,
+      "odds_over": 1.89,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 53.3,
@@ -474899,7 +475772,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:47.658154+00:00",
+      "timestamp": "2026-11-11T12:45:30.344355+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -477856,15 +478729,15 @@
       "home_team_volatility": 22.96,
       "away_team_volatility": 9.65,
       "game_id": 534304,
-      "market_total": 140.5,
-      "edge": 9.7,
+      "market_total": 139.5,
+      "edge": 10.7,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.86,
-      "odds_under": 1.88,
+      "odds_over": 1.87,
+      "odds_under": 1.87,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 57.3,
@@ -477883,7 +478756,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:49.756130+00:00",
+      "timestamp": "2026-11-11T12:45:31.697542+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -480847,8 +481720,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.85,
+      "odds_over": 1.88,
+      "odds_under": 1.86,
       "baseline_total": null,
       "confidence_score_band": "[HIGH]",
       "confidence_score": 84.0,
@@ -480867,7 +481740,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:50.066564+00:00",
+      "timestamp": "2026-11-11T12:45:31.913825+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -483790,9 +484663,9 @@
       "home_team": "Denmark W",
       "status": "Not Started",
       "stage": "1",
-      "model_total": 159.76,
-      "xpts_h": 87.0,
-      "xpts_a": 72.8,
+      "model_total": 159.61,
+      "xpts_h": 86.9,
+      "xpts_a": 72.7,
       "probs_1x2": {
         "home": 88.2,
         "away": 11.8
@@ -483803,15 +484676,15 @@
       "home_team_volatility": 15.5,
       "away_team_volatility": 22.05,
       "game_id": 534306,
-      "market_total": 140.0,
-      "edge": 19.8,
+      "market_total": 139.5,
+      "edge": 20.1,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.87,
-      "odds_under": 1.87,
+      "odds_over": 1.85,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 49.3,
@@ -483830,7 +484703,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:50.632409+00:00",
+      "timestamp": "2026-11-11T12:45:32.113798+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -486793,7 +487666,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:50.963168+00:00",
+      "timestamp": "2026-11-11T12:45:32.307750+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -489750,15 +490623,15 @@
       "home_team_volatility": 17.82,
       "away_team_volatility": 6.71,
       "game_id": 534309,
-      "market_total": 141.0,
-      "edge": -0.4,
-      "side": "UNDER",
+      "market_total": 140.0,
+      "edge": 0.6,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.86,
+      "odds_over": 1.85,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 70.7,
@@ -489777,7 +490650,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:52.724426+00:00",
+      "timestamp": "2026-11-11T12:45:33.453431+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -492734,8 +493607,8 @@
       "home_team_volatility": 14.33,
       "away_team_volatility": 10.83,
       "game_id": 534310,
-      "market_total": 143.5,
-      "edge": 2.0,
+      "market_total": 142.5,
+      "edge": 3.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -492761,7 +493634,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:53.041216+00:00",
+      "timestamp": "2026-11-11T12:45:33.675609+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -495718,16 +496591,16 @@
       "home_team_volatility": 8.44,
       "away_team_volatility": 14.41,
       "game_id": 523312,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 172.0,
+      "edge": -9.1,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.93,
+      "odds_under": 1.88,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 49.3,
       "floor_status": "MARGINAL",
@@ -495745,7 +496618,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:55.383636+00:00",
+      "timestamp": "2026-11-11T12:45:35.198124+00:00",
       "match_center": {
         "h2h": [
           {
@@ -498160,15 +499033,15 @@
       "home_team_volatility": 22.2,
       "away_team_volatility": 18.2,
       "game_id": 524769,
-      "market_total": 162.5,
-      "edge": 0.5,
+      "market_total": 162.0,
+      "edge": 1.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Bet365",
-      "bookmaker": "Bet365",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.9,
+      "odds_under": 1.92,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 9.3,
@@ -498187,7 +499060,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:55.656002+00:00",
+      "timestamp": "2026-11-11T12:45:35.387622+00:00",
       "match_center": {
         "h2h": [
           {
@@ -500606,16 +501479,16 @@
       "home_team_volatility": 21.06,
       "away_team_volatility": 22.63,
       "game_id": 523193,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 165.5,
+      "edge": -0.3,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.93,
+      "odds_under": 1.89,
+      "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 20.0,
       "floor_status": "LOW_N(2)",
@@ -500633,7 +501506,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:55.975874+00:00",
+      "timestamp": "2026-11-11T12:45:35.579480+00:00",
       "match_center": {
         "h2h": [
           {
@@ -503040,14 +503913,14 @@
       "home_team_volatility": 3.81,
       "away_team_volatility": 18.79,
       "game_id": 512786,
-      "market_total": 166.5,
-      "edge": 7.8,
+      "market_total": 167.5,
+      "edge": 6.8,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.8,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.91,
       "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
@@ -503067,7 +503940,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:56.281486+00:00",
+      "timestamp": "2026-11-11T12:45:35.774776+00:00",
       "match_center": {
         "h2h": [
           {
@@ -505478,15 +506351,15 @@
       "home_team_volatility": 12.94,
       "away_team_volatility": 13.93,
       "game_id": 512787,
-      "market_total": 163.5,
-      "edge": -0.2,
+      "market_total": 164.5,
+      "edge": -1.2,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.91,
-      "odds_under": 1.8,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.93,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 33.3,
@@ -505505,7 +506378,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:56.602823+00:00",
+      "timestamp": "2026-11-11T12:45:35.995599+00:00",
       "match_center": {
         "h2h": [
           {
@@ -507895,15 +508768,15 @@
       "home_team_volatility": 18.27,
       "away_team_volatility": 15.64,
       "game_id": 522381,
-      "market_total": 172.5,
-      "edge": 0.1,
+      "market_total": 172.0,
+      "edge": 0.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Marathon Bet",
-      "bookmaker": "Marathon Bet",
-      "odds_over": 1.88,
-      "odds_under": 1.85,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 50.7,
@@ -507922,7 +508795,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:56.906967+00:00",
+      "timestamp": "2026-11-11T12:45:36.229907+00:00",
       "match_center": {
         "h2h": [
           {
@@ -510360,7 +511233,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:57.230978+00:00",
+      "timestamp": "2026-11-11T12:45:36.421002+00:00",
       "match_center": {
         "h2h": [
           {
@@ -512772,10 +513645,10 @@
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[HIGH]",
       "confidence_score": 80.0,
@@ -512794,7 +513667,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:57.534593+00:00",
+      "timestamp": "2026-11-11T12:45:36.619285+00:00",
       "match_center": {
         "h2h": [
           {
@@ -515210,10 +516083,10 @@
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.9,
+      "odds_under": 1.92,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 69.3,
@@ -515232,7 +516105,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:57.844098+00:00",
+      "timestamp": "2026-11-11T12:45:36.837060+00:00",
       "match_center": {
         "h2h": [
           {
@@ -517635,15 +518508,15 @@
       "home_team_volatility": 17.61,
       "away_team_volatility": 4.21,
       "game_id": 512788,
-      "market_total": 167.5,
-      "edge": 4.1,
+      "market_total": 165.5,
+      "edge": 6.1,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.91,
-      "odds_under": 1.8,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 60.0,
@@ -517662,7 +518535,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:58.134555+00:00",
+      "timestamp": "2026-11-11T12:45:37.041300+00:00",
       "match_center": {
         "h2h": [
           {
@@ -520077,15 +520950,15 @@
       "home_team_volatility": 29.17,
       "away_team_volatility": 20.36,
       "game_id": 512789,
-      "market_total": 158.5,
-      "edge": 0.9,
-      "side": "OVER",
+      "market_total": 159.5,
+      "edge": -0.1,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.8,
-      "odds_under": 1.91,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.9,
+      "odds_under": 1.92,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 2.7,
@@ -520104,7 +520977,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:58.437672+00:00",
+      "timestamp": "2026-11-11T12:45:37.258110+00:00",
       "match_center": {
         "h2h": [
           {
@@ -522495,7 +523368,7 @@
       },
       "is_drag_down": false,
       "is_clash": true,
-      "clash_trigger": "CLASH",
+      "clash_trigger": "SHARP OVER",
       "is_shootout": false,
       "shootout_trigger": "",
       "early_season_flag": true,
@@ -522523,16 +523396,16 @@
       "home_team_volatility": 16.99,
       "away_team_volatility": 23.01,
       "game_id": 521774,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 165.0,
+      "edge": 7.4,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.93,
+      "odds_under": 1.88,
+      "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
       "floor_status": "OK",
@@ -522550,7 +523423,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:58.715952+00:00",
+      "timestamp": "2026-11-11T12:45:37.469722+00:00",
       "match_center": {
         "h2h": [
           {
@@ -524965,16 +525838,16 @@
       "home_team_volatility": 13.78,
       "away_team_volatility": 16.59,
       "game_id": 521840,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 158.0,
+      "edge": 5.3,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.89,
+      "odds_under": 1.93,
+      "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 41.3,
       "floor_status": "MARGINAL",
@@ -524992,7 +525865,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:59.005555+00:00",
+      "timestamp": "2026-11-11T12:45:37.678930+00:00",
       "match_center": {
         "h2h": [
           {
@@ -527386,16 +528259,16 @@
       "home_team_volatility": 21.08,
       "away_team_volatility": 18.1,
       "game_id": 522380,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 160.5,
+      "edge": 5.1,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.91,
+      "odds_under": 1.91,
+      "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 13.3,
       "floor_status": "MARGINAL",
@@ -527413,7 +528286,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:59.314734+00:00",
+      "timestamp": "2026-11-11T12:45:37.878792+00:00",
       "match_center": {
         "h2h": [
           {
@@ -529832,15 +530705,15 @@
       "home_team_volatility": 19.74,
       "away_team_volatility": 17.92,
       "game_id": 522383,
-      "market_total": 162.5,
-      "edge": 2.0,
+      "market_total": 160.5,
+      "edge": 4.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Marathon Bet",
-      "bookmaker": "Marathon Bet",
-      "odds_over": 1.88,
-      "odds_under": 1.85,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 52.0,
@@ -529859,7 +530732,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:59.610984+00:00",
+      "timestamp": "2026-11-11T12:45:38.088975+00:00",
       "match_center": {
         "h2h": [
           {
@@ -532257,8 +533130,8 @@
       "home_team": "Dziki Warszawa",
       "status": "Not Started",
       "stage": "6",
-      "model_total": 176.58,
-      "xpts_h": 94.1,
+      "model_total": 176.64,
+      "xpts_h": 94.2,
       "xpts_a": 82.5,
       "probs_1x2": {
         "home": 83.4,
@@ -532270,16 +533143,16 @@
       "home_team_volatility": 10.91,
       "away_team_volatility": 13.4,
       "game_id": 523313,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 173.5,
+      "edge": 3.1,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.88,
+      "odds_under": 1.93,
+      "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 62.7,
       "floor_status": "OK",
@@ -532297,7 +533170,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:45:59.925541+00:00",
+      "timestamp": "2026-11-11T12:45:38.280824+00:00",
       "match_center": {
         "h2h": [
           {
@@ -534712,16 +535585,16 @@
       "home_team_volatility": 18.1,
       "away_team_volatility": 16.07,
       "game_id": 524767,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 170.0,
+      "edge": -4.8,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.92,
+      "odds_under": 1.9,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 45.3,
       "floor_status": "WEAK",
@@ -534739,7 +535612,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:00.250704+00:00",
+      "timestamp": "2026-11-11T12:45:38.619081+00:00",
       "match_center": {
         "h2h": [
           {
@@ -537158,16 +538031,16 @@
       "home_team_volatility": 12.56,
       "away_team_volatility": 18.25,
       "game_id": 523315,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 167.0,
+      "edge": 6.1,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.92,
+      "odds_under": 1.9,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 45.3,
       "floor_status": "MARGINAL",
@@ -537185,7 +538058,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:00.524141+00:00",
+      "timestamp": "2026-11-11T12:45:38.831407+00:00",
       "match_center": {
         "h2h": [
           {
@@ -539600,16 +540473,16 @@
       "home_team_volatility": 9.72,
       "away_team_volatility": 8.04,
       "game_id": 522384,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 161.0,
+      "edge": 2.7,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.9,
+      "odds_under": 1.92,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 56.0,
       "floor_status": "MARGINAL",
@@ -539627,7 +540500,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:00.804968+00:00",
+      "timestamp": "2026-11-11T12:45:39.052308+00:00",
       "match_center": {
         "h2h": [
           {
@@ -542038,16 +542911,16 @@
       "home_team_volatility": 19.31,
       "away_team_volatility": 7.57,
       "game_id": 522385,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 174.0,
+      "edge": -1.2,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.9,
+      "odds_under": 1.92,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 52.0,
       "floor_status": "LOW_N(2)",
@@ -542065,7 +542938,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:01.133760+00:00",
+      "timestamp": "2026-11-11T12:45:39.266122+00:00",
       "match_center": {
         "h2h": [
           {
@@ -544484,16 +545357,16 @@
       "home_team_volatility": 6.5,
       "away_team_volatility": 14.15,
       "game_id": 523314,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 164.3,
+      "market_total": 172.0,
+      "edge": -3.9,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.91,
+      "odds_under": 1.91,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 56.0,
       "floor_status": "WEAK",
@@ -544511,7 +545384,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:01.417542+00:00",
+      "timestamp": "2026-11-11T12:45:39.479781+00:00",
       "match_center": {
         "h2h": [
           {
@@ -546907,761 +547780,6 @@
       "shootout_trigger": "",
       "early_season_flag": true,
       "home_season_games": 5,
-      "away_season_games": 4,
-      "league_id": 396,
-      "league": "Higher League",
-      "country": "Kazakhstan",
-      "date": "2026-11-11",
-      "time": "10:00",
-      "away_team": "ChelSU Kostanay",
-      "home_team": "Bars Petropavlovsk",
-      "status": "FT",
-      "stage": "",
-      "model_total": 154.79,
-      "xpts_h": 95.6,
-      "xpts_a": 59.1,
-      "probs_1x2": {
-        "home": 99.9,
-        "away": 0.1
-      },
-      "predicted_result": "HOME",
-      "home_source": "SRS",
-      "away_source": "SRS",
-      "home_team_volatility": 17.12,
-      "away_team_volatility": 21.4,
-      "game_id": 525855,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 150.6,
-      "confidence_score_band": "[LOW]",
-      "confidence_score": 33.3,
-      "floor_status": "MARGINAL",
-      "buffer_score": 12,
-      "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 0.54,
-      "mae_h": 10.28,
-      "mae_a": 18.38,
-      "bias_h": -4.01,
-      "bias_a": 0.98,
-      "graded_h": 5,
-      "graded_a": 4,
-      "mbet_threshold": 18.4,
-      "model_architecture": "[  SRS   ]",
-      "mode": "full",
-      "config_source": "api-recalibrated",
-      "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:02.299746+00:00",
-      "match_center": {
-        "h2h": [],
-        "recentH": [
-          {
-            "date": "2026-10-14",
-            "teams": {
-              "home": {
-                "name": "Bars Petropavlovsk",
-                "winner": true
-              },
-              "away": {
-                "name": "Arlans",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 77
-              },
-              "away": {
-                "total": 54
-              }
-            }
-          },
-          {
-            "date": "2026-10-13",
-            "teams": {
-              "home": {
-                "name": "Karaganda",
-                "winner": false
-              },
-              "away": {
-                "name": "Bars Petropavlovsk",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 67
-              },
-              "away": {
-                "total": 82
-              }
-            }
-          },
-          {
-            "date": "2026-10-12",
-            "teams": {
-              "home": {
-                "name": "Bars Petropavlovsk",
-                "winner": true
-              },
-              "away": {
-                "name": "Tigers-KazATU",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 74
-              },
-              "away": {
-                "total": 70
-              }
-            }
-          },
-          {
-            "date": "2026-10-11",
-            "teams": {
-              "home": {
-                "name": "Bars Petropavlovsk",
-                "winner": true
-              },
-              "away": {
-                "name": "Arlans",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 101
-              },
-              "away": {
-                "total": 70
-              }
-            }
-          },
-          {
-            "date": "2026-10-10",
-            "teams": {
-              "home": {
-                "name": "Karaganda",
-                "winner": false
-              },
-              "away": {
-                "name": "Bars Petropavlovsk",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 66
-              },
-              "away": {
-                "total": 95
-              }
-            }
-          }
-        ],
-        "recentA": [
-          {
-            "date": "2026-10-25",
-            "teams": {
-              "home": {
-                "name": "Pavlodar",
-                "winner": false
-              },
-              "away": {
-                "name": "ChelSU Kostanay",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 55
-              },
-              "away": {
-                "total": 86
-              }
-            }
-          },
-          {
-            "date": "2026-10-24",
-            "teams": {
-              "home": {
-                "name": "ChelSU Kostanay",
-                "winner": false
-              },
-              "away": {
-                "name": "BC Almaty 2",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 58
-              },
-              "away": {
-                "total": 71
-              }
-            }
-          },
-          {
-            "date": "2026-10-23",
-            "teams": {
-              "home": {
-                "name": "ChelSU Kostanay",
-                "winner": false
-              },
-              "away": {
-                "name": "Tulpar",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 86
-              },
-              "away": {
-                "total": 96
-              }
-            }
-          },
-          {
-            "date": "2026-10-22",
-            "teams": {
-              "home": {
-                "name": "Pavlodar",
-                "winner": false
-              },
-              "away": {
-                "name": "ChelSU Kostanay",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 61
-              },
-              "away": {
-                "total": 88
-              }
-            }
-          },
-          {
-            "date": "2026-10-21",
-            "teams": {
-              "home": {
-                "name": "ChelSU Kostanay",
-                "winner": false
-              },
-              "away": {
-                "name": "BC Almaty 2",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 64
-              },
-              "away": {
-                "total": 79
-              }
-            }
-          }
-        ],
-        "full_standings": [
-          [
-            {
-              "position": 1,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 775,
-                "name": "Bars Petropavlovsk",
-                "logo": "https://media.api-sports.io/basketball/teams/775.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 5,
-                  "percentage": "1.000"
-                },
-                "lose": {
-                  "total": 0,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 429,
-                "against": 327
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 2,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 7994,
-                "name": "Tulpar",
-                "logo": "https://media.api-sports.io/basketball/teams/7994.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.800"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.200"
-                }
-              },
-              "points": {
-                "for": 448,
-                "against": 362
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 3,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 774,
-                "name": "BC Almaty 2",
-                "logo": "https://media.api-sports.io/basketball/teams/774.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.800"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.200"
-                }
-              },
-              "points": {
-                "for": 416,
-                "against": 363
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 4,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 6006,
-                "name": "Tigers-KazATU",
-                "logo": "https://media.api-sports.io/basketball/teams/6006.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 377,
-                "against": 348
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 5,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 3208,
-                "name": "ChelSU Kostanay",
-                "logo": "https://media.api-sports.io/basketball/teams/3208.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.400"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.600"
-                }
-              },
-              "points": {
-                "for": 382,
-                "against": 362
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 6,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 2353,
-                "name": "Karaganda",
-                "logo": "https://media.api-sports.io/basketball/teams/2353.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.400"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.600"
-                }
-              },
-              "points": {
-                "for": 341,
-                "against": 374
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 7,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 3212,
-                "name": "Shymkent",
-                "logo": "https://media.api-sports.io/basketball/teams/3212.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 0,
-                "win": {
-                  "total": 0,
-                  "percentage": "0.000"
-                },
-                "lose": {
-                  "total": 0,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 0,
-                "against": 0
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 8,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 6259,
-                "name": "Turan",
-                "logo": "https://media.api-sports.io/basketball/teams/6259.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 0,
-                "win": {
-                  "total": 0,
-                  "percentage": "0.000"
-                },
-                "lose": {
-                  "total": 0,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 0,
-                "against": 0
-              },
-              "form": null,
-              "description": "Promotion - Higher League (Play Offs)"
-            },
-            {
-              "position": 9,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 7545,
-                "name": "Arlans",
-                "logo": "https://media.api-sports.io/basketball/teams/7545.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 0,
-                  "percentage": "0.000"
-                },
-                "lose": {
-                  "total": 5,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 341,
-                "against": 439
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "Higher League - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 777,
-                "name": "Pavlodar",
-                "logo": "https://media.api-sports.io/basketball/teams/777.png"
-              },
-              "league": {
-                "id": 396,
-                "name": "Higher League",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/396.png"
-              },
-              "country": {
-                "id": 25,
-                "name": "Kazakhstan",
-                "code": "KZ",
-                "flag": "https://media.api-sports.io/flags/kz.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 0,
-                  "percentage": "0.000"
-                },
-                "lose": {
-                  "total": 5,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 312,
-                "against": 471
-              },
-              "form": null,
-              "description": null
-            }
-          ]
-        ],
-        "statsH": {
-          "played": 5,
-          "current_season_games": 5,
-          "model_games": 28,
-          "win_pct": 0.75,
-          "scored": 116.0,
-          "conceded": 77.2,
-          "sos": 1.48,
-          "rank": null,
-          "prior_blended": false
-        },
-        "statsA": {
-          "played": 4,
-          "current_season_games": 4,
-          "model_games": 24,
-          "win_pct": 0.458,
-          "scored": 96.0,
-          "conceded": 100.8,
-          "sos": -2.23,
-          "rank": null,
-          "prior_blended": false
-        },
-        "sdiH": null,
-        "sdiA": null
-      },
-      "actual_home_score": 74,
-      "actual_away_score": 44,
-      "actual_result": "HOME",
-      "halftime_home_score": 37,
-      "halftime_away_score": 21,
-      "halftime_total": 58,
-      "halftime_pct_of_model": 37.5,
-      "total_delta": 36.79,
-      "signed_delta": -36.79,
-      "total_rpe": 31.18,
-      "accuracy_tier": "BUST"
-    },
-    {
-      "is_mismatch": false,
-      "mismatch_info": {
-        "is_mismatch": false,
-        "home_conf": null,
-        "away_conf": null,
-        "home_tier": null,
-        "away_tier": null,
-        "tier_gap": 0
-      },
-      "is_drag_down": false,
-      "is_clash": false,
-      "clash_trigger": "",
-      "is_shootout": false,
-      "shootout_trigger": "",
-      "early_season_flag": true,
-      "home_season_games": 5,
       "away_season_games": 5,
       "league_id": 396,
       "league": "Higher League",
@@ -547670,7 +547788,7 @@
       "time": "12:00",
       "away_team": "Tulpar",
       "home_team": "Tigers-KazATU",
-      "status": "Not Started",
+      "status": "Halftime",
       "stage": "",
       "model_total": 153.04,
       "xpts_h": 68.3,
@@ -547712,7 +547830,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:02.593032+00:00",
+      "timestamp": "2026-11-11T12:45:40.048600+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -548414,7 +548532,7 @@
       "time": "10:00",
       "away_team": "Seoul Knights",
       "home_team": "LG Sakers",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 166.93,
       "xpts_h": 82.9,
@@ -548444,21 +548562,42 @@
       "floor_status": "OK",
       "buffer_score": 33,
       "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.7667,
-      "mae_h": 13.88,
-      "mae_a": 11.04,
-      "bias_h": 10.49,
-      "bias_a": -1.25,
-      "graded_h": 12,
-      "graded_a": 9,
+      "weighted_hit_rate": 0.7892,
+      "mae_h": 13.28,
+      "mae_a": 10.54,
+      "bias_h": 10.15,
+      "bias_a": -0.52,
+      "graded_h": 13,
+      "graded_a": 10,
       "mbet_threshold": 15.2,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:03.554824+00:00",
+      "timestamp": "2026-11-11T12:45:40.652813+00:00",
       "match_center": {
         "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "LG Sakers",
+                "winner": null
+              },
+              "away": {
+                "name": "Seoul Knights",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 101
+              },
+              "away": {
+                "total": 72
+              }
+            }
+          },
           {
             "date": "2026-10-24",
             "teams": {
@@ -548482,6 +548621,27 @@
           }
         ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "LG Sakers",
+                "winner": true
+              },
+              "away": {
+                "name": "Seoul Knights",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 101
+              },
+              "away": {
+                "total": 72
+              }
+            }
+          },
           {
             "date": "2026-11-08",
             "teams": {
@@ -548565,30 +548725,30 @@
                 "total": 109
               }
             }
-          },
+          }
+        ],
+        "recentA": [
           {
-            "date": "2026-10-24",
+            "date": "2026-11-11",
             "teams": {
               "home": {
-                "name": "Seoul Knights",
+                "name": "LG Sakers",
                 "winner": true
               },
               "away": {
-                "name": "LG Sakers",
+                "name": "Seoul Knights",
                 "winner": false
               }
             },
             "scores": {
               "home": {
-                "total": 86
+                "total": 101
               },
               "away": {
-                "total": 85
+                "total": 72
               }
             }
-          }
-        ],
-        "recentA": [
+          },
           {
             "date": "2026-11-08",
             "teams": {
@@ -548670,27 +548830,6 @@
               },
               "away": {
                 "total": 90
-              }
-            }
-          },
-          {
-            "date": "2026-10-27",
-            "teams": {
-              "home": {
-                "name": "Seoul Knights",
-                "winner": true
-              },
-              "away": {
-                "name": "KCC Egis",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 96
-              },
-              "away": {
-                "total": 87
               }
             }
           }
@@ -549195,18 +549334,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 101,
-      "actual_away_score": 72,
-      "actual_result": "HOME",
-      "halftime_home_score": 57,
-      "halftime_away_score": 32,
-      "halftime_total": 89,
-      "halftime_pct_of_model": 53.3,
-      "total_delta": 6.07,
-      "signed_delta": 6.07,
-      "total_rpe": 3.51,
-      "accuracy_tier": "EXCELLENT"
+      }
     },
     {
       "is_mismatch": false,
@@ -549248,15 +549376,15 @@
       "home_team_volatility": 14.79,
       "away_team_volatility": 5.86,
       "game_id": 515183,
-      "market_total": 164.5,
-      "edge": 7.3,
+      "market_total": 167.5,
+      "edge": 4.3,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.82,
+      "odds_over": 1.83,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 70.7,
@@ -549275,7 +549403,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:04.526122+00:00",
+      "timestamp": "2026-11-11T12:45:41.245298+00:00",
       "match_center": {
         "h2h": [
           {
@@ -549695,7 +549823,7 @@
       "time": "01:30",
       "away_team": "Paisas",
       "home_team": "Motilones del Norte",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "LBP - Semi-finals",
       "model_total": 172.59,
       "xpts_h": 70.1,
@@ -549725,19 +549853,19 @@
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4558,
-      "mae_h": 12.19,
-      "mae_a": 14.6,
-      "bias_h": -4.59,
-      "bias_a": -9.35,
-      "graded_h": 12,
-      "graded_a": 15,
+      "weighted_hit_rate": 0.4924,
+      "mae_h": 11.53,
+      "mae_a": 13.91,
+      "bias_h": -4.51,
+      "bias_a": -8.99,
+      "graded_h": 13,
+      "graded_a": 16,
       "mbet_threshold": 22.7,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:05.424662+00:00",
+      "timestamp": "2026-11-11T12:45:41.863385+00:00",
       "match_center": {
         "h2h": [
           {
@@ -550828,18 +550956,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 76,
-      "actual_away_score": 93,
-      "actual_result": "AWAY",
-      "halftime_home_score": 23,
-      "halftime_away_score": 60,
-      "halftime_total": 83,
-      "halftime_pct_of_model": 48.1,
-      "total_delta": 3.59,
-      "signed_delta": -3.59,
-      "total_rpe": 2.12,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "is_mismatch": false,
@@ -550888,8 +551005,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.92,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 22.7,
@@ -550908,7 +551025,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:06.392776+00:00",
+      "timestamp": "2026-11-11T12:45:42.484059+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -552007,15 +552124,15 @@
       "home_team_volatility": 18.26,
       "away_team_volatility": 17.18,
       "game_id": 525044,
-      "market_total": 162.0,
-      "edge": 4.9,
+      "market_total": 163.0,
+      "edge": 3.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.93,
-      "odds_under": 1.88,
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 14.7,
@@ -552034,7 +552151,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:06.683141+00:00",
+      "timestamp": "2026-11-11T12:45:42.670679+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -553149,7 +553266,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:07.604199+00:00",
+      "timestamp": "2026-11-11T12:45:43.244628+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -554322,8 +554439,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.82,
+      "odds_over": 1.88,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
@@ -554342,7 +554459,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:08.802801+00:00",
+      "timestamp": "2026-11-11T12:45:44.009148+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -555128,7 +555245,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:09.611816+00:00",
+      "timestamp": "2026-11-11T12:45:44.635376+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -555941,7 +556058,7 @@
       "time": "10:30",
       "away_team": "Quezon Huskers",
       "home_team": "Binan Tatak Gel",
-      "status": "Game Postponed",
+      "status": "Quarter 4",
       "stage": "MPBL - Semi-finals",
       "model_total": 143.58,
       "xpts_h": 68.2,
@@ -555983,7 +556100,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:10.643394+00:00",
+      "timestamp": "2026-11-11T12:45:45.277017+00:00",
       "match_center": {
         "h2h": [
           {
@@ -557545,7 +557662,7 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
+      "odds_over": 1.86,
       "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
@@ -557565,7 +557682,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:11.870352+00:00",
+      "timestamp": "2026-11-11T12:45:46.121452+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -558492,15 +558609,15 @@
       "home_team_volatility": 20.5,
       "away_team_volatility": 18.86,
       "game_id": 513859,
-      "market_total": 165.5,
-      "edge": -2.6,
+      "market_total": 168.5,
+      "edge": -5.6,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.82,
-      "odds_under": 1.85,
+      "odds_over": 1.85,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 17.3,
@@ -558519,7 +558636,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:12.152485+00:00",
+      "timestamp": "2026-11-11T12:45:46.331300+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -559450,8 +559567,8 @@
       "home_team_volatility": 19.14,
       "away_team_volatility": 19.11,
       "game_id": 513860,
-      "market_total": 169.5,
-      "edge": 8.1,
+      "market_total": 168.0,
+      "edge": 9.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -559477,7 +559594,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:12.468602+00:00",
+      "timestamp": "2026-11-11T12:45:46.539105+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -560375,9 +560492,9 @@
       "clash_trigger": "",
       "is_shootout": false,
       "shootout_trigger": "",
-      "early_season_flag": false,
+      "early_season_flag": true,
       "home_season_games": 9,
-      "away_season_games": 9,
+      "away_season_games": 6,
       "league_id": 46,
       "league": "NB I A",
       "country": "Hungary",
@@ -560387,31 +560504,31 @@
       "home_team": "Szedeak",
       "status": "Not Started",
       "stage": "9",
-      "model_total": 183.1,
-      "xpts_h": 92.1,
-      "xpts_a": 91.0,
+      "model_total": 188.78,
+      "xpts_h": 95.6,
+      "xpts_a": 93.2,
       "probs_1x2": {
-        "home": 53.9,
-        "away": 46.1
+        "home": 58.0,
+        "away": 42.0
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
       "home_team_volatility": 21.26,
-      "away_team_volatility": 18.01,
+      "away_team_volatility": 21.73,
       "game_id": 513861,
       "market_total": 171.0,
-      "edge": 12.1,
+      "edge": 17.8,
       "side": "OVER",
-      "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.83,
       "odds_under": 1.83,
       "baseline_total": null,
-      "confidence_score_band": "[AVOID]",
-      "confidence_score": 29.3,
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 33.3,
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
@@ -560427,7 +560544,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:12.744784+00:00",
+      "timestamp": "2026-11-11T12:45:46.758555+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -561262,13 +561379,13 @@
           "prior_blended": false
         },
         "statsA": {
-          "played": 9,
-          "current_season_games": 9,
-          "model_games": 37,
-          "win_pct": 0.297,
-          "scored": 109.7,
-          "conceded": 117.3,
-          "sos": -0.62,
+          "played": 6,
+          "current_season_games": 6,
+          "model_games": 10,
+          "win_pct": 0.3,
+          "scored": 112.9,
+          "conceded": 122.2,
+          "sos": 0.0,
           "rank": null,
           "prior_blended": false
         },
@@ -561385,7 +561502,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:13.025579+00:00",
+      "timestamp": "2026-11-11T12:45:46.972401+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -562312,15 +562429,15 @@
       "home_team_volatility": 15.63,
       "away_team_volatility": 16.82,
       "game_id": 513856,
-      "market_total": 179.0,
-      "edge": 1.5,
+      "market_total": 177.5,
+      "edge": 3.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.82,
+      "odds_over": 1.86,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 70.7,
@@ -562339,7 +562456,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:13.357046+00:00",
+      "timestamp": "2026-11-11T12:45:47.200983+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -563259,7 +563376,7 @@
       "time": "00:30",
       "away_team": "Milwaukee Bucks",
       "home_team": "New York Knicks",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 223.17,
       "xpts_h": 122.1,
@@ -563284,24 +563401,24 @@
       "odds_over": 1.93,
       "odds_under": 1.94,
       "baseline_total": null,
-      "confidence_score_band": "[MODERATE]",
-      "confidence_score": 48.0,
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 41.3,
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4705,
-      "mae_h": 17.12,
-      "mae_a": 14.59,
-      "bias_h": -0.42,
-      "bias_a": -1.99,
-      "graded_h": 14,
-      "graded_a": 14,
+      "weighted_hit_rate": 0.44,
+      "mae_h": 17.39,
+      "mae_a": 15.03,
+      "bias_h": -1.8,
+      "bias_a": -3.27,
+      "graded_h": 15,
+      "graded_a": 15,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:14.519382+00:00",
+      "timestamp": "2026-11-11T12:45:47.898870+00:00",
       "match_center": {
         "h2h": [
           {
@@ -567482,18 +567599,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 117,
-      "actual_away_score": 85,
-      "actual_result": "HOME",
-      "halftime_home_score": 58,
-      "halftime_away_score": 34,
-      "halftime_total": 92,
-      "halftime_pct_of_model": 41.2,
-      "total_delta": 21.17,
-      "signed_delta": -21.17,
-      "total_rpe": 10.48,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -567520,7 +567626,7 @@
       "time": "01:00",
       "away_team": "Boston Celtics",
       "home_team": "Philadelphia 76ers",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 220.71,
       "xpts_h": 107.5,
@@ -567546,23 +567652,23 @@
       "odds_under": 1.95,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 37.3,
+      "confidence_score": 44.0,
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.5572,
-      "mae_h": 14.82,
-      "mae_a": 15.03,
-      "bias_h": -5.33,
-      "bias_a": -1.74,
-      "graded_h": 13,
-      "graded_a": 13,
+      "weighted_hit_rate": 0.5867,
+      "mae_h": 14.0,
+      "mae_a": 14.19,
+      "bias_h": -4.71,
+      "bias_a": -1.38,
+      "graded_h": 14,
+      "graded_a": 14,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:14.822880+00:00",
+      "timestamp": "2026-11-11T12:45:48.107287+00:00",
       "match_center": {
         "h2h": [
           {
@@ -571785,18 +571891,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 101,
-      "actual_away_score": 123,
-      "actual_result": "AWAY",
-      "halftime_home_score": 51,
-      "halftime_away_score": 62,
-      "halftime_total": 113,
-      "halftime_pct_of_model": 51.2,
-      "total_delta": 3.29,
-      "signed_delta": 3.29,
-      "total_rpe": 1.47,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "is_mismatch": false,
@@ -571823,7 +571918,7 @@
       "time": "02:00",
       "away_team": "Los Angeles Clippers",
       "home_team": "Phoenix Suns",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 224.91,
       "xpts_h": 112.9,
@@ -571848,24 +571943,24 @@
       "odds_over": 1.92,
       "odds_under": 1.95,
       "baseline_total": null,
-      "confidence_score_band": "[LOW]",
-      "confidence_score": 30.7,
+      "confidence_score_band": "[AVOID]",
+      "confidence_score": 24.0,
       "floor_status": "OK",
       "buffer_score": 33,
       "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.6752,
-      "mae_h": 12.55,
-      "mae_a": 18.25,
-      "bias_h": 3.86,
-      "bias_a": 5.13,
-      "graded_h": 15,
-      "graded_a": 11,
+      "weighted_hit_rate": 0.7,
+      "mae_h": 12.89,
+      "mae_a": 18.24,
+      "bias_h": 4.75,
+      "bias_a": 6.21,
+      "graded_h": 16,
+      "graded_a": 12,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:15.185485+00:00",
+      "timestamp": "2026-11-11T12:45:48.312091+00:00",
       "match_center": {
         "h2h": [
           {
@@ -576046,18 +576141,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 133,
-      "actual_away_score": 110,
-      "actual_result": "HOME",
-      "halftime_home_score": 64,
-      "halftime_away_score": 47,
-      "halftime_total": 111,
-      "halftime_pct_of_model": 49.4,
-      "total_delta": 18.09,
-      "signed_delta": 18.09,
-      "total_rpe": 7.44,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "is_mismatch": false,
@@ -576084,7 +576168,7 @@
       "time": "02:00",
       "away_team": "Miami Heat",
       "home_team": "Utah Jazz",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 238.39,
       "xpts_h": 118.5,
@@ -576110,23 +576194,23 @@
       "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
-      "confidence_score": 24.0,
+      "confidence_score": 17.3,
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4052,
-      "mae_h": 18.68,
-      "mae_a": 12.01,
-      "bias_h": -16.41,
-      "bias_a": 0.49,
-      "graded_h": 12,
-      "graded_a": 15,
+      "weighted_hit_rate": 0.3786,
+      "mae_h": 18.35,
+      "mae_a": 12.16,
+      "bias_h": -16.26,
+      "bias_a": -0.44,
+      "graded_h": 13,
+      "graded_a": 16,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:15.470837+00:00",
+      "timestamp": "2026-11-11T12:45:48.515575+00:00",
       "match_center": {
         "h2h": [
           {
@@ -580307,18 +580391,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 109,
-      "actual_away_score": 115,
-      "actual_result": "AWAY",
-      "halftime_home_score": 54,
-      "halftime_away_score": 64,
-      "halftime_total": 118,
-      "halftime_pct_of_model": 49.5,
-      "total_delta": 14.39,
-      "signed_delta": -14.39,
-      "total_rpe": 6.42,
-      "accuracy_tier": "SOLID"
+      }
     },
     {
       "is_mismatch": false,
@@ -580345,7 +580418,7 @@
       "time": "03:00",
       "away_team": "Orlando Magic",
       "home_team": "Sacramento Kings",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 224.01,
       "xpts_h": 108.7,
@@ -580375,19 +580448,19 @@
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.5533,
-      "mae_h": 12.21,
-      "mae_a": 13.92,
-      "bias_h": -3.72,
-      "bias_a": -2.63,
-      "graded_h": 15,
-      "graded_a": 12,
+      "weighted_hit_rate": 0.5154,
+      "mae_h": 12.51,
+      "mae_a": 14.16,
+      "bias_h": -4.55,
+      "bias_a": -3.74,
+      "graded_h": 16,
+      "graded_a": 13,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:15.747707+00:00",
+      "timestamp": "2026-11-11T12:45:48.735117+00:00",
       "match_center": {
         "h2h": [
           {
@@ -584564,18 +584637,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 100,
-      "actual_away_score": 107,
-      "actual_result": "AWAY",
-      "halftime_home_score": 52,
-      "halftime_away_score": 57,
-      "halftime_total": 109,
-      "halftime_pct_of_model": 48.7,
-      "total_delta": 17.01,
-      "signed_delta": -17.01,
-      "total_rpe": 8.22,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "is_mismatch": false,
@@ -584602,7 +584664,7 @@
       "time": "04:00",
       "away_team": "Oklahoma City Thunder",
       "home_team": "Portland Trail Blazers",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 222.16,
       "xpts_h": 110.9,
@@ -584628,23 +584690,23 @@
       "odds_under": 1.95,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 37.3,
+      "confidence_score": 44.0,
       "floor_status": "MARGINAL",
       "buffer_score": 16,
       "buffer_tier": "[NEUTRAL]",
-      "weighted_hit_rate": 0.5867,
-      "mae_h": 18.74,
-      "mae_a": 17.32,
-      "bias_h": 7.36,
-      "bias_a": -6.63,
-      "graded_h": 12,
-      "graded_a": 14,
+      "weighted_hit_rate": 0.6144,
+      "mae_h": 17.6,
+      "mae_a": 16.42,
+      "bias_h": 7.09,
+      "bias_a": -5.94,
+      "graded_h": 13,
+      "graded_a": 15,
       "mbet_threshold": 15.7,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-11T10:46:16.086637+00:00",
+      "timestamp": "2026-11-11T12:45:48.972249+00:00",
       "match_center": {
         "h2h": [
           {
@@ -588825,18 +588887,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 123,
-      "actual_away_score": 103,
-      "actual_result": "HOME",
-      "halftime_home_score": 59,
-      "halftime_away_score": 59,
-      "halftime_total": 118,
-      "halftime_pct_of_model": 53.1,
-      "total_delta": 3.84,
-      "signed_delta": 3.84,
-      "total_rpe": 1.7,
-      "accuracy_tier": "BULLSEYE"
+      }
     },
     {
       "is_mismatch": false,
@@ -588905,7 +588956,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:17.400933+00:00",
+      "timestamp": "2026-11-11T12:45:49.807120+00:00",
       "match_center": {
         "h2h": [
           {
@@ -591735,15 +591786,15 @@
       "home_team_volatility": 19.12,
       "away_team_volatility": 19.54,
       "game_id": 518809,
-      "market_total": 160.0,
-      "edge": 8.2,
+      "market_total": 159.5,
+      "edge": 8.7,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.87,
-      "odds_under": 1.87,
+      "odds_over": 1.88,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 10.7,
@@ -591762,7 +591813,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:18.308130+00:00",
+      "timestamp": "2026-11-11T12:45:50.432968+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -592850,7 +592901,7 @@
       "time": "08:30",
       "away_team": "Illawarra Hawks",
       "home_team": "South East Melbourne",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "9",
       "model_total": 198.51,
       "xpts_h": 103.5,
@@ -592876,23 +592927,23 @@
       "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 37.3,
+      "confidence_score": 30.7,
       "floor_status": "OK",
       "buffer_score": 33,
       "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.6588,
-      "mae_h": 15.7,
-      "mae_a": 16.43,
-      "bias_h": 0.13,
-      "bias_a": 8.32,
-      "graded_h": 11,
-      "graded_a": 13,
+      "weighted_hit_rate": 0.6857,
+      "mae_h": 17.02,
+      "mae_a": 17.51,
+      "bias_h": 2.74,
+      "bias_a": 9.98,
+      "graded_h": 12,
+      "graded_a": 14,
       "mbet_threshold": 16.2,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:19.213531+00:00",
+      "timestamp": "2026-11-11T12:45:51.038708+00:00",
       "match_center": {
         "h2h": [
           {
@@ -593463,6 +593514,49 @@
                 "points": 0
               },
               "team": {
+                "id": 6,
+                "name": "Illawarra Hawks",
+                "logo": "https://media.api-sports.io/basketball/teams/6.png"
+              },
+              "league": {
+                "id": 1,
+                "name": "NBL",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/1.png"
+              },
+              "country": {
+                "id": 1,
+                "name": "Australia",
+                "code": "AU",
+                "flag": "https://media.api-sports.io/flags/au.svg"
+              },
+              "games": {
+                "played": 14,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.357"
+                },
+                "lose": {
+                  "total": 9,
+                  "percentage": "0.643"
+                }
+              },
+              "points": {
+                "for": 1362,
+                "against": 1460
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 9,
+              "stage": "NBL - Regular Season",
+              "group": {
+                "name": null,
+                "points": 0
+              },
+              "team": {
                 "id": 2,
                 "name": "South East Melbourne",
                 "logo": "https://media.api-sports.io/basketball/teams/2.png"
@@ -593481,25 +593575,25 @@
                 "flag": "https://media.api-sports.io/flags/au.svg"
               },
               "games": {
-                "played": 11,
+                "played": 12,
                 "win": {
                   "total": 4,
-                  "percentage": "0.364"
+                  "percentage": "0.333"
                 },
                 "lose": {
-                  "total": 7,
-                  "percentage": "0.636"
+                  "total": 8,
+                  "percentage": "0.667"
                 }
               },
               "points": {
-                "for": 1068,
-                "against": 1053
+                "for": 1178,
+                "against": 1173
               },
               "form": null,
               "description": null
             },
             {
-              "position": 9,
+              "position": 10,
               "stage": "NBL - Regular Season",
               "group": {
                 "name": null,
@@ -593537,49 +593631,6 @@
               "points": {
                 "for": 1073,
                 "against": 1079
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NBL - Regular Season",
-              "group": {
-                "name": null,
-                "points": 0
-              },
-              "team": {
-                "id": 6,
-                "name": "Illawarra Hawks",
-                "logo": "https://media.api-sports.io/basketball/teams/6.png"
-              },
-              "league": {
-                "id": 1,
-                "name": "NBL",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/1.png"
-              },
-              "country": {
-                "id": 1,
-                "name": "Australia",
-                "code": "AU",
-                "flag": "https://media.api-sports.io/flags/au.svg"
-              },
-              "games": {
-                "played": 13,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.308"
-                },
-                "lose": {
-                  "total": 9,
-                  "percentage": "0.692"
-                }
-              },
-              "points": {
-                "for": 1242,
-                "against": 1350
               },
               "form": null,
               "description": null
@@ -593656,18 +593707,7 @@
             }
           ]
         }
-      },
-      "actual_home_score": 110,
-      "actual_away_score": 120,
-      "actual_result": "AWAY",
-      "halftime_home_score": 54,
-      "halftime_away_score": 71,
-      "halftime_total": 125,
-      "halftime_pct_of_model": 63.0,
-      "total_delta": 31.49,
-      "signed_delta": 31.49,
-      "total_rpe": 13.69,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -593694,7 +593734,7 @@
       "time": "11:30",
       "away_team": "Eng Tat Hornets",
       "home_team": "SG Basketball",
-      "status": "Not Started",
+      "status": "Quarter 3",
       "stage": "NBL - Semi-finals",
       "model_total": 153.4,
       "xpts_h": 70.2,
@@ -593736,7 +593776,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:20.109152+00:00",
+      "timestamp": "2026-11-11T12:45:51.640325+00:00",
       "match_center": {
         "h2h": [
           {
@@ -594521,7 +594561,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:20.415410+00:00",
+      "timestamp": "2026-11-11T12:45:51.851340+00:00",
       "match_center": {
         "h2h": [
           {
@@ -595287,7 +595327,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:21.663463+00:00",
+      "timestamp": "2026-11-11T12:45:52.670301+00:00",
       "match_center": {
         "h2h": [
           {
@@ -596146,14 +596186,14 @@
       "home_team_volatility": 19.63,
       "away_team_volatility": 19.12,
       "game_id": 526599,
-      "market_total": 138.5,
-      "edge": 4.8,
+      "market_total": 138.0,
+      "edge": 5.3,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "1xBet",
-      "bookmaker": "1xBet",
-      "odds_over": 1.83,
+      "odds_source": "Bet365",
+      "bookmaker": "Bet365",
+      "odds_over": 1.9,
       "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
@@ -596173,7 +596213,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:23.512463+00:00",
+      "timestamp": "2026-11-11T12:45:54.195444+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -612050,8 +612090,8 @@
       "home_team_volatility": 20.12,
       "away_team_volatility": 19.5,
       "game_id": 526605,
-      "market_total": 147.5,
-      "edge": -1.3,
+      "market_total": 146.5,
+      "edge": -0.3,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -612077,7 +612117,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:23.846403+00:00",
+      "timestamp": "2026-11-11T12:45:54.422170+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -627975,15 +628015,15 @@
       "home_team_volatility": 17.37,
       "away_team_volatility": 17.57,
       "game_id": 526600,
-      "market_total": 142.0,
-      "edge": 9.8,
+      "market_total": 140.5,
+      "edge": 11.3,
       "side": "OVER",
       "decision": "PLAY OVER",
-      "confidence": "SOLID",
+      "confidence": "HIGH",
       "odds_source": "Bet365",
       "bookmaker": "Bet365",
       "odds_over": 1.9,
-      "odds_under": 1.83,
+      "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 68.0,
@@ -628002,7 +628042,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:24.127043+00:00",
+      "timestamp": "2026-11-11T12:45:54.613154+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -643927,7 +643967,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:24.475202+00:00",
+      "timestamp": "2026-11-11T12:45:54.821303+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -659791,9 +659831,9 @@
       "home_team": "Air Force",
       "status": "Not Started",
       "stage": "",
-      "model_total": 141.45,
-      "xpts_h": 67.4,
-      "xpts_a": 74.1,
+      "model_total": 141.75,
+      "xpts_h": 67.5,
+      "xpts_a": 74.2,
       "probs_1x2": {
         "home": 28.8,
         "away": 71.2
@@ -659804,15 +659844,15 @@
       "home_team_volatility": 17.1,
       "away_team_volatility": 15.74,
       "game_id": 515331,
-      "market_total": 159.0,
-      "edge": -17.6,
+      "market_total": 160.0,
+      "edge": -18.2,
       "side": "UNDER",
       "decision": "PLAY UNDER",
       "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.93,
+      "odds_over": 1.92,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 54.7,
@@ -659831,7 +659871,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:24.805658+00:00",
+      "timestamp": "2026-11-11T12:45:55.014797+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -675735,7 +675775,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:25.206752+00:00",
+      "timestamp": "2026-11-11T12:45:55.255902+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -691618,7 +691658,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:25.507567+00:00",
+      "timestamp": "2026-11-11T12:45:55.462499+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -707477,7 +707517,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:25.860564+00:00",
+      "timestamp": "2026-11-11T12:45:55.677277+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [],
@@ -723338,7 +723378,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:26.158610+00:00",
+      "timestamp": "2026-11-11T12:45:55.891815+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -739221,7 +739261,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:26.475235+00:00",
+      "timestamp": "2026-11-11T12:45:56.094153+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -755098,15 +755138,15 @@
       "home_team_volatility": 17.3,
       "away_team_volatility": 17.86,
       "game_id": 526612,
-      "market_total": 148.5,
-      "edge": -0.1,
+      "market_total": 149.0,
+      "edge": -0.6,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Bet365",
       "bookmaker": "Bet365",
       "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 46.7,
@@ -755125,7 +755165,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:26.809727+00:00",
+      "timestamp": "2026-11-11T12:45:56.306957+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -755202,7 +755242,7 @@
                 "winner": true
               },
               "away": {
-                "name": "Penn State",
+                "name": "Penn St. Lehigh Valley",
                 "winner": false
               }
             },
@@ -771080,19 +771120,19 @@
       "floor_status": "LOW_N(1)",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.0,
+      "weighted_hit_rate": 0.1333,
       "mae_h": 18.45,
-      "mae_a": 27.38,
+      "mae_a": 22.25,
       "bias_h": -18.45,
-      "bias_a": -27.38,
+      "bias_a": -14.26,
       "graded_h": 1,
-      "graded_a": 2,
+      "graded_a": 3,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:27.090980+00:00",
+      "timestamp": "2026-11-11T12:45:56.520664+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -787017,7 +787057,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:27.734346+00:00",
+      "timestamp": "2026-11-11T12:45:56.953384+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -802921,7 +802961,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:28.399577+00:00",
+      "timestamp": "2026-11-11T12:45:57.708422+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -818788,23 +818828,23 @@
       "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
-      "confidence_score": 20.0,
+      "confidence_score": 6.7,
       "floor_status": "LOW_N(1)",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4,
+      "weighted_hit_rate": 0.2,
       "mae_h": 17.93,
-      "mae_a": 12.0,
+      "mae_a": 24.08,
       "bias_h": -17.93,
-      "bias_a": 0.0,
+      "bias_a": -24.08,
       "graded_h": 1,
-      "graded_a": 0,
+      "graded_a": 1,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:28.680419+00:00",
+      "timestamp": "2026-11-11T12:45:57.951277+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -834750,7 +834790,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:29.445199+00:00",
+      "timestamp": "2026-11-11T12:45:58.430991+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -850612,7 +850652,7 @@
       "time": "02:00",
       "away_team": "New Mexico State W",
       "home_team": "UTEP Miners W",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 134.36,
       "xpts_h": 74.9,
@@ -850637,24 +850677,24 @@
       "odds_over": null,
       "odds_under": null,
       "baseline_total": 128.9,
-      "confidence_score_band": "[SOLID]",
-      "confidence_score": 70.7,
-      "floor_status": "N/A",
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 30.7,
+      "floor_status": "LOW_N(1)",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": null,
-      "mae_h": 12.0,
-      "mae_a": 12.0,
-      "bias_h": 0.0,
-      "bias_a": 0.0,
-      "graded_h": 0,
-      "graded_a": 0,
+      "weighted_hit_rate": 0.0,
+      "mae_h": 15.36,
+      "mae_a": 15.36,
+      "bias_h": -15.36,
+      "bias_a": -15.36,
+      "graded_h": 1,
+      "graded_a": 1,
       "mbet_threshold": 8.0,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:30.848374+00:00",
+      "timestamp": "2026-11-11T12:45:59.691743+00:00",
       "match_center": {
         "h2h": [
           {
@@ -866446,18 +866486,7 @@
         },
         "sdiH": null,
         "sdiA": null
-      },
-      "actual_home_score": 50,
-      "actual_away_score": 69,
-      "actual_result": "AWAY",
-      "halftime_home_score": 21,
-      "halftime_away_score": 28,
-      "halftime_total": 49,
-      "halftime_pct_of_model": 36.5,
-      "total_delta": 15.36,
-      "signed_delta": -15.36,
-      "total_rpe": 12.91,
-      "accuracy_tier": "MISS"
+      }
     },
     {
       "is_mismatch": true,
@@ -866526,7 +866555,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:31.522685+00:00",
+      "timestamp": "2026-11-11T12:46:00.162062+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -882367,7 +882396,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:31.835397+00:00",
+      "timestamp": "2026-11-11T12:46:00.355633+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -898164,7 +898193,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:32.165160+00:00",
+      "timestamp": "2026-11-11T12:46:00.543019+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -914003,7 +914032,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:32.448396+00:00",
+      "timestamp": "2026-11-11T12:46:00.736227+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -929821,7 +929850,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:32.752663+00:00",
+      "timestamp": "2026-11-11T12:46:00.948230+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -945660,7 +945689,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:33.143192+00:00",
+      "timestamp": "2026-11-11T12:46:01.140162+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -961480,7 +961509,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:33.464645+00:00",
+      "timestamp": "2026-11-11T12:46:01.326493+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -977298,7 +977327,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:33.756420+00:00",
+      "timestamp": "2026-11-11T12:46:01.521944+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -993143,7 +993172,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:34.073037+00:00",
+      "timestamp": "2026-11-11T12:46:01.719552+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1008961,7 +1008990,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:34.404639+00:00",
+      "timestamp": "2026-11-11T12:46:01.914699+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1024806,7 +1024835,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:34.716939+00:00",
+      "timestamp": "2026-11-11T12:46:02.176374+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1040624,7 +1040653,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:35.045045+00:00",
+      "timestamp": "2026-11-11T12:46:02.362708+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1056442,7 +1056471,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:35.363661+00:00",
+      "timestamp": "2026-11-11T12:46:02.574993+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1072308,7 +1072337,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:35.650687+00:00",
+      "timestamp": "2026-11-11T12:46:02.799741+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1088105,7 +1088134,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:35.973056+00:00",
+      "timestamp": "2026-11-11T12:46:02.997756+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1103923,7 +1103952,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:36.249845+00:00",
+      "timestamp": "2026-11-11T12:46:03.226691+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1119741,7 +1119770,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:36.581077+00:00",
+      "timestamp": "2026-11-11T12:46:03.448754+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1135538,7 +1135567,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:36.904202+00:00",
+      "timestamp": "2026-11-11T12:46:03.643639+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1151356,7 +1151385,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:37.184705+00:00",
+      "timestamp": "2026-11-11T12:46:03.839155+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1167174,7 +1167203,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:37.518946+00:00",
+      "timestamp": "2026-11-11T12:46:04.050795+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1183011,7 +1183040,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:37.788688+00:00",
+      "timestamp": "2026-11-11T12:46:04.273870+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1198829,7 +1198858,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:38.107550+00:00",
+      "timestamp": "2026-11-11T12:46:04.484583+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1214647,7 +1214676,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:38.422073+00:00",
+      "timestamp": "2026-11-11T12:46:04.679754+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1230444,7 +1230473,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:38.762971+00:00",
+      "timestamp": "2026-11-11T12:46:04.875094+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1246283,7 +1246312,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:39.072514+00:00",
+      "timestamp": "2026-11-11T12:46:05.091553+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1262107,7 +1262136,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:39.398179+00:00",
+      "timestamp": "2026-11-11T12:46:05.305738+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1277946,7 +1277975,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:39.952492+00:00",
+      "timestamp": "2026-11-11T12:46:05.685371+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1293743,7 +1293772,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:40.235479+00:00",
+      "timestamp": "2026-11-11T12:46:05.880084+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1309561,7 +1309590,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:40.521247+00:00",
+      "timestamp": "2026-11-11T12:46:06.103849+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1325358,7 +1325387,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:40.845808+00:00",
+      "timestamp": "2026-11-11T12:46:06.293688+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1341134,7 +1341163,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:41.240322+00:00",
+      "timestamp": "2026-11-11T12:46:06.616750+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1356967,7 +1356996,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:41.568910+00:00",
+      "timestamp": "2026-11-11T12:46:06.809213+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1372848,7 +1372877,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:41.881083+00:00",
+      "timestamp": "2026-11-11T12:46:07.004584+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1388708,7 +1388737,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:42.193361+00:00",
+      "timestamp": "2026-11-11T12:46:07.200235+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1404484,7 +1404513,7 @@
       "time": "00:00",
       "away_team": "South Carolina Upstate W",
       "home_team": "South Carolina State W",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 125.74,
       "xpts_h": 55.4,
@@ -1404509,24 +1404538,24 @@
       "odds_over": null,
       "odds_under": null,
       "baseline_total": 142.6,
-      "confidence_score_band": "[SOLID]",
-      "confidence_score": 66.7,
-      "floor_status": "N/A",
+      "confidence_score_band": "[AVOID]",
+      "confidence_score": 20.0,
+      "floor_status": "LOW_N(1)",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": null,
-      "mae_h": 12.0,
-      "mae_a": 12.0,
-      "bias_h": 0.0,
-      "bias_a": 0.0,
-      "graded_h": 0,
-      "graded_a": 0,
+      "weighted_hit_rate": 0.0,
+      "mae_h": 21.74,
+      "mae_a": 21.74,
+      "bias_h": -21.74,
+      "bias_a": -21.74,
+      "graded_h": 1,
+      "graded_a": 1,
       "mbet_threshold": 9.7,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:42.547766+00:00",
+      "timestamp": "2026-11-11T12:46:07.417070+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1420339,18 +1420368,7 @@
         },
         "sdiH": null,
         "sdiA": null
-      },
-      "actual_home_score": 50,
-      "actual_away_score": 54,
-      "actual_result": "AWAY",
-      "halftime_home_score": 29,
-      "halftime_away_score": 25,
-      "halftime_total": 54,
-      "halftime_pct_of_model": 42.9,
-      "total_delta": 21.74,
-      "signed_delta": -21.74,
-      "total_rpe": 20.9,
-      "accuracy_tier": "BUST"
+      }
     },
     {
       "is_mismatch": false,
@@ -1420419,7 +1420437,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:43.732737+00:00",
+      "timestamp": "2026-11-11T12:46:08.350383+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1421357,7 +1421375,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:45.396225+00:00",
+      "timestamp": "2026-11-11T12:46:09.186367+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1422549,8 +1422567,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.93,
-      "odds_under": 1.89,
+      "odds_over": 1.92,
+      "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 54.7,
@@ -1422569,7 +1422587,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:45.685408+00:00",
+      "timestamp": "2026-11-11T12:46:09.397877+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1423716,15 +1423734,15 @@
       "home_team_volatility": 13.32,
       "away_team_volatility": 14.74,
       "game_id": 508287,
-      "market_total": 150.5,
-      "edge": 8.9,
+      "market_total": 151.5,
+      "edge": 7.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.93,
-      "odds_under": 1.89,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 53.3,
@@ -1423743,7 +1423761,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:45.996032+00:00",
+      "timestamp": "2026-11-11T12:46:09.611344+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1424890,15 +1424908,15 @@
       "home_team_volatility": 12.93,
       "away_team_volatility": 15.23,
       "game_id": 508288,
-      "market_total": 158.5,
-      "edge": 5.1,
+      "market_total": 159.0,
+      "edge": 4.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.93,
-      "odds_under": 1.88,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 53.3,
@@ -1424917,7 +1424935,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:46.273584+00:00",
+      "timestamp": "2026-11-11T12:46:09.803991+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1426091,7 +1426109,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:46.587176+00:00",
+      "timestamp": "2026-11-11T12:46:10.203074+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1427288,14 +1427306,14 @@
       "home_team_volatility": 12.57,
       "away_team_volatility": 15.56,
       "game_id": 508290,
-      "market_total": 144.5,
-      "edge": 2.5,
+      "market_total": 144.0,
+      "edge": 3.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
+      "odds_over": 1.89,
       "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
@@ -1427315,7 +1427333,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:46.909298+00:00",
+      "timestamp": "2026-11-11T12:46:10.408595+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1428531,7 +1428549,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:47.191831+00:00",
+      "timestamp": "2026-11-11T12:46:10.599342+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1429739,8 +1429757,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.92,
+      "odds_over": 1.93,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 48.0,
@@ -1429759,7 +1429777,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:47.468002+00:00",
+      "timestamp": "2026-11-11T12:46:10.806340+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1430925,11 +1430943,11 @@
       "home_team_volatility": 15.44,
       "away_team_volatility": 15.77,
       "game_id": 508282,
-      "market_total": 160.0,
-      "edge": 13.3,
+      "market_total": 159.0,
+      "edge": 14.3,
       "side": "OVER",
-      "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "decision": "PLAY OVER",
+      "confidence": "SOLID",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.91,
@@ -1430952,7 +1430970,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:47.775134+00:00",
+      "timestamp": "2026-11-11T12:46:11.009414+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1432153,7 +1432171,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:48.097959+00:00",
+      "timestamp": "2026-11-11T12:46:11.348256+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1433377,7 +1433395,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:49.010966+00:00",
+      "timestamp": "2026-11-11T12:46:11.931636+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1434115,7 +1434133,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:49.320237+00:00",
+      "timestamp": "2026-11-11T12:46:12.119363+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1434857,7 +1434875,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:49.603784+00:00",
+      "timestamp": "2026-11-11T12:46:12.326064+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1435568,15 +1435586,15 @@
       "home_team_volatility": 17.31,
       "away_team_volatility": 22.15,
       "game_id": 520717,
-      "market_total": 166.5,
-      "edge": 11.9,
+      "market_total": 168.5,
+      "edge": 9.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.84,
+      "odds_over": 1.84,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 44.0,
@@ -1435595,7 +1435613,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-11T10:46:50.493811+00:00",
+      "timestamp": "2026-11-11T12:46:13.082732+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1436507,15 +1436525,15 @@
       "home_team_volatility": 18.15,
       "away_team_volatility": 18.2,
       "game_id": 513485,
-      "market_total": 172.5,
-      "edge": -5.7,
+      "market_total": 172.0,
+      "edge": -5.2,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.86,
-      "odds_under": 1.81,
+      "odds_over": 1.88,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 21.3,
@@ -1436534,7 +1436552,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:51.444074+00:00",
+      "timestamp": "2026-11-11T12:46:13.669245+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1437370,15 +1437388,15 @@
       "home_team_volatility": 17.8,
       "away_team_volatility": 17.35,
       "game_id": 513484,
-      "market_total": 180.0,
-      "edge": -6.8,
+      "market_total": 180.5,
+      "edge": -7.3,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_over": 1.89,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 57.3,
@@ -1437397,7 +1437415,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:51.716524+00:00",
+      "timestamp": "2026-11-11T12:46:13.856827+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1438256,7 +1438274,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:52.309593+00:00",
+      "timestamp": "2026-11-11T12:46:14.075767+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1439077,7 +1439095,7 @@
       "time": "10:00",
       "away_team": "Samsung Blue Minx W",
       "home_team": "S-Birds W",
-      "status": "FT",
+      "status": "Game Finished",
       "stage": "",
       "model_total": 122.97,
       "xpts_h": 63.2,
@@ -1439102,27 +1439120,70 @@
       "odds_over": 1.94,
       "odds_under": 1.91,
       "baseline_total": null,
-      "confidence_score_band": "[LOW]",
-      "confidence_score": 37.3,
-      "floor_status": "LOW_N(2)",
-      "buffer_score": 15,
-      "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 1.0,
-      "mae_h": 5.88,
-      "mae_a": 15.85,
-      "bias_h": 5.88,
-      "bias_a": 15.85,
-      "graded_h": 2,
-      "graded_a": 2,
+      "confidence_score_band": "[MODERATE]",
+      "confidence_score": 57.3,
+      "floor_status": "OK",
+      "buffer_score": 19,
+      "buffer_tier": "[NEUTRAL]",
+      "weighted_hit_rate": 0.6667,
+      "mae_h": 9.91,
+      "mae_a": 16.56,
+      "bias_h": -2.07,
+      "bias_a": 4.58,
+      "graded_h": 3,
+      "graded_a": 3,
       "mbet_threshold": 4.0,
       "model_architecture": "[  SRS   ]",
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-11T10:46:53.205119+00:00",
+      "timestamp": "2026-11-11T12:46:14.857291+00:00",
       "match_center": {
-        "h2h": [],
+        "h2h": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "S-Birds W",
+                "winner": null
+              },
+              "away": {
+                "name": "Samsung Blue Minx W",
+                "winner": null
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 51
+              },
+              "away": {
+                "total": 54
+              }
+            }
+          }
+        ],
         "recentH": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "S-Birds W",
+                "winner": false
+              },
+              "away": {
+                "name": "Samsung Blue Minx W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 51
+              },
+              "away": {
+                "total": 54
+              }
+            }
+          },
           {
             "date": "2026-11-07",
             "teams": {
@@ -1439167,6 +1439228,27 @@
           }
         ],
         "recentA": [
+          {
+            "date": "2026-11-11",
+            "teams": {
+              "home": {
+                "name": "S-Birds W",
+                "winner": false
+              },
+              "away": {
+                "name": "Samsung Blue Minx W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 51
+              },
+              "away": {
+                "total": 54
+              }
+            }
+          },
           {
             "date": "2026-11-07",
             "teams": {
@@ -1439496,31 +1439578,7 @@
         },
         "sdiH": null,
         "sdiA": null
-      },
-      "actual_home_score": 51,
-      "actual_away_score": 54,
-      "actual_result": "AWAY",
-      "halftime_home_score": 25,
-      "halftime_away_score": 21,
-      "halftime_total": 46,
-      "halftime_pct_of_model": 37.4,
-      "total_delta": 17.97,
-      "signed_delta": -17.97,
-      "total_rpe": 17.11,
-      "accuracy_tier": "MISS"
+      }
     }
-  ],
-  "graded_at": "2026-11-11T12:25:44.124374",
-  "grade_summary": {
-    "[ADVANCED]": {
-      "wins": 59,
-      "total": 81,
-      "pct": 72.8
-    },
-    "[  SRS   ]": {
-      "wins": 26,
-      "total": 33,
-      "pct": 78.8
-    }
-  }
+  ]
 }
