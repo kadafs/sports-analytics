@@ -515,6 +515,15 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   <StatRow label="Pts/Game (Model)" home={statsH.scored} away={statsA.scored} highlight="high" />
                   <StatRow label="Pts Allowed (Model)" home={statsH.conceded} away={statsA.conceded} highlight="low" />
                   <StatRow label="Scoring Volatility" home={home_team_volatility != null ? home_team_volatility.toFixed(1) : '-'} away={away_team_volatility != null ? away_team_volatility.toFixed(1) : '-'} highlight="low" />
+                  {(statsH.sos != null || statsA.sos != null) && (
+                    <StatRow
+                      label="Strength of Sched."
+                      home={statsH.sos != null ? (statsH.sos > 0 ? `+${statsH.sos.toFixed(1)}` : statsH.sos.toFixed(1)) : '-'}
+                      away={statsA.sos != null ? (statsA.sos > 0 ? `+${statsA.sos.toFixed(1)}` : statsA.sos.toFixed(1)) : '-'}
+                      highlight="high"
+                      title="Strength of Schedule (SOS): Net relative opponent efficiency"
+                    />
+                  )}
                   {(() => {
                     const hStat = teamLeaderboard?.find(t => t.name === home_team);
                     const aStat = teamLeaderboard?.find(t => t.name === away_team);
