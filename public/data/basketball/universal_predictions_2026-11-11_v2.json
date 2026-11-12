@@ -597123,7 +597123,7 @@
       "time": "16:30",
       "away_team": "Fairleigh Dickinson",
       "home_team": "East Texas A&M",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 143.33,
       "xpts_h": 76.6,
@@ -613000,7 +613000,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 31,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 47.4,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1441224,12 +1441234,12 @@
       "accuracy_tier": "MISS"
     }
   ],
-  "graded_at": "2026-11-12T02:58:50.278427",
+  "graded_at": "2026-11-12T04:40:26.173513",
   "grade_summary": {
     "[ADVANCED]": {
       "wins": 110,
-      "total": 151,
-      "pct": 72.8
+      "total": 152,
+      "pct": 72.4
     },
     "[  SRS   ]": {
       "wins": 73,
