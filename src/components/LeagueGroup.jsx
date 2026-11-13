@@ -6,7 +6,10 @@ export default function LeagueGroup({ group, sport, teamLeaderboard }) {
   const { league, country, games, stats } = group
   const isFootball = sport === 'football'
   // Does any game today in this league have an ADV prediction?
-  const leagueHasAdv = !isFootball && games.some(g => g.predictions?.adv)
+  const leagueHasAdv = !isFootball && games.some(g => {
+    const p = g.predictions?.adv || g.predictions?.srs || g
+    return p.adv_total != null || Boolean(g.predictions?.adv)
+  })
 
   return (
     <div>

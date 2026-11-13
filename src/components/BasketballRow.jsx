@@ -117,9 +117,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     predictions = {}
   } = consolidatedGame
 
-  // ── ADV is primary; SRS is secondary (flag only) ──
+  // ── Primary model resolution & Dual Model support ──
   const primary   = predictions.adv || predictions.srs || {}
-  const secondary = predictions.adv ? predictions.srs : null   // only show SRS flag when ADV present
+  const secondary = (predictions.adv && predictions.srs && predictions.adv !== predictions.srs)
+    ? (predictions.adv === primary ? predictions.srs : predictions.adv)
+    : null
 
   const {
     predicted_result = '',
@@ -139,6 +141,13 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     total_delta,
     home_team_volatility,
     away_team_volatility,
+    selected_model: recordSelectedModel,
+    adv_total: recordAdvTotal,
+    srs_total: recordSrsTotal,
+    adv_edge: recordAdvEdge,
+    srs_edge: recordSrsEdge,
+    model_agreement = null,
+    model_divergence = null,
   } = primary
 
   // Use top-level synced values first, fallback to primary model values
@@ -148,7 +157,18 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const finalResult    = topResult    || primaryResult
 
   const isAdvanced = model_architecture?.includes('ADVANCED')
-  const hasSRSFlag = !!secondary && isAdvanced
+
+  // Resolve dual model totals:
+  // If record has explicit adv_total / srs_total (from v2 consensus engine), use them.
+  // Otherwise, fall back to legacy consolidated predictions.adv / predictions.srs objects.
+  const advTotal = recordAdvTotal ?? (isAdvanced ? model_total : (secondary?.model_total ?? null))
+  const srsTotal = recordSrsTotal ?? (!isAdvanced ? model_total : (secondary?.model_total ?? null))
+  const hasBothModels = advTotal != null && srsTotal != null
+
+  const selectedModel = recordSelectedModel || (isAdvanced ? 'ADV' : 'SRS')
+  const secondaryLabel = selectedModel === 'ADV' ? 'SRS' : 'ADV'
+  const secondaryValue = selectedModel === 'ADV' ? srsTotal : advTotal
+  const hasSRSFlag = hasBothModels || (!!secondary && isAdvanced)
 
   // Clash Indicator logic (207-game audit: 65.2% historical Under rate)
   const isClash = Boolean(primary.is_clash || secondary?.is_clash)
@@ -227,11 +247,12 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
   // Badge display rules:
   // - FT / graded games → never show badge (already done via isGraded/isFinishedStatus)
-  // - Not Started, ADV primary → hide badge (clean; it's expected)
-  // - Not Started, SRS but leagueHasAdv=true → show SRS warning (fallback, team missing from ADV)
+  // - Not Started, ADV available → hide badge (clean; it's expected)
+  // - Not Started, SRS only but leagueHasAdv=true → show SRS warning (fallback, team missing from ADV)
   // - Not Started, SRS and leagueHasAdv=false → hide badge (expected, SRS-only league)
   const isFinished = isGraded || isFinishedStatus(finalStatus) || finalHomeScore !== undefined
-  const isSRSFallback = !isAdvanced && leagueHasAdv   // ADV league but this game used SRS
+  const hasAdvModel = advTotal != null
+  const isSRSFallback = !hasAdvModel && leagueHasAdv   // ADV league but this game genuinely lacked ADV data
   const showBadge = !isFinished && isSRSFallback
 
   // Early-season low-trust flag: one or both teams have < 8 current-season games
@@ -446,6 +467,60 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 Mismatch
               </span>
             )}
+            {model_agreement === 'CONFIRMED_OVER' && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(16, 185, 129, 0.15)',
+                  color: '#10b981',
+                  border: '1px solid rgba(16, 185, 129, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Dual Model Agreement: Both ADV (${advTotal?.toFixed(1)}) and SRS (${srsTotal?.toFixed(1)}) confirm OVER (Divergence: ${model_divergence ?? Math.abs((advTotal || 0) - (srsTotal || 0)).toFixed(1)} pts)`}
+              >
+                🎯 DUAL OVER
+              </span>
+            )}
+            {model_agreement === 'CONFIRMED_UNDER' && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(16, 185, 129, 0.15)',
+                  color: '#10b981',
+                  border: '1px solid rgba(16, 185, 129, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Dual Model Agreement: Both ADV (${advTotal?.toFixed(1)}) and SRS (${srsTotal?.toFixed(1)}) confirm UNDER (Divergence: ${model_divergence ?? Math.abs((advTotal || 0) - (srsTotal || 0)).toFixed(1)} pts)`}
+              >
+                🎯 DUAL UNDER
+              </span>
+            )}
+            {model_agreement === 'DISCORDANT' && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: 'rgba(245, 158, 11, 0.15)',
+                  color: '#f59e0b',
+                  border: '1px solid rgba(245, 158, 11, 0.35)',
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`Models Diverge (${model_divergence ?? Math.abs((advTotal || 0) - (srsTotal || 0)).toFixed(1)} pts): ADV (${advTotal?.toFixed(1)}) vs SRS (${srsTotal?.toFixed(1)}). Conservative model selected.`}
+              >
+                ⚡ DISCORDANT
+              </span>
+            )}
 
           </div>
         </div>
@@ -460,15 +535,15 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
           </div>
         </div>
 
-        {/* MODEL COLUMN — ADV total + optional SRS flag below */}
+        {/* MODEL COLUMN — Conservative Selected total + secondary model flag below */}
         <div className="stat-col center match-model-col">
           <div className={`bball-model-box ${effectiveDecision === 'PLAY OVER' ? 'over' : effectiveDecision === 'PLAY UNDER' ? 'under' : ''}`} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: 1 }}>
-            <span style={{ fontSize: hasSRSFlag ? '0.9em' : 'inherit', marginTop: hasSRSFlag ? 1 : 0 }}>
+            <span style={{ fontSize: hasBothModels ? '0.9em' : 'inherit', marginTop: hasBothModels ? 1 : 0 }}>
               {model_total > 0 ? model_total.toFixed(1) : '—'}
             </span>
-            {hasSRSFlag && (
+            {hasBothModels && (
               <span style={{ fontSize: 7, fontWeight: 800, marginTop: 2, opacity: 0.85 }}>
-                SRS {secondary.model_total?.toFixed(1)}
+                {secondaryLabel} {secondaryValue?.toFixed(1)}
               </span>
             )}
           </div>
@@ -698,7 +773,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                     <div className="prob-outcome-row">
                       <div className="po-box">
                         <span className="po-val">{model_total.toFixed(1)}</span>
-                        <span className="po-lbl">Model Projection</span>
+                        <span className="po-lbl">Model Projection ({selectedModel})</span>
                       </div>
                       <div className="po-box">
                         <span className="po-val">{market_total ? market_total.toFixed(1) : '—'}</span>
@@ -709,6 +784,45 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         <span className="po-lbl">Normal Edge</span>
                       </div>
                     </div>
+
+                    {hasBothModels && (
+                      <div style={{
+                        marginTop: '10px',
+                        padding: '8px 12px',
+                        background: 'rgba(255, 255, 255, 0.04)',
+                        borderRadius: '6px',
+                        border: '1px solid rgba(255, 255, 255, 0.08)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                        flexWrap: 'wrap',
+                        gap: '8px'
+                      }}>
+                        <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+                          <span style={{ fontWeight: selectedModel === 'ADV' ? 800 : 500, color: selectedModel === 'ADV' ? '#38bdf8' : '#94a3b8' }}>
+                            ADV: {advTotal.toFixed(1)} {recordAdvEdge != null ? `(${recordAdvEdge > 0 ? '+' : ''}${recordAdvEdge.toFixed(1)})` : ''} {selectedModel === 'ADV' ? '★ Selected' : ''}
+                          </span>
+                          <span style={{ color: '#475569' }}>|</span>
+                          <span style={{ fontWeight: selectedModel === 'SRS' ? 800 : 500, color: selectedModel === 'SRS' ? '#38bdf8' : '#94a3b8' }}>
+                            SRS: {srsTotal.toFixed(1)} {recordSrsEdge != null ? `(${recordSrsEdge > 0 ? '+' : ''}${recordSrsEdge.toFixed(1)})` : ''} {selectedModel === 'SRS' ? '★ Selected' : ''}
+                          </span>
+                        </div>
+                        {model_agreement && (
+                          <span style={{
+                            padding: '2px 6px',
+                            borderRadius: '4px',
+                            fontWeight: 700,
+                            fontSize: '10px',
+                            background: model_agreement.startsWith('CONFIRMED') ? 'rgba(16, 185, 129, 0.15)' : 'rgba(245, 158, 11, 0.15)',
+                            color: model_agreement.startsWith('CONFIRMED') ? '#10b981' : '#f59e0b',
+                            border: `1px solid ${model_agreement.startsWith('CONFIRMED') ? 'rgba(16, 185, 129, 0.3)' : 'rgba(245, 158, 11, 0.3)'}`
+                          }}>
+                            {model_agreement.replace('_', ' ')} (Δ {model_divergence ?? Math.abs(advTotal - srsTotal).toFixed(1)} pts)
+                          </span>
+                        )}
+                      </div>
+                    )}
 
                     {isDragDown && (
                       <div style={{

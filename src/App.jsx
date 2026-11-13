@@ -64,6 +64,9 @@ function groupByLeague(predictions, sport) {
         const isAdv = game.model_architecture?.includes('ADVANCED')
         if (isAdv) consolidated.predictions.adv = game
         else consolidated.predictions.srs = game
+        // If single record provides dual models (v2 engine), register both so league detection works
+        if (game.adv_total != null) consolidated.predictions.adv = game
+        if (game.srs_total != null && !consolidated.predictions.srs) consolidated.predictions.srs = game
 
         // Sync match-level info to top level (status, scores, result)
         if (game.status) consolidated.status = game.status
