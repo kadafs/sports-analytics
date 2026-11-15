@@ -334,6 +334,41 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
   return { score, weightedHitRate: weightedHr, tier, minGames }
 }
 
+export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
+  // If backend already stamped smart_edge object, return it
+  if (p.smart_edge && p.smart_edge.signal) {
+    return p.smart_edge
+  }
+
+  // Otherwise evaluate dynamically from buffer tier + confidence score band
+  const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
+  const isStrongBuffer = ['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf.tier)
+  if (!isStrongBuffer) return null
+
+  const band = (p.confidence_score_band || '').trim()
+  if (['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
+    return {
+      signal: 'UNDER',
+      recommendation: 'BET FULL-TIME UNDER',
+      win_rate: '58% – 64%',
+      tag: '📉 Smart Under (58–64%)',
+      buffer_tier: buf.tier,
+      confidence_band: band,
+    }
+  } else if (['[LOW]', '[AVOID]'].includes(band)) {
+    return {
+      signal: 'OVER',
+      recommendation: 'BET FULL-TIME OVER',
+      win_rate: '61% – 70%',
+      tag: '📈 Smart Over (61–70%)',
+      buffer_tier: buf.tier,
+      confidence_band: band,
+    }
+  }
+
+  return null
+}
+
 function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0) {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
@@ -544,20 +579,15 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     }
     
     // Smart Edge Filter (Basketball only)
-    // Conditions: Min Games >= 8 + Confidence Level: Solid+ + Buffer Floor: Strong+
-    if (sport === 'basketball' && smartEdgeFilter) {
-      // 1. Min Games >= 8 (current-season matches played — statsH/A.played takes priority over graded_h/a which is all-time)
-      const gh = p.match_center?.statsH?.played ?? p.graded_h ?? 0
-      const ga = p.match_center?.statsA?.played ?? p.graded_a ?? 0
-      if (Math.min(gh, ga) < 8) return false
+    // Historical Audit Restructure:
+    // 1. Strong+ Buffer + Solid / High / Elite Confidence ==> 📉 BET FULL-TIME UNDER (58% – 64% WR)
+    // 2. Strong+ Buffer + Low / Avoid Confidence          ==> 📈 BET FULL-TIME OVER  (61% – 70% WR)
+    if (sport === 'basketball' && smartEdgeFilter && smartEdgeFilter !== 'off') {
+      const se = getSmartEdgeInfo(p, teamLbMap, teamLeaderboard)
+      if (!se) return false
 
-      // 2. Confidence Level: Solid+ ([ELITE], [HIGH], [SOLID])
-      const band = (p.confidence_score_band || '').trim()
-      if (!['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) return false
-
-      // 3. Buffer Floor: Strong+ ([ELITE BUFFER] or [STRONG BUFFER])
-      const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
-      if (!['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf.tier)) return false
+      if (smartEdgeFilter === 'under' && se.signal !== 'UNDER') return false
+      if (smartEdgeFilter === 'over' && se.signal !== 'OVER') return false
     }
     // Clash Filter (Basketball only: 65.2% Under rate)
     if (sport === 'basketball' && filterClash) {
@@ -1111,28 +1141,64 @@ export default function App() {
                 {hidePlayoffs ? '❌ Playoffs Hidden' : '🏆 Playoffs Included'}
               </button>
 
-              <button
-                onClick={() => {
-                  setSmartEdgeFilter(!smartEdgeFilter)
-                  if (!smartEdgeFilter) {
-                    setFilterWomen('all') // Ensure we see both men and women to see the full Smart Edge board
-                  }
-                }}
-                style={{
-                  padding: '4px 10px',
-                  fontSize: 12,
-                  fontWeight: 800,
-                  borderRadius: 6,
-                  border: `1px solid ${smartEdgeFilter ? '#fef08a' : '#e2e8f0'}`,
-                  cursor: 'pointer',
-                  background: smartEdgeFilter ? '#fef9c3' : '#f8fafc',
-                  color: smartEdgeFilter ? '#854d0e' : '#64748b',
-                  transition: 'all 0.15s'
-                }}
-                title="Smart Edge: Min 8+ games played · Confidence Solid+ · Buffer Floor Strong+"
-              >
-                {smartEdgeFilter ? '🎯 Smart Edge: ON' : '🎯 Smart Edge'}
-              </button>
+              {(() => {
+                let btnText = '🎯 Smart Edge'
+                let btnBg = '#f8fafc'
+                let btnColor = '#64748b'
+                let btnBorder = '#e2e8f0'
+                let btnTitle = 'Smart Edge: Strong+ Buffer Floor · Click to cycle (ALL → 📉 UNDER → 📈 OVER → OFF)'
+
+                if (smartEdgeFilter === 'all' || smartEdgeFilter === true) {
+                  btnText = '🎯 Smart Edge: ALL'
+                  btnBg = '#fef9c3'
+                  btnColor = '#854d0e'
+                  btnBorder = '#fef08a'
+                  btnTitle = 'Smart Edge [ALL]: Strong+ Buffer · Solid+ (📉 Under 58–64%) & Low/Avoid (📈 Over 61–70%)'
+                } else if (smartEdgeFilter === 'under') {
+                  btnText = '📉 Smart UNDER (58-64%)'
+                  btnBg = 'rgba(239, 68, 68, 0.12)'
+                  btnColor = '#dc2626'
+                  btnBorder = 'rgba(239, 68, 68, 0.35)'
+                  btnTitle = 'Smart Edge [UNDER]: Strong+ Buffer + Solid/High/Elite Confidence (58%–64% Full-Time Under WR)'
+                } else if (smartEdgeFilter === 'over') {
+                  btnText = '📈 Smart OVER (61-70%)'
+                  btnBg = 'rgba(16, 185, 129, 0.12)'
+                  btnColor = '#059669'
+                  btnBorder = 'rgba(16, 185, 129, 0.35)'
+                  btnTitle = 'Smart Edge [OVER]: Strong+ Buffer + Low/Avoid Confidence (61%–70% Full-Time Over WR)'
+                }
+
+                return (
+                  <button
+                    onClick={() => {
+                      let next = 'all'
+                      if (smartEdgeFilter === 'all' || smartEdgeFilter === true) next = 'under'
+                      else if (smartEdgeFilter === 'under') next = 'over'
+                      else if (smartEdgeFilter === 'over') next = 'off'
+                      else next = 'all'
+
+                      setSmartEdgeFilter(next)
+                      if (next !== 'off') {
+                        setFilterWomen('all') // Ensure we see both men and women to see the full Smart Edge board
+                      }
+                    }}
+                    style={{
+                      padding: '4px 10px',
+                      fontSize: 12,
+                      fontWeight: 800,
+                      borderRadius: 6,
+                      border: `1px solid ${btnBorder}`,
+                      cursor: 'pointer',
+                      background: btnBg,
+                      color: btnColor,
+                      transition: 'all 0.15s'
+                    }}
+                    title={btnTitle}
+                  >
+                    {btnText}
+                  </button>
+                )
+              })()}
 
 
 
