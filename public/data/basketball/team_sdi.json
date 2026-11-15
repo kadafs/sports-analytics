@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-15T09:26:56.891370",
+  "generated_at": "2026-11-15T12:45:02.661024",
   "total_teams": 1588,
   "source": "api-basketball",
   "summary": {
-    "red_high_dependency": 82,
-    "amber_moderate": 1213,
-    "green_balanced": 293
+    "red_high_dependency": 83,
+    "amber_moderate": 1211,
+    "green_balanced": 294
   },
   "teams": [
     {
@@ -1664,6 +1664,34 @@
         },
         {
           "name": "N. Souleye",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Batumi",
+      "games_tracked": 2,
+      "avg_sdi": 56.0,
+      "avg_top1_pct": 32.0,
+      "max_sdi": 57.6,
+      "min_sdi": 54.4,
+      "risk": "RED",
+      "risk_label": "HIGH DEPENDENCY",
+      "top_players": [
+        {
+          "name": "G. Milton III",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Simons",
+          "times_top2": 1
+        },
+        {
+          "name": "Babilodze Levan",
+          "times_top2": 1
+        },
+        {
+          "name": "W. Mouganda",
           "times_top2": 1
         }
       ]
@@ -7964,34 +7992,6 @@
         },
         {
           "name": "Goloman Gyorgy",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Batumi",
-      "games_tracked": 2,
-      "avg_sdi": 49.9,
-      "avg_top1_pct": 28.4,
-      "max_sdi": 54.4,
-      "min_sdi": 45.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "G. Milton III",
-          "times_top2": 1
-        },
-        {
-          "name": "T. Simons",
-          "times_top2": 1
-        },
-        {
-          "name": "Babilodze Levan",
-          "times_top2": 1
-        },
-        {
-          "name": "W. Mouganda",
           "times_top2": 1
         }
       ]
@@ -27849,34 +27849,6 @@
       ]
     },
     {
-      "team": "Telavi",
-      "games_tracked": 2,
-      "avg_sdi": 42.7,
-      "avg_top1_pct": 24.8,
-      "max_sdi": 45.9,
-      "min_sdi": 39.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Ochkhikidze Giorgi",
-          "times_top2": 1
-        },
-        {
-          "name": "Lomidze Davit",
-          "times_top2": 1
-        },
-        {
-          "name": "Kobakhidze Giorgi",
-          "times_top2": 1
-        },
-        {
-          "name": "T. Simons",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Dubai Basketball",
       "games_tracked": 8,
       "avg_sdi": 42.7,
@@ -40240,6 +40212,34 @@
         },
         {
           "name": "Nikolic Zoran",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
+      "team": "Telavi",
+      "games_tracked": 2,
+      "avg_sdi": 37.8,
+      "avg_top1_pct": 22.0,
+      "max_sdi": 39.5,
+      "min_sdi": 36.1,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Ochkhikidze Giorgi",
+          "times_top2": 1
+        },
+        {
+          "name": "Lomidze Davit",
+          "times_top2": 1
+        },
+        {
+          "name": "Kobakhidze Giorgi",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Simons",
           "times_top2": 1
         }
       ]
