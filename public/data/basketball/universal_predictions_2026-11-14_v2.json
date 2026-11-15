@@ -721939,7 +721939,7 @@
       "time": "14:00",
       "away_team": "Sofadon",
       "home_team": "Anagennisi",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 152.21,
       "xpts_h": 66.7,
@@ -722921,7 +722921,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 65,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 30,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 44.7,
+      "total_delta": 13.21,
+      "signed_delta": -13.21,
+      "total_rpe": 9.5,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -894008,7 +894019,7 @@
       "time": "22:00",
       "away_team": "Sioux Falls Skyforce",
       "home_team": "Cleveland Charge",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 225.98,
       "xpts_h": 110.9,
@@ -896850,7 +896861,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 142,
+      "actual_away_score": 148,
+      "actual_result": "AWAY",
+      "halftime_home_score": 65,
+      "halftime_away_score": 75,
+      "halftime_total": 140,
+      "halftime_pct_of_model": 62.0,
+      "total_delta": 64.02,
+      "signed_delta": 64.02,
+      "total_rpe": 22.08,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -899809,7 +899831,7 @@
       "time": "23:00",
       "away_team": "Grand Rapids Gold",
       "home_team": "Windy City Bulls",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 237.42,
       "xpts_h": 119.4,
@@ -902709,7 +902731,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 103,
+      "actual_away_score": 108,
+      "actual_result": "AWAY",
+      "halftime_home_score": 45,
+      "halftime_away_score": 58,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 43.4,
+      "total_delta": 26.42,
+      "signed_delta": -26.42,
+      "total_rpe": 12.52,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1300832,7 +1300865,7 @@
       "time": "18:00",
       "away_team": "Montana",
       "home_team": "North Dakota",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.22,
       "xpts_h": 79.2,
@@ -1316821,7 +1316854,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "total_delta": 7.22,
+      "signed_delta": -7.22,
+      "total_rpe": 4.78,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1380705,7 +1380745,7 @@
       "time": "19:00",
       "away_team": "Rice",
       "home_team": "Stephen F. Austin",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 152.15,
       "xpts_h": 79.2,
@@ -1396610,7 +1396650,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 81,
+      "actual_result": "AWAY",
+      "halftime_home_score": 30,
+      "halftime_away_score": 39,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 45.3,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": true,
@@ -2805878,7 +2805928,7 @@
       "time": "17:00",
       "away_team": "Gussing Blackbirds",
       "home_team": "Vienna United",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 158.5,
       "xpts_h": 86.9,
@@ -2806855,7 +2806905,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "halftime_home_score": 34,
+      "halftime_away_score": 35,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 43.5,
+      "total_delta": 6.5,
+      "signed_delta": -6.5,
+      "total_rpe": 4.28,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -2807835,17 +2807896,17 @@
       "accuracy_tier": "BULLSEYE"
     }
   ],
-  "graded_at": "2026-11-15T01:56:59.472287",
+  "graded_at": "2026-11-15T05:14:26.369182",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 188,
-      "total": 273,
-      "pct": 68.9
+      "wins": 189,
+      "total": 276,
+      "pct": 68.5
     },
     "[ADVANCED]": {
-      "wins": 81,
-      "total": 127,
-      "pct": 63.8
+      "wins": 82,
+      "total": 130,
+      "pct": 63.1
     }
   }
 }
