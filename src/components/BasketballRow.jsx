@@ -233,6 +233,17 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const dragDownMktPct = dragDownData?.under_mkt_pct ?? 72.7
   const dragDownMktDelta = dragDownData?.avg_market_delta ?? -8.2
 
+  // Smart Edge Profile (Live Aggregated from build_basketball_signal_stats.py)
+  const smartEdgeStats = signalStats?.smart_edge
+  const seUnderData = smartEdgeStats?.under
+  const seOverData = smartEdgeStats?.over
+  const seUnderSample = seUnderData?.mkt_sample || seUnderData?.sample || 73
+  const seUnderMktPct = seUnderData?.market_under_pct ?? 58.5
+  const seUnderMktDelta = seUnderData?.avg_market_delta ?? -2.8
+  const seOverSample = seOverData?.mkt_sample || seOverData?.sample || 109
+  const seOverMktPct = seOverData?.market_over_pct ?? 69.7
+  const seOverMktDelta = seOverData?.avg_market_delta ?? 7.6
+
   const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
   
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
@@ -465,7 +476,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   padding: '1px 5px',
                   cursor: 'help'
                 }}
-                title={`Smart Edge: ${smartEdge.recommendation} (${smartEdge.win_rate} WR) · Buffer: ${smartEdge.buffer_tier} · Conf: ${smartEdge.confidence_band}`}
+                title={`Smart Edge: ${smartEdge.recommendation} (${smartEdge.signal === 'UNDER' ? seUnderMktPct : seOverMktPct}% Live · ${smartEdge.win_rate} WR) · Buffer: ${smartEdge.buffer_tier} · Conf: ${smartEdge.confidence_band}`}
               >
                 {smartEdge.signal === 'UNDER' ? '📉 Smart Under' : '📈 Smart Over'}
               </span>
@@ -879,14 +890,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             letterSpacing: '0.03em'
                           }}>
                             <span>{smartEdge.signal === 'UNDER' ? '📉' : '📈'}</span>
-                            <span>SIGNAL: {smartEdge.recommendation} ({smartEdge.win_rate} WR)</span>
+                            <span>SIGNAL: {smartEdge.recommendation} ({smartEdge.signal === 'UNDER' ? seUnderMktPct : seOverMktPct}% LIVE HIT)</span>
                           </div>
                         </div>
 
                         {/* Audit Stat Cards */}
                         <div style={{
                           display: 'grid',
-                          gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))',
+                          gridTemplateColumns: 'repeat(auto-fit, minmax(105px, 1fr))',
                           gap: '8px',
                           margin: '8px 0 10px 0',
                           padding: '8px 10px',
@@ -895,6 +906,32 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                           border: '1px solid rgba(255,255,255,0.05)'
                         }}>
                           <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>
+                              {smartEdge.signal === 'UNDER' ? `${seUnderSample} Graded` : `${seOverSample} Graded`}
+                            </div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Win Rate</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
+                              {smartEdge.signal === 'UNDER' ? `${seUnderMktPct}% Under` : `${seOverMktPct}% Over`}
+                            </div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Delta</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>
+                              {smartEdge.signal === 'UNDER'
+                                ? (seUnderMktDelta > 0 ? `+${seUnderMktDelta}` : `${seUnderMktDelta}`)
+                                : (seOverMktDelta > 0 ? `+${seOverMktDelta}` : `${seOverMktDelta}`)} pts
+                            </div>
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Benchmark WR</div>
+                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#facc15' }}>
+                              {smartEdge.win_rate}
+                            </div>
+                          </div>
+                          <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Buffer Floor</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>{smartEdge.buffer_tier?.replace(' BUFFER', '')}</div>
                           </div>
@@ -902,18 +939,6 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Model Confidence</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: smartEdge.signal === 'UNDER' ? '#facc15' : '#94a3b8' }}>
                               {smartEdge.confidence_band}
-                            </div>
-                          </div>
-                          <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Historical Win Rate</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
-                              {smartEdge.win_rate}
-                            </div>
-                          </div>
-                          <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Bet Target</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: smartEdge.signal === 'UNDER' ? '#f87171' : '#4ade80' }}>
-                              Full-Time {smartEdge.signal}
                             </div>
                           </div>
                         </div>
