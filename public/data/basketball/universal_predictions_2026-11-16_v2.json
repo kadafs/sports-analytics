@@ -29,7 +29,7 @@
       "time": "19:15",
       "away_team": "Kronos Agiou Dimitriou",
       "home_team": "Proteas Voulas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 146.6,
       "xpts_h": 79.7,
@@ -1011,7 +1011,20 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 77,
+      "actual_away_score": 76,
+      "actual_result": "HOME",
+      "halftime_home_score": 36,
+      "halftime_away_score": 33,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 47.1,
+      "total_delta": 6.4,
+      "signed_delta": 6.4,
+      "total_rpe": 4.18,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1039,7 +1052,7 @@
       "time": "17:00",
       "away_team": "Slovan Bratislava",
       "home_team": "Borac Mozzart",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 169.91,
       "xpts_h": 84.1,
@@ -2220,7 +2233,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 66,
+      "actual_away_score": 98,
+      "actual_result": "AWAY",
+      "halftime_home_score": 31,
+      "halftime_away_score": 52,
+      "halftime_total": 83,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 5.91,
+      "signed_delta": -5.91,
+      "total_rpe": 3.6,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -2248,7 +2274,7 @@
       "time": "19:00",
       "away_team": "Vienna Basket",
       "home_team": "Studentski Centar",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "8",
       "model_total": 172.1,
       "xpts_h": 85.1,
@@ -3425,7 +3451,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 79,
+      "actual_away_score": 87,
+      "actual_result": "AWAY",
+      "halftime_home_score": 37,
+      "halftime_away_score": 39,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 44.2,
+      "total_delta": 6.1,
+      "signed_delta": -6.1,
+      "total_rpe": 3.67,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -3447,7 +3486,9 @@
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "61% – 70%",
         "buffer_tier": "[STRONG BUFFER]",
-        "confidence_band": "[LOW]"
+        "confidence_band": "[LOW]",
+        "segment": "FIBA_CORE",
+        "segment_label": "FIBA Core (40m)"
       },
       "early_season_flag": false,
       "home_season_games": 17,
@@ -4916,7 +4957,9 @@
       "total_delta": 14.76,
       "signed_delta": 14.76,
       "total_rpe": 8.07,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -6413,7 +6456,9 @@
       "total_delta": 35.24,
       "signed_delta": 35.24,
       "total_rpe": 16.47,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -6435,7 +6480,9 @@
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "61% – 70%",
         "buffer_tier": "[ELITE BUFFER]",
-        "confidence_band": "[LOW]"
+        "confidence_band": "[LOW]",
+        "segment": "FIBA_CORE",
+        "segment_label": "FIBA Core (40m)"
       },
       "early_season_flag": false,
       "home_season_games": 16,
@@ -7900,7 +7947,9 @@
       "total_delta": 20.75,
       "signed_delta": 20.75,
       "total_rpe": 11.53,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -9411,7 +9460,9 @@
       "total_delta": 19.04,
       "signed_delta": -19.04,
       "total_rpe": 12.86,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -10947,7 +10998,9 @@
       "total_delta": 6.17,
       "signed_delta": 6.17,
       "total_rpe": 3.83,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -10969,7 +11022,9 @@
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "61% – 70%",
         "buffer_tier": "[STRONG BUFFER]",
-        "confidence_band": "[LOW]"
+        "confidence_band": "[LOW]",
+        "segment": "FIBA_CORE",
+        "segment_label": "FIBA Core (40m)"
       },
       "early_season_flag": false,
       "home_season_games": 16,
@@ -12442,7 +12497,9 @@
       "total_delta": 36.01,
       "signed_delta": 36.01,
       "total_rpe": 18.19,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -12470,7 +12527,7 @@
       "time": "17:00",
       "away_team": "AEL",
       "home_team": "Keravnos",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 162.03,
       "xpts_h": 93.7,
@@ -13232,7 +13289,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 73,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 30,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 43.8,
+      "total_delta": 23.03,
+      "signed_delta": -23.03,
+      "total_rpe": 16.57,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -13260,7 +13330,7 @@
       "time": "18:00",
       "away_team": "Dabrowa Gornicza",
       "home_team": "Czarni Slupsk",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 172.81,
       "xpts_h": 85.1,
@@ -14284,7 +14354,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 90,
+      "actual_away_score": 100,
+      "actual_result": "AWAY",
+      "halftime_home_score": 43,
+      "halftime_away_score": 60,
+      "halftime_total": 103,
+      "halftime_pct_of_model": 59.6,
+      "total_delta": 17.19,
+      "signed_delta": 17.19,
+      "total_rpe": 9.05,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -15089,7 +15172,9 @@
       "total_delta": 3.67,
       "signed_delta": 3.67,
       "total_rpe": 2.18,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "league_segment": "ASIA",
+      "league_segment_label": "Asian Leagues"
     },
     {
       "is_mismatch": false,
@@ -16241,7 +16326,9 @@
       "total_delta": 28.1,
       "signed_delta": -28.1,
       "total_rpe": 19.38,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -17389,7 +17476,9 @@
       "total_delta": 2.79,
       "signed_delta": 2.79,
       "total_rpe": 1.67,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -17411,7 +17500,9 @@
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "61% – 70%",
         "buffer_tier": "[STRONG BUFFER]",
-        "confidence_band": "[LOW]"
+        "confidence_band": "[LOW]",
+        "segment": "WOMEN",
+        "segment_label": "Women's Basketball"
       },
       "early_season_flag": true,
       "home_season_games": 6,
@@ -18599,7 +18690,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -19475,7 +19568,9 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -23725,7 +23820,9 @@
       "total_delta": 41.14,
       "signed_delta": 41.14,
       "total_rpe": 15.47,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -27975,7 +28072,9 @@
       "total_delta": 11.74,
       "signed_delta": -11.74,
       "total_rpe": 5.36,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "league_segment": "NBA_MEN",
+      "league_segment_label": "NBA Men (48m)"
     },
     {
       "is_mismatch": false,
@@ -32221,7 +32320,9 @@
       "total_delta": 6.07,
       "signed_delta": 6.07,
       "total_rpe": 2.66,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "league_segment": "NBA_MEN",
+      "league_segment_label": "NBA Men (48m)"
     },
     {
       "is_mismatch": false,
@@ -35180,7 +35281,9 @@
       "total_delta": 75.01,
       "signed_delta": -75.01,
       "total_rpe": 45.74,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "NBA_GLEAGUE",
+      "league_segment_label": "NBA G-League"
     },
     {
       "is_mismatch": false,
@@ -35208,7 +35311,7 @@
       "time": "17:00",
       "away_team": "Oklahoma City Blue",
       "home_team": "Laketown Squadron",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 220.96,
       "xpts_h": 117.5,
@@ -38126,7 +38229,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "NBA_GLEAGUE",
+      "league_segment_label": "NBA G-League",
+      "actual_home_score": 127,
+      "actual_away_score": 105,
+      "actual_result": "HOME",
+      "halftime_home_score": 62,
+      "halftime_away_score": 59,
+      "halftime_total": 121,
+      "halftime_pct_of_model": 54.8,
+      "total_delta": 11.04,
+      "signed_delta": 11.04,
+      "total_rpe": 4.76,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -38154,7 +38270,7 @@
       "time": "19:00",
       "away_team": "Raptors 905",
       "home_team": "Capital City Go-Go",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 237.53,
       "xpts_h": 119.3,
@@ -41129,7 +41245,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "NBA_GLEAGUE",
+      "league_segment_label": "NBA G-League",
+      "actual_home_score": 106,
+      "actual_away_score": 142,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 65,
+      "halftime_total": 124,
+      "halftime_pct_of_model": 52.2,
+      "total_delta": 10.47,
+      "signed_delta": 10.47,
+      "total_rpe": 4.22,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -44099,7 +44228,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NBA_GLEAGUE",
+      "league_segment_label": "NBA G-League"
     },
     {
       "is_mismatch": false,
@@ -45237,7 +45368,9 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -46371,7 +46504,9 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)"
     },
     {
       "is_mismatch": false,
@@ -62314,7 +62449,9 @@
       "total_delta": 13.66,
       "signed_delta": -13.66,
       "total_rpe": 9.69,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": true,
@@ -78320,7 +78457,9 @@
       "total_delta": 8.13,
       "signed_delta": 8.13,
       "total_rpe": 4.84,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": false,
@@ -94280,7 +94419,9 @@
       "total_delta": 1.28,
       "signed_delta": 1.28,
       "total_rpe": 0.83,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": false,
@@ -94308,7 +94449,7 @@
       "time": "19:00",
       "away_team": "Florida A&M",
       "home_team": "UTEP",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.23,
       "xpts_h": 78.5,
@@ -110234,7 +110375,16 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)",
+      "actual_home_score": 46,
+      "actual_away_score": 79,
+      "actual_result": "AWAY",
+      "total_delta": 25.23,
+      "signed_delta": -25.23,
+      "total_rpe": 20.18,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -126194,7 +126344,9 @@
       "total_delta": 17.36,
       "signed_delta": 17.36,
       "total_rpe": 10.21,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": true,
@@ -142133,7 +142285,9 @@
       "total_delta": 9.82,
       "signed_delta": -9.82,
       "total_rpe": 6.64,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": false,
@@ -142161,7 +142315,7 @@
       "time": "17:00",
       "away_team": "Fisk",
       "home_team": "North Alabama",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.41,
       "xpts_h": 79.6,
@@ -158066,7 +158220,20 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)",
+      "actual_home_score": 87,
+      "actual_away_score": 49,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 30,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 45.6,
+      "total_delta": 17.41,
+      "signed_delta": -17.41,
+      "total_rpe": 12.8,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -174062,7 +174229,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": false,
@@ -190079,7 +190248,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": true,
@@ -206075,7 +206246,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "NCAA_MEN",
+      "league_segment_label": "NCAA Men (College)"
     },
     {
       "is_mismatch": true,
@@ -221974,7 +222147,9 @@
       "total_delta": 5.71,
       "signed_delta": 5.71,
       "total_rpe": 4.02,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": true,
@@ -237831,7 +238006,9 @@
       "total_delta": 15.1,
       "signed_delta": 15.1,
       "total_rpe": 10.07,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -253709,7 +253886,9 @@
       "total_delta": 28.55,
       "signed_delta": -28.55,
       "total_rpe": 26.44,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -269580,7 +269759,9 @@
       "halftime_pct_of_model": 45.4,
       "accuracy_tier": "OT WARP",
       "total_delta": null,
-      "total_rpe": null
+      "total_rpe": null,
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -269608,7 +269789,7 @@
       "time": "16:00",
       "away_team": "Le Moyne Dolphins W",
       "home_team": "Miami Hurricanes W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 134.53,
       "xpts_h": 81.1,
@@ -285492,7 +285673,20 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball",
+      "actual_home_score": 87,
+      "actual_away_score": 40,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 23,
+      "halftime_total": 58,
+      "halftime_pct_of_model": 43.1,
+      "total_delta": 7.53,
+      "signed_delta": -7.53,
+      "total_rpe": 5.93,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -285520,7 +285714,7 @@
       "time": "16:00",
       "away_team": "UNC Wilmington W",
       "home_team": "Presbyterian College W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 133.24,
       "xpts_h": 63.2,
@@ -301339,7 +301533,20 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball",
+      "actual_home_score": 35,
+      "actual_away_score": 61,
+      "actual_result": "AWAY",
+      "halftime_home_score": 13,
+      "halftime_away_score": 35,
+      "halftime_total": 48,
+      "halftime_pct_of_model": 36.0,
+      "total_delta": 37.24,
+      "signed_delta": -37.24,
+      "total_rpe": 38.79,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -317207,7 +317414,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": true,
@@ -333075,7 +333284,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -348987,7 +349198,9 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -364855,7 +365068,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -380723,7 +380938,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -396633,7 +396850,9 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": true,
@@ -412507,7 +412726,9 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -412535,7 +412756,7 @@
       "time": "15:00",
       "away_team": "Novosibirsk W",
       "home_team": "Samara W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.84,
       "xpts_h": 62.8,
@@ -413372,7 +413593,20 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball",
+      "actual_home_score": 47,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 19,
+      "halftime_away_score": 44,
+      "halftime_total": 63,
+      "halftime_pct_of_model": 46.4,
+      "total_delta": 8.16,
+      "signed_delta": 8.16,
+      "total_rpe": 5.67,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -413400,7 +413634,7 @@
       "time": "18:30",
       "away_team": "Koblenz",
       "home_team": "Koln",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "10",
       "model_total": 169.78,
       "xpts_h": 87.2,
@@ -414468,7 +414702,20 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 87,
+      "actual_away_score": 63,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 29,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 45.9,
+      "total_delta": 19.78,
+      "signed_delta": -19.78,
+      "total_rpe": 13.19,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -414496,7 +414743,7 @@
       "time": "17:00",
       "away_team": "Kotor",
       "home_team": "Podgorica",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "4",
       "model_total": 168.17,
       "xpts_h": 87.4,
@@ -415244,7 +415491,20 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 85,
+      "actual_away_score": 91,
+      "actual_result": "AWAY",
+      "halftime_home_score": 42,
+      "halftime_away_score": 36,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 46.4,
+      "total_delta": 7.83,
+      "signed_delta": 7.83,
+      "total_rpe": 4.45,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -415272,7 +415532,7 @@
       "time": "17:00",
       "away_team": "Radnicki Gorazde",
       "home_team": "Siroki Brijeg",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 173.33,
       "xpts_h": 103.0,
@@ -416210,7 +416470,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 94,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 42,
+      "halftime_total": 77,
+      "halftime_pct_of_model": 44.4,
+      "total_delta": 2.33,
+      "signed_delta": -2.33,
+      "total_rpe": 1.36,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -416238,7 +416511,7 @@
       "time": "17:55",
       "away_team": "Ironi Eilat",
       "home_team": "Galil Elyon",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 165.93,
       "xpts_h": 76.5,
@@ -417176,7 +417449,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 90,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 49,
+      "halftime_total": 98,
+      "halftime_pct_of_model": 59.1,
+      "total_delta": 12.07,
+      "signed_delta": 12.07,
+      "total_rpe": 6.78,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -417204,7 +417490,7 @@
       "time": "18:05",
       "away_team": "Hapoel HaEmek",
       "home_team": "Hapoel Holon",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 162.77,
       "xpts_h": 79.1,
@@ -418138,7 +418424,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 87,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 24,
+      "halftime_total": 62,
+      "halftime_pct_of_model": 38.1,
+      "total_delta": 6.77,
+      "signed_delta": -6.77,
+      "total_rpe": 4.34,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -418166,7 +418465,7 @@
       "time": "18:15",
       "away_team": "Hapoel Beer Sheva",
       "home_team": "Maccabi Rishon",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 168.97,
       "xpts_h": 91.0,
@@ -419081,7 +419380,20 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 98,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 48,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 57.4,
+      "total_delta": 17.03,
+      "signed_delta": 17.03,
+      "total_rpe": 9.16,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -419109,7 +419421,7 @@
       "time": "18:00",
       "away_team": "Rabotnicki",
       "home_team": "MZT Skopje",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 155.8,
       "xpts_h": 85.6,
@@ -419871,7 +420183,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "FIBA_CORE",
+      "league_segment_label": "FIBA Core (40m)",
+      "actual_home_score": 60,
+      "actual_away_score": 74,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 35,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 46.9,
+      "total_delta": 21.8,
+      "signed_delta": -21.8,
+      "total_rpe": 16.27,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -421060,7 +421385,9 @@
       "total_delta": 46.17,
       "signed_delta": -46.17,
       "total_rpe": 35.52,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -422225,7 +422552,9 @@
       "total_delta": 2.13,
       "signed_delta": 2.13,
       "total_rpe": 1.26,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -422774,7 +423103,9 @@
       "total_delta": 6.13,
       "signed_delta": 6.13,
       "total_rpe": 4.54,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     },
     {
       "is_mismatch": false,
@@ -422802,7 +423133,7 @@
       "time": "16:00",
       "away_team": "Bashkimi W",
       "home_team": "Penza W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 147.79,
       "xpts_h": 63.1,
@@ -423310,7 +423641,20 @@
             }
           ]
         }
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball",
+      "actual_home_score": 72,
+      "actual_away_score": 80,
+      "actual_result": "AWAY",
+      "halftime_home_score": 28,
+      "halftime_away_score": 41,
+      "halftime_total": 69,
+      "halftime_pct_of_model": 46.7,
+      "total_delta": 4.21,
+      "signed_delta": 4.21,
+      "total_rpe": 2.77,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -439157,20 +439501,22 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "league_segment": "WOMEN",
+      "league_segment_label": "Women's Basketball"
     }
   ],
-  "graded_at": "2026-11-16T14:20:12.693664",
+  "graded_at": "2026-11-16T21:56:48.539247",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 17,
-      "total": 22,
-      "pct": 77.3
+      "wins": 29,
+      "total": 39,
+      "pct": 74.4
     },
     "[ADVANCED]": {
-      "wins": 1,
-      "total": 3,
-      "pct": 33.3
+      "wins": 3,
+      "total": 6,
+      "pct": 50.0
     }
   }
 }
