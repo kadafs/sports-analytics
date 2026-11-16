@@ -646,7 +646,11 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 
       const absEdge = Math.abs(edge)
 
-      if (filterNormalEdge === '5') {
+      if (filterNormalEdge === 'positive') {
+        if (edge <= 0) return false
+      } else if (filterNormalEdge === 'negative') {
+        if (edge >= 0) return false
+      } else if (filterNormalEdge === '5') {
         if (absEdge < 5.0) return false
       } else if (filterNormalEdge === '7') {
         if (absEdge < 7.0) return false
@@ -1095,12 +1099,14 @@ export default function App() {
 
               <select
                 className="filter-select"
-                style={{ width: '165px' }}
+                style={{ width: '175px' }}
                 value={filterNormalEdge}
                 onChange={e => setFilterNormalEdge(e.target.value)}
                 title="Normal (Raw) Edge: |Model Total - Market Line|"
               >
                 <option value="all">Normal Edge: All</option>
+                <option value="positive">📈 All Positive (&gt; 0)</option>
+                <option value="negative">📉 All Negative (&lt; 0)</option>
                 <option value="5">🔥 Edge ≥ 5.0 pts</option>
                 <option value="7">💎 Edge ≥ 7.0 pts</option>
                 <option value="10">🚀 Edge ≥ 10.0 pts</option>
