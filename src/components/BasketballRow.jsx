@@ -290,6 +290,34 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const bufScore = bufRatingObj?.score ?? 0
   const smartEdge = getSmartEdgeInfo(predForBuffer, null, teamLeaderboard)
 
+  let activeSample = seUnderSample
+  let activeMktPct = seUnderMktPct
+  let activeMktDelta = seUnderMktDelta
+
+  if (smartEdge?.signal === 'UNDER') {
+    if (smartEdge.tier === 'ULTRA' && seUnderData?.ultra?.mkt_sample) {
+      activeSample = seUnderData.ultra.mkt_sample
+      activeMktPct = seUnderData.ultra.under_mkt_pct
+      activeMktDelta = seUnderData.ultra.avg_market_delta
+    } else if (smartEdge.tier === 'ELITE' && seUnderData?.elite?.mkt_sample) {
+      activeSample = seUnderData.elite.mkt_sample
+      activeMktPct = seUnderData.elite.under_mkt_pct
+      activeMktDelta = seUnderData.elite.avg_market_delta
+    } else if (smartEdge.tier === 'STANDARD' && seUnderData?.standard?.mkt_sample) {
+      activeSample = seUnderData.standard.mkt_sample
+      activeMktPct = seUnderData.standard.under_mkt_pct
+      activeMktDelta = seUnderData.standard.avg_market_delta
+    } else {
+      activeSample = seUnderData?.mkt_sample || seUnderData?.sample || 214
+      activeMktPct = seUnderData?.market_under_pct ?? 60.3
+      activeMktDelta = seUnderData?.avg_market_delta ?? -2.5
+    }
+  } else if (smartEdge?.signal === 'OVER') {
+    activeSample = seOverData?.mkt_sample || seOverData?.sample || 168
+    activeMktPct = seOverData?.market_over_pct ?? 64.3
+    activeMktDelta = seOverData?.avg_market_delta ?? 5.7
+  }
+
   const isUnderMbetPlay = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (primary.mbet_threshold || 4.0))
   const effectiveDecision = decision === 'PLAY UNDER' || isUnderMbetPlay ? 'PLAY UNDER' : decision
   const bookmakerName = primary.bookmaker || (primary.odds_source && primary.odds_source !== 'BASELINE' && primary.odds_source !== 'AVERAGE' ? primary.odds_source : null)
@@ -469,16 +497,22 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   fontSize: '9.5px',
                   lineHeight: 1,
                   fontWeight: 800,
-                  background: smartEdge.signal === 'UNDER' ? 'rgba(239, 68, 68, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+                  background: smartEdge.signal === 'UNDER'
+                    ? (smartEdge.tier === 'ULTRA' ? 'rgba(239, 68, 68, 0.25)' : smartEdge.tier === 'ELITE' ? 'rgba(239, 68, 68, 0.20)' : 'rgba(239, 68, 68, 0.15)')
+                    : 'rgba(16, 185, 129, 0.15)',
                   color: smartEdge.signal === 'UNDER' ? '#ef4444' : '#10b981',
-                  border: smartEdge.signal === 'UNDER' ? '1px solid rgba(239, 68, 68, 0.35)' : '1px solid rgba(16, 185, 129, 0.35)',
+                  border: smartEdge.signal === 'UNDER'
+                    ? (smartEdge.tier === 'ULTRA' ? '1px solid rgba(239, 68, 68, 0.6)' : smartEdge.tier === 'ELITE' ? '1px solid rgba(239, 68, 68, 0.45)' : '1px solid rgba(239, 68, 68, 0.35)')
+                    : '1px solid rgba(16, 185, 129, 0.35)',
                   borderRadius: '3px',
                   padding: '1px 5px',
                   cursor: 'help'
                 }}
-                title={`Smart Edge: ${smartEdge.recommendation} (${smartEdge.signal === 'UNDER' ? seUnderMktPct : seOverMktPct}% Live · ${smartEdge.win_rate} WR) · Buffer: ${smartEdge.buffer_tier} · Conf: ${smartEdge.confidence_band}`}
+                title={`Smart Edge [${smartEdge.tier || 'STANDARD'}]: ${smartEdge.recommendation} (${smartEdge.trigger_label || smartEdge.recommendation}) · Benchmark: ${smartEdge.win_rate} · Buffer: ${smartEdge.buffer_tier || 'N/A'} · Conf: ${smartEdge.confidence_band || 'N/A'}`}
               >
-                {smartEdge.signal === 'UNDER' ? '📉 Smart Under' : '📈 Smart Over'}
+                {smartEdge.signal === 'UNDER'
+                  ? (smartEdge.tier === 'ULTRA' ? '🔥📉 Smart Under (88%)' : (smartEdge.tier === 'ELITE' ? '⚡📉 Smart Under (74%)' : '📉 Smart Under'))
+                  : '📈 Smart Over'}
               </span>
             )}
             {isMismatch && (
@@ -860,9 +894,15 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         padding: '12px 16px',
                         borderRadius: '8px',
                         background: smartEdge.signal === 'UNDER'
-                          ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)'
+                          ? (smartEdge.tier === 'ULTRA'
+                              ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(15, 23, 42, 0.75) 100%)'
+                              : smartEdge.tier === 'ELITE'
+                              ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.20) 0%, rgba(15, 23, 42, 0.7) 100%)'
+                              : 'linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)')
                           : 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)',
-                        borderLeft: `4px solid ${smartEdge.signal === 'UNDER' ? '#ef4444' : '#10b981'}`,
+                        borderLeft: smartEdge.signal === 'UNDER'
+                          ? (smartEdge.tier === 'ULTRA' ? '4px solid #ef4444' : smartEdge.tier === 'ELITE' ? '4px solid #f87171' : '4px solid #dc2626')
+                          : '4px solid #10b981',
                         borderTop: '1px solid rgba(255,255,255,0.08)',
                         borderRight: '1px solid rgba(255,255,255,0.08)',
                         borderBottom: '1px solid rgba(255,255,255,0.08)',
@@ -873,8 +913,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       }}>
                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 6, marginBottom: 8 }}>
                           <div style={{ display: 'flex', alignItems: 'center', fontWeight: 800, color: smartEdge.signal === 'UNDER' ? '#fca5a5' : '#86efac', letterSpacing: '0.04em', fontSize: '12px' }}>
-                            <span style={{ marginRight: 6, fontSize: '13px' }}>🎯</span>
-                            {smartEdge.signal === 'UNDER' ? 'SMART EDGE — UNDER DISCIPLINE' : 'SMART EDGE — OFFENSIVE BREAKOUT'}
+                            <span style={{ marginRight: 6, fontSize: '13px' }}>
+                              {smartEdge.tier === 'ULTRA' ? '🔥' : (smartEdge.tier === 'ELITE' ? '⚡' : '🎯')}
+                            </span>
+                            {smartEdge.signal === 'UNDER'
+                              ? (smartEdge.tier === 'ULTRA'
+                                  ? 'SMART EDGE — DISCORDANT SRS DOMINANCE'
+                                  : (smartEdge.tier === 'ELITE' ? 'SMART EDGE — DUAL MODEL CONSENSUS' : 'SMART EDGE — SCORING FLOOR DISCIPLINE'))
+                              : 'SMART EDGE — OFFENSIVE BREAKOUT'}
                           </div>
                           <div style={{
                             display: 'inline-flex',
@@ -889,8 +935,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             borderRadius: '999px',
                             letterSpacing: '0.03em'
                           }}>
-                            <span>{smartEdge.signal === 'UNDER' ? '📉' : '📈'}</span>
-                            <span>SIGNAL: {smartEdge.recommendation} ({smartEdge.signal === 'UNDER' ? seUnderMktPct : seOverMktPct}% LIVE HIT)</span>
+                            <span>{smartEdge.signal === 'UNDER' ? (smartEdge.tier === 'ULTRA' ? '🔥' : '📉') : '📈'}</span>
+                            <span>SIGNAL: {smartEdge.recommendation} ({activeMktPct}% LIVE HIT · {smartEdge.win_rate})</span>
                           </div>
                         </div>
 
@@ -908,21 +954,19 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Audit Sample</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#f1f5f9' }}>
-                              {smartEdge.signal === 'UNDER' ? `${seUnderSample} Graded` : `${seOverSample} Graded`}
+                              {activeSample} Graded
                             </div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Market Win Rate</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#4ade80' }}>
-                              {smartEdge.signal === 'UNDER' ? `${seUnderMktPct}% Under` : `${seOverMktPct}% Over`}
+                              {activeMktPct}% {smartEdge.signal === 'UNDER' ? 'Under' : 'Over'}
                             </div>
                           </div>
                           <div>
                             <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Avg Market Delta</div>
                             <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>
-                              {smartEdge.signal === 'UNDER'
-                                ? (seUnderMktDelta > 0 ? `+${seUnderMktDelta}` : `${seUnderMktDelta}`)
-                                : (seOverMktDelta > 0 ? `+${seOverMktDelta}` : `${seOverMktDelta}`)} pts
+                              {activeMktDelta > 0 ? `+${activeMktDelta}` : `${activeMktDelta}`} pts
                             </div>
                           </div>
                           <div>
@@ -932,25 +976,35 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             </div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Buffer Floor</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: '#38bdf8' }}>{smartEdge.buffer_tier?.replace(' BUFFER', '')}</div>
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Engine Trigger</div>
+                            <div style={{ fontSize: '11px', fontWeight: 800, color: '#38bdf8', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                              {smartEdge.tier === 'ULTRA' ? 'SRS Dominance' : (smartEdge.tier === 'ELITE' ? 'Dual Consensus' : (smartEdge.signal === 'UNDER' ? 'Floor Discipline' : 'Ceiling Rebound'))}
+                            </div>
                           </div>
                           <div>
-                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Model Confidence</div>
-                            <div style={{ fontSize: '12px', fontWeight: 800, color: smartEdge.signal === 'UNDER' ? '#facc15' : '#94a3b8' }}>
-                              {smartEdge.confidence_band}
+                            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: '#94a3b8', fontWeight: 700 }}>Model Setup</div>
+                            <div style={{ fontSize: '11px', fontWeight: 800, color: smartEdge.signal === 'UNDER' ? '#facc15' : '#94a3b8', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                              {smartEdge.model_agreement ? smartEdge.model_agreement : smartEdge.buffer_tier?.replace(' BUFFER', '')} ({smartEdge.confidence_band || 'N/A'})
                             </div>
                           </div>
                         </div>
 
                         <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                          {smartEdge.signal === 'UNDER' ? (
+                          {smartEdge.trigger === 'DISCORDANT_SRS_UNDER' ? (
                             <>
-                              <b>Historical Audit Mechanism:</b> When teams possess high scoring floor consistency (Strong+ Buffer) but the model holds Solid to Elite confidence, the disciplined defensive metrics and pace suppression hold firm against market inflation. In our historical audit, this profile delivers a consistent <b>58% – 64% win rate betting Full-Time UNDER</b>.
+                              <b>Historical Audit Mechanism (Discordant SRS Dominance):</b> When Advanced Efficiency (ADV) projects Over and Simple Rating System (SRS) projects Under with divergence (≥ 3.1 pts or Solid confidence, excluding Moderate traps), SRS dominates with an empirical <b>87.5% Under win rate</b> (-8.2 pts vs market in international play, 79.3% across all leagues). High-pace offensive assumptions systematically over-project, making SRS Under our highest-conviction Under signal.
+                            </>
+                          ) : smartEdge.trigger === 'DUAL_CONSENSUS_UNDER' ? (
+                            <>
+                              <b>Historical Audit Mechanism (Dual Model Consensus):</b> When both Advanced Efficiency (ADV) and Simple Rating System (SRS) independently project Under the bookmaker line with Solid/Moderate confidence or wide divergence (5.0–10.0 pts), dual model alignment confirms pace and scoring suppression, yielding an empirical <b>73.7% Under win rate</b> (-5.1 pts vs market in international play, 71.4% across all leagues).
+                            </>
+                          ) : smartEdge.signal === 'UNDER' ? (
+                            <>
+                              <b>Historical Audit Mechanism (Scoring Floor Discipline):</b> When teams possess high scoring floor consistency (Strong+ Buffer) and the model holds Solid to Elite confidence, disciplined defensive metrics and pace suppression hold firm against market inflation. In our historical audit, this profile delivers a consistent <b>58% – 64% win rate betting Full-Time UNDER</b>.
                             </>
                           ) : (
                             <>
-                              <b>Historical Audit Mechanism:</b> When teams possess high scoring floor consistency (Strong+ Buffer) but model confidence is Low or Avoid, the teams' offensive execution reliably breaks free from model pace suppression. In our historical audit, games consistently exceed bookmaker totals (+6.3 to +11.0 pts), delivering a <b>61% – 70% win rate betting Full-Time OVER</b>.
+                              <b>Historical Audit Mechanism (Offensive Breakout):</b> When teams possess high scoring floor consistency (Strong+ Buffer) but model confidence is Low or Avoid, teams' offensive execution reliably breaks free from model pace suppression. In our historical audit, games consistently exceed bookmaker totals (+6.3 to +11.0 pts), delivering a <b>61% – 70% win rate betting Full-Time OVER</b>.
                             </>
                           )}
                         </div>

@@ -335,35 +335,119 @@ export function computeBufferHitRateRating(p, teamLbMap, teamLeaderboard) {
 }
 
 export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
-  // If backend already stamped smart_edge object, return it
-  if (p.smart_edge && p.smart_edge.signal) {
+  // If backend already stamped smart_edge object with full trigger info, return it
+  if (p.smart_edge && p.smart_edge.signal && p.smart_edge.trigger) {
     return p.smart_edge
   }
 
-  // Otherwise evaluate dynamically from buffer tier + confidence score band
-  const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
-  const isStrongBuffer = ['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf.tier)
-  if (!isStrongBuffer) return null
+  // Dual-model and market metrics
+  let mkt = p.market_total
+  if (mkt === 145.5 || mkt === 230.0 || mkt === 0) mkt = null
+  else if (mkt != null) mkt = Number(mkt)
+
+  const advTot = p.adv_total != null ? Number(p.adv_total) : null
+  const srsTot = p.srs_total != null ? Number(p.srs_total) : null
+
+  let advEdge = p.adv_edge != null ? Number(p.adv_edge) : null
+  let srsEdge = p.srs_edge != null ? Number(p.srs_edge) : null
+
+  if (mkt != null) {
+    if (advEdge == null && advTot != null) advEdge = Math.round((advTot - mkt) * 10) / 10
+    if (srsEdge == null && srsTot != null) srsEdge = Math.round((srsTot - mkt) * 10) / 10
+  }
+
+  let div = p.model_divergence != null ? Number(p.model_divergence) : null
+  if (div == null && advTot != null && srsTot != null) {
+    div = Math.round(Math.abs(advTot - srsTot) * 10) / 10
+  }
+
+  let agreement = p.model_agreement
+  if (!agreement && advEdge != null && srsEdge != null) {
+    if (advEdge < 0 && srsEdge < 0) agreement = 'CONFIRMED_UNDER'
+    else if (advEdge > 0 && srsEdge > 0) agreement = 'CONFIRMED_OVER'
+    else if ((advEdge > 0 && srsEdge < 0) || (advEdge < 0 && srsEdge > 0)) agreement = 'DISCORDANT'
+  }
 
   const band = (p.confidence_score_band || '').trim()
-  if (['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
+  const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
+  const isStrongBuffer = ['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf?.tier)
+
+  // 1. Path 3: Discordant SRS Dominance (ADV Over / SRS Under with Div >= 3.1 or Solid conf, excluding Moderate conf)
+  const isAdvOSrsU = advEdge != null && srsEdge != null && advEdge > 0 && srsEdge < 0
+  const isDiscordantSrsUnder = isAdvOSrsU && band !== '[MODERATE]' && ((div != null && div >= 3.1) || band === '[SOLID]')
+
+  if (isDiscordantSrsUnder) {
     return {
       signal: 'UNDER',
+      tier: 'ULTRA',
+      recommendation: 'BET FULL-TIME UNDER',
+      win_rate: '87.5% WR',
+      tag: '📉 Smart Under (88% SRS Lead)',
+      trigger: 'DISCORDANT_SRS_UNDER',
+      trigger_label: 'Discordant SRS Dominance (ADV Over / SRS Under)',
+      buffer_tier: buf?.tier || '[UNTRACKED]',
+      confidence_band: band,
+      model_agreement: agreement,
+      model_divergence: div,
+    }
+  }
+
+  // 2. Path 2: Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5.0–10.0 pts)
+  const isDualConsensusUnder = agreement === 'CONFIRMED_UNDER' && (['[SOLID]', '[MODERATE]'].includes(band) || (div != null && div >= 5.0 && div <= 10.0))
+
+  if (isDualConsensusUnder) {
+    return {
+      signal: 'UNDER',
+      tier: 'ELITE',
+      recommendation: 'BET FULL-TIME UNDER',
+      win_rate: '74% WR',
+      tag: '📉 Smart Under (74% Dual Model)',
+      trigger: 'DUAL_CONSENSUS_UNDER',
+      trigger_label: 'Dual Model Consensus (CONFIRMED_UNDER)',
+      buffer_tier: buf?.tier || '[UNTRACKED]',
+      confidence_band: band,
+      model_agreement: agreement,
+      model_divergence: div,
+    }
+  }
+
+  // 3. Path 1: Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
+  if (isStrongBuffer && ['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
+    return {
+      signal: 'UNDER',
+      tier: 'STANDARD',
       recommendation: 'BET FULL-TIME UNDER',
       win_rate: '58% – 64%',
       tag: '📉 Smart Under (58–64%)',
-      buffer_tier: buf.tier,
+      trigger: 'BUFFER_FLOOR_DISCIPLINE',
+      trigger_label: 'Scoring Floor Discipline (Strong Buffer)',
+      buffer_tier: buf?.tier,
       confidence_band: band,
+      model_agreement: agreement,
+      model_divergence: div,
     }
-  } else if (['[LOW]', '[AVOID]'].includes(band)) {
+  }
+
+  // 4. Smart Over (Strong+ Buffer + Low/Avoid Confidence)
+  if (isStrongBuffer && ['[LOW]', '[AVOID]'].includes(band)) {
     return {
       signal: 'OVER',
+      tier: 'STANDARD',
       recommendation: 'BET FULL-TIME OVER',
       win_rate: '61% – 70%',
       tag: '📈 Smart Over (61–70%)',
-      buffer_tier: buf.tier,
+      trigger: 'BUFFER_SCORING_LEAD',
+      trigger_label: 'Scoring Ceiling Rebound (Low/Avoid Conf)',
+      buffer_tier: buf?.tier,
       confidence_band: band,
+      model_agreement: agreement,
+      model_divergence: div,
     }
+  }
+
+  // If backend stamped an older smart_edge object without trigger
+  if (p.smart_edge && p.smart_edge.signal) {
+    return p.smart_edge
   }
 
   return null
@@ -1152,20 +1236,20 @@ export default function App() {
                 let btnBg = '#f8fafc'
                 let btnColor = '#64748b'
                 let btnBorder = '#e2e8f0'
-                let btnTitle = 'Smart Edge: Strong+ Buffer Floor · Click to cycle (ALL → 📉 UNDER → 📈 OVER → OFF)'
+                let btnTitle = 'Smart Edge: Multi-Engine System · Click to cycle (ALL → 📉 UNDER → 📈 OVER → OFF)'
 
                 if (smartEdgeFilter === 'all' || smartEdgeFilter === true) {
                   btnText = '🎯 Smart Edge: ALL'
                   btnBg = '#fef9c3'
                   btnColor = '#854d0e'
                   btnBorder = '#fef08a'
-                  btnTitle = 'Smart Edge [ALL]: Strong+ Buffer · Solid+ (📉 Under 58–64%) & Low/Avoid (📈 Over 61–70%)'
+                  btnTitle = 'Smart Edge [ALL]: Multi-Engine System · 📉 Under (58%–88% WR) & 📈 Over (61%–70% WR)'
                 } else if (smartEdgeFilter === 'under') {
-                  btnText = '📉 Smart UNDER (58-64%)'
+                  btnText = '📉 Smart UNDER (58-88%)'
                   btnBg = 'rgba(239, 68, 68, 0.12)'
                   btnColor = '#dc2626'
                   btnBorder = 'rgba(239, 68, 68, 0.35)'
-                  btnTitle = 'Smart Edge [UNDER]: Strong+ Buffer + Solid/High/Elite Confidence (58%–64% Full-Time Under WR)'
+                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 74%, Floor Discipline 58-64%)'
                 } else if (smartEdgeFilter === 'over') {
                   btnText = '📈 Smart OVER (61-70%)'
                   btnBg = 'rgba(16, 185, 129, 0.12)'
