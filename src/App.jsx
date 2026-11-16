@@ -11,6 +11,30 @@ function isWomensLeague(league = '') {
   return l.includes('women') || l.includes('woman') || l.includes('ladies') || / w$/.test(l)
 }
 
+export function classifyBasketballSegment(country = '', league = '', isWomen = false, home = '', away = '') {
+  const c = String(country || '').toUpperCase().trim()
+  const l = String(league || '').toUpperCase().trim()
+  const h = String(home || '').toUpperCase().trim()
+  const a = String(away || '').toUpperCase().trim()
+
+  if (isWomen || l.includes('WOMEN') || l.includes('(W)') || l.includes('WNBA') || l.includes('FEMENIN') || l.includes('FRAUEN') || l.includes('KOBIET') || h.endsWith(' W') || a.endsWith(' W')) {
+    return 'WOMEN'
+  }
+  if (l.includes('NBA G LEAGUE') || l.includes('G LEAGUE') || l.includes('G-LEAGUE')) {
+    return 'NBA_GLEAGUE'
+  }
+  if (l.includes('NBA')) {
+    return 'NBA_MEN'
+  }
+  if (l.includes('NCAA') || l.includes('COLLEGE')) {
+    return 'NCAA_MEN'
+  }
+  if (['CHINA', 'SOUTH KOREA', 'PHILIPPINES', 'TAIWAN'].includes(c) || l.includes('CBA') || l.includes('KBL') || l.includes('PBA')) {
+    return 'ASIA'
+  }
+  return 'FIBA_CORE'
+}
+
 function isPlayoffGame(stage = '') {
   if (!stage) return false
   const s = String(stage).toLowerCase()
@@ -340,6 +364,20 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     return p.smart_edge
   }
 
+  const seg = p.league_segment || classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
+  const segLabel = p.league_segment_label || (
+    seg === 'NBA_MEN' ? 'NBA Men (48m)' :
+    seg === 'NCAA_MEN' ? 'NCAA Men (College)' :
+    seg === 'NBA_GLEAGUE' ? 'NBA G-League' :
+    seg === 'ASIA' ? 'Asian Leagues' :
+    seg === 'WOMEN' ? "Women's Basketball" : 'FIBA Core (40m)'
+  )
+
+  // ROUTE 1: WOMEN & ASIA -> Parked from Smart Edge
+  if (seg === 'WOMEN' || seg === 'ASIA') {
+    return null
+  }
+
   // Dual-model and market metrics
   let mkt = p.market_total
   if (mkt === 145.5 || mkt === 230.0 || mkt === 0) mkt = null
@@ -373,7 +411,91 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
   const isStrongBuffer = ['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf?.tier)
   const isSmartOver = isStrongBuffer && ['[LOW]', '[AVOID]'].includes(band)
 
-  // 1. Path 3: Discordant SRS Dominance (ADV Over / SRS Under with Div >= 3.1 or Solid conf, excluding Moderate conf)
+  // ROUTE 2: NBA MEN (48-Min High-Pace Over, Unders strictly disabled due to 40% failure)
+  if (seg === 'NBA_MEN') {
+    if (isSmartOver || (advEdge != null && advEdge >= 3.0 && srsEdge != null && srsEdge >= 3.0)) {
+      return {
+        signal: 'OVER',
+        tier: 'ELITE',
+        recommendation: 'BET FULL-TIME OVER',
+        win_rate: '66.7% WR',
+        tag: '📈 Smart Over',
+        trigger: 'NBA_PACE_OVER',
+        trigger_label: '48-Min High-Pace Scoring Lead',
+        segment: seg,
+        segment_label: segLabel,
+        buffer_tier: buf?.tier,
+        confidence_band: band,
+        model_agreement: agreement,
+        model_divergence: div,
+      }
+    }
+    return null
+  }
+
+  // ROUTE 3: NCAA MEN (College High-Line Under Discipline)
+  if (seg === 'NCAA_MEN') {
+    const isAdvOSrsU = advEdge != null && srsEdge != null && advEdge > 0 && srsEdge < 0
+    if (isAdvOSrsU && band !== '[MODERATE]' && ((div != null && div >= 3.1) || band === '[SOLID]')) {
+      return {
+        signal: 'UNDER',
+        tier: 'ULTRA',
+        recommendation: 'BET FULL-TIME UNDER',
+        win_rate: '80%+ WR',
+        tag: '📉 Smart Under',
+        trigger: 'NCAA_DISCORDANT_UNDER',
+        trigger_label: 'NCAA Discordant SRS Under',
+        segment: seg,
+        segment_label: segLabel,
+        buffer_tier: buf?.tier || '[UNTRACKED]',
+        confidence_band: band,
+        model_agreement: agreement,
+        model_divergence: div,
+      }
+    }
+    if (agreement === 'CONFIRMED_UNDER' && band !== '[LOW]' && !isSmartOver) {
+      return {
+        signal: 'UNDER',
+        tier: 'ELITE',
+        recommendation: 'BET FULL-TIME UNDER',
+        win_rate: '65.7% WR',
+        tag: '📉 Smart Under',
+        trigger: 'NCAA_COLLEGE_UNDER',
+        trigger_label: 'College High-Line Under Discipline',
+        segment: seg,
+        segment_label: segLabel,
+        buffer_tier: buf?.tier || '[UNTRACKED]',
+        confidence_band: band,
+        model_agreement: agreement,
+        model_divergence: div,
+      }
+    }
+    return null
+  }
+
+  // ROUTE 4: NBA G-LEAGUE (Fade Inflated 230+ Lines)
+  if (seg === 'NBA_GLEAGUE') {
+    if (mkt != null && mkt >= 228.0 && (srsEdge == null || srsEdge <= 0 || advEdge == null || advEdge <= 0)) {
+      return {
+        signal: 'UNDER',
+        tier: 'ELITE',
+        recommendation: 'BET FULL-TIME UNDER',
+        win_rate: '73.7% WR',
+        tag: '📉 Smart Under',
+        trigger: 'GLEAGUE_INFLATED_UNDER',
+        trigger_label: 'Developmental Inflated Line Fade',
+        segment: seg,
+        segment_label: segLabel,
+        buffer_tier: buf?.tier,
+        confidence_band: band,
+        model_agreement: agreement,
+        model_divergence: div,
+      }
+    }
+    return null
+  }
+
+  // ROUTE 5: FIBA CORE (Proven 4-Path System)
   const isAdvOSrsU = advEdge != null && srsEdge != null && advEdge > 0 && srsEdge < 0
   const isDiscordantSrsUnder = isAdvOSrsU && band !== '[MODERATE]' && ((div != null && div >= 3.1) || band === '[SOLID]')
 
@@ -386,6 +508,8 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tag: '📉 Smart Under',
       trigger: 'DISCORDANT_SRS_UNDER',
       trigger_label: 'Discordant SRS Dominance (ADV Over / SRS Under)',
+      segment: seg,
+      segment_label: segLabel,
       buffer_tier: buf?.tier || '[UNTRACKED]',
       confidence_band: band,
       model_agreement: agreement,
@@ -393,9 +517,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // 2. Smart Over Priority: When Strong Buffer pairs with Low/Avoid Confidence,
-  // offensive execution breaks free (+7.0 pts avg beat, 62.5% WR even under CONFIRMED_UNDER).
-  // Takes precedence over Consensus Under to prevent false Under suppression.
   if (isSmartOver) {
     return {
       signal: 'OVER',
@@ -405,6 +526,8 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tag: '📈 Smart Over',
       trigger: 'BUFFER_SCORING_LEAD',
       trigger_label: 'Scoring Ceiling Rebound (Low/Avoid Conf)',
+      segment: seg,
+      segment_label: segLabel,
       buffer_tier: buf?.tier,
       confidence_band: band,
       model_agreement: agreement,
@@ -412,7 +535,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // 3. Path 2: Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5.0–10.0 pts, excluding [LOW])
   const isDualConsensusUnder = agreement === 'CONFIRMED_UNDER' && band !== '[LOW]' && (['[SOLID]', '[MODERATE]'].includes(band) || (div != null && div >= 5.0 && div <= 10.0))
 
   if (isDualConsensusUnder) {
@@ -424,6 +546,8 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tag: '📉 Smart Under',
       trigger: 'DUAL_CONSENSUS_UNDER',
       trigger_label: 'Dual Model Consensus (CONFIRMED_UNDER)',
+      segment: seg,
+      segment_label: segLabel,
       buffer_tier: buf?.tier || '[UNTRACKED]',
       confidence_band: band,
       model_agreement: agreement,
@@ -431,7 +555,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // 4. Path 1: Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
   if (isStrongBuffer && ['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
     return {
       signal: 'UNDER',
@@ -441,6 +564,8 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tag: '📉 Smart Under',
       trigger: 'BUFFER_FLOOR_DISCIPLINE',
       trigger_label: 'Scoring Floor Discipline (Strong Buffer)',
+      segment: seg,
+      segment_label: segLabel,
       buffer_tier: buf?.tier,
       confidence_band: band,
       model_agreement: agreement,
@@ -448,7 +573,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // If backend stamped an older smart_edge object without trigger
   if (p.smart_edge && p.smart_edge.signal) {
     return p.smart_edge
   }
@@ -456,13 +580,19 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
   return null
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0) {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0, filterSegment = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
     if (filterWomen === 'men'   &&  isWomensLeague(p.league)) return false
+
+    // League Segment Filter (Basketball only)
+    if (sport === 'basketball' && filterSegment !== 'all') {
+      const seg = p.league_segment || classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
+      if (seg !== filterSegment) return false
+    }
     // Sport-specific decision mapping
     const pDecision = sport === 'football' ? p.btts_decision : p.decision
     if (decision !== 'all') {
@@ -785,6 +915,7 @@ export default function App() {
   const [filterDragDown, setFilterDragDown] = useState(false) // ⚓ Drag-Down Under filter
   const [filterSDI,      setFilterSDI]      = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
   const [filterNormalEdge, setFilterNormalEdge] = useState('all') // 📏 Normal Edge filter: all | 3 | 4 | 5 | 7 | 10 | 15 | over_4 | under_4
+  const [filterSegment,    setFilterSegment]    = useState('all') // 'all' | 'FIBA_CORE' | 'NBA_MEN' | 'NCAA_MEN' | 'NBA_GLEAGUE' | 'ASIA' | 'WOMEN'
   
   // High-level App View Mode 
   const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
@@ -929,9 +1060,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -988,6 +1119,7 @@ export default function App() {
           setFilterShootout(false);
           setFilterDragDown(false);
           setFilterNormalEdge('all');
+            setFilterSegment('all');
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -1214,6 +1346,22 @@ export default function App() {
                 <option value="amber">🟡 Moderate (Has AMBER)</option>
                 <option value="red">🔴 High Dep (Has RED)</option>
                 <option value="volatile">⚠️ Any Volatile (≥1 RED)</option>
+              </select>
+
+              <select
+                className="filter-select"
+                style={{ width: '160px' }}
+                value={filterSegment}
+                onChange={e => setFilterSegment(e.target.value)}
+                title="League Segment: Filter by validated basketball archetype"
+              >
+                <option value="all">Segment: All</option>
+                <option value="FIBA_CORE">🌐 FIBA Core (40m)</option>
+                <option value="NBA_MEN">🏀 NBA Men (48m)</option>
+                <option value="NCAA_MEN">🎓 NCAA Men (College)</option>
+                <option value="NBA_GLEAGUE">⚡ NBA G-League</option>
+                <option value="ASIA">🌏 Asian Leagues</option>
+                <option value="WOMEN">♀ Women's Basketball</option>
               </select>
 
               <button

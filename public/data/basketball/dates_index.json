@@ -2,26 +2,37 @@
   "dates": [
     {
       "date": "2026-11-16_v2",
-      "total": 59,
-      "graded": false,
-      "graded_count": 0,
-      "grade_summary": null
+      "total": 61,
+      "graded": true,
+      "graded_count": 25,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 17,
+          "total": 22,
+          "pct": 77.3
+        },
+        "[ADVANCED]": {
+          "wins": 1,
+          "total": 3,
+          "pct": 33.3
+        }
+      }
     },
     {
       "date": "2026-11-15_v2",
       "total": 305,
       "graded": true,
-      "graded_count": 34,
+      "graded_count": 295,
       "grade_summary": {
-        "[  SRS   ]": {
-          "wins": 14,
-          "total": 20,
-          "pct": 70
-        },
         "[ADVANCED]": {
-          "wins": 7,
-          "total": 14,
-          "pct": 50
+          "wins": 52,
+          "total": 77,
+          "pct": 67.5
+        },
+        "[  SRS   ]": {
+          "wins": 145,
+          "total": 218,
+          "pct": 66.5
         }
       }
     },

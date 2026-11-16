@@ -294,7 +294,19 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   let activeMktPct = seUnderMktPct
   let activeMktDelta = seUnderMktDelta
 
-  if (smartEdge?.signal === 'UNDER') {
+  if (smartEdge?.segment === 'NBA_MEN') {
+    activeSample = 17
+    activeMktPct = 66.7
+    activeMktDelta = 7.2
+  } else if (smartEdge?.segment === 'NCAA_MEN') {
+    activeSample = 35
+    activeMktPct = 65.7
+    activeMktDelta = -4.2
+  } else if (smartEdge?.segment === 'NBA_GLEAGUE') {
+    activeSample = 19
+    activeMktPct = 73.7
+    activeMktDelta = -9.1
+  } else if (smartEdge?.signal === 'UNDER') {
     if (smartEdge.tier === 'ULTRA' && seUnderData?.ultra?.mkt_sample) {
       activeSample = seUnderData.ultra.mkt_sample
       activeMktPct = seUnderData.ultra.under_mkt_pct
@@ -914,11 +926,17 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             <span style={{ marginRight: 6, fontSize: '13px' }}>
                               {smartEdge.tier === 'ULTRA' ? '🔥' : (smartEdge.tier === 'ELITE' ? '⚡' : '🎯')}
                             </span>
-                            {smartEdge.signal === 'UNDER'
-                              ? (smartEdge.tier === 'ULTRA'
-                                  ? 'SMART EDGE — DISCORDANT SRS DOMINANCE'
-                                  : (smartEdge.tier === 'ELITE' ? 'SMART EDGE — DUAL MODEL CONSENSUS' : 'SMART EDGE — SCORING FLOOR DISCIPLINE'))
-                              : 'SMART EDGE — OFFENSIVE BREAKOUT'}
+                            {smartEdge.segment === 'NBA_MEN'
+                              ? 'SMART EDGE — NBA MEN (48M) — 48-MIN PACE OVER'
+                              : (smartEdge.segment === 'NCAA_MEN'
+                                  ? (smartEdge.tier === 'ULTRA' ? 'SMART EDGE — NCAA MEN (COLLEGE) — DISCORDANT SRS UNDER' : 'SMART EDGE — NCAA MEN (COLLEGE) — HIGH-LINE UNDER DISCIPLINE')
+                                  : (smartEdge.segment === 'NBA_GLEAGUE'
+                                      ? 'SMART EDGE — NBA G-LEAGUE — INFLATED TOTAL FADE'
+                                      : (smartEdge.signal === 'UNDER'
+                                          ? (smartEdge.tier === 'ULTRA'
+                                              ? 'SMART EDGE — DISCORDANT SRS DOMINANCE'
+                                              : (smartEdge.tier === 'ELITE' ? 'SMART EDGE — DUAL MODEL CONSENSUS' : 'SMART EDGE — SCORING FLOOR DISCIPLINE'))
+                                          : 'SMART EDGE — OFFENSIVE BREAKOUT')))}
                           </div>
                           <div style={{
                             display: 'inline-flex',
@@ -988,13 +1006,25 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         </div>
 
                         <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
-                          {smartEdge.trigger === 'DISCORDANT_SRS_UNDER' ? (
+                          {smartEdge.segment === 'NBA_MEN' ? (
+                            <>
+                              <b>NBA 48-Minute High-Pace Dynamic:</b> In the 48-minute NBA environment with high possession counts and fourth-quarter pace escalation, teams consistently break through sportsbook totals (+7.2 pts avg beat, <b>66.7% Over win rate</b>). Under signals are strictly suppressed in the NBA due to high fourth-quarter volatility.
+                            </>
+                          ) : smartEdge.segment === 'NCAA_MEN' ? (
+                            <>
+                              <b>NCAA Collegiate Under Discipline:</b> In 40-minute US college basketball featuring a 30-second shot clock and extended half-court defensive sets, bookmaker totals systematically inflate. When models project Under, collegiate shooting variance and low tempo deliver an empirical <b>65.7% Under win rate</b> (-4.2 pts avg miss).
+                            </>
+                          ) : smartEdge.segment === 'NBA_GLEAGUE' ? (
+                            <>
+                              <b>Developmental Inflated Line Fade:</b> G-League totals are heavily inflated by sportsbooks into the 230–240 range. Actual scoring averages 225.6 pts (-9.1 pts delta vs market), producing an empirical <b>73.7% Under win rate</b>.
+                            </>
+                          ) : smartEdge.trigger === 'DISCORDANT_SRS_UNDER' ? (
                             <>
                               <b>Historical Audit Mechanism (Discordant SRS Dominance):</b> When Advanced Efficiency (ADV) projects Over and Simple Rating System (SRS) projects Under with divergence (≥ 3.1 pts or Solid confidence, excluding Moderate traps), SRS dominates with an empirical <b>87.5% Under win rate</b> (-8.2 pts vs market in international play, 79.3% across all leagues). High-pace offensive assumptions systematically over-project, making SRS Under our highest-conviction Under signal.
                             </>
                           ) : smartEdge.trigger === 'DUAL_CONSENSUS_UNDER' ? (
                             <>
-                              <b>Historical Audit Mechanism (Dual Model Consensus):</b> When both Advanced Efficiency (ADV) and Simple Rating System (SRS) independently project Under the bookmaker line with Solid/Moderate confidence or wide divergence (5.0–10.0 pts), dual model alignment confirms pace and scoring suppression, yielding an empirical <b>73.7% Under win rate</b> (-5.1 pts vs market in international play, 71.4% across all leagues).
+                              <b>Historical Audit Mechanism (Dual Model Consensus):</b> When both Advanced Efficiency (ADV) and Simple Rating System (SRS) independently project Under the bookmaker line with Solid/Moderate confidence or wide divergence (5.0–10.0 pts), dual model alignment confirms pace and scoring suppression, yielding an empirical <b>76.0% Under win rate</b> (-5.1 pts vs market in international play, 71.4% across all leagues).
                             </>
                           ) : smartEdge.signal === 'UNDER' ? (
                             <>
