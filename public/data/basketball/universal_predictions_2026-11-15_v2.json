@@ -82221,7 +82221,7 @@
       "time": "23:30",
       "away_team": "Deportivo Chanares W",
       "home_team": "Rocamora W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.98,
       "xpts_h": 66.9,
@@ -83420,7 +83420,14 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 93,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "total_delta": 31.02,
+      "signed_delta": 31.02,
+      "total_rpe": 18.57,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -140405,7 +140412,7 @@
       "time": "21:00",
       "away_team": "Wisconsin Herd",
       "home_team": "Windy City Bulls",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 236.5,
       "xpts_h": 118.9,
@@ -143283,7 +143290,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 114,
+      "actual_away_score": 112,
+      "actual_result": "HOME",
+      "halftime_home_score": 56,
+      "halftime_away_score": 52,
+      "halftime_total": 108,
+      "halftime_pct_of_model": 45.7,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -143311,7 +143328,7 @@
       "time": "21:00",
       "away_team": "Memphis Hustle",
       "home_team": "Austin Toros Spurs",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 235.23,
       "xpts_h": 120.0,
@@ -146214,7 +146231,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 140,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 54,
+      "halftime_away_score": 40,
+      "halftime_total": 94,
+      "halftime_pct_of_model": 40.0,
+      "total_delta": 7.23,
+      "signed_delta": -7.23,
+      "total_rpe": 3.17,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -146242,7 +146270,7 @@
       "time": "21:00",
       "away_team": "Coachella Valley Lakers",
       "home_team": "Valley Suns",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 232.31,
       "xpts_h": 116.1,
@@ -149186,7 +149214,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 121,
+      "actual_away_score": 134,
+      "actual_result": "AWAY",
+      "halftime_home_score": 58,
+      "halftime_away_score": 66,
+      "halftime_total": 124,
+      "halftime_pct_of_model": 53.4,
+      "total_delta": 22.69,
+      "signed_delta": 22.69,
+      "total_rpe": 8.9,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -149214,7 +149253,7 @@
       "time": "21:00",
       "away_team": "Rio Grande Valley Vipers",
       "home_team": "Texas Legends",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 222.02,
       "xpts_h": 109.9,
@@ -152114,7 +152153,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 97,
+      "actual_away_score": 105,
+      "actual_result": "AWAY",
+      "halftime_home_score": 49,
+      "halftime_away_score": 47,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 43.2,
+      "total_delta": 20.02,
+      "signed_delta": -20.02,
+      "total_rpe": 9.91,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -152142,7 +152192,7 @@
       "time": "23:00",
       "away_team": "Rip City Remix",
       "home_team": "Stockton Kings",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 233.88,
       "xpts_h": 118.7,
@@ -155042,7 +155092,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 119,
+      "actual_result": "AWAY",
+      "halftime_home_score": 47,
+      "halftime_away_score": 59,
+      "halftime_total": 106,
+      "halftime_pct_of_model": 45.3,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -863738,7 +863798,7 @@
       "time": "20:00",
       "away_team": "Cleveland State",
       "home_team": "Alabama A&M",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 159.02,
       "xpts_h": 84.2,
@@ -879712,7 +879772,17 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 73,
+      "actual_away_score": 74,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 39,
+      "halftime_total": 71,
+      "halftime_pct_of_model": 44.6,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -2211914,17 +2211984,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-11-16T02:05:00.101312",
+  "graded_at": "2026-11-16T03:35:35.558276",
   "grade_summary": {
     "[ADVANCED]": {
-      "wins": 50,
-      "total": 74,
-      "pct": 67.6
+      "wins": 52,
+      "total": 77,
+      "pct": 67.5
     },
     "[  SRS   ]": {
-      "wins": 143,
-      "total": 214,
-      "pct": 66.8
+      "wins": 145,
+      "total": 218,
+      "pct": 66.5
     }
   }
 }
