@@ -383,7 +383,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tier: 'ULTRA',
       recommendation: 'BET FULL-TIME UNDER',
       win_rate: '87.5% WR',
-      tag: '📉 Smart Under (88% SRS Lead)',
+      tag: '📉 Smart Under',
       trigger: 'DISCORDANT_SRS_UNDER',
       trigger_label: 'Discordant SRS Dominance (ADV Over / SRS Under)',
       buffer_tier: buf?.tier || '[UNTRACKED]',
@@ -402,7 +402,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tier: 'STANDARD',
       recommendation: 'BET FULL-TIME OVER',
       win_rate: '61% – 70%',
-      tag: '📈 Smart Over (61–70%)',
+      tag: '📈 Smart Over',
       trigger: 'BUFFER_SCORING_LEAD',
       trigger_label: 'Scoring Ceiling Rebound (Low/Avoid Conf)',
       buffer_tier: buf?.tier,
@@ -421,7 +421,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tier: 'ELITE',
       recommendation: 'BET FULL-TIME UNDER',
       win_rate: '76% WR',
-      tag: '📉 Smart Under (76% Dual Model)',
+      tag: '📉 Smart Under',
       trigger: 'DUAL_CONSENSUS_UNDER',
       trigger_label: 'Dual Model Consensus (CONFIRMED_UNDER)',
       buffer_tier: buf?.tier || '[UNTRACKED]',
@@ -438,7 +438,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tier: 'STANDARD',
       recommendation: 'BET FULL-TIME UNDER',
       win_rate: '58% – 64%',
-      tag: '📉 Smart Under (58–64%)',
+      tag: '📉 Smart Under',
       trigger: 'BUFFER_FLOOR_DISCIPLINE',
       trigger_label: 'Scoring Floor Discipline (Strong Buffer)',
       buffer_tier: buf?.tier,
@@ -1248,13 +1248,13 @@ export default function App() {
                   btnBorder = '#fef08a'
                   btnTitle = 'Smart Edge [ALL]: Multi-Engine System · 📉 Under (58%–88% WR) & 📈 Over (61%–70% WR)'
                 } else if (smartEdgeFilter === 'under') {
-                  btnText = '📉 Smart UNDER (58-88%)'
+                  btnText = '📉 Smart UNDER'
                   btnBg = 'rgba(239, 68, 68, 0.12)'
                   btnColor = '#dc2626'
                   btnBorder = 'rgba(239, 68, 68, 0.35)'
-                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 74%, Floor Discipline 58-64%)'
+                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 76%, Floor Discipline 58-64%)'
                 } else if (smartEdgeFilter === 'over') {
-                  btnText = '📈 Smart OVER (61-70%)'
+                  btnText = '📈 Smart OVER'
                   btnBg = 'rgba(16, 185, 129, 0.12)'
                   btnColor = '#059669'
                   btnBorder = 'rgba(16, 185, 129, 0.35)'
