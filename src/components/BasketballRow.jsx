@@ -511,7 +511,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 title={`Smart Edge [${smartEdge.tier || 'STANDARD'}]: ${smartEdge.recommendation} (${smartEdge.trigger_label || smartEdge.recommendation}) · Benchmark: ${smartEdge.win_rate} · Buffer: ${smartEdge.buffer_tier || 'N/A'} · Conf: ${smartEdge.confidence_band || 'N/A'}`}
               >
                 {smartEdge.signal === 'UNDER'
-                  ? (smartEdge.tier === 'ULTRA' ? '🔥📉 Smart Under (88%)' : (smartEdge.tier === 'ELITE' ? '⚡📉 Smart Under (74%)' : '📉 Smart Under'))
+                  ? (smartEdge.tier === 'ULTRA' ? '🔥📉 Smart Under (88%)' : (smartEdge.tier === 'ELITE' ? '⚡📉 Smart Under (76%)' : '📉 Smart Under'))
                   : '📈 Smart Over'}
               </span>
             )}

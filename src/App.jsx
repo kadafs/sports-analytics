@@ -371,6 +371,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
   const band = (p.confidence_score_band || '').trim()
   const buf = computeBufferHitRateRating(p, teamLbMap, teamLeaderboard)
   const isStrongBuffer = ['[ELITE BUFFER]', '[STRONG BUFFER]'].includes(buf?.tier)
+  const isSmartOver = isStrongBuffer && ['[LOW]', '[AVOID]'].includes(band)
 
   // 1. Path 3: Discordant SRS Dominance (ADV Over / SRS Under with Div >= 3.1 or Solid conf, excluding Moderate conf)
   const isAdvOSrsU = advEdge != null && srsEdge != null && advEdge > 0 && srsEdge < 0
@@ -392,16 +393,35 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // 2. Path 2: Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5.0–10.0 pts)
-  const isDualConsensusUnder = agreement === 'CONFIRMED_UNDER' && (['[SOLID]', '[MODERATE]'].includes(band) || (div != null && div >= 5.0 && div <= 10.0))
+  // 2. Smart Over Priority: When Strong Buffer pairs with Low/Avoid Confidence,
+  // offensive execution breaks free (+7.0 pts avg beat, 62.5% WR even under CONFIRMED_UNDER).
+  // Takes precedence over Consensus Under to prevent false Under suppression.
+  if (isSmartOver) {
+    return {
+      signal: 'OVER',
+      tier: 'STANDARD',
+      recommendation: 'BET FULL-TIME OVER',
+      win_rate: '61% – 70%',
+      tag: '📈 Smart Over (61–70%)',
+      trigger: 'BUFFER_SCORING_LEAD',
+      trigger_label: 'Scoring Ceiling Rebound (Low/Avoid Conf)',
+      buffer_tier: buf?.tier,
+      confidence_band: band,
+      model_agreement: agreement,
+      model_divergence: div,
+    }
+  }
+
+  // 3. Path 2: Dual Model Consensus Under (CONFIRMED_UNDER with Solid/Moderate conf or Div 5.0–10.0 pts, excluding [LOW])
+  const isDualConsensusUnder = agreement === 'CONFIRMED_UNDER' && band !== '[LOW]' && (['[SOLID]', '[MODERATE]'].includes(band) || (div != null && div >= 5.0 && div <= 10.0))
 
   if (isDualConsensusUnder) {
     return {
       signal: 'UNDER',
       tier: 'ELITE',
       recommendation: 'BET FULL-TIME UNDER',
-      win_rate: '74% WR',
-      tag: '📉 Smart Under (74% Dual Model)',
+      win_rate: '76% WR',
+      tag: '📉 Smart Under (76% Dual Model)',
       trigger: 'DUAL_CONSENSUS_UNDER',
       trigger_label: 'Dual Model Consensus (CONFIRMED_UNDER)',
       buffer_tier: buf?.tier || '[UNTRACKED]',
@@ -411,7 +431,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  // 3. Path 1: Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
+  // 4. Path 1: Scoring Floor Discipline (Strong+ Buffer + Solid/High/Elite Confidence)
   if (isStrongBuffer && ['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
     return {
       signal: 'UNDER',
@@ -421,23 +441,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
       tag: '📉 Smart Under (58–64%)',
       trigger: 'BUFFER_FLOOR_DISCIPLINE',
       trigger_label: 'Scoring Floor Discipline (Strong Buffer)',
-      buffer_tier: buf?.tier,
-      confidence_band: band,
-      model_agreement: agreement,
-      model_divergence: div,
-    }
-  }
-
-  // 4. Smart Over (Strong+ Buffer + Low/Avoid Confidence)
-  if (isStrongBuffer && ['[LOW]', '[AVOID]'].includes(band)) {
-    return {
-      signal: 'OVER',
-      tier: 'STANDARD',
-      recommendation: 'BET FULL-TIME OVER',
-      win_rate: '61% – 70%',
-      tag: '📈 Smart Over (61–70%)',
-      trigger: 'BUFFER_SCORING_LEAD',
-      trigger_label: 'Scoring Ceiling Rebound (Low/Avoid Conf)',
       buffer_tier: buf?.tier,
       confidence_band: band,
       model_agreement: agreement,
