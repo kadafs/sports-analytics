@@ -290,22 +290,39 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const bufScore = bufRatingObj?.score ?? 0
   const smartEdge = getSmartEdgeInfo(predForBuffer, null, teamLeaderboard)
 
+  // Live dynamic segment stats from build_basketball_signal_stats.py
+  const segStats = signalStats?.segments?.[smartEdge?.segment]
+
   let activeSample = seUnderSample
   let activeMktPct = seUnderMktPct
   let activeMktDelta = seUnderMktDelta
 
-  if (smartEdge?.segment === 'NBA_MEN') {
-    activeSample = 17
-    activeMktPct = 66.7
-    activeMktDelta = 7.2
-  } else if (smartEdge?.segment === 'NCAA_MEN') {
-    activeSample = 35
-    activeMktPct = 65.7
-    activeMktDelta = -4.2
-  } else if (smartEdge?.segment === 'NBA_GLEAGUE') {
-    activeSample = 19
-    activeMktPct = 73.7
-    activeMktDelta = -9.1
+  if (segStats) {
+    if (smartEdge?.signal === 'UNDER') {
+      const uData = segStats.under
+      if (smartEdge.tier === 'ULTRA' && uData?.ultra?.mkt_sample) {
+        activeSample = uData.ultra.mkt_sample
+        activeMktPct = uData.ultra.under_mkt_pct
+        activeMktDelta = uData.ultra.avg_market_delta
+      } else if (smartEdge.tier === 'ELITE' && uData?.elite?.mkt_sample) {
+        activeSample = uData.elite.mkt_sample
+        activeMktPct = uData.elite.under_mkt_pct
+        activeMktDelta = uData.elite.avg_market_delta
+      } else if (smartEdge.tier === 'STANDARD' && uData?.standard?.mkt_sample) {
+        activeSample = uData.standard.mkt_sample
+        activeMktPct = uData.standard.under_mkt_pct
+        activeMktDelta = uData.standard.avg_market_delta
+      } else {
+        activeSample = uData?.mkt_sample || uData?.sample || seUnderSample
+        activeMktPct = uData?.market_under_pct ?? seUnderMktPct
+        activeMktDelta = uData?.avg_market_delta ?? seUnderMktDelta
+      }
+    } else if (smartEdge?.signal === 'OVER') {
+      const oData = segStats.over
+      activeSample = oData?.mkt_sample || oData?.sample || seOverSample
+      activeMktPct = oData?.market_over_pct ?? seOverMktPct
+      activeMktDelta = oData?.avg_market_delta ?? seOverMktDelta
+    }
   } else if (smartEdge?.signal === 'UNDER') {
     if (smartEdge.tier === 'ULTRA' && seUnderData?.ultra?.mkt_sample) {
       activeSample = seUnderData.ultra.mkt_sample
