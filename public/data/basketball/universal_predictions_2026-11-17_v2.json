@@ -20427,7 +20427,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "87.5% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DISCORDANT_SRS_UNDER",
         "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
         "segment": "FIBA_CORE",
@@ -23969,7 +23969,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -25751,7 +25751,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -32425,7 +32425,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -33665,7 +33665,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -94409,7 +94409,7 @@
       "time": "02:15",
       "away_team": "Soles",
       "home_team": "Astros",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "LNBP - Final",
       "model_total": 160.64,
       "xpts_h": 79.0,
@@ -95428,7 +95428,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 74,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 41,
+      "halftime_total": 87,
+      "halftime_pct_of_model": 54.2,
+      "total_delta": 11.64,
+      "signed_delta": -11.64,
+      "total_rpe": 7.81,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -96469,7 +96480,7 @@
       "time": "01:05",
       "away_team": "San Lorenzo",
       "home_team": "Instituto de Cordoba",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.32,
       "xpts_h": 83.2,
@@ -97575,7 +97586,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 38,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 54.8,
+      "total_delta": 1.32,
+      "signed_delta": -1.32,
+      "total_rpe": 0.87,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -104258,7 +104280,7 @@
       "time": "00:30",
       "away_team": "Nacional",
       "home_team": "Penarol",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 173.98,
       "xpts_h": 98.0,
@@ -105118,7 +105140,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 96,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 35,
+      "halftime_away_score": 38,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 42.0,
+      "total_delta": 13.98,
+      "signed_delta": -13.98,
+      "total_rpe": 8.74,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -106030,7 +106063,7 @@
       "time": "00:00",
       "away_team": "Memphis Grizzlies",
       "home_team": "Washington Wizards",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 234.6,
       "xpts_h": 115.3,
@@ -110246,7 +110279,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 120,
+      "actual_away_score": 136,
+      "actual_result": "AWAY",
+      "halftime_home_score": 69,
+      "halftime_away_score": 59,
+      "halftime_total": 128,
+      "halftime_pct_of_model": 54.6,
+      "total_delta": 21.4,
+      "signed_delta": 21.4,
+      "total_rpe": 8.36,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -110276,7 +110320,7 @@
       "time": "00:00",
       "away_team": "Chicago Bulls",
       "home_team": "Cleveland Cavaliers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 241.27,
       "xpts_h": 128.5,
@@ -114496,7 +114540,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 126,
+      "actual_away_score": 115,
+      "actual_result": "HOME",
+      "halftime_home_score": 57,
+      "halftime_away_score": 48,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 43.5,
+      "total_delta": 0.27,
+      "signed_delta": -0.27,
+      "total_rpe": 0.11,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -114518,7 +114573,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "66.7% WR",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "tag": "📈 Smart Over",
         "trigger": "NBA_PACE_OVER",
         "trigger_label": "48-Min High-Pace Scoring Lead",
         "segment": "NBA_MEN",
@@ -114540,7 +114595,7 @@
       "time": "00:00",
       "away_team": "Orlando Magic",
       "home_team": "Boston Celtics",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 216.23,
       "xpts_h": 120.4,
@@ -118766,7 +118821,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 105,
+      "actual_away_score": 115,
+      "actual_result": "AWAY",
+      "halftime_home_score": 41,
+      "halftime_away_score": 50,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 42.1,
+      "total_delta": 3.77,
+      "signed_delta": 3.77,
+      "total_rpe": 1.71,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -118788,7 +118854,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "66.7% WR",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "tag": "📈 Smart Over",
         "trigger": "NBA_PACE_OVER",
         "trigger_label": "48-Min High-Pace Scoring Lead",
         "segment": "NBA_MEN",
@@ -118810,7 +118876,7 @@
       "time": "00:30",
       "away_team": "Philadelphia 76ers",
       "home_team": "Brooklyn Nets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 224.89,
       "xpts_h": 106.4,
@@ -123048,7 +123114,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 123,
+      "actual_away_score": 135,
+      "actual_result": "AWAY",
+      "halftime_home_score": 59,
+      "halftime_away_score": 78,
+      "halftime_total": 137,
+      "halftime_pct_of_model": 60.9,
+      "total_delta": 33.11,
+      "signed_delta": 33.11,
+      "total_rpe": 12.83,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -123078,7 +123155,7 @@
       "time": "00:30",
       "away_team": "Houston Rockets",
       "home_team": "Miami Heat",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 232.96,
       "xpts_h": 113.4,
@@ -127282,7 +127359,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 128,
+      "actual_away_score": 110,
+      "actual_result": "HOME",
+      "halftime_home_score": 62,
+      "halftime_away_score": 46,
+      "halftime_total": 108,
+      "halftime_pct_of_model": 46.4,
+      "total_delta": 5.04,
+      "signed_delta": 5.04,
+      "total_rpe": 2.12,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -127312,7 +127400,7 @@
       "time": "01:00",
       "away_team": "Portland Trail Blazers",
       "home_team": "Minnesota Timberwolves",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 225.29,
       "xpts_h": 112.1,
@@ -131516,7 +131604,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 106,
+      "actual_away_score": 98,
+      "actual_result": "HOME",
+      "halftime_home_score": 59,
+      "halftime_away_score": 51,
+      "halftime_total": 110,
+      "halftime_pct_of_model": 48.8,
+      "total_delta": 21.29,
+      "signed_delta": -21.29,
+      "total_rpe": 10.44,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -131546,7 +131645,7 @@
       "time": "01:00",
       "away_team": "Golden State Warriors",
       "home_team": "New Orleans Pelicans",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 228.49,
       "xpts_h": 110.2,
@@ -135788,7 +135887,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 94,
+      "actual_result": "HOME",
+      "halftime_home_score": 61,
+      "halftime_away_score": 36,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 42.5,
+      "total_delta": 19.49,
+      "signed_delta": -19.49,
+      "total_rpe": 9.33,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -135818,7 +135928,7 @@
       "time": "02:00",
       "away_team": "Phoenix Suns",
       "home_team": "Denver Nuggets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 231.52,
       "xpts_h": 122.6,
@@ -140048,7 +140158,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 105,
+      "actual_away_score": 117,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 56,
+      "halftime_total": 109,
+      "halftime_pct_of_model": 47.1,
+      "total_delta": 9.52,
+      "signed_delta": -9.52,
+      "total_rpe": 4.29,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -140078,7 +140199,7 @@
       "time": "00:00",
       "away_team": "Delaware Blue Coats",
       "home_team": "Long Island Nets",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 236.55,
       "xpts_h": 120.6,
@@ -142977,7 +143098,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 107,
+      "actual_away_score": 108,
+      "actual_result": "AWAY",
+      "halftime_home_score": 62,
+      "halftime_away_score": 59,
+      "halftime_total": 121,
+      "halftime_pct_of_model": 51.2,
+      "total_delta": 21.55,
+      "signed_delta": -21.55,
+      "total_rpe": 10.02,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -143007,7 +143139,7 @@
       "time": "02:00",
       "away_team": "Salt Lake City Stars",
       "home_team": "Valley Suns",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 238.12,
       "xpts_h": 119.5,
@@ -145906,7 +146038,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 143,
+      "actual_away_score": 145,
+      "actual_result": "AWAY",
+      "halftime_home_score": 67,
+      "halftime_away_score": 67,
+      "halftime_total": 134,
+      "halftime_pct_of_model": 56.3,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -145928,7 +146070,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "73.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "GLEAGUE_INFLATED_UNDER",
         "trigger_label": "Developmental Inflated Line Fade",
         "segment": "NBA_GLEAGUE",
@@ -151908,7 +152050,7 @@
       "time": "00:00",
       "away_team": "Richmond Spiders",
       "home_team": "Virginia Tech",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.2,
       "xpts_h": 81.8,
@@ -167855,7 +167997,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "total_delta": 4.2,
+      "signed_delta": -4.2,
+      "total_rpe": 2.75,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -167885,7 +168034,7 @@
       "time": "00:00",
       "away_team": "Jacksonville Dolphins",
       "home_team": "Georgia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.24,
       "xpts_h": 85.3,
@@ -183832,7 +183981,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 107,
+      "actual_result": "AWAY",
+      "total_delta": 9.76,
+      "signed_delta": 9.76,
+      "total_rpe": 5.78,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -183862,7 +184018,7 @@
       "time": "00:00",
       "away_team": "Virginia-Lynchburg",
       "home_team": "N. Carolina Central",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 166.71,
       "xpts_h": 103.7,
@@ -199830,7 +199986,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 117,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "halftime_home_score": 60,
+      "halftime_away_score": 37,
+      "halftime_total": 97,
+      "halftime_pct_of_model": 58.2,
+      "total_delta": 21.29,
+      "signed_delta": 21.29,
+      "total_rpe": 11.32,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -199860,7 +200027,7 @@
       "time": "00:00",
       "away_team": "Florida Mem.",
       "home_team": "Stetson",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.51,
       "xpts_h": 71.7,
@@ -215722,7 +215889,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 56,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 27,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 42.5,
+      "total_delta": 10.51,
+      "signed_delta": -10.51,
+      "total_rpe": 7.15,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -215752,7 +215930,7 @@
       "time": "00:00",
       "away_team": "Grambling St.",
       "home_team": "Kentucky",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 154.96,
       "xpts_h": 84.4,
@@ -231678,7 +231856,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "total_delta": 7.96,
+      "signed_delta": -7.96,
+      "total_rpe": 5.41,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -231708,7 +231893,7 @@
       "time": "00:00",
       "away_team": "St. Thomas (Minn.)",
       "home_team": "LIU Sharks",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.57,
       "xpts_h": 72.6,
@@ -247716,7 +247901,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "total_delta": 4.57,
+      "signed_delta": -4.57,
+      "total_rpe": 3.07,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -247746,7 +247938,7 @@
       "time": "00:00",
       "away_team": "Eastern Kentucky",
       "home_team": "Kent State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 163.97,
       "xpts_h": 83.2,
@@ -263672,7 +263864,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 65,
+      "actual_away_score": 49,
+      "actual_result": "HOME",
+      "total_delta": 49.97,
+      "signed_delta": -49.97,
+      "total_rpe": 43.83,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -263702,7 +263901,7 @@
       "time": "00:00",
       "away_team": "Citadel",
       "home_team": "Clemson",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.48,
       "xpts_h": 80.9,
@@ -279649,7 +279848,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 51,
+      "actual_away_score": 87,
+      "actual_result": "AWAY",
+      "total_delta": 12.48,
+      "signed_delta": -12.48,
+      "total_rpe": 9.04,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -279679,7 +279885,7 @@
       "time": "00:00",
       "away_team": "Western Kentucky",
       "home_team": "Tulsa",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.59,
       "xpts_h": 82.9,
@@ -295605,7 +295811,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 67,
+      "actual_result": "AWAY",
+      "total_delta": 27.59,
+      "signed_delta": -27.59,
+      "total_rpe": 21.06,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -295635,7 +295848,7 @@
       "time": "00:30",
       "away_team": "Tarleton",
       "home_team": "Drake",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.88,
       "xpts_h": 79.7,
@@ -311561,7 +311774,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "total_delta": 6.12,
+      "signed_delta": 6.12,
+      "total_rpe": 3.78,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -311591,7 +311811,7 @@
       "time": "00:30",
       "away_team": "Midway",
       "home_team": "Southeast Missouri State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.81,
       "xpts_h": 82.0,
@@ -327496,7 +327716,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 115,
+      "actual_away_score": 45,
+      "actual_result": "HOME",
+      "halftime_home_score": 61,
+      "halftime_away_score": 18,
+      "halftime_total": 79,
+      "halftime_pct_of_model": 51.4,
+      "total_delta": 6.19,
+      "signed_delta": 6.19,
+      "total_rpe": 3.87,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -327526,7 +327757,7 @@
       "time": "01:00",
       "away_team": "Western Illinois",
       "home_team": "Minnesota",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 146.2,
       "xpts_h": 80.7,
@@ -343473,7 +343704,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "total_delta": 15.8,
+      "signed_delta": 15.8,
+      "total_rpe": 9.75,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -343503,7 +343741,7 @@
       "time": "01:00",
       "away_team": "Abilene Christian",
       "home_team": "Missouri State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 151.87,
       "xpts_h": 79.9,
@@ -359450,7 +359688,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 64,
+      "actual_away_score": 73,
+      "actual_result": "AWAY",
+      "total_delta": 14.87,
+      "signed_delta": -14.87,
+      "total_rpe": 10.85,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -375499,7 +375744,7 @@
       "time": "01:00",
       "away_team": "Columbia",
       "home_team": "Northwestern",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 151.76,
       "xpts_h": 78.3,
@@ -391488,7 +391733,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 53,
+      "actual_result": "HOME",
+      "total_delta": 23.76,
+      "signed_delta": -23.76,
+      "total_rpe": 18.56,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -391518,7 +391770,7 @@
       "time": "01:00",
       "away_team": "Central Arkansas",
       "home_team": "Oklahoma State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.1,
       "xpts_h": 82.8,
@@ -407484,7 +407736,14 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 66,
+      "actual_away_score": 99,
+      "actual_result": "AWAY",
+      "total_delta": 3.9,
+      "signed_delta": 3.9,
+      "total_rpe": 2.36,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -407506,7 +407765,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -407528,7 +407787,7 @@
       "time": "01:30",
       "away_team": "SE Louisiana",
       "home_team": "Texas A&M",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 157.44,
       "xpts_h": 89.9,
@@ -423475,7 +423734,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 69,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "total_delta": 12.56,
+      "signed_delta": 12.56,
+      "total_rpe": 7.39,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -423505,7 +423771,7 @@
       "time": "01:30",
       "away_team": "Dallas Christian",
       "home_team": "Louisiana Monroe",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.99,
       "xpts_h": 83.0,
@@ -439431,7 +439697,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 118,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 63,
+      "halftime_away_score": 36,
+      "halftime_total": 99,
+      "halftime_pct_of_model": 61.1,
+      "total_delta": 37.01,
+      "signed_delta": 37.01,
+      "total_rpe": 18.6,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -439461,7 +439738,7 @@
       "time": "02:30",
       "away_team": "East Texas A&M",
       "home_team": "Oregon State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.78,
       "xpts_h": 79.5,
@@ -455408,7 +455685,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 109,
+      "actual_result": "AWAY",
+      "total_delta": 27.22,
+      "signed_delta": 27.22,
+      "total_rpe": 15.12,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -455438,7 +455722,7 @@
       "time": "03:00",
       "away_team": "Colorado Springs",
       "home_team": "Denver",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 161.23,
       "xpts_h": 79.0,
@@ -471294,7 +471578,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 101,
+      "actual_away_score": 63,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 34,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 52.1,
+      "total_delta": 2.77,
+      "signed_delta": 2.77,
+      "total_rpe": 1.69,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -471324,7 +471619,7 @@
       "time": "03:00",
       "away_team": "Portland State",
       "home_team": "St. Marys (CA)",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 152.46,
       "xpts_h": 80.8,
@@ -487271,7 +487566,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 78,
+      "actual_away_score": 94,
+      "actual_result": "AWAY",
+      "total_delta": 19.54,
+      "signed_delta": 19.54,
+      "total_rpe": 11.36,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -487301,7 +487603,7 @@
       "time": "03:00",
       "away_team": "Long Beach State",
       "home_team": "UCLA",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.1,
       "xpts_h": 81.9,
@@ -503206,7 +503508,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 105,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 53,
+      "halftime_away_score": 20,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 47.7,
+      "total_delta": 17.9,
+      "signed_delta": 17.9,
+      "total_rpe": 10.47,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -503236,7 +503549,7 @@
       "time": "03:00",
       "away_team": "Texas Southern",
       "home_team": "UC San Diego",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.17,
       "xpts_h": 85.6,
@@ -519162,7 +519475,14 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "total_delta": 30.83,
+      "signed_delta": 30.83,
+      "total_rpe": 16.31,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -631071,7 +631391,7 @@
       "time": "00:00",
       "away_team": "Albany Great Danes W",
       "home_team": "Rutgers W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.36,
       "xpts_h": 67.8,
@@ -646947,7 +647267,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 44,
+      "actual_result": "HOME",
+      "halftime_home_score": 37,
+      "halftime_away_score": 31,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 51.4,
+      "total_delta": 5.36,
+      "signed_delta": -5.36,
+      "total_rpe": 4.22,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -646977,7 +647308,7 @@
       "time": "00:00",
       "away_team": "Colgate W",
       "home_team": "Central Connecticut State W",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 130.23,
       "xpts_h": 57.0,
@@ -662865,7 +663196,17 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "halftime_home_score": 16,
+      "halftime_away_score": 32,
+      "halftime_total": 48,
+      "halftime_pct_of_model": 36.9,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -662895,7 +663236,7 @@
       "time": "00:00",
       "away_team": "Hampton W",
       "home_team": "High Point W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 134.28,
       "xpts_h": 78.1,
@@ -678777,7 +679118,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 81,
+      "actual_away_score": 21,
+      "actual_result": "HOME",
+      "halftime_home_score": 33,
+      "halftime_away_score": 10,
+      "halftime_total": 43,
+      "halftime_pct_of_model": 32.0,
+      "total_delta": 32.28,
+      "signed_delta": -32.28,
+      "total_rpe": 31.65,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -678807,7 +679159,7 @@
       "time": "00:00",
       "away_team": "Jacksonville St. W",
       "home_team": "Southern Mississippi W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 140.4,
       "xpts_h": 72.0,
@@ -694647,7 +694999,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 54,
+      "actual_result": "HOME",
+      "halftime_home_score": 25,
+      "halftime_away_score": 23,
+      "halftime_total": 48,
+      "halftime_pct_of_model": 34.2,
+      "total_delta": 16.4,
+      "signed_delta": -16.4,
+      "total_rpe": 13.23,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -694677,7 +695040,7 @@
       "time": "00:30",
       "away_team": "Mcneese State W",
       "home_team": "Tulane Green Wave W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.5,
       "xpts_h": 62.9,
@@ -710538,7 +710901,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 52,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 25,
+      "halftime_total": 66,
+      "halftime_pct_of_model": 49.8,
+      "total_delta": 6.5,
+      "signed_delta": -6.5,
+      "total_rpe": 5.16,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -710568,7 +710942,7 @@
       "time": "00:30",
       "away_team": "Tennessee Tech W",
       "home_team": "Middle Tennessee W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 135.94,
       "xpts_h": 70.4,
@@ -726387,7 +726761,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "halftime_home_score": 30,
+      "halftime_away_score": 21,
+      "halftime_total": 51,
+      "halftime_pct_of_model": 37.5,
+      "total_delta": 3.94,
+      "signed_delta": -3.94,
+      "total_rpe": 2.98,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": true,
@@ -726417,7 +726802,7 @@
       "time": "00:30",
       "away_team": "Louisiana's Ragin' Cajuns W",
       "home_team": "UTSA Roadrunners W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 132.69,
       "xpts_h": 73.1,
@@ -742236,7 +742621,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 61,
+      "actual_away_score": 60,
+      "actual_result": "HOME",
+      "halftime_home_score": 34,
+      "halftime_away_score": 29,
+      "halftime_total": 63,
+      "halftime_pct_of_model": 47.5,
+      "total_delta": 11.69,
+      "signed_delta": -11.69,
+      "total_rpe": 9.66,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -742266,7 +742662,7 @@
       "time": "00:30",
       "away_team": "Kentucky State W",
       "home_team": "Western Kentucky W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 137.6,
       "xpts_h": 95.8,
@@ -758021,7 +758417,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 49,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 24,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 53.8,
+      "total_delta": 3.6,
+      "signed_delta": -3.6,
+      "total_rpe": 2.69,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -758051,7 +758458,7 @@
       "time": "01:00",
       "away_team": "UC Davis W",
       "home_team": "Northern Colorado W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 137.47,
       "xpts_h": 71.2,
@@ -773912,7 +774319,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "halftime_home_score": 38,
+      "halftime_away_score": 23,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 44.4,
+      "total_delta": 9.53,
+      "signed_delta": 9.53,
+      "total_rpe": 6.48,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -773942,7 +774360,7 @@
       "time": "01:00",
       "away_team": "Troy W",
       "home_team": "LSU Tigers W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 143.86,
       "xpts_h": 79.3,
@@ -789830,7 +790248,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 116,
+      "actual_away_score": 70,
+      "actual_result": "HOME",
+      "halftime_home_score": 64,
+      "halftime_away_score": 27,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 63.3,
+      "total_delta": 42.14,
+      "signed_delta": 42.14,
+      "total_rpe": 22.66,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -789860,7 +790289,7 @@
       "time": "01:00",
       "away_team": "UMKC W",
       "home_team": "New Mexico State W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 140.65,
       "xpts_h": 69.5,
@@ -805700,7 +806129,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 66,
+      "actual_away_score": 37,
+      "actual_result": "HOME",
+      "halftime_home_score": 37,
+      "halftime_away_score": 25,
+      "halftime_total": 62,
+      "halftime_pct_of_model": 44.1,
+      "total_delta": 37.65,
+      "signed_delta": -37.65,
+      "total_rpe": 36.55,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -805730,7 +806170,7 @@
       "time": "01:00",
       "away_team": "Arkansas Razorbacks W",
       "home_team": "UALR W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 144.03,
       "xpts_h": 70.1,
@@ -821591,7 +822031,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 74,
+      "actual_away_score": 86,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 37,
+      "halftime_total": 72,
+      "halftime_pct_of_model": 50.0,
+      "total_delta": 15.97,
+      "signed_delta": 15.97,
+      "total_rpe": 9.98,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -821621,7 +822072,7 @@
       "time": "01:00",
       "away_team": "Michigan Wolverines W",
       "home_team": "Central Michigan W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 140.67,
       "xpts_h": 62.5,
@@ -837440,7 +837891,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 30,
+      "actual_away_score": 101,
+      "actual_result": "AWAY",
+      "halftime_home_score": 16,
+      "halftime_away_score": 54,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 49.8,
+      "total_delta": 9.67,
+      "signed_delta": -9.67,
+      "total_rpe": 7.38,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -837470,7 +837932,7 @@
       "time": "02:00",
       "away_team": "Houston Christian W",
       "home_team": "Utah Utes W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 133.06,
       "xpts_h": 76.8,
@@ -853367,7 +853829,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 49,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 28,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 55.6,
+      "total_delta": 13.94,
+      "signed_delta": 13.94,
+      "total_rpe": 9.48,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1107710,8 +1108183,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -1109611,7 +1110084,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "87.5% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DISCORDANT_SRS_UNDER",
         "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
         "segment": "FIBA_CORE",
@@ -1116857,8 +1117330,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -1121741,8 +1122214,8 @@
         "signal": "UNDER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME UNDER",
-        "win_rate": "58% \u2013 64%",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "win_rate": "58% – 64%",
+        "tag": "📉 Smart Under",
         "trigger": "BUFFER_FLOOR_DISCIPLINE",
         "trigger_label": "Scoring Floor Discipline (Strong Buffer)",
         "segment": "FIBA_CORE",
@@ -1123335,7 +1123808,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -1124497,7 +1124970,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -1131848,5 +1132321,18 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-11-17T07:44:59.177208",
+  "grade_summary": {
+    "[ADVANCED]": {
+      "wins": 8,
+      "total": 22,
+      "pct": 36.4
+    },
+    "[  SRS   ]": {
+      "wins": 15,
+      "total": 27,
+      "pct": 55.6
+    }
+  }
 }
