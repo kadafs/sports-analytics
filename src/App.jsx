@@ -555,24 +555,6 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     }
   }
 
-  if (isStrongBuffer && ['[ELITE]', '[HIGH]', '[SOLID]'].includes(band)) {
-    return {
-      signal: 'UNDER',
-      tier: 'STANDARD',
-      recommendation: 'BET FULL-TIME UNDER',
-      win_rate: '58% – 64%',
-      tag: '📉 Smart Under',
-      trigger: 'BUFFER_FLOOR_DISCIPLINE',
-      trigger_label: 'Scoring Floor Discipline (Strong Buffer)',
-      segment: seg,
-      segment_label: segLabel,
-      buffer_tier: buf?.tier,
-      confidence_band: band,
-      model_agreement: agreement,
-      model_divergence: div,
-    }
-  }
-
   if (p.smart_edge && p.smart_edge.signal) {
     return p.smart_edge
   }
@@ -1394,13 +1376,13 @@ export default function App() {
                   btnBg = '#fef9c3'
                   btnColor = '#854d0e'
                   btnBorder = '#fef08a'
-                  btnTitle = 'Smart Edge [ALL]: Multi-Engine System · 📉 Under (58%–88% WR) & 📈 Over (61%–70% WR)'
+                  btnTitle = 'Smart Edge [ALL]: Multi-Engine System · 📉 Under (74%–88% WR) & 📈 Over (61%–70% WR)'
                 } else if (smartEdgeFilter === 'under') {
                   btnText = '📉 Smart UNDER'
                   btnBg = 'rgba(239, 68, 68, 0.12)'
                   btnColor = '#dc2626'
                   btnBorder = 'rgba(239, 68, 68, 0.35)'
-                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 76%, Floor Discipline 58-64%)'
+                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 74%–76%)'
                 } else if (smartEdgeFilter === 'over') {
                   btnText = '📈 Smart OVER'
                   btnBg = 'rgba(16, 185, 129, 0.12)'
