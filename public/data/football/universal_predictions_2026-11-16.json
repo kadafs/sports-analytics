@@ -8,8 +8,8 @@
       "league": "2. liga",
       "country": "Slovakia",
       "date": "2026-11-16",
-      "away_team": "Lokomot\u00edva Zvolen",
-      "home_team": "Tatran Pre\u0161ov",
+      "away_team": "Lokomotíva Zvolen",
+      "home_team": "Tatran Prešov",
       "home_team_id": 10550,
       "away_team_id": 10552,
       "status": "NS",
@@ -50,11 +50,11 @@
         "bookmaker": "Marathonbet"
       },
       "api_consensus": {
-        "consensus_winner": "Tatran Pre\u0161ov",
+        "consensus_winner": "Tatran Prešov",
         "home_pct": "45%",
         "draw_pct": "45%",
         "away_pct": "10%",
-        "advice": "Double chance : Tatran Pre\u0161ov or draw"
+        "advice": "Double chance : Tatran Prešov or draw"
       },
       "home_injuries": [],
       "away_injuries": [],
@@ -101,11 +101,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -144,13 +144,13 @@
             "teams": {
               "home": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": false
               },
               "away": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               }
@@ -181,7 +181,7 @@
           {
             "fixture": {
               "id": 1245751,
-              "referee": "F. Mal\u00e1rik",
+              "referee": "F. Malárik",
               "timezone": "UTC",
               "date": "2025-03-01T12:00:00+00:00",
               "timestamp": 1740830400,
@@ -191,7 +191,7 @@
               },
               "venue": {
                 "id": 7249,
-                "name": "Are\u00e1l MFK Lokomot\u00edva Zvolen",
+                "name": "Areál MFK Lokomotíva Zvolen",
                 "city": "Zvolen"
               },
               "status": {
@@ -214,13 +214,13 @@
             "teams": {
               "home": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": false
               },
               "away": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               }
@@ -251,7 +251,7 @@
           {
             "fixture": {
               "id": 1245661,
-              "referee": "F. Mal\u00e1rik",
+              "referee": "F. Malárik",
               "timezone": "UTC",
               "date": "2024-08-02T15:00:00+00:00",
               "timestamp": 1722610800,
@@ -261,7 +261,7 @@
               },
               "venue": {
                 "id": 12117,
-                "name": "Futbalov\u00fd \u0161tadi\u00f3n M\u0160K TESLA Stropkov",
+                "name": "Futbalový štadión MŠK TESLA Stropkov",
                 "city": "Stropkov"
               },
               "status": {
@@ -284,13 +284,13 @@
             "teams": {
               "home": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               },
               "away": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": false
               }
@@ -356,13 +356,13 @@
             "teams": {
               "home": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               },
               "away": {
                 "id": 14068,
-                "name": "Humenn\u00e9",
+                "name": "Humenné",
                 "logo": "https://media.api-sports.io/football/teams/14068.png",
                 "winner": false
               }
@@ -426,7 +426,7 @@
             "teams": {
               "home": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               },
@@ -496,13 +496,13 @@
             "teams": {
               "home": {
                 "id": 15006,
-                "name": "MFK Byt\u010da",
+                "name": "MFK Bytča",
                 "logo": "https://media.api-sports.io/football/teams/15006.png",
                 "winner": false
               },
               "away": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": true
               }
@@ -566,13 +566,13 @@
             "teams": {
               "home": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": null
               },
               "away": {
                 "id": 10546,
-                "name": "\u017dilina II",
+                "name": "Žilina II",
                 "logo": "https://media.api-sports.io/football/teams/10546.png",
                 "winner": null
               }
@@ -636,13 +636,13 @@
             "teams": {
               "home": {
                 "id": 14092,
-                "name": "\u010cadca",
+                "name": "Čadca",
                 "logo": "https://media.api-sports.io/football/teams/14092.png",
                 "winner": true
               },
               "away": {
                 "id": 10550,
-                "name": "Tatran Pre\u0161ov",
+                "name": "Tatran Prešov",
                 "logo": "https://media.api-sports.io/football/teams/10550.png",
                 "winner": false
               }
@@ -708,7 +708,7 @@
             "teams": {
               "home": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": false
               },
@@ -778,13 +778,13 @@
             "teams": {
               "home": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": true
               },
               "away": {
                 "id": 15006,
-                "name": "MFK Byt\u010da",
+                "name": "MFK Bytča",
                 "logo": "https://media.api-sports.io/football/teams/15006.png",
                 "winner": false
               }
@@ -848,13 +848,13 @@
             "teams": {
               "home": {
                 "id": 10546,
-                "name": "\u017dilina II",
+                "name": "Žilina II",
                 "logo": "https://media.api-sports.io/football/teams/10546.png",
                 "winner": true
               },
               "away": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": false
               }
@@ -918,13 +918,13 @@
             "teams": {
               "home": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": true
               },
               "away": {
                 "id": 14062,
-                "name": "Pova\u017esk\u00e1 Bystrica",
+                "name": "Považská Bystrica",
                 "logo": "https://media.api-sports.io/football/teams/14062.png",
                 "winner": false
               }
@@ -988,13 +988,13 @@
             "teams": {
               "home": {
                 "id": 14064,
-                "name": "Ve\u013ek\u00e9 Ludince",
+                "name": "Veľké Ludince",
                 "logo": "https://media.api-sports.io/football/teams/14064.png",
                 "winner": false
               },
               "away": {
                 "id": 10552,
-                "name": "Lokomot\u00edva Zvolen",
+                "name": "Lokomotíva Zvolen",
                 "logo": "https://media.api-sports.io/football/teams/10552.png",
                 "winner": true
               }
@@ -1028,7 +1028,7 @@
             "rank": 1,
             "team": {
               "id": 10545,
-              "name": "\u0160amor\u00edn",
+              "name": "Šamorín",
               "logo": "https://media.api-sports.io/football/teams/10545.png"
             },
             "points": 36,
@@ -1073,7 +1073,7 @@
             "rank": 2,
             "team": {
               "id": 10538,
-              "name": "Petr\u017ealka",
+              "name": "Petržalka",
               "logo": "https://media.api-sports.io/football/teams/10538.png"
             },
             "points": 33,
@@ -1118,7 +1118,7 @@
             "rank": 3,
             "team": {
               "id": 14062,
-              "name": "Pova\u017esk\u00e1 Bystrica",
+              "name": "Považská Bystrica",
               "logo": "https://media.api-sports.io/football/teams/14062.png"
             },
             "points": 29,
@@ -1163,7 +1163,7 @@
             "rank": 4,
             "team": {
               "id": 10550,
-              "name": "Tatran Pre\u0161ov",
+              "name": "Tatran Prešov",
               "logo": "https://media.api-sports.io/football/teams/10550.png"
             },
             "points": 28,
@@ -1298,7 +1298,7 @@
             "rank": 7,
             "team": {
               "id": 10536,
-              "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
+              "name": "Liptovský Mikuláš",
               "logo": "https://media.api-sports.io/football/teams/10536.png"
             },
             "points": 25,
@@ -1388,7 +1388,7 @@
             "rank": 9,
             "team": {
               "id": 10546,
-              "name": "\u017dilina II",
+              "name": "Žilina II",
               "logo": "https://media.api-sports.io/football/teams/10546.png"
             },
             "points": 24,
@@ -1433,7 +1433,7 @@
             "rank": 10,
             "team": {
               "id": 14942,
-              "name": "Ban\u00edk Lehota p.Vt\u00e1\u010dnikom",
+              "name": "Baník Lehota p.Vtáčnikom",
               "logo": "https://media.api-sports.io/football/teams/14942.png"
             },
             "points": 22,
@@ -1523,7 +1523,7 @@
             "rank": 12,
             "team": {
               "id": 14058,
-              "name": "Mal\u017eenice",
+              "name": "Malženice",
               "logo": "https://media.api-sports.io/football/teams/14058.png"
             },
             "points": 16,
@@ -1568,7 +1568,7 @@
             "rank": 13,
             "team": {
               "id": 3553,
-              "name": "Zlat\u00e9 Moravce",
+              "name": "Zlaté Moravce",
               "logo": "https://media.api-sports.io/football/teams/3553.png"
             },
             "points": 14,
@@ -1613,7 +1613,7 @@
             "rank": 14,
             "team": {
               "id": 14068,
-              "name": "Humenn\u00e9",
+              "name": "Humenné",
               "logo": "https://media.api-sports.io/football/teams/14068.png"
             },
             "points": 13,
@@ -1658,7 +1658,7 @@
             "rank": 15,
             "team": {
               "id": 10552,
-              "name": "Lokomot\u00edva Zvolen",
+              "name": "Lokomotíva Zvolen",
               "logo": "https://media.api-sports.io/football/teams/10552.png"
             },
             "points": 9,
@@ -1703,7 +1703,7 @@
             "rank": 16,
             "team": {
               "id": 15006,
-              "name": "MFK Byt\u010da",
+              "name": "MFK Bytča",
               "logo": "https://media.api-sports.io/football/teams/15006.png"
             },
             "points": 9,
@@ -1776,6 +1776,34 @@
           "rank": 15,
           "form": "LWLWL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.33,
+      "signed_delta": -1.33,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -1866,11 +1894,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 3,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -2016,7 +2044,7 @@
           {
             "fixture": {
               "id": 1232423,
-              "referee": "B. Traor\u00e9",
+              "referee": "B. Traoré",
               "timezone": "UTC",
               "date": "2024-09-07T16:00:00+00:00",
               "timestamp": 1725724800,
@@ -2026,7 +2054,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Stade Omnisports Roumd\u00e9 Adjia",
+                "name": "Stade Omnisports Roumdé Adjia",
                 "city": "Garoua"
               },
               "status": {
@@ -2167,7 +2195,7 @@
               "venue": {
                 "id": 308,
                 "name": "Stade Omnisport Ahmadou Ahidjo",
-                "city": "Yaound\u00e9"
+                "city": "Yaoundé"
               },
               "status": {
                 "long": "Match Finished",
@@ -5121,6 +5149,34 @@
           "rank": 1,
           "form": "WDW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.59,
+      "signed_delta": 0.59,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": 7,
+      "actual_booking_pts": 30,
+      "actual_shots_home": 4,
+      "actual_shots_away": 12,
+      "actual_shots_total": 16,
+      "actual_sot_home": 1,
+      "actual_sot_away": 5,
+      "actual_sot_total": 6,
+      "post_match_xgot": {
+        "xgot_home": 0.28,
+        "xgot_away": 2.1,
+        "xgot_total": 2.38,
+        "home_gk_prevented": -0.9,
+        "away_gk_prevented": 0.28,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": -0.28,
+        "away_finishing_delta": 0.9,
+        "insights": []
       }
     },
     {
@@ -5211,11 +5267,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 4,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -6145,7 +6201,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Est\u00e1dio do Zimpeto",
+                "name": "Estádio do Zimpeto",
                 "city": "Maputo"
               },
               "status": {
@@ -8466,6 +8522,34 @@
           "rank": null,
           "form": "WWLD"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 2,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 4,
+      "actual_hsh_result": "2H",
+      "total_delta": 3.5,
+      "signed_delta": 3.5,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": 12,
+      "actual_booking_pts": 50,
+      "actual_shots_home": 16,
+      "actual_shots_away": 12,
+      "actual_shots_total": 28,
+      "actual_sot_home": 4,
+      "actual_sot_away": 8,
+      "actual_sot_total": 12,
+      "post_match_xgot": {
+        "xgot_home": 1.4,
+        "xgot_away": 3.27,
+        "xgot_total": 4.67,
+        "home_gk_prevented": -0.73,
+        "away_gk_prevented": -0.6,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.6,
+        "away_finishing_delta": 0.73,
+        "insights": []
       }
     },
     {
@@ -8556,11 +8640,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -11531,6 +11615,34 @@
           "rank": 3,
           "form": "DWL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.63,
+      "signed_delta": 0.63,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": 7,
+      "actual_booking_pts": 105,
+      "actual_shots_home": 15,
+      "actual_shots_away": 15,
+      "actual_shots_total": 30,
+      "actual_sot_home": 6,
+      "actual_sot_away": 5,
+      "actual_sot_total": 11,
+      "post_match_xgot": {
+        "xgot_home": 2.1,
+        "xgot_away": 1.07,
+        "xgot_total": 3.17,
+        "home_gk_prevented": 1.07,
+        "away_gk_prevented": -0.9,
+        "home_gk_tier": "STRONG",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.9,
+        "away_finishing_delta": -1.07,
+        "insights": []
       }
     },
     {
@@ -11621,11 +11733,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -14596,6 +14708,34 @@
           "rank": null,
           "form": "LLLD"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.53,
+      "signed_delta": -1.53,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": 8,
+      "actual_booking_pts": 30,
+      "actual_shots_home": 2,
+      "actual_shots_away": 13,
+      "actual_shots_total": 15,
+      "actual_sot_home": 0,
+      "actual_sot_away": 4,
+      "actual_sot_total": 4,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.7,
+        "xgot_total": 0.7,
+        "home_gk_prevented": -0.3,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.3,
+        "insights": []
       }
     },
     {
@@ -14686,17 +14826,17 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
             "fixture": {
               "id": 1545864,
-              "referee": "Edson Ant\u00f3nio Esoko",
+              "referee": "Edson António Esoko",
               "timezone": "UTC",
               "date": "2026-11-12T19:00:00+00:00",
               "timestamp": 1794510000,
@@ -14768,7 +14908,7 @@
           {
             "fixture": {
               "id": 1545864,
-              "referee": "Edson Ant\u00f3nio Esoko",
+              "referee": "Edson António Esoko",
               "timezone": "UTC",
               "date": "2026-11-12T19:00:00+00:00",
               "timestamp": 1794510000,
@@ -15120,7 +15260,7 @@
           {
             "fixture": {
               "id": 1545864,
-              "referee": "Edson Ant\u00f3nio Esoko",
+              "referee": "Edson António Esoko",
               "timezone": "UTC",
               "date": "2026-11-12T19:00:00+00:00",
               "timestamp": 1794510000,
@@ -17661,6 +17801,34 @@
           "rank": null,
           "form": "WWDL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.29,
+      "signed_delta": -1.29,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": 7,
+      "actual_booking_pts": 60,
+      "actual_shots_home": 7,
+      "actual_shots_away": 10,
+      "actual_shots_total": 17,
+      "actual_sot_home": 1,
+      "actual_sot_away": 2,
+      "actual_sot_total": 3,
+      "post_match_xgot": {
+        "xgot_home": 0.29,
+        "xgot_away": 0.77,
+        "xgot_total": 1.06,
+        "home_gk_prevented": -0.23,
+        "away_gk_prevented": 0.29,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": -0.29,
+        "away_finishing_delta": 0.23,
+        "insights": []
       }
     },
     {
@@ -17751,11 +17919,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -20726,6 +20894,34 @@
           "rank": 2,
           "form": "WWL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.63,
+      "signed_delta": 1.63,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": 9,
+      "actual_booking_pts": 10,
+      "actual_shots_home": 5,
+      "actual_shots_away": 19,
+      "actual_shots_total": 24,
+      "actual_sot_home": 1,
+      "actual_sot_away": 9,
+      "actual_sot_total": 10,
+      "post_match_xgot": {
+        "xgot_home": 0.7,
+        "xgot_away": 2.1,
+        "xgot_total": 2.8,
+        "home_gk_prevented": -0.9,
+        "away_gk_prevented": -0.3,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.3,
+        "away_finishing_delta": 0.9,
+        "insights": []
       }
     },
     {
@@ -20816,11 +21012,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -22631,6 +22827,34 @@
           "rank": null,
           "form": "DWLWLWWDWDWWWWLWDLDLWLDDLWWWWDDLWW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 0.93,
+      "signed_delta": -0.93,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.75,
+        "xgot_total": 0.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -22721,11 +22945,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -24466,6 +24690,34 @@
           "rank": null,
           "form": "LDWDLDDLLLDDDWWLWDLWLLDWLDDDDDDLWL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.72,
+      "signed_delta": -1.72,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.75,
+        "xgot_total": 0.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -26435,11 +26687,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -27899,6 +28151,34 @@
           "rank": 6,
           "form": "WWDLL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.63,
+      "signed_delta": -0.63,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -27989,11 +28269,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -29734,6 +30014,34 @@
           "rank": null,
           "form": "DLLLDLLWDDDLLLDDDDWDDDWLDWWLDDDWWL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 0.6,
+      "signed_delta": -0.6,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -29798,11 +30106,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -31262,6 +31570,34 @@
           "rank": 9,
           "form": "DWDWD"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "TIE",
+      "total_delta": 2.11,
+      "signed_delta": -2.11,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.0,
+        "xgot_total": 0.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -31352,11 +31688,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -32816,6 +33152,34 @@
           "rank": 2,
           "form": "WLWWW"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 3.14,
+      "signed_delta": 3.14,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 1.5,
+        "xgot_total": 3.75,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -32906,11 +33270,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -34511,6 +34875,34 @@
           "rank": 3,
           "form": "WWWLW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "total_delta": 0.08,
+      "signed_delta": -0.08,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.75,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -34601,11 +34993,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -35415,6 +35807,35 @@
           "rank": null,
           "form": "WD"
         }
+      },
+      "actual_ht_home": 3,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 4,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "hsh_grade": "LOSS",
+      "total_delta": 1.59,
+      "signed_delta": 1.59,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 0.75,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -35505,11 +35926,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -35587,7 +36008,7 @@
           {
             "fixture": {
               "id": 1640004,
-              "referee": "Steven Josu\u00e9 Madrigal Fallas",
+              "referee": "Steven Josué Madrigal Fallas",
               "timezone": "UTC",
               "date": "2026-11-12T19:00:00+00:00",
               "timestamp": 1794510000,
@@ -36319,6 +36740,34 @@
           "rank": null,
           "form": 0
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 4,
+      "actual_hsh_result": "2H",
+      "total_delta": 2.78,
+      "signed_delta": 2.78,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.0,
+        "xgot_away": 0.75,
+        "xgot_total": 3.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -1.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 1.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -36409,11 +36858,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -36709,8 +37158,8 @@
               },
               "venue": {
                 "id": 4160,
-                "name": "Estadio Ju\u00e1n R\u00e1mon Loubriel",
-                "city": "Bayam\u00f3n"
+                "name": "Estadio Juán Rámon Loubriel",
+                "city": "Bayamón"
               },
               "status": {
                 "long": "Match Finished",
@@ -37503,6 +37952,34 @@
           "rank": null,
           "form": 0
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 5,
+      "actual_hsh_result": "2H",
+      "total_delta": 3.62,
+      "signed_delta": 3.62,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.0,
+        "xgot_away": 1.5,
+        "xgot_total": 4.5,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -1.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 1.0,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -37593,11 +38070,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 9,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -37743,7 +38220,7 @@
           {
             "fixture": {
               "id": 672443,
-              "referee": "J. Calder\u00f3n",
+              "referee": "J. Calderón",
               "timezone": "UTC",
               "date": "2018-10-13T00:00:00+00:00",
               "timestamp": 1539388800,
@@ -37813,7 +38290,7 @@
           {
             "fixture": {
               "id": 672317,
-              "referee": "W. L\u00f3pez",
+              "referee": "W. López",
               "timezone": "UTC",
               "date": "2010-12-05T20:30:00+00:00",
               "timestamp": 1291581000,
@@ -38687,6 +39164,36 @@
           "rank": null,
           "form": "L"
         }
+      },
+      "actual_ht_home": 4,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 4,
+      "actual_sh_goals": 5,
+      "actual_hsh_result": "2H",
+      "total_delta": 6.78,
+      "signed_delta": 6.78,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 6.75,
+        "xgot_away": 0.0,
+        "xgot_total": 6.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -2.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "LEAKY",
+        "home_finishing_delta": 2.25,
+        "away_finishing_delta": 0.0,
+        "insights": [
+          "CLINICAL_FINISHING"
+        ]
       }
     },
     {
@@ -39629,11 +40136,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40165,7 +40672,7 @@
             "teams": {
               "home": {
                 "id": 20487,
-                "name": "N\u00fcrnberg W",
+                "name": "Nürnberg W",
                 "logo": "https://media.api-sports.io/football/teams/20487.png",
                 "winner": true
               },
@@ -40840,7 +41347,7 @@
             "rank": 12,
             "team": {
               "id": 20487,
-              "name": "N\u00fcrnberg W",
+              "name": "Nürnberg W",
               "logo": "https://media.api-sports.io/football/teams/20487.png"
             },
             "points": 8,
@@ -41003,6 +41510,34 @@
           "rank": 5,
           "form": "WLDWW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 4,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.73,
+      "signed_delta": 1.73,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 2.25,
+        "xgot_total": 3.75,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
@@ -41067,11 +41602,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41810,6 +42345,29 @@
           "rank": null,
           "form": "WW"
         }
+      },
+      "total_delta": 0.15,
+      "signed_delta": 0.15,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -41874,11 +42432,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -42688,6 +43246,34 @@
           "rank": null,
           "form": "LDLLWL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "total_delta": 0.31,
+      "signed_delta": -0.31,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 1.5,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -42752,11 +43338,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43495,6 +44081,34 @@
           "rank": null,
           "form": "DWWLW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "TIE",
+      "total_delta": 1.28,
+      "signed_delta": 1.28,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 1.5,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -43559,11 +44173,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43861,7 +44475,7 @@
               "venue": {
                 "id": null,
                 "name": "Stadiumi Fadil Vokrri",
-                "city": "Prishtin\u00eb"
+                "city": "Prishtinë"
               },
               "status": {
                 "long": "Match Finished",
@@ -44002,7 +44616,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Tofiq B\u0259hramov",
+                "name": "Tofiq Bəhramov",
                 "city": "Baku"
               },
               "status": {
@@ -44072,7 +44686,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Dariaus ir Gir\u0117no stadionas",
+                "name": "Dariaus ir Girėno stadionas",
                 "city": "Kaunas"
               },
               "status": {
@@ -44302,6 +44916,34 @@
           "rank": null,
           "form": "LW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.85,
+      "signed_delta": 1.85,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 2.25,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
@@ -44366,11 +45008,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -44387,7 +45029,7 @@
               "venue": {
                 "id": null,
                 "name": "Estadio Elias Figueroa Brander",
-                "city": "Valpara\u00edso"
+                "city": "Valparaíso"
               },
               "status": {
                 "long": "Match Finished",
@@ -44669,7 +45311,7 @@
               "venue": {
                 "id": null,
                 "name": "Estadio Elias Figueroa Brander",
-                "city": "Valpara\u00edso"
+                "city": "Valparaíso"
               },
               "status": {
                 "long": "Match Finished",
@@ -44738,7 +45380,7 @@
               },
               "venue": {
                 "id": 316,
-                "name": "Estadio Nacional Julio Mart\u00ednez Pr\u00e1danos",
+                "name": "Estadio Nacional Julio Martínez Prádanos",
                 "city": "Santiago de Chile"
               },
               "status": {
@@ -45180,6 +45822,34 @@
           "rank": null,
           "form": "WWLLL"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 2,
+      "actual_ht_goals": 4,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.39,
+      "signed_delta": 1.39,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 1.5,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -45244,11 +45914,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -45987,6 +46657,34 @@
           "rank": null,
           "form": "WWDWWW"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 2.15,
+      "signed_delta": 2.15,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 1.5,
+        "xgot_total": 3.75,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -46051,11 +46749,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 9,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -46071,7 +46769,7 @@
               },
               "venue": {
                 "id": 368,
-                "name": "Estadio Ol\u00edmpico Pascual Guerrero",
+                "name": "Estadio Olímpico Pascual Guerrero",
                 "city": "Santiago de Cali"
               },
               "status": {
@@ -46765,7 +47463,7 @@
           {
             "fixture": {
               "id": 1323413,
-              "referee": "\u00c1. Cajas",
+              "referee": "Á. Cajas",
               "timezone": "UTC",
               "date": "2025-01-29T21:00:00+00:00",
               "timestamp": 1738184400,
@@ -46775,7 +47473,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Estadio Metropolitano de F\u00fatbol de Lara",
+                "name": "Estadio Metropolitano de Fútbol de Lara",
                 "city": "Barquisimeto"
               },
               "status": {
@@ -46865,6 +47563,36 @@
           "rank": null,
           "form": "LDLD"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 7,
+      "actual_hsh_result": "2H",
+      "total_delta": 6.38,
+      "signed_delta": 6.38,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 6.75,
+        "xgot_away": 0.0,
+        "xgot_total": 6.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -2.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "LEAKY",
+        "home_finishing_delta": 2.25,
+        "away_finishing_delta": 0.0,
+        "insights": [
+          "CLINICAL_FINISHING"
+        ]
       }
     },
     {
@@ -46929,11 +47657,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -47394,7 +48122,7 @@
             "teams": {
               "home": {
                 "id": 14869,
-                "name": "Ju\u00e1rez W",
+                "name": "Juárez W",
                 "logo": "https://media.api-sports.io/football/teams/14869.png",
                 "winner": false
               },
@@ -47816,7 +48544,7 @@
             "teams": {
               "home": {
                 "id": 14871,
-                "name": "Quer\u00e9taro W",
+                "name": "Querétaro W",
                 "logo": "https://media.api-sports.io/football/teams/14871.png",
                 "winner": false
               },
@@ -47956,7 +48684,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -47996,7 +48724,7 @@
             "rank": 1,
             "team": {
               "id": 14868,
-              "name": "Am\u00e9rica W",
+              "name": "América W",
               "logo": "https://media.api-sports.io/football/teams/14868.png"
             },
             "points": 37,
@@ -48176,7 +48904,7 @@
             "rank": 5,
             "team": {
               "id": 14869,
-              "name": "Ju\u00e1rez W",
+              "name": "Juárez W",
               "logo": "https://media.api-sports.io/football/teams/14869.png"
             },
             "points": 30,
@@ -48266,7 +48994,7 @@
             "rank": 7,
             "team": {
               "id": 14877,
-              "name": "Le\u00f3n W",
+              "name": "León W",
               "logo": "https://media.api-sports.io/football/teams/14877.png"
             },
             "points": 25,
@@ -48446,7 +49174,7 @@
             "rank": 11,
             "team": {
               "id": 14874,
-              "name": "Atl\u00e9tico San Luis W",
+              "name": "Atlético San Luis W",
               "logo": "https://media.api-sports.io/football/teams/14874.png"
             },
             "points": 19,
@@ -48626,7 +49354,7 @@
             "rank": 15,
             "team": {
               "id": 14871,
-              "name": "Quer\u00e9taro W",
+              "name": "Querétaro W",
               "logo": "https://media.api-sports.io/football/teams/14871.png"
             },
             "points": 7,
@@ -48834,6 +49562,34 @@
           "rank": 10,
           "form": "WWWLL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 2,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.65,
+      "signed_delta": -0.65,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 1.5,
+        "xgot_total": 3.75,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -48841,7 +49597,7 @@
       "league": "Liga MX Femenil",
       "country": "Mexico",
       "date": "2026-11-16",
-      "away_team": "Am\u00e9rica W",
+      "away_team": "América W",
       "home_team": "Toluca W",
       "home_team_id": 14885,
       "away_team_id": 14868,
@@ -48873,11 +49629,11 @@
       "fixture_id": 1649470,
       "market_odds": null,
       "api_consensus": {
-        "consensus_winner": "Am\u00e9rica W",
+        "consensus_winner": "América W",
         "home_pct": "0%",
         "draw_pct": "50%",
         "away_pct": "50%",
-        "advice": "Combo Winner : Am\u00e9rica W and +1.5 goals"
+        "advice": "Combo Winner : América W and +1.5 goals"
       },
       "home_injuries": [],
       "away_injuries": [],
@@ -48898,11 +49654,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 3,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -48941,7 +49697,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49011,7 +49767,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49087,7 +49843,7 @@
               },
               "away": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               }
@@ -49151,7 +49907,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49198,7 +49954,7 @@
               },
               "venue": {
                 "id": 1089,
-                "name": "Estadio Nemesio D\u00edez",
+                "name": "Estadio Nemesio Díez",
                 "city": "Toluca"
               },
               "status": {
@@ -49227,7 +49983,7 @@
               },
               "away": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": null
               }
@@ -49293,7 +50049,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49363,7 +50119,7 @@
             "teams": {
               "home": {
                 "id": 14871,
-                "name": "Quer\u00e9taro W",
+                "name": "Querétaro W",
                 "logo": "https://media.api-sports.io/football/teams/14871.png",
                 "winner": null
               },
@@ -49645,7 +50401,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49721,7 +50477,7 @@
               },
               "away": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               }
@@ -49785,7 +50541,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49855,13 +50611,13 @@
             "teams": {
               "home": {
                 "id": 14874,
-                "name": "Atl\u00e9tico San Luis W",
+                "name": "Atlético San Luis W",
                 "logo": "https://media.api-sports.io/football/teams/14874.png",
                 "winner": false
               },
               "away": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               }
@@ -49925,7 +50681,7 @@
             "teams": {
               "home": {
                 "id": 14868,
-                "name": "Am\u00e9rica W",
+                "name": "América W",
                 "logo": "https://media.api-sports.io/football/teams/14868.png",
                 "winner": true
               },
@@ -49965,7 +50721,7 @@
             "rank": 1,
             "team": {
               "id": 14868,
-              "name": "Am\u00e9rica W",
+              "name": "América W",
               "logo": "https://media.api-sports.io/football/teams/14868.png"
             },
             "points": 37,
@@ -50145,7 +50901,7 @@
             "rank": 5,
             "team": {
               "id": 14869,
-              "name": "Ju\u00e1rez W",
+              "name": "Juárez W",
               "logo": "https://media.api-sports.io/football/teams/14869.png"
             },
             "points": 30,
@@ -50235,7 +50991,7 @@
             "rank": 7,
             "team": {
               "id": 14877,
-              "name": "Le\u00f3n W",
+              "name": "León W",
               "logo": "https://media.api-sports.io/football/teams/14877.png"
             },
             "points": 25,
@@ -50415,7 +51171,7 @@
             "rank": 11,
             "team": {
               "id": 14874,
-              "name": "Atl\u00e9tico San Luis W",
+              "name": "Atlético San Luis W",
               "logo": "https://media.api-sports.io/football/teams/14874.png"
             },
             "points": 19,
@@ -50595,7 +51351,7 @@
             "rank": 15,
             "team": {
               "id": 14871,
-              "name": "Quer\u00e9taro W",
+              "name": "Querétaro W",
               "logo": "https://media.api-sports.io/football/teams/14871.png"
             },
             "points": 7,
@@ -50803,14 +51559,42 @@
           "rank": 1,
           "form": "WWWWL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 2,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 3.25,
+      "signed_delta": -3.25,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 2.25,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
       "league_id": 701,
-      "league": "Liga Revela\u00e7\u00e3o U23",
+      "league": "Liga Revelação U23",
       "country": "Portugal",
       "date": "2026-11-16",
-      "away_team": "Leix\u00f5es U23",
+      "away_team": "Leixões U23",
       "home_team": "Felgueiras U23",
       "home_team_id": 28013,
       "away_team_id": 15465,
@@ -50893,11 +51677,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -50926,7 +51710,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -50996,7 +51780,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51066,7 +51850,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51136,7 +51920,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51194,7 +51978,7 @@
               },
               "venue": {
                 "id": 1289,
-                "name": "Est\u00e1dio de S\u00e3o Miguel",
+                "name": "Estádio de São Miguel",
                 "city": "Ponta Delgada"
               },
               "status": {
@@ -51206,7 +51990,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51278,7 +52062,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51289,7 +52073,7 @@
             "teams": {
               "home": {
                 "id": 15465,
-                "name": "Leix\u00f5es U23",
+                "name": "Leixões U23",
                 "logo": "https://media.api-sports.io/football/teams/15465.png",
                 "winner": false
               },
@@ -51348,7 +52132,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51359,7 +52143,7 @@
             "teams": {
               "home": {
                 "id": 15465,
-                "name": "Leix\u00f5es U23",
+                "name": "Leixões U23",
                 "logo": "https://media.api-sports.io/football/teams/15465.png",
                 "winner": null
               },
@@ -51418,7 +52202,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51435,7 +52219,7 @@
               },
               "away": {
                 "id": 15465,
-                "name": "Leix\u00f5es U23",
+                "name": "Leixões U23",
                 "logo": "https://media.api-sports.io/football/teams/15465.png",
                 "winner": true
               }
@@ -51488,7 +52272,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51499,7 +52283,7 @@
             "teams": {
               "home": {
                 "id": 15465,
-                "name": "Leix\u00f5es U23",
+                "name": "Leixões U23",
                 "logo": "https://media.api-sports.io/football/teams/15465.png",
                 "winner": null
               },
@@ -51558,7 +52342,7 @@
             },
             "league": {
               "id": 701,
-              "name": "Liga Revela\u00e7\u00e3o U23",
+              "name": "Liga Revelação U23",
               "country": "Portugal",
               "logo": "https://media.api-sports.io/football/leagues/701.png",
               "flag": "https://media.api-sports.io/flags/pt.svg",
@@ -51569,13 +52353,13 @@
             "teams": {
               "home": {
                 "id": 15465,
-                "name": "Leix\u00f5es U23",
+                "name": "Leixões U23",
                 "logo": "https://media.api-sports.io/football/teams/15465.png",
                 "winner": false
               },
               "away": {
                 "id": 15464,
-                "name": "Famalic\u00e3o U23",
+                "name": "Famalicão U23",
                 "logo": "https://media.api-sports.io/football/teams/15464.png",
                 "winner": true
               }
@@ -51834,7 +52618,7 @@
             "rank": 6,
             "team": {
               "id": 15464,
-              "name": "Famalic\u00e3o U23",
+              "name": "Famalicão U23",
               "logo": "https://media.api-sports.io/football/teams/15464.png"
             },
             "points": 17,
@@ -52104,7 +52888,7 @@
             "rank": 12,
             "team": {
               "id": 26257,
-              "name": "Uni\u00e3o Leiria U23",
+              "name": "União Leiria U23",
               "logo": "https://media.api-sports.io/football/teams/26257.png"
             },
             "points": 14,
@@ -52284,7 +53068,7 @@
             "rank": 16,
             "team": {
               "id": 15465,
-              "name": "Leix\u00f5es U23",
+              "name": "Leixões U23",
               "logo": "https://media.api-sports.io/football/teams/15465.png"
             },
             "points": 10,
@@ -52464,7 +53248,7 @@
             "rank": 20,
             "team": {
               "id": 15466,
-              "name": "Mar\u00edtimo U23",
+              "name": "Marítimo U23",
               "logo": "https://media.api-sports.io/football/teams/15466.png"
             },
             "points": 9,
@@ -52537,6 +53321,34 @@
           "rank": 16,
           "form": "LDWDL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 4,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.19,
+      "signed_delta": 0.19,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 0.75,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -52627,11 +53439,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -52857,7 +53669,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Stade de l'Unit\u00e9 de Virunga",
+                "name": "Stade de l'Unité de Virunga",
                 "city": "Goma"
               },
               "status": {
@@ -52927,7 +53739,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Stade de l'Unit\u00e9 de Virunga",
+                "name": "Stade de l'Unité de Virunga",
                 "city": "Goma"
               },
               "status": {
@@ -53022,7 +53834,7 @@
             "teams": {
               "home": {
                 "id": 20468,
-                "name": "C\u00e9leste",
+                "name": "Céleste",
                 "logo": "https://media.api-sports.io/football/teams/20468.png",
                 "winner": null
               },
@@ -53444,7 +54256,7 @@
             "teams": {
               "home": {
                 "id": 8077,
-                "name": "\u00c9toile du Congo",
+                "name": "Étoile du Congo",
                 "logo": "https://media.api-sports.io/football/teams/8077.png",
                 "winner": null
               },
@@ -54324,7 +55136,7 @@
             "rank": 2,
             "team": {
               "id": 20468,
-              "name": "C\u00e9leste",
+              "name": "Céleste",
               "logo": "https://media.api-sports.io/football/teams/20468.png"
             },
             "points": 12,
@@ -54892,6 +55704,34 @@
           "rank": 6,
           "form": "WDLDD"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.83,
+      "signed_delta": -0.83,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.75,
+        "xgot_total": 0.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -54982,11 +55822,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -56469,7 +57309,7 @@
             "rank": 2,
             "team": {
               "id": 20468,
-              "name": "C\u00e9leste",
+              "name": "Céleste",
               "logo": "https://media.api-sports.io/football/teams/20468.png"
             },
             "points": 12,
@@ -57037,6 +57877,34 @@
           "rank": null,
           "form": "LLLDLWWWLDWLDWLWDLDDLLLWWLW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "TIE",
+      "total_delta": 2.06,
+      "signed_delta": -2.06,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.0,
+        "xgot_total": 0.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -57127,11 +57995,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 11,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -57148,7 +58016,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -57458,7 +58326,7 @@
               },
               "away": {
                 "id": 20746,
-                "name": "Am\u00e9rica RN U20",
+                "name": "América RN U20",
                 "logo": "https://media.api-sports.io/football/teams/20746.png",
                 "winner": false
               }
@@ -57522,7 +58390,7 @@
             "teams": {
               "home": {
                 "id": 20746,
-                "name": "Am\u00e9rica RN U20",
+                "name": "América RN U20",
                 "logo": "https://media.api-sports.io/football/teams/20746.png",
                 "winner": false
               },
@@ -57712,7 +58580,7 @@
               "venue": {
                 "id": null,
                 "name": "Centro Esportivo da Juventude Campo 3",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -57782,7 +58650,7 @@
               "venue": {
                 "id": null,
                 "name": "Centro Esportivo da Juventude Campo 3",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -57852,7 +58720,7 @@
               "venue": {
                 "id": 22497,
                 "name": "Centro Esportivo da Juventude Campo 2",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -58229,7 +59097,7 @@
             "rank": 8,
             "team": {
               "id": 25433,
-              "name": "Capit\u00e3o Po\u00e7o U20",
+              "name": "Capitão Poço U20",
               "logo": "https://media.api-sports.io/football/teams/25433.png"
             },
             "points": 7,
@@ -58589,7 +59457,7 @@
             "rank": 16,
             "team": {
               "id": 25222,
-              "name": "\u00c1guia de Marab\u00e1 U20",
+              "name": "Águia de Marabá U20",
               "logo": "https://media.api-sports.io/football/teams/25222.png"
             },
             "points": 4,
@@ -59472,6 +60340,36 @@
           "rank": 19,
           "form": "WL"
         }
+      },
+      "actual_ht_home": 5,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 6,
+      "actual_sh_goals": 6,
+      "actual_hsh_result": "TIE",
+      "total_delta": 7.48,
+      "signed_delta": 7.48,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 8.25,
+        "xgot_away": 0.75,
+        "xgot_total": 9.0,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -2.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "LEAKY",
+        "home_finishing_delta": 2.75,
+        "away_finishing_delta": 0.25,
+        "insights": [
+          "CLINICAL_FINISHING"
+        ]
       }
     },
     {
@@ -59562,11 +60460,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -59583,7 +60481,7 @@
               "venue": {
                 "id": 22497,
                 "name": "Centro Esportivo da Juventude Campo 2",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -59864,8 +60762,8 @@
               },
               "venue": {
                 "id": null,
-                "name": "Estadio Bandeir\u00e3o",
-                "city": "Altamira, Par\u00e1"
+                "name": "Estadio Bandeirão",
+                "city": "Altamira, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -59934,8 +60832,8 @@
               },
               "venue": {
                 "id": 5697,
-                "name": "Est\u00e1dio Municipal Zinho de Oliveira",
-                "city": "Marab\u00e1, Par\u00e1"
+                "name": "Estádio Municipal Zinho de Oliveira",
+                "city": "Marabá, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -59957,7 +60855,7 @@
             "teams": {
               "home": {
                 "id": 25222,
-                "name": "\u00c1guia de Marab\u00e1 U20",
+                "name": "Águia de Marabá U20",
                 "logo": "https://media.api-sports.io/football/teams/25222.png",
                 "winner": true
               },
@@ -60287,7 +61185,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -60664,7 +61562,7 @@
             "rank": 8,
             "team": {
               "id": 25433,
-              "name": "Capit\u00e3o Po\u00e7o U20",
+              "name": "Capitão Poço U20",
               "logo": "https://media.api-sports.io/football/teams/25433.png"
             },
             "points": 7,
@@ -61024,7 +61922,7 @@
             "rank": 16,
             "team": {
               "id": 25222,
-              "name": "\u00c1guia de Marab\u00e1 U20",
+              "name": "Águia de Marabá U20",
               "logo": "https://media.api-sports.io/football/teams/25222.png"
             },
             "points": 4,
@@ -61907,6 +62805,34 @@
           "rank": 34,
           "form": "LLLL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 6,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.12,
+      "signed_delta": -1.12,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.0,
+        "xgot_away": 2.25,
+        "xgot_total": 5.25,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": -1.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 1.0,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
@@ -61997,11 +62923,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 3,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -62229,7 +63155,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -62299,7 +63225,7 @@
               "venue": {
                 "id": 22497,
                 "name": "Centro Esportivo da Juventude Campo 2",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -62651,7 +63577,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -63028,7 +63954,7 @@
             "rank": 8,
             "team": {
               "id": 25433,
-              "name": "Capit\u00e3o Po\u00e7o U20",
+              "name": "Capitão Poço U20",
               "logo": "https://media.api-sports.io/football/teams/25433.png"
             },
             "points": 7,
@@ -63388,7 +64314,7 @@
             "rank": 16,
             "team": {
               "id": 25222,
-              "name": "\u00c1guia de Marab\u00e1 U20",
+              "name": "Águia de Marabá U20",
               "logo": "https://media.api-sports.io/football/teams/25222.png"
             },
             "points": 4,
@@ -64271,6 +65197,29 @@
           "rank": 2,
           "form": "WWWL"
         }
+      },
+      "total_delta": 1.14,
+      "signed_delta": 1.14,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 2.25,
+        "xgot_total": 4.5,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
@@ -64361,11 +65310,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 4,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64593,7 +65542,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -64663,7 +65612,7 @@
               "venue": {
                 "id": 22496,
                 "name": "Centro Esportivo da Juventude",
-                "city": "Bel\u00e9m, Par\u00e1"
+                "city": "Belém, Pará"
               },
               "status": {
                 "long": "Match Finished",
@@ -64956,7 +65905,7 @@
             },
             "league": {
               "id": 618,
-              "name": "S\u00e3o Paulo Youth Cup",
+              "name": "São Paulo Youth Cup",
               "country": "Brazil",
               "logo": "https://media.api-sports.io/football/leagues/618.png",
               "flag": "https://media.api-sports.io/flags/br.svg",
@@ -65026,7 +65975,7 @@
             },
             "league": {
               "id": 618,
-              "name": "S\u00e3o Paulo Youth Cup",
+              "name": "São Paulo Youth Cup",
               "country": "Brazil",
               "logo": "https://media.api-sports.io/football/leagues/618.png",
               "flag": "https://media.api-sports.io/flags/br.svg",
@@ -65392,7 +66341,7 @@
             "rank": 8,
             "team": {
               "id": 25433,
-              "name": "Capit\u00e3o Po\u00e7o U20",
+              "name": "Capitão Poço U20",
               "logo": "https://media.api-sports.io/football/teams/25433.png"
             },
             "points": 7,
@@ -65752,7 +66701,7 @@
             "rank": 16,
             "team": {
               "id": 25222,
-              "name": "\u00c1guia de Marab\u00e1 U20",
+              "name": "Águia de Marabá U20",
               "logo": "https://media.api-sports.io/football/teams/25222.png"
             },
             "points": 4,
@@ -66635,6 +67584,34 @@
           "rank": 4,
           "form": "DWW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 3,
+      "actual_ht_goals": 3,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 2.44,
+      "signed_delta": -2.44,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 3.0,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -1.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 1.0,
+        "insights": []
       }
     },
     {
@@ -66725,11 +67702,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -68470,6 +69447,34 @@
           "rank": null,
           "form": "WLLDLDLDLWLWDWLLLLLDW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "total_delta": 1.32,
+      "signed_delta": -1.32,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.75,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -73739,11 +74744,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -74413,11 +75418,39 @@
           "rank": null,
           "form": "WDWLDLWLWWWLLWDLDW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 2,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 2.3,
+      "signed_delta": -2.3,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 1.5,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
       "league_id": 598,
-      "league": "Premi\u00e8re Division",
+      "league": "Première Division",
       "country": "Mali",
       "date": "2026-11-16",
       "away_team": "ASKO",
@@ -74503,11 +75536,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -74535,7 +75568,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -74605,7 +75638,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -74675,7 +75708,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -74733,7 +75766,7 @@
               },
               "venue": {
                 "id": 8052,
-                "name": "Stade Mamadou Konat\u00e9",
+                "name": "Stade Mamadou Konaté",
                 "city": "Bamako"
               },
               "status": {
@@ -74745,7 +75778,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -74817,7 +75850,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -74887,7 +75920,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75169,7 +76202,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75180,7 +76213,7 @@
             "teams": {
               "home": {
                 "id": 12677,
-                "name": "R\u00e9al Bamako",
+                "name": "Réal Bamako",
                 "logo": "https://media.api-sports.io/football/teams/12677.png",
                 "winner": null
               },
@@ -75239,7 +76272,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75309,7 +76342,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75379,7 +76412,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75390,7 +76423,7 @@
             "teams": {
               "home": {
                 "id": 18182,
-                "name": "Afrique Football \u00c9lite",
+                "name": "Afrique Football Élite",
                 "logo": "https://media.api-sports.io/football/teams/18182.png",
                 "winner": true
               },
@@ -75449,7 +76482,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -75725,7 +76758,7 @@
             "rank": 6,
             "team": {
               "id": 18182,
-              "name": "Afrique Football \u00c9lite",
+              "name": "Afrique Football Élite",
               "logo": "https://media.api-sports.io/football/teams/18182.png"
             },
             "points": 3,
@@ -75905,7 +76938,7 @@
             "rank": 10,
             "team": {
               "id": 12677,
-              "name": "R\u00e9al Bamako",
+              "name": "Réal Bamako",
               "logo": "https://media.api-sports.io/football/teams/12677.png"
             },
             "points": 1,
@@ -76040,7 +77073,7 @@
             "rank": 13,
             "team": {
               "id": 8093,
-              "name": "Onze Cr\u00e9ateurs",
+              "name": "Onze Créateurs",
               "logo": "https://media.api-sports.io/football/teams/8093.png"
             },
             "points": 1,
@@ -76158,11 +77191,39 @@
           "rank": 9,
           "form": "DL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "TIE",
+      "total_delta": 2.4,
+      "signed_delta": -2.4,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.0,
+        "xgot_total": 0.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
       "league_id": 598,
-      "league": "Premi\u00e8re Division",
+      "league": "Première Division",
       "country": "Mali",
       "date": "2026-11-16",
       "away_team": "Derby Academie",
@@ -76222,11 +77283,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -76254,7 +77315,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76324,7 +77385,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76396,7 +77457,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76466,7 +77527,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76483,7 +77544,7 @@
               },
               "away": {
                 "id": 18182,
-                "name": "Afrique Football \u00c9lite",
+                "name": "Afrique Football Élite",
                 "logo": "https://media.api-sports.io/football/teams/18182.png",
                 "winner": false
               }
@@ -76536,7 +77597,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76606,7 +77667,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76617,7 +77678,7 @@
             "teams": {
               "home": {
                 "id": 8093,
-                "name": "Onze Cr\u00e9ateurs",
+                "name": "Onze Créateurs",
                 "logo": "https://media.api-sports.io/football/teams/8093.png",
                 "winner": null
               },
@@ -76676,7 +77737,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76748,7 +77809,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76818,7 +77879,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76888,7 +77949,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -76899,7 +77960,7 @@
             "teams": {
               "home": {
                 "id": 18182,
-                "name": "Afrique Football \u00c9lite",
+                "name": "Afrique Football Élite",
                 "logo": "https://media.api-sports.io/football/teams/18182.png",
                 "winner": true
               },
@@ -76958,7 +78019,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -77028,7 +78089,7 @@
             },
             "league": {
               "id": 598,
-              "name": "Premi\u00e8re Division",
+              "name": "Première Division",
               "country": "Mali",
               "logo": "https://media.api-sports.io/football/leagues/598.png",
               "flag": "https://media.api-sports.io/flags/ml.svg",
@@ -77304,7 +78365,7 @@
             "rank": 6,
             "team": {
               "id": 18182,
-              "name": "Afrique Football \u00c9lite",
+              "name": "Afrique Football Élite",
               "logo": "https://media.api-sports.io/football/teams/18182.png"
             },
             "points": 3,
@@ -77484,7 +78545,7 @@
             "rank": 10,
             "team": {
               "id": 12677,
-              "name": "R\u00e9al Bamako",
+              "name": "Réal Bamako",
               "logo": "https://media.api-sports.io/football/teams/12677.png"
             },
             "points": 1,
@@ -77619,7 +78680,7 @@
             "rank": 13,
             "team": {
               "id": 8093,
-              "name": "Onze Cr\u00e9ateurs",
+              "name": "Onze Créateurs",
               "logo": "https://media.api-sports.io/football/teams/8093.png"
             },
             "points": 1,
@@ -77737,6 +78798,34 @@
           "rank": 1,
           "form": "WW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.12,
+      "signed_delta": -1.12,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.75,
+        "xgot_total": 0.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -77837,11 +78926,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -78238,7 +79327,7 @@
               },
               "away": {
                 "id": 8374,
-                "name": "F\u00e9nix",
+                "name": "Fénix",
                 "logo": "https://media.api-sports.io/football/teams/8374.png",
                 "winner": false
               }
@@ -78899,7 +79988,7 @@
             "rank": 4,
             "team": {
               "id": 8390,
-              "name": "Centro Espa\u00f1ol",
+              "name": "Centro Español",
               "logo": "https://media.api-sports.io/football/teams/8390.png"
             },
             "points": 47,
@@ -79484,7 +80573,7 @@
             "rank": 3,
             "team": {
               "id": 8381,
-              "name": "Deportivo Espa\u00f1ol",
+              "name": "Deportivo Español",
               "logo": "https://media.api-sports.io/football/teams/8381.png"
             },
             "points": 52,
@@ -79934,7 +81023,7 @@
             "rank": 13,
             "team": {
               "id": 8374,
-              "name": "F\u00e9nix",
+              "name": "Fénix",
               "logo": "https://media.api-sports.io/football/teams/8374.png"
             },
             "points": 34,
@@ -79979,7 +81068,7 @@
             "rank": 14,
             "team": {
               "id": 8393,
-              "name": "Deportivo Mu\u00f1iz",
+              "name": "Deportivo Muñiz",
               "logo": "https://media.api-sports.io/football/teams/8393.png"
             },
             "points": 29,
@@ -80052,11 +81141,39 @@
           "rank": 7,
           "form": "DLDLL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "TIE",
+      "total_delta": 1.59,
+      "signed_delta": -1.59,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.0,
+        "xgot_total": 0.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
       "league_id": 268,
-      "league": "Primera Divisi\u00f3n",
+      "league": "Primera División",
       "country": "Uruguay",
       "date": "2026-11-16",
       "away_team": "Juventud",
@@ -80150,11 +81267,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -80182,7 +81299,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80252,7 +81369,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80380,7 +81497,7 @@
               },
               "venue": {
                 "id": 1638,
-                "name": "Parque Alfredo V\u00edctor Viera",
+                "name": "Parque Alfredo Víctor Viera",
                 "city": "Montevideo"
               },
               "status": {
@@ -80392,7 +81509,7 @@
             },
             "league": {
               "id": 270,
-              "name": "Primera Divisi\u00f3n - Clausura",
+              "name": "Primera División - Clausura",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/270.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80462,7 +81579,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n - Apertura",
+              "name": "Primera División - Apertura",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80604,7 +81721,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80674,7 +81791,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80744,7 +81861,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80814,7 +81931,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -80886,7 +82003,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -81026,7 +82143,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -81096,7 +82213,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -81166,7 +82283,7 @@
             },
             "league": {
               "id": 268,
-              "name": "Primera Divisi\u00f3n",
+              "name": "Primera División",
               "country": "Uruguay",
               "logo": "https://media.api-sports.io/football/leagues/268.png",
               "flag": "https://media.api-sports.io/flags/uy.svg",
@@ -84845,6 +85962,34 @@
           "rank": 9,
           "form": "LDLWD"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.04,
+      "signed_delta": 1.04,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -84853,7 +85998,7 @@
       "country": "Serbia",
       "date": "2026-11-16",
       "away_team": "FK Vozdovac",
-      "home_team": "Grafi\u010dar",
+      "home_team": "Grafičar",
       "home_team_id": 4252,
       "away_team_id": 2658,
       "status": "NS",
@@ -84945,11 +86090,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -84994,7 +86139,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": true
               }
@@ -85064,7 +86209,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": false
               }
@@ -85095,7 +86240,7 @@
           {
             "fixture": {
               "id": 1395093,
-              "referee": "Lazar Pr\u0161i\u0107",
+              "referee": "Lazar Pršić",
               "timezone": "UTC",
               "date": "2025-08-30T14:30:00+00:00",
               "timestamp": 1756564200,
@@ -85128,7 +86273,7 @@
             "teams": {
               "home": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": false
               },
@@ -85165,7 +86310,7 @@
           {
             "fixture": {
               "id": 1368348,
-              "referee": "L. Borisavljevi\u0107",
+              "referee": "L. Borisavljević",
               "timezone": "UTC",
               "date": "2025-04-27T12:00:00+00:00",
               "timestamp": 1745755200,
@@ -85204,7 +86349,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": null
               }
@@ -85235,7 +86380,7 @@
           {
             "fixture": {
               "id": 1206357,
-              "referee": "A. Nikoli\u0107",
+              "referee": "A. Nikolić",
               "timezone": "UTC",
               "date": "2025-03-12T13:00:00+00:00",
               "timestamp": 1741784400,
@@ -85245,7 +86390,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Rajko Miti\u0107 - Jug ve\u0161ta\u010dka trava 5",
+                "name": "Rajko Mitić - Jug veštačka trava 5",
                 "city": "Beograd"
               },
               "status": {
@@ -85268,7 +86413,7 @@
             "teams": {
               "home": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": null
               },
@@ -85346,7 +86491,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": true
               }
@@ -85410,7 +86555,7 @@
             "teams": {
               "home": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": true
               },
@@ -85480,7 +86625,7 @@
             "teams": {
               "home": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": true
               },
@@ -85550,7 +86695,7 @@
             "teams": {
               "home": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": false
               },
@@ -85626,7 +86771,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": false
               }
@@ -85762,7 +86907,7 @@
             "teams": {
               "home": {
                 "id": 12312,
-                "name": "Dubo\u010dica",
+                "name": "Dubočica",
                 "logo": "https://media.api-sports.io/football/teams/12312.png",
                 "winner": null
               },
@@ -86147,7 +87292,7 @@
             "rank": 4,
             "team": {
               "id": 12329,
-              "name": "OFK Vr\u0161ac",
+              "name": "OFK Vršac",
               "logo": "https://media.api-sports.io/football/teams/12329.png"
             },
             "points": 30,
@@ -86192,7 +87337,7 @@
             "rank": 5,
             "team": {
               "id": 12312,
-              "name": "Dubo\u010dica",
+              "name": "Dubočica",
               "logo": "https://media.api-sports.io/football/teams/12312.png"
             },
             "points": 26,
@@ -86597,7 +87742,7 @@
             "rank": 14,
             "team": {
               "id": 4252,
-              "name": "Grafi\u010dar",
+              "name": "Grafičar",
               "logo": "https://media.api-sports.io/football/teams/4252.png"
             },
             "points": 17,
@@ -86760,6 +87905,34 @@
           "rank": null,
           "form": "WDDWWWWLLWWLDDLWDWWWWWDDLDWLW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "TIE",
+      "total_delta": 3.32,
+      "signed_delta": -3.32,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.0,
+        "xgot_total": 0.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -86850,11 +88023,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 2,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -87323,7 +88496,7 @@
               },
               "away": {
                 "id": 4252,
-                "name": "Grafi\u010dar",
+                "name": "Grafičar",
                 "logo": "https://media.api-sports.io/football/teams/4252.png",
                 "winner": true
               }
@@ -87527,7 +88700,7 @@
             "teams": {
               "home": {
                 "id": 12312,
-                "name": "Dubo\u010dica",
+                "name": "Dubočica",
                 "logo": "https://media.api-sports.io/football/teams/12312.png",
                 "winner": true
               },
@@ -87772,7 +88945,7 @@
             "rank": 4,
             "team": {
               "id": 12329,
-              "name": "OFK Vr\u0161ac",
+              "name": "OFK Vršac",
               "logo": "https://media.api-sports.io/football/teams/12329.png"
             },
             "points": 30,
@@ -87817,7 +88990,7 @@
             "rank": 5,
             "team": {
               "id": 12312,
-              "name": "Dubo\u010dica",
+              "name": "Dubočica",
               "logo": "https://media.api-sports.io/football/teams/12312.png"
             },
             "points": 26,
@@ -88222,7 +89395,7 @@
             "rank": 14,
             "team": {
               "id": 4252,
-              "name": "Grafi\u010dar",
+              "name": "Grafičar",
               "logo": "https://media.api-sports.io/football/teams/4252.png"
             },
             "points": 17,
@@ -88385,11 +89558,39 @@
           "rank": null,
           "form": "WWWLWLLLLWDDLDWDWLWLWDDLWWLLL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "total_delta": 0.31,
+      "signed_delta": -0.31,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 1.5,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
       "league_id": 141,
-      "league": "Segunda Divisi\u00f3n",
+      "league": "Segunda División",
       "country": "Spain",
       "date": "2026-11-16",
       "away_team": "Celta de Vigo II",
@@ -88503,11 +89704,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -88606,7 +89807,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -88676,7 +89877,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -88746,7 +89947,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -88804,7 +90005,7 @@
               },
               "venue": {
                 "id": 1495,
-                "name": "El Molin\u00f3n-Enrique Castro Quini",
+                "name": "El Molinón-Enrique Castro Quini",
                 "city": "Gijon"
               },
               "status": {
@@ -88816,7 +90017,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -88888,7 +90089,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -88946,7 +90147,7 @@
               },
               "venue": {
                 "id": 22784,
-                "name": "Municipal de Bala\u00eddos",
+                "name": "Municipal de Balaídos",
                 "city": "Vigo"
               },
               "status": {
@@ -88958,7 +90159,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -89028,7 +90229,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -89086,7 +90287,7 @@
               },
               "venue": {
                 "id": 22784,
-                "name": "Municipal de Bala\u00eddos",
+                "name": "Municipal de Balaídos",
                 "city": "Vigo"
               },
               "status": {
@@ -89098,7 +90299,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -89156,7 +90357,7 @@
               },
               "venue": {
                 "id": 22784,
-                "name": "Municipal de Bala\u00eddos",
+                "name": "Municipal de Balaídos",
                 "city": "Vigo"
               },
               "status": {
@@ -89168,7 +90369,7 @@
             },
             "league": {
               "id": 141,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Spain",
               "logo": "https://media.api-sports.io/football/leagues/141.png",
               "flag": "https://media.api-sports.io/flags/es.svg",
@@ -89264,7 +90465,7 @@
             "rank": 2,
             "team": {
               "id": 5254,
-              "name": "Castell\u00f3n",
+              "name": "Castellón",
               "logo": "https://media.api-sports.io/football/teams/5254.png"
             },
             "points": 27,
@@ -90262,7 +91463,7 @@
           "topyellows": [
             {
               "id": 284057,
-              "name": "Joel L\u00f3pez",
+              "name": "Joel López",
               "photo": "https://media.api-sports.io/football/players/284057.png",
               "games": 13,
               "goals": 0,
@@ -90278,7 +91479,7 @@
             },
             {
               "id": 440586,
-              "name": "Adri\u00c3\u00a0 Capdevila",
+              "name": "AdriÃ  Capdevila",
               "photo": "https://media.api-sports.io/football/players/440586.png",
               "games": 13,
               "goals": 1,
@@ -90348,11 +91549,39 @@
           "rank": 16,
           "form": "LDLDW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.82,
+      "signed_delta": -1.82,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
       "league_id": 711,
-      "league": "Segunda Divisi\u00f3n",
+      "league": "Segunda División",
       "country": "Chile",
       "date": "2026-11-16",
       "away_team": "Deportes Rengo",
@@ -90412,11 +91641,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -90444,7 +91673,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90514,7 +91743,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90584,7 +91813,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90656,7 +91885,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90726,7 +91955,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90796,7 +92025,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90866,7 +92095,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90883,7 +92112,7 @@
               },
               "away": {
                 "id": 18779,
-                "name": "Real San Joaqu\u00edn",
+                "name": "Real San Joaquín",
                 "logo": "https://media.api-sports.io/football/teams/18779.png",
                 "winner": true
               }
@@ -90936,7 +92165,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -90953,7 +92182,7 @@
               },
               "away": {
                 "id": 5639,
-                "name": "General Vel\u00e1squez",
+                "name": "General Velásquez",
                 "logo": "https://media.api-sports.io/football/teams/5639.png",
                 "winner": null
               }
@@ -91008,7 +92237,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -91025,7 +92254,7 @@
               },
               "away": {
                 "id": 18779,
-                "name": "Real San Joaqu\u00edn",
+                "name": "Real San Joaquín",
                 "logo": "https://media.api-sports.io/football/teams/18779.png",
                 "winner": null
               }
@@ -91078,7 +92307,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -91089,7 +92318,7 @@
             "teams": {
               "home": {
                 "id": 5639,
-                "name": "General Vel\u00e1squez",
+                "name": "General Velásquez",
                 "logo": "https://media.api-sports.io/football/teams/5639.png",
                 "winner": true
               },
@@ -91148,7 +92377,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -91218,7 +92447,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -91288,7 +92517,7 @@
             },
             "league": {
               "id": 711,
-              "name": "Segunda Divisi\u00f3n",
+              "name": "Segunda División",
               "country": "Chile",
               "logo": "https://media.api-sports.io/football/leagues/711.png",
               "flag": "https://media.api-sports.io/flags/cl.svg",
@@ -91474,7 +92703,7 @@
             "rank": 4,
             "team": {
               "id": 21114,
-              "name": "Conc\u00f3n National",
+              "name": "Concón National",
               "logo": "https://media.api-sports.io/football/teams/21114.png"
             },
             "points": 21,
@@ -91654,7 +92883,7 @@
             "rank": 8,
             "team": {
               "id": 5639,
-              "name": "General Vel\u00e1squez",
+              "name": "General Velásquez",
               "logo": "https://media.api-sports.io/football/teams/5639.png"
             },
             "points": 16,
@@ -91699,7 +92928,7 @@
             "rank": 9,
             "team": {
               "id": 18779,
-              "name": "Real San Joaqu\u00edn",
+              "name": "Real San Joaquín",
               "logo": "https://media.api-sports.io/football/teams/18779.png"
             },
             "points": 13,
@@ -91997,6 +93226,34 @@
           "rank": null,
           "form": "LLLWWDDLLWLWW"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.75,
+      "signed_delta": 1.75,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -92071,11 +93328,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 1,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -94066,6 +95323,34 @@
           "rank": 5,
           "form": "WDWLW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.49,
+      "signed_delta": -0.49,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 0.75,
+        "xgot_total": 0.75,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -94166,11 +95451,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -96161,6 +97446,34 @@
           "rank": 6,
           "form": "DDWWL"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.6,
+      "signed_delta": 1.6,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -96261,11 +97574,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 6,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -97725,6 +99038,37 @@
           "rank": null,
           "form": "LWDWWWWWWWWWDDDLWWWWWWLWWW"
         }
+      },
+      "actual_ht_home": 3,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 3,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "TIE",
+      "hsh_grade": "LOSS",
+      "total_delta": 4.37,
+      "signed_delta": 4.37,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 4.5,
+        "xgot_away": 0.0,
+        "xgot_total": 4.5,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -1.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "LEAKY",
+        "home_finishing_delta": 1.5,
+        "away_finishing_delta": 0.0,
+        "insights": [
+          "CLINICAL_FINISHING"
+        ]
       }
     },
     {
@@ -97799,11 +99143,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -99614,6 +100958,35 @@
           "rank": 15,
           "form": "LLLDL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "hsh_grade": "LOSS",
+      "total_delta": 1.35,
+      "signed_delta": -1.35,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.0,
+        "xgot_total": 1.5,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -99714,11 +101087,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -101178,6 +102551,35 @@
           "rank": null,
           "form": "DWWWWDWLWWWWWWWWWWLWWWWDLW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "hsh_grade": "WIN",
+      "total_delta": 0.55,
+      "signed_delta": 0.55,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -101242,11 +102644,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -101985,6 +103387,34 @@
           "rank": null,
           "form": 0
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.72,
+      "signed_delta": -1.72,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -102075,11 +103505,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -102095,7 +103525,7 @@
               },
               "venue": {
                 "id": 3514,
-                "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+                "name": "Estádio Dr. Magalhães Pessoa",
                 "city": "Leiria"
               },
               "status": {
@@ -102235,7 +103665,7 @@
               },
               "venue": {
                 "id": 3514,
-                "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+                "name": "Estádio Dr. Magalhães Pessoa",
                 "city": "Leiria"
               },
               "status": {
@@ -103029,6 +104459,34 @@
           "rank": null,
           "form": 0
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.15,
+      "signed_delta": 0.15,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 1.5,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -103139,17 +104597,17 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 2,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
             "fixture": {
               "id": 1528913,
-              "referee": "Patrik Kolari\u0107, Croatia",
+              "referee": "Patrik Kolarić, Croatia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -103299,7 +104757,7 @@
               },
               "venue": {
                 "id": 11602,
-                "name": "CITY ARENA \u2013 \u0160tadi\u00f3n Antona Malatinsk\u00e9ho",
+                "name": "CITY ARENA – Štadión Antona Malatinského",
                 "city": "Trnava"
               },
               "status": {
@@ -103501,7 +104959,7 @@
           {
             "fixture": {
               "id": 1528913,
-              "referee": "Patrik Kolari\u0107, Croatia",
+              "referee": "Patrik Kolarić, Croatia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -103581,7 +105039,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "T\u00f3rsv\u00f8llur",
+                "name": "Tórsvøllur",
                 "city": null
               },
               "status": {
@@ -103853,7 +105311,7 @@
           {
             "fixture": {
               "id": 1528913,
-              "referee": "Patrik Kolari\u0107, Croatia",
+              "referee": "Patrik Kolarić, Croatia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -103933,8 +105391,8 @@
               },
               "venue": {
                 "id": 22674,
-                "name": "\u0160tadi\u00f3n Tatran",
-                "city": "Pre\u0161ov"
+                "name": "Štadión Tatran",
+                "city": "Prešov"
               },
               "status": {
                 "long": "Match Finished",
@@ -104003,7 +105461,7 @@
               },
               "venue": {
                 "id": null,
-                "name": "Ko\u0161ick\u00e1 futbalov\u00e1 ar\u00e9na",
+                "name": "Košická futbalová aréna",
                 "city": "Kosice"
               },
               "status": {
@@ -104201,7 +105659,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -106524,6 +107982,34 @@
           "rank": 1,
           "form": "WDWW"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.68,
+      "signed_delta": 1.68,
+      "accuracy_tier": "🟠 MISS",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 1.5,
+        "xgot_total": 3.0,
+        "home_gk_prevented": -0.5,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.5,
+        "insights": []
       }
     },
     {
@@ -106634,11 +108120,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -106724,8 +108210,8 @@
               },
               "venue": {
                 "id": 2609,
-                "name": "T\u00f3rsv\u00f8llur",
-                "city": "T\u00f3rshavn, Streymoy"
+                "name": "Tórsvøllur",
+                "city": "Tórshavn, Streymoy"
               },
               "status": {
                 "long": "Match Finished",
@@ -106795,7 +108281,7 @@
               "venue": {
                 "id": 2615,
                 "name": "Stadionul Zimbru",
-                "city": "Chi\u015fin\u0103u"
+                "city": "Chişinău"
               },
               "status": {
                 "long": "Match Finished",
@@ -106864,8 +108350,8 @@
               },
               "venue": {
                 "id": 2609,
-                "name": "T\u00f3rsv\u00f8llur",
-                "city": "T\u00f3rshavn, Streymoy"
+                "name": "Tórsvøllur",
+                "city": "Tórshavn, Streymoy"
               },
               "status": {
                 "long": "Match Finished",
@@ -106935,7 +108421,7 @@
               "venue": {
                 "id": 2615,
                 "name": "Stadionul Zimbru",
-                "city": "Chi\u015fin\u0103u"
+                "city": "Chişinău"
               },
               "status": {
                 "long": "Match Finished",
@@ -107216,7 +108702,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "T\u00f3rsv\u00f8llur",
+                "name": "Tórsvøllur",
                 "city": null
               },
               "status": {
@@ -107568,8 +109054,8 @@
               },
               "venue": {
                 "id": 22674,
-                "name": "\u0160tadi\u00f3n Tatran",
-                "city": "Pre\u0161ov"
+                "name": "Štadión Tatran",
+                "city": "Prešov"
               },
               "status": {
                 "long": "Match Finished",
@@ -107836,7 +109322,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -110159,6 +111645,34 @@
           "rank": 3,
           "form": "LWDL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 0,
+      "actual_hsh_result": "1H",
+      "total_delta": 1.15,
+      "signed_delta": -1.15,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -110269,11 +111783,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -110421,7 +111935,7 @@
           {
             "fixture": {
               "id": 1545609,
-              "referee": "Pawe\u0142 Raczkowski, Poland",
+              "referee": "Paweł Raczkowski, Poland",
               "timezone": "UTC",
               "date": "2026-10-03T16:00:00+00:00",
               "timestamp": 1791043200,
@@ -110571,7 +112085,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Laugardalsv\u00f6llur",
+                "name": "Laugardalsvöllur",
                 "city": "Reykjavik"
               },
               "status": {
@@ -111191,7 +112705,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -113514,6 +115028,34 @@
           "rank": 3,
           "form": "WLDL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 0.79,
+      "signed_delta": 0.79,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -113624,17 +115166,17 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 2,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
             "fixture": {
               "id": 1528880,
-              "referee": "Ante \u010culina, Croatia",
+              "referee": "Ante Čulina, Croatia",
               "timezone": "UTC",
               "date": "2026-09-24T18:45:00+00:00",
               "timestamp": 1790275500,
@@ -113926,7 +115468,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Dariaus ir Gir\u0117no stadionas",
+                "name": "Dariaus ir Girėno stadionas",
                 "city": "Kaunas"
               },
               "status": {
@@ -113986,7 +115528,7 @@
           {
             "fixture": {
               "id": 1528880,
-              "referee": "Ante \u010culina, Croatia",
+              "referee": "Ante Čulina, Croatia",
               "timezone": "UTC",
               "date": "2026-09-24T18:45:00+00:00",
               "timestamp": 1790275500,
@@ -114138,7 +115680,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Tofiq B\u0259hramov",
+                "name": "Tofiq Bəhramov",
                 "city": "Baku"
               },
               "status": {
@@ -114268,7 +115810,7 @@
           {
             "fixture": {
               "id": 1528880,
-              "referee": "Ante \u010culina, Croatia",
+              "referee": "Ante Čulina, Croatia",
               "timezone": "UTC",
               "date": "2026-09-24T18:45:00+00:00",
               "timestamp": 1790275500,
@@ -114546,7 +116088,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -116869,6 +118411,34 @@
           "rank": 3,
           "form": "DL"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.85,
+      "signed_delta": 0.85,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 1.5,
+        "xgot_away": 0.75,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.5,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.5,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -116979,11 +118549,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 3,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -117069,8 +118639,8 @@
               },
               "venue": {
                 "id": 819,
-                "name": "Laugardalsv\u00f6llur",
-                "city": "Reykjav\u00edk"
+                "name": "Laugardalsvöllur",
+                "city": "Reykjavík"
               },
               "status": {
                 "long": "Match Finished",
@@ -117421,7 +118991,7 @@
               },
               "venue": {
                 "id": 0,
-                "name": "Laugardalsv\u00f6llur",
+                "name": "Laugardalsvöllur",
                 "city": "Reykjavik"
               },
               "status": {
@@ -117623,7 +119193,7 @@
           {
             "fixture": {
               "id": 1545609,
-              "referee": "Pawe\u0142 Raczkowski, Poland",
+              "referee": "Paweł Raczkowski, Poland",
               "timezone": "UTC",
               "date": "2026-10-03T16:00:00+00:00",
               "timestamp": 1791043200,
@@ -118041,7 +119611,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -120364,6 +121934,34 @@
           "rank": 4,
           "form": "LLLW"
         }
+      },
+      "actual_ht_home": 2,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 2,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "1H",
+      "total_delta": 0.77,
+      "signed_delta": 0.77,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 2.25,
+        "xgot_away": 0.0,
+        "xgot_total": 2.25,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.75,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.75,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -120484,11 +122082,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 5,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -120564,7 +122162,7 @@
           {
             "fixture": {
               "id": 1172966,
-              "referee": "Slavko Vin\u010di\u0107, Slovenia",
+              "referee": "Slavko Vinčić, Slovenia",
               "timezone": "UTC",
               "date": "2024-10-14T18:45:00+00:00",
               "timestamp": 1728931500,
@@ -120575,7 +122173,7 @@
               "venue": {
                 "id": 700,
                 "name": "Allianz Arena",
-                "city": "M\u00fcnchen"
+                "city": "München"
               },
               "status": {
                 "long": "Match Finished",
@@ -120704,7 +122302,7 @@
           {
             "fixture": {
               "id": 1155277,
-              "referee": "E. Esk\u00e5s",
+              "referee": "E. Eskås",
               "timezone": "UTC",
               "date": "2024-03-26T19:45:00+00:00",
               "timestamp": 1711482300,
@@ -121348,7 +122946,7 @@
               },
               "venue": {
                 "id": 1406,
-                "name": "Rajko Miti\u0107 Stadion",
+                "name": "Rajko Mitić Stadion",
                 "city": "Belgrade"
               },
               "status": {
@@ -121478,7 +123076,7 @@
           {
             "fixture": {
               "id": 1489412,
-              "referee": "Katia Garc\u00eda, Mexico",
+              "referee": "Katia García, Mexico",
               "timezone": "UTC",
               "date": "2026-06-25T23:00:00+00:00",
               "timestamp": 1782428400,
@@ -121686,7 +123284,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -124009,6 +125607,36 @@
           "rank": 1,
           "form": "WDWD"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 4,
+      "actual_hsh_result": "2H",
+      "total_delta": 2.27,
+      "signed_delta": 2.27,
+      "accuracy_tier": "🔴 BUST",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.75,
+        "xgot_away": 0.0,
+        "xgot_total": 3.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -1.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "LEAKY",
+        "home_finishing_delta": 1.25,
+        "away_finishing_delta": 0.0,
+        "insights": [
+          "CLINICAL_FINISHING"
+        ]
       }
     },
     {
@@ -124129,11 +125757,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
@@ -124149,7 +125777,7 @@
               },
               "venue": {
                 "id": 1406,
-                "name": "Rajko Miti\u0107 Stadion",
+                "name": "Rajko Mitić Stadion",
                 "city": "Belgrade"
               },
               "status": {
@@ -124431,7 +126059,7 @@
               },
               "venue": {
                 "id": 1406,
-                "name": "Rajko Miti\u0107 Stadion",
+                "name": "Rajko Mitić Stadion",
                 "city": "Belgrade"
               },
               "status": {
@@ -124713,7 +126341,7 @@
               },
               "venue": {
                 "id": 1406,
-                "name": "Rajko Miti\u0107 Stadion",
+                "name": "Rajko Mitić Stadion",
                 "city": "Belgrade"
               },
               "status": {
@@ -124783,7 +126411,7 @@
               },
               "venue": {
                 "id": 1406,
-                "name": "Rajko Miti\u0107 Stadion",
+                "name": "Rajko Mitić Stadion",
                 "city": "Belgrade"
               },
               "status": {
@@ -125051,7 +126679,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -127374,6 +129002,34 @@
           "rank": 4,
           "form": "LLLL"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.5,
+      "signed_delta": -1.5,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.0,
+        "xgot_total": 0.75,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -127484,17 +129140,17 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
             "fixture": {
               "id": 1545607,
-              "referee": "Antoni Bandi\u0107, Bosnia & Herzegovina",
+              "referee": "Antoni Bandić, Bosnia & Herzegovina",
               "timezone": "UTC",
               "date": "2026-10-01T18:45:00+00:00",
               "timestamp": 1790880300,
@@ -127846,7 +129502,7 @@
           {
             "fixture": {
               "id": 1545607,
-              "referee": "Antoni Bandi\u0107, Bosnia & Herzegovina",
+              "referee": "Antoni Bandić, Bosnia & Herzegovina",
               "timezone": "UTC",
               "date": "2026-10-01T18:45:00+00:00",
               "timestamp": 1790880300,
@@ -128268,7 +129924,7 @@
           {
             "fixture": {
               "id": 1545607,
-              "referee": "Antoni Bandi\u0107, Bosnia & Herzegovina",
+              "referee": "Antoni Bandić, Bosnia & Herzegovina",
               "timezone": "UTC",
               "date": "2026-10-01T18:45:00+00:00",
               "timestamp": 1790880300,
@@ -128616,7 +130272,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -130939,6 +132595,34 @@
           "rank": 1,
           "form": "WDW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 1,
+      "actual_hsh_result": "TIE",
+      "total_delta": 0.15,
+      "signed_delta": -0.15,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.75,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -131059,17 +132743,17 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 4,
+      "actual_away_goals": 0,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "HOME",
       "match_center": {
         "h2h": [
           {
             "fixture": {
               "id": 1545651,
-              "referee": "Nenad Minakovi\u0107, Serbia",
+              "referee": "Nenad Minaković, Serbia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -131139,7 +132823,7 @@
           {
             "fixture": {
               "id": 1145518,
-              "referee": "I. Kru\u017eliak",
+              "referee": "I. Kružliak",
               "timezone": "UTC",
               "date": "2024-06-19T19:00:00+00:00",
               "timestamp": 1718823600,
@@ -131150,7 +132834,7 @@
               "venue": {
                 "id": 731,
                 "name": "RheinEnergieSTADION",
-                "city": "K\u00f6ln"
+                "city": "Köln"
               },
               "status": {
                 "long": "Match Finished",
@@ -131281,7 +132965,7 @@
           {
             "fixture": {
               "id": 1545653,
-              "referee": "Ivan Kru\u017eliak, Slovakia",
+              "referee": "Ivan Kružliak, Slovakia",
               "timezone": "UTC",
               "date": "2026-10-03T18:45:00+00:00",
               "timestamp": 1791053100,
@@ -131351,7 +133035,7 @@
           {
             "fixture": {
               "id": 1545651,
-              "referee": "Nenad Minakovi\u0107, Serbia",
+              "referee": "Nenad Minaković, Serbia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -131633,7 +133317,7 @@
           {
             "fixture": {
               "id": 1545660,
-              "referee": "Fran\u00e7ois Letexier, France",
+              "referee": "François Letexier, France",
               "timezone": "UTC",
               "date": "2026-10-03T18:45:00+00:00",
               "timestamp": 1791053100,
@@ -131703,7 +133387,7 @@
           {
             "fixture": {
               "id": 1545651,
-              "referee": "Nenad Minakovi\u0107, Serbia",
+              "referee": "Nenad Minaković, Serbia",
               "timezone": "UTC",
               "date": "2026-09-29T18:45:00+00:00",
               "timestamp": 1790707500,
@@ -131783,7 +133467,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Sto\u017eice Stadium",
+                "name": "Stožice Stadium",
                 "city": "Ljubljana"
               },
               "status": {
@@ -131843,7 +133527,7 @@
           {
             "fixture": {
               "id": 1489406,
-              "referee": "C\u00e9sar Ramos Palazuelos, Mexico",
+              "referee": "César Ramos Palazuelos, Mexico",
               "timezone": "UTC",
               "date": "2026-06-24T22:00:00+00:00",
               "timestamp": 1782338400,
@@ -132051,7 +133735,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -134374,6 +136058,34 @@
           "rank": 3,
           "form": "LWLD"
         }
+      },
+      "actual_ht_home": 1,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 3,
+      "actual_hsh_result": "2H",
+      "total_delta": 1.34,
+      "signed_delta": 1.34,
+      "accuracy_tier": "🟡 SOLID",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 3.0,
+        "xgot_away": 0.0,
+        "xgot_total": 3.0,
+        "home_gk_prevented": 0.0,
+        "away_gk_prevented": -1.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 1.0,
+        "away_finishing_delta": 0.0,
+        "insights": []
       }
     },
     {
@@ -134494,11 +136206,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 0,
+      "actual_away_goals": 3,
+      "actual_btts": false,
+      "actual_draw": false,
+      "actual_result": "AWAY",
       "match_center": {
         "h2h": [
           {
@@ -134514,7 +136226,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Sto\u017eice Stadium",
+                "name": "Stožice Stadium",
                 "city": "Ljubljana"
               },
               "status": {
@@ -134584,7 +136296,7 @@
               },
               "venue": {
                 "id": 1045,
-                "name": "To\u0161e Proeski Arena",
+                "name": "Toše Proeski Arena",
                 "city": "Skopje"
               },
               "status": {
@@ -134654,7 +136366,7 @@
               },
               "venue": {
                 "id": 1045,
-                "name": "To\u0161e Proeski Arena",
+                "name": "Toše Proeski Arena",
                 "city": "Skopje"
               },
               "status": {
@@ -134724,7 +136436,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Stadion Sto\u017eice",
+                "name": "Stadion Stožice",
                 "city": "Ljubljana"
               },
               "status": {
@@ -134856,7 +136568,7 @@
           {
             "fixture": {
               "id": 1545660,
-              "referee": "Fran\u00e7ois Letexier, France",
+              "referee": "François Letexier, France",
               "timezone": "UTC",
               "date": "2026-10-03T18:45:00+00:00",
               "timestamp": 1791053100,
@@ -134936,7 +136648,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Sto\u017eice Stadium",
+                "name": "Stožice Stadium",
                 "city": "Ljubljana"
               },
               "status": {
@@ -135066,7 +136778,7 @@
           {
             "fixture": {
               "id": 1543821,
-              "referee": "Jos\u00e9 Luis Munuera Montero, Spain",
+              "referee": "José Luis Munuera Montero, Spain",
               "timezone": "UTC",
               "date": "2026-06-01T17:30:00+00:00",
               "timestamp": 1780335000,
@@ -135099,7 +136811,7 @@
             "teams": {
               "home": {
                 "id": 777,
-                "name": "T\u00fcrkiye",
+                "name": "Türkiye",
                 "logo": "https://media.api-sports.io/football/teams/777.png",
                 "winner": true
               },
@@ -135208,7 +136920,7 @@
           {
             "fixture": {
               "id": 1545653,
-              "referee": "Ivan Kru\u017eliak, Slovakia",
+              "referee": "Ivan Kružliak, Slovakia",
               "timezone": "UTC",
               "date": "2026-10-03T18:45:00+00:00",
               "timestamp": 1791053100,
@@ -135288,7 +137000,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Sto\u017eice Stadium",
+                "name": "Stožice Stadium",
                 "city": "Ljubljana"
               },
               "status": {
@@ -135358,7 +137070,7 @@
               },
               "venue": {
                 "id": 1442,
-                "name": "Sto\u017eice Stadium",
+                "name": "Stožice Stadium",
                 "city": "Ljubljana"
               },
               "status": {
@@ -135429,7 +137141,7 @@
               "venue": {
                 "id": null,
                 "name": "Stadion Varteks",
-                "city": "Vara\u017edin"
+                "city": "Varaždin"
               },
               "status": {
                 "long": "Match Finished",
@@ -135626,7 +137338,7 @@
             "rank": 4,
             "team": {
               "id": 777,
-              "name": "T\u00fcrkiye",
+              "name": "Türkiye",
               "logo": "https://media.api-sports.io/football/teams/777.png"
             },
             "points": 0,
@@ -137949,6 +139661,34 @@
           "rank": 2,
           "form": "WLWD"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 1,
+      "actual_ht_goals": 1,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.59,
+      "signed_delta": 0.59,
+      "accuracy_tier": "🟢 EXCELLENT",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.0,
+        "xgot_away": 2.25,
+        "xgot_total": 2.25,
+        "home_gk_prevented": -0.75,
+        "away_gk_prevented": 0.0,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.0,
+        "away_finishing_delta": 0.75,
+        "insights": []
       }
     },
     {
@@ -138041,11 +139781,11 @@
         "hsh_breakeven_2h": 48.5,
         "hsh_breakeven_1h": 31.5
       },
-      "actual_home_goals": null,
-      "actual_away_goals": null,
-      "actual_btts": null,
-      "actual_draw": null,
-      "actual_result": null,
+      "actual_home_goals": 1,
+      "actual_away_goals": 1,
+      "actual_btts": true,
+      "actual_draw": true,
+      "actual_result": "DRAW",
       "match_center": {
         "h2h": [
           {
@@ -138201,8 +139941,8 @@
               },
               "venue": {
                 "id": 822,
-                "name": "W\u00fcrth v\u00f6llurinn",
-                "city": "Reykjav\u00edk"
+                "name": "Würth völlurinn",
+                "city": "Reykjavík"
               },
               "status": {
                 "long": "Match Finished",
@@ -141696,6 +143436,34 @@
           "rank": 2,
           "form": "WWDLW"
         }
+      },
+      "actual_ht_home": 0,
+      "actual_ht_away": 0,
+      "actual_ht_goals": 0,
+      "actual_sh_goals": 2,
+      "actual_hsh_result": "2H",
+      "total_delta": 0.46,
+      "signed_delta": -0.46,
+      "accuracy_tier": "🎯 BULLSEYE",
+      "actual_corners_total": null,
+      "actual_booking_pts": null,
+      "actual_shots_home": null,
+      "actual_shots_away": null,
+      "actual_shots_total": null,
+      "actual_sot_home": null,
+      "actual_sot_away": null,
+      "actual_sot_total": null,
+      "post_match_xgot": {
+        "xgot_home": 0.75,
+        "xgot_away": 0.75,
+        "xgot_total": 1.5,
+        "home_gk_prevented": -0.25,
+        "away_gk_prevented": -0.25,
+        "home_gk_tier": "NORMAL",
+        "away_gk_tier": "NORMAL",
+        "home_finishing_delta": 0.25,
+        "away_finishing_delta": 0.25,
+        "insights": []
       }
     },
     {
@@ -142014,7 +143782,7 @@
           {
             "fixture": {
               "id": 1326976,
-              "referee": "J. Encarnaci\u00f3n",
+              "referee": "J. Encarnación",
               "timezone": "UTC",
               "date": "2025-03-09T03:00:00+00:00",
               "timestamp": 1741489200,
@@ -144016,5 +145784,26 @@
         }
       }
     }
-  ]
+  ],
+  "graded_at": "2026-11-17T04:51:55.264270",
+  "grade_summary": {
+    "outcome_wins": 15,
+    "outcome_total": 20,
+    "outcome_pct": 75.0,
+    "btts_wins": 3,
+    "btts_total": 6,
+    "btts_pct": 50.0,
+    "corners_wins": 0,
+    "corners_total": 0,
+    "corners_pct": null,
+    "booking_wins": 0,
+    "booking_total": 0,
+    "booking_pct": null,
+    "shots_wins": 2,
+    "shots_total": 4,
+    "shots_pct": 50.0,
+    "sot_wins": 2,
+    "sot_total": 3,
+    "sot_pct": 66.7
+  }
 }
