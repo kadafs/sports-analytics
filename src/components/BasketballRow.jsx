@@ -45,11 +45,11 @@ function isMatch(t1, t2) {
   if (!n1 || !n2) return false
   if (n1 === n2) return true
   if (n1.includes(n2) || n2.includes(n1)) return true
-  
+
   const stopWords = new Set(['the', 'club', 'team', 'basket', 'basketball', 'bc', 'kc', 'kk', 'sk', 'fc'])
   const words1 = n1.split(' ').filter(w => w.length >= 3 && !stopWords.has(w))
   const words2 = n2.split(' ').filter(w => w.length >= 3 && !stopWords.has(w))
-  
+
   for (const w1 of words1) {
     for (const w2 of words2) {
       if (w1 === w2) return true
@@ -76,27 +76,27 @@ function formatStatus(s) {
   // Pre-game
   if (upper === 'NOT STARTED' || upper === 'SCHEDULED') return 'NS'
   // Abandoned / special
-  if (upper.includes('POSTPONED'))   return 'PP'
-  if (upper.includes('CANCEL'))      return 'CN'
-  if (upper.includes('SUSPEND'))     return 'SU'
-  if (upper.includes('ABANDON'))     return 'AB'
-  if (upper.includes('INTERRUPT'))   return 'IN'
-  if (upper.includes('TECHNICAL'))   return 'TL'
+  if (upper.includes('POSTPONED')) return 'PP'
+  if (upper.includes('CANCEL')) return 'CN'
+  if (upper.includes('SUSPEND')) return 'SU'
+  if (upper.includes('ABANDON')) return 'AB'
+  if (upper.includes('INTERRUPT')) return 'IN'
+  if (upper.includes('TECHNICAL')) return 'TL'
   if (upper.includes('WALKOVER') || upper.includes('WALK OVER')) return 'WO'
-  if (upper.includes('FORFEIT'))     return 'FF'
-  if (upper.includes('AWARDED'))     return 'AW'
+  if (upper.includes('FORFEIT')) return 'FF'
+  if (upper.includes('AWARDED')) return 'AW'
   // In-progress
   if (upper === 'HALFTIME' || upper === 'HALF TIME' || upper === 'HT') return 'HT'
   if (upper.startsWith('QUARTER 1') || upper === 'Q1') return 'Q1'
   if (upper.startsWith('QUARTER 2') || upper === 'Q2') return 'Q2'
   if (upper.startsWith('QUARTER 3') || upper === 'Q3') return 'Q3'
   if (upper.startsWith('QUARTER 4') || upper === 'Q4') return 'Q4'
-  if (upper.startsWith('OVERTIME')  || upper === 'OT') return 'OT'
-  if (upper === 'BREAK TIME')        return 'BT'
+  if (upper.startsWith('OVERTIME') || upper === 'OT') return 'OT'
+  if (upper === 'BREAK TIME') return 'BT'
   // Finished
   if (upper === 'FINISHED' || upper === 'GAME FINISHED' || upper === 'FT') return 'FT'
-  if (upper === 'AFTER OVERTIME'  || upper === 'AOT') return 'AO'
-  if (upper === 'AFTER PENALTIES' || upper === 'AP')  return 'AP'
+  if (upper === 'AFTER OVERTIME' || upper === 'AOT') return 'AO'
+  if (upper === 'AFTER PENALTIES' || upper === 'AP') return 'AP'
   // Fallback: truncate to 2 chars
   return s.trim().substring(0, 2).toUpperCase()
 }
@@ -118,7 +118,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   } = consolidatedGame
 
   // ── Primary model resolution & Dual Model support ──
-  const primary   = predictions.adv || predictions.srs || {}
+  const primary = predictions.adv || predictions.srs || {}
   const secondary = (predictions.adv && predictions.srs && predictions.adv !== predictions.srs)
     ? (predictions.adv === primary ? predictions.srs : predictions.adv)
     : null
@@ -136,7 +136,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     match_center = {},
     actual_home_score: primaryHomeScore,
     actual_away_score: primaryAwayScore,
-    actual_result:     primaryResult,
+    actual_result: primaryResult,
     accuracy_tier,
     total_delta,
     home_team_volatility,
@@ -151,10 +151,10 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   } = primary
 
   // Use top-level synced values first, fallback to primary model values
-  const finalStatus    = topStatus    || primary.status
+  const finalStatus = topStatus || primary.status
   const finalHomeScore = topHomeScore !== undefined ? topHomeScore : primaryHomeScore
   const finalAwayScore = topAwayScore !== undefined ? topAwayScore : primaryAwayScore
-  const finalResult    = topResult    || primaryResult
+  const finalResult = topResult || primaryResult
 
   const isAdvanced = model_architecture?.includes('ADVANCED')
 
@@ -213,19 +213,19 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const shootoutData = signalStats?.shootout
 
   const clashSample = clashData?.sample || 324
-  const clashUnderPct = isSharpOver 
-    ? (clashData?.sharp_over?.under_model_pct ?? 70.8) 
+  const clashUnderPct = isSharpOver
+    ? (clashData?.sharp_over?.under_model_pct ?? 70.8)
     : (clashData?.under_model_pct ?? 61.1)
-  const clashDelta = isSharpOver 
-    ? (clashData?.sharp_over?.avg_score_delta ?? -7.6) 
+  const clashDelta = isSharpOver
+    ? (clashData?.sharp_over?.avg_score_delta ?? -7.6)
     : (clashData?.avg_score_delta ?? -3.7)
 
   const shootoutSample = shootoutData?.sample || 77
-  const shootoutMktPct = isSharpShootout 
-    ? (shootoutData?.sharp_shootout?.market_over_pct ?? 72.1) 
+  const shootoutMktPct = isSharpShootout
+    ? (shootoutData?.sharp_shootout?.market_over_pct ?? 72.1)
     : (shootoutData?.market_over_pct ?? 72.6)
-  const shootoutMktDelta = isSharpShootout 
-    ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9) 
+  const shootoutMktDelta = isSharpShootout
+    ? (shootoutData?.sharp_shootout?.avg_market_delta ?? 6.9)
     : (shootoutData?.avg_market_delta ?? 8.0)
 
   const dragDownData = signalStats?.drag_down
@@ -245,16 +245,16 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const seOverMktDelta = seOverData?.avg_market_delta ?? 7.6
 
   const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
-  
+
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
   // Strip out league prefixes (e.g., 'BLNO - Semi-finals' -> 'Semi-finals')
   const gameStage = gameStageRaw.includes(' - ') ? gameStageRaw.split(' - ').pop().trim() : gameStageRaw
   const lowerStage = gameStageRaw.toLowerCase()
   const showStageBadge = gameStageRaw && (lowerStage.includes('final') || lowerStage.includes('place') || lowerStage.includes('playoff') || lowerStage.includes('championship'))
 
-  const tip      = predicted_result === 'HOME' ? '1' : '2'
+  const tip = predicted_result === 'HOME' ? '1' : '2'
   const isGraded = finalResult != null
-  const isWin    = isGraded && predicted_result === finalResult
+  const isWin = isGraded && predicted_result === finalResult
 
   // Badge display rules:
   // - FT / graded games → never show badge (already done via isGraded/isFinishedStatus)
@@ -274,7 +274,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
   const isHomeStable = home_team_volatility != null && home_team_volatility <= 16.6
   const isAwayStable = away_team_volatility != null && away_team_volatility <= 16.6
-  
+
   const predForBuffer = {
     ...primary,
     ...consolidatedGame,
@@ -350,14 +350,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const isUnderMbetPlay = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (primary.mbet_threshold || 4.0))
   const effectiveDecision = decision === 'PLAY UNDER' || isUnderMbetPlay ? 'PLAY UNDER' : decision
   const bookmakerName = primary.bookmaker || (primary.odds_source && primary.odds_source !== 'BASELINE' && primary.odds_source !== 'AVERAGE' ? primary.odds_source : null)
-  
+
   const getStabilityColor = (volatility) => {
     if (volatility == null) return 'inherit';
     if (volatility < 14.8) return '#10b981'; // Elite (Emerald)
     if (volatility <= 16.6) return '#38bdf8'; // Good/Stable (Sky Blue)
     return 'inherit';
   }
-  
+
   const getStabilityTitle = (volatility) => {
     if (volatility == null) return '';
     if (volatility < 14.8) return `Elite Reliable (Volatility: ${volatility.toFixed(1)})`;
@@ -378,18 +378,18 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             time.includes(' ') ? time.split(' ')[1] : time
           ) : (
             isFinishedStatus(finalStatus) ? 'FT'
-            : formatStatus(finalStatus) || 'NS'
+              : formatStatus(finalStatus) || 'NS'
           )}
           {/* FT badge below kickoff time (like football graded rows) */}
           {time?.includes(':') && isFinishedStatus(finalStatus) && (
             <div className="live-indicator" style={{ color: '#94a3b8', fontSize: 10, fontWeight: 800 }}>FT</div>
           )}
           {time?.includes(':') && finalStatus && !isFinishedStatus(finalStatus) &&
-           finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
-            <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
-              {formatStatus(finalStatus)}
-            </div>
-          )}
+            finalStatus !== 'Scheduled' && finalStatus !== 'Not Started' && (
+              <div className="live-indicator" style={{ color: '#eab308', fontSize: 10, fontWeight: 800 }}>
+                {formatStatus(finalStatus)}
+              </div>
+            )}
           {showBadge && (
             <div style={{
               marginTop: 2,
@@ -434,7 +434,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
         {/* TEAMS COLUMN */}
         <div className="teams">
           <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
-            <span className="team-name" title={getStabilityTitle(home_team_volatility)} style={{ 
+            <span className="team-name" title={getStabilityTitle(home_team_volatility)} style={{
               fontWeight: (isGraded && finalHomeScore > finalAwayScore) ? 700 : 400,
               color: getStabilityColor(home_team_volatility),
               flex: 'initial',
@@ -451,7 +451,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
             )}
           </div>
           <div className="team-row" style={{ display: 'flex', alignItems: 'center' }}>
-            <span className="team-name" title={getStabilityTitle(away_team_volatility)} style={{ 
+            <span className="team-name" title={getStabilityTitle(away_team_volatility)} style={{
               fontWeight: (isGraded && finalAwayScore > finalHomeScore) ? 700 : 400,
               color: getStabilityColor(away_team_volatility),
               flex: 'initial',
@@ -697,7 +697,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                     const aMae = isAdvanced ? (aStat?.adv?.mae ?? aStat?.srs?.mae) : aStat?.srs?.mae;
                     const hDelta = isAdvanced ? (hStat?.adv?.avg_signed_delta ?? hStat?.srs?.avg_signed_delta) : hStat?.srs?.avg_signed_delta;
                     const aDelta = isAdvanced ? (aStat?.adv?.avg_signed_delta ?? aStat?.srs?.avg_signed_delta) : aStat?.srs?.avg_signed_delta;
-                    
+
                     return (
                       <>
                         {(hMae != null || aMae != null) && (
@@ -729,10 +729,10 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
                     return (
                       <>
-                        <StatRow 
-                          label="Star Dependency (SDI)" 
-                          home={hLabel} 
-                          away={aLabel} 
+                        <StatRow
+                          label="Star Dependency (SDI)"
+                          home={hLabel}
+                          away={aLabel}
                           homeColor={sdiH ? getRiskColor(sdiH.risk) : undefined}
                           awayColor={sdiA ? getRiskColor(sdiA.risk) : undefined}
                           title="Star Dependency Index: % of scoring concentrated in top player. >=55% indicates high single-player dependency."
@@ -813,11 +813,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             <tr>
                               <th>#</th>
                               <th>Team</th>
-                              <th style={{textAlign:'center'}}>P</th>
-                              <th style={{textAlign:'center'}}>W</th>
-                              <th style={{textAlign:'center'}}>L</th>
-                              <th style={{textAlign:'center'}}>%</th>
-                              <th style={{textAlign:'center'}}>Pts</th>
+                              <th style={{ textAlign: 'center' }}>P</th>
+                              <th style={{ textAlign: 'center' }}>W</th>
+                              <th style={{ textAlign: 'center' }}>L</th>
+                              <th style={{ textAlign: 'center' }}>%</th>
+                              <th style={{ textAlign: 'center' }}>Pts</th>
                               <th>Form</th>
                             </tr>
                           </thead>
@@ -829,7 +829,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                                 <tr key={i} className={isTargetHome || isTargetAway ? 'highlight' : ''}>
                                   <td className="st-rank">{st.position}</td>
                                   <td className="st-team">
-                                    {st.team.logo && <img src={st.team.logo} className="st-logo" alt="" style={{width:16,height:16,marginRight:6,verticalAlign:'middle'}} />}
+                                    {st.team.logo && <img src={st.team.logo} className="st-logo" alt="" style={{ width: 16, height: 16, marginRight: 6, verticalAlign: 'middle' }} />}
                                     {st.team.name}
                                   </td>
                                   <td className="st-val">{st.games.played}</td>
@@ -838,7 +838,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                                   <td className="st-val">{st.games.win.percentage}</td>
                                   <td className="st-val st-pts">{st.points.for}-{st.points.against}</td>
                                   <td>
-                                    <div className="st-form" style={{display:'flex',gap:2,justifyContent:'flex-end'}}>
+                                    <div className="st-form" style={{ display: 'flex', gap: 2, justifyContent: 'flex-end' }}>
                                       {(st.form || '').split('').map((f, fi) => (
                                         <div key={fi} className={`st-f fm-res ${f}`}>{f}</div>
                                       ))}
@@ -922,8 +922,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         borderRadius: '8px',
                         background: smartEdge.signal === 'UNDER'
                           ? (smartEdge.tier === 'ULTRA'
-                              ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(15, 23, 42, 0.75) 100%)'
-                              : smartEdge.tier === 'ELITE'
+                            ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(15, 23, 42, 0.75) 100%)'
+                            : smartEdge.tier === 'ELITE'
                               ? 'linear-gradient(135deg, rgba(239, 68, 68, 0.20) 0%, rgba(15, 23, 42, 0.7) 100%)'
                               : 'linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)')
                           : 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)',
@@ -946,14 +946,14 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             {smartEdge.segment === 'NBA_MEN'
                               ? 'SMART EDGE — NBA MEN (48M) — 48-MIN PACE OVER'
                               : (smartEdge.segment === 'NCAA_MEN'
-                                  ? (smartEdge.tier === 'ULTRA' ? 'SMART EDGE — NCAA MEN (COLLEGE) — DISCORDANT SRS UNDER' : 'SMART EDGE — NCAA MEN (COLLEGE) — HIGH-LINE UNDER DISCIPLINE')
-                                  : (smartEdge.segment === 'NBA_GLEAGUE'
-                                      ? 'SMART EDGE — NBA G-LEAGUE — INFLATED TOTAL FADE'
-                                      : (smartEdge.signal === 'UNDER'
-                                          ? (smartEdge.tier === 'ULTRA'
-                                              ? 'SMART EDGE — DISCORDANT SRS DOMINANCE'
-                                              : 'SMART EDGE — DUAL MODEL CONSENSUS')
-                                          : 'SMART EDGE — OFFENSIVE BREAKOUT')))}
+                                ? (smartEdge.tier === 'ULTRA' ? 'SMART EDGE — NCAA MEN (COLLEGE) — DISCORDANT SRS UNDER' : 'SMART EDGE — NCAA MEN (COLLEGE) — HIGH-LINE UNDER DISCIPLINE')
+                                : (smartEdge.segment === 'NBA_GLEAGUE'
+                                  ? 'SMART EDGE — NBA G-LEAGUE — INFLATED TOTAL FADE'
+                                  : (smartEdge.signal === 'UNDER'
+                                    ? (smartEdge.tier === 'ULTRA'
+                                      ? 'SMART EDGE — DISCORDANT SRS DOMINANCE'
+                                      : 'SMART EDGE — DUAL MODEL CONSENSUS')
+                                    : 'SMART EDGE — OFFENSIVE BREAKOUT')))}
                           </div>
                           <div style={{
                             display: 'inline-flex',
@@ -1134,8 +1134,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         marginTop: '16px',
                         padding: '12px 16px',
                         borderRadius: '8px',
-                        background: isSharpOver 
-                          ? 'linear-gradient(135deg, rgba(234, 88, 12, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)' 
+                        background: isSharpOver
+                          ? 'linear-gradient(135deg, rgba(234, 88, 12, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)'
                           : 'linear-gradient(135deg, rgba(234, 179, 8, 0.15) 0%, rgba(15, 23, 42, 0.7) 100%)',
                         borderLeft: `4px solid ${isSharpOver ? '#ea580c' : '#eab308'}`,
                         borderTop: '1px solid rgba(255,255,255,0.08)',
@@ -1292,7 +1292,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                     <div className="ps-title">Match Winner (Poisson)</div>
                     <ProbabilityItem label={`${home_team} Win`} value={probs_1x2?.home || 0} color="home" />
                     <ProbabilityItem label={`${away_team} Win`} value={probs_1x2?.away || 0} color="away" />
-                    <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
+                    <div style={{ marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>
                       * Calculated Match Projections
                     </div>
                   </div>
@@ -1317,7 +1317,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       }
                       const hPlayer = formatPlayer(sdiH)
                       const aPlayer = formatPlayer(sdiA)
-                      
+
                       return (
                         <>
                           <div className="prob-outcome-row">
@@ -1362,7 +1362,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                         <>
                           <ProbabilityItem label={`${home_team} xPts / ${xpts_h.toFixed(1)}`} value={hp} color="goals" />
                           <ProbabilityItem label={`${away_team} xPts / ${xpts_a.toFixed(1)}`} value={ap} color="goals" />
-                          <div style={{marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic'}}>
+                          <div style={{ marginTop: 12, fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>
                             * Offensive &amp; Defensive Matrix
                           </div>
                         </>
