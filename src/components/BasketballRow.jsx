@@ -196,6 +196,9 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
 
   // Conference Tier Mismatch indicator — strictly NCAA leagues and Tier Gap >= 2
   const leagueName = (primary.league || consolidatedGame?.league || '').toUpperCase()
+  const rawLeague = primary.league || consolidatedGame?.league || ''
+  const rawCountry = primary.country || consolidatedGame?.country || ''
+  const leagueKey = rawCountry && rawCountry !== 'Other' ? `${rawCountry} — ${rawLeague}` : rawLeague
   const leagueId = Number(primary.league_id ?? consolidatedGame?.league_id ?? 0)
   const isNcaa = leagueName.includes('NCAA') || leagueId === 116 || leagueId === 423 || (leagueId >= 11600 && leagueId <= 11699) || (leagueId >= 42300 && leagueId <= 42399)
   const tierGap = primary.tier_gap ?? primary.conference_tier_gap ?? consolidatedGame?.tier_gap ?? consolidatedGame?.conference_tier_gap
@@ -208,6 +211,9 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
       loadSharedSignalStats(stats => setSignalStats(stats))
     }
   }, [signalStats])
+
+  const leagueWarnings = signalStats?.league_warnings || {}
+  const leagueWarning = leagueWarnings[leagueKey] || leagueWarnings[rawLeague]
 
   const clashData = signalStats?.clash
   const shootoutData = signalStats?.shootout
@@ -526,20 +532,30 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   fontSize: '9.5px',
                   lineHeight: 1,
                   fontWeight: 800,
-                  background: smartEdge.signal === 'UNDER'
-                    ? (smartEdge.tier === 'ULTRA' ? 'rgba(239, 68, 68, 0.25)' : smartEdge.tier === 'ELITE' ? 'rgba(239, 68, 68, 0.20)' : 'rgba(239, 68, 68, 0.15)')
-                    : 'rgba(16, 185, 129, 0.15)',
-                  color: smartEdge.signal === 'UNDER' ? '#ef4444' : '#10b981',
-                  border: smartEdge.signal === 'UNDER'
-                    ? (smartEdge.tier === 'ULTRA' ? '1px solid rgba(239, 68, 68, 0.6)' : smartEdge.tier === 'ELITE' ? '1px solid rgba(239, 68, 68, 0.45)' : '1px solid rgba(239, 68, 68, 0.35)')
-                    : '1px solid rgba(16, 185, 129, 0.35)',
+                  background: leagueWarning
+                    ? 'rgba(245, 158, 11, 0.18)'
+                    : (smartEdge.signal === 'UNDER'
+                        ? (smartEdge.tier === 'ULTRA' ? 'rgba(239, 68, 68, 0.25)' : smartEdge.tier === 'ELITE' ? 'rgba(239, 68, 68, 0.20)' : 'rgba(239, 68, 68, 0.15)')
+                        : 'rgba(16, 185, 129, 0.15)'),
+                  color: leagueWarning
+                    ? '#f59e0b'
+                    : (smartEdge.signal === 'UNDER' ? '#ef4444' : '#10b981'),
+                  border: leagueWarning
+                    ? '1px solid rgba(245, 158, 11, 0.5)'
+                    : (smartEdge.signal === 'UNDER'
+                        ? (smartEdge.tier === 'ULTRA' ? '1px solid rgba(239, 68, 68, 0.6)' : smartEdge.tier === 'ELITE' ? '1px solid rgba(239, 68, 68, 0.45)' : '1px solid rgba(239, 68, 68, 0.35)')
+                        : '1px solid rgba(16, 185, 129, 0.35)'),
                   borderRadius: '3px',
                   padding: '1px 5px',
                   cursor: 'help'
                 }}
-                title={`Smart Edge [${smartEdge.tier || 'STANDARD'}]: ${smartEdge.recommendation} (${smartEdge.trigger_label || smartEdge.recommendation}) · Benchmark: ${smartEdge.win_rate} · Buffer: ${smartEdge.buffer_tier || 'N/A'} · Conf: ${smartEdge.confidence_band || 'N/A'}`}
+                title={leagueWarning
+                  ? `⚠️ LEAGUE CAUTION (${leagueWarning.win_rate.toFixed(1)}% WR): ${leagueWarning.reason} (Benchmark: ${leagueWarning.threshold_pct}% WR) · Clears automatically when grading improves.`
+                  : `Smart Edge [${smartEdge.tier || 'STANDARD'}]: ${smartEdge.recommendation} (${smartEdge.trigger_label || smartEdge.recommendation}) · Benchmark: ${smartEdge.win_rate} · Buffer: ${smartEdge.buffer_tier || 'N/A'} · Conf: ${smartEdge.confidence_band || 'N/A'}`}
               >
+                {leagueWarning ? '⚠️ ' : ''}
                 {smartEdge.signal === 'UNDER' ? '📉 Smart Under' : '📈 Smart Over'}
+                {leagueWarning ? ' [RISK]' : ''}
               </span>
             )}
             {isMismatch && (
@@ -1021,6 +1037,28 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                             </div>
                           </div>
                         </div>
+
+                        {leagueWarning && (
+                          <div style={{
+                            background: 'rgba(245, 158, 11, 0.12)',
+                            border: '1px solid rgba(245, 158, 11, 0.4)',
+                            borderRadius: '6px',
+                            padding: '8px 12px',
+                            marginBottom: '10px',
+                            color: '#fde68a',
+                            fontSize: '11px',
+                            lineHeight: '1.45'
+                          }}>
+                            <div style={{ fontWeight: 800, color: '#f59e0b', display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '3px' }}>
+                              <span style={{ fontSize: '13px' }}>⚠️</span>
+                              <span>AUTOMATED LEAGUE CAUTION: {leagueWarning.win_rate.toFixed(1)}% WR (Below {leagueWarning.threshold_pct}% Threshold)</span>
+                            </div>
+                            <div style={{ color: '#e2e8f0' }}>
+                              {leagueWarning.reason} (Current graded record: <b>{leagueWarning.hits}/{leagueWarning.sample} hits</b>, net {leagueWarning.net_units > 0 ? `+${leagueWarning.net_units}` : leagueWarning.net_units}u). 
+                              This dynamic flag self-regulates and will automatically clear once this league's graded win rate improves to {leagueWarning.threshold_pct}% or higher.
+                            </div>
+                          </div>
+                        )}
 
                         <div style={{ color: '#cbd5e1', fontSize: '11px', lineHeight: '1.45' }}>
                           {smartEdge.segment === 'NBA_MEN' ? (
