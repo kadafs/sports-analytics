@@ -538,16 +538,16 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                   background: leagueWarning
                     ? 'rgba(245, 158, 11, 0.18)'
                     : (smartEdge.signal === 'UNDER'
-                        ? (smartEdge.tier === 'ULTRA' ? 'rgba(239, 68, 68, 0.25)' : smartEdge.tier === 'ELITE' ? 'rgba(239, 68, 68, 0.20)' : 'rgba(239, 68, 68, 0.15)')
-                        : 'rgba(16, 185, 129, 0.15)'),
+                      ? (smartEdge.tier === 'ULTRA' ? 'rgba(239, 68, 68, 0.25)' : smartEdge.tier === 'ELITE' ? 'rgba(239, 68, 68, 0.20)' : 'rgba(239, 68, 68, 0.15)')
+                      : 'rgba(16, 185, 129, 0.15)'),
                   color: leagueWarning
                     ? '#f59e0b'
                     : (smartEdge.signal === 'UNDER' ? '#ef4444' : '#10b981'),
                   border: leagueWarning
                     ? '1px solid rgba(245, 158, 11, 0.5)'
                     : (smartEdge.signal === 'UNDER'
-                        ? (smartEdge.tier === 'ULTRA' ? '1px solid rgba(239, 68, 68, 0.6)' : smartEdge.tier === 'ELITE' ? '1px solid rgba(239, 68, 68, 0.45)' : '1px solid rgba(239, 68, 68, 0.35)')
-                        : '1px solid rgba(16, 185, 129, 0.35)'),
+                      ? (smartEdge.tier === 'ULTRA' ? '1px solid rgba(239, 68, 68, 0.6)' : smartEdge.tier === 'ELITE' ? '1px solid rgba(239, 68, 68, 0.45)' : '1px solid rgba(239, 68, 68, 0.35)')
+                      : '1px solid rgba(16, 185, 129, 0.35)'),
                   borderRadius: '3px',
                   padding: '1px 5px',
                   cursor: 'help'
@@ -1057,7 +1057,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                               <span>AUTOMATED LEAGUE CAUTION: {leagueWarning.win_rate.toFixed(1)}% WR (Below {leagueWarning.threshold_pct}% Threshold)</span>
                             </div>
                             <div style={{ color: '#e2e8f0' }}>
-                              {leagueWarning.reason} (Current graded record: <b>{leagueWarning.hits}/{leagueWarning.sample} hits</b>, net {leagueWarning.net_units > 0 ? `+${leagueWarning.net_units}` : leagueWarning.net_units}u). 
+                              {leagueWarning.reason} (Current graded record: <b>{leagueWarning.hits}/{leagueWarning.sample} hits</b>, net {leagueWarning.net_units > 0 ? `+${leagueWarning.net_units}` : leagueWarning.net_units}u).
                               This dynamic flag self-regulates and will automatically clear once this league's graded win rate improves to {leagueWarning.threshold_pct}% or higher.
                             </div>
                           </div>
