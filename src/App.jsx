@@ -108,50 +108,50 @@ function groupByLeague(predictions, sport) {
 const LEAGUE_PRIORITY = {
   // Tier 1: Continental (UEFA / CONMEBOL)
   2: 1, 3: 2, 848: 3, 13: 4, 11: 5, 10: 6,
-  
+
   // Tier 2: Premier League
   39: 10,
-  
+
   // Tier 3: Elite Europe
   140: 20, 135: 21, 78: 22,
-  
+
   // Tier 4: Ligue 1 & Major European Sub-Elite + Championship & MLS
   61: 30, 40: 31, 253: 32, 88: 33, 94: 34,
-  
+
   // Tier 5: Top 5 Domestic Cups
   45: 40, 48: 41, 143: 42, 137: 43, 81: 44, 66: 45, 529: 46,
-  
+
   // Tier 6: High-End Europe + Russia Premier
   144: 50, 203: 51, 179: 52, 218: 53, 207: 54, 197: 55, 345: 56, 235: 57,
-  
+
   // Tier 7: Mid-Tier Europe WITH corners/bookings stats (API-confirmed quality)
   119: 60, 113: 61, 103: 62, 210: 63, 285: 64, 106: 65, 283: 66, 89: 67,
   244: 68, 172: 69, 145: 70, 271: 71, 286: 72, 204: 73, 116: 74, 357: 75, 332: 76, 333: 77, 318: 78,
-  
+
   // Tier 8: Top 5 Second Divisions + Quality 2nd Tiers with stats
   141: 81, 136: 82, 79: 83, 62: 84, 41: 86, 95: 87, 114: 88,
-  
+
   // Tier 9: Elite Americas (all with corners/bookings stats)
   71: 90, 73: 91, 128: 92, 239: 93, 242: 94, 265: 95, 268: 96, 72: 97, 281: 98, 250: 99, 344: 100, 16: 101,
-  
+
   // Tier 10: North America
   262: 105, 772: 107, 479: 108,
-  
+
   // Tier 11: Emerging / Cash Leagues
   307: 112,
-  
+
   // Tier 12: Asia, Africa & Middle East (with stats coverage)
   98: 120, 292: 121, 188: 122, 169: 123, 288: 124, 301: 125, 305: 126, 233: 127,
-  
+
   // Tier 13: Lower / Cups / Historical
   254: 133, 237: 134, 252: 135,
-  
+
   // Tier 14: Regional 2nd Divisions
   134: 140, 236: 141, 42: 142, 46: 143, 80: 144,  // Germany 3. Liga (3rd Tier)
-  
+
   // Tier 15: Women's Leagues
   549: 150,
-  
+
   // Tier 16: Regional / State Leagues
   1035: 160, 1232: 161, 1168: 162
 }
@@ -215,7 +215,7 @@ function sortGroups(groups, sortBy, sport = 'football', leaderboard = []) {
       return best(b) - best(a)
     })
   }
-  
+
   // Football Smart Competition Sort: Top tiers & marquee pinned, rest sorted by BTTS Edge/ROI
   if (sport === 'football') {
     const lbMap = new Map()
@@ -367,10 +367,10 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
   const seg = p.league_segment || classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
   const segLabel = p.league_segment_label || (
     seg === 'NBA_MEN' ? 'NBA Men (48m)' :
-    seg === 'NCAA_MEN' ? 'NCAA Men (College)' :
-    seg === 'NBA_GLEAGUE' ? 'NBA G-League' :
-    seg === 'ASIA' ? 'Asian Leagues' :
-    seg === 'WOMEN' ? "Women's Basketball" : 'FIBA Core (40m)'
+      seg === 'NCAA_MEN' ? 'NCAA Men (College)' :
+        seg === 'NBA_GLEAGUE' ? 'NBA G-League' :
+          seg === 'ASIA' ? 'Asian Leagues' :
+            seg === 'WOMEN' ? "Women's Basketball" : 'FIBA Core (40m)'
   )
 
   // ROUTE 1: WOMEN & ASIA -> Parked from Smart Edge
@@ -568,7 +568,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
   return predictions.filter(p => {
     if (hidePlayoffs && isPlayoffGame(p.stage)) return false
     if (filterWomen === 'women' && !isWomensLeague(p.league)) return false
-    if (filterWomen === 'men'   &&  isWomensLeague(p.league)) return false
+    if (filterWomen === 'men' && isWomensLeague(p.league)) return false
 
     // League Segment Filter (Basketball only)
     if (sport === 'basketball' && filterSegment !== 'all') {
@@ -581,7 +581,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       if (sport === 'basketball') {
         const mkt = p.market_total
         const mdl = p.model_total
-        const mbet = p.mbet_threshold || 12.0
+        const mbet = p.mbet_threshold || 6.5
         // High-Conviction MBET Policy: Only trigger plays when edge clears HIGH threshold (mbet + 1.5)
         const isHighEdge = (mkt && mdl && mkt > 50 && Math.abs(mdl - mkt) >= (mbet + 1.5)) || p.confidence === 'HIGH'
         const isUnderPlay = isHighEdge && (pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= (mbet + 1.5)))
@@ -604,8 +604,8 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     }
     if (outcome !== 'all' && p.outcome_decision && !p.outcome_decision.startsWith(outcome)) return false
     if (outcome !== 'all' && !p.outcome_decision) return false
-    
-    if (country  !== 'all' && p.country        !== country)  return false
+
+    if (country !== 'all' && p.country !== country) return false
     if (sport === 'football' && drawMin !== 0) {
       if (drawMin === -1) {
         // Smart Draw Mode (100% Pure Mathematics - Zero Bookmaker Dependency):
@@ -632,7 +632,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (modelDrawProb < drawMin) return false
       }
     }
-    
+
     if (sport === 'football' && filterShots !== 'all') {
       const shots = p.shots || {}
       const shTier = shots.shots_confidence_tier || ''
@@ -669,7 +669,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (expCorners == null || expCorners >= 9.5) return false
       }
     }
-    
+
     if (sport === 'football' && filterBttsHitRate > 0) {
       // Filter 1: Poisson model probability >= selected threshold
       if ((p.btts_prob ?? 0) < filterBttsHitRate) return false
@@ -679,13 +679,13 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       // If either team has >= 3 graded games, accuracy must be >= 70%.
       if (teamLbMap.size > 0) {
         const TEAM_MIN_PLAYS = 3
-        const TEAM_HIT_RATE  = filterBttsHitRate
+        const TEAM_HIT_RATE = filterBttsHitRate
         const homeStats = teamLbMap.get(`${p.league_id}__${(p.home_team || '').toLowerCase()}`)
         const awayStats = teamLbMap.get(`${p.league_id}__${(p.away_team || '').toLowerCase()}`)
         const hPlays = homeStats?.btts_plays ?? 0
         const aPlays = awayStats?.btts_plays ?? 0
-        const hRate  = homeStats?.btts_hit_rate ?? 100
-        const aRate  = awayStats?.btts_hit_rate ?? 100
+        const hRate = homeStats?.btts_hit_rate ?? 100
+        const aRate = awayStats?.btts_hit_rate ?? 100
 
         // Must have at least one team with >= 3 games on record
         if (hPlays < TEAM_MIN_PLAYS && aPlays < TEAM_MIN_PLAYS) return false
@@ -695,7 +695,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (aPlays >= TEAM_MIN_PLAYS && aRate < TEAM_HIT_RATE) return false
       }
     }
-    
+
     if (sport === 'football' && filterO25 > 0) {
       const o25Prob = (p.match_center || {}).over_2_5_prob ?? p.over_2_5_prob ?? 0
       if (o25Prob < filterO25) return false
@@ -727,7 +727,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (gamesH < filterMinGames || gamesA < filterMinGames) return false
       }
     }
-    
+
     // MAPE Filter -- league-level accuracy check (Basketball only)
     if (sport === 'basketball' && maxMape < 100) {
       const stats = leaderboard.find(x => (p.league_id && x.league_id === p.league_id) || x.name === `${p.country?.toUpperCase()} — ${p.league?.toUpperCase()}`)
@@ -778,7 +778,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       const gradedA = p.graded_a ?? 0
       if (gradedH < 3 || gradedA < 3) return false
     }
-    
+
     // Smart Edge Filter (Basketball only)
     // Historical Audit Restructure:
     // 1. Strong+ Buffer + Solid / High / Elite Confidence ==> 📉 BET FULL-TIME UNDER (58% – 64% WR)
@@ -871,38 +871,38 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 }
 
 export default function App() {
-  const [sport,         setSport]         = useState('basketball')
-  const [dates,         setDates]         = useState([])   // [{date,graded,...}]
-  const [selectedDate,  setSelectedDate]  = useState(null)
-  const [data,          setData]          = useState(null)
-  const [loading,       setLoading]       = useState(false)
-  const [error,         setError]         = useState(null)
-  const [sortBy,        setSortBy]        = useState('competition')
-  const [filterDecision,setFilterDecision]= useState('all')
+  const [sport, setSport] = useState('basketball')
+  const [dates, setDates] = useState([])   // [{date,graded,...}]
+  const [selectedDate, setSelectedDate] = useState(null)
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+  const [sortBy, setSortBy] = useState('competition')
+  const [filterDecision, setFilterDecision] = useState('all')
   const [filterOutcome, setFilterOutcome] = useState('all')
-  const [filterCorner,  setFilterCorner]  = useState('all')
-  const [filterShots,   setFilterShots]   = useState('all') // 'all' | 'plays' | 'over' | 'under' | 'exp_high' | 'exp_low'
+  const [filterCorner, setFilterCorner] = useState('all')
+  const [filterShots, setFilterShots] = useState('all') // 'all' | 'plays' | 'over' | 'under' | 'exp_high' | 'exp_low'
   const [filterCountry, setFilterCountry] = useState('all')
-  const [filterDraw,    setFilterDraw]    = useState(0)    // min draw_prob_1x2 threshold
+  const [filterDraw, setFilterDraw] = useState(0)    // min draw_prob_1x2 threshold
   const [filterBttsHitRate, setFilterBttsHitRate] = useState(0) // min BTTS hit rate percentage
-  const [filterO25,     setFilterO25]     = useState(0)    // min Over 2.5 probability percentage
-  const [filterHsh,     setFilterHsh]     = useState('all') // 'all' | 'plays' | '2h' | '1h'
-  const [filterMape,    setFilterMape]    = useState(100)  // max error percentage
+  const [filterO25, setFilterO25] = useState(0)    // min Over 2.5 probability percentage
+  const [filterHsh, setFilterHsh] = useState('all') // 'all' | 'plays' | '2h' | '1h'
+  const [filterMape, setFilterMape] = useState(100)  // max error percentage
   const [filterConfidence, setFilterConfidence] = useState('all') // 'all' | '[HIGH]' | '[MODERATE]+'
-  const [filterBuffer,     setFilterBuffer]     = useState('all') // 'all' | '[STRONG]+' | '[ELITE BUFFER]' | '[STRONG BUFFER]' | '[NEUTRAL]' | '[AVOID]'
-  const [filterMinGames,   setFilterMinGames]   = useState(0)     // 0 = all, 3 = min 3+ games
-  const [filterWomen,   setFilterWomen]   = useState('all') // 'all' | 'women' | 'men'
-  const [hidePlayoffs,  setHidePlayoffs]  = useState(false) // true = hide playoff games
+  const [filterBuffer, setFilterBuffer] = useState('all') // 'all' | '[STRONG]+' | '[ELITE BUFFER]' | '[STRONG BUFFER]' | '[NEUTRAL]' | '[AVOID]'
+  const [filterMinGames, setFilterMinGames] = useState(0)     // 0 = all, 3 = min 3+ games
+  const [filterWomen, setFilterWomen] = useState('all') // 'all' | 'women' | 'men'
+  const [hidePlayoffs, setHidePlayoffs] = useState(false) // true = hide playoff games
   const [smartEdgeFilter, setSmartEdgeFilter] = useState(false) // 🎯 Smart Edge filter
   const [filterClash, setFilterClash] = useState(false) // ⚡ Clash Under filter
   const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
   const [filterDragDown, setFilterDragDown] = useState(false) // ⚓ Drag-Down Under filter
-  const [filterSDI,      setFilterSDI]      = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
+  const [filterSDI, setFilterSDI] = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
   const [filterNormalEdge, setFilterNormalEdge] = useState('all') // 📏 Normal Edge filter: all | 3 | 4 | 5 | 7 | 10 | 15 | over_4 | under_4
-  const [filterSegment,    setFilterSegment]    = useState('all') // 'all' | 'FIBA_CORE' | 'NBA_MEN' | 'NCAA_MEN' | 'NBA_GLEAGUE' | 'ASIA' | 'WOMEN'
-  
+  const [filterSegment, setFilterSegment] = useState('all') // 'all' | 'FIBA_CORE' | 'NBA_MEN' | 'NCAA_MEN' | 'NBA_GLEAGUE' | 'ASIA' | 'WOMEN'
+
   // High-level App View Mode 
-  const [viewMode,      setViewMode]      = useState('matches') // 'matches' | 'teams' | 'live'
+  const [viewMode, setViewMode] = useState('matches') // 'matches' | 'teams' | 'live'
 
   const [compactMode, setCompactMode] = useState(true)
 
@@ -926,10 +926,10 @@ export default function App() {
       return next
     })
   }
-  
-  const [leaderboard,   setLeaderboard]   = useState([])
+
+  const [leaderboard, setLeaderboard] = useState([])
   const [teamLeaderboard, setTeamLeaderboard] = useState([])
-  const [sdiIndex,        setSdiIndex]        = useState({}) // team_name -> sdi record
+  const [sdiIndex, setSdiIndex] = useState({}) // team_name -> sdi record
   const [showScrollTop, setShowScrollTop] = useState(false)
 
   useEffect(() => {
@@ -948,7 +948,7 @@ export default function App() {
     let isActive = true
     setLoading(true)
     fetchDates(sport)
-      .then(d => { 
+      .then(d => {
         if (!isActive) return
         setDates(d)
         if (d.length > 0) {
@@ -999,11 +999,11 @@ export default function App() {
         setError(`Could not fetch ${sport} dates.`)
         setLoading(false)
       })
-      
+
     fetchLeaderboard(sport)
       .then(d => { if (isActive) setLeaderboard(d) })
       .catch(e => console.warn(`Could not fetch ${sport} leaderboard:`, e))
-      
+
     fetchTeamLeaderboard(sport)
       .then(d => { if (isActive) setTeamLeaderboard(d) })
       .catch(e => console.warn(`Could not fetch ${sport} team leaderboard:`, e))
@@ -1020,16 +1020,16 @@ export default function App() {
   useEffect(() => {
     if (!selectedDate) return
     let isActive = true
-    setLoading(true); setError(null); 
+    setLoading(true); setError(null);
     fetchPredictions(selectedDate, sport)
-      .then(d => { 
+      .then(d => {
         if (isActive) {
-          setData(d); setLoading(false) 
+          setData(d); setLoading(false)
         }
       })
-      .catch(e => { 
+      .catch(e => {
         if (isActive) {
-          setError(e.message); setLoading(false) 
+          setError(e.message); setLoading(false)
         }
       })
     return () => { isActive = false }
@@ -1052,18 +1052,18 @@ export default function App() {
 
   const counts = useMemo(() => {
     if (sport === 'football') {
-      const yes    = filtered.filter(p => p.btts_decision === 'PLAY YES').length
-      const no     = filtered.filter(p => p.btts_decision === 'PLAY NO' || p.btts_decision === '[STRONG] PLAY NO').length
+      const yes = filtered.filter(p => p.btts_decision === 'PLAY YES').length
+      const no = filtered.filter(p => p.btts_decision === 'PLAY NO' || p.btts_decision === '[STRONG] PLAY NO').length
       const strong = filtered.filter(p => p.btts_decision === '[STRONG] PLAY NO').length
-      const pass   = filtered.filter(p => p.btts_decision === 'PASS').length
+      const pass = filtered.filter(p => p.btts_decision === 'PASS').length
       return { total: filtered.length, yes, no, strong, pass }
     } else {
-      const isHighOver = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.model_total - p.market_total) >= ((p.mbet_threshold || 12.0) + 1.5)) || (p.decision === 'PLAY OVER' && p.confidence === 'HIGH'))
-      const isHighUnder = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.market_total - p.model_total) >= ((p.mbet_threshold || 12.0) + 1.5)) || (p.decision === 'PLAY UNDER' && p.confidence === 'HIGH'))
-      const yes    = filtered.filter(isHighOver).length
-      const no     = filtered.filter(isHighUnder).length
+      const isHighOver = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.model_total - p.market_total) >= ((p.mbet_threshold || 6.5) + 1.5)) || (p.decision === 'PLAY OVER' && p.confidence === 'HIGH'))
+      const isHighUnder = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.market_total - p.model_total) >= ((p.mbet_threshold || 6.5) + 1.5)) || (p.decision === 'PLAY UNDER' && p.confidence === 'HIGH'))
+      const yes = filtered.filter(isHighOver).length
+      const no = filtered.filter(isHighUnder).length
       const strong = filtered.filter(p => (p.edge ?? 0) > 5.0).length
-      const pass   = filtered.filter(p => !isHighOver(p) && !isHighUnder(p)).length
+      const pass = filtered.filter(p => !isHighOver(p) && !isHighUnder(p)).length
       // Count unique fixtures (not raw predictions which may include both models)
       const matchSet = new Set(filtered.map(p => `${p.home_team}||${p.away_team}||${p.time}`))
       return { total: matchSet.size, yes, no, strong, pass }
@@ -1071,26 +1071,26 @@ export default function App() {
   }, [filtered, sport])
 
   // Is this date graded at all (partially or fully)?
-  const dateInfo    = dates.find(d => d.date === selectedDate)
-  const hasGrading  = (dateInfo?.graded_count ?? 0) > 0
+  const dateInfo = dates.find(d => d.date === selectedDate)
+  const hasGrading = (dateInfo?.graded_count ?? 0) > 0
 
   return (
     <div className={`app ${compactMode ? 'compact-mode' : ''}`}>
-      <Header 
-        dates={dates} 
-        selected={selectedDate} 
-        onSelect={setSelectedDate} 
+      <Header
+        dates={dates}
+        selected={selectedDate}
+        onSelect={setSelectedDate}
         sport={sport}
-        setSport={(s) => { 
-          setSport(s); 
+        setSport={(s) => {
+          setSport(s);
           setData(null);
           setError(null);
           setFilterDecision('all');
           setFilterOutcome('all');
-            setFilterCorner('all');
-          setFilterShots('all'); 
-          setFilterCountry('all'); 
-          setFilterDraw(0); 
+          setFilterCorner('all');
+          setFilterShots('all');
+          setFilterCountry('all');
+          setFilterDraw(0);
           setFilterBttsHitRate(0);
           setFilterO25(0);
           setFilterHsh('all');
@@ -1105,7 +1105,7 @@ export default function App() {
           setFilterShootout(false);
           setFilterDragDown(false);
           setFilterNormalEdge('all');
-            setFilterSegment('all');
+          setFilterSegment('all');
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -1530,7 +1530,7 @@ export default function App() {
         </div>
 
         {loading && <div className="loading">⚽ Loading predictions…</div>}
-        {error   && <div className="empty-state"><div className="icon">❌</div><p>{error}</p></div>}
+        {error && <div className="empty-state"><div className="icon">❌</div><p>{error}</p></div>}
         {!loading && !error && viewMode === 'matches' && groups.length === 0 && data && (
           <div className="empty-state"><div className="icon">📭</div><p>No predictions match your filters.</p></div>
         )}
@@ -1547,15 +1547,15 @@ export default function App() {
           <div className="predictions-table">
             {groups.map(g => {
               const stats = leaderboard.find(x => (g.league_id && x.league_id === g.league_id) || x.name === `${g.country?.toUpperCase()} — ${g.league?.toUpperCase()}`)
-              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{...g, stats}} sport={sport} teamLeaderboard={teamLeaderboard} />
+              return <LeagueGroup key={`${g.league_id}-${g.league}`} group={{ ...g, stats }} sport={sport} teamLeaderboard={teamLeaderboard} />
             })}
           </div>
         )}
 
 
         {/* Scroll to Top Button */}
-        <button 
-          className={`scroll-top-btn ${showScrollTop ? 'visible' : ''}`} 
+        <button
+          className={`scroll-top-btn ${showScrollTop ? 'visible' : ''}`}
           onClick={scrollToTop}
           title="Go to top"
         >

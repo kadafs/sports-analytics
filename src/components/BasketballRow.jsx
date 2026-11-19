@@ -353,7 +353,7 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     activeMktDelta = seOverData?.avg_market_delta ?? 5.7
   }
 
-  const mbetThresh = primary.mbet_threshold || 12.0
+  const mbetThresh = primary.mbet_threshold || 6.5
   // High-Conviction MBET Policy: Only highlight plays when edge clears HIGH threshold (mbet + 1.5)
   const isHighEdgeUnder = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (mbetThresh + 1.5)) || (decision === 'PLAY UNDER' && primary.confidence === 'HIGH')
   const isHighEdgeOver = (decision === 'PLAY OVER' && primary.confidence === 'HIGH') || Boolean(market_total && model_total && (model_total - market_total) >= (mbetThresh + 1.5))
