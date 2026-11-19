@@ -582,8 +582,10 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         const mkt = p.market_total
         const mdl = p.model_total
         const mbet = p.mbet_threshold || 4.0
-        const isUnderPlay = pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= mbet)
-        const isOverPlay = pDecision === 'PLAY OVER'
+        // High-Conviction MBET Policy: Only trigger plays when edge clears HIGH threshold (mbet + 1.5)
+        const isHighEdge = (mkt && mdl && mkt > 50 && Math.abs(mdl - mkt) >= (mbet + 1.5)) || p.confidence === 'HIGH'
+        const isUnderPlay = isHighEdge && (pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= (mbet + 1.5)))
+        const isOverPlay = isHighEdge && (pDecision === 'PLAY OVER' || Boolean(mkt && mdl && (mdl - mkt) >= (mbet + 1.5)))
 
         if (decision === 'plays') {
           if (!isOverPlay && !isUnderPlay) return false
@@ -1292,10 +1294,10 @@ export default function App() {
 
               <select className="filter-select" style={{ width: '165px' }} value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
                 <option value="all">MBET Edge: All</option>
-                <option value="plays">🎯 Plays (Clears MBET)</option>
-                <option value="PLAY OVER">🟢 PLAY OVER</option>
-                <option value="PLAY UNDER">🔴 PLAY UNDER</option>
-                <option value="PASS">⚪ PASS / Below MBET</option>
+                <option value="plays">🎯 High Edge Plays</option>
+                <option value="PLAY OVER">🟢 PLAY OVER (High)</option>
+                <option value="PLAY UNDER">🔴 PLAY UNDER (High)</option>
+                <option value="PASS">⚪ PASS / Below High MBET</option>
               </select>
 
               <select

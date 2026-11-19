@@ -353,8 +353,11 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
     activeMktDelta = seOverData?.avg_market_delta ?? 5.7
   }
 
-  const isUnderMbetPlay = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (primary.mbet_threshold || 4.0))
-  const effectiveDecision = decision === 'PLAY UNDER' || isUnderMbetPlay ? 'PLAY UNDER' : decision
+  const mbetThresh = primary.mbet_threshold || 4.0
+  // High-Conviction MBET Policy: Only highlight plays when edge clears HIGH threshold (mbet + 1.5)
+  const isHighEdgeUnder = Boolean(market_total && model_total && market_total > 50 && (market_total - model_total) >= (mbetThresh + 1.5)) || (decision === 'PLAY UNDER' && primary.confidence === 'HIGH')
+  const isHighEdgeOver = (decision === 'PLAY OVER' && primary.confidence === 'HIGH') || Boolean(market_total && model_total && (model_total - market_total) >= (mbetThresh + 1.5))
+  const effectiveDecision = isHighEdgeUnder ? 'PLAY UNDER' : (isHighEdgeOver ? 'PLAY OVER' : 'PASS')
   const bookmakerName = primary.bookmaker || (primary.odds_source && primary.odds_source !== 'BASELINE' && primary.odds_source !== 'AVERAGE' ? primary.odds_source : null)
 
   const getStabilityColor = (volatility) => {
