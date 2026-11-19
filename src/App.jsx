@@ -1058,10 +1058,12 @@ export default function App() {
       const pass   = filtered.filter(p => p.btts_decision === 'PASS').length
       return { total: filtered.length, yes, no, strong, pass }
     } else {
-      const yes    = filtered.filter(p => p.decision === 'PLAY OVER').length
-      const no     = filtered.filter(p => p.decision === 'PLAY UNDER').length
+      const isHighOver = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.model_total - p.market_total) >= ((p.mbet_threshold || 4.0) + 1.5)) || (p.decision === 'PLAY OVER' && p.confidence === 'HIGH'))
+      const isHighUnder = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.market_total - p.model_total) >= ((p.mbet_threshold || 4.0) + 1.5)) || (p.decision === 'PLAY UNDER' && p.confidence === 'HIGH'))
+      const yes    = filtered.filter(isHighOver).length
+      const no     = filtered.filter(isHighUnder).length
       const strong = filtered.filter(p => (p.edge ?? 0) > 5.0).length
-      const pass   = filtered.filter(p => p.decision === 'PASS' || p.decision === 'MODEL ONLY').length
+      const pass   = filtered.filter(p => !isHighOver(p) && !isHighUnder(p)).length
       // Count unique fixtures (not raw predictions which may include both models)
       const matchSet = new Set(filtered.map(p => `${p.home_team}||${p.away_team}||${p.time}`))
       return { total: matchSet.size, yes, no, strong, pass }
