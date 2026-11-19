@@ -581,7 +581,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       if (sport === 'basketball') {
         const mkt = p.market_total
         const mdl = p.model_total
-        const mbet = p.mbet_threshold || 4.0
+        const mbet = p.mbet_threshold || 12.0
         // High-Conviction MBET Policy: Only trigger plays when edge clears HIGH threshold (mbet + 1.5)
         const isHighEdge = (mkt && mdl && mkt > 50 && Math.abs(mdl - mkt) >= (mbet + 1.5)) || p.confidence === 'HIGH'
         const isUnderPlay = isHighEdge && (pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= (mbet + 1.5)))
@@ -1058,8 +1058,8 @@ export default function App() {
       const pass   = filtered.filter(p => p.btts_decision === 'PASS').length
       return { total: filtered.length, yes, no, strong, pass }
     } else {
-      const isHighOver = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.model_total - p.market_total) >= ((p.mbet_threshold || 4.0) + 1.5)) || (p.decision === 'PLAY OVER' && p.confidence === 'HIGH'))
-      const isHighUnder = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.market_total - p.model_total) >= ((p.mbet_threshold || 4.0) + 1.5)) || (p.decision === 'PLAY UNDER' && p.confidence === 'HIGH'))
+      const isHighOver = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.model_total - p.market_total) >= ((p.mbet_threshold || 12.0) + 1.5)) || (p.decision === 'PLAY OVER' && p.confidence === 'HIGH'))
+      const isHighUnder = p => Boolean((p.market_total && p.model_total && p.market_total > 50 && (p.market_total - p.model_total) >= ((p.mbet_threshold || 12.0) + 1.5)) || (p.decision === 'PLAY UNDER' && p.confidence === 'HIGH'))
       const yes    = filtered.filter(isHighOver).length
       const no     = filtered.filter(isHighUnder).length
       const strong = filtered.filter(p => (p.edge ?? 0) > 5.0).length
