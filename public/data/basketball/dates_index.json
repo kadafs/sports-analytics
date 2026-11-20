@@ -1,27 +1,45 @@
 {
   "dates": [
     {
-      "date": "2026-11-20_v2",
-      "total": 189,
+      "date": "2026-11-21_v2",
+      "total": 445,
       "graded": false,
       "graded_count": 0,
       "grade_summary": null
     },
     {
+      "date": "2026-11-20_v2",
+      "total": 194,
+      "graded": true,
+      "graded_count": 82,
+      "grade_summary": {
+        "[  SRS   ]": {
+          "wins": 41,
+          "total": 61,
+          "pct": 67.2
+        },
+        "[ADVANCED]": {
+          "wins": 8,
+          "total": 21,
+          "pct": 38.1
+        }
+      }
+    },
+    {
       "date": "2026-11-19_v2",
       "total": 183,
       "graded": true,
-      "graded_count": 137,
+      "graded_count": 181,
       "grade_summary": {
         "[  SRS   ]": {
-          "wins": 69,
-          "total": 99,
-          "pct": 69.7
+          "wins": 91,
+          "total": 136,
+          "pct": 66.9
         },
         "[ADVANCED]": {
-          "wins": 25,
-          "total": 38,
-          "pct": 65.8
+          "wins": 26,
+          "total": 45,
+          "pct": 57.8
         }
       }
     },
@@ -112,24 +130,6 @@
           "wins": 82,
           "total": 130,
           "pct": 63.1
-        }
-      }
-    },
-    {
-      "date": "2026-11-13_v2",
-      "total": 196,
-      "graded": true,
-      "graded_count": 191,
-      "grade_summary": {
-        "[ADVANCED]": {
-          "wins": 33,
-          "total": 54,
-          "pct": 61.1
-        },
-        "[  SRS   ]": {
-          "wins": 97,
-          "total": 137,
-          "pct": 70.8
         }
       }
     }

@@ -1399,64 +1399,6 @@ export default function App() {
                 {hidePlayoffs ? '❌ Playoffs Hidden' : '🏆 Playoffs Included'}
               </button>
 
-              {(() => {
-                let btnText = '🎯 Smart Edge'
-                let btnBg = '#f8fafc'
-                let btnColor = '#64748b'
-                let btnBorder = '#e2e8f0'
-                let btnTitle = 'Smart Edge: Multi-Engine System · Click to cycle (ALL → 📉 UNDER → 📈 OVER → OFF)'
-
-                if (smartEdgeFilter === 'all' || smartEdgeFilter === true) {
-                  btnText = '🎯 Smart Edge: ALL'
-                  btnBg = '#fef9c3'
-                  btnColor = '#854d0e'
-                  btnBorder = '#fef08a'
-                  btnTitle = 'Smart Edge [ALL]: Multi-Engine System · 📉 Under (74%–88% WR) & 📈 Over (61%–70% WR)'
-                } else if (smartEdgeFilter === 'under') {
-                  btnText = '📉 Smart UNDER'
-                  btnBg = 'rgba(239, 68, 68, 0.12)'
-                  btnColor = '#dc2626'
-                  btnBorder = 'rgba(239, 68, 68, 0.35)'
-                  btnTitle = 'Smart Edge [UNDER]: Multi-Engine Under (Discordant SRS 88%, Dual Consensus 74%–76%)'
-                } else if (smartEdgeFilter === 'over') {
-                  btnText = '📈 Smart OVER'
-                  btnBg = 'rgba(16, 185, 129, 0.12)'
-                  btnColor = '#059669'
-                  btnBorder = 'rgba(16, 185, 129, 0.35)'
-                  btnTitle = 'Smart Edge [OVER]: Strong+ Buffer + Low/Avoid Confidence (61%–70% Full-Time Over WR)'
-                }
-
-                return (
-                  <button
-                    onClick={() => {
-                      let next = 'all'
-                      if (smartEdgeFilter === 'all' || smartEdgeFilter === true) next = 'under'
-                      else if (smartEdgeFilter === 'under') next = 'over'
-                      else if (smartEdgeFilter === 'over') next = 'off'
-                      else next = 'all'
-
-                      setSmartEdgeFilter(next)
-                      if (next !== 'off') {
-                        setFilterWomen('all') // Ensure we see both men and women to see the full Smart Edge board
-                      }
-                    }}
-                    style={{
-                      padding: '4px 10px',
-                      fontSize: 12,
-                      fontWeight: 800,
-                      borderRadius: 6,
-                      border: `1px solid ${btnBorder}`,
-                      cursor: 'pointer',
-                      background: btnBg,
-                      color: btnColor,
-                      transition: 'all 0.15s'
-                    }}
-                    title={btnTitle}
-                  >
-                    {btnText}
-                  </button>
-                )
-              })()}
 
 
 
