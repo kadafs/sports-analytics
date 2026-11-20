@@ -823,23 +823,6 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
     if (sport === 'basketball' && filterShootout) {
       if (!p.is_shootout) return false
     }
-    // Drag-Down Filter (Basketball only: 77.7% Under rate vs market, -9.4 pts miss)
-    if (sport === 'basketball' && filterDragDown) {
-      const maeH = p.mae_h ?? null
-      const maeA = p.mae_a ?? null
-      const band = (p.confidence_score_band || p.band || '')
-      const floorStatus = p.floor_status || ''
-      const isDragDown = Boolean(
-        p.is_drag_down || (
-          band.includes('[AVOID]') &&
-          floorStatus.startsWith('WEAK') &&
-          maeH != null && maeA != null &&
-          Math.min(maeH, maeA) <= 11.5 &&
-          Math.max(maeH, maeA) >= 14.5
-        )
-      )
-      if (!isDragDown) return false
-    }
     // SDI Filter (Basketball only) — live lookup from team_sdi.json index
     if (sport === 'basketball' && filterSDI !== 'all') {
       // Prefer embedded sdiH/sdiA; fall back to live sdiIndex lookup
@@ -1438,23 +1421,6 @@ export default function App() {
                 {filterShootout ? '🔥 Shootout Over: ON' : '🔥 Shootout Signals'}
               </button>
 
-              <button
-                onClick={() => setFilterDragDown(!filterDragDown)}
-                style={{
-                  padding: '4px 10px',
-                  fontSize: 12,
-                  fontWeight: 800,
-                  borderRadius: 6,
-                  border: `1px solid ${filterDragDown ? '#991b1b' : '#e2e8f0'}`,
-                  cursor: 'pointer',
-                  background: filterDragDown ? '#fee2e2' : '#f8fafc',
-                  color: filterDragDown ? '#991b1b' : '#64748b',
-                  transition: 'all 0.15s'
-                }}
-                title="Filter Drag-Down Under games (Asymmetric MAE + Weak Floor: 77.7% empirical Under win rate / -9.4 pts vs market)"
-              >
-                {filterDragDown ? '⚓ Drag-Down Under: ON' : '⚓ Drag-Down Under'}
-              </button>
             </div>
           )}
 
