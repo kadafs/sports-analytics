@@ -23,7 +23,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -15436,7 +15436,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -19817,7 +19817,7 @@
       "time": "08:00",
       "away_team": "Shenzhen",
       "home_team": "Shanghai Blackbird",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 164.47,
       "xpts_h": 88.2,
@@ -21021,7 +21021,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 83,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 44,
+      "halftime_total": 88,
+      "halftime_pct_of_model": 53.5,
+      "total_delta": 5.53,
+      "signed_delta": 5.53,
+      "total_rpe": 3.25,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -36103,8 +36114,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -37335,8 +37346,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -41386,7 +41397,7 @@
       "time": "06:45",
       "away_team": "Pavlodar",
       "home_team": "Turan",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.79,
       "xpts_h": 107.5,
@@ -42026,7 +42037,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 65,
+      "actual_away_score": 49,
+      "actual_result": "HOME",
+      "halftime_home_score": 28,
+      "halftime_away_score": 24,
+      "halftime_total": 52,
+      "halftime_pct_of_model": 34.5,
+      "total_delta": 36.79,
+      "signed_delta": -36.79,
+      "total_rpe": 32.27,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -42056,7 +42078,7 @@
       "time": "09:00",
       "away_team": "BC Almaty 2",
       "home_team": "Shymkent",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.14,
       "xpts_h": 86.8,
@@ -42696,7 +42718,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 32,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 1.14,
+      "signed_delta": -1.14,
+      "total_rpe": 0.72,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -47479,8 +47512,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -52054,7 +52087,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "87.5% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DISCORDANT_SRS_UNDER",
         "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
         "segment": "FIBA_CORE",
@@ -58989,8 +59022,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -63798,8 +63831,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -63821,7 +63854,7 @@
       "time": "10:30",
       "away_team": "Maccabi Petah Tikva",
       "home_team": "Elitzur Ashkelon",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 171.82,
       "xpts_h": 85.9,
@@ -64775,7 +64808,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 91,
+      "actual_away_score": 71,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 32,
+      "halftime_total": 84,
+      "halftime_pct_of_model": 48.9,
+      "total_delta": 9.82,
+      "signed_delta": -9.82,
+      "total_rpe": 6.06,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -64805,7 +64849,7 @@
       "time": "10:30",
       "away_team": "Maccabi Kiryat Motzkin",
       "home_team": "Migdal Haemek",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 185.95,
       "xpts_h": 92.9,
@@ -65786,7 +65830,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 88,
+      "actual_result": "HOME",
+      "halftime_home_score": 62,
+      "halftime_away_score": 43,
+      "halftime_total": 105,
+      "halftime_pct_of_model": 56.5,
+      "total_delta": 7.95,
+      "signed_delta": -7.95,
+      "total_rpe": 4.47,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -88527,7 +88582,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "73.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "GLEAGUE_INFLATED_UNDER",
         "trigger_label": "Developmental Inflated Line Fade",
         "segment": "NBA_GLEAGUE",
@@ -88549,7 +88604,7 @@
       "time": "03:00",
       "away_team": "Stockton Kings",
       "home_team": "Coachella Valley Lakers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 230.95,
       "xpts_h": 120.4,
@@ -91505,7 +91560,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 113,
+      "actual_away_score": 108,
+      "actual_result": "HOME",
+      "halftime_home_score": 57,
+      "halftime_away_score": 66,
+      "halftime_total": 123,
+      "halftime_pct_of_model": 53.3,
+      "total_delta": 9.95,
+      "signed_delta": -9.95,
+      "total_rpe": 4.5,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -94939,7 +95005,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -94961,7 +95027,7 @@
       "time": "08:30",
       "away_team": "Perth",
       "home_team": "Cairns Taipans",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "10",
       "model_total": 182.79,
       "xpts_h": 86.0,
@@ -95753,7 +95819,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 98,
+      "actual_away_score": 90,
+      "actual_result": "HOME",
+      "halftime_home_score": 51,
+      "halftime_away_score": 42,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 50.9,
+      "total_delta": 5.21,
+      "signed_delta": 5.21,
+      "total_rpe": 2.77,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -95775,7 +95852,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -208824,7 +208901,7 @@
       "time": "00:00",
       "away_team": "Southern Miss",
       "home_team": "Grambling St.",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 153.25,
       "xpts_h": 76.1,
@@ -224771,7 +224848,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 103,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 32,
+      "halftime_total": 76,
+      "halftime_pct_of_model": 49.6,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -320877,7 +320964,7 @@
       "time": "01:00",
       "away_team": "Texas A&M",
       "home_team": "TCU",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 165.2,
       "xpts_h": 80.2,
@@ -336845,7 +336932,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 51,
+      "halftime_away_score": 39,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 54.5,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -384859,7 +384956,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -432930,7 +433027,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -448955,7 +449052,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -1395095,7 +1395192,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -1395991,7 +1396088,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -1397726,7 +1397823,7 @@
               "times_top2": 1
             },
             {
-              "name": "Andro Mir\u010deta",
+              "name": "Andro Mirčeta",
               "times_top2": 1
             },
             {
@@ -1397781,7 +1397878,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "87.5% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DISCORDANT_SRS_UNDER",
         "trigger_label": "Discordant SRS Dominance (ADV Over / SRS Under)",
         "segment": "FIBA_CORE",
@@ -1400118,8 +1400215,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -1411608,7 +1411705,7 @@
       "time": "11:00",
       "away_team": "Maccabi Ashdod",
       "home_team": "Hapoel Jerusalem",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 158.91,
       "xpts_h": 88.6,
@@ -1412550,7 +1412647,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 68,
+      "actual_result": "HOME",
+      "halftime_home_score": 52,
+      "halftime_away_score": 15,
+      "halftime_total": 67,
+      "halftime_pct_of_model": 42.2,
+      "total_delta": 1.09,
+      "signed_delta": 1.09,
+      "total_rpe": 0.68,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -1412580,7 +1412688,7 @@
       "time": "11:10",
       "away_team": "Nes Ziona",
       "home_team": "Hapoel Beer Sheva",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 170.38,
       "xpts_h": 80.2,
@@ -1413495,7 +1413603,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 46,
+      "halftime_away_score": 44,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 52.8,
+      "total_delta": 0.38,
+      "signed_delta": -0.38,
+      "total_rpe": 0.22,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -1413649,7 +1413768,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Kocaeli B\u015eB Ka\u011f\u0131tspor",
+                "name": "Kocaeli BŞB Kağıtspor",
                 "winner": true
               }
             },
@@ -1413735,7 +1413854,7 @@
                 "winner": false
               },
               "away": {
-                "name": "Kocaeli B\u015eB Ka\u011f\u0131tspor",
+                "name": "Kocaeli BŞB Kağıtspor",
                 "winner": true
               }
             },
@@ -1414275,7 +1414394,7 @@
               },
               "team": {
                 "id": 1289,
-                "name": "Kocaeli B\u015eB Ka\u011f\u0131tspor",
+                "name": "Kocaeli BŞB Kağıtspor",
                 "logo": "https://media.api-sports.io/basketball/teams/1289.png"
               },
               "league": {
@@ -1416700,7 +1416819,7 @@
       "time": "06:30",
       "away_team": "Tokomanawa Queens W",
       "home_team": "Northern Kahu W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 160.1,
       "xpts_h": 67.7,
@@ -1417290,7 +1417409,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 59,
+      "actual_away_score": 77,
+      "actual_result": "AWAY",
+      "halftime_home_score": 28,
+      "halftime_away_score": 44,
+      "halftime_total": 72,
+      "halftime_pct_of_model": 45.0,
+      "total_delta": 24.1,
+      "signed_delta": -24.1,
+      "total_rpe": 17.72,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1418354,7 +1418484,7 @@
       "time": "11:30",
       "away_team": "Wuhan W",
       "home_team": "Hefei W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "3",
       "model_total": 162.7,
       "xpts_h": 84.5,
@@ -1419339,7 +1419469,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 77,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 48,
+      "halftime_total": 89,
+      "halftime_pct_of_model": 54.7,
+      "total_delta": 1.7,
+      "signed_delta": -1.7,
+      "total_rpe": 1.06,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -1420422,7 +1420563,7 @@
       "time": "10:00",
       "away_team": "Samsung Blue Minx W",
       "home_team": "Hana Bank W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 129.67,
       "xpts_h": 66.9,
@@ -1420996,7 +1421137,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 57,
+      "actual_away_score": 75,
+      "actual_result": "AWAY",
+      "halftime_home_score": 28,
+      "halftime_away_score": 45,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 56.3,
+      "total_delta": 2.33,
+      "signed_delta": 2.33,
+      "total_rpe": 1.77,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -1425846,17 +1425998,17 @@
       }
     }
   ],
-  "graded_at": "2026-11-20T06:13:03.083786",
+  "graded_at": "2026-11-20T13:14:22.171468",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 27,
-      "total": 40,
-      "pct": 67.5
+      "wins": 36,
+      "total": 52,
+      "pct": 69.2
     },
     "[ADVANCED]": {
-      "wins": 7,
-      "total": 19,
-      "pct": 36.8
+      "wins": 8,
+      "total": 21,
+      "pct": 38.1
     }
   }
 }
