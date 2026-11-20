@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-20T13:14:46.195508",
+  "updated_at": "2026-11-20T14:39:26.809598",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 9040,
+  "total_graded_games": 9049,
   "baseline": {
     "moneyline_pct": 67.3,
     "under_model_pct": 57.3,
     "avg_signed_delta": -3.2,
     "under_market_pct": 50.5,
-    "avg_market_delta": 0.0
+    "avg_market_delta": 0.1
   },
   "clash": {
     "sample": 511,
@@ -66,15 +66,15 @@
     }
   },
   "drag_down": {
-    "sample": 500,
-    "mkt_sample": 448,
-    "under_mkt_pct": 54.2,
-    "over_mkt_pct": 44.2,
+    "sample": 502,
+    "mkt_sample": 449,
+    "under_mkt_pct": 54.1,
+    "over_mkt_pct": 44.3,
     "avg_market_delta": -2.0,
-    "under_model_pct": 62.2,
-    "over_model_pct": 37.8,
-    "avg_score_delta": -5.9,
-    "moneyline_pct": 68.6
+    "under_model_pct": 62.0,
+    "over_model_pct": 38.0,
+    "avg_score_delta": -5.8,
+    "moneyline_pct": 68.3
   },
   "smart_edge": {
     "sample": 267,
@@ -491,8 +491,8 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5068,
-      "market_sample": 4766,
+      "sample": 5070,
+      "market_sample": 4767,
       "under": {
         "sample": 86,
         "mkt_sample": 86,
