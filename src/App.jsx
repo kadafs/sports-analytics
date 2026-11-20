@@ -582,19 +582,44 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         const mkt = p.market_total
         const mdl = p.model_total
         const mbet = p.mbet_threshold || 6.5
-        // High-Conviction MBET Policy: Only trigger plays when edge clears HIGH threshold (mbet + 1.5)
-        const isHighEdge = (mkt && mdl && mkt > 50 && Math.abs(mdl - mkt) >= (mbet + 1.5)) || p.confidence === 'HIGH'
-        const isUnderPlay = isHighEdge && (pDecision === 'PLAY UNDER' || Boolean(mkt && mdl && mkt > 50 && (mkt - mdl) >= (mbet + 1.5)))
-        const isOverPlay = isHighEdge && (pDecision === 'PLAY OVER' || Boolean(mkt && mdl && (mdl - mkt) >= (mbet + 1.5)))
+        const diff = (mkt && mdl && mkt > 50) ? (mdl - mkt) : 0
+        const absDiff = Math.abs(diff)
 
-        if (decision === 'plays') {
-          if (!isOverPlay && !isUnderPlay) return false
-        } else if (decision === 'PLAY OVER') {
-          if (!isOverPlay) return false
-        } else if (decision === 'PLAY UNDER') {
-          if (!isUnderPlay) return false
+        // High MBET: edge >= mbet + 1.5
+        const isHighEdge = (absDiff >= (mbet + 1.5)) || p.confidence === 'HIGH'
+        const isHighUnder = isHighEdge && (pDecision === 'PLAY UNDER' || (mkt - mdl) >= (mbet + 1.5))
+        const isHighOver = isHighEdge && (pDecision === 'PLAY OVER' || (mdl - mkt) >= (mbet + 1.5))
+
+        // Solid MBET: mbet <= edge < mbet + 1.5
+        const isSolidEdge = (absDiff >= mbet && absDiff < (mbet + 1.5)) || p.confidence === 'SOLID'
+        const isSolidUnder = isSolidEdge && (pDecision === 'PLAY UNDER' || ((mkt - mdl) >= mbet && (mkt - mdl) < (mbet + 1.5)))
+        const isSolidOver = isSolidEdge && (pDecision === 'PLAY OVER' || ((mdl - mkt) >= mbet && (mdl - mkt) < (mbet + 1.5)))
+
+        // All MBET Qualified: edge >= mbet
+        const isQualUnder = isHighUnder || isSolidUnder
+        const isQualOver = isHighOver || isSolidOver
+        const isQualPlay = isQualUnder || isQualOver
+
+        if (decision === 'all_mbet' || decision === 'plays_all') {
+          if (!isQualPlay) return false
+        } else if (decision === 'plays' || decision === 'plays_high') {
+          if (!isHighOver && !isHighUnder) return false
+        } else if (decision === 'solid' || decision === 'plays_solid') {
+          if (!isSolidOver && !isSolidUnder) return false
+        } else if (decision === 'PLAY UNDER' || decision === 'HIGH_UNDER') {
+          if (!isHighUnder) return false
+        } else if (decision === 'PLAY OVER' || decision === 'HIGH_OVER') {
+          if (!isHighOver) return false
+        } else if (decision === 'ALL_UNDER') {
+          if (!isQualUnder) return false
+        } else if (decision === 'ALL_OVER') {
+          if (!isQualOver) return false
+        } else if (decision === 'SOLID_UNDER') {
+          if (!isSolidUnder) return false
+        } else if (decision === 'SOLID_OVER') {
+          if (!isSolidOver) return false
         } else if (decision === 'PASS') {
-          if (isOverPlay || isUnderPlay) return false
+          if (isQualPlay) return false
         } else if (pDecision !== decision) {
           return false
         }
@@ -1294,12 +1319,18 @@ export default function App() {
                 <option value={10}>Min Games: 10+</option>
               </select>
 
-              <select className="filter-select" style={{ width: '165px' }} value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
+              <select className="filter-select" style={{ width: '185px' }} value={filterDecision} onChange={e => setFilterDecision(e.target.value)}>
                 <option value="all">MBET Edge: All</option>
-                <option value="plays">🎯 High Edge Plays</option>
-                <option value="PLAY OVER">🟢 PLAY OVER (High)</option>
-                <option value="PLAY UNDER">🔴 PLAY UNDER (High)</option>
-                <option value="PASS">⚪ PASS / Below High MBET</option>
+                <option value="all_mbet">🎯 All MBET Plays (Solid + High)</option>
+                <option value="plays">🔥 MBET High Plays (Edge ≥ MBET+1.5)</option>
+                <option value="solid">💎 MBET Solid Plays (MBET ≤ Edge)</option>
+                <option value="ALL_UNDER">🔴 ALL UNDER (Solid + High)</option>
+                <option value="ALL_OVER">🟢 ALL OVER (Solid + High)</option>
+                <option value="PLAY UNDER">🔴 PLAY UNDER (High Only)</option>
+                <option value="PLAY OVER">🟢 PLAY OVER (High Only)</option>
+                <option value="SOLID_UNDER">🔴 SOLID UNDER Only</option>
+                <option value="SOLID_OVER">🟢 SOLID OVER Only</option>
+                <option value="PASS">⚪ PASS / Below MBET</option>
               </select>
 
               <select
