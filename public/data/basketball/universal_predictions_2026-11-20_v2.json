@@ -481692,7 +481692,7 @@
       "time": "17:00",
       "away_team": "Wisc. Green Bay",
       "home_team": "Florida State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.86,
       "xpts_h": 81.6,
@@ -497681,7 +497681,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 87,
+      "actual_away_score": 63,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 33,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 47.2,
+      "total_delta": 6.86,
+      "signed_delta": -6.86,
+      "total_rpe": 4.57,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -705892,7 +705903,7 @@
       "time": "23:00",
       "away_team": "Delaware",
       "home_team": "CS Northridge",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 156.13,
       "xpts_h": 80.0,
@@ -721860,7 +721871,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 97,
+      "actual_result": "AWAY",
+      "halftime_home_score": 38,
+      "halftime_away_score": 35,
+      "halftime_total": 73,
+      "halftime_pct_of_model": 46.8,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1427244,17 +1427265,17 @@
       "accuracy_tier": "SOLID"
     }
   ],
-  "graded_at": "2026-11-21T02:50:18.489685",
+  "graded_at": "2026-11-21T03:14:49.821259",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 103,
-      "total": 147,
-      "pct": 70.1
+      "total": 148,
+      "pct": 69.6
     },
     "[ADVANCED]": {
-      "wins": 25,
-      "total": 44,
-      "pct": 56.8
+      "wins": 26,
+      "total": 45,
+      "pct": 57.8
     }
   }
 }
