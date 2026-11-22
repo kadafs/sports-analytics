@@ -1134,7 +1134,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:27.072650+00:00",
+      "timestamp": "2026-11-22T13:21:59.148293+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2192,7 +2192,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:27.262379+00:00",
+      "timestamp": "2026-11-22T13:21:59.333952+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -3242,7 +3242,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:27.457907+00:00",
+      "timestamp": "2026-11-22T13:21:59.518546+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4292,7 +4292,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:28.052855+00:00",
+      "timestamp": "2026-11-22T13:22:00.110649+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5544,7 +5544,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:28.246769+00:00",
+      "timestamp": "2026-11-22T13:22:00.319617+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6765,7 +6765,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:28.438545+00:00",
+      "timestamp": "2026-11-22T13:22:00.586190+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8009,7 +8009,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:29.034688+00:00",
+      "timestamp": "2026-11-22T13:22:01.200681+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8849,7 +8849,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:29.230682+00:00",
+      "timestamp": "2026-11-22T13:22:01.493829+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -11419,7 +11419,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:29.832586+00:00",
+      "timestamp": "2026-11-22T13:22:02.612391+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -14692,7 +14692,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:31.187446+00:00",
+      "timestamp": "2026-11-22T13:22:04.259217+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -15796,25 +15796,21 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 64.2,
-          "top1_pct": 35.0,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 42.2,
+          "top1_pct": 27.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "I. Gradwell",
+              "name": "J. McCreary",
+              "times_top2": 2
+            },
+            {
+              "name": "L. Walker",
               "times_top2": 1
             },
             {
-              "name": "R. Lipovan",
-              "times_top2": 1
-            },
-            {
-              "name": "S. Markisic",
-              "times_top2": 1
-            },
-            {
-              "name": "K. M. Jackson",
+              "name": "C. Bishop",
               "times_top2": 1
             }
           ]
@@ -15918,7 +15914,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:31.406421+00:00",
+      "timestamp": "2026-11-22T13:22:04.660602+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -17144,7 +17140,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:31.619591+00:00",
+      "timestamp": "2026-11-22T13:22:05.016148+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -21781,8 +21777,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.91,
+      "odds_over": 1.9,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -21808,7 +21804,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T11:53:32.496090+00:00",
+      "timestamp": "2026-11-22T13:22:05.822748+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -22944,7 +22940,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T11:53:32.705563+00:00",
+      "timestamp": "2026-11-22T13:22:06.016616+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -24098,7 +24094,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T11:53:32.929510+00:00",
+      "timestamp": "2026-11-22T13:22:06.216601+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -25234,7 +25230,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:33.781988+00:00",
+      "timestamp": "2026-11-22T13:22:07.357906+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -26374,7 +26370,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:33.994676+00:00",
+      "timestamp": "2026-11-22T13:22:07.557135+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -27518,7 +27514,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:34.201781+00:00",
+      "timestamp": "2026-11-22T13:22:07.755541+00:00",
       "match_center": {
         "h2h": [
           {
@@ -28694,7 +28690,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:34.471410+00:00",
+      "timestamp": "2026-11-22T13:22:07.956919+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -29785,7 +29781,7 @@
         "buffer_tier": "[STRONG BUFFER]",
         "confidence_band": "[SOLID]",
         "model_agreement": "CONFIRMED_UNDER",
-        "model_divergence": 10.53
+        "model_divergence": 10.38
       },
       "league_segment": "FIBA_CORE",
       "league_segment_label": "FIBA Core (40m)",
@@ -29814,15 +29810,15 @@
       "home_team_volatility": 14.15,
       "away_team_volatility": 16.6,
       "game_id": 505834,
-      "market_total": 179.5,
-      "edge": -4.9,
+      "market_total": 180.0,
+      "edge": -5.4,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.81,
-      "odds_under": 1.86,
+      "odds_over": 1.89,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 70.7,
@@ -29839,16 +29835,16 @@
       "mbet_threshold": 7.8,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 164.07,
+      "adv_total": 164.22,
       "srs_total": 174.6,
-      "adv_edge": -15.4,
-      "srs_edge": -4.9,
+      "adv_edge": -15.8,
+      "srs_edge": -5.4,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 10.53,
+      "model_divergence": 10.38,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-22T11:53:35.254771+00:00",
+      "timestamp": "2026-11-22T13:22:08.969339+00:00",
       "match_center": {
         "h2h": [
           {
@@ -30692,7 +30688,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-22T11:53:35.477903+00:00",
+      "timestamp": "2026-11-22T13:22:09.161993+00:00",
       "match_center": {
         "h2h": [
           {
@@ -35584,7 +35580,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:37.273059+00:00",
+      "timestamp": "2026-11-22T13:22:09.945035+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -36656,7 +36652,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:37.476587+00:00",
+      "timestamp": "2026-11-22T13:22:10.138769+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -40498,7 +40494,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:38.327280+00:00",
+      "timestamp": "2026-11-22T13:22:10.800445+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -41873,7 +41869,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:38.520629+00:00",
+      "timestamp": "2026-11-22T13:22:10.986917+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -43248,7 +43244,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:38.715078+00:00",
+      "timestamp": "2026-11-22T13:22:11.174260+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44642,7 +44638,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:39.325951+00:00",
+      "timestamp": "2026-11-22T13:22:11.757465+00:00",
       "match_center": {
         "h2h": [
           {
@@ -45507,7 +45503,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:39.546610+00:00",
+      "timestamp": "2026-11-22T13:22:11.948189+00:00",
       "match_center": {
         "h2h": [
           {
@@ -47223,7 +47219,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:40.368595+00:00",
+      "timestamp": "2026-11-22T13:22:12.511728+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -48086,8 +48082,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.79,
-      "odds_under": 1.81,
+      "odds_over": 1.87,
+      "odds_under": 1.79,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 28.0,
@@ -48113,7 +48109,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:40.563709+00:00",
+      "timestamp": "2026-11-22T13:22:12.702957+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -48953,7 +48949,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:42.183678+00:00",
+      "timestamp": "2026-11-22T13:22:13.271037+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -49707,7 +49703,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:42.368823+00:00",
+      "timestamp": "2026-11-22T13:22:13.454390+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -50461,7 +50457,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:42.563378+00:00",
+      "timestamp": "2026-11-22T13:22:13.642881+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -51257,7 +51253,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:42.771349+00:00",
+      "timestamp": "2026-11-22T13:22:13.829884+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -52034,7 +52030,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:42.970894+00:00",
+      "timestamp": "2026-11-22T13:22:14.013990+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -53853,7 +53849,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:45.287014+00:00",
+      "timestamp": "2026-11-22T13:22:16.617589+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -54907,7 +54903,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:45.493121+00:00",
+      "timestamp": "2026-11-22T13:22:16.804174+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -55965,7 +55961,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:45.694852+00:00",
+      "timestamp": "2026-11-22T13:22:16.993666+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -57019,7 +57015,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:46.399717+00:00",
+      "timestamp": "2026-11-22T13:22:17.569596+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -57921,7 +57917,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:46.598244+00:00",
+      "timestamp": "2026-11-22T13:22:17.756543+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -58823,7 +58819,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:46.981132+00:00",
+      "timestamp": "2026-11-22T13:22:17.944952+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -59627,26 +59623,18 @@
         },
         "sdiH": null,
         "sdiA": {
-          "avg_sdi": 51.3,
-          "top1_pct": 28.9,
+          "avg_sdi": 47.6,
+          "top1_pct": 26.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Tass Matthias",
-              "times_top2": 1
+              "name": "S. Sellers",
+              "times_top2": 2
             },
             {
-              "name": "L. Williamson",
-              "times_top2": 1
-            },
-            {
-              "name": "Joesaar Janari",
-              "times_top2": 1
-            },
-            {
-              "name": "A. Miska",
-              "times_top2": 1
+              "name": "Treffers Kourtney",
+              "times_top2": 2
             }
           ]
         }
@@ -59729,7 +59717,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:47.794728+00:00",
+      "timestamp": "2026-11-22T13:22:18.692842+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -62184,7 +62172,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:48.795803+00:00",
+      "timestamp": "2026-11-22T13:22:19.451317+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -62980,7 +62968,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:48.988140+00:00",
+      "timestamp": "2026-11-22T13:22:19.628966+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63768,7 +63756,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:49.610106+00:00",
+      "timestamp": "2026-11-22T13:22:20.200609+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64799,7 +64787,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:49.801048+00:00",
+      "timestamp": "2026-11-22T13:22:20.383545+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -65834,7 +65822,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:50.000744+00:00",
+      "timestamp": "2026-11-22T13:22:20.563483+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -68314,7 +68302,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:50.863398+00:00",
+      "timestamp": "2026-11-22T13:22:21.390923+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -69161,8 +69149,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.82,
-      "odds_under": 1.85,
+      "odds_over": 1.85,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[HIGH]",
       "confidence_score": 81.3,
@@ -69188,7 +69176,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:51.177565+00:00",
+      "timestamp": "2026-11-22T13:22:21.580538+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -73846,7 +73834,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:52.191226+00:00",
+      "timestamp": "2026-11-22T13:22:22.149091+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -75092,7 +75080,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:52.393301+00:00",
+      "timestamp": "2026-11-22T13:22:22.332375+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -78014,7 +78002,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:53.427490+00:00",
+      "timestamp": "2026-11-22T13:22:23.389367+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -78904,7 +78892,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:53.625947+00:00",
+      "timestamp": "2026-11-22T13:22:23.594505+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -79786,7 +79774,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:53.826944+00:00",
+      "timestamp": "2026-11-22T13:22:23.784283+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -80668,7 +80656,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:54.026645+00:00",
+      "timestamp": "2026-11-22T13:22:23.965584+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -81546,7 +81534,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:54.267892+00:00",
+      "timestamp": "2026-11-22T13:22:24.159236+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -82440,7 +82428,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:53.217046+00:00",
+      "timestamp": "2026-11-22T13:22:23.196241+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -84200,7 +84188,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:54.867876+00:00",
+      "timestamp": "2026-11-22T13:22:24.774323+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -85059,7 +85047,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:55.074349+00:00",
+      "timestamp": "2026-11-22T13:22:24.950787+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -85918,7 +85906,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:55.268232+00:00",
+      "timestamp": "2026-11-22T13:22:25.136376+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -86796,7 +86784,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:56.078031+00:00",
+      "timestamp": "2026-11-22T13:22:25.893017+00:00",
       "match_center": {
         "h2h": [
           {
@@ -87624,7 +87612,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:56.275516+00:00",
+      "timestamp": "2026-11-22T13:22:26.083025+00:00",
       "match_center": {
         "h2h": [
           {
@@ -88429,8 +88417,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.91,
+      "odds_over": 1.9,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 48.0,
@@ -88456,7 +88444,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:57.090425+00:00",
+      "timestamp": "2026-11-22T13:22:26.932798+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -89476,15 +89464,15 @@
       "home_team_volatility": 17.38,
       "away_team_volatility": 16.71,
       "game_id": 518229,
-      "market_total": 178.5,
-      "edge": -1.8,
+      "market_total": 179.5,
+      "edge": -2.8,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.92,
+      "odds_over": 1.93,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 44.0,
@@ -89503,14 +89491,14 @@
       "selected_model": "ADV",
       "adv_total": 176.75,
       "srs_total": 173.26,
-      "adv_edge": -1.8,
-      "srs_edge": -5.2,
+      "adv_edge": -2.8,
+      "srs_edge": -6.2,
       "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 3.49,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:57.308716+00:00",
+      "timestamp": "2026-11-22T13:22:27.180441+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -90572,7 +90560,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:57.969217+00:00",
+      "timestamp": "2026-11-22T13:22:27.873877+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -91458,7 +91446,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:58.180681+00:00",
+      "timestamp": "2026-11-22T13:22:28.061123+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -92332,7 +92320,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:59.016188+00:00",
+      "timestamp": "2026-11-22T13:22:28.811964+00:00",
       "match_center": {
         "h2h": [
           {
@@ -93357,7 +93345,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:59.214183+00:00",
+      "timestamp": "2026-11-22T13:22:29.005981+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -94364,7 +94352,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:53:59.418832+00:00",
+      "timestamp": "2026-11-22T13:22:29.212743+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -95375,7 +95363,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:00.292718+00:00",
+      "timestamp": "2026-11-22T13:22:29.973790+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -96425,7 +96413,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:00.502144+00:00",
+      "timestamp": "2026-11-22T13:22:30.171533+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -97497,7 +97485,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:00.729161+00:00",
+      "timestamp": "2026-11-22T13:22:30.369554+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -98547,7 +98535,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:00.987520+00:00",
+      "timestamp": "2026-11-22T13:22:30.565142+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -99609,7 +99597,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:01.202898+00:00",
+      "timestamp": "2026-11-22T13:22:30.759701+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -100636,7 +100624,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:01.422687+00:00",
+      "timestamp": "2026-11-22T13:22:30.952311+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -102826,7 +102814,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:02.015933+00:00",
+      "timestamp": "2026-11-22T13:22:31.523527+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -109214,7 +109202,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:02.982612+00:00",
+      "timestamp": "2026-11-22T13:22:32.284934+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -110249,7 +110237,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:03.180467+00:00",
+      "timestamp": "2026-11-22T13:22:32.476030+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -111311,7 +111299,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:03.388042+00:00",
+      "timestamp": "2026-11-22T13:22:32.660787+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -114823,7 +114811,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:04.008242+00:00",
+      "timestamp": "2026-11-22T13:22:33.222274+00:00",
       "match_center": {
         "h2h": [
           {
@@ -116010,16 +115998,16 @@
       "home_team_volatility": 19.41,
       "away_team_volatility": 16.23,
       "game_id": 526030,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 128.9,
+      "market_total": 132.5,
+      "edge": -0.2,
+      "side": "UNDER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.85,
+      "odds_under": 1.82,
+      "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 41.3,
       "floor_status": "MARGINAL",
@@ -116038,13 +116026,13 @@
       "adv_total": null,
       "srs_total": 132.29,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": -0.2,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:04.198908+00:00",
+      "timestamp": "2026-11-22T13:22:33.408380+00:00",
       "match_center": {
         "h2h": [
           {
@@ -117269,7 +117257,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:04.402525+00:00",
+      "timestamp": "2026-11-22T13:22:33.592791+00:00",
       "match_center": {
         "h2h": [
           {
@@ -120836,8 +120824,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_over": 1.87,
+      "odds_under": 1.87,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 57.3,
@@ -120863,7 +120851,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:05.416543+00:00",
+      "timestamp": "2026-11-22T13:22:34.157137+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -121087,6 +121075,49 @@
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
+                "points": 13
+              },
+              "team": {
+                "id": 988,
+                "name": "Arad W",
+                "logo": "https://media.api-sports.io/basketball/teams/988.png"
+              },
+              "league": {
+                "id": 79,
+                "name": "Liga National W",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
+              },
+              "country": {
+                "id": 38,
+                "name": "Romania",
+                "code": "RO",
+                "flag": "https://media.api-sports.io/flags/ro.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 6,
+                  "percentage": "0.857"
+                },
+                "lose": {
+                  "total": 1,
+                  "percentage": "0.143"
+                }
+              },
+              "points": {
+                "for": 550,
+                "against": 399
+              },
+              "form": null,
+              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
+            },
+            {
+              "position": 2,
+              "stage": "Liga National Women - Regular Season",
+              "group": {
+                "name": null,
                 "points": 12
               },
               "team": {
@@ -121121,49 +121152,6 @@
               "points": {
                 "for": 552,
                 "against": 287
-              },
-              "form": null,
-              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
-            },
-            {
-              "position": 2,
-              "stage": "Liga National Women - Regular Season",
-              "group": {
-                "name": null,
-                "points": 11
-              },
-              "team": {
-                "id": 988,
-                "name": "Arad W",
-                "logo": "https://media.api-sports.io/basketball/teams/988.png"
-              },
-              "league": {
-                "id": 79,
-                "name": "Liga National W",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
-              },
-              "country": {
-                "id": 38,
-                "name": "Romania",
-                "code": "RO",
-                "flag": "https://media.api-sports.io/flags/ro.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 459,
-                "against": 332
               },
               "form": null,
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
@@ -121262,6 +121250,49 @@
                 "points": 9
               },
               "team": {
+                "id": 5966,
+                "name": "Sportul Bucuresti W",
+                "logo": "https://media.api-sports.io/basketball/teams/5966.png"
+              },
+              "league": {
+                "id": 79,
+                "name": "Liga National W",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
+              },
+              "country": {
+                "id": 38,
+                "name": "Romania",
+                "code": "RO",
+                "flag": "https://media.api-sports.io/flags/ro.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 2,
+                  "percentage": "0.286"
+                },
+                "lose": {
+                  "total": 5,
+                  "percentage": "0.714"
+                }
+              },
+              "points": {
+                "for": 479,
+                "against": 566
+              },
+              "form": null,
+              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
+            },
+            {
+              "position": 6,
+              "stage": "Liga National Women - Regular Season",
+              "group": {
+                "name": null,
+                "points": 9
+              },
+              "team": {
                 "id": 985,
                 "name": "CSBT Alexandria W",
                 "logo": "https://media.api-sports.io/basketball/teams/985.png"
@@ -121298,7 +121329,7 @@
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
             },
             {
-              "position": 6,
+              "position": 7,
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
@@ -121341,7 +121372,7 @@
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
             },
             {
-              "position": 7,
+              "position": 8,
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
@@ -121379,49 +121410,6 @@
               "points": {
                 "for": 418,
                 "against": 422
-              },
-              "form": null,
-              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
-            },
-            {
-              "position": 8,
-              "stage": "Liga National Women - Regular Season",
-              "group": {
-                "name": null,
-                "points": 8
-              },
-              "team": {
-                "id": 5966,
-                "name": "Sportul Bucuresti W",
-                "logo": "https://media.api-sports.io/basketball/teams/5966.png"
-              },
-              "league": {
-                "id": 79,
-                "name": "Liga National W",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
-              },
-              "country": {
-                "id": 38,
-                "name": "Romania",
-                "code": "RO",
-                "flag": "https://media.api-sports.io/flags/ro.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.333"
-                },
-                "lose": {
-                  "total": 4,
-                  "percentage": "0.667"
-                }
-              },
-              "points": {
-                "for": 412,
-                "against": 475
               },
               "form": null,
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
@@ -121655,7 +121643,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:06.018691+00:00",
+      "timestamp": "2026-11-22T13:22:34.987797+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -122600,7 +122588,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:06.212697+00:00",
+      "timestamp": "2026-11-22T13:22:35.171629+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -123564,7 +123552,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:06.423236+00:00",
+      "timestamp": "2026-11-22T13:22:35.353971+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -124509,7 +124497,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:06.630769+00:00",
+      "timestamp": "2026-11-22T13:22:35.533154+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -125458,7 +125446,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:07.344779+00:00",
+      "timestamp": "2026-11-22T13:22:36.159778+00:00",
       "match_center": {
         "h2h": [
           {
@@ -128652,15 +128640,15 @@
       "home_team_volatility": 24.07,
       "away_team_volatility": 21.62,
       "game_id": 513725,
-      "market_total": 147.0,
-      "edge": -7.4,
+      "market_total": 141.5,
+      "edge": -1.9,
       "side": "UNDER",
       "decision": "PASS",
-      "confidence": "SOLID",
+      "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.82,
+      "odds_over": 1.84,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 6.7,
@@ -128680,13 +128668,13 @@
       "adv_total": null,
       "srs_total": 139.64,
       "adv_edge": null,
-      "srs_edge": -7.4,
+      "srs_edge": -1.9,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:08.800145+00:00",
+      "timestamp": "2026-11-22T13:22:36.793421+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -129506,7 +129494,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:08.988814+00:00",
+      "timestamp": "2026-11-22T13:22:36.970110+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -151558,7 +151546,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T11:54:09.655015+00:00",
+      "timestamp": "2026-11-22T13:22:37.621234+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -155808,7 +155796,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T11:54:09.865192+00:00",
+      "timestamp": "2026-11-22T13:22:37.830502+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -175080,7 +175068,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:10.707906+00:00",
+      "timestamp": "2026-11-22T13:22:38.605111+00:00",
       "match_center": {
         "h2h": [
           {
@@ -178144,7 +178132,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:10.913757+00:00",
+      "timestamp": "2026-11-22T13:22:38.785717+00:00",
       "match_center": {
         "h2h": [
           {
@@ -181158,7 +181146,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:11.106525+00:00",
+      "timestamp": "2026-11-22T13:22:38.965670+00:00",
       "match_center": {
         "h2h": [
           {
@@ -184192,7 +184180,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:11.300092+00:00",
+      "timestamp": "2026-11-22T13:22:39.147833+00:00",
       "match_center": {
         "h2h": [
           {
@@ -187212,7 +187200,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:11.505915+00:00",
+      "timestamp": "2026-11-22T13:22:39.328321+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -190246,7 +190234,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:12.129205+00:00",
+      "timestamp": "2026-11-22T13:22:39.950518+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -191382,7 +191370,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:12.347262+00:00",
+      "timestamp": "2026-11-22T13:22:40.141270+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -192518,7 +192506,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:12.554928+00:00",
+      "timestamp": "2026-11-22T13:22:40.335267+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -193654,7 +193642,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:12.766256+00:00",
+      "timestamp": "2026-11-22T13:22:40.526265+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -194794,7 +194782,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:12.968556+00:00",
+      "timestamp": "2026-11-22T13:22:40.727341+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -197582,7 +197570,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:13.799269+00:00",
+      "timestamp": "2026-11-22T13:22:41.499652+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -198558,7 +198546,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:13.999563+00:00",
+      "timestamp": "2026-11-22T13:22:41.691510+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -199522,7 +199510,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:14.831812+00:00",
+      "timestamp": "2026-11-22T13:22:42.576626+00:00",
       "match_center": {
         "h2h": [
           {
@@ -200426,7 +200414,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:15.193116+00:00",
+      "timestamp": "2026-11-22T13:22:42.978862+00:00",
       "match_center": {
         "h2h": [
           {
@@ -427128,7 +427116,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:17.560981+00:00",
+      "timestamp": "2026-11-22T13:22:44.801301+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -443145,7 +443133,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:17.355272+00:00",
+      "timestamp": "2026-11-22T13:22:44.608194+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -459164,7 +459152,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:17.764404+00:00",
+      "timestamp": "2026-11-22T13:22:44.996464+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -475183,7 +475171,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:17.985384+00:00",
+      "timestamp": "2026-11-22T13:22:45.194729+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -491202,7 +491190,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:18.192232+00:00",
+      "timestamp": "2026-11-22T13:22:45.399570+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -507221,7 +507209,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:18.411546+00:00",
+      "timestamp": "2026-11-22T13:22:45.708568+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -523259,7 +523247,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:18.840349+00:00",
+      "timestamp": "2026-11-22T13:22:46.447938+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -539278,7 +539266,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:19.047311+00:00",
+      "timestamp": "2026-11-22T13:22:46.639737+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -555235,21 +555223,7 @@
       "clash_trigger": "",
       "is_shootout": false,
       "shootout_trigger": "",
-      "smart_edge": {
-        "signal": "UNDER",
-        "tier": "ULTRA",
-        "recommendation": "BET FULL-TIME UNDER",
-        "win_rate": "80%+ WR",
-        "tag": "\ud83d\udcc8 Smart Under",
-        "trigger": "NCAA_DISCORDANT_UNDER",
-        "trigger_label": "NCAA Discordant SRS Under",
-        "segment": "NCAA_MEN",
-        "segment_label": "NCAA Men (College)",
-        "buffer_tier": "[AVOID]",
-        "confidence_band": "[LOW]",
-        "model_agreement": "DISCORDANT",
-        "model_divergence": 3.78
-      },
+      "smart_edge": null,
       "league_segment": "NCAA_MEN",
       "league_segment_label": "NCAA Men (College)",
       "early_season_flag": true,
@@ -555277,9 +555251,9 @@
       "home_team_volatility": 13.33,
       "away_team_volatility": 17.99,
       "game_id": 527042,
-      "market_total": 148.5,
-      "edge": -0.6,
-      "side": "UNDER",
+      "market_total": 147.5,
+      "edge": 0.4,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Bet365",
@@ -555304,14 +555278,14 @@
       "selected_model": "SRS",
       "adv_total": 151.65,
       "srs_total": 147.87,
-      "adv_edge": 3.2,
-      "srs_edge": -0.6,
-      "model_agreement": "DISCORDANT",
+      "adv_edge": 4.2,
+      "srs_edge": 0.4,
+      "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 3.78,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:19.254116+00:00",
+      "timestamp": "2026-11-22T13:22:46.836482+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -571330,7 +571304,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:19.478093+00:00",
+      "timestamp": "2026-11-22T13:22:47.030607+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -587349,7 +587323,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:19.689370+00:00",
+      "timestamp": "2026-11-22T13:22:47.222685+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -603368,7 +603342,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:19.911098+00:00",
+      "timestamp": "2026-11-22T13:22:47.417191+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -619387,7 +619361,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:20.113678+00:00",
+      "timestamp": "2026-11-22T13:22:47.715100+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -635420,7 +635394,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:20.426191+00:00",
+      "timestamp": "2026-11-22T13:22:48.011590+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -651445,7 +651419,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:20.627691+00:00",
+      "timestamp": "2026-11-22T13:22:48.215167+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -667464,7 +667438,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:20.846103+00:00",
+      "timestamp": "2026-11-22T13:22:48.409577+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -683483,7 +683457,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:21.058130+00:00",
+      "timestamp": "2026-11-22T13:22:48.601880+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -699502,7 +699476,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:21.268667+00:00",
+      "timestamp": "2026-11-22T13:22:48.796407+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -715521,7 +715495,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:21.468608+00:00",
+      "timestamp": "2026-11-22T13:22:48.991437+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -731578,7 +731552,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:21.691407+00:00",
+      "timestamp": "2026-11-22T13:22:49.184488+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -747616,7 +747590,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:21.894852+00:00",
+      "timestamp": "2026-11-22T13:22:49.375894+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -763593,7 +763567,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:22.352213+00:00",
+      "timestamp": "2026-11-22T13:22:49.895693+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -779612,7 +779586,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:22.565850+00:00",
+      "timestamp": "2026-11-22T13:22:50.088943+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -795631,7 +795605,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:22.771611+00:00",
+      "timestamp": "2026-11-22T13:22:50.283343+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -811650,7 +811624,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:22.984357+00:00",
+      "timestamp": "2026-11-22T13:22:50.479082+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -827672,11 +827646,11 @@
       "home_team_volatility": 21.09,
       "away_team_volatility": 12.27,
       "game_id": 527059,
-      "market_total": 164.5,
-      "edge": -9.3,
+      "market_total": 165.5,
+      "edge": -10.3,
       "side": "UNDER",
       "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "confidence": "SOLID",
       "odds_source": "Bet365",
       "bookmaker": "Bet365",
       "odds_over": 1.9,
@@ -827699,14 +827673,14 @@
       "selected_model": "ADV",
       "adv_total": 155.16,
       "srs_total": 153.81,
-      "adv_edge": -9.3,
-      "srs_edge": -10.7,
+      "adv_edge": -10.3,
+      "srs_edge": -11.7,
       "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 1.35,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:23.191551+00:00",
+      "timestamp": "2026-11-22T13:22:50.675740+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -843718,7 +843692,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:23.593543+00:00",
+      "timestamp": "2026-11-22T13:22:51.052565+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -859716,7 +859690,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:23.806697+00:00",
+      "timestamp": "2026-11-22T13:22:51.242965+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -875714,7 +875688,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:24.144206+00:00",
+      "timestamp": "2026-11-22T13:22:51.532946+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -891733,7 +891707,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:24.367206+00:00",
+      "timestamp": "2026-11-22T13:22:51.802051+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1019266,7 +1019240,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:26.196792+00:00",
+      "timestamp": "2026-11-22T13:22:53.085662+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1035226,7 +1035200,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:26.420599+00:00",
+      "timestamp": "2026-11-22T13:22:53.288232+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1051186,7 +1051160,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:26.631198+00:00",
+      "timestamp": "2026-11-22T13:22:53.479574+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1067119,7 +1067093,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:26.835136+00:00",
+      "timestamp": "2026-11-22T13:22:53.668978+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1083079,7 +1083053,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:27.048781+00:00",
+      "timestamp": "2026-11-22T13:22:53.859786+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1098991,7 +1098965,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:27.259009+00:00",
+      "timestamp": "2026-11-22T13:22:54.047353+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1114924,7 +1114898,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:27.468177+00:00",
+      "timestamp": "2026-11-22T13:22:54.399605+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1130857,7 +1130831,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:27.683850+00:00",
+      "timestamp": "2026-11-22T13:22:54.595429+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1146701,9 +1146675,9 @@
       "home_team": "Texas Longhorns W",
       "status": "Not Started",
       "stage": "",
-      "model_total": 151.77,
-      "xpts_h": 81.9,
-      "xpts_a": 69.8,
+      "model_total": 153.64,
+      "xpts_h": 82.9,
+      "xpts_a": 70.8,
       "probs_1x2": {
         "home": 84.4,
         "away": 15.6
@@ -1146714,16 +1146688,16 @@
       "home_team_volatility": 14.99,
       "away_team_volatility": 17.42,
       "game_id": 530253,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 131.2,
+      "market_total": 140.5,
+      "edge": 13.1,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "odds_source": "Betano",
+      "bookmaker": "Betano",
+      "odds_over": 1.82,
+      "odds_under": 1.83,
+      "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 46.7,
       "floor_status": "MARGINAL",
@@ -1146740,15 +1146714,15 @@
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
       "adv_total": null,
-      "srs_total": 151.77,
+      "srs_total": 153.64,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": 13.1,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:27.896003+00:00",
+      "timestamp": "2026-11-22T13:22:54.789780+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1162681,7 +1162655,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:28.107454+00:00",
+      "timestamp": "2026-11-22T13:22:54.982607+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1178614,7 +1178588,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:28.322295+00:00",
+      "timestamp": "2026-11-22T13:22:55.173273+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1194547,7 +1194521,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:28.648454+00:00",
+      "timestamp": "2026-11-22T13:22:55.464085+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1210480,7 +1210454,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:28.852328+00:00",
+      "timestamp": "2026-11-22T13:22:55.667867+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1226413,7 +1226387,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:29.058683+00:00",
+      "timestamp": "2026-11-22T13:22:55.874816+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1242352,7 +1242326,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:29.473423+00:00",
+      "timestamp": "2026-11-22T13:22:56.249558+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1258264,7 +1258238,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:29.696056+00:00",
+      "timestamp": "2026-11-22T13:22:56.437000+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1274220,7 +1274194,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:29.912923+00:00",
+      "timestamp": "2026-11-22T13:22:56.633776+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1290132,7 +1290106,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:30.107839+00:00",
+      "timestamp": "2026-11-22T13:22:56.823651+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1306065,7 +1306039,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:30.308868+00:00",
+      "timestamp": "2026-11-22T13:22:57.020033+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1321998,7 +1321972,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:30.538636+00:00",
+      "timestamp": "2026-11-22T13:22:57.211326+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1337931,7 +1337905,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:30.752786+00:00",
+      "timestamp": "2026-11-22T13:22:57.408830+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1353864,7 +1353838,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:30.963380+00:00",
+      "timestamp": "2026-11-22T13:22:57.604108+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1369797,7 +1369771,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:31.167202+00:00",
+      "timestamp": "2026-11-22T13:22:57.793866+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1385730,7 +1385704,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:31.385210+00:00",
+      "timestamp": "2026-11-22T13:22:57.983815+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1401701,7 +1401675,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:31.599714+00:00",
+      "timestamp": "2026-11-22T13:22:58.175726+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1417634,7 +1417608,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:31.802607+00:00",
+      "timestamp": "2026-11-22T13:22:58.369662+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1433594,7 +1433568,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:32.017000+00:00",
+      "timestamp": "2026-11-22T13:22:58.578425+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1449527,7 +1449501,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:32.231370+00:00",
+      "timestamp": "2026-11-22T13:22:58.767452+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1465460,7 +1465434,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:32.441727+00:00",
+      "timestamp": "2026-11-22T13:22:59.063531+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1481393,7 +1481367,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:32.640534+00:00",
+      "timestamp": "2026-11-22T13:22:59.259533+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1497326,7 +1497300,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:32.842819+00:00",
+      "timestamp": "2026-11-22T13:22:59.451476+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1513259,7 +1513233,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:33.172339+00:00",
+      "timestamp": "2026-11-22T13:22:59.696696+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1529192,7 +1529166,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:33.378651+00:00",
+      "timestamp": "2026-11-22T13:22:59.888731+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1545125,7 +1545099,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:33.573348+00:00",
+      "timestamp": "2026-11-22T13:23:00.099706+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1561058,7 +1561032,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:33.788637+00:00",
+      "timestamp": "2026-11-22T13:23:00.312136+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1576970,7 +1576944,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:33.998075+00:00",
+      "timestamp": "2026-11-22T13:23:00.526339+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1592903,7 +1592877,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:34.196950+00:00",
+      "timestamp": "2026-11-22T13:23:00.727302+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1608815,7 +1608789,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:34.397420+00:00",
+      "timestamp": "2026-11-22T13:23:00.919627+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1624748,7 +1624722,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:34.599694+00:00",
+      "timestamp": "2026-11-22T13:23:01.129912+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1640681,7 +1640655,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:34.807121+00:00",
+      "timestamp": "2026-11-22T13:23:01.331828+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1656614,7 +1656588,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:35.230345+00:00",
+      "timestamp": "2026-11-22T13:23:01.716434+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1672547,7 +1672521,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:35.448994+00:00",
+      "timestamp": "2026-11-22T13:23:01.914389+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1688480,7 +1688454,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:35.647795+00:00",
+      "timestamp": "2026-11-22T13:23:02.109695+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1704413,7 +1704387,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:35.858875+00:00",
+      "timestamp": "2026-11-22T13:23:02.317592+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1720346,7 +1720320,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:36.059911+00:00",
+      "timestamp": "2026-11-22T13:23:02.529264+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1736298,7 +1736272,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:36.265054+00:00",
+      "timestamp": "2026-11-22T13:23:02.731446+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1752189,7 +1752163,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:36.466716+00:00",
+      "timestamp": "2026-11-22T13:23:02.928780+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1768080,7 +1768054,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:36.659814+00:00",
+      "timestamp": "2026-11-22T13:23:03.154276+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1784013,7 +1783987,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:37.015255+00:00",
+      "timestamp": "2026-11-22T13:23:03.476487+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1799946,7 +1799920,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:37.431954+00:00",
+      "timestamp": "2026-11-22T13:23:03.885870+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1816441,7 +1816415,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:38.221070+00:00",
+      "timestamp": "2026-11-22T13:23:04.647837+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1827806,7 +1827780,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:41.107988+00:00",
+      "timestamp": "2026-11-22T13:23:05.454175+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1828923,7 +1828897,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:41.925703+00:00",
+      "timestamp": "2026-11-22T13:23:06.241457+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1830048,7 +1830022,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:42.539625+00:00",
+      "timestamp": "2026-11-22T13:23:06.809800+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1831288,7 +1831262,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:43.162374+00:00",
+      "timestamp": "2026-11-22T13:23:07.506449+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1832315,7 +1832289,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:43.764089+00:00",
+      "timestamp": "2026-11-22T13:23:08.103874+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1833156,7 +1833130,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:44.402987+00:00",
+      "timestamp": "2026-11-22T13:23:08.670459+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1834124,7 +1834098,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:44.593094+00:00",
+      "timestamp": "2026-11-22T13:23:08.854031+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1835092,7 +1835066,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:45.180706+00:00",
+      "timestamp": "2026-11-22T13:23:09.417749+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1835718,7 +1835692,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:45.376115+00:00",
+      "timestamp": "2026-11-22T13:23:09.595921+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1836358,7 +1836332,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:46.196917+00:00",
+      "timestamp": "2026-11-22T13:23:10.341322+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1837299,7 +1837273,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:46.394827+00:00",
+      "timestamp": "2026-11-22T13:23:10.522862+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1838267,7 +1838241,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:47.121248+00:00",
+      "timestamp": "2026-11-22T13:23:11.103597+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1839065,7 +1839039,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:47.810219+00:00",
+      "timestamp": "2026-11-22T13:23:11.681823+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1839861,7 +1839835,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:48.014795+00:00",
+      "timestamp": "2026-11-22T13:23:11.867298+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1840657,7 +1840631,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:48.219403+00:00",
+      "timestamp": "2026-11-22T13:23:12.064757+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1846875,7 +1846849,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-22T11:54:49.717689+00:00",
+      "timestamp": "2026-11-22T13:23:12.845096+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1848430,7 +1848404,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-22T11:54:49.928737+00:00",
+      "timestamp": "2026-11-22T13:23:13.041603+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1849985,7 +1849959,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:50.607450+00:00",
+      "timestamp": "2026-11-22T13:23:13.606420+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1850765,25 +1850739,25 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 40.0,
-          "top1_pct": 21.5,
+          "avg_sdi": 45.0,
+          "top1_pct": 25.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "A. Ustby",
+              "name": "Wiltjer Kyle",
               "times_top2": 1
             },
             {
-              "name": "Cubaj Lorela",
+              "name": "Watson Glynn",
               "times_top2": 1
             },
             {
-              "name": "Cvitkovic Andrijana",
+              "name": "Parks Jordan",
               "times_top2": 1
             },
             {
-              "name": "Whittle Marena",
+              "name": "S. Rice",
               "times_top2": 1
             }
           ]
@@ -1850867,7 +1850841,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:50.815750+00:00",
+      "timestamp": "2026-11-22T13:23:13.794920+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1851745,7 +1851719,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:51.023327+00:00",
+      "timestamp": "2026-11-22T13:23:13.994057+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1852623,7 +1852597,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:51.221033+00:00",
+      "timestamp": "2026-11-22T13:23:14.188786+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1853501,7 +1853475,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:51.421740+00:00",
+      "timestamp": "2026-11-22T13:23:14.369654+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1854375,7 +1854349,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:52.294808+00:00",
+      "timestamp": "2026-11-22T13:23:15.139538+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1855597,7 +1855571,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:52.507774+00:00",
+      "timestamp": "2026-11-22T13:23:15.328139+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1856823,7 +1856797,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:52.707180+00:00",
+      "timestamp": "2026-11-22T13:23:15.518351+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1858049,7 +1858023,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:52.908441+00:00",
+      "timestamp": "2026-11-22T13:23:15.789135+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1859263,7 +1859237,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:53.130195+00:00",
+      "timestamp": "2026-11-22T13:23:15.970324+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1860481,7 +1860455,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:53.326776+00:00",
+      "timestamp": "2026-11-22T13:23:16.158893+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1861703,7 +1861677,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:53.522692+00:00",
+      "timestamp": "2026-11-22T13:23:16.347769+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1862921,7 +1862895,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:53.724289+00:00",
+      "timestamp": "2026-11-22T13:23:16.532120+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1864147,7 +1864121,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:54.324778+00:00",
+      "timestamp": "2026-11-22T13:23:17.244885+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1864987,7 +1864961,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:54.986629+00:00",
+      "timestamp": "2026-11-22T13:23:17.819314+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1865955,7 +1865929,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:55.198998+00:00",
+      "timestamp": "2026-11-22T13:23:18.007182+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1866919,7 +1866893,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:55.402324+00:00",
+      "timestamp": "2026-11-22T13:23:18.192952+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1868832,7 +1868806,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "second_division",
-      "timestamp": "2026-11-22T11:54:56.293739+00:00",
+      "timestamp": "2026-11-22T13:23:18.762475+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1869796,7 +1869770,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:56.885388+00:00",
+      "timestamp": "2026-11-22T13:23:19.331082+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1870266,7 +1870240,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "lower",
-      "timestamp": "2026-11-22T11:54:57.481066+00:00",
+      "timestamp": "2026-11-22T13:23:19.889401+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1871105,7 +1871079,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "lower",
-      "timestamp": "2026-11-22T11:54:57.673024+00:00",
+      "timestamp": "2026-11-22T13:23:20.070619+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1871881,7 +1871855,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:58.277439+00:00",
+      "timestamp": "2026-11-22T13:23:20.641578+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1873910,7 +1873884,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:59.688604+00:00",
+      "timestamp": "2026-11-22T13:23:21.370960+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1874638,7 +1874612,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:59.890863+00:00",
+      "timestamp": "2026-11-22T13:23:21.552150+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1875366,7 +1875340,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:00.093815+00:00",
+      "timestamp": "2026-11-22T13:23:21.734731+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1876090,7 +1876064,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:00.294088+00:00",
+      "timestamp": "2026-11-22T13:23:21.914018+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1880275,15 +1880249,15 @@
       "home_team_volatility": 16.53,
       "away_team_volatility": 18.25,
       "game_id": 511620,
-      "market_total": 169.0,
-      "edge": 1.5,
-      "side": "OVER",
+      "market_total": 171.0,
+      "edge": -0.5,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.81,
-      "odds_under": 1.85,
+      "odds_over": 1.85,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 48.0,
@@ -1880302,14 +1880276,14 @@
       "selected_model": "ADV",
       "adv_total": 170.5,
       "srs_total": 180.62,
-      "adv_edge": 1.5,
-      "srs_edge": 11.6,
-      "model_agreement": "CONFIRMED_OVER",
+      "adv_edge": -0.5,
+      "srs_edge": 9.6,
+      "model_agreement": "DISCORDANT",
       "model_divergence": 10.12,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:02.486536+00:00",
+      "timestamp": "2026-11-22T13:23:22.682839+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1881368,15 +1881342,15 @@
       "home_team_volatility": 17.56,
       "away_team_volatility": 18.93,
       "game_id": 511500,
-      "market_total": 142.5,
-      "edge": -3.0,
+      "market_total": 145.5,
+      "edge": -6.0,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.79,
-      "odds_under": 1.81,
+      "odds_over": 1.83,
+      "odds_under": 1.84,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 21.3,
@@ -1881396,13 +1881370,13 @@
       "adv_total": null,
       "srs_total": 139.49,
       "adv_edge": null,
-      "srs_edge": -3.0,
+      "srs_edge": -6.0,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:03.087632+00:00",
+      "timestamp": "2026-11-22T13:23:23.242204+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1882174,8 +1882148,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.68,
-      "odds_under": 1.93,
+      "odds_over": 1.47,
+      "odds_under": 2.41,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 40.0,
@@ -1882201,7 +1882175,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:03.287657+00:00",
+      "timestamp": "2026-11-22T13:23:23.423626+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1883618,7 +1883592,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:04.074667+00:00",
+      "timestamp": "2026-11-22T13:23:23.978355+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1884409,7 +1884383,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:04.690188+00:00",
+      "timestamp": "2026-11-22T13:23:24.596053+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1886173,7 +1886147,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:05.319025+00:00",
+      "timestamp": "2026-11-22T13:23:25.164797+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1889784,7 +1889758,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:05.926247+00:00",
+      "timestamp": "2026-11-22T13:23:25.719525+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1891979,7 +1891953,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:06.564941+00:00",
+      "timestamp": "2026-11-22T13:23:26.273391+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1892793,7 +1892767,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:07.154936+00:00",
+      "timestamp": "2026-11-22T13:23:26.866047+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1893804,7 +1893778,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:07.358002+00:00",
+      "timestamp": "2026-11-22T13:23:27.049326+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1894806,7 +1894780,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:07.549927+00:00",
+      "timestamp": "2026-11-22T13:23:27.231734+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1895813,7 +1895787,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:55:07.745814+00:00",
+      "timestamp": "2026-11-22T13:23:27.411556+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1912730,7 +1912704,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T11:54:58.478944+00:00",
+      "timestamp": "2026-11-22T13:23:20.821506+00:00",
       "match_center": {
         "h2h": [
           {
