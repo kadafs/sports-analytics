@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:34:25.906199",
+  "generated_at": "2026-11-22T11:53:08.343046",
   "total_teams": 1637,
   "source": "api-basketball",
   "summary": {
@@ -31605,6 +31605,38 @@
       ]
     },
     {
+      "team": "Milwaukee Bucks",
+      "games_tracked": 4,
+      "avg_sdi": 41.9,
+      "avg_top1_pct": 24.8,
+      "max_sdi": 58.9,
+      "min_sdi": 32.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Herro Tyler",
+          "times_top2": 2
+        },
+        {
+          "name": "B. Burries",
+          "times_top2": 2
+        },
+        {
+          "name": "N. Ament",
+          "times_top2": 1
+        },
+        {
+          "name": "Kuzma Kyle",
+          "times_top2": 1
+        },
+        {
+          "name": "Jakucionis Kasparas",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Slavia Prague ERA NBK",
       "games_tracked": 2,
       "avg_sdi": 41.8,
@@ -32776,38 +32808,6 @@
         },
         {
           "name": "N. Urbanija",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
-      "team": "Milwaukee Bucks",
-      "games_tracked": 4,
-      "avg_sdi": 41.5,
-      "avg_top1_pct": 24.5,
-      "max_sdi": 57.6,
-      "min_sdi": 32.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Herro Tyler",
-          "times_top2": 2
-        },
-        {
-          "name": "B. Burries",
-          "times_top2": 2
-        },
-        {
-          "name": "N. Ament",
-          "times_top2": 1
-        },
-        {
-          "name": "Kuzma Kyle",
-          "times_top2": 1
-        },
-        {
-          "name": "Jakucionis Kasparas",
           "times_top2": 1
         }
       ]
