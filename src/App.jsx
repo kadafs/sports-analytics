@@ -871,6 +871,10 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
         if (edge < 5.0) return false
       } else if (filterNormalEdge === 'under_5' || filterNormalEdge === 'under_7') {
         if (edge > -5.0) return false
+      } else if (filterNormalEdge === 'close_1') {
+        if (absEdge > 1.0) return false
+      } else if (filterNormalEdge === 'close_2') {
+        if (absEdge > 2.0) return false
       }
     }
 
@@ -1332,6 +1336,8 @@ export default function App() {
                 <option value="15">🏆 Edge ≥ 15.0 pts</option>
                 <option value="over_5">📈 Normal OVER (≥ 5.0)</option>
                 <option value="under_5">📉 Normal UNDER (≥ 5.0)</option>
+                <option value="close_1">🎯 Close to Market (≤ 1.0 pt)</option>
+                <option value="close_2">🎯 Close to Market (≤ 2.0 pts)</option>
               </select>
 
               <select
