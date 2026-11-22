@@ -53,8 +53,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.84,
+      "odds_over": 1.84,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 38.7,
@@ -80,7 +80,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:32.048887+00:00",
+      "timestamp": "2026-11-22T17:57:20.918258+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -436,9 +436,52 @@
                 "points": 16
               },
               "team": {
-                "id": 2273,
-                "name": "Pelplin",
-                "logo": "https://media.api-sports.io/basketball/teams/2273.png"
+                "id": 6525,
+                "name": "R. Rzeszow",
+                "logo": "https://media.api-sports.io/basketball/teams/6525.png"
+              },
+              "league": {
+                "id": 71,
+                "name": "1 Liga",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/71.png"
+              },
+              "country": {
+                "id": 34,
+                "name": "Poland",
+                "code": "PL",
+                "flag": "https://media.api-sports.io/flags/pl.svg"
+              },
+              "games": {
+                "played": 11,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.455"
+                },
+                "lose": {
+                  "total": 6,
+                  "percentage": "0.545"
+                }
+              },
+              "points": {
+                "for": 933,
+                "against": 977
+              },
+              "form": null,
+              "description": "Promotion - 1. Liga (Play Offs)"
+            },
+            {
+              "position": 5,
+              "stage": "1. Liga - Regular Season",
+              "group": {
+                "name": null,
+                "points": 16
+              },
+              "team": {
+                "id": 901,
+                "name": "Poznan",
+                "logo": "https://media.api-sports.io/basketball/teams/901.png"
               },
               "league": {
                 "id": 71,
@@ -465,14 +508,14 @@
                 }
               },
               "points": {
-                "for": 931,
-                "against": 927
+                "for": 927,
+                "against": 870
               },
               "form": null,
               "description": "Promotion - 1. Liga (Play Offs)"
             },
             {
-              "position": 5,
+              "position": 6,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
@@ -515,16 +558,16 @@
               "description": "Promotion - 1. Liga (Play Offs)"
             },
             {
-              "position": 6,
+              "position": 7,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
-                "points": 15
+                "points": 16
               },
               "team": {
-                "id": 901,
-                "name": "Poznan",
-                "logo": "https://media.api-sports.io/basketball/teams/901.png"
+                "id": 2273,
+                "name": "Pelplin",
+                "logo": "https://media.api-sports.io/basketball/teams/2273.png"
               },
               "league": {
                 "id": 71,
@@ -540,25 +583,25 @@
                 "flag": "https://media.api-sports.io/flags/pl.svg"
               },
               "games": {
-                "played": 9,
+                "played": 10,
                 "win": {
                   "total": 6,
-                  "percentage": "0.667"
+                  "percentage": "0.600"
                 },
                 "lose": {
-                  "total": 3,
-                  "percentage": "0.333"
+                  "total": 4,
+                  "percentage": "0.400"
                 }
               },
               "points": {
-                "for": 827,
-                "against": 767
+                "for": 931,
+                "against": 927
               },
               "form": null,
               "description": "Promotion - 1. Liga (Play Offs)"
             },
             {
-              "position": 7,
+              "position": 8,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
@@ -601,7 +644,7 @@
               "description": "Promotion - 1. Liga (Play Offs)"
             },
             {
-              "position": 8,
+              "position": 9,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
@@ -641,10 +684,10 @@
                 "against": 833
               },
               "form": null,
-              "description": "Promotion - 1. Liga (Play Offs)"
+              "description": null
             },
             {
-              "position": 9,
+              "position": 10,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
@@ -687,7 +730,7 @@
               "description": null
             },
             {
-              "position": 10,
+              "position": 11,
               "stage": "1. Liga - Regular Season",
               "group": {
                 "name": null,
@@ -725,49 +768,6 @@
               "points": {
                 "for": 867,
                 "against": 888
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 11,
-              "stage": "1. Liga - Regular Season",
-              "group": {
-                "name": null,
-                "points": 14
-              },
-              "team": {
-                "id": 6525,
-                "name": "R. Rzeszow",
-                "logo": "https://media.api-sports.io/basketball/teams/6525.png"
-              },
-              "league": {
-                "id": 71,
-                "name": "1 Liga",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/71.png"
-              },
-              "country": {
-                "id": 34,
-                "name": "Poland",
-                "code": "PL",
-                "flag": "https://media.api-sports.io/flags/pl.svg"
-              },
-              "games": {
-                "played": 10,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.400"
-                },
-                "lose": {
-                  "total": 6,
-                  "percentage": "0.600"
-                }
-              },
-              "points": {
-                "for": 830,
-                "against": 877
               },
               "form": null,
               "description": null
@@ -1115,7 +1115,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:32.711385+00:00",
+      "timestamp": "2026-11-22T17:57:21.339987+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1974,7 +1974,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:33.588829+00:00",
+      "timestamp": "2026-11-22T17:57:21.909622+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2983,7 +2983,7 @@
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.81,
-      "odds_under": 1.85,
+      "odds_under": 1.86,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 21.3,
@@ -3009,7 +3009,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:34.935666+00:00",
+      "timestamp": "2026-11-22T17:57:22.824976+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4055,7 +4055,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:35.741010+00:00",
+      "timestamp": "2026-11-22T17:57:23.276667+00:00",
       "match_center": {
         "h2h": [
           {
@@ -5137,7 +5137,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:36.398239+00:00",
+      "timestamp": "2026-11-22T17:57:23.683481+00:00",
       "match_center": {
         "h2h": [
           {
@@ -6362,7 +6362,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:37.053653+00:00",
+      "timestamp": "2026-11-22T17:57:24.091328+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6715,7 +6715,7 @@
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
-                "points": 9
+                "points": 11
               },
               "team": {
                 "id": 992,
@@ -6736,25 +6736,68 @@
                 "flag": "https://media.api-sports.io/flags/ro.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
-                  "total": 4,
-                  "percentage": "0.800"
+                  "total": 5,
+                  "percentage": "0.833"
                 },
                 "lose": {
                   "total": 1,
-                  "percentage": "0.200"
+                  "percentage": "0.167"
                 }
               },
               "points": {
-                "for": 387,
-                "against": 369
+                "for": 478,
+                "against": 392
               },
               "form": null,
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
             },
             {
               "position": 5,
+              "stage": "Liga National Women - Regular Season",
+              "group": {
+                "name": null,
+                "points": 10
+              },
+              "team": {
+                "id": 7957,
+                "name": "Oxigen Bucuresti W",
+                "logo": "https://media.api-sports.io/basketball/teams/7957.png"
+              },
+              "league": {
+                "id": 79,
+                "name": "Liga National W",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
+              },
+              "country": {
+                "id": 38,
+                "name": "Romania",
+                "code": "RO",
+                "flag": "https://media.api-sports.io/flags/ro.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 3,
+                  "percentage": "0.429"
+                },
+                "lose": {
+                  "total": 4,
+                  "percentage": "0.571"
+                }
+              },
+              "points": {
+                "for": 555,
+                "against": 482
+              },
+              "form": null,
+              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
+            },
+            {
+              "position": 6,
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
@@ -6797,7 +6840,7 @@
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
             },
             {
-              "position": 6,
+              "position": 7,
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
@@ -6835,49 +6878,6 @@
               "points": {
                 "for": 452,
                 "against": 377
-              },
-              "form": null,
-              "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
-            },
-            {
-              "position": 7,
-              "stage": "Liga National Women - Regular Season",
-              "group": {
-                "name": null,
-                "points": 8
-              },
-              "team": {
-                "id": 7957,
-                "name": "Oxigen Bucuresti W",
-                "logo": "https://media.api-sports.io/basketball/teams/7957.png"
-              },
-              "league": {
-                "id": 79,
-                "name": "Liga National W",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
-              },
-              "country": {
-                "id": 38,
-                "name": "Romania",
-                "code": "RO",
-                "flag": "https://media.api-sports.io/flags/ro.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 2,
-                  "percentage": "0.333"
-                },
-                "lose": {
-                  "total": 4,
-                  "percentage": "0.667"
-                }
-              },
-              "points": {
-                "for": 451,
-                "against": 433
               },
               "form": null,
               "description": "Promotion - Liga National Women (Play Offs: Quarter-finals)"
@@ -6930,12 +6930,55 @@
               "stage": "Liga National Women - Regular Season",
               "group": {
                 "name": null,
-                "points": 6
+                "points": 7
               },
               "team": {
                 "id": 984,
                 "name": "Agronomia Bucuresti W",
                 "logo": "https://media.api-sports.io/basketball/teams/984.png"
+              },
+              "league": {
+                "id": 79,
+                "name": "Liga National W",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
+              },
+              "country": {
+                "id": 38,
+                "name": "Romania",
+                "code": "RO",
+                "flag": "https://media.api-sports.io/flags/ro.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 0,
+                  "percentage": "0.000"
+                },
+                "lose": {
+                  "total": 7,
+                  "percentage": "0.000"
+                }
+              },
+              "points": {
+                "for": 285,
+                "against": 634
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "Liga National Women - Regular Season",
+              "group": {
+                "name": null,
+                "points": 6
+              },
+              "team": {
+                "id": 7496,
+                "name": "Politehnica Timisoara W",
+                "logo": "https://media.api-sports.io/basketball/teams/7496.png"
               },
               "league": {
                 "id": 79,
@@ -6962,51 +7005,8 @@
                 }
               },
               "points": {
-                "for": 262,
-                "against": 543
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "Liga National Women - Regular Season",
-              "group": {
-                "name": null,
-                "points": 5
-              },
-              "team": {
-                "id": 7496,
-                "name": "Politehnica Timisoara W",
-                "logo": "https://media.api-sports.io/basketball/teams/7496.png"
-              },
-              "league": {
-                "id": 79,
-                "name": "Liga National W",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/79.png"
-              },
-              "country": {
-                "id": 38,
-                "name": "Romania",
-                "code": "RO",
-                "flag": "https://media.api-sports.io/flags/ro.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 0,
-                  "percentage": "0.000"
-                },
-                "lose": {
-                  "total": 5,
-                  "percentage": "0.000"
-                }
-              },
-              "points": {
-                "for": 174,
-                "against": 545
+                "for": 223,
+                "against": 649
               },
               "form": null,
               "description": null
@@ -7092,9 +7092,9 @@
       "home_team": "Washington Wizards",
       "status": "Not Started",
       "stage": "",
-      "model_total": 224.53,
-      "xpts_h": 109.2,
-      "xpts_a": 115.3,
+      "model_total": 223.83,
+      "xpts_h": 108.8,
+      "xpts_a": 115.0,
       "probs_1x2": {
         "home": 30.5,
         "away": 69.5
@@ -7105,15 +7105,15 @@
       "home_team_volatility": 27.6,
       "away_team_volatility": 21.03,
       "game_id": 519776,
-      "market_total": 222.0,
-      "edge": 2.5,
+      "market_total": 220.0,
+      "edge": 3.8,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.93,
-      "odds_under": 1.93,
+      "odds_over": 1.94,
+      "odds_under": 1.94,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 30.7,
@@ -7130,16 +7130,16 @@
       "mbet_threshold": 7.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 224.53,
-      "srs_total": 225.46,
-      "adv_edge": 2.5,
-      "srs_edge": 3.5,
+      "adv_total": 223.83,
+      "srs_total": 224.76,
+      "adv_edge": 3.8,
+      "srs_edge": 4.8,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 0.93,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T15:52:37.802563+00:00",
+      "timestamp": "2026-11-22T17:57:24.603014+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11348,9 +11348,9 @@
       "home_team": "Utah Jazz",
       "status": "Not Started",
       "stage": "",
-      "model_total": 225.83,
-      "xpts_h": 113.1,
-      "xpts_a": 112.7,
+      "model_total": 225.48,
+      "xpts_h": 113.0,
+      "xpts_a": 112.5,
       "probs_1x2": {
         "home": 51.6,
         "away": 48.4
@@ -11361,15 +11361,15 @@
       "home_team_volatility": 19.04,
       "away_team_volatility": 20.89,
       "game_id": 519777,
-      "market_total": 225.5,
-      "edge": 0.3,
+      "market_total": 224.5,
+      "edge": 1.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.95,
-      "odds_under": 1.92,
+      "odds_over": 1.93,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 16.0,
@@ -11386,16 +11386,16 @@
       "mbet_threshold": 7.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 225.83,
-      "srs_total": 228.85,
-      "adv_edge": 0.3,
-      "srs_edge": 3.3,
+      "adv_total": 225.48,
+      "srs_total": 228.5,
+      "adv_edge": 1.0,
+      "srs_edge": 4.0,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 3.02,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T15:52:38.021645+00:00",
+      "timestamp": "2026-11-22T17:57:24.743219+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15616,9 +15616,9 @@
       "home_team": "Chicago Bulls",
       "status": "Not Started",
       "stage": "",
-      "model_total": 239.09,
-      "xpts_h": 116.5,
-      "xpts_a": 122.6,
+      "model_total": 238.57,
+      "xpts_h": 116.2,
+      "xpts_a": 122.4,
       "probs_1x2": {
         "home": 30.5,
         "away": 69.5
@@ -15629,15 +15629,15 @@
       "home_team_volatility": 19.29,
       "away_team_volatility": 22.45,
       "game_id": 519778,
-      "market_total": 237.5,
-      "edge": 1.6,
+      "market_total": 236.0,
+      "edge": 2.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.93,
-      "odds_under": 1.93,
+      "odds_over": 1.94,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 30.7,
@@ -15654,16 +15654,16 @@
       "mbet_threshold": 7.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 239.09,
-      "srs_total": 239.65,
-      "adv_edge": 1.6,
-      "srs_edge": 2.2,
+      "adv_total": 238.57,
+      "srs_total": 239.12,
+      "adv_edge": 2.6,
+      "srs_edge": 3.1,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 0.56,
+      "model_divergence": 0.55,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T15:52:38.242854+00:00",
+      "timestamp": "2026-11-22T17:57:24.887494+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19876,9 +19876,9 @@
       "home_team": "New York Knicks",
       "status": "Not Started",
       "stage": "",
-      "model_total": 217.18,
-      "xpts_h": 121.4,
-      "xpts_a": 95.8,
+      "model_total": 216.31,
+      "xpts_h": 120.9,
+      "xpts_a": 95.4,
       "probs_1x2": {
         "home": 98.3,
         "away": 1.7
@@ -19889,14 +19889,14 @@
       "home_team_volatility": 18.41,
       "away_team_volatility": 20.83,
       "game_id": 519779,
-      "market_total": 216.5,
-      "edge": 0.7,
+      "market_total": 214.0,
+      "edge": 2.3,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.94,
+      "odds_over": 1.92,
       "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
@@ -19914,16 +19914,16 @@
       "mbet_threshold": 7.6,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 218.84,
-      "srs_total": 217.18,
-      "adv_edge": 2.3,
-      "srs_edge": 0.7,
+      "adv_total": 217.97,
+      "srs_total": 216.31,
+      "adv_edge": 4.0,
+      "srs_edge": 2.3,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 1.66,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T15:52:38.459172+00:00",
+      "timestamp": "2026-11-22T17:57:25.038207+00:00",
       "match_center": {
         "h2h": [
           {
@@ -24132,9 +24132,9 @@
       "home_team": "Golden State Warriors",
       "status": "Not Started",
       "stage": "",
-      "model_total": 215.06,
-      "xpts_h": 98.4,
-      "xpts_a": 116.6,
+      "model_total": 214.19,
+      "xpts_h": 98.0,
+      "xpts_a": 116.2,
       "probs_1x2": {
         "home": 6.5,
         "away": 93.5
@@ -24145,15 +24145,15 @@
       "home_team_volatility": 16.81,
       "away_team_volatility": 17.67,
       "game_id": 519780,
-      "market_total": 212.5,
-      "edge": 2.6,
+      "market_total": 210.0,
+      "edge": 4.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Bet365",
-      "bookmaker": "Bet365",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
       "odds_over": 1.93,
-      "odds_under": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 57.3,
@@ -24170,16 +24170,16 @@
       "mbet_threshold": 7.6,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 216.28,
-      "srs_total": 215.06,
-      "adv_edge": 3.8,
-      "srs_edge": 2.6,
+      "adv_total": 215.4,
+      "srs_total": 214.19,
+      "adv_edge": 5.4,
+      "srs_edge": 4.2,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 1.22,
+      "model_divergence": 1.21,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-22T15:52:38.781901+00:00",
+      "timestamp": "2026-11-22T17:57:25.198978+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -28421,7 +28421,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:40.040353+00:00",
+      "timestamp": "2026-11-22T17:57:25.961018+00:00",
       "match_center": {
         "h2h": [
           {
@@ -31464,15 +31464,15 @@
       "home_team_volatility": 24.19,
       "away_team_volatility": 16.17,
       "game_id": 527065,
-      "market_total": 147.0,
-      "edge": 8.5,
+      "market_total": 146.5,
+      "edge": 9.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.91,
-      "odds_under": 1.91,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 46.7,
@@ -31491,14 +31491,14 @@
       "selected_model": "SRS",
       "adv_total": 157.66,
       "srs_total": 155.46,
-      "adv_edge": 10.7,
-      "srs_edge": 8.5,
+      "adv_edge": 11.2,
+      "srs_edge": 9.0,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 2.2,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:41.805850+00:00",
+      "timestamp": "2026-11-22T17:57:27.403377+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -47483,15 +47483,15 @@
       "home_team_volatility": 19.98,
       "away_team_volatility": 19.11,
       "game_id": 527066,
-      "market_total": 150.0,
-      "edge": 2.2,
-      "side": "OVER",
+      "market_total": 152.5,
+      "edge": -0.2,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.93,
+      "odds_over": 1.91,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -47510,14 +47510,14 @@
       "selected_model": "SRS",
       "adv_total": 154.72,
       "srs_total": 152.25,
-      "adv_edge": 4.7,
-      "srs_edge": 2.2,
-      "model_agreement": "CONFIRMED_OVER",
+      "adv_edge": 2.2,
+      "srs_edge": -0.2,
+      "model_agreement": "DISCORDANT",
       "model_divergence": 2.47,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:42.025330+00:00",
+      "timestamp": "2026-11-22T17:57:27.550173+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63509,8 +63509,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.92,
+      "odds_over": 1.92,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 17.3,
@@ -63536,7 +63536,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:42.260697+00:00",
+      "timestamp": "2026-11-22T17:57:27.692806+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -79521,15 +79521,15 @@
       "home_team_volatility": 17.07,
       "away_team_volatility": 18.33,
       "game_id": 527069,
-      "market_total": 147.5,
-      "edge": 2.4,
+      "market_total": 145.5,
+      "edge": 4.4,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.9,
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 21.3,
@@ -79548,14 +79548,14 @@
       "selected_model": "ADV",
       "adv_total": 149.94,
       "srs_total": 150.42,
-      "adv_edge": 2.4,
-      "srs_edge": 2.9,
+      "adv_edge": 4.4,
+      "srs_edge": 4.9,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 0.48,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:42.698540+00:00",
+      "timestamp": "2026-11-22T17:57:27.969820+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -95519,14 +95519,14 @@
       "home_team_volatility": 18.61,
       "away_team_volatility": 17.47,
       "game_id": 527070,
-      "market_total": 146.0,
-      "edge": 5.1,
+      "market_total": 148.5,
+      "edge": 2.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
+      "odds_over": 1.9,
       "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
@@ -95546,14 +95546,14 @@
       "selected_model": "ADV",
       "adv_total": 151.1,
       "srs_total": 152.86,
-      "adv_edge": 5.1,
-      "srs_edge": 6.9,
+      "adv_edge": 2.6,
+      "srs_edge": 4.4,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 1.76,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:42.911025+00:00",
+      "timestamp": "2026-11-22T17:57:28.127762+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -111544,15 +111544,15 @@
       "home_team_volatility": 18.0,
       "away_team_volatility": 16.43,
       "game_id": 515453,
-      "market_total": 148.5,
-      "edge": 5.1,
+      "market_total": 147.0,
+      "edge": 6.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.91,
-      "odds_under": 1.91,
+      "odds_over": 1.92,
+      "odds_under": 1.9,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -111571,14 +111571,14 @@
       "selected_model": "SRS",
       "adv_total": 157.58,
       "srs_total": 153.63,
-      "adv_edge": 9.1,
-      "srs_edge": 5.1,
+      "adv_edge": 10.6,
+      "srs_edge": 6.6,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 3.95,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:43.129679+00:00",
+      "timestamp": "2026-11-22T17:57:28.277987+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -127616,7 +127616,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:43.360341+00:00",
+      "timestamp": "2026-11-22T17:57:28.428906+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -143635,7 +143635,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:43.579541+00:00",
+      "timestamp": "2026-11-22T17:57:28.574985+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -159654,7 +159654,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:43.844314+00:00",
+      "timestamp": "2026-11-22T17:57:28.766544+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -175589,7 +175589,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:44.117179+00:00",
+      "timestamp": "2026-11-22T17:57:28.909791+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -191566,7 +191566,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:44.617212+00:00",
+      "timestamp": "2026-11-22T17:57:29.291535+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -207608,7 +207608,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:44.844540+00:00",
+      "timestamp": "2026-11-22T17:57:29.439833+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -223627,7 +223627,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:45.074347+00:00",
+      "timestamp": "2026-11-22T17:57:29.580520+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -239646,7 +239646,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:45.293297+00:00",
+      "timestamp": "2026-11-22T17:57:29.727295+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -255644,7 +255644,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:45.525074+00:00",
+      "timestamp": "2026-11-22T17:57:29.897764+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -271663,7 +271663,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:45.791631+00:00",
+      "timestamp": "2026-11-22T17:57:30.038689+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -287682,7 +287682,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:46.018149+00:00",
+      "timestamp": "2026-11-22T17:57:30.188874+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -303701,7 +303701,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:46.252402+00:00",
+      "timestamp": "2026-11-22T17:57:30.330929+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -319720,7 +319720,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:46.555798+00:00",
+      "timestamp": "2026-11-22T17:57:30.477611+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -335739,7 +335739,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:46.780474+00:00",
+      "timestamp": "2026-11-22T17:57:30.664949+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -351758,7 +351758,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:47.245649+00:00",
+      "timestamp": "2026-11-22T17:57:30.951798+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -367777,7 +367777,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:48.892597+00:00",
+      "timestamp": "2026-11-22T17:57:31.849828+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -383689,7 +383689,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:49.115105+00:00",
+      "timestamp": "2026-11-22T17:57:31.994904+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -399622,7 +399622,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:49.327653+00:00",
+      "timestamp": "2026-11-22T17:57:32.134804+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -415582,7 +415582,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:49.547029+00:00",
+      "timestamp": "2026-11-22T17:57:32.280018+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -431494,7 +431494,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:49.767444+00:00",
+      "timestamp": "2026-11-22T17:57:32.419771+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -447406,7 +447406,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:49.990467+00:00",
+      "timestamp": "2026-11-22T17:57:32.624649+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -463339,7 +463339,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:50.213090+00:00",
+      "timestamp": "2026-11-22T17:57:32.767844+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -479272,7 +479272,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:50.475468+00:00",
+      "timestamp": "2026-11-22T17:57:32.913839+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -495224,7 +495224,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:50.685875+00:00",
+      "timestamp": "2026-11-22T17:57:33.053170+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -511203,7 +511203,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:50.906128+00:00",
+      "timestamp": "2026-11-22T17:57:33.208561+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -527155,7 +527155,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:51.127175+00:00",
+      "timestamp": "2026-11-22T17:57:33.353595+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -543088,7 +543088,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:51.341009+00:00",
+      "timestamp": "2026-11-22T17:57:33.495612+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -559048,7 +559048,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:51.562567+00:00",
+      "timestamp": "2026-11-22T17:57:33.641771+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -575008,7 +575008,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:51.796368+00:00",
+      "timestamp": "2026-11-22T17:57:33.791269+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -590956,7 +590956,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:52.046058+00:00",
+      "timestamp": "2026-11-22T17:57:33.927816+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -606889,7 +606889,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:52.349537+00:00",
+      "timestamp": "2026-11-22T17:57:34.067260+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -622822,7 +622822,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:52.646178+00:00",
+      "timestamp": "2026-11-22T17:57:34.205324+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -638734,7 +638734,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:52.917113+00:00",
+      "timestamp": "2026-11-22T17:57:34.403997+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -654667,7 +654667,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:53.142372+00:00",
+      "timestamp": "2026-11-22T17:57:34.553381+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -670600,7 +670600,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:53.355890+00:00",
+      "timestamp": "2026-11-22T17:57:34.699824+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -686499,16 +686499,16 @@
       "home_team_volatility": 14.77,
       "away_team_volatility": 3.54,
       "game_id": 525950,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 158.9,
+      "market_total": 150.5,
+      "edge": 8.4,
+      "side": "OVER",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
+      "odds_source": "Bet365",
+      "bookmaker": "Bet365",
+      "odds_over": 1.83,
+      "odds_under": 1.83,
+      "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 33.3,
       "floor_status": "LOW_N(2)",
@@ -686527,13 +686527,13 @@
       "adv_total": null,
       "srs_total": 158.87,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": 8.4,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:53.991435+00:00",
+      "timestamp": "2026-11-22T17:57:35.107784+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -686989,7 +686989,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:54.854161+00:00",
+      "timestamp": "2026-11-22T17:57:35.658034+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -687915,7 +687915,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:55.505336+00:00",
+      "timestamp": "2026-11-22T17:57:36.067466+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -688677,15 +688677,15 @@
       "home_team_volatility": 18.44,
       "away_team_volatility": 17.83,
       "game_id": 501694,
-      "market_total": 161.5,
-      "edge": 1.9,
+      "market_total": 159.0,
+      "edge": 4.4,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.84,
-      "odds_under": 1.83,
+      "odds_over": 1.83,
+      "odds_under": 1.84,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 14.7,
@@ -688705,13 +688705,13 @@
       "adv_total": null,
       "srs_total": 163.45,
       "adv_edge": null,
-      "srs_edge": 1.9,
+      "srs_edge": 4.4,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:55.717688+00:00",
+      "timestamp": "2026-11-22T17:57:36.200022+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -689480,8 +689480,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.81,
-      "odds_under": 1.86,
+      "odds_over": 1.83,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -689507,7 +689507,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:55.945598+00:00",
+      "timestamp": "2026-11-22T17:57:36.339920+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -690181,21 +690181,21 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 49.6,
-          "top1_pct": 26.5,
+          "avg_sdi": 43.4,
+          "top1_pct": 23.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Kane DeAndre",
+              "name": "Abdi Farhiya",
               "times_top2": 2
             },
             {
-              "name": "J. Pargo",
+              "name": "Nystrom Ellen",
               "times_top2": 1
             },
             {
-              "name": "Helgason Arnor Tristan",
+              "name": "A. Beeman",
               "times_top2": 1
             }
           ]
@@ -690303,7 +690303,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:56.154204+00:00",
+      "timestamp": "2026-11-22T17:57:36.487867+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -691091,7 +691091,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:56.806898+00:00",
+      "timestamp": "2026-11-22T17:57:36.916823+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -692017,7 +692017,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:57.451369+00:00",
+      "timestamp": "2026-11-22T17:57:37.326408+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -692757,15 +692757,15 @@
       "home_team_volatility": 13.27,
       "away_team_volatility": 17.35,
       "game_id": 523082,
-      "market_total": 145.5,
-      "edge": 2.9,
+      "market_total": 143.5,
+      "edge": 4.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.84,
+      "odds_over": 1.86,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 30.7,
@@ -692785,13 +692785,13 @@
       "adv_total": null,
       "srs_total": 148.45,
       "adv_edge": null,
-      "srs_edge": 2.9,
+      "srs_edge": 4.9,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:58.077280+00:00",
+      "timestamp": "2026-11-22T17:57:37.725481+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -693509,11 +693509,11 @@
       "home_team_volatility": 18.9,
       "away_team_volatility": 16.61,
       "game_id": 523083,
-      "market_total": 147.5,
-      "edge": 6.9,
+      "market_total": 145.5,
+      "edge": 8.9,
       "side": "OVER",
-      "decision": "PASS",
-      "confidence": "SOLID",
+      "decision": "PLAY OVER",
+      "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.84,
@@ -693537,13 +693537,13 @@
       "adv_total": null,
       "srs_total": 154.45,
       "adv_edge": null,
-      "srs_edge": 6.9,
+      "srs_edge": 8.9,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:58.282340+00:00",
+      "timestamp": "2026-11-22T17:57:37.863513+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -694289,7 +694289,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:58.489821+00:00",
+      "timestamp": "2026-11-22T17:57:37.994000+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -695043,7 +695043,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:59.114788+00:00",
+      "timestamp": "2026-11-22T17:57:38.407261+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -696138,7 +696138,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:59.322681+00:00",
+      "timestamp": "2026-11-22T17:57:38.544311+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -697237,7 +697237,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:52:59.533330+00:00",
+      "timestamp": "2026-11-22T17:57:38.677104+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -698279,16 +698279,16 @@
       "home_team_volatility": 17.74,
       "away_team_volatility": 15.43,
       "game_id": 524833,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 128.5,
+      "market_total": 139.5,
+      "edge": -15.0,
+      "side": "UNDER",
+      "decision": "PLAY UNDER",
+      "confidence": "HIGH",
+      "odds_source": "Bet365",
+      "bookmaker": "Bet365",
+      "odds_over": 1.83,
+      "odds_under": 1.83,
+      "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 41.3,
       "floor_status": "ELITE",
@@ -698307,13 +698307,13 @@
       "adv_total": null,
       "srs_total": 124.52,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": -15.0,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-22T15:53:00.188588+00:00",
+      "timestamp": "2026-11-22T17:57:39.101185+00:00",
       "match_center": {
         "h2h": [
           {
