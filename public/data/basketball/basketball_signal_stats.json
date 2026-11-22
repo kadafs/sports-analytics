@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-11-22T13:50:31.640507",
+  "updated_at": "2026-11-22T15:20:37.443507",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 9683,
+  "total_graded_games": 9701,
   "baseline": {
     "moneyline_pct": 67.4,
     "under_model_pct": 57.3,
     "avg_signed_delta": -3.2,
     "under_market_pct": 50.6,
-    "avg_market_delta": -0.0
+    "avg_market_delta": 0.0
   },
   "clash": {
-    "sample": 546,
-    "under_model_pct": 57.3,
-    "over_model_pct": 42.7,
+    "sample": 547,
+    "under_model_pct": 57.4,
+    "over_model_pct": 42.6,
     "avg_score_delta": -4.2,
-    "moneyline_pct": 63.2,
+    "moneyline_pct": 63.3,
     "sharp_over": {
       "sample": 168,
       "under_model_pct": 69.6,
@@ -25,59 +25,59 @@
       "avg_mkt_delta": 1.9
     },
     "regular": {
-      "sample": 378,
-      "under_model_pct": 51.9,
+      "sample": 379,
+      "under_model_pct": 52.0,
       "avg_score_delta": -1.7,
-      "mkt_sample": 340,
-      "under_mkt_pct": 55.0,
+      "mkt_sample": 341,
+      "under_mkt_pct": 55.1,
       "avg_mkt_delta": -1.7
     },
     "market_overall": {
-      "sample": 508,
-      "under_mkt_pct": 52.0,
+      "sample": 509,
+      "under_mkt_pct": 52.1,
       "avg_mkt_delta": -0.5
     }
   },
   "shootout": {
-    "sample": 212,
-    "over_model_pct": 29.2,
-    "under_model_pct": 70.8,
-    "avg_score_delta": -7.0,
-    "moneyline_pct": 58.0,
-    "market_sample": 194,
-    "market_over_pct": 58.8,
-    "market_under_pct": 40.7,
-    "avg_market_delta": 3.3,
+    "sample": 215,
+    "over_model_pct": 29.8,
+    "under_model_pct": 70.2,
+    "avg_score_delta": -6.8,
+    "moneyline_pct": 58.1,
+    "market_sample": 197,
+    "market_over_pct": 58.9,
+    "market_under_pct": 40.6,
+    "avg_market_delta": 3.4,
     "sharp_shootout": {
-      "sample": 137,
-      "over_model_pct": 19.7,
-      "avg_score_delta": -11.2,
-      "mkt_sample": 137,
-      "over_mkt_pct": 62.8,
-      "avg_mkt_delta": 3.9
+      "sample": 139,
+      "over_model_pct": 20.9,
+      "avg_score_delta": -10.7,
+      "mkt_sample": 139,
+      "over_mkt_pct": 63.3,
+      "avg_mkt_delta": 4.2
     },
     "regular": {
-      "sample": 75,
-      "over_model_pct": 46.7,
-      "avg_score_delta": 0.6,
-      "mkt_sample": 57,
-      "over_mkt_pct": 49.1,
-      "avg_mkt_delta": 2.0
+      "sample": 76,
+      "over_model_pct": 46.1,
+      "avg_score_delta": 0.4,
+      "mkt_sample": 58,
+      "over_mkt_pct": 48.3,
+      "avg_mkt_delta": 1.5
     }
   },
   "drag_down": {
-    "sample": 558,
-    "mkt_sample": 497,
-    "under_mkt_pct": 53.3,
-    "over_mkt_pct": 45.3,
+    "sample": 559,
+    "mkt_sample": 498,
+    "under_mkt_pct": 53.4,
+    "over_mkt_pct": 45.2,
     "avg_market_delta": -1.6,
-    "under_model_pct": 60.9,
-    "over_model_pct": 39.1,
+    "under_model_pct": 61.0,
+    "over_model_pct": 39.0,
     "avg_score_delta": -5.6,
     "moneyline_pct": 69.2
   },
   "smart_edge": {
-    "sample": 311,
+    "sample": 312,
     "under": {
       "sample": 111,
       "mkt_sample": 110,
@@ -100,10 +100,10 @@
       }
     },
     "over": {
-      "sample": 200,
-      "mkt_sample": 178,
-      "market_over_pct": 58.4,
-      "avg_market_delta": 5.7
+      "sample": 201,
+      "mkt_sample": 179,
+      "market_over_pct": 58.1,
+      "avg_market_delta": 5.6
     }
   },
   "league_warnings": {
@@ -643,8 +643,8 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5348,
-      "market_sample": 5006,
+      "sample": 5357,
+      "market_sample": 5015,
       "under": {
         "sample": 111,
         "mkt_sample": 110,
@@ -667,10 +667,10 @@
         }
       },
       "over": {
-        "sample": 200,
-        "mkt_sample": 178,
-        "market_over_pct": 58.4,
-        "avg_market_delta": 5.7
+        "sample": 201,
+        "mkt_sample": 179,
+        "market_over_pct": 58.1,
+        "avg_market_delta": 5.6
       }
     },
     "NBA_MEN": {
