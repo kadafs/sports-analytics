@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-21T21:05:56.660031",
+  "updated_at": "2026-11-22T15:20:37.443507",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 9512,
+  "total_graded_games": 9701,
   "baseline": {
-    "moneyline_pct": 67.5,
+    "moneyline_pct": 67.4,
     "under_model_pct": 57.3,
     "avg_signed_delta": -3.2,
     "under_market_pct": 50.6,
     "avg_market_delta": 0.0
   },
   "clash": {
-    "sample": 542,
+    "sample": 547,
     "under_model_pct": 57.4,
     "over_model_pct": 42.6,
     "avg_score_delta": -4.2,
@@ -25,73 +25,73 @@
       "avg_mkt_delta": 1.9
     },
     "regular": {
-      "sample": 374,
-      "under_model_pct": 51.9,
+      "sample": 379,
+      "under_model_pct": 52.0,
       "avg_score_delta": -1.7,
-      "mkt_sample": 337,
-      "under_mkt_pct": 54.9,
+      "mkt_sample": 341,
+      "under_mkt_pct": 55.1,
       "avg_mkt_delta": -1.7
     },
     "market_overall": {
-      "sample": 505,
-      "under_mkt_pct": 51.9,
+      "sample": 509,
+      "under_mkt_pct": 52.1,
       "avg_mkt_delta": -0.5
     }
   },
   "shootout": {
-    "sample": 207,
-    "over_model_pct": 29.5,
-    "under_model_pct": 70.5,
-    "avg_score_delta": -6.9,
-    "moneyline_pct": 58.0,
-    "market_sample": 190,
+    "sample": 215,
+    "over_model_pct": 29.8,
+    "under_model_pct": 70.2,
+    "avg_score_delta": -6.8,
+    "moneyline_pct": 58.1,
+    "market_sample": 197,
     "market_over_pct": 58.9,
-    "market_under_pct": 40.5,
-    "avg_market_delta": 3.5,
+    "market_under_pct": 40.6,
+    "avg_market_delta": 3.4,
     "sharp_shootout": {
-      "sample": 135,
-      "over_model_pct": 20.0,
-      "avg_score_delta": -10.9,
-      "mkt_sample": 135,
-      "over_mkt_pct": 63.0,
+      "sample": 139,
+      "over_model_pct": 20.9,
+      "avg_score_delta": -10.7,
+      "mkt_sample": 139,
+      "over_mkt_pct": 63.3,
       "avg_mkt_delta": 4.2
     },
     "regular": {
-      "sample": 72,
-      "over_model_pct": 47.2,
-      "avg_score_delta": 0.7,
-      "mkt_sample": 55,
-      "over_mkt_pct": 49.1,
-      "avg_mkt_delta": 1.9
+      "sample": 76,
+      "over_model_pct": 46.1,
+      "avg_score_delta": 0.4,
+      "mkt_sample": 58,
+      "over_mkt_pct": 48.3,
+      "avg_mkt_delta": 1.5
     }
   },
   "drag_down": {
-    "sample": 552,
-    "mkt_sample": 493,
-    "under_mkt_pct": 53.3,
+    "sample": 559,
+    "mkt_sample": 498,
+    "under_mkt_pct": 53.4,
     "over_mkt_pct": 45.2,
     "avg_market_delta": -1.6,
-    "under_model_pct": 60.9,
-    "over_model_pct": 39.1,
-    "avg_score_delta": -5.5,
+    "under_model_pct": 61.0,
+    "over_model_pct": 39.0,
+    "avg_score_delta": -5.6,
     "moneyline_pct": 69.2
   },
   "smart_edge": {
-    "sample": 304,
+    "sample": 312,
     "under": {
-      "sample": 107,
-      "mkt_sample": 106,
-      "market_under_pct": 63.2,
-      "avg_market_delta": -3.0,
+      "sample": 111,
+      "mkt_sample": 110,
+      "market_under_pct": 63.6,
+      "avg_market_delta": -3.2,
       "ultra": {
-        "mkt_sample": 37,
-        "under_mkt_pct": 67.6,
-        "avg_market_delta": -4.4
+        "mkt_sample": 39,
+        "under_mkt_pct": 66.7,
+        "avg_market_delta": -4.3
       },
       "elite": {
-        "mkt_sample": 69,
-        "under_mkt_pct": 60.9,
-        "avg_market_delta": -2.2
+        "mkt_sample": 71,
+        "under_mkt_pct": 62.0,
+        "avg_market_delta": -2.6
       },
       "standard": {
         "mkt_sample": 0,
@@ -100,9 +100,9 @@
       }
     },
     "over": {
-      "sample": 197,
-      "mkt_sample": 175,
-      "market_over_pct": 58.3,
+      "sample": 201,
+      "mkt_sample": 179,
+      "market_over_pct": 58.1,
       "avg_market_delta": 5.6
     }
   },
@@ -111,17 +111,17 @@
       "status": "WARNING",
       "threshold_pct": 55.0,
       "min_sample": 3,
-      "sample": 10,
-      "hits": 5,
-      "win_rate": 50.0,
-      "under_plays": 2,
-      "under_hits": 0,
-      "under_wr": 0.0,
+      "sample": 11,
+      "hits": 6,
+      "win_rate": 54.5,
+      "under_plays": 3,
+      "under_hits": 1,
+      "under_wr": 33.3,
       "over_plays": 8,
       "over_hits": 5,
       "over_wr": 62.5,
-      "net_units": -0.45,
-      "reason": "Volatility Hazard: Smart Under hit rate is only 0.0% (0/2). High second-half pace breaks Under suppression.",
+      "net_units": 0.45,
+      "reason": "Volatility Hazard: Smart Under hit rate is only 33.3% (1/3). High second-half pace breaks Under suppression.",
       "country": "Russia",
       "league": "VTB United League",
       "segment": "FIBA_CORE"
@@ -130,17 +130,17 @@
       "status": "WARNING",
       "threshold_pct": 55.0,
       "min_sample": 3,
-      "sample": 10,
-      "hits": 5,
-      "win_rate": 50.0,
-      "under_plays": 2,
-      "under_hits": 0,
-      "under_wr": 0.0,
+      "sample": 11,
+      "hits": 6,
+      "win_rate": 54.5,
+      "under_plays": 3,
+      "under_hits": 1,
+      "under_wr": 33.3,
       "over_plays": 8,
       "over_hits": 5,
       "over_wr": 62.5,
-      "net_units": -0.45,
-      "reason": "Volatility Hazard: Smart Under hit rate is only 0.0% (0/2). High second-half pace breaks Under suppression.",
+      "net_units": 0.45,
+      "reason": "Volatility Hazard: Smart Under hit rate is only 33.3% (1/3). High second-half pace breaks Under suppression.",
       "country": "Russia",
       "league": "VTB United League",
       "segment": "FIBA_CORE"
@@ -339,17 +339,17 @@
       "status": "WARNING",
       "threshold_pct": 55.0,
       "min_sample": 3,
-      "sample": 8,
-      "hits": 2,
-      "win_rate": 25.0,
+      "sample": 9,
+      "hits": 3,
+      "win_rate": 33.3,
       "under_plays": 2,
       "under_hits": 1,
       "under_wr": 50.0,
-      "over_plays": 6,
-      "over_hits": 1,
-      "over_wr": 16.7,
-      "net_units": -4.18,
-      "reason": "Pace Hazard: Smart Over hit rate is only 16.7% (1/6). Tactical half-court tempo limits offensive breakouts.",
+      "over_plays": 7,
+      "over_hits": 2,
+      "over_wr": 28.6,
+      "net_units": -3.27,
+      "reason": "Pace Hazard: Smart Over hit rate is only 28.6% (2/7). Tactical half-court tempo limits offensive breakouts.",
       "country": "Spain",
       "league": "ACB",
       "segment": "FIBA_CORE"
@@ -358,17 +358,17 @@
       "status": "WARNING",
       "threshold_pct": 55.0,
       "min_sample": 3,
-      "sample": 8,
-      "hits": 2,
-      "win_rate": 25.0,
+      "sample": 9,
+      "hits": 3,
+      "win_rate": 33.3,
       "under_plays": 2,
       "under_hits": 1,
       "under_wr": 50.0,
-      "over_plays": 6,
-      "over_hits": 1,
-      "over_wr": 16.7,
-      "net_units": -4.18,
-      "reason": "Pace Hazard: Smart Over hit rate is only 16.7% (1/6). Tactical half-court tempo limits offensive breakouts.",
+      "over_plays": 7,
+      "over_hits": 2,
+      "over_wr": 28.6,
+      "net_units": -3.27,
+      "reason": "Pace Hazard: Smart Over hit rate is only 28.6% (2/7). Tactical half-court tempo limits offensive breakouts.",
       "country": "Spain",
       "league": "ACB",
       "segment": "FIBA_CORE"
@@ -643,22 +643,22 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5303,
-      "market_sample": 4971,
+      "sample": 5357,
+      "market_sample": 5015,
       "under": {
-        "sample": 107,
-        "mkt_sample": 106,
-        "market_under_pct": 63.2,
-        "avg_market_delta": -3.0,
+        "sample": 111,
+        "mkt_sample": 110,
+        "market_under_pct": 63.6,
+        "avg_market_delta": -3.2,
         "ultra": {
-          "mkt_sample": 37,
-          "under_mkt_pct": 67.6,
-          "avg_market_delta": -4.4
+          "mkt_sample": 39,
+          "under_mkt_pct": 66.7,
+          "avg_market_delta": -4.3
         },
         "elite": {
-          "mkt_sample": 69,
-          "under_mkt_pct": 60.9,
-          "avg_market_delta": -2.2
+          "mkt_sample": 71,
+          "under_mkt_pct": 62.0,
+          "avg_market_delta": -2.6
         },
         "standard": {
           "mkt_sample": 0,
@@ -667,16 +667,16 @@
         }
       },
       "over": {
-        "sample": 197,
-        "mkt_sample": 175,
-        "market_over_pct": 58.3,
+        "sample": 201,
+        "mkt_sample": 179,
+        "market_over_pct": 58.1,
         "avg_market_delta": 5.6
       }
     },
     "NBA_MEN": {
       "name": "NBA Men (48m)",
-      "sample": 255,
-      "market_sample": 245,
+      "sample": 260,
+      "market_sample": 250,
       "under": {
         "sample": 0,
         "mkt_sample": 0,
@@ -699,30 +699,30 @@
         }
       },
       "over": {
-        "sample": 80,
-        "mkt_sample": 80,
-        "market_over_pct": 57.5,
-        "avg_market_delta": 3.7
+        "sample": 81,
+        "mkt_sample": 81,
+        "market_over_pct": 56.8,
+        "avg_market_delta": 3.4
       }
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 801,
-      "market_sample": 587,
+      "sample": 837,
+      "market_sample": 616,
       "under": {
-        "sample": 36,
-        "mkt_sample": 36,
-        "market_under_pct": 58.3,
-        "avg_market_delta": -1.9,
+        "sample": 40,
+        "mkt_sample": 40,
+        "market_under_pct": 57.5,
+        "avg_market_delta": -1.4,
         "ultra": {
-          "mkt_sample": 1,
-          "under_mkt_pct": 100.0,
-          "avg_market_delta": -26.5
+          "mkt_sample": 2,
+          "under_mkt_pct": 50.0,
+          "avg_market_delta": 1.5
         },
         "elite": {
-          "mkt_sample": 35,
-          "under_mkt_pct": 57.1,
-          "avg_market_delta": -1.2
+          "mkt_sample": 38,
+          "under_mkt_pct": 57.9,
+          "avg_market_delta": -1.5
         },
         "standard": {
           "mkt_sample": 0,
@@ -739,7 +739,7 @@
     },
     "NBA_GLEAGUE": {
       "name": "NBA G-League",
-      "sample": 68,
+      "sample": 72,
       "market_sample": 23,
       "under": {
         "sample": 17,
