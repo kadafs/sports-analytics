@@ -250,7 +250,9 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const seOverMktPct = seOverData?.market_over_pct ?? 69.7
   const seOverMktDelta = seOverData?.avg_market_delta ?? 7.6
 
-  const { statsH = {}, statsA = {}, sdiH = null, sdiA = null, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
+  const { statsH = {}, statsA = {}, h2h = [], recentH = [], recentA = [], full_standings = [] } = match_center
+  const sdiH = match_center.sdiH || primary.sdiH || consolidatedGame?.sdiH || null
+  const sdiA = match_center.sdiA || primary.sdiA || consolidatedGame?.sdiA || null
 
   const gameStageRaw = consolidatedGame.stage || primary.stage || ''
   // Strip out league prefixes (e.g., 'BLNO - Semi-finals' -> 'Semi-finals')
@@ -702,8 +704,8 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                       if (risk === 'AMBER' || risk === 'MODERATE') return '#eab308'
                       return '#22c55e'
                     }
-                    const hLabel = sdiH ? `${sdiH.top1_pct ?? sdiH.avg_sdi}% (${sdiH.risk_label || 'BALANCED'})` : '-'
-                    const aLabel = sdiA ? `${sdiA.top1_pct ?? sdiA.avg_sdi}% (${sdiA.risk_label || 'BALANCED'})` : '-'
+                    const hLabel = sdiH ? `${sdiH.top1_pct ?? sdiH.avg_top1_pct ?? sdiH.avg_sdi}% (${sdiH.risk_label || 'BALANCED'})` : '-'
+                    const aLabel = sdiA ? `${sdiA.top1_pct ?? sdiA.avg_top1_pct ?? sdiA.avg_sdi}% (${sdiA.risk_label || 'BALANCED'})` : '-'
                     const formatPlayer = (sdi) => {
                       if (!sdi?.top_players?.[0]) return null
                       const p = sdi.top_players[0]

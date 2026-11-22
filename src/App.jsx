@@ -824,28 +824,45 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       if (!p.is_shootout) return false
     }
     // SDI Filter (Basketball only) — live lookup from team_sdi.json index
-    if (sport === 'basketball' && filterSDI !== 'all') {
-      // Prefer embedded sdiH/sdiA; fall back to live sdiIndex lookup
-      const hRec = p.sdiH || getSdiRecord(p.home_team, sdiIndex)
-      const aRec = p.sdiA || getSdiRecord(p.away_team, sdiIndex)
-      const hRisk = hRec?.risk
-      const aRisk = aRec?.risk
-      if (filterSDI === 'balanced') {
-        // Both teams must be GREEN (low scoring concentration)
-        if (!hRisk || !aRisk || hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
-      } else if (filterSDI === 'green') {
-        // At least one team GREEN (low scoring concentration)
-        if (hRisk !== 'GREEN' && aRisk !== 'GREEN') return false
-      } else if (filterSDI === 'volatile') {
-        // At least one team RED (high star dependency)
-        if (hRisk !== 'RED' && aRisk !== 'RED') return false
-      } else if (filterSDI === 'no_data') {
-        // Only show games where NEITHER team has SDI data yet
-        if (hRisk || aRisk) return false
-      } else {
-        // Exact tier: at least one team must match (GREEN / AMBER / RED)
-        const tier = filterSDI.toUpperCase()
-        if (hRisk !== tier && aRisk !== tier) return false
+    if (sport === 'basketball') {
+      const hLive = getSdiRecord(p.home_team, sdiIndex)
+      const aLive = getSdiRecord(p.away_team, sdiIndex)
+
+      // Ensure prediction and match_center always reflect the live canonical SDI index
+      if (hLive) {
+        p.sdiH = hLive
+        if (p.match_center) p.match_center.sdiH = hLive
+      } else if (!p.sdiH) {
+        p.sdiH = p.match_center?.sdiH || null
+      }
+
+      if (aLive) {
+        p.sdiA = aLive
+        if (p.match_center) p.match_center.sdiA = aLive
+      } else if (!p.sdiA) {
+        p.sdiA = p.match_center?.sdiA || null
+      }
+
+      if (filterSDI !== 'all') {
+        const hRisk = p.sdiH?.risk
+        const aRisk = p.sdiA?.risk
+        if (filterSDI === 'balanced') {
+          // Both teams must be GREEN (low scoring concentration)
+          if (!hRisk || !aRisk || hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
+        } else if (filterSDI === 'green') {
+          // At least one team GREEN (low scoring concentration)
+          if (hRisk !== 'GREEN' && aRisk !== 'GREEN') return false
+        } else if (filterSDI === 'volatile') {
+          // At least one team RED (high star dependency)
+          if (hRisk !== 'RED' && aRisk !== 'RED') return false
+        } else if (filterSDI === 'no_data') {
+          // Only show games where NEITHER team has SDI data yet
+          if (hRisk || aRisk) return false
+        } else {
+          // Exact tier: at least one team must match (GREEN / AMBER / RED)
+          const tier = filterSDI.toUpperCase()
+          if (hRisk !== tier && aRisk !== tier) return false
+        }
       }
     }
 
