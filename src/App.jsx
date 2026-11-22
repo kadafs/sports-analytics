@@ -833,6 +833,9 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
       if (filterSDI === 'balanced') {
         // Both teams must be GREEN (low scoring concentration)
         if (!hRisk || !aRisk || hRisk !== 'GREEN' || aRisk !== 'GREEN') return false
+      } else if (filterSDI === 'green') {
+        // At least one team GREEN (low scoring concentration)
+        if (hRisk !== 'GREEN' && aRisk !== 'GREEN') return false
       } else if (filterSDI === 'volatile') {
         // At least one team RED (high star dependency)
         if (hRisk !== 'RED' && aRisk !== 'RED') return false
@@ -1342,12 +1345,13 @@ export default function App() {
 
               <select
                 className="filter-select"
-                style={{ width: '170px' }}
+                style={{ width: '175px' }}
                 value={filterSDI}
                 onChange={e => setFilterSDI(e.target.value)}
                 title="Star Dependency Index — filter by scoring concentration risk tier"
               >
                 <option value="all">⭐ SDI Risk: All</option>
+                <option value="green">🟢 Has GREEN (≥1 GREEN)</option>
                 <option value="balanced">🟢 Balanced (Both GREEN)</option>
                 <option value="amber">🟡 Moderate (Has AMBER)</option>
                 <option value="red">🔴 High Dep (Has RED)</option>
