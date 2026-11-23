@@ -653383,7 +653383,7 @@
       "time": "19:30",
       "away_team": "Robert Morris",
       "home_team": "New Mexico State",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 152.43,
       "xpts_h": 76.6,
@@ -669372,7 +669372,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 79,
+      "actual_away_score": 84,
+      "actual_result": "AWAY",
+      "halftime_home_score": 21,
+      "halftime_away_score": 33,
+      "halftime_total": 54,
+      "halftime_pct_of_model": 35.4,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": true,
@@ -781599,7 +781609,7 @@
       "time": "21:30",
       "away_team": "Richmond Spiders",
       "home_team": "Liberty",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 155.29,
       "xpts_h": 79.8,
@@ -797588,7 +797598,17 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 92,
+      "actual_result": "AWAY",
+      "halftime_home_score": 29,
+      "halftime_away_score": 32,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 39.3,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -1922245,12 +1922265,12 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-11-23T02:46:41.384143",
+  "graded_at": "2026-11-23T05:53:18.277767",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 200,
-      "total": 263,
-      "pct": 76.0
+      "total": 265,
+      "pct": 75.5
     },
     "[ADVANCED]": {
       "wins": 57,
