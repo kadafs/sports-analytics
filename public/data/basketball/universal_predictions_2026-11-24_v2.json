@@ -33,21 +33,21 @@
       "home_team": "Besiktas",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 180.07,
-      "xpts_h": 90.0,
-      "xpts_a": 90.1,
+      "model_total": 179.18,
+      "xpts_h": 89.6,
+      "xpts_a": 89.6,
       "probs_1x2": {
-        "home": 49.9,
-        "away": 50.1
+        "home": 50.1,
+        "away": 49.9
       },
-      "predicted_result": "AWAY",
+      "predicted_result": "HOME",
       "home_source": "ADVANCED",
       "away_source": "ADVANCED",
       "home_team_volatility": 16.04,
       "away_team_volatility": 14.35,
       "game_id": 508712,
       "market_total": 183.5,
-      "edge": -3.4,
+      "edge": -4.3,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -71,16 +71,16 @@
       "mbet_threshold": 6.8,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 180.07,
+      "adv_total": 179.18,
       "srs_total": 187.84,
-      "adv_edge": -3.4,
+      "adv_edge": -4.3,
       "srs_edge": 4.3,
       "model_agreement": "DISCORDANT",
-      "model_divergence": 7.77,
+      "model_divergence": 8.66,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:37.613549+00:00",
+      "timestamp": "2026-11-23T23:30:11.239627+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1166,9 +1166,9 @@
           "current_season_games": 13,
           "model_games": 13,
           "win_pct": 0.462,
-          "scored": 113.1,
-          "conceded": 116.2,
-          "sos": -0.17,
+          "scored": 113.2,
+          "conceded": 116.3,
+          "sos": -0.18,
           "rank": null,
           "prior_blended": false
         },
@@ -1177,8 +1177,8 @@
           "current_season_games": 13,
           "model_games": 31,
           "win_pct": 0.484,
-          "scored": 116.3,
-          "conceded": 116.1,
+          "scored": 115.5,
+          "conceded": 115.4,
           "sos": 0.35,
           "rank": null,
           "prior_blended": false
@@ -1208,18 +1208,18 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 41.2,
-          "top1_pct": 24.4,
+          "avg_sdi": 41.0,
+          "top1_pct": 24.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Nadir Hifi",
-              "times_top2": 29
+              "times_top2": 30
             },
             {
               "name": "Jared Rhoden",
-              "times_top2": 13
+              "times_top2": 14
             },
             {
               "name": "Justin Robinson",
@@ -1297,16 +1297,16 @@
       "mbet_threshold": 6.8,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 168.89,
+      "adv_total": 168.2,
       "srs_total": 172.37,
-      "adv_edge": -3.1,
+      "adv_edge": -3.8,
       "srs_edge": 0.4,
       "model_agreement": "DISCORDANT",
-      "model_divergence": 3.48,
+      "model_divergence": 4.17,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:37.795200+00:00",
+      "timestamp": "2026-11-23T23:30:11.381303+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2438,8 +2438,8 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 36.5,
-          "top1_pct": 20.0,
+          "avg_sdi": 36.3,
+          "top1_pct": 19.9,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -2449,7 +2449,7 @@
             },
             {
               "name": "Marcus Carr",
-              "times_top2": 9
+              "times_top2": 10
             },
             {
               "name": "Trent Frazier",
@@ -2489,9 +2489,9 @@
       "home_team": "Bayern",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 181.09,
-      "xpts_h": 92.1,
-      "xpts_a": 88.9,
+      "model_total": 182.05,
+      "xpts_h": 92.6,
+      "xpts_a": 89.4,
       "probs_1x2": {
         "home": 60.5,
         "away": 39.5
@@ -2503,7 +2503,7 @@
       "away_team_volatility": 18.13,
       "game_id": 508714,
       "market_total": 180.5,
-      "edge": 0.6,
+      "edge": 1.6,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -2527,16 +2527,16 @@
       "mbet_threshold": 6.8,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 181.09,
+      "adv_total": 182.05,
       "srs_total": 183.51,
-      "adv_edge": 0.6,
+      "adv_edge": 1.6,
       "srs_edge": 3.0,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 2.42,
+      "model_divergence": 1.46,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:37.980009+00:00",
+      "timestamp": "2026-11-23T23:30:11.516711+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -3633,8 +3633,8 @@
           "current_season_games": 13,
           "model_games": 30,
           "win_pct": 0.433,
-          "scored": 112.4,
-          "conceded": 117.4,
+          "scored": 113.1,
+          "conceded": 118.1,
           "sos": 1.71,
           "rank": null,
           "prior_blended": false
@@ -3723,12 +3723,12 @@
       "home_team": "Valencia",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 173.08,
-      "xpts_h": 88.8,
+      "model_total": 172.95,
+      "xpts_h": 88.6,
       "xpts_a": 84.3,
       "probs_1x2": {
-        "home": 64.5,
-        "away": 35.5
+        "home": 64.0,
+        "away": 36.0
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -3737,7 +3737,7 @@
       "away_team_volatility": 21.89,
       "game_id": 508715,
       "market_total": 174.5,
-      "edge": -1.4,
+      "edge": -1.6,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -3761,16 +3761,16 @@
       "mbet_threshold": 6.8,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 173.08,
+      "adv_total": 172.95,
       "srs_total": 171.19,
-      "adv_edge": -1.4,
+      "adv_edge": -1.6,
       "srs_edge": -3.3,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 1.89,
+      "model_divergence": 1.76,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:38.223117+00:00",
+      "timestamp": "2026-11-23T23:30:11.650169+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -4856,8 +4856,8 @@
           "current_season_games": 13,
           "model_games": 36,
           "win_pct": 0.667,
-          "scored": 118.7,
-          "conceded": 111.9,
+          "scored": 118.2,
+          "conceded": 111.5,
           "sos": -0.32,
           "rank": null,
           "prior_blended": false
@@ -4867,8 +4867,8 @@
           "current_season_games": 13,
           "model_games": 36,
           "win_pct": 0.583,
-          "scored": 113.3,
-          "conceded": 109.1,
+          "scored": 113.7,
+          "conceded": 109.4,
           "sos": 0.38,
           "rank": null,
           "prior_blended": false
@@ -4934,10 +4934,10 @@
         "tier_gap": 0
       },
       "is_drag_down": false,
-      "is_clash": false,
-      "clash_trigger": "",
-      "is_shootout": true,
-      "shootout_trigger": "SHOOTOUT",
+      "is_clash": true,
+      "clash_trigger": "CLASH",
+      "is_shootout": false,
+      "shootout_trigger": "",
       "smart_edge": null,
       "league_segment": "FIBA_CORE",
       "league_segment_label": "FIBA Core (40m)",
@@ -4953,21 +4953,21 @@
       "home_team": "Lyon-Villeurbanne",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 175.93,
-      "xpts_h": 86.1,
-      "xpts_a": 89.8,
+      "model_total": 175.5,
+      "xpts_h": 83.4,
+      "xpts_a": 92.1,
       "probs_1x2": {
-        "home": 37.7,
-        "away": 62.3
+        "home": 23.2,
+        "away": 76.8
       },
       "predicted_result": "AWAY",
-      "home_source": "ADVANCED",
-      "away_source": "ADVANCED",
+      "home_source": "SRS",
+      "away_source": "SRS",
       "home_team_volatility": 17.2,
       "away_team_volatility": 14.78,
       "game_id": 508716,
       "market_total": 174.5,
-      "edge": 1.4,
+      "edge": 1.0,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -4976,8 +4976,8 @@
       "odds_over": 1.9,
       "odds_under": 1.9,
       "baseline_total": null,
-      "confidence_score_band": "[MODERATE]",
-      "confidence_score": 57.3,
+      "confidence_score_band": "[SOLID]",
+      "confidence_score": 61.3,
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
@@ -4989,18 +4989,18 @@
       "graded_h": 13,
       "graded_a": 13,
       "mbet_threshold": 6.8,
-      "model_architecture": "[ADVANCED]",
-      "selected_model": "ADV",
-      "adv_total": 175.93,
-      "srs_total": 173.0,
-      "adv_edge": 1.4,
-      "srs_edge": -1.5,
-      "model_agreement": "DISCORDANT",
-      "model_divergence": 2.93,
+      "model_architecture": "[  SRS   ]",
+      "selected_model": "SRS",
+      "adv_total": 178.91,
+      "srs_total": 175.5,
+      "adv_edge": 4.4,
+      "srs_edge": 1.0,
+      "model_agreement": "CONFIRMED_OVER",
+      "model_divergence": 3.41,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:38.414837+00:00",
+      "timestamp": "2026-11-23T23:30:11.788058+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -6086,9 +6086,9 @@
           "current_season_games": 13,
           "model_games": 31,
           "win_pct": 0.194,
-          "scored": 110.3,
-          "conceded": 121.0,
-          "sos": 0.0,
+          "scored": 81.9,
+          "conceded": 98.6,
+          "sos": -0.31,
           "rank": null,
           "prior_blended": false
         },
@@ -6097,9 +6097,9 @@
           "current_season_games": 13,
           "model_games": 31,
           "win_pct": 0.323,
-          "scored": 111.6,
-          "conceded": 114.2,
-          "sos": 2.06,
+          "scored": 84.5,
+          "conceded": 89.7,
+          "sos": 1.26,
           "rank": null,
           "prior_blended": false
         },
@@ -6191,12 +6191,12 @@
       "home_team": "Barcelona",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 166.62,
-      "xpts_h": 83.3,
-      "xpts_a": 83.3,
+      "model_total": 167.39,
+      "xpts_h": 83.7,
+      "xpts_a": 83.6,
       "probs_1x2": {
-        "home": 50.0,
-        "away": 50.0
+        "home": 50.3,
+        "away": 49.7
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -6205,7 +6205,7 @@
       "away_team_volatility": 18.59,
       "game_id": 508717,
       "market_total": 170.5,
-      "edge": -3.9,
+      "edge": -3.1,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -6229,16 +6229,16 @@
       "mbet_threshold": 6.8,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 166.62,
+      "adv_total": 167.39,
       "srs_total": 165.78,
-      "adv_edge": -3.9,
+      "adv_edge": -3.1,
       "srs_edge": -4.7,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 0.84,
+      "model_divergence": 1.61,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:38.633343+00:00",
+      "timestamp": "2026-11-23T23:30:11.927148+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -7324,8 +7324,8 @@
           "current_season_games": 13,
           "model_games": 33,
           "win_pct": 0.515,
-          "scored": 114.3,
-          "conceded": 112.9,
+          "scored": 114.4,
+          "conceded": 113.0,
           "sos": 1.12,
           "rank": null,
           "prior_blended": false
@@ -7335,8 +7335,8 @@
           "current_season_games": 13,
           "model_games": 36,
           "win_pct": 0.611,
-          "scored": 110.6,
-          "conceded": 105.9,
+          "scored": 111.0,
+          "conceded": 106.4,
           "sos": 0.32,
           "rank": null,
           "prior_blended": false
@@ -7468,7 +7468,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:39.165965+00:00",
+      "timestamp": "2026-11-23T23:30:12.359574+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -8652,7 +8652,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:39.708011+00:00",
+      "timestamp": "2026-11-23T23:30:12.768631+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -9636,7 +9636,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:39.885226+00:00",
+      "timestamp": "2026-11-23T23:30:12.898821+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -10624,7 +10624,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:40.070765+00:00",
+      "timestamp": "2026-11-23T23:30:13.021099+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -11627,7 +11627,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:40.247428+00:00",
+      "timestamp": "2026-11-23T23:30:13.148548+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -12630,7 +12630,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:40.408193+00:00",
+      "timestamp": "2026-11-23T23:30:13.351464+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -13633,7 +13633,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:41.001645+00:00",
+      "timestamp": "2026-11-23T23:30:13.964471+00:00",
       "match_center": {
         "h2h": [
           {
@@ -15183,7 +15183,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:41.630243+00:00",
+      "timestamp": "2026-11-23T23:30:14.419498+00:00",
       "match_center": {
         "h2h": [
           {
@@ -19390,7 +19390,7 @@
         "buffer_tier": "[STRONG BUFFER]",
         "confidence_band": "[LOW]",
         "model_agreement": "CONFIRMED_UNDER",
-        "model_divergence": 2.28
+        "model_divergence": 2.22
       },
       "league_segment": "NBA_MEN",
       "league_segment_label": "NBA Men (48m)",
@@ -19406,12 +19406,12 @@
       "home_team": "Philadelphia 76ers",
       "status": "Not Started",
       "stage": "",
-      "model_total": 229.56,
-      "xpts_h": 113.3,
+      "model_total": 229.5,
+      "xpts_h": 113.2,
       "xpts_a": 116.3,
       "probs_1x2": {
-        "home": 40.2,
-        "away": 59.8
+        "home": 39.8,
+        "away": 60.2
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
@@ -19420,7 +19420,7 @@
       "away_team_volatility": 18.05,
       "game_id": 519782,
       "market_total": 232.0,
-      "edge": -2.4,
+      "edge": -2.5,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -19444,16 +19444,16 @@
       "mbet_threshold": 7.7,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 229.56,
+      "adv_total": 229.5,
       "srs_total": 227.28,
-      "adv_edge": -2.4,
+      "adv_edge": -2.5,
       "srs_edge": -4.7,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 2.28,
+      "model_divergence": 2.22,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:41.812467+00:00",
+      "timestamp": "2026-11-23T23:30:14.561992+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -23551,7 +23551,7 @@
           "current_season_games": 21,
           "model_games": 52,
           "win_pct": 0.577,
-          "scored": 113.3,
+          "scored": 113.2,
           "conceded": 112.7,
           "sos": 0.81,
           "rank": null,
@@ -23687,7 +23687,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:42.097752+00:00",
+      "timestamp": "2026-11-23T23:30:14.765469+00:00",
       "match_center": {
         "h2h": [
           {
@@ -27826,27 +27826,27 @@
         },
         "sdiH": {
           "avg_sdi": 38.0,
-          "top1_pct": 21.2,
+          "top1_pct": 21.3,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Pascal Siakam",
-              "times_top2": 16
-            },
-            {
-              "name": "Quenton Jackson",
-              "times_top2": 5
+              "times_top2": 17
             },
             {
               "name": "Andrew Nembhard",
+              "times_top2": 6
+            },
+            {
+              "name": "Quenton Jackson",
               "times_top2": 5
             }
           ]
         },
         "sdiA": {
-          "avg_sdi": 43.0,
-          "top1_pct": 26.7,
+          "avg_sdi": 42.8,
+          "top1_pct": 26.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -27860,7 +27860,7 @@
             },
             {
               "name": "Jared McCain",
-              "times_top2": 4
+              "times_top2": 5
             }
           ]
         }
@@ -27943,7 +27943,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:42.287300+00:00",
+      "timestamp": "2026-11-23T23:30:14.907917+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -32177,7 +32177,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:42.461563+00:00",
+      "timestamp": "2026-11-23T23:30:15.214390+00:00",
       "match_center": {
         "h2h": [
           {
@@ -36386,12 +36386,12 @@
       "home_team": "Chicago Bulls",
       "status": "Not Started",
       "stage": "",
-      "model_total": 239.94,
-      "xpts_h": 118.5,
+      "model_total": 239.87,
+      "xpts_h": 118.4,
       "xpts_a": 121.4,
       "probs_1x2": {
-        "home": 40.5,
-        "away": 59.5
+        "home": 40.2,
+        "away": 59.8
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
@@ -36424,16 +36424,16 @@
       "mbet_threshold": 7.7,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 239.94,
+      "adv_total": 239.87,
       "srs_total": 238.77,
       "adv_edge": -0.6,
       "srs_edge": -1.7,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 1.17,
+      "model_divergence": 1.1,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:42.641949+00:00",
+      "timestamp": "2026-11-23T23:30:15.515100+00:00",
       "match_center": {
         "h2h": [
           {
@@ -40565,14 +40565,14 @@
           "model_games": 57,
           "win_pct": 0.544,
           "scored": 115.0,
-          "conceded": 113.7,
+          "conceded": 113.6,
           "sos": 0.64,
           "rank": null,
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 36.6,
-          "top1_pct": 20.4,
+          "avg_sdi": 36.8,
+          "top1_pct": 20.5,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -40689,7 +40689,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:42.832266+00:00",
+      "timestamp": "2026-11-23T23:30:15.648564+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -44923,7 +44923,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:43.138883+00:00",
+      "timestamp": "2026-11-23T23:30:15.785715+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -49110,12 +49110,12 @@
       "home_team": "Los Angeles Lakers",
       "status": "Not Started",
       "stage": "",
-      "model_total": 226.72,
+      "model_total": 226.65,
       "xpts_h": 118.8,
       "xpts_a": 107.9,
       "probs_1x2": {
-        "home": 81.7,
-        "away": 18.3
+        "home": 81.9,
+        "away": 18.1
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -49148,16 +49148,16 @@
       "mbet_threshold": 7.7,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 226.72,
+      "adv_total": 226.65,
       "srs_total": 228.92,
       "adv_edge": 2.2,
       "srs_edge": 4.4,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 2.2,
+      "model_divergence": 2.27,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:43.322359+00:00",
+      "timestamp": "2026-11-23T23:30:16.089430+00:00",
       "match_center": {
         "h2h": [
           {
@@ -53299,7 +53299,7 @@
           "model_games": 53,
           "win_pct": 0.679,
           "scored": 114.6,
-          "conceded": 111.7,
+          "conceded": 111.6,
           "sos": -0.24,
           "rank": null,
           "prior_blended": false
@@ -53336,14 +53336,14 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 43.1,
-          "top1_pct": 24.8,
+          "avg_sdi": 43.2,
+          "top1_pct": 25.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ace Bailey",
-              "times_top2": 9
+              "times_top2": 10
             },
             {
               "name": "Keyonte George",
@@ -53434,7 +53434,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "elite_pro",
-      "timestamp": "2026-11-23T21:21:43.519015+00:00",
+      "timestamp": "2026-11-23T23:30:16.227437+00:00",
       "match_center": {
         "h2h": [
           {
@@ -57685,12 +57685,12 @@
       "home_team": "Stockton Kings",
       "status": "Not Started",
       "stage": "",
-      "model_total": 237.86,
-      "xpts_h": 120.3,
-      "xpts_a": 117.5,
+      "model_total": 237.65,
+      "xpts_h": 120.2,
+      "xpts_a": 117.4,
       "probs_1x2": {
-        "home": 59.2,
-        "away": 40.8
+        "home": 59.1,
+        "away": 40.9
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -57723,16 +57723,16 @@
       "mbet_threshold": 7.7,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 237.86,
+      "adv_total": 237.65,
       "srs_total": 240.88,
       "adv_edge": null,
       "srs_edge": null,
       "model_agreement": "SINGLE_MODEL",
-      "model_divergence": 3.02,
+      "model_divergence": 3.23,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:44.255041+00:00",
+      "timestamp": "2026-11-23T23:30:16.876117+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -60626,7 +60626,7 @@
           "current_season_games": 6,
           "model_games": 30,
           "win_pct": 0.533,
-          "scored": 117.9,
+          "scored": 118.0,
           "conceded": 119.0,
           "sos": 0.56,
           "rank": null,
@@ -60637,9 +60637,9 @@
           "current_season_games": 5,
           "model_games": 20,
           "win_pct": 0.4,
-          "scored": 119.1,
+          "scored": 119.2,
           "conceded": 120.0,
-          "sos": -2.25,
+          "sos": -2.27,
           "rank": null,
           "prior_blended": false
         },
@@ -60715,12 +60715,12 @@
       "home_team": "Capital City Go-Go",
       "status": "Not Started",
       "stage": "",
-      "model_total": 237.9,
+      "model_total": 237.88,
       "xpts_h": 117.6,
       "xpts_a": 120.3,
       "probs_1x2": {
-        "home": 40.9,
-        "away": 59.1
+        "home": 40.8,
+        "away": 59.2
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
@@ -60753,16 +60753,16 @@
       "mbet_threshold": 7.7,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 237.9,
+      "adv_total": 237.88,
       "srs_total": 238.07,
       "adv_edge": null,
       "srs_edge": null,
       "model_agreement": "SINGLE_MODEL",
-      "model_divergence": 0.17,
+      "model_divergence": 0.19,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:44.444992+00:00",
+      "timestamp": "2026-11-23T23:30:16.994239+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -63656,9 +63656,9 @@
           "current_season_games": 6,
           "model_games": 25,
           "win_pct": 0.36,
-          "scored": 117.7,
-          "conceded": 122.3,
-          "sos": 0.96,
+          "scored": 117.8,
+          "conceded": 122.4,
+          "sos": 0.95,
           "rank": null,
           "prior_blended": false
         },
@@ -63667,9 +63667,9 @@
           "current_season_games": 5,
           "model_games": 22,
           "win_pct": 0.455,
-          "scored": 118.9,
-          "conceded": 117.9,
-          "sos": -0.46,
+          "scored": 119.0,
+          "conceded": 118.0,
+          "sos": -0.47,
           "rank": null,
           "prior_blended": false
         },
@@ -63792,7 +63792,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:45.376987+00:00",
+      "timestamp": "2026-11-23T23:30:17.614230+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -64559,7 +64559,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:46.796232+00:00",
+      "timestamp": "2026-11-23T23:30:18.912832+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -80616,7 +80616,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:47.741199+00:00",
+      "timestamp": "2026-11-23T23:30:19.896402+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -96673,7 +96673,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:47.935094+00:00",
+      "timestamp": "2026-11-23T23:30:20.037977+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -112711,7 +112711,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:48.146430+00:00",
+      "timestamp": "2026-11-23T23:30:20.183519+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -128658,7 +128658,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:48.531979+00:00",
+      "timestamp": "2026-11-23T23:30:20.576983+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -144715,7 +144715,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:48.704885+00:00",
+      "timestamp": "2026-11-23T23:30:20.712406+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -160753,7 +160753,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:49.168493+00:00",
+      "timestamp": "2026-11-23T23:30:20.974138+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -176810,7 +176810,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:49.347904+00:00",
+      "timestamp": "2026-11-23T23:30:21.205539+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -192848,10 +192848,31 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:49.598310+00:00",
+      "timestamp": "2026-11-23T23:30:21.381536+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
+          {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Southern Illinois",
+                "winner": false
+              },
+              "away": {
+                "name": "Middle Tenn. St.",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 76
+              },
+              "away": {
+                "total": 77
+              }
+            }
+          },
           {
             "date": "2026-11-23",
             "teams": {
@@ -192933,27 +192954,6 @@
               },
               "away": {
                 "total": 85
-              }
-            }
-          },
-          {
-            "date": "2026-11-21",
-            "teams": {
-              "home": {
-                "name": "Bowling Green",
-                "winner": false
-              },
-              "away": {
-                "name": "Northern Illinois",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 68
-              },
-              "away": {
-                "total": 86
               }
             }
           }
@@ -208886,10 +208886,31 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:49.783524+00:00",
+      "timestamp": "2026-11-23T23:30:21.513215+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
+          {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Southern Utah",
+                "winner": true
+              },
+              "away": {
+                "name": "Arkansas State",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 104
+              },
+              "away": {
+                "total": 102
+              }
+            }
+          },
           {
             "date": "2026-11-21",
             "teams": {
@@ -208971,27 +208992,6 @@
               },
               "away": {
                 "total": 92
-              }
-            }
-          },
-          {
-            "date": "2026-11-19",
-            "teams": {
-              "home": {
-                "name": "Arkansas State",
-                "winner": true
-              },
-              "away": {
-                "name": "Arkansas-Pine Bluff",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 100
-              },
-              "away": {
-                "total": 69
               }
             }
           }
@@ -224905,7 +224905,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:49.950735+00:00",
+      "timestamp": "2026-11-23T23:30:21.654640+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -240924,7 +240924,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:50.363458+00:00",
+      "timestamp": "2026-11-23T23:30:22.097568+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -256981,7 +256981,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:50.548883+00:00",
+      "timestamp": "2026-11-23T23:30:22.304559+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -273017,7 +273017,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:51.177120+00:00",
+      "timestamp": "2026-11-23T23:30:23.013578+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -289055,7 +289055,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:51.374449+00:00",
+      "timestamp": "2026-11-23T23:30:23.148365+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -305074,7 +305074,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:51.567234+00:00",
+      "timestamp": "2026-11-23T23:30:23.280260+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -321112,7 +321112,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:51.745921+00:00",
+      "timestamp": "2026-11-23T23:30:23.420073+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -337145,7 +337145,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:51.938917+00:00",
+      "timestamp": "2026-11-23T23:30:23.555237+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -353183,7 +353183,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:52.212070+00:00",
+      "timestamp": "2026-11-23T23:30:23.689177+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -369216,18 +369216,18 @@
       "odds_over": null,
       "odds_under": null,
       "baseline_total": 149.9,
-      "confidence_score_band": "[MODERATE]",
-      "confidence_score": 50.7,
+      "confidence_score_band": "[LOW]",
+      "confidence_score": 44.0,
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.2,
-      "mae_h": 8.71,
-      "mae_a": 10.99,
-      "bias_h": -8.71,
-      "bias_a": -8.18,
-      "graded_h": 4,
-      "graded_a": 4,
+      "weighted_hit_rate": 0.16,
+      "mae_h": 10.18,
+      "mae_a": 15.0,
+      "bias_h": -10.18,
+      "bias_a": -12.75,
+      "graded_h": 5,
+      "graded_a": 5,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -369240,7 +369240,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:52.402462+00:00",
+      "timestamp": "2026-11-23T23:30:23.988247+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -385293,7 +385293,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:52.592959+00:00",
+      "timestamp": "2026-11-23T23:30:24.122715+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -401309,16 +401309,16 @@
       "baseline_total": 149.9,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 6.7,
-      "floor_status": "LOW_N(2)",
+      "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4,
-      "mae_h": 34.45,
-      "mae_a": 14.0,
-      "bias_h": -21.3,
-      "bias_a": -9.77,
-      "graded_h": 3,
-      "graded_a": 2,
+      "weighted_hit_rate": 0.2833,
+      "mae_h": 33.59,
+      "mae_a": 18.89,
+      "bias_h": -23.73,
+      "bias_a": -16.07,
+      "graded_h": 4,
+      "graded_a": 3,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -401331,7 +401331,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:52.771313+00:00",
+      "timestamp": "2026-11-23T23:30:24.300838+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -401443,6 +401443,27 @@
         ],
         "recentA": [
           {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Belmont",
+                "winner": true
+              },
+              "away": {
+                "name": "Yale",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 68
+              },
+              "away": {
+                "total": 60
+              }
+            }
+          },
+          {
             "date": "2026-11-19",
             "teams": {
               "home": {
@@ -401523,27 +401544,6 @@
               },
               "away": {
                 "total": 45
-              }
-            }
-          },
-          {
-            "date": "2026-11-03",
-            "teams": {
-              "home": {
-                "name": "Belmont",
-                "winner": true
-              },
-              "away": {
-                "name": "Southern Indiana",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 72
-              },
-              "away": {
-                "total": 54
               }
             }
           }
@@ -417388,7 +417388,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:52.962919+00:00",
+      "timestamp": "2026-11-23T23:30:24.529952+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -433426,7 +433426,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:53.182742+00:00",
+      "timestamp": "2026-11-23T23:30:24.754081+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -449355,16 +449355,16 @@
       "baseline_total": 149.9,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 46.7,
-      "floor_status": "MARGINAL",
-      "buffer_score": 9,
-      "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 0.5667,
-      "mae_h": 13.26,
-      "mae_a": 7.21,
-      "bias_h": 3.31,
-      "bias_a": -6.96,
-      "graded_h": 3,
-      "graded_a": 4,
+      "floor_status": "OK",
+      "buffer_score": 26,
+      "buffer_tier": "[NEUTRAL]",
+      "weighted_hit_rate": 0.66,
+      "mae_h": 11.18,
+      "mae_a": 14.39,
+      "bias_h": 1.24,
+      "bias_a": 3.05,
+      "graded_h": 4,
+      "graded_a": 5,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -449377,7 +449377,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:53.388561+00:00",
+      "timestamp": "2026-11-23T23:30:24.899108+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -449489,6 +449489,27 @@
         ],
         "recentA": [
           {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Southern Utah",
+                "winner": true
+              },
+              "away": {
+                "name": "Arkansas State",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 104
+              },
+              "away": {
+                "total": 102
+              }
+            }
+          },
+          {
             "date": "2026-11-20",
             "teams": {
               "home": {
@@ -449569,27 +449590,6 @@
               },
               "away": {
                 "total": 49
-              }
-            }
-          },
-          {
-            "date": "2026-11-06",
-            "teams": {
-              "home": {
-                "name": "Southern Utah",
-                "winner": true
-              },
-              "away": {
-                "name": "Grace College Lancers",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 97
-              },
-              "away": {
-                "total": 53
               }
             }
           }
@@ -465434,7 +465434,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:53.572939+00:00",
+      "timestamp": "2026-11-23T23:30:25.039063+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -481472,7 +481472,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:53.743372+00:00",
+      "timestamp": "2026-11-23T23:30:25.180876+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -497491,7 +497491,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:53.933175+00:00",
+      "timestamp": "2026-11-23T23:30:25.315573+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -513510,7 +513510,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:54.128750+00:00",
+      "timestamp": "2026-11-23T23:30:25.446882+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -529529,7 +529529,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:54.328627+00:00",
+      "timestamp": "2026-11-23T23:30:25.578732+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -545481,7 +545481,7 @@
         "away_tier": 3,
         "tier_gap": 0
       },
-      "is_drag_down": true,
+      "is_drag_down": false,
       "is_clash": false,
       "clash_trigger": "",
       "is_shootout": false,
@@ -545529,13 +545529,13 @@
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4,
-      "mae_h": 8.28,
-      "mae_a": 18.22,
-      "bias_h": -8.28,
-      "bias_a": -11.61,
-      "graded_h": 3,
-      "graded_a": 3,
+      "weighted_hit_rate": 0.31,
+      "mae_h": 13.38,
+      "mae_a": 17.68,
+      "bias_h": -13.38,
+      "bias_a": -12.72,
+      "graded_h": 4,
+      "graded_a": 4,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -545548,10 +545548,31 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:54.510508+00:00",
+      "timestamp": "2026-11-23T23:30:25.720800+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
+          {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Belmont",
+                "winner": true
+              },
+              "away": {
+                "name": "Yale",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 68
+              },
+              "away": {
+                "total": 60
+              }
+            }
+          },
           {
             "date": "2026-11-19",
             "teams": {
@@ -545633,27 +545654,6 @@
               },
               "away": {
                 "total": 61
-              }
-            }
-          },
-          {
-            "date": "2026-11-07",
-            "teams": {
-              "home": {
-                "name": "UCF Knights",
-                "winner": true
-              },
-              "away": {
-                "name": "Yale",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 87
-              },
-              "away": {
-                "total": 75
               }
             }
           }
@@ -561565,15 +561565,15 @@
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 46.7,
       "floor_status": "ELITE",
-      "buffer_score": 30,
-      "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.8,
-      "mae_h": 4.8,
-      "mae_a": 19.36,
-      "bias_h": 2.64,
-      "bias_a": -0.49,
-      "graded_h": 4,
-      "graded_a": 3,
+      "buffer_score": 40,
+      "buffer_tier": "[ELITE BUFFER]",
+      "weighted_hit_rate": 0.85,
+      "mae_h": 12.47,
+      "mae_a": 15.76,
+      "bias_h": 10.74,
+      "bias_a": -1.61,
+      "graded_h": 5,
+      "graded_a": 4,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -561586,10 +561586,31 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:54.688442+00:00",
+      "timestamp": "2026-11-23T23:30:25.857825+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
+          {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Southern Utah",
+                "winner": true
+              },
+              "away": {
+                "name": "Arkansas State",
+                "winner": false
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 104
+              },
+              "away": {
+                "total": 102
+              }
+            }
+          },
           {
             "date": "2026-11-19",
             "teams": {
@@ -561671,27 +561692,6 @@
               },
               "away": {
                 "total": 86
-              }
-            }
-          },
-          {
-            "date": "2026-11-03",
-            "teams": {
-              "home": {
-                "name": "Arkansas State",
-                "winner": true
-              },
-              "away": {
-                "name": "Toledo",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 71
-              },
-              "away": {
-                "total": 70
               }
             }
           }
@@ -577643,7 +577643,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:54.877794+00:00",
+      "timestamp": "2026-11-23T23:30:26.075012+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -593700,7 +593700,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:55.161904+00:00",
+      "timestamp": "2026-11-23T23:30:26.215277+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -609757,7 +609757,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:55.355237+00:00",
+      "timestamp": "2026-11-23T23:30:26.366582+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -625662,17 +625662,17 @@
       "odds_under": null,
       "baseline_total": 149.9,
       "confidence_score_band": "[AVOID]",
-      "confidence_score": 26.7,
-      "floor_status": "MARGINAL",
-      "buffer_score": 12,
-      "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 0.5,
+      "confidence_score": 20.0,
+      "floor_status": "WEAK",
+      "buffer_score": 0,
+      "buffer_tier": "[AVOID]",
+      "weighted_hit_rate": 0.44,
       "mae_h": 13.24,
-      "mae_a": 17.16,
+      "mae_a": 18.84,
       "bias_h": -13.24,
-      "bias_a": -13.8,
+      "bias_a": -16.16,
       "graded_h": 3,
-      "graded_a": 4,
+      "graded_a": 5,
       "mbet_threshold": 9.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
@@ -625685,7 +625685,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:55.531980+00:00",
+      "timestamp": "2026-11-23T23:30:26.513384+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -641742,7 +641742,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:55.964703+00:00",
+      "timestamp": "2026-11-23T23:30:26.926243+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -657792,7 +657792,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:56.139147+00:00",
+      "timestamp": "2026-11-23T23:30:27.061517+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -673830,7 +673830,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:56.544063+00:00",
+      "timestamp": "2026-11-23T23:30:27.389256+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -689887,7 +689887,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:56.726819+00:00",
+      "timestamp": "2026-11-23T23:30:27.618972+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -705944,7 +705944,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:56.891519+00:00",
+      "timestamp": "2026-11-23T23:30:27.753137+00:00",
       "match_center": {
         "h2h": [
           {
@@ -722004,7 +722004,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:57.071028+00:00",
+      "timestamp": "2026-11-23T23:30:27.898034+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -738061,7 +738061,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:57.272463+00:00",
+      "timestamp": "2026-11-23T23:30:28.033066+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -754118,7 +754118,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:57.495308+00:00",
+      "timestamp": "2026-11-23T23:30:28.228864+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -770175,7 +770175,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:57.689422+00:00",
+      "timestamp": "2026-11-23T23:30:28.418954+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -786213,7 +786213,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:57.875100+00:00",
+      "timestamp": "2026-11-23T23:30:28.557598+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -802251,7 +802251,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:58.058873+00:00",
+      "timestamp": "2026-11-23T23:30:28.773853+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -818308,7 +818308,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:58.713821+00:00",
+      "timestamp": "2026-11-23T23:30:29.392608+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -834346,7 +834346,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:59.635364+00:00",
+      "timestamp": "2026-11-23T23:30:30.184305+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -850298,7 +850298,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:59.797156+00:00",
+      "timestamp": "2026-11-23T23:30:30.318898+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -866269,7 +866269,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:21:59.980412+00:00",
+      "timestamp": "2026-11-23T23:30:30.455381+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -882240,7 +882240,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:00.169610+00:00",
+      "timestamp": "2026-11-23T23:30:30.607767+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -898211,7 +898211,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:00.356321+00:00",
+      "timestamp": "2026-11-23T23:30:30.755170+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -914163,7 +914163,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:00.528425+00:00",
+      "timestamp": "2026-11-23T23:30:30.889991+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -930113,7 +930113,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:00.701368+00:00",
+      "timestamp": "2026-11-23T23:30:31.086481+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -946084,7 +946084,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:00.889336+00:00",
+      "timestamp": "2026-11-23T23:30:31.286997+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -962055,7 +962055,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:01.284874+00:00",
+      "timestamp": "2026-11-23T23:30:31.544815+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -978007,7 +978007,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:01.684360+00:00",
+      "timestamp": "2026-11-23T23:30:31.841483+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -993978,7 +993978,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:01.865475+00:00",
+      "timestamp": "2026-11-23T23:30:32.072387+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1009909,7 +1009909,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:02.633424+00:00",
+      "timestamp": "2026-11-23T23:30:32.660733+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1025880,7 +1025880,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:02.939427+00:00",
+      "timestamp": "2026-11-23T23:30:32.805612+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1041830,7 +1041830,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:03.132637+00:00",
+      "timestamp": "2026-11-23T23:30:33.026458+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1057780,7 +1057780,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:03.341919+00:00",
+      "timestamp": "2026-11-23T23:30:33.162206+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1073751,7 +1073751,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:03.542802+00:00",
+      "timestamp": "2026-11-23T23:30:33.302223+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1089722,7 +1089722,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:03.743979+00:00",
+      "timestamp": "2026-11-23T23:30:33.438656+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1105693,7 +1105693,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:03.932779+00:00",
+      "timestamp": "2026-11-23T23:30:33.575536+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1121664,7 +1121664,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:04.113748+00:00",
+      "timestamp": "2026-11-23T23:30:33.734096+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1137616,13 +1137616,13 @@
       "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.4667,
+      "weighted_hit_rate": 0.4,
       "mae_h": 14.78,
-      "mae_a": 5.41,
+      "mae_a": 6.64,
       "bias_h": -14.78,
-      "bias_a": -3.61,
+      "bias_a": -5.29,
       "graded_h": 3,
-      "graded_a": 3,
+      "graded_a": 4,
       "mbet_threshold": 9.4,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
@@ -1137635,7 +1137635,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:04.298711+00:00",
+      "timestamp": "2026-11-23T23:30:33.867299+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1153606,7 +1153606,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:04.501058+00:00",
+      "timestamp": "2026-11-23T23:30:34.007755+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1169573,7 +1169573,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:04.690469+00:00",
+      "timestamp": "2026-11-23T23:30:34.147118+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1185544,7 +1185544,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.058282+00:00",
+      "timestamp": "2026-11-23T23:30:34.428990+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1201515,7 +1201515,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.237515+00:00",
+      "timestamp": "2026-11-23T23:30:34.567947+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1217486,7 +1217486,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.437278+00:00",
+      "timestamp": "2026-11-23T23:30:34.711195+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1233457,7 +1233457,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.623621+00:00",
+      "timestamp": "2026-11-23T23:30:34.843018+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1249407,7 +1249407,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.811017+00:00",
+      "timestamp": "2026-11-23T23:30:35.078998+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1265357,7 +1265357,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:05.997558+00:00",
+      "timestamp": "2026-11-23T23:30:35.225653+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1281328,7 +1281328,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:06.344269+00:00",
+      "timestamp": "2026-11-23T23:30:35.365067+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1297299,7 +1297299,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:06.532559+00:00",
+      "timestamp": "2026-11-23T23:30:35.502597+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1313247,17 +1313247,17 @@
       "odds_under": null,
       "baseline_total": 131.2,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 33.3,
+      "confidence_score": 40.0,
       "floor_status": "LOW_N(2)",
       "buffer_score": 4,
       "buffer_tier": "[MARGINAL]",
-      "weighted_hit_rate": 0.5667,
+      "weighted_hit_rate": 0.5857,
       "mae_h": 3.19,
-      "mae_a": 18.16,
+      "mae_a": 16.22,
       "bias_h": -3.19,
-      "bias_a": 6.4,
+      "bias_a": 4.83,
       "graded_h": 2,
-      "graded_a": 6,
+      "graded_a": 7,
       "mbet_threshold": 9.4,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
@@ -1313270,7 +1313270,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:06.702066+00:00",
+      "timestamp": "2026-11-23T23:30:35.646923+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1313339,6 +1313339,27 @@
           }
         ],
         "recentA": [
+          {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "Virginia Cavaliers W",
+                "winner": false
+              },
+              "away": {
+                "name": "Oklahoma Sooners W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 66
+              },
+              "away": {
+                "total": 86
+              }
+            }
+          },
           {
             "date": "2026-11-20",
             "teams": {
@@ -1313420,27 +1313441,6 @@
               },
               "away": {
                 "total": 44
-              }
-            }
-          },
-          {
-            "date": "2026-11-08",
-            "teams": {
-              "home": {
-                "name": "Oklahoma Sooners W",
-                "winner": true
-              },
-              "away": {
-                "name": "Morgan State W",
-                "winner": false
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 95
-              },
-              "away": {
-                "total": 38
               }
             }
           }
@@ -1329199,7 +1329199,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:06.886690+00:00",
+      "timestamp": "2026-11-23T23:30:35.778925+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1345151,7 +1345151,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:07.076751+00:00",
+      "timestamp": "2026-11-23T23:30:35.911603+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1361082,7 +1361082,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:07.424254+00:00",
+      "timestamp": "2026-11-23T23:30:36.197638+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1377034,7 +1377034,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:07.789806+00:00",
+      "timestamp": "2026-11-23T23:30:36.518060+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1392986,7 +1392986,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:07.993313+00:00",
+      "timestamp": "2026-11-23T23:30:36.656211+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1408957,7 +1408957,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:08.218669+00:00",
+      "timestamp": "2026-11-23T23:30:36.821272+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1424909,7 +1424909,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:08.411106+00:00",
+      "timestamp": "2026-11-23T23:30:37.318403+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1440857,17 +1440857,17 @@
       "odds_under": null,
       "baseline_total": 131.2,
       "confidence_score_band": "[MODERATE]",
-      "confidence_score": 46.7,
+      "confidence_score": 53.3,
       "floor_status": "OK",
       "buffer_score": 33,
       "buffer_tier": "[STRONG BUFFER]",
-      "weighted_hit_rate": 0.76,
+      "weighted_hit_rate": 0.7,
       "mae_h": 15.29,
-      "mae_a": 15.29,
+      "mae_a": 16.81,
       "bias_h": 14.24,
-      "bias_a": -6.51,
+      "bias_a": -9.5,
       "graded_h": 5,
-      "graded_a": 5,
+      "graded_a": 6,
       "mbet_threshold": 9.4,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
@@ -1440880,7 +1440880,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:08.593956+00:00",
+      "timestamp": "2026-11-23T23:30:37.451990+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1440992,6 +1440992,27 @@
         ],
         "recentA": [
           {
+            "date": "2026-11-23",
+            "teams": {
+              "home": {
+                "name": "High Point W",
+                "winner": false
+              },
+              "away": {
+                "name": "Grand Canyon W",
+                "winner": true
+              }
+            },
+            "scores": {
+              "home": {
+                "total": 54
+              },
+              "away": {
+                "total": 60
+              }
+            }
+          },
+          {
             "date": "2026-11-19",
             "teams": {
               "home": {
@@ -1441072,27 +1441093,6 @@
               },
               "away": {
                 "total": 67
-              }
-            }
-          },
-          {
-            "date": "2026-11-07",
-            "teams": {
-              "home": {
-                "name": "Ball State W",
-                "winner": false
-              },
-              "away": {
-                "name": "High Point W",
-                "winner": true
-              }
-            },
-            "scores": {
-              "home": {
-                "total": 71
-              },
-              "away": {
-                "total": 78
               }
             }
           }
@@ -1456851,7 +1456851,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:08.800986+00:00",
+      "timestamp": "2026-11-23T23:30:37.603697+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1472803,7 +1472803,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:08.976620+00:00",
+      "timestamp": "2026-11-23T23:30:37.742485+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1488774,7 +1488774,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:09.163083+00:00",
+      "timestamp": "2026-11-23T23:30:37.879457+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1504726,7 +1504726,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:09.359387+00:00",
+      "timestamp": "2026-11-23T23:30:38.016092+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1520697,7 +1520697,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:09.563969+00:00",
+      "timestamp": "2026-11-23T23:30:38.147378+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1536668,7 +1536668,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:09.752552+00:00",
+      "timestamp": "2026-11-23T23:30:38.386191+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1552639,7 +1552639,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:09.934621+00:00",
+      "timestamp": "2026-11-23T23:30:38.528908+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1568582,16 +1568582,16 @@
       "mbet_threshold": 6.6,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 180.04,
+      "adv_total": 180.75,
       "srs_total": 177.7,
-      "adv_edge": 2.0,
+      "adv_edge": 2.8,
       "srs_edge": -0.3,
       "model_agreement": "DISCORDANT",
-      "model_divergence": 2.34,
+      "model_divergence": 3.05,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:10.503231+00:00",
+      "timestamp": "2026-11-23T23:30:39.022749+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1569609,41 +1569609,41 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 41.8,
-          "top1_pct": 23.3,
+          "avg_sdi": 40.2,
+          "top1_pct": 22.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Majus Bulanovas",
+              "times_top2": 4
+            },
             {
               "name": "Jokubas Rudaitis",
               "times_top2": 2
             },
             {
-              "name": "Majus Bulanovas",
+              "name": "Nojus Mistautas",
               "times_top2": 2
-            },
-            {
-              "name": "Dominykas Grunkis",
-              "times_top2": 1
             }
           ]
         },
         "sdiA": {
           "avg_sdi": 38.5,
-          "top1_pct": 20.1,
+          "top1_pct": 20.4,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
-              "name": "K. Davidson",
-              "times_top2": 2
+              "name": "Keishawn Davidson",
+              "times_top2": 3
             },
             {
-              "name": "Kazakauskas Julius",
+              "name": "Julius Kazakauskas",
               "times_top2": 1
             },
             {
-              "name": "Budrys Tadas",
+              "name": "Tadas Budrys",
               "times_top2": 1
             }
           ]
@@ -1569678,7 +1569678,7 @@
         "buffer_tier": "[AVOID]",
         "confidence_band": "[MODERATE]",
         "model_agreement": "CONFIRMED_UNDER",
-        "model_divergence": 2.42
+        "model_divergence": 2.88
       },
       "league_segment": "FIBA_CORE",
       "league_segment_label": "FIBA Core (40m)",
@@ -1569732,16 +1569732,16 @@
       "mbet_threshold": 6.6,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 164.98,
+      "adv_total": 164.52,
       "srs_total": 167.4,
-      "adv_edge": -2.5,
+      "adv_edge": -3.0,
       "srs_edge": -0.1,
       "model_agreement": "CONFIRMED_UNDER",
-      "model_divergence": 2.42,
+      "model_divergence": 2.88,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:10.673188+00:00",
+      "timestamp": "2026-11-23T23:30:39.145789+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1570834,12 +1570834,12 @@
       "home_team": "Kretinga",
       "status": "Not Started",
       "stage": "14",
-      "model_total": 172.72,
-      "xpts_h": 85.0,
-      "xpts_a": 87.7,
+      "model_total": 173.94,
+      "xpts_h": 85.5,
+      "xpts_a": 88.4,
       "probs_1x2": {
-        "home": 40.9,
-        "away": 59.1
+        "home": 40.4,
+        "away": 59.6
       },
       "predicted_result": "AWAY",
       "home_source": "ADVANCED",
@@ -1570848,7 +1570848,7 @@
       "away_team_volatility": 13.59,
       "game_id": 523834,
       "market_total": 171.0,
-      "edge": 1.7,
+      "edge": 2.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
@@ -1570872,16 +1570872,16 @@
       "mbet_threshold": 6.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 172.72,
+      "adv_total": 173.94,
       "srs_total": 177.78,
-      "adv_edge": 1.7,
+      "adv_edge": 2.9,
       "srs_edge": 6.8,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 5.06,
+      "model_divergence": 3.84,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:10.866867+00:00",
+      "timestamp": "2026-11-23T23:30:39.269414+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1571881,9 +1571881,9 @@
           "current_season_games": 15,
           "model_games": 29,
           "win_pct": 0.31,
-          "scored": 99.7,
-          "conceded": 111.6,
-          "sos": -2.41,
+          "scored": 100.2,
+          "conceded": 112.3,
+          "sos": -2.43,
           "rank": null,
           "prior_blended": false
         },
@@ -1571892,8 +1571892,8 @@
           "current_season_games": 14,
           "model_games": 52,
           "win_pct": 0.442,
-          "scored": 106.3,
-          "conceded": 111.5,
+          "scored": 106.8,
+          "conceded": 112.0,
           "sos": -0.47,
           "rank": null,
           "prior_blended": false
@@ -1571919,8 +1571919,8 @@
           ]
         },
         "sdiA": {
-          "avg_sdi": 53.4,
-          "top1_pct": 31.4,
+          "avg_sdi": 52.2,
+          "top1_pct": 32.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -1571929,12 +1571929,12 @@
               "times_top2": 2
             },
             {
-              "name": "Nojus Jankunas",
-              "times_top2": 1
+              "name": "Rokas Jocys",
+              "times_top2": 2
             },
             {
-              "name": "Gerrale Gates",
-              "times_top2": 1
+              "name": "Augustinas Mikstas",
+              "times_top2": 2
             }
           ]
         }
@@ -1572008,16 +1572008,16 @@
       "mbet_threshold": 6.6,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 188.42,
+      "adv_total": 187.84,
       "srs_total": 186.54,
-      "adv_edge": 10.9,
+      "adv_edge": 10.3,
       "srs_edge": 9.0,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 1.88,
+      "model_divergence": 1.3,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:11.029989+00:00",
+      "timestamp": "2026-11-23T23:30:39.520223+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1573035,21 +1573035,21 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 44.8,
-          "top1_pct": 24.7,
+          "avg_sdi": 46.6,
+          "top1_pct": 25.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Karolis Kokoska",
+              "times_top2": 5
+            },
+            {
+              "name": "Norbertas Giga",
               "times_top2": 2
             },
             {
               "name": "Karolis Babusis",
-              "times_top2": 1
-            },
-            {
-              "name": "Sarunas Valunta",
               "times_top2": 1
             }
           ]
@@ -1573106,12 +1573106,12 @@
       "home_team": "Omega-Tauras",
       "status": "Not Started",
       "stage": "18",
-      "model_total": 171.12,
-      "xpts_h": 88.6,
-      "xpts_a": 82.5,
+      "model_total": 172.76,
+      "xpts_h": 89.5,
+      "xpts_a": 83.3,
       "probs_1x2": {
-        "home": 69.2,
-        "away": 30.8
+        "home": 69.7,
+        "away": 30.3
       },
       "predicted_result": "HOME",
       "home_source": "ADVANCED",
@@ -1573120,8 +1573120,8 @@
       "away_team_volatility": 15.76,
       "game_id": 523870,
       "market_total": 171.5,
-      "edge": -0.4,
-      "side": "UNDER",
+      "edge": 1.3,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
@@ -1573144,16 +1573144,16 @@
       "mbet_threshold": 6.6,
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
-      "adv_total": 171.12,
+      "adv_total": 172.76,
       "srs_total": 175.54,
-      "adv_edge": -0.4,
+      "adv_edge": 1.3,
       "srs_edge": 4.0,
-      "model_agreement": "DISCORDANT",
-      "model_divergence": 4.42,
+      "model_agreement": "CONFIRMED_OVER",
+      "model_divergence": 2.78,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:11.197067+00:00",
+      "timestamp": "2026-11-23T23:30:39.640881+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1574153,9 +1574153,9 @@
           "current_season_games": 16,
           "model_games": 23,
           "win_pct": 0.391,
-          "scored": 105.8,
-          "conceded": 110.0,
-          "sos": -3.4,
+          "scored": 107.2,
+          "conceded": 111.3,
+          "sos": -3.43,
           "rank": null,
           "prior_blended": false
         },
@@ -1574165,8 +1574165,8 @@
           "model_games": 31,
           "win_pct": 0.419,
           "scored": 102.9,
-          "conceded": 111.6,
-          "sos": -3.86,
+          "conceded": 111.7,
+          "sos": -3.89,
           "rank": null,
           "prior_blended": false
         },
@@ -1574274,17 +1574274,17 @@
       "odds_under": null,
       "baseline_total": 158.9,
       "confidence_score_band": "[LOW]",
-      "confidence_score": 33.3,
-      "floor_status": "LOW_N(2)",
+      "confidence_score": 40.0,
+      "floor_status": "WEAK",
       "buffer_score": 0,
       "buffer_tier": "[AVOID]",
-      "weighted_hit_rate": 0.2,
-      "mae_h": 15.74,
-      "mae_a": 30.6,
-      "bias_h": 2.99,
-      "bias_a": -30.6,
-      "graded_h": 2,
-      "graded_a": 2,
+      "weighted_hit_rate": 0.4667,
+      "mae_h": 12.12,
+      "mae_a": 22.03,
+      "bias_h": 0.37,
+      "bias_a": -22.03,
+      "graded_h": 3,
+      "graded_a": 3,
       "mbet_threshold": 6.0,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
@@ -1574297,7 +1574297,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:11.770860+00:00",
+      "timestamp": "2026-11-23T23:30:40.024435+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1574817,7 +1574817,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:12.539874+00:00",
+      "timestamp": "2026-11-23T23:30:40.566071+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1575786,7 +1575786,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:13.085329+00:00",
+      "timestamp": "2026-11-23T23:30:40.950839+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1576582,7 +1576582,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:13.619244+00:00",
+      "timestamp": "2026-11-23T23:30:41.375558+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1577396,7 +1577396,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:13.802335+00:00",
+      "timestamp": "2026-11-23T23:30:41.493562+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1578229,7 +1578229,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:14.509231+00:00",
+      "timestamp": "2026-11-23T23:30:42.040494+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1579184,16 +1579184,16 @@
       "mbet_threshold": 5.7,
       "model_architecture": "[  SRS   ]",
       "selected_model": "SRS",
-      "adv_total": 153.3,
+      "adv_total": 153.37,
       "srs_total": 153.21,
-      "adv_edge": 4.3,
+      "adv_edge": 4.4,
       "srs_edge": 4.2,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 0.09,
+      "model_divergence": 0.16,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:15.254658+00:00",
+      "timestamp": "2026-11-23T23:30:42.622024+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1580419,7 +1580419,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:15.991061+00:00",
+      "timestamp": "2026-11-23T23:30:43.427862+00:00",
       "match_center": {
         "h2h": [
           {
@@ -1581538,7 +1581538,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:16.523787+00:00",
+      "timestamp": "2026-11-23T23:30:43.818925+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1582311,7 +1582311,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:17.064029+00:00",
+      "timestamp": "2026-11-23T23:30:44.216224+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1583387,7 +1583387,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:17.243544+00:00",
+      "timestamp": "2026-11-23T23:30:44.497400+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1584478,7 +1584478,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T21:22:17.435416+00:00",
+      "timestamp": "2026-11-23T23:30:44.715996+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
