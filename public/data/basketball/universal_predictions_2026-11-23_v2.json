@@ -46,15 +46,15 @@
       "home_team_volatility": 18.11,
       "away_team_volatility": 13.78,
       "game_id": 510821,
-      "market_total": 178.0,
-      "edge": 3.2,
+      "market_total": 178.5,
+      "edge": 2.7,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.81,
-      "odds_under": 1.85,
+      "odds_over": 1.85,
+      "odds_under": 1.81,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 38.7,
@@ -73,14 +73,14 @@
       "selected_model": "SRS",
       "adv_total": 171.42,
       "srs_total": 181.22,
-      "adv_edge": -6.6,
-      "srs_edge": 3.2,
+      "adv_edge": -7.1,
+      "srs_edge": 2.7,
       "model_agreement": "DISCORDANT",
       "model_divergence": 9.8,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:26.025913+00:00",
+      "timestamp": "2026-11-23T15:59:03.636421+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1081,15 +1081,15 @@
       "home_team_volatility": 19.02,
       "away_team_volatility": 14.13,
       "game_id": 521548,
-      "market_total": 139.0,
-      "edge": -1.5,
-      "side": "UNDER",
+      "market_total": 137.0,
+      "edge": 0.5,
+      "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.81,
-      "odds_under": 1.79,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 28.0,
@@ -1109,13 +1109,13 @@
       "adv_total": null,
       "srs_total": 137.5,
       "adv_edge": null,
-      "srs_edge": -1.5,
+      "srs_edge": 0.5,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:26.690370+00:00",
+      "timestamp": "2026-11-23T15:59:04.254144+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -1974,7 +1974,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:28.224924+00:00",
+      "timestamp": "2026-11-23T15:59:05.045321+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -2971,15 +2971,15 @@
       "home_team_volatility": 18.83,
       "away_team_volatility": 17.39,
       "game_id": 524119,
-      "market_total": 155.5,
-      "edge": 4.8,
+      "market_total": 155.0,
+      "edge": 5.3,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.81,
+      "odds_over": 1.84,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 21.3,
@@ -2998,14 +2998,14 @@
       "selected_model": "ADV",
       "adv_total": 160.32,
       "srs_total": 160.57,
-      "adv_edge": 4.8,
-      "srs_edge": 5.1,
+      "adv_edge": 5.3,
+      "srs_edge": 5.6,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 0.25,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:29.595953+00:00",
+      "timestamp": "2026-11-23T15:59:06.275411+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -159853,7 +159853,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:33.094729+00:00",
+      "timestamp": "2026-11-23T15:59:09.792099+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -165586,6 +165586,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -165617,49 +165660,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -174161,19 +174161,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -175822,7 +175822,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:31.685049+00:00",
+      "timestamp": "2026-11-23T15:59:08.436144+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -181597,6 +181597,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -181628,49 +181671,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -190172,19 +190172,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -191837,7 +191837,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:32.200559+00:00",
+      "timestamp": "2026-11-23T15:59:08.938216+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -197654,6 +197654,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -197685,49 +197728,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -206229,19 +206229,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -207875,7 +207875,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:32.428233+00:00",
+      "timestamp": "2026-11-23T15:59:09.148231+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -213692,6 +213692,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -213723,49 +213766,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -222267,19 +222267,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -223928,7 +223928,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:32.649561+00:00",
+      "timestamp": "2026-11-23T15:59:09.350851+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -229745,6 +229745,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -229776,49 +229819,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -238320,19 +238320,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -239985,7 +239985,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:32.873149+00:00",
+      "timestamp": "2026-11-23T15:59:09.568727+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -245781,6 +245781,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -245812,49 +245855,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -254356,19 +254356,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -255992,8 +255992,8 @@
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Bet365",
-      "bookmaker": "Bet365",
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
       "odds_over": 1.9,
       "odds_under": 1.9,
       "baseline_total": null,
@@ -256021,7 +256021,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:33.612374+00:00",
+      "timestamp": "2026-11-23T15:59:10.232064+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -261838,6 +261838,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -261869,49 +261912,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -270413,19 +270413,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -272044,15 +272044,15 @@
       "home_team_volatility": 20.48,
       "away_team_volatility": 18.76,
       "game_id": 527079,
-      "market_total": 166.5,
-      "edge": 0.2,
-      "side": "OVER",
+      "market_total": 168.0,
+      "edge": -1.3,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_over": 1.92,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -272071,14 +272071,14 @@
       "selected_model": "ADV",
       "adv_total": 166.67,
       "srs_total": 170.55,
-      "adv_edge": 0.2,
-      "srs_edge": 4.1,
-      "model_agreement": "CONFIRMED_OVER",
+      "adv_edge": -1.3,
+      "srs_edge": 2.6,
+      "model_agreement": "DISCORDANT",
       "model_divergence": 3.88,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:33.839753+00:00",
+      "timestamp": "2026-11-23T15:59:10.449227+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -277895,6 +277895,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -277926,49 +277969,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -286470,19 +286470,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -288116,7 +288116,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:34.068464+00:00",
+      "timestamp": "2026-11-23T15:59:10.710738+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -293933,6 +293933,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -293964,49 +294007,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -302508,19 +302508,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -304173,7 +304173,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:34.291479+00:00",
+      "timestamp": "2026-11-23T15:59:10.915442+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -309990,6 +309990,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -310021,49 +310064,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -318565,19 +318565,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -320211,7 +320211,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:34.526589+00:00",
+      "timestamp": "2026-11-23T15:59:11.113333+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -326028,6 +326028,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -326059,49 +326102,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -334603,19 +334603,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -336263,7 +336263,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:34.740024+00:00",
+      "timestamp": "2026-11-23T15:59:11.321731+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -342080,6 +342080,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -342111,49 +342154,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -350655,19 +350655,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -352282,7 +352282,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:35.407482+00:00",
+      "timestamp": "2026-11-23T15:59:11.937270+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -358099,6 +358099,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -358130,49 +358173,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -366674,19 +366674,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -400263,7 +400263,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:36.361313+00:00",
+      "timestamp": "2026-11-23T15:59:13.033377+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -416196,7 +416196,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:36.577802+00:00",
+      "timestamp": "2026-11-23T15:59:13.286062+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -432146,7 +432146,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:36.802664+00:00",
+      "timestamp": "2026-11-23T15:59:13.496051+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -448096,7 +448096,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:37.021718+00:00",
+      "timestamp": "2026-11-23T15:59:13.699165+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -464067,7 +464067,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:37.283615+00:00",
+      "timestamp": "2026-11-23T15:59:13.902693+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -480004,16 +480004,16 @@
       "home_team_volatility": 21.04,
       "away_team_volatility": 13.63,
       "game_id": 530282,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 131.2,
+      "market_total": 140.5,
+      "edge": 1.2,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Bet365",
+      "bookmaker": "Bet365",
+      "odds_over": 1.9,
+      "odds_under": 1.9,
+      "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
       "floor_status": "OK",
@@ -480032,13 +480032,13 @@
       "adv_total": null,
       "srs_total": 141.68,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": 1.2,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:37.510129+00:00",
+      "timestamp": "2026-11-23T15:59:14.124679+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -496009,7 +496009,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:37.736824+00:00",
+      "timestamp": "2026-11-23T15:59:14.323095+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -511980,7 +511980,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:37.977744+00:00",
+      "timestamp": "2026-11-23T15:59:14.526665+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -527951,7 +527951,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:38.222453+00:00",
+      "timestamp": "2026-11-23T15:59:14.725984+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -543922,7 +543922,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:38.443970+00:00",
+      "timestamp": "2026-11-23T15:59:14.931128+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -559893,7 +559893,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:38.741773+00:00",
+      "timestamp": "2026-11-23T15:59:15.145611+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -575864,7 +575864,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:38.967646+00:00",
+      "timestamp": "2026-11-23T15:59:15.351816+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -591835,7 +591835,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:39.201666+00:00",
+      "timestamp": "2026-11-23T15:59:15.560699+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -607753,16 +607753,16 @@
       "home_team_volatility": 20.09,
       "away_team_volatility": 20.89,
       "game_id": 530283,
-      "market_total": null,
-      "edge": null,
-      "side": null,
-      "decision": "MODEL ONLY",
-      "confidence": "-",
-      "odds_source": "CALIBRATED_BASELINE",
-      "bookmaker": null,
-      "odds_over": null,
-      "odds_under": null,
-      "baseline_total": 131.2,
+      "market_total": 131.5,
+      "edge": 3.2,
+      "side": "OVER",
+      "decision": "PASS",
+      "confidence": "MBET FILTER",
+      "odds_source": "Betano",
+      "bookmaker": "Betano",
+      "odds_over": 1.82,
+      "odds_under": 1.82,
+      "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 20.0,
       "floor_status": "WEAK",
@@ -607781,13 +607781,13 @@
       "adv_total": null,
       "srs_total": 134.65,
       "adv_edge": null,
-      "srs_edge": null,
+      "srs_edge": 3.2,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:39.427481+00:00",
+      "timestamp": "2026-11-23T15:59:15.829178+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -623758,7 +623758,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:39.656388+00:00",
+      "timestamp": "2026-11-23T15:59:16.044073+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -639689,7 +639689,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:39.874133+00:00",
+      "timestamp": "2026-11-23T15:59:16.281143+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -655660,7 +655660,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:40.110465+00:00",
+      "timestamp": "2026-11-23T15:59:16.504730+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -671631,7 +671631,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:40.332034+00:00",
+      "timestamp": "2026-11-23T15:59:16.706285+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -688984,7 +688984,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:41.741491+00:00",
+      "timestamp": "2026-11-23T15:59:17.314912+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -689780,7 +689780,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:41.954192+00:00",
+      "timestamp": "2026-11-23T15:59:17.504549+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -690576,7 +690576,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:42.164639+00:00",
+      "timestamp": "2026-11-23T15:59:17.698499+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -691372,7 +691372,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:42.377633+00:00",
+      "timestamp": "2026-11-23T15:59:17.891050+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -692156,7 +692156,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:43.051686+00:00",
+      "timestamp": "2026-11-23T15:59:18.474161+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -693829,8 +693829,8 @@
       "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.87,
-      "odds_under": 1.87,
+      "odds_over": 1.88,
+      "odds_under": 1.86,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 30.7,
@@ -693856,7 +693856,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:44.396123+00:00",
+      "timestamp": "2026-11-23T15:59:19.042947+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -694581,8 +694581,8 @@
       "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.85,
+      "odds_over": 1.87,
+      "odds_under": 1.87,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 14.7,
@@ -694608,7 +694608,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:44.625645+00:00",
+      "timestamp": "2026-11-23T15:59:19.226259+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -695327,8 +695327,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.81,
-      "odds_under": 1.85,
+      "odds_over": 1.85,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 48.0,
@@ -695354,7 +695354,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:44.840650+00:00",
+      "timestamp": "2026-11-23T15:59:19.433563+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -700807,14 +700807,14 @@
       "home_team_volatility": 16.43,
       "away_team_volatility": 18.37,
       "game_id": 535387,
-      "market_total": 147.0,
-      "edge": 6.7,
+      "market_total": 148.5,
+      "edge": 5.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.91,
+      "odds_over": 1.89,
       "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
@@ -700834,14 +700834,14 @@
       "selected_model": "SRS",
       "adv_total": 154.79,
       "srs_total": 153.7,
-      "adv_edge": 7.8,
-      "srs_edge": 6.7,
+      "adv_edge": 6.3,
+      "srs_edge": 5.2,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 1.09,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:31.464439+00:00",
+      "timestamp": "2026-11-23T15:59:08.216019+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -706658,6 +706658,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -706689,49 +706732,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -715233,19 +715233,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -716864,15 +716864,15 @@
       "home_team_volatility": 20.22,
       "away_team_volatility": 18.58,
       "game_id": 535388,
-      "market_total": 149.0,
-      "edge": 3.4,
+      "market_total": 149.5,
+      "edge": 2.9,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_over": 1.93,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
@@ -716891,14 +716891,14 @@
       "selected_model": "SRS",
       "adv_total": 154.85,
       "srs_total": 152.42,
-      "adv_edge": 5.8,
-      "srs_edge": 3.4,
+      "adv_edge": 5.3,
+      "srs_edge": 2.9,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 2.43,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:33.321794+00:00",
+      "timestamp": "2026-11-23T15:59:10.008977+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -722715,6 +722715,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -722746,49 +722789,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -731290,19 +731290,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
@@ -732893,7 +732893,21 @@
       "clash_trigger": "",
       "is_shootout": false,
       "shootout_trigger": "",
-      "smart_edge": null,
+      "smart_edge": {
+        "signal": "UNDER",
+        "tier": "ELITE",
+        "recommendation": "BET FULL-TIME UNDER",
+        "win_rate": "65.7% WR",
+        "tag": "\ud83d\udcc9 Smart Under",
+        "trigger": "NCAA_COLLEGE_UNDER",
+        "trigger_label": "College High-Line Under Discipline",
+        "segment": "NCAA_MEN",
+        "segment_label": "NCAA Men (College)",
+        "buffer_tier": "[NEUTRAL]",
+        "confidence_band": "[MODERATE]",
+        "model_agreement": "CONFIRMED_UNDER",
+        "model_divergence": 0.96
+      },
       "league_segment": "NCAA_MEN",
       "league_segment_label": "NCAA Men (College)",
       "early_season_flag": true,
@@ -732921,15 +732935,15 @@
       "home_team_volatility": 18.58,
       "away_team_volatility": 14.54,
       "game_id": 535389,
-      "market_total": 144.0,
-      "edge": 0.2,
-      "side": "OVER",
+      "market_total": 144.5,
+      "edge": -0.3,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_over": 1.91,
+      "odds_under": 1.89,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 58.7,
@@ -732948,14 +732962,14 @@
       "selected_model": "SRS",
       "adv_total": 143.23,
       "srs_total": 144.19,
-      "adv_edge": -0.8,
-      "srs_edge": 0.2,
-      "model_agreement": "DISCORDANT",
+      "adv_edge": -1.3,
+      "srs_edge": -0.3,
+      "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 0.96,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-23T13:29:34.959172+00:00",
+      "timestamp": "2026-11-23T15:59:11.536206+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -738772,6 +738786,49 @@
                 "points": 0
               },
               "team": {
+                "id": 191,
+                "name": "Loyola Chicago",
+                "logo": "https://media.api-sports.io/basketball/teams/191.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 466,
+                "against": 412
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 10,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic 10",
+                "points": 0
+              },
+              "team": {
                 "id": 2128,
                 "name": "St. Louis Billikens",
                 "logo": "https://media.api-sports.io/basketball/teams/2128.png"
@@ -738803,49 +738860,6 @@
               "points": {
                 "for": 443,
                 "against": 377
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 10,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic 10",
-                "points": 0
-              },
-              "team": {
-                "id": 191,
-                "name": "Loyola Chicago",
-                "logo": "https://media.api-sports.io/basketball/teams/191.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 5,
-                "win": {
-                  "total": 3,
-                  "percentage": "0.600"
-                },
-                "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
-                }
-              },
-              "points": {
-                "for": 394,
-                "against": 349
               },
               "form": null,
               "description": null
@@ -747347,19 +747361,19 @@
                 "flag": "https://media.api-sports.io/flags/us.svg"
               },
               "games": {
-                "played": 5,
+                "played": 6,
                 "win": {
                   "total": 3,
-                  "percentage": "0.600"
+                  "percentage": "0.500"
                 },
                 "lose": {
-                  "total": 2,
-                  "percentage": "0.400"
+                  "total": 3,
+                  "percentage": "0.500"
                 }
               },
               "points": {
-                "for": 421,
-                "against": 399
+                "for": 484,
+                "against": 471
               },
               "form": null,
               "description": null
