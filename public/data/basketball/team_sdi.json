@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T00:06:29.947810",
+  "generated_at": "2026-11-23T07:56:50.891171",
   "total_teams": 2275,
   "source": "api-sports + proballers_ncaa",
   "summary": {
     "red_high_dependency": 140,
-    "amber_moderate": 1734,
-    "green_balanced": 401
+    "amber_moderate": 1733,
+    "green_balanced": 402
   },
   "teams": [
     {
@@ -23556,31 +23556,6 @@
       "source": "proballers_ncaa"
     },
     {
-      "team": "Oklahoma City Thunder",
-      "games_tracked": 25,
-      "avg_sdi": 43.0,
-      "avg_top1_pct": 26.7,
-      "max_sdi": 53.8,
-      "min_sdi": 28.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Shai Gilgeous-Alexander",
-          "times_top2": 22
-        },
-        {
-          "name": "Ajay Mitchell",
-          "times_top2": 6
-        },
-        {
-          "name": "Jared McCain",
-          "times_top2": 4
-        }
-      ],
-      "source": "proballers_ncaa"
-    },
-    {
       "team": "Innova-TSN Leganés",
       "games_tracked": 11,
       "avg_sdi": 46.0,
@@ -33516,6 +33491,31 @@
       "source": "proballers_ncaa"
     },
     {
+      "team": "Oklahoma City Thunder",
+      "games_tracked": 25,
+      "avg_sdi": 43.0,
+      "avg_top1_pct": 26.7,
+      "max_sdi": 53.8,
+      "min_sdi": 28.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Shai Gilgeous-Alexander",
+          "times_top2": 22
+        },
+        {
+          "name": "Ajay Mitchell",
+          "times_top2": 6
+        },
+        {
+          "name": "Jared McCain",
+          "times_top2": 4
+        }
+      ],
+      "source": "proballers_ncaa"
+    },
+    {
       "team": "Tkibuli Orbi",
       "games_tracked": 10,
       "avg_sdi": 43.6,
@@ -39181,34 +39181,6 @@
       ]
     },
     {
-      "team": "Vysoka",
-      "games_tracked": 2,
-      "avg_sdi": 42.1,
-      "avg_top1_pct": 23.8,
-      "max_sdi": 45.1,
-      "min_sdi": 39.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Pulpan Marek",
-          "times_top2": 1
-        },
-        {
-          "name": "V. Kalny",
-          "times_top2": 1
-        },
-        {
-          "name": "L. Kanturek",
-          "times_top2": 1
-        },
-        {
-          "name": "D. Skranc",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Fenerbahce 2",
       "games_tracked": 2,
       "avg_sdi": 42.1,
@@ -40235,30 +40207,6 @@
       "source": "proballers_ncaa"
     },
     {
-      "team": "Slavia Prague ERA NBK",
-      "games_tracked": 2,
-      "avg_sdi": 41.8,
-      "avg_top1_pct": 27.6,
-      "max_sdi": 42.3,
-      "min_sdi": 41.4,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "J. Mc Collum",
-          "times_top2": 2
-        },
-        {
-          "name": "Hruban Vojtech",
-          "times_top2": 1
-        },
-        {
-          "name": "R. Segu",
-          "times_top2": 1
-        }
-      ]
-    },
-    {
       "team": "Besiktas W",
       "games_tracked": 2,
       "avg_sdi": 41.8,
@@ -40686,6 +40634,30 @@
         }
       ],
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "Vysoka",
+      "games_tracked": 2,
+      "avg_sdi": 41.7,
+      "avg_top1_pct": 21.4,
+      "max_sdi": 44.2,
+      "min_sdi": 39.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "V. Kalny",
+          "times_top2": 2
+        },
+        {
+          "name": "Pulpan Marek",
+          "times_top2": 1
+        },
+        {
+          "name": "D. Stepan",
+          "times_top2": 1
+        }
+      ]
     },
     {
       "team": "Batumi",
@@ -54979,6 +54951,34 @@
       "source": "proballers_ncaa"
     },
     {
+      "team": "Slavia Prague ERA NBK",
+      "games_tracked": 2,
+      "avg_sdi": 35.1,
+      "avg_top1_pct": 20.4,
+      "max_sdi": 41.4,
+      "min_sdi": 28.8,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "J. Mc Collum",
+          "times_top2": 1
+        },
+        {
+          "name": "Hruban Vojtech",
+          "times_top2": 1
+        },
+        {
+          "name": "Bohm David",
+          "times_top2": 1
+        },
+        {
+          "name": "T. Harper",
+          "times_top2": 1
+        }
+      ]
+    },
+    {
       "team": "Qingdao",
       "games_tracked": 3,
       "avg_sdi": 35.1,
@@ -55294,6 +55294,31 @@
         {
           "name": "Dylan Darling",
           "times_top2": 1
+        }
+      ],
+      "source": "proballers_ncaa"
+    },
+    {
+      "team": "Miami Heat",
+      "games_tracked": 27,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 23.0,
+      "max_sdi": 55.6,
+      "min_sdi": 27.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Bam Adebayo",
+          "times_top2": 13
+        },
+        {
+          "name": "Giannis Antetokounmpo",
+          "times_top2": 12
+        },
+        {
+          "name": "Davion Mitchell",
+          "times_top2": 7
         }
       ],
       "source": "proballers_ncaa"
@@ -55798,31 +55823,6 @@
         {
           "name": "Rylan Nelson",
           "times_top2": 1
-        }
-      ],
-      "source": "proballers_ncaa"
-    },
-    {
-      "team": "Miami Heat",
-      "games_tracked": 27,
-      "avg_sdi": 40.4,
-      "avg_top1_pct": 23.0,
-      "max_sdi": 55.6,
-      "min_sdi": 27.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Bam Adebayo",
-          "times_top2": 13
-        },
-        {
-          "name": "Giannis Antetokounmpo",
-          "times_top2": 12
-        },
-        {
-          "name": "Davion Mitchell",
-          "times_top2": 7
         }
       ],
       "source": "proballers_ncaa"
