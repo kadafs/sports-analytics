@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T23:15:50.160068",
+  "updated_at": "2026-11-24T06:03:16.228364",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 9999,
+  "total_graded_games": 10012,
   "baseline": {
     "moneyline_pct": 67.6,
     "under_model_pct": 57.3,
@@ -745,22 +745,22 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 885,
-      "market_sample": 659,
+      "sample": 890,
+      "market_sample": 664,
       "under": {
-        "sample": 44,
-        "mkt_sample": 44,
-        "market_under_pct": 56.8,
-        "avg_market_delta": -1.5,
+        "sample": 46,
+        "mkt_sample": 46,
+        "market_under_pct": 56.5,
+        "avg_market_delta": -1.0,
         "ultra": {
           "mkt_sample": 3,
           "under_mkt_pct": 66.7,
           "avg_market_delta": -0.3
         },
         "elite": {
-          "mkt_sample": 41,
-          "under_mkt_pct": 56.1,
-          "avg_market_delta": -1.6
+          "mkt_sample": 43,
+          "under_mkt_pct": 55.8,
+          "avg_market_delta": -1.0
         },
         "standard": {
           "mkt_sample": 0,
