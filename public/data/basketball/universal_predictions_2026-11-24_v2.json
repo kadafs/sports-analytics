@@ -13584,7 +13584,7 @@
       "time": "10:30",
       "away_team": "Quezon Huskers",
       "home_team": "Abra Weavers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "MPBL - Final",
       "model_total": 145.71,
       "xpts_h": 78.0,
@@ -15104,7 +15104,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "halftime_home_score": 31,
+      "halftime_away_score": 30,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 41.9,
+      "total_delta": 14.71,
+      "signed_delta": -14.71,
+      "total_rpe": 11.23,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -19393,7 +19404,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "66.7% WR",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "tag": "📈 Smart Over",
         "trigger": "NBA_PACE_OVER",
         "trigger_label": "48-Min High-Pace Scoring Lead",
         "segment": "NBA_MEN",
@@ -63864,7 +63875,7 @@
       "time": "10:00",
       "away_team": "Canberra Capitals W",
       "home_team": "Perth Lynx W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "6",
       "model_total": 181.35,
       "xpts_h": 99.8,
@@ -64587,7 +64598,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 113,
+      "actual_away_score": 90,
+      "actual_result": "HOME",
+      "halftime_home_score": 61,
+      "halftime_away_score": 39,
+      "halftime_total": 100,
+      "halftime_pct_of_model": 55.1,
+      "total_delta": 21.65,
+      "signed_delta": 21.65,
+      "total_rpe": 10.67,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -64609,7 +64631,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -209060,7 +209082,7 @@
       "time": "01:00",
       "away_team": "Denver",
       "home_team": "Kansas",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.2,
       "xpts_h": 89.1,
@@ -225049,7 +225071,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 67,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 28,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 44.0,
+      "total_delta": 8.2,
+      "signed_delta": -8.2,
+      "total_rpe": 5.43,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": true,
@@ -257169,7 +257202,7 @@
       "time": "02:00",
       "away_team": "VCU Rams",
       "home_team": "Providence",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 163.76,
       "xpts_h": 82.5,
@@ -273175,7 +273208,17 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 35,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 45.8,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -337339,7 +337382,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -658228,7 +658271,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -802758,7 +802801,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "65.7% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "NCAA_COLLEGE_UNDER",
         "trigger_label": "College High-Line Under Discipline",
         "segment": "NCAA_MEN",
@@ -1489497,7 +1489540,7 @@
               "times_top2": 3
             },
             {
-              "name": "Jai\u2019chaunn Hayes",
+              "name": "Jai’chaunn Hayes",
               "times_top2": 2
             }
           ]
@@ -1570535,7 +1570578,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -1575113,7 +1575156,7 @@
       "time": "14:00",
       "away_team": "Atyrau 2",
       "home_team": "Astana",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 155.86,
       "xpts_h": 106.6,
@@ -1575603,7 +1575646,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 84,
+      "actual_away_score": 48,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 16,
+      "halftime_total": 65,
+      "halftime_pct_of_model": 41.7,
+      "total_delta": 23.86,
+      "signed_delta": -23.86,
+      "total_rpe": 18.08,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1575625,7 +1575679,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "76% WR",
-        "tag": "\ud83d\udcc9 Smart Under",
+        "tag": "📉 Smart Under",
         "trigger": "DUAL_CONSENSUS_UNDER",
         "trigger_label": "Dual Model Consensus (CONFIRMED_UNDER)",
         "segment": "FIBA_CORE",
@@ -1575647,7 +1575701,7 @@
       "time": "15:00",
       "away_team": "Minsk",
       "home_team": "Grodno",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 150.89,
       "xpts_h": 80.0,
@@ -1576586,7 +1576640,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 90,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 48,
+      "halftime_total": 101,
+      "halftime_pct_of_model": 66.9,
+      "total_delta": 21.11,
+      "signed_delta": 21.11,
+      "total_rpe": 12.27,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1581570,7 +1581635,7 @@
             {
               "position": 8,
               "team": {
-                "name": "Terme Olimia Pod\u010detrtek",
+                "name": "Terme Olimia Podčetrtek",
                 "logo": ""
               },
               "games": {
@@ -1583141,7 +1583206,7 @@
       "time": "11:30",
       "away_team": "Henan W",
       "home_team": "Guangdong W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "4",
       "model_total": 162.46,
       "xpts_h": 79.4,
@@ -1584187,7 +1584252,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 63,
+      "actual_away_score": 67,
+      "actual_result": "AWAY",
+      "halftime_home_score": 41,
+      "halftime_away_score": 34,
+      "halftime_total": 75,
+      "halftime_pct_of_model": 46.2,
+      "total_delta": 32.46,
+      "signed_delta": -32.46,
+      "total_rpe": 24.97,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -1584217,7 +1584293,7 @@
       "time": "11:30",
       "away_team": "Hefei W",
       "home_team": "Liaoning W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "4",
       "model_total": 165.01,
       "xpts_h": 81.3,
@@ -1585278,7 +1585354,18 @@
             }
           ]
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 75,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 37,
+      "halftime_total": 78,
+      "halftime_pct_of_model": 47.3,
+      "total_delta": 14.01,
+      "signed_delta": -14.01,
+      "total_rpe": 9.28,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -1585308,7 +1585395,7 @@
       "time": "11:30",
       "away_team": "Wuhan W",
       "home_team": "Shanxi Xing Rui W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "4",
       "model_total": 160.2,
       "xpts_h": 89.8,
@@ -1586354,7 +1586441,18 @@
           ]
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 88,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 50,
+      "halftime_away_score": 40,
+      "halftime_total": 90,
+      "halftime_pct_of_model": 56.2,
+      "total_delta": 7.8,
+      "signed_delta": 7.8,
+      "total_rpe": 4.64,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1666384,17 +1666482,17 @@
       }
     }
   ],
-  "graded_at": "2026-11-24T07:46:59.545018",
+  "graded_at": "2026-11-24T16:45:52.733988",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 19,
-      "total": 28,
-      "pct": 67.9
+      "wins": 25,
+      "total": 36,
+      "pct": 69.4
     },
     "[ADVANCED]": {
-      "wins": 6,
-      "total": 13,
-      "pct": 46.2
+      "wins": 7,
+      "total": 14,
+      "pct": 50.0
     }
   }
 }

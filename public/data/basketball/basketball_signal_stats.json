@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T07:47:31.752934",
+  "updated_at": "2026-11-24T16:46:18.460918",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10053,
+  "total_graded_games": 10062,
   "baseline": {
     "moneyline_pct": 67.6,
     "under_model_pct": 57.3,
@@ -77,21 +77,21 @@
     "moneyline_pct": 69.1
   },
   "smart_edge": {
-    "sample": 325,
+    "sample": 326,
     "under": {
-      "sample": 121,
-      "mkt_sample": 120,
-      "market_under_pct": 61.7,
-      "avg_market_delta": -2.5,
+      "sample": 122,
+      "mkt_sample": 121,
+      "market_under_pct": 61.2,
+      "avg_market_delta": -2.3,
       "ultra": {
         "mkt_sample": 40,
         "under_mkt_pct": 65.0,
         "avg_market_delta": -3.9
       },
       "elite": {
-        "mkt_sample": 80,
-        "under_mkt_pct": 60.0,
-        "avg_market_delta": -1.8
+        "mkt_sample": 81,
+        "under_mkt_pct": 59.3,
+        "avg_market_delta": -1.5
       },
       "standard": {
         "mkt_sample": 0,
@@ -719,22 +719,22 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5453,
-      "market_sample": 5102,
+      "sample": 5455,
+      "market_sample": 5104,
       "under": {
-        "sample": 121,
-        "mkt_sample": 120,
-        "market_under_pct": 61.7,
-        "avg_market_delta": -2.5,
+        "sample": 122,
+        "mkt_sample": 121,
+        "market_under_pct": 61.2,
+        "avg_market_delta": -2.3,
         "ultra": {
           "mkt_sample": 40,
           "under_mkt_pct": 65.0,
           "avg_market_delta": -3.9
         },
         "elite": {
-          "mkt_sample": 80,
-          "under_mkt_pct": 60.0,
-          "avg_market_delta": -1.8
+          "mkt_sample": 81,
+          "under_mkt_pct": 59.3,
+          "avg_market_delta": -1.5
         },
         "standard": {
           "mkt_sample": 0,
@@ -783,8 +783,8 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 905,
-      "market_sample": 674,
+      "sample": 907,
+      "market_sample": 676,
       "under": {
         "sample": 48,
         "mkt_sample": 48,
