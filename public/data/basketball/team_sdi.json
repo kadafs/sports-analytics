@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T08:56:24.866646",
-  "total_teams": 2284,
+  "generated_at": "2026-11-24T11:15:31.807557",
+  "total_teams": 2286,
   "source": "api-sports + proballers_ncaa",
   "summary": {
-    "red_high_dependency": 141,
-    "amber_moderate": 1738,
-    "green_balanced": 405
+    "red_high_dependency": 138,
+    "amber_moderate": 1747,
+    "green_balanced": 401
   },
   "teams": [
     {
@@ -1527,13 +1527,13 @@
     },
     {
       "team": "Evansville Aces",
-      "games_tracked": 4,
-      "avg_sdi": 58.0,
-      "avg_top1_pct": 30.6,
+      "games_tracked": 5,
+      "avg_sdi": 54.5,
+      "avg_top1_pct": 28.7,
       "max_sdi": 71.8,
-      "min_sdi": 51.9,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
+      "min_sdi": 40.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Bryce Quinet",
@@ -1544,8 +1544,8 @@
           "times_top2": 2
         },
         {
-          "name": "Maximilian Langenfeld",
-          "times_top2": 1
+          "name": "Caden Symons",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -1731,21 +1731,25 @@
     },
     {
       "team": "Menlo College Oaks",
-      "games_tracked": 2,
-      "avg_sdi": 57.7,
-      "avg_top1_pct": 40.4,
+      "games_tracked": 3,
+      "avg_sdi": 56.4,
+      "avg_top1_pct": 37.6,
       "max_sdi": 57.7,
-      "min_sdi": 57.7,
+      "min_sdi": 53.8,
       "risk": "RED",
       "risk_label": "HIGH DEPENDENCY",
       "top_players": [
         {
           "name": "Quentin Thompson",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "James Porter III",
           "times_top2": 2
+        },
+        {
+          "name": "Salim Arikat",
+          "times_top2": 1
         }
       ],
       "source": "proballers_ncaa"
@@ -1960,9 +1964,9 @@
     },
     {
       "team": "South Alabama Jaguars",
-      "games_tracked": 6,
-      "avg_sdi": 57.1,
-      "avg_top1_pct": 31.9,
+      "games_tracked": 7,
+      "avg_sdi": 56.2,
+      "avg_top1_pct": 30.9,
       "max_sdi": 63.3,
       "min_sdi": 46.2,
       "risk": "RED",
@@ -1974,7 +1978,7 @@
         },
         {
           "name": "Jalen Langsy",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Aaron Goldstein",
@@ -2475,17 +2479,17 @@
     },
     {
       "team": "Southern Illinois Salukis",
-      "games_tracked": 4,
-      "avg_sdi": 56.3,
-      "avg_top1_pct": 32.4,
+      "games_tracked": 5,
+      "avg_sdi": 53.2,
+      "avg_top1_pct": 31.4,
       "max_sdi": 60.0,
-      "min_sdi": 53.8,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
+      "min_sdi": 40.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Jalen Haynes",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Damien Mayo",
@@ -3257,24 +3261,24 @@
     },
     {
       "team": "Valparaiso Beacons",
-      "games_tracked": 4,
-      "avg_sdi": 55.2,
-      "avg_top1_pct": 33.7,
+      "games_tracked": 5,
+      "avg_sdi": 54.1,
+      "avg_top1_pct": 32.4,
       "max_sdi": 62.7,
       "min_sdi": 44.9,
-      "risk": "RED",
-      "risk_label": "HIGH DEPENDENCY",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Rakim Chaney",
           "times_top2": 3
         },
         {
-          "name": "Justus McNair",
-          "times_top2": 2
+          "name": "JT Pettigrew",
+          "times_top2": 3
         },
         {
-          "name": "JT Pettigrew",
+          "name": "Justus McNair",
           "times_top2": 2
         }
       ],
@@ -4663,21 +4667,21 @@
     },
     {
       "team": "Georgia Southern Eagles",
-      "games_tracked": 4,
-      "avg_sdi": 53.8,
-      "avg_top1_pct": 31.1,
+      "games_tracked": 5,
+      "avg_sdi": 51.9,
+      "avg_top1_pct": 29.9,
       "max_sdi": 57.1,
-      "min_sdi": 51.6,
+      "min_sdi": 44.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Truman Claytor IV",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Dallas Gardner",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Eltramon Smith",
@@ -5192,9 +5196,9 @@
     },
     {
       "team": "Washington Huskies",
-      "games_tracked": 3,
+      "games_tracked": 4,
       "avg_sdi": 53.2,
-      "avg_top1_pct": 31.6,
+      "avg_top1_pct": 30.5,
       "max_sdi": 62.2,
       "min_sdi": 42.9,
       "risk": "AMBER",
@@ -5206,11 +5210,11 @@
         },
         {
           "name": "LeJuan Watts",
-          "times_top2": 1
+          "times_top2": 2
         },
         {
-          "name": "Parker Friedrichsen",
-          "times_top2": 1
+          "name": "Ryan Beasley",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -5498,9 +5502,9 @@
     },
     {
       "team": "San Francisco Dons",
-      "games_tracked": 5,
-      "avg_sdi": 52.8,
-      "avg_top1_pct": 27.9,
+      "games_tracked": 6,
+      "avg_sdi": 54.8,
+      "avg_top1_pct": 30.8,
       "max_sdi": 72.1,
       "min_sdi": 42.9,
       "risk": "AMBER",
@@ -5511,12 +5515,12 @@
           "times_top2": 3
         },
         {
-          "name": "Gustav Knudsen",
+          "name": "Dylan Bordon",
           "times_top2": 2
         },
         {
-          "name": "Dylan Bordon",
-          "times_top2": 1
+          "name": "Gustav Knudsen",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -5670,21 +5674,21 @@
     },
     {
       "team": "Florida International Panthers",
-      "games_tracked": 4,
-      "avg_sdi": 52.6,
-      "avg_top1_pct": 29.9,
+      "games_tracked": 5,
+      "avg_sdi": 50.2,
+      "avg_top1_pct": 27.9,
       "max_sdi": 56.5,
-      "min_sdi": 43.8,
+      "min_sdi": 40.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Trey Beamer",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Tijan Saine",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Corey Caulker",
@@ -6185,34 +6189,34 @@
     },
     {
       "team": "Yale Bulldogs",
-      "games_tracked": 5,
-      "avg_sdi": 52.4,
-      "avg_top1_pct": 28.6,
-      "max_sdi": 56.6,
+      "games_tracked": 6,
+      "avg_sdi": 53.1,
+      "avg_top1_pct": 29.4,
+      "max_sdi": 56.7,
       "min_sdi": 42.6,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Riley Fox",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Trevor Mullin",
           "times_top2": 4
         },
         {
-          "name": "Daniel Ogunyemi",
-          "times_top2": 1
+          "name": "Courtney Wallace",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Boston College Eagles",
-      "games_tracked": 6,
-      "avg_sdi": 52.4,
-      "avg_top1_pct": 33.8,
+      "games_tracked": 7,
+      "avg_sdi": 51.8,
+      "avg_top1_pct": 33.0,
       "max_sdi": 66.2,
       "min_sdi": 43.2,
       "risk": "AMBER",
@@ -6220,7 +6224,7 @@
       "top_players": [
         {
           "name": "Zak Smrekar",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Money Williams",
@@ -6383,9 +6387,9 @@
     },
     {
       "team": "Winthrop Eagles",
-      "games_tracked": 5,
-      "avg_sdi": 52.3,
-      "avg_top1_pct": 31.4,
+      "games_tracked": 6,
+      "avg_sdi": 50.6,
+      "avg_top1_pct": 30.6,
       "max_sdi": 62.5,
       "min_sdi": 38.0,
       "risk": "AMBER",
@@ -6393,7 +6397,7 @@
       "top_players": [
         {
           "name": "Keshawn Fisher",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Spence Sims",
@@ -6627,9 +6631,9 @@
     },
     {
       "team": "Arizona Wildcats",
-      "games_tracked": 6,
-      "avg_sdi": 52.2,
-      "avg_top1_pct": 30.7,
+      "games_tracked": 7,
+      "avg_sdi": 51.3,
+      "avg_top1_pct": 29.9,
       "max_sdi": 74.7,
       "min_sdi": 41.1,
       "risk": "AMBER",
@@ -6637,11 +6641,11 @@
       "top_players": [
         {
           "name": "Caleb Holt",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Ivan Kharchenkov",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Motiejus Krivas",
@@ -7020,9 +7024,9 @@
     },
     {
       "team": "Maryland-Eastern Shore Hawks",
-      "games_tracked": 6,
-      "avg_sdi": 52.0,
-      "avg_top1_pct": 34.1,
+      "games_tracked": 8,
+      "avg_sdi": 53.1,
+      "avg_top1_pct": 33.3,
       "max_sdi": 64.8,
       "min_sdi": 46.0,
       "risk": "AMBER",
@@ -7030,11 +7034,11 @@
       "top_players": [
         {
           "name": "Isaiah Griffin",
-          "times_top2": 5
+          "times_top2": 7
         },
         {
           "name": "Bobby Gardner",
-          "times_top2": 5
+          "times_top2": 7
         },
         {
           "name": "Alvin Cole",
@@ -7045,9 +7049,9 @@
     },
     {
       "team": "Northwestern Wildcats",
-      "games_tracked": 5,
-      "avg_sdi": 52.0,
-      "avg_top1_pct": 31.0,
+      "games_tracked": 6,
+      "avg_sdi": 53.2,
+      "avg_top1_pct": 31.3,
       "max_sdi": 63.8,
       "min_sdi": 43.4,
       "risk": "AMBER",
@@ -7055,7 +7059,7 @@
       "top_players": [
         {
           "name": "Jake West",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "LA Pratt",
@@ -7070,17 +7074,17 @@
     },
     {
       "team": "Canisius Golden Griffins",
-      "games_tracked": 6,
-      "avg_sdi": 52.0,
-      "avg_top1_pct": 30.2,
-      "max_sdi": 62.6,
+      "games_tracked": 7,
+      "avg_sdi": 53.9,
+      "avg_top1_pct": 31.2,
+      "max_sdi": 65.2,
       "min_sdi": 36.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Clinton Efinda",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Michael Wilson Jr",
@@ -7183,9 +7187,9 @@
     },
     {
       "team": "Albany Great Danes",
-      "games_tracked": 5,
-      "avg_sdi": 51.9,
-      "avg_top1_pct": 31.1,
+      "games_tracked": 6,
+      "avg_sdi": 51.5,
+      "avg_top1_pct": 31.7,
       "max_sdi": 55.6,
       "min_sdi": 43.4,
       "risk": "AMBER",
@@ -7193,14 +7197,14 @@
       "top_players": [
         {
           "name": "Tyler Jones",
-          "times_top2": 4
-        },
-        {
-          "name": "Zacharie Matulu",
-          "times_top2": 2
+          "times_top2": 5
         },
         {
           "name": "Ollie Engen",
+          "times_top2": 3
+        },
+        {
+          "name": "Zacharie Matulu",
           "times_top2": 2
         }
       ],
@@ -7744,9 +7748,9 @@
     },
     {
       "team": "Temple Owls",
-      "games_tracked": 4,
-      "avg_sdi": 51.5,
-      "avg_top1_pct": 28.3,
+      "games_tracked": 6,
+      "avg_sdi": 52.3,
+      "avg_top1_pct": 30.2,
       "max_sdi": 60.0,
       "min_sdi": 45.3,
       "risk": "AMBER",
@@ -7754,11 +7758,11 @@
       "top_players": [
         {
           "name": "Cam Scott",
-          "times_top2": 3
+          "times_top2": 5
         },
         {
           "name": "Derrian Ford",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Gavin Griffiths",
@@ -7813,9 +7817,9 @@
     },
     {
       "team": "Delaware Fightin Blue Hens",
-      "games_tracked": 6,
-      "avg_sdi": 51.4,
-      "avg_top1_pct": 31.0,
+      "games_tracked": 7,
+      "avg_sdi": 49.1,
+      "avg_top1_pct": 29.2,
       "max_sdi": 57.8,
       "min_sdi": 31.2,
       "risk": "AMBER",
@@ -7823,7 +7827,7 @@
       "top_players": [
         {
           "name": "Kachi Nzeh",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Chuck Bailey III",
@@ -8598,9 +8602,9 @@
     },
     {
       "team": "Mercyhurst Lakers",
-      "games_tracked": 6,
-      "avg_sdi": 51.1,
-      "avg_top1_pct": 30.5,
+      "games_tracked": 7,
+      "avg_sdi": 51.7,
+      "avg_top1_pct": 31.5,
       "max_sdi": 64.7,
       "min_sdi": 42.9,
       "risk": "AMBER",
@@ -8608,14 +8612,14 @@
       "top_players": [
         {
           "name": "Jake Lemelman",
-          "times_top2": 6
-        },
-        {
-          "name": "Markus Maxwell-Grimes",
-          "times_top2": 2
+          "times_top2": 7
         },
         {
           "name": "Cameron Johnson",
+          "times_top2": 3
+        },
+        {
+          "name": "Markus Maxwell-Grimes",
           "times_top2": 2
         }
       ],
@@ -10372,17 +10376,17 @@
     },
     {
       "team": "California Golden Bears",
-      "games_tracked": 6,
-      "avg_sdi": 50.3,
-      "avg_top1_pct": 29.0,
+      "games_tracked": 7,
+      "avg_sdi": 47.7,
+      "avg_top1_pct": 27.6,
       "max_sdi": 54.8,
-      "min_sdi": 41.5,
+      "min_sdi": 32.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Nojus Indrusaitis",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Michael Cooper",
@@ -10397,9 +10401,9 @@
     },
     {
       "team": "New Mexico State Aggies",
-      "games_tracked": 6,
-      "avg_sdi": 50.3,
-      "avg_top1_pct": 28.1,
+      "games_tracked": 7,
+      "avg_sdi": 50.2,
+      "avg_top1_pct": 29.1,
       "max_sdi": 57.4,
       "min_sdi": 42.6,
       "risk": "AMBER",
@@ -10415,24 +10419,24 @@
         },
         {
           "name": "Jermaine Washington",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Long Beach State 49ers",
-      "games_tracked": 4,
-      "avg_sdi": 50.3,
-      "avg_top1_pct": 28.9,
+      "games_tracked": 5,
+      "avg_sdi": 49.0,
+      "avg_top1_pct": 27.6,
       "max_sdi": 57.1,
-      "min_sdi": 45.7,
+      "min_sdi": 44.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "McCaden Adams",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Yohann Sissoko",
@@ -11168,9 +11172,9 @@
     },
     {
       "team": "Northern Kentucky Norse",
-      "games_tracked": 5,
-      "avg_sdi": 50.0,
-      "avg_top1_pct": 30.1,
+      "games_tracked": 6,
+      "avg_sdi": 48.2,
+      "avg_top1_pct": 28.5,
       "max_sdi": 56.1,
       "min_sdi": 36.5,
       "risk": "AMBER",
@@ -11178,7 +11182,7 @@
       "top_players": [
         {
           "name": "Noah Pagotto",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Eric Acker",
@@ -11641,9 +11645,9 @@
     },
     {
       "team": "Louisiana-Lafayette Ragin' Cajuns",
-      "games_tracked": 3,
-      "avg_sdi": 49.8,
-      "avg_top1_pct": 27.8,
+      "games_tracked": 4,
+      "avg_sdi": 47.6,
+      "avg_top1_pct": 26.7,
       "max_sdi": 60.0,
       "min_sdi": 41.1,
       "risk": "AMBER",
@@ -11651,7 +11655,7 @@
       "top_players": [
         {
           "name": "Jamyron Keller",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Mekhi Cooper",
@@ -11698,9 +11702,9 @@
     },
     {
       "team": "VCU Rams",
-      "games_tracked": 2,
-      "avg_sdi": 49.7,
-      "avg_top1_pct": 27.8,
+      "games_tracked": 3,
+      "avg_sdi": 47.2,
+      "avg_top1_pct": 26.1,
       "max_sdi": 60.2,
       "min_sdi": 39.1,
       "risk": "AMBER",
@@ -11708,14 +11712,14 @@
       "top_players": [
         {
           "name": "Lazar Djokovic",
+          "times_top2": 3
+        },
+        {
+          "name": "Blake Harper",
           "times_top2": 2
         },
         {
           "name": "Torey Alston",
-          "times_top2": 1
-        },
-        {
-          "name": "Blake Harper",
           "times_top2": 1
         }
       ],
@@ -12542,9 +12546,9 @@
     },
     {
       "team": "Tulane Green Wave",
-      "games_tracked": 5,
-      "avg_sdi": 49.4,
-      "avg_top1_pct": 28.6,
+      "games_tracked": 6,
+      "avg_sdi": 49.9,
+      "avg_top1_pct": 28.3,
       "max_sdi": 61.0,
       "min_sdi": 37.6,
       "risk": "AMBER",
@@ -12555,11 +12559,11 @@
           "times_top2": 4
         },
         {
-          "name": "Carson Schwieger",
-          "times_top2": 2
+          "name": "Krystian Lewis",
+          "times_top2": 3
         },
         {
-          "name": "Krystian Lewis",
+          "name": "Carson Schwieger",
           "times_top2": 2
         }
       ],
@@ -12567,11 +12571,11 @@
     },
     {
       "team": "Charlotte 49ers",
-      "games_tracked": 5,
-      "avg_sdi": 49.4,
-      "avg_top1_pct": 33.7,
+      "games_tracked": 6,
+      "avg_sdi": 46.6,
+      "avg_top1_pct": 30.9,
       "max_sdi": 56.7,
-      "min_sdi": 45.2,
+      "min_sdi": 32.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -12592,17 +12596,17 @@
     },
     {
       "team": "Mcneese Cowboys",
-      "games_tracked": 3,
-      "avg_sdi": 49.4,
-      "avg_top1_pct": 27.1,
-      "max_sdi": 55.2,
+      "games_tracked": 4,
+      "avg_sdi": 54.8,
+      "avg_top1_pct": 30.8,
+      "max_sdi": 71.0,
       "min_sdi": 37.8,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Larry Johnson",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Jaylon Dean-Vines",
@@ -12610,7 +12614,7 @@
         },
         {
           "name": "Elijah Moore",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -13581,9 +13585,9 @@
     },
     {
       "team": "Monmouth Hawks",
-      "games_tracked": 4,
-      "avg_sdi": 49.1,
-      "avg_top1_pct": 29.1,
+      "games_tracked": 5,
+      "avg_sdi": 47.3,
+      "avg_top1_pct": 27.8,
       "max_sdi": 64.1,
       "min_sdi": 36.4,
       "risk": "AMBER",
@@ -13591,7 +13595,7 @@
       "top_players": [
         {
           "name": "Stefanos Spartalis",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Madison Durr",
@@ -13957,9 +13961,9 @@
     },
     {
       "team": "Nebraska Cornhuskers",
-      "games_tracked": 4,
-      "avg_sdi": 49.0,
-      "avg_top1_pct": 29.1,
+      "games_tracked": 5,
+      "avg_sdi": 48.1,
+      "avg_top1_pct": 27.7,
       "max_sdi": 56.7,
       "min_sdi": 42.2,
       "risk": "AMBER",
@@ -13971,11 +13975,11 @@
         },
         {
           "name": "Damon Wilkinson",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
-          "name": "Boden Kapke",
-          "times_top2": 1
+          "name": "Braden Frager",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -14484,9 +14488,9 @@
     },
     {
       "team": "Chicago State Cougars",
-      "games_tracked": 8,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 29.5,
+      "games_tracked": 9,
+      "avg_sdi": 47.7,
+      "avg_top1_pct": 28.6,
       "max_sdi": 58.0,
       "min_sdi": 28.8,
       "risk": "AMBER",
@@ -14494,7 +14498,7 @@
       "top_players": [
         {
           "name": "Mike Price",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Foday Sheriff",
@@ -14509,9 +14513,9 @@
     },
     {
       "team": "Long Island University Sharks",
-      "games_tracked": 7,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 30.1,
+      "games_tracked": 8,
+      "avg_sdi": 48.7,
+      "avg_top1_pct": 29.9,
       "max_sdi": 55.2,
       "min_sdi": 33.8,
       "risk": "AMBER",
@@ -14522,11 +14526,11 @@
           "times_top2": 4
         },
         {
-          "name": "Vasean Allette",
-          "times_top2": 2
+          "name": "Jahki Howard",
+          "times_top2": 3
         },
         {
-          "name": "Xinyi Li",
+          "name": "Vasean Allette",
           "times_top2": 2
         }
       ],
@@ -14534,9 +14538,9 @@
     },
     {
       "team": "Wichita State Shockers",
-      "games_tracked": 7,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 28.5,
+      "games_tracked": 8,
+      "avg_sdi": 47.7,
+      "avg_top1_pct": 27.5,
       "max_sdi": 59.5,
       "min_sdi": 33.6,
       "risk": "AMBER",
@@ -14544,11 +14548,11 @@
       "top_players": [
         {
           "name": "William Berg",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Kenyon Giles",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Dillon Battie",
@@ -14559,24 +14563,24 @@
     },
     {
       "team": "Alabama State Hornets",
-      "games_tracked": 6,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 26.3,
+      "games_tracked": 7,
+      "avg_sdi": 47.1,
+      "avg_top1_pct": 25.2,
       "max_sdi": 61.0,
-      "min_sdi": 41.2,
+      "min_sdi": 37.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Paul McMillan",
-          "times_top2": 5
+          "times_top2": 6
+        },
+        {
+          "name": "Terrance Hampton",
+          "times_top2": 3
         },
         {
           "name": "Mike James",
-          "times_top2": 2
-        },
-        {
-          "name": "Tre Powell",
           "times_top2": 2
         }
       ],
@@ -14584,17 +14588,17 @@
     },
     {
       "team": "Seattle Redhawks",
-      "games_tracked": 5,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 27.3,
+      "games_tracked": 7,
+      "avg_sdi": 46.7,
+      "avg_top1_pct": 25.7,
       "max_sdi": 57.6,
-      "min_sdi": 39.0,
+      "min_sdi": 30.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Will Heimbrodt",
-          "times_top2": 5
+          "times_top2": 7
         },
         {
           "name": "Mason Williams",
@@ -14602,7 +14606,7 @@
         },
         {
           "name": "Tyler Boston",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -15040,11 +15044,11 @@
           "times_top2": 16
         },
         {
-          "name": "Luka Tekavcic",
+          "name": "Ziga Svigelj",
           "times_top2": 5
         },
         {
-          "name": "Dionte Bostick",
+          "name": "Filip Petić",
           "times_top2": 5
         }
       ],
@@ -15102,9 +15106,9 @@
     },
     {
       "team": "Illinois Fighting Illini",
-      "games_tracked": 6,
+      "games_tracked": 7,
       "avg_sdi": 48.6,
-      "avg_top1_pct": 27.4,
+      "avg_top1_pct": 27.2,
       "max_sdi": 73.7,
       "min_sdi": 39.3,
       "risk": "AMBER",
@@ -15112,11 +15116,11 @@
       "top_players": [
         {
           "name": "Andrej Stojakovic",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Quentin Coleman",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Tomislav Ivisic",
@@ -15703,17 +15707,17 @@
     },
     {
       "team": "Fairfield Stags",
-      "games_tracked": 5,
-      "avg_sdi": 48.3,
-      "avg_top1_pct": 30.7,
-      "max_sdi": 56.7,
+      "games_tracked": 6,
+      "avg_sdi": 51.3,
+      "avg_top1_pct": 32.1,
+      "max_sdi": 66.2,
       "min_sdi": 38.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Declan Wucherpfennig",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Cole Edelen",
@@ -15721,7 +15725,7 @@
         },
         {
           "name": "Tony Williams",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -16320,9 +16324,9 @@
     },
     {
       "team": "UMass Lowell River Hawks",
-      "games_tracked": 5,
-      "avg_sdi": 48.1,
-      "avg_top1_pct": 28.7,
+      "games_tracked": 6,
+      "avg_sdi": 46.7,
+      "avg_top1_pct": 27.4,
       "max_sdi": 59.2,
       "min_sdi": 37.1,
       "risk": "AMBER",
@@ -16330,24 +16334,24 @@
       "top_players": [
         {
           "name": "Victor Okojie",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Jayden Harris",
           "times_top2": 2
         },
         {
-          "name": "Jasiah Cannady",
-          "times_top2": 1
+          "name": "Jakai Newton",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "San Jose State Spartans",
-      "games_tracked": 4,
-      "avg_sdi": 48.1,
-      "avg_top1_pct": 26.5,
+      "games_tracked": 6,
+      "avg_sdi": 50.8,
+      "avg_top1_pct": 28.8,
       "max_sdi": 57.6,
       "min_sdi": 40.5,
       "risk": "AMBER",
@@ -16355,15 +16359,15 @@
       "top_players": [
         {
           "name": "Joey Chammaa",
-          "times_top2": 3
+          "times_top2": 5
         },
         {
           "name": "Mekhi Mason",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
-          "name": "Mookie Cook",
-          "times_top2": 1
+          "name": "Zinou Bedri",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -16565,9 +16569,9 @@
     },
     {
       "team": "USC Trojans",
-      "games_tracked": 5,
-      "avg_sdi": 48.0,
-      "avg_top1_pct": 25.5,
+      "games_tracked": 6,
+      "avg_sdi": 47.3,
+      "avg_top1_pct": 24.9,
       "max_sdi": 66.7,
       "min_sdi": 32.0,
       "risk": "AMBER",
@@ -16575,11 +16579,11 @@
       "top_players": [
         {
           "name": "Alijah Arenas",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Rodney Rice",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Adonis Ratliff",
@@ -16611,9 +16615,9 @@
     },
     {
       "team": "Portland Pilots",
-      "games_tracked": 6,
-      "avg_sdi": 48.0,
-      "avg_top1_pct": 29.6,
+      "games_tracked": 7,
+      "avg_sdi": 46.8,
+      "avg_top1_pct": 28.8,
       "max_sdi": 55.7,
       "min_sdi": 36.2,
       "risk": "AMBER",
@@ -16621,14 +16625,14 @@
       "top_players": [
         {
           "name": "Jaxon Olvera",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "RJ Nance Jr.",
           "times_top2": 2
         },
         {
-          "name": "James O'Donnell",
+          "name": "Hunter Adam",
           "times_top2": 2
         }
       ],
@@ -16636,9 +16640,9 @@
     },
     {
       "team": "Cleveland Cavaliers",
-      "games_tracked": 26,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 23.6,
+      "games_tracked": 27,
+      "avg_sdi": 41.2,
+      "avg_top1_pct": 23.7,
       "max_sdi": 56.4,
       "min_sdi": 27.7,
       "risk": "AMBER",
@@ -16646,11 +16650,11 @@
       "top_players": [
         {
           "name": "Donovan Mitchell",
-          "times_top2": 17
+          "times_top2": 18
         },
         {
           "name": "James Harden",
-          "times_top2": 10
+          "times_top2": 11
         },
         {
           "name": "Evan Mobley",
@@ -16942,9 +16946,9 @@
     },
     {
       "team": "Davidson Wildcats",
-      "games_tracked": 5,
-      "avg_sdi": 47.9,
-      "avg_top1_pct": 25.7,
+      "games_tracked": 6,
+      "avg_sdi": 48.5,
+      "avg_top1_pct": 27.3,
       "max_sdi": 56.6,
       "min_sdi": 38.7,
       "risk": "AMBER",
@@ -16955,11 +16959,11 @@
           "times_top2": 3
         },
         {
-          "name": "Sam Brown",
-          "times_top2": 2
+          "name": "Josh Scovens",
+          "times_top2": 3
         },
         {
-          "name": "Josh Scovens",
+          "name": "Sam Brown",
           "times_top2": 2
         }
       ],
@@ -16967,9 +16971,9 @@
     },
     {
       "team": "Denver Pioneers",
-      "games_tracked": 3,
+      "games_tracked": 4,
       "avg_sdi": 47.9,
-      "avg_top1_pct": 27.8,
+      "avg_top1_pct": 27.9,
       "max_sdi": 51.5,
       "min_sdi": 45.0,
       "risk": "AMBER",
@@ -16981,11 +16985,11 @@
         },
         {
           "name": "Shaun Wysocki",
-          "times_top2": 1
+          "times_top2": 2
         },
         {
-          "name": "Jaelen Nelson",
-          "times_top2": 1
+          "name": "Carson Johnson",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -17791,21 +17795,21 @@
     },
     {
       "team": "Utah Utes",
-      "games_tracked": 6,
-      "avg_sdi": 47.7,
-      "avg_top1_pct": 26.4,
+      "games_tracked": 7,
+      "avg_sdi": 45.9,
+      "avg_top1_pct": 25.6,
       "max_sdi": 58.7,
-      "min_sdi": 41.8,
+      "min_sdi": 35.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Alec Anigbata",
+          "name": "Taison Chatman",
           "times_top2": 4
         },
         {
-          "name": "Taison Chatman",
-          "times_top2": 3
+          "name": "Alec Anigbata",
+          "times_top2": 4
         },
         {
           "name": "Trey Campbell",
@@ -17816,8 +17820,8 @@
     },
     {
       "team": "Cincinnati Bearcats",
-      "games_tracked": 5,
-      "avg_sdi": 47.7,
+      "games_tracked": 6,
+      "avg_sdi": 48.1,
       "avg_top1_pct": 30.8,
       "max_sdi": 57.4,
       "min_sdi": 37.9,
@@ -17825,15 +17829,15 @@
       "risk_label": "MODERATE",
       "top_players": [
         {
+          "name": "Tylen Riley",
+          "times_top2": 3
+        },
+        {
           "name": "Tyler Tejada",
           "times_top2": 3
         },
         {
           "name": "Myles Colvin",
-          "times_top2": 2
-        },
-        {
-          "name": "Amani Lyles",
           "times_top2": 2
         }
       ],
@@ -19246,9 +19250,9 @@
     },
     {
       "team": "UNLV Runnin' Rebels",
-      "games_tracked": 4,
-      "avg_sdi": 47.2,
-      "avg_top1_pct": 28.7,
+      "games_tracked": 5,
+      "avg_sdi": 46.3,
+      "avg_top1_pct": 28.3,
       "max_sdi": 51.7,
       "min_sdi": 42.0,
       "risk": "AMBER",
@@ -19260,11 +19264,11 @@
         },
         {
           "name": "Sebastian Mack",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Tyrin Jones",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
@@ -19900,25 +19904,25 @@
     },
     {
       "team": "Tulsa Golden Hurricane",
-      "games_tracked": 5,
-      "avg_sdi": 47.0,
-      "avg_top1_pct": 27.4,
+      "games_tracked": 6,
+      "avg_sdi": 46.0,
+      "avg_top1_pct": 26.9,
       "max_sdi": 55.7,
-      "min_sdi": 44.7,
+      "min_sdi": 40.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Jaylen Lawal",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Myles Rigsby",
           "times_top2": 2
         },
         {
-          "name": "Denton Forsythe",
-          "times_top2": 1
+          "name": "Chris Loofe",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -20378,10 +20382,10 @@
     },
     {
       "team": "Dayton Flyers",
-      "games_tracked": 5,
-      "avg_sdi": 46.9,
-      "avg_top1_pct": 24.9,
-      "max_sdi": 51.7,
+      "games_tracked": 6,
+      "avg_sdi": 47.9,
+      "avg_top1_pct": 25.6,
+      "max_sdi": 52.7,
       "min_sdi": 39.8,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -20395,8 +20399,8 @@
           "times_top2": 4
         },
         {
-          "name": "Landen Joseph",
-          "times_top2": 1
+          "name": "Amaël L'Etang",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -20863,24 +20867,24 @@
     },
     {
       "team": "Nevada Wolf Pack",
-      "games_tracked": 5,
-      "avg_sdi": 46.8,
-      "avg_top1_pct": 27.3,
+      "games_tracked": 6,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 26.3,
       "max_sdi": 60.4,
-      "min_sdi": 38.4,
+      "min_sdi": 38.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Styles Phipps",
+          "times_top2": 4
+        },
+        {
+          "name": "Vaughn Weems",
           "times_top2": 3
         },
         {
           "name": "Elijah Price",
-          "times_top2": 2
-        },
-        {
-          "name": "Vaughn Weems",
           "times_top2": 2
         }
       ],
@@ -21244,21 +21248,21 @@
     },
     {
       "team": "Memphis Tigers",
-      "games_tracked": 2,
-      "avg_sdi": 46.7,
-      "avg_top1_pct": 25.2,
+      "games_tracked": 3,
+      "avg_sdi": 45.8,
+      "avg_top1_pct": 25.7,
       "max_sdi": 49.0,
-      "min_sdi": 44.4,
+      "min_sdi": 43.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Tylik Weeks",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Luke Almodovar",
-          "times_top2": 1
+          "times_top2": 2
         },
         {
           "name": "Jayden Reid",
@@ -21831,9 +21835,9 @@
     },
     {
       "team": "Fairleigh Dickinson Knights",
-      "games_tracked": 5,
-      "avg_sdi": 46.5,
-      "avg_top1_pct": 26.9,
+      "games_tracked": 6,
+      "avg_sdi": 46.6,
+      "avg_top1_pct": 26.8,
       "max_sdi": 48.8,
       "min_sdi": 44.9,
       "risk": "AMBER",
@@ -21841,7 +21845,7 @@
       "top_players": [
         {
           "name": "Bol Agu",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Pavle Stosic",
@@ -22288,17 +22292,17 @@
     },
     {
       "team": "California Baptist Lancers",
-      "games_tracked": 7,
-      "avg_sdi": 46.4,
-      "avg_top1_pct": 25.5,
-      "max_sdi": 53.2,
+      "games_tracked": 8,
+      "avg_sdi": 47.6,
+      "avg_top1_pct": 27.7,
+      "max_sdi": 55.7,
       "min_sdi": 41.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Terry Coner Jr.",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Justas Stonkus",
@@ -22656,9 +22660,9 @@
     },
     {
       "team": "Nicholls Colonels",
-      "games_tracked": 6,
-      "avg_sdi": 46.3,
-      "avg_top1_pct": 25.2,
+      "games_tracked": 7,
+      "avg_sdi": 46.9,
+      "avg_top1_pct": 25.5,
       "max_sdi": 56.3,
       "min_sdi": 41.3,
       "risk": "AMBER",
@@ -22666,11 +22670,11 @@
       "top_players": [
         {
           "name": "AJ Dent Jr",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Doyel Cockrill III",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Christian Winborne",
@@ -22681,17 +22685,17 @@
     },
     {
       "team": "West Florida Argonauts",
-      "games_tracked": 6,
-      "avg_sdi": 46.3,
-      "avg_top1_pct": 25.8,
-      "max_sdi": 58.7,
+      "games_tracked": 7,
+      "avg_sdi": 50.5,
+      "avg_top1_pct": 27.8,
+      "max_sdi": 75.8,
       "min_sdi": 27.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "DJ Shine",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Alex Godley Jr.",
@@ -22699,16 +22703,16 @@
         },
         {
           "name": "Jay King",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Utah Tech Trailblazers",
-      "games_tracked": 6,
-      "avg_sdi": 46.3,
-      "avg_top1_pct": 26.9,
+      "games_tracked": 7,
+      "avg_sdi": 47.3,
+      "avg_top1_pct": 27.5,
       "max_sdi": 60.9,
       "min_sdi": 31.1,
       "risk": "AMBER",
@@ -22720,11 +22724,11 @@
         },
         {
           "name": "Ethan Potter",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
-          "name": "Mark Brown Jr",
-          "times_top2": 1
+          "name": "Owen Mackay",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -23157,9 +23161,9 @@
     },
     {
       "team": "Clemson Tigers",
-      "games_tracked": 5,
-      "avg_sdi": 46.2,
-      "avg_top1_pct": 27.0,
+      "games_tracked": 6,
+      "avg_sdi": 45.2,
+      "avg_top1_pct": 26.2,
       "max_sdi": 52.4,
       "min_sdi": 36.8,
       "risk": "AMBER",
@@ -23167,11 +23171,11 @@
       "top_players": [
         {
           "name": "Ace Buckner",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Liutauras Lelevicius",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Cole Certa",
@@ -23207,9 +23211,9 @@
     },
     {
       "team": "Georgia State Panthers",
-      "games_tracked": 6,
-      "avg_sdi": 46.2,
-      "avg_top1_pct": 26.6,
+      "games_tracked": 7,
+      "avg_sdi": 45.3,
+      "avg_top1_pct": 25.7,
       "max_sdi": 58.7,
       "min_sdi": 38.5,
       "risk": "AMBER",
@@ -23217,7 +23221,7 @@
       "top_players": [
         {
           "name": "Jaden Jackson",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Chris Jones",
@@ -23232,11 +23236,11 @@
     },
     {
       "team": "UMBC Retrievers",
-      "games_tracked": 7,
-      "avg_sdi": 46.2,
-      "avg_top1_pct": 26.1,
+      "games_tracked": 8,
+      "avg_sdi": 44.0,
+      "avg_top1_pct": 24.8,
       "max_sdi": 55.0,
-      "min_sdi": 29.7,
+      "min_sdi": 29.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -23250,7 +23254,7 @@
         },
         {
           "name": "Evan Morton",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa"
@@ -24024,24 +24028,24 @@
     },
     {
       "team": "IUPUI Jaguars",
-      "games_tracked": 4,
-      "avg_sdi": 46.0,
-      "avg_top1_pct": 27.5,
+      "games_tracked": 6,
+      "avg_sdi": 44.3,
+      "avg_top1_pct": 26.5,
       "max_sdi": 53.3,
-      "min_sdi": 40.5,
+      "min_sdi": 40.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Kameron Tinsley",
-          "times_top2": 2
-        },
-        {
-          "name": "MJ Stackhouse",
-          "times_top2": 2
-        },
-        {
           "name": "Billy Smith",
+          "times_top2": 4
+        },
+        {
+          "name": "Gus Etchison",
+          "times_top2": 3
+        },
+        {
+          "name": "Kameron Tinsley",
           "times_top2": 2
         }
       ],
@@ -24049,25 +24053,25 @@
     },
     {
       "team": "Kansas Jayhawks",
-      "games_tracked": 3,
-      "avg_sdi": 46.0,
-      "avg_top1_pct": 26.4,
+      "games_tracked": 4,
+      "avg_sdi": 44.3,
+      "avg_top1_pct": 24.9,
       "max_sdi": 59.6,
       "min_sdi": 30.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Tyran Stokes",
+          "name": "Trey Kaufman-Renn",
           "times_top2": 2
         },
         {
-          "name": "Trey Kaufman-Renn",
-          "times_top2": 1
+          "name": "Tre White",
+          "times_top2": 2
         },
         {
-          "name": "Christian Reeves",
-          "times_top2": 1
+          "name": "Tyran Stokes",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -24215,7 +24219,7 @@
           "times_top2": 5
         },
         {
-          "name": "Dalayah Daniels",
+          "name": "Karolina Sotolova",
           "times_top2": 4
         }
       ],
@@ -26067,11 +26071,11 @@
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Carsen Edwards",
+          "name": "Matt Morgan",
           "times_top2": 6
         },
         {
-          "name": "Matt Morgan",
+          "name": "Carsen Edwards",
           "times_top2": 6
         },
         {
@@ -26723,9 +26727,9 @@
     },
     {
       "team": "Toronto Raptors",
-      "games_tracked": 27,
-      "avg_sdi": 38.4,
-      "avg_top1_pct": 20.9,
+      "games_tracked": 28,
+      "avg_sdi": 38.6,
+      "avg_top1_pct": 21.1,
       "max_sdi": 50.9,
       "min_sdi": 29.5,
       "risk": "GREEN",
@@ -26736,11 +26740,11 @@
           "times_top2": 17
         },
         {
-          "name": "Brandon Ingram",
-          "times_top2": 9
+          "name": "Scottie Barnes",
+          "times_top2": 10
         },
         {
-          "name": "Scottie Barnes",
+          "name": "Brandon Ingram",
           "times_top2": 9
         }
       ],
@@ -27254,9 +27258,9 @@
     },
     {
       "team": "Cal State Fullerton Titans",
-      "games_tracked": 5,
-      "avg_sdi": 45.3,
-      "avg_top1_pct": 27.0,
+      "games_tracked": 6,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 26.3,
       "max_sdi": 57.7,
       "min_sdi": 34.7,
       "risk": "AMBER",
@@ -27271,8 +27275,8 @@
           "times_top2": 3
         },
         {
-          "name": "Kendrick De Luna",
-          "times_top2": 1
+          "name": "Christian Williams",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -27304,10 +27308,10 @@
     },
     {
       "team": "East Carolina Pirates",
-      "games_tracked": 5,
-      "avg_sdi": 45.3,
-      "avg_top1_pct": 25.1,
-      "max_sdi": 60.0,
+      "games_tracked": 6,
+      "avg_sdi": 49.8,
+      "avg_top1_pct": 27.3,
+      "max_sdi": 72.4,
       "min_sdi": 34.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -27318,20 +27322,20 @@
         },
         {
           "name": "Trevor Best",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
-          "name": "Kaseem Watson",
-          "times_top2": 2
+          "name": "Brycen Blaine",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "UIC Flames",
-      "games_tracked": 4,
-      "avg_sdi": 45.3,
-      "avg_top1_pct": 26.5,
+      "games_tracked": 5,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 25.9,
       "max_sdi": 51.7,
       "min_sdi": 37.8,
       "risk": "AMBER",
@@ -27339,15 +27343,15 @@
       "top_players": [
         {
           "name": "Rashund Washington Jr.",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Gabe Cupps",
           "times_top2": 2
         },
         {
-          "name": "Ahmad Henderson II",
-          "times_top2": 1
+          "name": "Bennie Gealer",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -27818,9 +27822,9 @@
     },
     {
       "team": "Middle Tennessee Blue Raiders",
-      "games_tracked": 5,
-      "avg_sdi": 45.2,
-      "avg_top1_pct": 25.9,
+      "games_tracked": 6,
+      "avg_sdi": 46.8,
+      "avg_top1_pct": 26.8,
       "max_sdi": 61.4,
       "min_sdi": 36.2,
       "risk": "AMBER",
@@ -27832,11 +27836,11 @@
         },
         {
           "name": "Quintero Barnett",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
-          "name": "Jarred Hall",
-          "times_top2": 1
+          "name": "Landyn Colyer",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -28996,7 +29000,7 @@
           "times_top2": 12
         },
         {
-          "name": "Hendrik Eelmae",
+          "name": "Illya Sydorov",
           "times_top2": 5
         }
       ],
@@ -29572,9 +29576,9 @@
     },
     {
       "team": "Colorado State Rams",
-      "games_tracked": 5,
-      "avg_sdi": 44.8,
-      "avg_top1_pct": 23.5,
+      "games_tracked": 6,
+      "avg_sdi": 44.5,
+      "avg_top1_pct": 23.4,
       "max_sdi": 48.7,
       "min_sdi": 38.1,
       "risk": "AMBER",
@@ -29586,10 +29590,10 @@
         },
         {
           "name": "Carey Booth",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
-          "name": "Kyle Jorgensen",
+          "name": "Jase Butler",
           "times_top2": 2
         }
       ],
@@ -29709,11 +29713,11 @@
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Anna Ngo Ndjock",
+          "name": "Steph Kostowicz",
           "times_top2": 6
         },
         {
-          "name": "Steph Kostowicz",
+          "name": "Anna Ngo Ndjock",
           "times_top2": 6
         },
         {
@@ -30012,8 +30016,8 @@
     },
     {
       "team": "South Dakota Coyotes",
-      "games_tracked": 7,
-      "avg_sdi": 44.7,
+      "games_tracked": 8,
+      "avg_sdi": 45.2,
       "avg_top1_pct": 25.8,
       "max_sdi": 51.1,
       "min_sdi": 37.0,
@@ -30022,11 +30026,11 @@
       "top_players": [
         {
           "name": "Vince Buzelis",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Josiah Dotzler",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Jahni Summers",
@@ -30454,9 +30458,9 @@
     },
     {
       "team": "Western Kentucky Hilltoppers",
-      "games_tracked": 6,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 26.9,
+      "games_tracked": 7,
+      "avg_sdi": 44.3,
+      "avg_top1_pct": 26.2,
       "max_sdi": 54.7,
       "min_sdi": 33.3,
       "risk": "AMBER",
@@ -30464,14 +30468,14 @@
       "top_players": [
         {
           "name": "Teagan Moore",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Emondrek Erkins-Ford",
           "times_top2": 3
         },
         {
-          "name": "Sharron Young",
+          "name": "LJ Hackman",
           "times_top2": 2
         }
       ],
@@ -30575,9 +30579,9 @@
     },
     {
       "team": "Tennessee-Martin Skyhawks",
-      "games_tracked": 4,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 25.8,
+      "games_tracked": 6,
+      "avg_sdi": 46.6,
+      "avg_top1_pct": 27.6,
       "max_sdi": 57.3,
       "min_sdi": 29.1,
       "risk": "AMBER",
@@ -30585,11 +30589,11 @@
       "top_players": [
         {
           "name": "Davi Remagen",
-          "times_top2": 3
+          "times_top2": 5
         },
         {
           "name": "Aleksandr Savkov",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Vladimir Khryapa",
@@ -30900,17 +30904,17 @@
     },
     {
       "team": "Utah Valley Wolverines",
-      "games_tracked": 3,
-      "avg_sdi": 44.5,
-      "avg_top1_pct": 25.5,
-      "max_sdi": 54.8,
+      "games_tracked": 5,
+      "avg_sdi": 50.8,
+      "avg_top1_pct": 29.1,
+      "max_sdi": 65.3,
       "min_sdi": 38.6,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Dominick Nelson",
-          "times_top2": 3
+          "times_top2": 5
         },
         {
           "name": "Isaac Hawkins",
@@ -31232,11 +31236,11 @@
     },
     {
       "team": "Lipscomb Bisons",
-      "games_tracked": 6,
-      "avg_sdi": 44.4,
-      "avg_top1_pct": 24.7,
+      "games_tracked": 7,
+      "avg_sdi": 42.2,
+      "avg_top1_pct": 23.4,
       "max_sdi": 53.7,
-      "min_sdi": 34.8,
+      "min_sdi": 29.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -31257,11 +31261,11 @@
     },
     {
       "team": "Ecclesia Royals",
-      "games_tracked": 1,
-      "avg_sdi": 44.4,
-      "avg_top1_pct": 29.6,
+      "games_tracked": 2,
+      "avg_sdi": 43.3,
+      "avg_top1_pct": 28.1,
       "max_sdi": 44.4,
-      "min_sdi": 44.4,
+      "min_sdi": 42.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -31271,6 +31275,10 @@
         },
         {
           "name": "Titus Lee",
+          "times_top2": 1
+        },
+        {
+          "name": "Joshua Ourigou",
           "times_top2": 1
         }
       ],
@@ -31538,10 +31546,10 @@
     },
     {
       "team": "Towson Tigers",
-      "games_tracked": 7,
-      "avg_sdi": 44.3,
-      "avg_top1_pct": 24.2,
-      "max_sdi": 53.8,
+      "games_tracked": 8,
+      "avg_sdi": 45.8,
+      "avg_top1_pct": 24.9,
+      "max_sdi": 56.0,
       "min_sdi": 36.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -31552,11 +31560,11 @@
         },
         {
           "name": "Zion Stanford",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Ben Roseborough",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa"
@@ -31763,9 +31771,9 @@
     },
     {
       "team": "American University Eagles",
-      "games_tracked": 5,
-      "avg_sdi": 44.2,
-      "avg_top1_pct": 29.6,
+      "games_tracked": 6,
+      "avg_sdi": 45.2,
+      "avg_top1_pct": 29.0,
       "max_sdi": 51.4,
       "min_sdi": 28.0,
       "risk": "AMBER",
@@ -31773,15 +31781,15 @@
       "top_players": [
         {
           "name": "Madden Collins",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Wyatt Nausadis",
           "times_top2": 2
         },
         {
-          "name": "Eric Michaels",
-          "times_top2": 1
+          "name": "Dean Hogans",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -31863,9 +31871,9 @@
     },
     {
       "team": "Southern Mississippi Golden Eagles",
-      "games_tracked": 7,
-      "avg_sdi": 44.2,
-      "avg_top1_pct": 24.2,
+      "games_tracked": 8,
+      "avg_sdi": 42.9,
+      "avg_top1_pct": 23.3,
       "max_sdi": 61.1,
       "min_sdi": 28.0,
       "risk": "AMBER",
@@ -31873,7 +31881,7 @@
       "top_players": [
         {
           "name": "Jalyke Gaines-Wyatt",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Anthony Igiede",
@@ -31881,7 +31889,7 @@
         },
         {
           "name": "Isaac Taveras",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
@@ -32277,9 +32285,9 @@
     },
     {
       "team": "Saint Mary's Gaels",
-      "games_tracked": 7,
-      "avg_sdi": 44.1,
-      "avg_top1_pct": 24.3,
+      "games_tracked": 8,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 24.0,
       "max_sdi": 56.8,
       "min_sdi": 30.5,
       "risk": "AMBER",
@@ -32287,7 +32295,7 @@
       "top_players": [
         {
           "name": "Mantas Juzenas",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Joshua Dent",
@@ -32323,17 +32331,17 @@
     },
     {
       "team": "San Diego Toreros",
-      "games_tracked": 6,
-      "avg_sdi": 44.1,
-      "avg_top1_pct": 24.5,
+      "games_tracked": 7,
+      "avg_sdi": 42.3,
+      "avg_top1_pct": 23.4,
       "max_sdi": 53.5,
-      "min_sdi": 34.5,
+      "min_sdi": 31.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Marqui Worthy",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Jevon Hill",
@@ -32415,7 +32423,7 @@
           "times_top2": 7
         },
         {
-          "name": "Miha Muratovic",
+          "name": "Anze Bobnar",
           "times_top2": 6
         }
       ],
@@ -32713,9 +32721,9 @@
     },
     {
       "team": "N.J.I.T. Highlanders",
-      "games_tracked": 7,
-      "avg_sdi": 44.0,
-      "avg_top1_pct": 25.8,
+      "games_tracked": 8,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 26.4,
       "max_sdi": 50.0,
       "min_sdi": 38.8,
       "risk": "AMBER",
@@ -32723,7 +32731,7 @@
       "top_players": [
         {
           "name": "David Bolden",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Victor Vanderstraeten",
@@ -32759,20 +32767,20 @@
     },
     {
       "team": "Portland State Vikings",
-      "games_tracked": 6,
-      "avg_sdi": 44.0,
-      "avg_top1_pct": 25.2,
+      "games_tracked": 7,
+      "avg_sdi": 43.1,
+      "avg_top1_pct": 25.0,
       "max_sdi": 53.8,
       "min_sdi": 30.6,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Yaroslav Nikonov",
-          "times_top2": 4
+          "name": "Jaquay Randolph",
+          "times_top2": 5
         },
         {
-          "name": "Jaquay Randolph",
+          "name": "Yaroslav Nikonov",
           "times_top2": 4
         },
         {
@@ -32909,9 +32917,9 @@
     },
     {
       "team": "Oklahoma City Thunder",
-      "games_tracked": 26,
-      "avg_sdi": 42.8,
-      "avg_top1_pct": 26.3,
+      "games_tracked": 27,
+      "avg_sdi": 43.0,
+      "avg_top1_pct": 26.5,
       "max_sdi": 53.8,
       "min_sdi": 28.1,
       "risk": "AMBER",
@@ -32919,7 +32927,7 @@
       "top_players": [
         {
           "name": "Shai Gilgeous-Alexander",
-          "times_top2": 22
+          "times_top2": 23
         },
         {
           "name": "Ajay Mitchell",
@@ -32934,9 +32942,9 @@
     },
     {
       "team": "Portland Trail Blazers",
-      "games_tracked": 24,
-      "avg_sdi": 40.2,
-      "avg_top1_pct": 22.3,
+      "games_tracked": 25,
+      "avg_sdi": 40.1,
+      "avg_top1_pct": 22.4,
       "max_sdi": 50.9,
       "min_sdi": 27.2,
       "risk": "AMBER",
@@ -32944,14 +32952,14 @@
       "top_players": [
         {
           "name": "Deni Avdija",
-          "times_top2": 21
+          "times_top2": 22
         },
         {
           "name": "Damian Lillard",
           "times_top2": 7
         },
         {
-          "name": "Donovan Clingan",
+          "name": "Jrue Holiday",
           "times_top2": 5
         }
       ],
@@ -33056,7 +33064,7 @@
           "times_top2": 4
         },
         {
-          "name": "Cleveland Melvin",
+          "name": "Tomas Dimsa",
           "times_top2": 3
         }
       ],
@@ -33138,9 +33146,9 @@
     },
     {
       "team": "Virginia Tech Hokies",
-      "games_tracked": 7,
-      "avg_sdi": 43.9,
-      "avg_top1_pct": 24.1,
+      "games_tracked": 8,
+      "avg_sdi": 45.0,
+      "avg_top1_pct": 24.9,
       "max_sdi": 61.3,
       "min_sdi": 35.3,
       "risk": "AMBER",
@@ -33148,7 +33156,7 @@
       "top_players": [
         {
           "name": "Ben Hammond",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Amani Hansberry",
@@ -33156,7 +33164,7 @@
         },
         {
           "name": "Jaylen Curry",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa"
@@ -33609,9 +33617,9 @@
     },
     {
       "team": "New Orleans Pelicans",
-      "games_tracked": 29,
-      "avg_sdi": 40.6,
-      "avg_top1_pct": 22.3,
+      "games_tracked": 30,
+      "avg_sdi": 40.8,
+      "avg_top1_pct": 22.4,
       "max_sdi": 59.3,
       "min_sdi": 32.2,
       "risk": "AMBER",
@@ -33622,11 +33630,11 @@
           "times_top2": 14
         },
         {
-          "name": "Saddiq Bey",
-          "times_top2": 13
+          "name": "Zion Williamson",
+          "times_top2": 14
         },
         {
-          "name": "Zion Williamson",
+          "name": "Saddiq Bey",
           "times_top2": 13
         }
       ],
@@ -33865,11 +33873,11 @@
     },
     {
       "team": "Fordham Rams",
-      "games_tracked": 6,
-      "avg_sdi": 43.6,
-      "avg_top1_pct": 25.3,
+      "games_tracked": 7,
+      "avg_sdi": 43.0,
+      "avg_top1_pct": 24.6,
       "max_sdi": 45.8,
-      "min_sdi": 41.2,
+      "min_sdi": 39.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -33883,7 +33891,7 @@
         },
         {
           "name": "Abass Bodija",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -33965,17 +33973,17 @@
     },
     {
       "team": "Butler Bulldogs",
-      "games_tracked": 6,
-      "avg_sdi": 43.6,
-      "avg_top1_pct": 25.2,
-      "max_sdi": 51.2,
+      "games_tracked": 7,
+      "avg_sdi": 46.8,
+      "avg_top1_pct": 27.0,
+      "max_sdi": 66.2,
       "min_sdi": 38.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Asim Djulovic",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Eduardo Klafke",
@@ -33983,16 +33991,16 @@
         },
         {
           "name": "Jalen Jackson",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Samford Bulldogs",
-      "games_tracked": 3,
-      "avg_sdi": 43.6,
-      "avg_top1_pct": 24.6,
+      "games_tracked": 4,
+      "avg_sdi": 42.4,
+      "avg_top1_pct": 23.7,
       "max_sdi": 46.8,
       "min_sdi": 37.9,
       "risk": "AMBER",
@@ -34004,7 +34012,7 @@
         },
         {
           "name": "Will Shaver",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Cade Norris",
@@ -34364,9 +34372,9 @@
     },
     {
       "team": "Minnesota Golden Gophers",
-      "games_tracked": 5,
-      "avg_sdi": 43.5,
-      "avg_top1_pct": 25.5,
+      "games_tracked": 6,
+      "avg_sdi": 45.1,
+      "avg_top1_pct": 28.0,
       "max_sdi": 58.7,
       "min_sdi": 36.5,
       "risk": "AMBER",
@@ -34374,7 +34382,7 @@
       "top_players": [
         {
           "name": "Jaylen Crocker-Johnson",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Isaac Asuma",
@@ -34943,9 +34951,9 @@
     },
     {
       "team": "UNC Greensboro Spartans",
-      "games_tracked": 7,
-      "avg_sdi": 43.3,
-      "avg_top1_pct": 24.1,
+      "games_tracked": 8,
+      "avg_sdi": 42.7,
+      "avg_top1_pct": 23.8,
       "max_sdi": 52.3,
       "min_sdi": 31.8,
       "risk": "AMBER",
@@ -34961,7 +34969,7 @@
         },
         {
           "name": "Cameron Grant",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa"
@@ -35380,10 +35388,10 @@
     },
     {
       "team": "Providence Friars",
-      "games_tracked": 4,
-      "avg_sdi": 43.2,
-      "avg_top1_pct": 23.5,
-      "max_sdi": 51.3,
+      "games_tracked": 5,
+      "avg_sdi": 46.3,
+      "avg_top1_pct": 25.2,
+      "max_sdi": 58.3,
       "min_sdi": 37.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -35393,11 +35401,11 @@
           "times_top2": 2
         },
         {
-          "name": "Miles Byrd",
+          "name": "Malik Mack",
           "times_top2": 2
         },
         {
-          "name": "Arrinten Page",
+          "name": "Miles Byrd",
           "times_top2": 2
         }
       ],
@@ -36211,8 +36219,8 @@
     },
     {
       "team": "Charlotte Hornets",
-      "games_tracked": 25,
-      "avg_sdi": 41.7,
+      "games_tracked": 26,
+      "avg_sdi": 41.8,
       "avg_top1_pct": 23.8,
       "max_sdi": 54.9,
       "min_sdi": 32.6,
@@ -36224,11 +36232,11 @@
           "times_top2": 14
         },
         {
-          "name": "LaMelo Ball",
-          "times_top2": 9
+          "name": "Naz Reid",
+          "times_top2": 10
         },
         {
-          "name": "Naz Reid",
+          "name": "LaMelo Ball",
           "times_top2": 9
         }
       ],
@@ -36261,20 +36269,20 @@
     },
     {
       "team": "Appalachian State Mountaineers",
-      "games_tracked": 5,
-      "avg_sdi": 43.0,
-      "avg_top1_pct": 24.8,
+      "games_tracked": 6,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 26.3,
       "max_sdi": 56.6,
       "min_sdi": 25.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Da'Mori Lytch",
-          "times_top2": 3
+          "name": "Jaylen Colon",
+          "times_top2": 4
         },
         {
-          "name": "Jaylen Colon",
+          "name": "Da'Mori Lytch",
           "times_top2": 3
         },
         {
@@ -37020,21 +37028,21 @@
     },
     {
       "team": "Wright State Raiders",
-      "games_tracked": 3,
-      "avg_sdi": 42.7,
-      "avg_top1_pct": 22.9,
-      "max_sdi": 46.1,
+      "games_tracked": 4,
+      "avg_sdi": 46.4,
+      "avg_top1_pct": 26.2,
+      "max_sdi": 57.6,
       "min_sdi": 36.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Kellen Pickett",
+          "name": "CJ O'Hara",
           "times_top2": 2
         },
         {
-          "name": "CJ O'Hara",
-          "times_top2": 1
+          "name": "Kellen Pickett",
+          "times_top2": 2
         },
         {
           "name": "Chadlyn Traylor",
@@ -37375,9 +37383,9 @@
     },
     {
       "team": "St. Bonaventure Bonnies",
-      "games_tracked": 4,
-      "avg_sdi": 42.6,
-      "avg_top1_pct": 24.4,
+      "games_tracked": 5,
+      "avg_sdi": 43.4,
+      "avg_top1_pct": 24.6,
       "max_sdi": 47.7,
       "min_sdi": 38.6,
       "risk": "AMBER",
@@ -37385,14 +37393,14 @@
       "top_players": [
         {
           "name": "Ari Fulton",
+          "times_top2": 4
+        },
+        {
+          "name": "Benjamin Bill",
           "times_top2": 3
         },
         {
           "name": "Zach Philipkoski",
-          "times_top2": 2
-        },
-        {
-          "name": "Benjamin Bill",
           "times_top2": 2
         }
       ],
@@ -37838,9 +37846,9 @@
     },
     {
       "team": "Florida Gulf Coast Eagles",
-      "games_tracked": 6,
-      "avg_sdi": 42.5,
-      "avg_top1_pct": 25.2,
+      "games_tracked": 7,
+      "avg_sdi": 42.6,
+      "avg_top1_pct": 24.8,
       "max_sdi": 51.2,
       "min_sdi": 33.7,
       "risk": "AMBER",
@@ -37855,7 +37863,7 @@
           "times_top2": 3
         },
         {
-          "name": "Elijah Brooks",
+          "name": "Darren Williams",
           "times_top2": 2
         }
       ],
@@ -38372,9 +38380,9 @@
     },
     {
       "team": "Philadelphia 76ers",
-      "games_tracked": 27,
-      "avg_sdi": 44.2,
-      "avg_top1_pct": 25.1,
+      "games_tracked": 28,
+      "avg_sdi": 44.1,
+      "avg_top1_pct": 24.9,
       "max_sdi": 52.3,
       "min_sdi": 32.5,
       "risk": "AMBER",
@@ -38382,7 +38390,7 @@
       "top_players": [
         {
           "name": "Tyrese Maxey",
-          "times_top2": 16
+          "times_top2": 17
         },
         {
           "name": "Joel Embiid",
@@ -38781,33 +38789,33 @@
     },
     {
       "team": "Arkansas State Red Wolves",
-      "games_tracked": 5,
-      "avg_sdi": 42.3,
-      "avg_top1_pct": 23.9,
+      "games_tracked": 6,
+      "avg_sdi": 41.4,
+      "avg_top1_pct": 23.1,
       "max_sdi": 50.8,
       "min_sdi": 35.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
+          "name": "Chaz Watson",
+          "times_top2": 4
+        },
+        {
           "name": "Layne Taylor",
           "times_top2": 3
         },
         {
-          "name": "Chaz Watson",
-          "times_top2": 3
-        },
-        {
           "name": "Jordan Pyke",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Pepperdine Waves",
-      "games_tracked": 4,
-      "avg_sdi": 42.3,
+      "games_tracked": 5,
+      "avg_sdi": 43.1,
       "avg_top1_pct": 23.3,
       "max_sdi": 50.6,
       "min_sdi": 34.9,
@@ -38816,11 +38824,11 @@
       "top_players": [
         {
           "name": "Petar Majstorovic",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Anthony Robinson",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Evan Haywood",
@@ -38881,9 +38889,9 @@
     },
     {
       "team": "Milwaukee Bucks",
-      "games_tracked": 30,
-      "avg_sdi": 40.0,
-      "avg_top1_pct": 23.0,
+      "games_tracked": 31,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 23.1,
       "max_sdi": 58.9,
       "min_sdi": 30.2,
       "risk": "AMBER",
@@ -38891,7 +38899,7 @@
       "top_players": [
         {
           "name": "Tyler Herro",
-          "times_top2": 11
+          "times_top2": 12
         },
         {
           "name": "Ryan Rollins",
@@ -39060,21 +39068,21 @@
     },
     {
       "team": "Indiana State Sycamores",
-      "games_tracked": 6,
-      "avg_sdi": 42.2,
-      "avg_top1_pct": 24.3,
-      "max_sdi": 51.3,
+      "games_tracked": 7,
+      "avg_sdi": 43.8,
+      "avg_top1_pct": 25.7,
+      "max_sdi": 53.2,
       "min_sdi": 30.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Karmani Gregory",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Jackson Cooper",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Maguire Mitchell",
@@ -39395,9 +39403,9 @@
     },
     {
       "team": "Illinois State Redbirds",
-      "games_tracked": 7,
-      "avg_sdi": 42.1,
-      "avg_top1_pct": 23.9,
+      "games_tracked": 8,
+      "avg_sdi": 42.4,
+      "avg_top1_pct": 24.0,
       "max_sdi": 54.1,
       "min_sdi": 32.5,
       "risk": "AMBER",
@@ -39405,7 +39413,7 @@
       "top_players": [
         {
           "name": "Malik Moore",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Nick Allen",
@@ -39413,16 +39421,16 @@
         },
         {
           "name": "Johnny Kinziger",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Rice Owls",
-      "games_tracked": 5,
-      "avg_sdi": 42.1,
-      "avg_top1_pct": 24.1,
+      "games_tracked": 6,
+      "avg_sdi": 43.5,
+      "avg_top1_pct": 24.6,
       "max_sdi": 56.8,
       "min_sdi": 35.6,
       "risk": "AMBER",
@@ -39430,11 +39438,11 @@
       "top_players": [
         {
           "name": "Jaxson Thompson",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Jacob Dar",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Dallas Hobbs",
@@ -39735,9 +39743,9 @@
     },
     {
       "team": "UAB Blazers",
-      "games_tracked": 6,
+      "games_tracked": 7,
       "avg_sdi": 42.0,
-      "avg_top1_pct": 22.1,
+      "avg_top1_pct": 22.3,
       "max_sdi": 50.6,
       "min_sdi": 35.1,
       "risk": "AMBER",
@@ -39745,7 +39753,7 @@
       "top_players": [
         {
           "name": "Deuce Jones",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Justyn Fernandez",
@@ -39753,7 +39761,7 @@
         },
         {
           "name": "Salim London",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
@@ -39810,10 +39818,10 @@
     },
     {
       "team": "Loyola Marymount Lions",
-      "games_tracked": 7,
-      "avg_sdi": 42.0,
-      "avg_top1_pct": 22.3,
-      "max_sdi": 46.3,
+      "games_tracked": 8,
+      "avg_sdi": 43.9,
+      "avg_top1_pct": 23.5,
+      "max_sdi": 56.9,
       "min_sdi": 35.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -39823,12 +39831,12 @@
           "times_top2": 7
         },
         {
-          "name": "Jevon Porter",
+          "name": "All Wright",
           "times_top2": 3
         },
         {
-          "name": "All Wright",
-          "times_top2": 2
+          "name": "Jevon Porter",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
@@ -40160,20 +40168,24 @@
     },
     {
       "team": "Milligan Buffaloes",
-      "games_tracked": 1,
-      "avg_sdi": 41.9,
-      "avg_top1_pct": 23.3,
+      "games_tracked": 2,
+      "avg_sdi": 32.9,
+      "avg_top1_pct": 17.6,
       "max_sdi": 41.9,
-      "min_sdi": 41.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
+      "min_sdi": 23.9,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
       "top_players": [
         {
           "name": "William Robinson",
-          "times_top2": 1
+          "times_top2": 2
         },
         {
           "name": "Te'Jon McDaniel-McCormick",
+          "times_top2": 1
+        },
+        {
+          "name": "Elias Norman",
           "times_top2": 1
         }
       ],
@@ -40556,9 +40568,9 @@
     },
     {
       "team": "Rhode Island Rams",
-      "games_tracked": 6,
-      "avg_sdi": 41.8,
-      "avg_top1_pct": 23.2,
+      "games_tracked": 7,
+      "avg_sdi": 42.3,
+      "avg_top1_pct": 24.0,
       "max_sdi": 50.7,
       "min_sdi": 35.3,
       "risk": "AMBER",
@@ -40566,24 +40578,24 @@
       "top_players": [
         {
           "name": "Jonah Hinton",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Matas Deniušas",
           "times_top2": 3
         },
         {
-          "name": "Jason Fontenet II",
-          "times_top2": 2
+          "name": "Dylan Williamson",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Robert Morris Colonials",
-      "games_tracked": 5,
-      "avg_sdi": 41.8,
-      "avg_top1_pct": 23.5,
+      "games_tracked": 6,
+      "avg_sdi": 42.4,
+      "avg_top1_pct": 24.3,
       "max_sdi": 51.0,
       "min_sdi": 33.9,
       "risk": "AMBER",
@@ -40591,15 +40603,15 @@
       "top_players": [
         {
           "name": "KJ Garris",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "KC Ugwuakazi",
           "times_top2": 2
         },
         {
-          "name": "Ta'Zir Smith",
-          "times_top2": 1
+          "name": "Jalik Dunkley-Distant",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -41480,11 +41492,11 @@
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Hugo Toom",
+          "name": "Damian Forrest",
           "times_top2": 13
         },
         {
-          "name": "Damian Forrest",
+          "name": "Hugo Toom",
           "times_top2": 13
         },
         {
@@ -41823,8 +41835,8 @@
     },
     {
       "team": "Eastern Washington Eagles",
-      "games_tracked": 6,
-      "avg_sdi": 41.5,
+      "games_tracked": 7,
+      "avg_sdi": 41.9,
       "avg_top1_pct": 24.2,
       "max_sdi": 56.3,
       "min_sdi": 34.3,
@@ -41833,7 +41845,7 @@
       "top_players": [
         {
           "name": "Jamil Miller",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Malachi Richmond",
@@ -41939,11 +41951,11 @@
           "times_top2": 10
         },
         {
-          "name": "Cole Syllas",
+          "name": "Cleveland Melvin",
           "times_top2": 6
         },
         {
-          "name": "Cleveland Melvin",
+          "name": "Cole Syllas",
           "times_top2": 6
         }
       ],
@@ -42222,17 +42234,17 @@
     },
     {
       "team": "Troy Trojans",
-      "games_tracked": 6,
-      "avg_sdi": 41.3,
-      "avg_top1_pct": 21.1,
-      "max_sdi": 52.8,
+      "games_tracked": 7,
+      "avg_sdi": 44.9,
+      "avg_top1_pct": 24.9,
+      "max_sdi": 66.7,
       "min_sdi": 32.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Donovan Oday",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Sam Walters",
@@ -42470,24 +42482,24 @@
     },
     {
       "team": "Youngstown State Penguins",
-      "games_tracked": 5,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 23.1,
-      "max_sdi": 44.6,
+      "games_tracked": 7,
+      "avg_sdi": 42.6,
+      "avg_top1_pct": 24.7,
+      "max_sdi": 49.2,
       "min_sdi": 38.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Japhet Moupadele",
-          "times_top2": 2
-        },
-        {
-          "name": "Dom Aekins",
-          "times_top2": 2
+          "name": "Jeff Nwankwo",
+          "times_top2": 4
         },
         {
           "name": "Jaiden Haynes",
+          "times_top2": 3
+        },
+        {
+          "name": "Japhet Moupadele",
           "times_top2": 2
         }
       ],
@@ -42495,9 +42507,9 @@
     },
     {
       "team": "Texas Longhorns",
-      "games_tracked": 6,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 24.0,
+      "games_tracked": 7,
+      "avg_sdi": 40.8,
+      "avg_top1_pct": 23.5,
       "max_sdi": 53.3,
       "min_sdi": 31.6,
       "risk": "AMBER",
@@ -42505,7 +42517,7 @@
       "top_players": [
         {
           "name": "Matas Vokietaitis",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Isaiah Johnson",
@@ -42520,10 +42532,10 @@
     },
     {
       "team": "Southern Indiana Screaming Eagles",
-      "games_tracked": 5,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 51.3,
+      "games_tracked": 6,
+      "avg_sdi": 43.6,
+      "avg_top1_pct": 24.6,
+      "max_sdi": 55.7,
       "min_sdi": 31.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -42545,14 +42557,18 @@
     },
     {
       "team": "UC San Diego Tritons",
-      "games_tracked": 4,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 21.8,
-      "max_sdi": 46.9,
-      "min_sdi": 37.8,
+      "games_tracked": 6,
+      "avg_sdi": 42.0,
+      "avg_top1_pct": 22.5,
+      "max_sdi": 49.4,
+      "min_sdi": 37.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
+        {
+          "name": "Treysen Eaglestaff",
+          "times_top2": 3
+        },
         {
           "name": "Rahmir Barno",
           "times_top2": 2
@@ -42560,27 +42576,23 @@
         {
           "name": "Leo Beath",
           "times_top2": 2
-        },
-        {
-          "name": "Treysen Eaglestaff",
-          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Lamar Cardinals",
-      "games_tracked": 4,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 21.6,
-      "max_sdi": 49.0,
+      "games_tracked": 5,
+      "avg_sdi": 44.0,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 55.6,
       "min_sdi": 32.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Quante Berry",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Filip Radakovic",
@@ -42747,9 +42759,9 @@
     },
     {
       "team": "UNC Asheville Bulldogs",
-      "games_tracked": 6,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 24.1,
+      "games_tracked": 7,
+      "avg_sdi": 40.9,
+      "avg_top1_pct": 23.8,
       "max_sdi": 46.8,
       "min_sdi": 37.6,
       "risk": "AMBER",
@@ -42757,14 +42769,14 @@
       "top_players": [
         {
           "name": "Connor Dubsky",
-          "times_top2": 5
+          "times_top2": 6
+        },
+        {
+          "name": "Khayri Dunn",
+          "times_top2": 3
         },
         {
           "name": "Daniel Thomas",
-          "times_top2": 2
-        },
-        {
-          "name": "Ja'Corey Lipkins",
           "times_top2": 2
         }
       ],
@@ -42906,11 +42918,11 @@
           "times_top2": 8
         },
         {
-          "name": "Chavdar Kostov",
+          "name": "Alan Arnett",
           "times_top2": 7
         },
         {
-          "name": "Alan Arnett",
+          "name": "Chavdar Kostov",
           "times_top2": 7
         }
       ],
@@ -43142,9 +43154,9 @@
     },
     {
       "team": "Eastern Kentucky Colonels",
-      "games_tracked": 5,
-      "avg_sdi": 41.0,
-      "avg_top1_pct": 21.8,
+      "games_tracked": 6,
+      "avg_sdi": 40.6,
+      "avg_top1_pct": 21.6,
       "max_sdi": 56.3,
       "min_sdi": 30.2,
       "risk": "AMBER",
@@ -43152,7 +43164,7 @@
       "top_players": [
         {
           "name": "Jackson Holt",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Yvens Paul",
@@ -43369,7 +43381,7 @@
           "times_top2": 5
         },
         {
-          "name": "Lisa Berkani",
+          "name": "Juan Vaulet",
           "times_top2": 4
         }
       ],
@@ -43462,11 +43474,11 @@
           "times_top2": 7
         },
         {
-          "name": "Laura Ziegler",
+          "name": "Alberte Rimdal",
           "times_top2": 4
         },
         {
-          "name": "McKenzie Forbes",
+          "name": "Laura Ziegler",
           "times_top2": 4
         }
       ],
@@ -44158,9 +44170,9 @@
     },
     {
       "team": "Belmont Bruins",
-      "games_tracked": 4,
-      "avg_sdi": 40.8,
-      "avg_top1_pct": 24.2,
+      "games_tracked": 5,
+      "avg_sdi": 40.9,
+      "avg_top1_pct": 23.8,
       "max_sdi": 49.3,
       "min_sdi": 34.7,
       "risk": "AMBER",
@@ -44168,49 +44180,49 @@
       "top_players": [
         {
           "name": "Jack Smiley",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Aleksa Ristic",
           "times_top2": 2
         },
         {
-          "name": "Jabez Jenkins",
-          "times_top2": 1
+          "name": "Vincent Neugebauer",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Northern Iowa Panthers",
-      "games_tracked": 6,
-      "avg_sdi": 40.8,
-      "avg_top1_pct": 22.8,
-      "max_sdi": 49.4,
+      "games_tracked": 7,
+      "avg_sdi": 42.4,
+      "avg_top1_pct": 24.3,
+      "max_sdi": 52.1,
       "min_sdi": 33.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
+          "name": "Greyson Uelmen",
+          "times_top2": 6
+        },
+        {
           "name": "Carson Vis",
           "times_top2": 5
         },
         {
-          "name": "Greyson Uelmen",
-          "times_top2": 5
-        },
-        {
           "name": "Isaiah Johnson-Arigu",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "BYU Cougars",
-      "games_tracked": 5,
-      "avg_sdi": 40.8,
-      "avg_top1_pct": 24.0,
+      "games_tracked": 6,
+      "avg_sdi": 41.9,
+      "avg_top1_pct": 24.8,
       "max_sdi": 51.1,
       "min_sdi": 34.3,
       "risk": "AMBER",
@@ -44222,7 +44234,7 @@
         },
         {
           "name": "Collin Chandler",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Bruce Branch III",
@@ -44906,7 +44918,7 @@
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Simon Pursl",
+          "name": "Wesley Person",
           "times_top2": 10
         },
         {
@@ -44914,7 +44926,7 @@
           "times_top2": 10
         },
         {
-          "name": "Wesley Person",
+          "name": "Simon Pursl",
           "times_top2": 10
         }
       ],
@@ -45175,9 +45187,9 @@
     },
     {
       "team": "Richmond Spiders",
-      "games_tracked": 6,
-      "avg_sdi": 40.5,
-      "avg_top1_pct": 22.2,
+      "games_tracked": 7,
+      "avg_sdi": 41.7,
+      "avg_top1_pct": 22.8,
       "max_sdi": 58.6,
       "min_sdi": 29.9,
       "risk": "AMBER",
@@ -45185,7 +45197,7 @@
       "top_players": [
         {
           "name": "Dominick Stewart",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Jamie Kaiser Jr",
@@ -45574,9 +45586,9 @@
     },
     {
       "team": "Los Angeles Clippers",
-      "games_tracked": 27,
-      "avg_sdi": 39.5,
-      "avg_top1_pct": 21.9,
+      "games_tracked": 28,
+      "avg_sdi": 39.6,
+      "avg_top1_pct": 22.0,
       "max_sdi": 54.3,
       "min_sdi": 23.6,
       "risk": "GREEN",
@@ -45584,7 +45596,7 @@
       "top_players": [
         {
           "name": "Darius Garland",
-          "times_top2": 13
+          "times_top2": 14
         },
         {
           "name": "Kawhi Leonard",
@@ -45624,14 +45636,18 @@
     },
     {
       "team": "UCLA Bruins",
-      "games_tracked": 5,
-      "avg_sdi": 40.4,
-      "avg_top1_pct": 25.3,
+      "games_tracked": 6,
+      "avg_sdi": 39.9,
+      "avg_top1_pct": 24.4,
       "max_sdi": 49.3,
       "min_sdi": 31.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
       "top_players": [
+        {
+          "name": "Trent Perry",
+          "times_top2": 3
+        },
         {
           "name": "Jaylen Petty",
           "times_top2": 3
@@ -45639,10 +45655,6 @@
         {
           "name": "Nikola Kusturica",
           "times_top2": 3
-        },
-        {
-          "name": "Trent Perry",
-          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -45837,7 +45849,7 @@
           "times_top2": 8
         },
         {
-          "name": "Chris Lykes",
+          "name": "Izan Le Meut",
           "times_top2": 4
         }
       ],
@@ -45845,9 +45857,9 @@
     },
     {
       "team": "Duquesne Dukes",
-      "games_tracked": 4,
-      "avg_sdi": 40.3,
-      "avg_top1_pct": 21.4,
+      "games_tracked": 5,
+      "avg_sdi": 40.5,
+      "avg_top1_pct": 21.3,
       "max_sdi": 43.7,
       "min_sdi": 36.1,
       "risk": "AMBER",
@@ -45862,8 +45874,8 @@
           "times_top2": 3
         },
         {
-          "name": "Izaiah Pasha",
-          "times_top2": 1
+          "name": "Ege Demir",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -45891,10 +45903,10 @@
     },
     {
       "team": "Miami (OH) RedHawks",
-      "games_tracked": 2,
-      "avg_sdi": 40.3,
-      "avg_top1_pct": 20.4,
-      "max_sdi": 43.0,
+      "games_tracked": 3,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 22.1,
+      "max_sdi": 47.9,
       "min_sdi": 37.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -45904,11 +45916,11 @@
           "times_top2": 2
         },
         {
-          "name": "Justin Kirby",
-          "times_top2": 1
+          "name": "Stevie Elam",
+          "times_top2": 2
         },
         {
-          "name": "Stevie Elam",
+          "name": "Justin Kirby",
           "times_top2": 1
         }
       ],
@@ -46366,8 +46378,8 @@
     },
     {
       "team": "Oregon State Beavers",
-      "games_tracked": 5,
-      "avg_sdi": 40.2,
+      "games_tracked": 6,
+      "avg_sdi": 40.5,
       "avg_top1_pct": 22.0,
       "max_sdi": 43.2,
       "min_sdi": 37.6,
@@ -46376,15 +46388,15 @@
       "top_players": [
         {
           "name": "Daniel Freitag",
-          "times_top2": 4
+          "times_top2": 5
+        },
+        {
+          "name": "DeShawn Gory",
+          "times_top2": 3
         },
         {
           "name": "Legend Smiley",
           "times_top2": 3
-        },
-        {
-          "name": "DeShawn Gory",
-          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -46691,9 +46703,9 @@
     },
     {
       "team": "Iona Gaels",
-      "games_tracked": 7,
-      "avg_sdi": 40.1,
-      "avg_top1_pct": 21.0,
+      "games_tracked": 8,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 21.4,
       "max_sdi": 52.2,
       "min_sdi": 30.6,
       "risk": "AMBER",
@@ -46701,14 +46713,14 @@
       "top_players": [
         {
           "name": "Kevon Vanderhorst",
-          "times_top2": 4
+          "times_top2": 5
+        },
+        {
+          "name": "Keyshawn Mitchell",
+          "times_top2": 3
         },
         {
           "name": "Martin Kheil",
-          "times_top2": 2
-        },
-        {
-          "name": "Ore Odutayo",
           "times_top2": 2
         }
       ],
@@ -46814,8 +46826,8 @@
     },
     {
       "team": "Akron Zips",
-      "games_tracked": 4,
-      "avg_sdi": 40.0,
+      "games_tracked": 5,
+      "avg_sdi": 40.8,
       "avg_top1_pct": 23.5,
       "max_sdi": 46.9,
       "min_sdi": 31.2,
@@ -46824,11 +46836,11 @@
       "top_players": [
         {
           "name": "Tahj Staveskie",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Ty Pence",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Buddy Hammer Jr.",
@@ -47213,13 +47225,13 @@
     },
     {
       "team": "North Florida Ospreys",
-      "games_tracked": 6,
-      "avg_sdi": 39.9,
-      "avg_top1_pct": 21.2,
+      "games_tracked": 7,
+      "avg_sdi": 40.5,
+      "avg_top1_pct": 21.7,
       "max_sdi": 46.5,
       "min_sdi": 33.3,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Kent Jackson",
@@ -47680,13 +47692,13 @@
     },
     {
       "team": "Central Arkansas Bears",
-      "games_tracked": 6,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 24.2,
+      "games_tracked": 7,
+      "avg_sdi": 40.6,
+      "avg_top1_pct": 24.3,
       "max_sdi": 51.8,
       "min_sdi": 26.8,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Ty Robinson",
@@ -48504,9 +48516,9 @@
     },
     {
       "team": "Houston Rockets",
-      "games_tracked": 30,
-      "avg_sdi": 41.8,
-      "avg_top1_pct": 22.8,
+      "games_tracked": 31,
+      "avg_sdi": 41.9,
+      "avg_top1_pct": 23.0,
       "max_sdi": 58.9,
       "min_sdi": 32.6,
       "risk": "AMBER",
@@ -48514,11 +48526,11 @@
       "top_players": [
         {
           "name": "Kevin Durant",
-          "times_top2": 20
+          "times_top2": 21
         },
         {
           "name": "Alperen Sengun",
-          "times_top2": 12
+          "times_top2": 13
         },
         {
           "name": "Amen Thompson",
@@ -48542,11 +48554,11 @@
           "times_top2": 12
         },
         {
-          "name": "Azuolas Tubelis",
+          "name": "Moses Wright",
           "times_top2": 10
         },
         {
-          "name": "Moses Wright",
+          "name": "Azuolas Tubelis",
           "times_top2": 10
         }
       ],
@@ -48971,25 +48983,25 @@
     },
     {
       "team": "Stockton Kings",
-      "games_tracked": 4,
-      "avg_sdi": 39.2,
-      "avg_top1_pct": 22.0,
-      "max_sdi": 41.5,
+      "games_tracked": 5,
+      "avg_sdi": 40.7,
+      "avg_top1_pct": 22.7,
+      "max_sdi": 46.8,
       "min_sdi": 36.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Sean Pedulla",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Blake Hinson",
           "times_top2": 2
         },
         {
-          "name": "Jonathan Mogbo",
-          "times_top2": 1
+          "name": "Tristen Newton",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -49555,9 +49567,9 @@
     },
     {
       "team": "Marquette Golden Eagles",
-      "games_tracked": 4,
-      "avg_sdi": 39.0,
-      "avg_top1_pct": 21.5,
+      "games_tracked": 5,
+      "avg_sdi": 37.6,
+      "avg_top1_pct": 20.6,
       "max_sdi": 52.9,
       "min_sdi": 30.1,
       "risk": "GREEN",
@@ -49565,14 +49577,14 @@
       "top_players": [
         {
           "name": "Royce Parham",
-          "times_top2": 3
+          "times_top2": 4
+        },
+        {
+          "name": "Adrien Stevens",
+          "times_top2": 2
         },
         {
           "name": "Alex Egbuonu",
-          "times_top2": 1
-        },
-        {
-          "name": "Colin Porter",
           "times_top2": 1
         }
       ],
@@ -50394,9 +50406,9 @@
     },
     {
       "team": "Texas A&M-CC Islanders",
-      "games_tracked": 5,
-      "avg_sdi": 38.5,
-      "avg_top1_pct": 22.3,
+      "games_tracked": 6,
+      "avg_sdi": 39.4,
+      "avg_top1_pct": 23.2,
       "max_sdi": 45.9,
       "min_sdi": 27.5,
       "risk": "GREEN",
@@ -50404,14 +50416,14 @@
       "top_players": [
         {
           "name": "Daniel Michelini-Jackson",
+          "times_top2": 3
+        },
+        {
+          "name": "Desmond Kent Jr.",
           "times_top2": 2
         },
         {
           "name": "Binael Basil",
-          "times_top2": 1
-        },
-        {
-          "name": "Desmond Kent Jr.",
           "times_top2": 1
         }
       ],
@@ -50716,20 +50728,20 @@
     },
     {
       "team": "Santa Clara Broncos",
-      "games_tracked": 7,
-      "avg_sdi": 38.3,
-      "avg_top1_pct": 21.0,
+      "games_tracked": 8,
+      "avg_sdi": 39.1,
+      "avg_top1_pct": 22.0,
       "max_sdi": 50.0,
       "min_sdi": 29.5,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "David Castillo",
-          "times_top2": 3
+          "name": "Sash Gavalyugov",
+          "times_top2": 4
         },
         {
-          "name": "Sash Gavalyugov",
+          "name": "David Castillo",
           "times_top2": 3
         },
         {
@@ -50783,21 +50795,21 @@
     },
     {
       "team": "Stephen F. Austin Lumberjacks",
-      "games_tracked": 4,
-      "avg_sdi": 38.3,
-      "avg_top1_pct": 20.7,
+      "games_tracked": 6,
+      "avg_sdi": 41.8,
+      "avg_top1_pct": 23.5,
       "max_sdi": 51.3,
       "min_sdi": 22.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Erik Makke",
-          "times_top2": 4
+          "times_top2": 6
         },
         {
           "name": "Gediminas Alisas",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Narit Chotikavanic",
@@ -51026,9 +51038,9 @@
     },
     {
       "team": "Grambling Tigers",
-      "games_tracked": 2,
-      "avg_sdi": 38.2,
-      "avg_top1_pct": 20.5,
+      "games_tracked": 3,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 22.4,
       "max_sdi": 40.3,
       "min_sdi": 36.0,
       "risk": "GREEN",
@@ -51036,7 +51048,7 @@
       "top_players": [
         {
           "name": "Antonio Shannon",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Mekhi Fitts",
@@ -51398,9 +51410,9 @@
     },
     {
       "team": "Loyola (IL) Ramblers",
-      "games_tracked": 5,
-      "avg_sdi": 38.0,
-      "avg_top1_pct": 22.2,
+      "games_tracked": 7,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 21.9,
       "max_sdi": 48.0,
       "min_sdi": 28.8,
       "risk": "GREEN",
@@ -51411,11 +51423,11 @@
           "times_top2": 4
         },
         {
-          "name": "Dayan Nessah",
-          "times_top2": 2
+          "name": "Ryan Agarwal",
+          "times_top2": 4
         },
         {
-          "name": "Ryan Agarwal",
+          "name": "Dayan Nessah",
           "times_top2": 2
         }
       ],
@@ -51469,17 +51481,17 @@
     },
     {
       "team": "Western Illinois Leathernecks",
-      "games_tracked": 5,
-      "avg_sdi": 38.0,
-      "avg_top1_pct": 21.2,
-      "max_sdi": 44.6,
+      "games_tracked": 6,
+      "avg_sdi": 39.7,
+      "avg_top1_pct": 22.5,
+      "max_sdi": 48.5,
       "min_sdi": 30.0,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
           "name": "Danny Stephens",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Daivion Traylor",
@@ -51494,13 +51506,13 @@
     },
     {
       "team": "Liberty Flames",
-      "games_tracked": 1,
-      "avg_sdi": 38.0,
-      "avg_top1_pct": 21.1,
-      "max_sdi": 38.0,
+      "games_tracked": 2,
+      "avg_sdi": 43.4,
+      "avg_top1_pct": 24.8,
+      "max_sdi": 48.9,
       "min_sdi": 38.0,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Zander Carter",
@@ -51508,6 +51520,10 @@
         },
         {
           "name": "Cooper Campbell",
+          "times_top2": 1
+        },
+        {
+          "name": "Eli Sancomb",
           "times_top2": 1
         }
       ],
@@ -51540,9 +51556,9 @@
     },
     {
       "team": "North Carolina Tar Heels",
-      "games_tracked": 4,
+      "games_tracked": 5,
       "avg_sdi": 37.9,
-      "avg_top1_pct": 20.8,
+      "avg_top1_pct": 21.3,
       "max_sdi": 48.9,
       "min_sdi": 33.0,
       "risk": "GREEN",
@@ -51550,7 +51566,7 @@
       "top_players": [
         {
           "name": "Terrence Brown",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Jaydon Young",
@@ -51729,9 +51745,9 @@
     },
     {
       "team": "Memphis Grizzlies",
-      "games_tracked": 28,
-      "avg_sdi": 38.6,
-      "avg_top1_pct": 22.3,
+      "games_tracked": 29,
+      "avg_sdi": 38.8,
+      "avg_top1_pct": 22.4,
       "max_sdi": 48.8,
       "min_sdi": 27.5,
       "risk": "GREEN",
@@ -51739,7 +51755,7 @@
       "top_players": [
         {
           "name": "Ty Jerome",
-          "times_top2": 11
+          "times_top2": 12
         },
         {
           "name": "Cedric Coward",
@@ -51829,25 +51845,25 @@
     },
     {
       "team": "William & Mary Tribe",
-      "games_tracked": 5,
-      "avg_sdi": 37.8,
-      "avg_top1_pct": 22.5,
+      "games_tracked": 7,
+      "avg_sdi": 41.2,
+      "avg_top1_pct": 24.6,
       "max_sdi": 57.1,
       "min_sdi": 29.1,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
+        {
+          "name": "Brian Carter Jr.",
+          "times_top2": 4
+        },
         {
           "name": "Stas Sivka",
           "times_top2": 3
         },
         {
-          "name": "Brian Carter Jr.",
-          "times_top2": 3
-        },
-        {
-          "name": "Will Feagles",
-          "times_top2": 1
+          "name": "Josh Baldwin",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -51879,9 +51895,9 @@
     },
     {
       "team": "Indiana Pacers",
-      "games_tracked": 26,
-      "avg_sdi": 38.0,
-      "avg_top1_pct": 21.3,
+      "games_tracked": 27,
+      "avg_sdi": 37.8,
+      "avg_top1_pct": 21.1,
       "max_sdi": 44.5,
       "min_sdi": 29.2,
       "risk": "GREEN",
@@ -51889,7 +51905,7 @@
       "top_players": [
         {
           "name": "Pascal Siakam",
-          "times_top2": 17
+          "times_top2": 18
         },
         {
           "name": "Andrew Nembhard",
@@ -51904,9 +51920,9 @@
     },
     {
       "team": "Phoenix Suns",
-      "games_tracked": 27,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 24.0,
+      "games_tracked": 28,
+      "avg_sdi": 41.0,
+      "avg_top1_pct": 23.9,
       "max_sdi": 58.0,
       "min_sdi": 26.3,
       "risk": "AMBER",
@@ -51914,11 +51930,11 @@
       "top_players": [
         {
           "name": "Devin Booker",
-          "times_top2": 22
+          "times_top2": 23
         },
         {
           "name": "Jalen Green",
-          "times_top2": 11
+          "times_top2": 12
         },
         {
           "name": "Dillon Brooks",
@@ -52050,9 +52066,9 @@
     },
     {
       "team": "George Washington Revolutionaries",
-      "games_tracked": 5,
-      "avg_sdi": 37.7,
-      "avg_top1_pct": 19.9,
+      "games_tracked": 6,
+      "avg_sdi": 37.4,
+      "avg_top1_pct": 19.6,
       "max_sdi": 48.7,
       "min_sdi": 23.4,
       "risk": "GREEN",
@@ -52060,14 +52076,14 @@
       "top_players": [
         {
           "name": "Jean Aranguren",
+          "times_top2": 4
+        },
+        {
+          "name": "Omari Witherspoon",
           "times_top2": 3
         },
         {
           "name": "Dylan James",
-          "times_top2": 2
-        },
-        {
-          "name": "Omari Witherspoon",
           "times_top2": 2
         }
       ],
@@ -52251,9 +52267,9 @@
     },
     {
       "team": "UC Irvine Anteaters",
-      "games_tracked": 6,
-      "avg_sdi": 37.6,
-      "avg_top1_pct": 20.8,
+      "games_tracked": 7,
+      "avg_sdi": 37.7,
+      "avg_top1_pct": 20.5,
       "max_sdi": 48.4,
       "min_sdi": 30.0,
       "risk": "GREEN",
@@ -52264,11 +52280,11 @@
           "times_top2": 4
         },
         {
-          "name": "Luke Isaak",
-          "times_top2": 2
+          "name": "Nils Cooper",
+          "times_top2": 3
         },
         {
-          "name": "Olivier Rioux",
+          "name": "Luke Isaak",
           "times_top2": 2
         }
       ],
@@ -52498,9 +52514,9 @@
     },
     {
       "team": "Wyoming Cowboys",
-      "games_tracked": 6,
-      "avg_sdi": 37.5,
-      "avg_top1_pct": 20.8,
+      "games_tracked": 7,
+      "avg_sdi": 39.2,
+      "avg_top1_pct": 21.4,
       "max_sdi": 50.6,
       "min_sdi": 28.4,
       "risk": "GREEN",
@@ -52508,7 +52524,7 @@
       "top_players": [
         {
           "name": "Nasir Meyer",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Khaden Bennett",
@@ -52910,11 +52926,11 @@
           "times_top2": 8
         },
         {
-          "name": "Leandro Bolmaro",
+          "name": "Garrison Mathews",
           "times_top2": 6
         },
         {
-          "name": "Garrison Mathews",
+          "name": "R.J. Cole",
           "times_top2": 6
         }
       ],
@@ -53017,9 +53033,9 @@
     },
     {
       "team": "Chicago Bulls",
-      "games_tracked": 26,
-      "avg_sdi": 36.8,
-      "avg_top1_pct": 20.5,
+      "games_tracked": 27,
+      "avg_sdi": 36.5,
+      "avg_top1_pct": 20.3,
       "max_sdi": 48.7,
       "min_sdi": 26.7,
       "risk": "GREEN",
@@ -53826,7 +53842,7 @@
           "times_top2": 9
         },
         {
-          "name": "Jordan James King",
+          "name": "Lucas Dufeal",
           "times_top2": 7
         }
       ],
@@ -54326,10 +54342,10 @@
     },
     {
       "team": "Salt Lake City Stars",
-      "games_tracked": 3,
-      "avg_sdi": 36.1,
-      "avg_top1_pct": 19.6,
-      "max_sdi": 38.8,
+      "games_tracked": 4,
+      "avg_sdi": 36.9,
+      "avg_top1_pct": 20.1,
+      "max_sdi": 39.2,
       "min_sdi": 33.8,
       "risk": "GREEN",
       "risk_label": "BALANCED",
@@ -54339,11 +54355,11 @@
           "times_top2": 2
         },
         {
-          "name": "Jonas Aidoo",
-          "times_top2": 1
+          "name": "Tamar Bates",
+          "times_top2": 2
         },
         {
-          "name": "Trey Alexander",
+          "name": "Jonas Aidoo",
           "times_top2": 1
         }
       ],
@@ -54451,9 +54467,9 @@
     },
     {
       "team": "Texas State Bobcats",
-      "games_tracked": 6,
-      "avg_sdi": 36.0,
-      "avg_top1_pct": 20.8,
+      "games_tracked": 7,
+      "avg_sdi": 35.8,
+      "avg_top1_pct": 20.7,
       "max_sdi": 56.9,
       "min_sdi": 29.6,
       "risk": "GREEN",
@@ -54461,7 +54477,7 @@
       "top_players": [
         {
           "name": "Paul Djobet",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Ronald Jessamy",
@@ -55324,11 +55340,11 @@
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Marcus Carr",
+          "name": "Derrick Alston",
           "times_top2": 10
         },
         {
-          "name": "Derrick Alston",
+          "name": "Marcus Carr",
           "times_top2": 10
         },
         {
@@ -55340,9 +55356,9 @@
     },
     {
       "team": "Oklahoma State Cowboys",
-      "games_tracked": 5,
-      "avg_sdi": 34.9,
-      "avg_top1_pct": 20.3,
+      "games_tracked": 6,
+      "avg_sdi": 35.8,
+      "avg_top1_pct": 20.4,
       "max_sdi": 45.7,
       "min_sdi": 26.3,
       "risk": "GREEN",
@@ -55357,18 +55373,18 @@
           "times_top2": 2
         },
         {
-          "name": "Luka Bogavac",
-          "times_top2": 1
+          "name": "Kashie Natt",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
     },
     {
       "team": "Ole Miss Rebels",
-      "games_tracked": 4,
-      "avg_sdi": 34.9,
+      "games_tracked": 5,
+      "avg_sdi": 35.7,
       "avg_top1_pct": 21.0,
-      "max_sdi": 38.5,
+      "max_sdi": 39.0,
       "min_sdi": 32.9,
       "risk": "GREEN",
       "risk_label": "BALANCED",
@@ -56293,9 +56309,9 @@
     },
     {
       "team": "Southern Utah Thunderbirds",
-      "games_tracked": 6,
-      "avg_sdi": 33.0,
-      "avg_top1_pct": 18.0,
+      "games_tracked": 7,
+      "avg_sdi": 33.4,
+      "avg_top1_pct": 18.2,
       "max_sdi": 39.7,
       "min_sdi": 20.9,
       "risk": "GREEN",
@@ -56310,8 +56326,8 @@
           "times_top2": 3
         },
         {
-          "name": "Mikhail Protsenko",
-          "times_top2": 1
+          "name": "Jaiden Feroah",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa"
@@ -57055,6 +57071,48 @@
           "times_top2": 1
         }
       ]
+    },
+    {
+      "team": "Alice Lloyd Eagles",
+      "games_tracked": 1,
+      "avg_sdi": 54.1,
+      "avg_top1_pct": 29.4,
+      "max_sdi": 54.1,
+      "min_sdi": 54.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Braxton Highbaugh",
+          "times_top2": 1
+        },
+        {
+          "name": "Landon Napier",
+          "times_top2": 1
+        }
+      ],
+      "source": "proballers_ncaa"
+    },
+    {
+      "team": "Lancaster Bible College Chargers",
+      "games_tracked": 1,
+      "avg_sdi": 49.1,
+      "avg_top1_pct": 27.3,
+      "max_sdi": 49.1,
+      "min_sdi": 49.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Timmy Hambright",
+          "times_top2": 1
+        },
+        {
+          "name": "Trey Grube",
+          "times_top2": 1
+        }
+      ],
+      "source": "proballers_ncaa"
     }
   ]
 }
