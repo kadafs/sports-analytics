@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T06:03:16.228364",
+  "updated_at": "2026-11-24T07:47:31.752934",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10012,
+  "total_graded_games": 10053,
   "baseline": {
     "moneyline_pct": 67.6,
     "under_model_pct": 57.3,
@@ -563,6 +563,44 @@
       "league": "Proliga",
       "segment": "FIBA_CORE"
     },
+    "USA — NCAA - Non-Conference": {
+      "status": "WARNING",
+      "threshold_pct": 55.0,
+      "min_sample": 3,
+      "sample": 46,
+      "hits": 25,
+      "win_rate": 54.3,
+      "under_plays": 46,
+      "under_hits": 25,
+      "under_wr": 54.3,
+      "over_plays": 0,
+      "over_hits": 0,
+      "over_wr": null,
+      "net_units": 1.73,
+      "reason": "Below Benchmark: Combined Smart Filter hit rate is 54.3% (25/46 hits) vs. 55.0% threshold.",
+      "country": "USA",
+      "league": "NCAA - Non-Conference",
+      "segment": "NCAA_MEN"
+    },
+    "NCAA - Non-Conference": {
+      "status": "WARNING",
+      "threshold_pct": 55.0,
+      "min_sample": 3,
+      "sample": 46,
+      "hits": 25,
+      "win_rate": 54.3,
+      "under_plays": 46,
+      "under_hits": 25,
+      "under_wr": 54.3,
+      "over_plays": 0,
+      "over_hits": 0,
+      "over_wr": null,
+      "net_units": 1.73,
+      "reason": "Below Benchmark: Combined Smart Filter hit rate is 54.3% (25/46 hits) vs. 55.0% threshold.",
+      "country": "USA",
+      "league": "NCAA - Non-Conference",
+      "segment": "NCAA_MEN"
+    },
     "Lithuania — LKL": {
       "status": "WARNING",
       "threshold_pct": 55.0,
@@ -713,8 +751,8 @@
     },
     "NBA_MEN": {
       "name": "NBA Men (48m)",
-      "sample": 265,
-      "market_sample": 255,
+      "sample": 275,
+      "market_sample": 265,
       "under": {
         "sample": 0,
         "mkt_sample": 0,
@@ -737,29 +775,29 @@
         }
       },
       "over": {
-        "sample": 81,
-        "mkt_sample": 81,
-        "market_over_pct": 56.8,
+        "sample": 82,
+        "mkt_sample": 82,
+        "market_over_pct": 57.3,
         "avg_market_delta": 3.4
       }
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 890,
-      "market_sample": 664,
+      "sample": 905,
+      "market_sample": 674,
       "under": {
-        "sample": 46,
-        "mkt_sample": 46,
-        "market_under_pct": 56.5,
-        "avg_market_delta": -1.0,
+        "sample": 48,
+        "mkt_sample": 48,
+        "market_under_pct": 56.2,
+        "avg_market_delta": -0.9,
         "ultra": {
           "mkt_sample": 3,
           "under_mkt_pct": 66.7,
           "avg_market_delta": -0.3
         },
         "elite": {
-          "mkt_sample": 43,
-          "under_mkt_pct": 55.8,
+          "mkt_sample": 45,
+          "under_mkt_pct": 55.6,
           "avg_market_delta": -1.0
         },
         "standard": {
@@ -777,7 +815,7 @@
     },
     "NBA_GLEAGUE": {
       "name": "NBA G-League",
-      "sample": 78,
+      "sample": 79,
       "market_sample": 28,
       "under": {
         "sample": 17,
