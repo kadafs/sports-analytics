@@ -74,33 +74,60 @@ export async function fetchBasketballSignalStats() {
 
 export async function fetchSdiIndex() {
   try {
-    const r = await fetch(`${DATA}/basketball/team_sdi.json?t=${Date.now()}`)
-    if (!r.ok) return {}
-    const d = await r.json()
+    const [sdiRes, aliasRes] = await Promise.all([
+      fetch(`${DATA}/basketball/team_sdi.json?t=${Date.now()}`),
+      fetch(`${DATA}/basketball/team_aliases.json?t=${Date.now()}`).catch(() => null)
+    ])
+    if (!sdiRes.ok) return {}
+    const d = await sdiRes.json()
+    let aliases = {}
+    if (aliasRes && aliasRes.ok) {
+      try {
+        const aData = await aliasRes.json()
+        aliases = aData.aliases || {}
+      } catch (e) {}
+    }
+
     const STOP = new Set(['de','del','la','le','los','las','el','en','of','and','the','bc','bk','sk','fc','ac','sc','club','basket','basketball','sport','sports'])
     const teams = d.teams || []
-    // Count first-words and individual words to identify unique shortcuts
+    // Count first-words and individual words to identify unique shortcuts (split hyphens so "detroit-mercy" shares "detroit")
     const firstWordCounts = {}
     const wordCounts = {}
     for (const t of teams) {
-      const words = t.team.toLowerCase().split(' ')
-      firstWordCounts[words[0]] = (firstWordCounts[words[0]] || 0) + 1
-      for (const w of words) {
+      const cleanTokens = t.team.toLowerCase().replace(/[\-\.\,\/\'\"]/g, ' ').split(/\s+/).filter(Boolean)
+      if (cleanTokens.length > 0) {
+        firstWordCounts[cleanTokens[0]] = (firstWordCounts[cleanTokens[0]] || 0) + 1
+      }
+      for (const w of cleanTokens) {
         if (w.length >= 4 && !STOP.has(w)) wordCounts[w] = (wordCounts[w] || 0) + 1
       }
     }
     const index = {}
     for (const t of teams) {
-      const full = t.team.toLowerCase()
+      const full = t.team.toLowerCase().trim()
       index[full] = t
-      const words = full.split(' ')
+      const cleanTokens = full.replace(/[\-\.\,\/\'\"]/g, ' ').split(/\s+/).filter(Boolean)
       // Unique first-word shortcut
-      if (firstWordCounts[words[0]] === 1 && !(words[0] in index)) index[words[0]] = t
+      if (cleanTokens.length > 0 && firstWordCounts[cleanTokens[0]] === 1 && !(cleanTokens[0] in index)) {
+        index[cleanTokens[0]] = t
+      }
       // Unique individual-word shortcuts
-      for (const w of words) {
-        if (w.length >= 4 && !STOP.has(w) && wordCounts[w] === 1 && !(w in index)) index[w] = t
+      for (const w of cleanTokens) {
+        if (w.length >= 4 && !STOP.has(w) && wordCounts[w] === 1 && !(w in index)) {
+          index[w] = t
+        }
       }
     }
+
+    // Inject explicit aliases (e.g. "Detroit" -> "Detroit-Mercy Titans")
+    for (const [shortName, fullName] of Object.entries(aliases)) {
+      const targetKey = fullName.toLowerCase().trim()
+      const target = index[targetKey]
+      if (target) {
+        index[shortName.toLowerCase().trim()] = target
+      }
+    }
+
     return index
   } catch (e) { return {} }
 }
