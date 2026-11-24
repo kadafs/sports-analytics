@@ -44,20 +44,45 @@ function isPlayoffGame(stage = '') {
 function getSdiRecord(teamName, sdiIndex) {
   if (!teamName || !sdiIndex) return null
   const key = teamName.toLowerCase().trim()
-  // 1. Exact match
+  
+  // 1. Exact match (includes injected aliases from team_aliases.json)
   let rec = sdiIndex[key]
   if (rec) return rec
+
   // 2. Women suffix variants
-  const words = key.split(' ')
+  const words = key.split(/\s+/)
   if (key.endsWith(' w') || key.endsWith(' (w)')) {
     rec = sdiIndex[words[0] + ' w']
     if (rec) return rec
   }
+
   // 3. Single-word lookup (unique word shortcuts already indexed)
-  if (words.length === 1) {
-    rec = sdiIndex[words[0]]
+  if (words.length === 1 && sdiIndex[words[0]]) {
+    return sdiIndex[words[0]]
   }
-  return rec || null
+
+  // 4. Safe unique prefix match (e.g. "Virginia Tech" -> "Virginia Tech Hokies", "Oregon State" -> "Oregon State Beavers")
+  const prefix = key + ' '
+  let prefixMatch = null
+  let prefixCount = 0
+  const seenTeams = new Set()
+  for (const [k, t] of Object.entries(sdiIndex)) {
+    if (k.startsWith(prefix) && t && t.team && !seenTeams.has(t.team)) {
+      seenTeams.add(t.team)
+      prefixMatch = t
+      prefixCount++
+      if (prefixCount > 1) break
+    }
+  }
+  if (prefixCount === 1) return prefixMatch
+
+  // 5. Unique bigram (2-word) matching
+  for (let i = 0; i < words.length - 1; i++) {
+    const bg = `${words[i]} ${words[i + 1]}`
+    if (sdiIndex[bg]) return sdiIndex[bg]
+  }
+
+  return null
 }
 
 function groupByLeague(predictions, sport) {

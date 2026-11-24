@@ -119,6 +119,25 @@ export async function fetchSdiIndex() {
       }
     }
 
+    // Index 2-word bigrams that uniquely identify a team (e.g. "virginia tech", "kennesaw state", "eastern illinois", "oregon state")
+    const bigramCounts = {}
+    for (const t of teams) {
+      const cleanTokens = t.team.toLowerCase().replace(/[\-\.\,\/\'\"]/g, ' ').split(/\s+/).filter(Boolean)
+      for (let i = 0; i < cleanTokens.length - 1; i++) {
+        const bg = `${cleanTokens[i]} ${cleanTokens[i + 1]}`
+        bigramCounts[bg] = (bigramCounts[bg] || 0) + 1
+      }
+    }
+    for (const t of teams) {
+      const cleanTokens = t.team.toLowerCase().replace(/[\-\.\,\/\'\"]/g, ' ').split(/\s+/).filter(Boolean)
+      for (let i = 0; i < cleanTokens.length - 1; i++) {
+        const bg = `${cleanTokens[i]} ${cleanTokens[i + 1]}`
+        if (bigramCounts[bg] === 1 && !(bg in index)) {
+          index[bg] = t
+        }
+      }
+    }
+
     // Inject explicit aliases (e.g. "Detroit" -> "Detroit-Mercy Titans")
     for (const [shortName, fullName] of Object.entries(aliases)) {
       const targetKey = fullName.toLowerCase().trim()
