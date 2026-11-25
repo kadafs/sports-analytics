@@ -716,6 +716,19 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                     const hPlayer = formatPlayer(sdiH)
                     const aPlayer = formatPlayer(sdiA)
 
+                    // Playmaker Dependency (Top-1 Offensive Share: Pts + 2.15*Ast)
+                    const hasPlaymakerData = (sdiH?.avg_top1_off_share != null || sdiA?.avg_top1_off_share != null)
+                    const hPlaymaker = sdiH?.avg_top1_off_share != null ? `${sdiH.avg_top1_off_share}% (${sdiH.playmaker_risk || 'MODERATE'})` : '—'
+                    const aPlaymaker = sdiA?.avg_top1_off_share != null ? `${sdiA.avg_top1_off_share}% (${sdiA.playmaker_risk || 'MODERATE'})` : '—'
+                    const formatCreator = (sdi) => {
+                      if (!sdi?.top_creator) return null
+                      return `🎯 ${sdi.top_creator} (${sdi.avg_top1_off_share}% creator share)`
+                    }
+                    const hCreator = formatCreator(sdiH)
+                    const aCreator = formatCreator(sdiA)
+                    const isHighRiskH = sdiH?.playmaker_risk === 'HIGH'
+                    const isHighRiskA = sdiA?.playmaker_risk === 'HIGH'
+
                     return (
                       <>
                         <StatRow
@@ -730,6 +743,41 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#94a3b8', padding: '2px 8px 6px', fontStyle: 'italic' }}>
                             <span>{hPlayer ? `⭐ ${hPlayer}` : ''}</span>
                             <span style={{ textAlign: 'right' }}>{aPlayer ? `⭐ ${aPlayer}` : ''}</span>
+                          </div>
+                        )}
+                        {hasPlaymakerData && (
+                          <>
+                            <StatRow
+                              label="Creator Dependency"
+                              home={hPlaymaker}
+                              away={aPlaymaker}
+                              homeColor={isHighRiskH ? '#ef4444' : (sdiH?.playmaker_risk === 'LOW' ? '#22c55e' : '#eab308')}
+                              awayColor={isHighRiskA ? '#ef4444' : (sdiA?.playmaker_risk === 'LOW' ? '#22c55e' : '#eab308')}
+                              title="Playmaker Dependency: % of total points created via scoring + assists (Pts + 2.15*Ast) / Team Pts by the primary creator. >=38.8% indicates single-creator heliocentric risk."
+                            />
+                            {(hCreator || aCreator) && (
+                              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#94a3b8', padding: '0 8px 6px', fontStyle: 'italic' }}>
+                                <span style={{ color: isHighRiskH ? '#f87171' : undefined }}>{hCreator || ''}</span>
+                                <span style={{ textAlign: 'right', color: isHighRiskA ? '#f87171' : undefined }}>{aCreator || ''}</span>
+                              </div>
+                            )}
+                          </>
+                        )}
+                        {(isHighRiskH || isHighRiskA) && edge > 0 && (
+                          <div style={{
+                            margin: '4px 8px 8px',
+                            padding: '6px 10px',
+                            background: 'rgba(239, 68, 68, 0.12)',
+                            border: '1px solid rgba(239, 68, 68, 0.3)',
+                            borderRadius: '6px',
+                            fontSize: '11px',
+                            color: '#fca5a5',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '6px'
+                          }}>
+                            <span>⚠️</span>
+                            <span><strong>Playmaker Trap Risk:</strong> {isHighRiskH && isHighRiskA ? 'Both teams rely' : (isHighRiskH ? home_team : away_team) + ' relies'} on a single primary creator (≥38.8% offensive responsibility).</span>
                           </div>
                         )}
                       </>
