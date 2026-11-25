@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-11-24T16:46:18.460918",
+  "updated_at": "2026-11-25T00:00:49.240437",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10062,
+  "total_graded_games": 10119,
   "baseline": {
-    "moneyline_pct": 67.6,
+    "moneyline_pct": 67.5,
     "under_model_pct": 57.3,
     "avg_signed_delta": -3.1,
     "under_market_pct": 50.5,
     "avg_market_delta": 0.1
   },
   "clash": {
-    "sample": 553,
-    "under_model_pct": 57.3,
-    "over_model_pct": 42.7,
-    "avg_score_delta": -4.2,
-    "moneyline_pct": 63.5,
+    "sample": 557,
+    "under_model_pct": 57.1,
+    "over_model_pct": 42.9,
+    "avg_score_delta": -4.1,
+    "moneyline_pct": 63.2,
     "sharp_over": {
       "sample": 170,
       "under_model_pct": 70.0,
@@ -25,29 +25,29 @@
       "avg_mkt_delta": 1.7
     },
     "regular": {
-      "sample": 383,
-      "under_model_pct": 51.7,
+      "sample": 387,
+      "under_model_pct": 51.4,
       "avg_score_delta": -1.6,
-      "mkt_sample": 345,
-      "under_mkt_pct": 54.8,
-      "avg_mkt_delta": -1.6
+      "mkt_sample": 349,
+      "under_mkt_pct": 54.4,
+      "avg_mkt_delta": -1.5
     },
     "market_overall": {
-      "sample": 515,
-      "under_mkt_pct": 52.0,
-      "avg_mkt_delta": -0.5
+      "sample": 519,
+      "under_mkt_pct": 51.8,
+      "avg_mkt_delta": -0.4
     }
   },
   "shootout": {
-    "sample": 226,
-    "over_model_pct": 30.1,
-    "under_model_pct": 69.9,
+    "sample": 229,
+    "over_model_pct": 29.7,
+    "under_model_pct": 70.3,
     "avg_score_delta": -6.6,
-    "moneyline_pct": 58.8,
-    "market_sample": 208,
-    "market_over_pct": 58.2,
-    "market_under_pct": 41.3,
-    "avg_market_delta": 3.3,
+    "moneyline_pct": 58.1,
+    "market_sample": 211,
+    "market_over_pct": 57.3,
+    "market_under_pct": 42.2,
+    "avg_market_delta": 3.1,
     "sharp_shootout": {
       "sample": 142,
       "over_model_pct": 21.1,
@@ -57,41 +57,41 @@
       "avg_mkt_delta": 4.1
     },
     "regular": {
-      "sample": 84,
-      "over_model_pct": 45.2,
-      "avg_score_delta": 0.3,
-      "mkt_sample": 66,
-      "over_mkt_pct": 47.0,
-      "avg_mkt_delta": 1.5
+      "sample": 87,
+      "over_model_pct": 43.7,
+      "avg_score_delta": 0.0,
+      "mkt_sample": 69,
+      "over_mkt_pct": 44.9,
+      "avg_mkt_delta": 1.0
     }
   },
   "drag_down": {
-    "sample": 576,
-    "mkt_sample": 511,
-    "under_mkt_pct": 53.0,
-    "over_mkt_pct": 45.6,
-    "avg_market_delta": -1.5,
-    "under_model_pct": 61.1,
-    "over_model_pct": 38.9,
-    "avg_score_delta": -5.4,
-    "moneyline_pct": 69.1
+    "sample": 580,
+    "mkt_sample": 515,
+    "under_mkt_pct": 52.8,
+    "over_mkt_pct": 45.8,
+    "avg_market_delta": -1.4,
+    "under_model_pct": 61.0,
+    "over_model_pct": 39.0,
+    "avg_score_delta": -5.3,
+    "moneyline_pct": 68.6
   },
   "smart_edge": {
-    "sample": 326,
+    "sample": 327,
     "under": {
-      "sample": 122,
-      "mkt_sample": 121,
-      "market_under_pct": 61.2,
-      "avg_market_delta": -2.3,
+      "sample": 123,
+      "mkt_sample": 122,
+      "market_under_pct": 61.5,
+      "avg_market_delta": -2.4,
       "ultra": {
         "mkt_sample": 40,
         "under_mkt_pct": 65.0,
         "avg_market_delta": -3.9
       },
       "elite": {
-        "mkt_sample": 81,
-        "under_mkt_pct": 59.3,
-        "avg_market_delta": -1.5
+        "mkt_sample": 82,
+        "under_mkt_pct": 59.8,
+        "avg_market_delta": -1.7
       },
       "standard": {
         "mkt_sample": 0,
@@ -181,44 +181,6 @@
       "reason": "Below Benchmark: Combined Smart Filter hit rate is 40.0% (2/5 hits) vs. 55.0% threshold.",
       "country": "France",
       "league": "Pro B",
-      "segment": "FIBA_CORE"
-    },
-    "Lithuania — NKL": {
-      "status": "WARNING",
-      "threshold_pct": 55.0,
-      "min_sample": 3,
-      "sample": 8,
-      "hits": 4,
-      "win_rate": 50.0,
-      "under_plays": 0,
-      "under_hits": 0,
-      "under_wr": null,
-      "over_plays": 8,
-      "over_hits": 4,
-      "over_wr": 50.0,
-      "net_units": -0.36,
-      "reason": "Below Benchmark: Combined Smart Filter hit rate is 50.0% (4/8 hits) vs. 55.0% threshold.",
-      "country": "Lithuania",
-      "league": "NKL",
-      "segment": "FIBA_CORE"
-    },
-    "NKL": {
-      "status": "WARNING",
-      "threshold_pct": 55.0,
-      "min_sample": 3,
-      "sample": 8,
-      "hits": 4,
-      "win_rate": 50.0,
-      "under_plays": 0,
-      "under_hits": 0,
-      "under_wr": null,
-      "over_plays": 8,
-      "over_hits": 4,
-      "over_wr": 50.0,
-      "net_units": -0.36,
-      "reason": "Below Benchmark: Combined Smart Filter hit rate is 50.0% (4/8 hits) vs. 55.0% threshold.",
-      "country": "Lithuania",
-      "league": "NKL",
       "segment": "FIBA_CORE"
     },
     "Greece — A2": {
@@ -719,22 +681,22 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5455,
-      "market_sample": 5104,
+      "sample": 5476,
+      "market_sample": 5124,
       "under": {
-        "sample": 122,
-        "mkt_sample": 121,
-        "market_under_pct": 61.2,
-        "avg_market_delta": -2.3,
+        "sample": 123,
+        "mkt_sample": 122,
+        "market_under_pct": 61.5,
+        "avg_market_delta": -2.4,
         "ultra": {
           "mkt_sample": 40,
           "under_mkt_pct": 65.0,
           "avg_market_delta": -3.9
         },
         "elite": {
-          "mkt_sample": 81,
-          "under_mkt_pct": 59.3,
-          "avg_market_delta": -1.5
+          "mkt_sample": 82,
+          "under_mkt_pct": 59.8,
+          "avg_market_delta": -1.7
         },
         "standard": {
           "mkt_sample": 0,
@@ -783,8 +745,8 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 907,
-      "market_sample": 676,
+      "sample": 923,
+      "market_sample": 688,
       "under": {
         "sample": 48,
         "mkt_sample": 48,
