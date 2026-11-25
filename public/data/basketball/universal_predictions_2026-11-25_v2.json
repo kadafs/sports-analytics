@@ -76877,7 +76877,7 @@
         "tier": "ELITE",
         "recommendation": "BET FULL-TIME OVER",
         "win_rate": "66.7% WR",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "tag": "📈 Smart Over",
         "trigger": "NBA_PACE_OVER",
         "trigger_label": "48-Min High-Pace Scoring Lead",
         "segment": "NBA_MEN",
@@ -264044,7 +264044,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "80%+ WR",
-        "tag": "\ud83d\udcc8 Smart Under",
+        "tag": "📈 Smart Under",
         "trigger": "NCAA_DISCORDANT_UNDER",
         "trigger_label": "NCAA Discordant SRS Under",
         "segment": "NCAA_MEN",
@@ -489086,7 +489086,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "80%+ WR",
-        "tag": "\ud83d\udcc8 Smart Under",
+        "tag": "📈 Smart Under",
         "trigger": "NCAA_DISCORDANT_UNDER",
         "trigger_label": "NCAA Discordant SRS Under",
         "segment": "NCAA_MEN",
@@ -521248,7 +521248,7 @@
         "tier": "ULTRA",
         "recommendation": "BET FULL-TIME UNDER",
         "win_rate": "80%+ WR",
-        "tag": "\ud83d\udcc8 Smart Under",
+        "tag": "📈 Smart Under",
         "trigger": "NCAA_DISCORDANT_UNDER",
         "trigger_label": "NCAA Discordant SRS Under",
         "segment": "NCAA_MEN",
@@ -890670,7 +890670,7 @@
       "time": "04:59",
       "away_team": "Stanford",
       "home_team": "Colorado",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 153.49,
       "xpts_h": 76.2,
@@ -906703,7 +906703,14 @@
           "playmaker_risk": null,
           "top_creator": null
         }
-      }
+      },
+      "actual_home_score": 65,
+      "actual_away_score": 70,
+      "actual_result": "AWAY",
+      "total_delta": 18.49,
+      "signed_delta": -18.49,
+      "total_rpe": 13.7,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -1131375,7 +1131382,7 @@
               "times_top2": 3
             },
             {
-              "name": "Jai\u2019chaunn Hayes",
+              "name": "Jai’chaunn Hayes",
               "times_top2": 2
             }
           ],
@@ -1836250,7 +1836257,7 @@
               "times_top2": 3
             },
             {
-              "name": "B\u00ean\u00e7ao Vungo",
+              "name": "Bênçao Vungo",
               "times_top2": 3
             }
           ],
@@ -2011950,7 +2011957,7 @@
               "times_top2": 4
             },
             {
-              "name": "Matas Deniu\u0161as",
+              "name": "Matas Deniušas",
               "times_top2": 3
             },
             {
@@ -2235561,7 +2235568,7 @@
               "times_top2": 6
             },
             {
-              "name": "Niccol\u00f2 Moretti",
+              "name": "Niccolò Moretti",
               "times_top2": 2
             },
             {
@@ -2235571,7 +2235578,7 @@
           ],
           "avg_off_share": 40.6,
           "playmaker_risk": "HIGH",
-          "top_creator": "Niccol\u00f2 Moretti"
+          "top_creator": "Niccolò Moretti"
         },
         "sdiA": null
       }
@@ -2395353,7 +2395360,7 @@
       "time": "13:00",
       "away_team": "Rubon II",
       "home_team": "Minsk 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.01,
       "xpts_h": 100.6,
@@ -2396271,7 +2396278,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 92,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 37,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 50.0,
+      "total_delta": 1.01,
+      "signed_delta": -1.01,
+      "total_rpe": 0.63,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -2396292,8 +2396310,8 @@
         "signal": "OVER",
         "tier": "STANDARD",
         "recommendation": "BET FULL-TIME OVER",
-        "win_rate": "61% \u2013 70%",
-        "tag": "\ud83d\udcc8 Smart Over",
+        "win_rate": "61% – 70%",
+        "tag": "📈 Smart Over",
         "trigger": "BUFFER_SCORING_LEAD",
         "trigger_label": "Scoring Ceiling Rebound (Low/Avoid Conf)",
         "segment": "FIBA_CORE",
@@ -2396315,7 +2396333,7 @@
       "time": "14:00",
       "away_team": "Rguor Minsk",
       "home_team": "Gomel 2",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 162.07,
       "xpts_h": 90.0,
@@ -2397233,7 +2397251,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 85,
+      "actual_away_score": 66,
+      "actual_result": "HOME",
+      "halftime_home_score": 47,
+      "halftime_away_score": 38,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 52.4,
+      "total_delta": 11.07,
+      "signed_delta": -11.07,
+      "total_rpe": 7.33,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -2397263,7 +2397292,7 @@
       "time": "12:00",
       "away_team": "Neftyanik Omsk W",
       "home_team": "Novosibirsk W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 131.81,
       "xpts_h": 68.6,
@@ -2398073,7 +2398102,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 62,
+      "actual_away_score": 67,
+      "actual_result": "AWAY",
+      "halftime_home_score": 40,
+      "halftime_away_score": 45,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 64.5,
+      "total_delta": 2.81,
+      "signed_delta": -2.81,
+      "total_rpe": 2.18,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -2398103,7 +2398143,7 @@
       "time": "13:00",
       "away_team": "UMMC Ekaterinburg W",
       "home_team": "Dynamo Moscow W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 148.07,
       "xpts_h": 61.7,
@@ -2398935,7 +2398975,18 @@
           "top_creator": null
         },
         "sdiA": null
-      }
+      },
+      "actual_home_score": 44,
+      "actual_away_score": 103,
+      "actual_result": "AWAY",
+      "halftime_home_score": 17,
+      "halftime_away_score": 48,
+      "halftime_total": 65,
+      "halftime_pct_of_model": 43.9,
+      "total_delta": 1.07,
+      "signed_delta": -1.07,
+      "total_rpe": 0.73,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -2398965,7 +2399016,7 @@
       "time": "14:00",
       "away_team": "Spartak Moscow W",
       "home_team": "Nadezhda W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 138.58,
       "xpts_h": 66.5,
@@ -2399775,7 +2399826,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 68,
+      "actual_away_score": 61,
+      "actual_result": "HOME",
+      "halftime_home_score": 29,
+      "halftime_away_score": 34,
+      "halftime_total": 63,
+      "halftime_pct_of_model": 45.5,
+      "total_delta": 9.58,
+      "signed_delta": -9.58,
+      "total_rpe": 7.43,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": false,
@@ -2407327,7 +2407389,7 @@
       "time": "10:00",
       "away_team": "KB Stars W",
       "home_team": "Woori WON W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 118.5,
       "xpts_h": 53.8,
@@ -2407901,20 +2407963,31 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 51,
+      "actual_away_score": 62,
+      "actual_result": "AWAY",
+      "halftime_home_score": 24,
+      "halftime_away_score": 28,
+      "halftime_total": 52,
+      "halftime_pct_of_model": 43.9,
+      "total_delta": 5.5,
+      "signed_delta": -5.5,
+      "total_rpe": 4.87,
+      "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-25T07:09:18.763376",
+  "graded_at": "2026-11-25T16:29:18.278369",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 22,
-      "total": 35,
-      "pct": 62.9
+      "wins": 24,
+      "total": 39,
+      "pct": 61.5
     },
     "[ADVANCED]": {
-      "wins": 22,
-      "total": 40,
-      "pct": 55.0
+      "wins": 25,
+      "total": 43,
+      "pct": 58.1
     }
   }
 }

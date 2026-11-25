@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T07:09:54.130321",
+  "updated_at": "2026-11-25T16:30:00.003023",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10227,
+  "total_graded_games": 10234,
   "baseline": {
     "moneyline_pct": 67.5,
     "under_model_pct": 57.3,
@@ -77,7 +77,7 @@
     "moneyline_pct": 68.6
   },
   "smart_edge": {
-    "sample": 327,
+    "sample": 328,
     "under": {
       "sample": 123,
       "mkt_sample": 122,
@@ -100,7 +100,7 @@
       }
     },
     "over": {
-      "sample": 204,
+      "sample": 205,
       "mkt_sample": 182,
       "market_over_pct": 57.7,
       "avg_market_delta": 5.6
@@ -681,7 +681,7 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5476,
+      "sample": 5478,
       "market_sample": 5124,
       "under": {
         "sample": 123,
@@ -705,7 +705,7 @@
         }
       },
       "over": {
-        "sample": 204,
+        "sample": 205,
         "mkt_sample": 182,
         "market_over_pct": 57.7,
         "avg_market_delta": 5.6
@@ -745,8 +745,8 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 985,
-      "market_sample": 738,
+      "sample": 986,
+      "market_sample": 739,
       "under": {
         "sample": 54,
         "mkt_sample": 54,
