@@ -1012,30 +1012,43 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.8,
-          "top1_pct": 24.5,
+          "avg_sdi": 56.5,
+          "top1_pct": 33.3,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "Ross Jacoby",
+              "times_top2": 1
+            },
+            {
+              "name": "G. Gilinski",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 43.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Ross Jacoby"
+        },
+        "sdiA": {
+          "avg_sdi": 44.7,
+          "top1_pct": 25.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Sosnowska Klaudia",
+              "name": "D. Hutchinson",
               "times_top2": 1
             },
             {
-              "name": "M. Stepinska",
-              "times_top2": 1
-            },
-            {
-              "name": "Burse Martha",
-              "times_top2": 1
-            },
-            {
-              "name": "E. Davenport",
+              "name": "Indyk Kacper",
               "times_top2": 1
             }
-          ]
-        },
-        "sdiA": null
+          ],
+          "avg_off_share": 41.1,
+          "playmaker_risk": "HIGH",
+          "top_creator": "S. Biernacki"
+        }
       },
       "actual_home_score": 101,
       "actual_away_score": 77,
@@ -1903,7 +1916,10 @@
               "name": "Uros Banjac",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": null
       },
@@ -2945,7 +2961,10 @@
               "name": "Joe Thomasson",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": null
       },
@@ -3987,7 +4006,10 @@
               "name": "Uros Banjac",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 46.1,
@@ -4003,7 +4025,10 @@
               "name": "Carrington Roderick Wiggins",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 78,
@@ -5047,56 +5072,54 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.8,
-          "top1_pct": 27.4,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 34.4,
+          "top1_pct": 17.2,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
-              "name": "Thomasson Joe",
+              "name": "Scrubb Philip",
               "times_top2": 2
             },
             {
-              "name": "Thomas Erik",
+              "name": "Thomasson Joe",
               "times_top2": 1
             },
             {
-              "name": "Scrubb Philip",
-              "times_top2": 1
-            },
-            {
-              "name": "Pineiro Isaiah",
-              "times_top2": 1
-            },
-            {
-              "name": "Sakho Jordan",
+              "name": "Contreras Juan",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 27.4,
+          "playmaker_risk": "LOW",
+          "top_creator": "Thomasson Joe"
         },
         "sdiA": {
-          "avg_sdi": 43.0,
-          "top1_pct": 25.0,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 38.4,
+          "top1_pct": 21.2,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
-            {
-              "name": "Cruz Saldivar Francisco Javier",
-              "times_top2": 3
-            },
-            {
-              "name": "Kyser Michael",
-              "times_top2": 1
-            },
             {
               "name": "Mendoza Rigoberto",
               "times_top2": 1
             },
             {
-              "name": "Mensia Joaquin",
+              "name": "Cruz Saldivar Francisco Javier",
+              "times_top2": 1
+            },
+            {
+              "name": "Ascanio Jose",
+              "times_top2": 1
+            },
+            {
+              "name": "Kyser Michael",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 31.0,
+          "playmaker_risk": "LOW",
+          "top_creator": "Mendoza Rigoberto"
         }
       },
       "actual_home_score": 77,
@@ -6314,24 +6337,31 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 42.1,
-          "top1_pct": 26.8,
+          "avg_sdi": 46.4,
+          "top1_pct": 27.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "S. Vescovi",
-              "times_top2": 2
+              "times_top2": 4
             },
             {
-              "name": "S. Hogan",
-              "times_top2": 1
+              "name": "Pomoli Nicola",
+              "times_top2": 3
             },
             {
               "name": "C. Perry",
+              "times_top2": 2
+            },
+            {
+              "name": "Serres Emiliano",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 44.6,
+          "playmaker_risk": "HIGH",
+          "top_creator": "S. Vescovi"
         },
         "sdiA": null
       },
@@ -7098,28 +7128,23 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 64.2,
-          "top1_pct": 35.0,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 46.6,
+          "top1_pct": 25.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
-            {
-              "name": "I. Gradwell",
-              "times_top2": 1
-            },
             {
               "name": "R. Lipovan",
               "times_top2": 1
             },
             {
-              "name": "S. Markisic",
-              "times_top2": 1
-            },
-            {
-              "name": "K. M. Jackson",
+              "name": "Podar Alina",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 31.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Podar Alina"
         },
         "sdiA": null
       },
@@ -11350,44 +11375,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 40.3,
-          "top1_pct": 22.6,
+          "avg_sdi": 40.6,
+          "top1_pct": 22.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Will Riley",
-              "times_top2": 8
+              "name": "Anthony Davis",
+              "times_top2": 10
             },
             {
-              "name": "Anthony Davis",
+              "name": "Will Riley",
               "times_top2": 8
             },
             {
               "name": "Trae Young",
               "times_top2": 6
             }
-          ]
+          ],
+          "avg_off_share": 36.9,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Trae Young"
         },
         "sdiA": {
           "avg_sdi": 41.0,
-          "top1_pct": 23.0,
+          "top1_pct": 22.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Desmond Bane",
-              "times_top2": 12
+              "times_top2": 14
+            },
+            {
+              "name": "Franz Wagner",
+              "times_top2": 11
             },
             {
               "name": "Paolo Banchero",
               "times_top2": 10
-            },
-            {
-              "name": "Franz Wagner",
-              "times_top2": 10
             }
-          ]
+          ],
+          "avg_off_share": 38.3,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Franz Wagner"
         }
       },
       "actual_home_score": 116,
@@ -15617,14 +15648,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 43.1,
-          "top1_pct": 24.8,
+          "avg_sdi": 43.2,
+          "top1_pct": 25.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ace Bailey",
-              "times_top2": 9
+              "times_top2": 10
             },
             {
               "name": "Keyonte George",
@@ -15634,27 +15665,33 @@
               "name": "Brice Sensabaugh",
               "times_top2": 7
             }
-          ]
+          ],
+          "avg_off_share": 31.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "George Keyonte"
         },
         "sdiA": {
-          "avg_sdi": 42.1,
-          "top1_pct": 24.3,
+          "avg_sdi": 41.6,
+          "top1_pct": 24.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Cooper Flagg",
-              "times_top2": 18
+              "times_top2": 20
             },
             {
               "name": "P.J. Washington",
-              "times_top2": 8
+              "times_top2": 9
             },
             {
               "name": "Kyrie Irving",
-              "times_top2": 6
+              "times_top2": 7
             }
-          ]
+          ],
+          "avg_off_share": 41.5,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Cooper Flagg"
         }
       },
       "actual_home_score": 114,
@@ -19884,8 +19921,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 36.6,
-          "top1_pct": 20.4,
+          "avg_sdi": 36.5,
+          "top1_pct": 20.3,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -19901,27 +19938,33 @@
               "name": "Tre Jones",
               "times_top2": 7
             }
-          ]
+          ],
+          "avg_off_share": 24.9,
+          "playmaker_risk": "LOW",
+          "top_creator": "Powell Norman"
         },
         "sdiA": {
-          "avg_sdi": 43.3,
+          "avg_sdi": 43.5,
           "top1_pct": 24.6,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Nikola Jokic",
-              "times_top2": 20
+              "times_top2": 22
             },
             {
               "name": "Jamal Murray",
-              "times_top2": 15
+              "times_top2": 17
             },
             {
               "name": "Christian Braun",
               "times_top2": 4
             }
-          ]
+          ],
+          "avg_off_share": 28.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "Nikola Jokic"
         }
       },
       "actual_home_score": 145,
@@ -24150,44 +24193,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 43.6,
-          "top1_pct": 24.8,
+          "avg_sdi": 43.7,
+          "top1_pct": 24.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jalen Brunson",
-              "times_top2": 20
+              "times_top2": 21
             },
             {
               "name": "Karl-Anthony Towns",
-              "times_top2": 15
+              "times_top2": 16
             },
             {
               "name": "Ogugua Anunoby",
               "times_top2": 7
             }
-          ]
+          ],
+          "avg_off_share": 30.7,
+          "playmaker_risk": "LOW",
+          "top_creator": "Brunson Jalen"
         },
         "sdiA": {
-          "avg_sdi": 38.0,
-          "top1_pct": 21.2,
+          "avg_sdi": 37.8,
+          "top1_pct": 21.1,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Pascal Siakam",
-              "times_top2": 16
+              "times_top2": 18
+            },
+            {
+              "name": "Andrew Nembhard",
+              "times_top2": 6
             },
             {
               "name": "Quenton Jackson",
               "times_top2": 5
-            },
-            {
-              "name": "Andrew Nembhard",
-              "times_top2": 5
             }
-          ]
+          ],
+          "avg_off_share": 32.7,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Siakam Pascal"
         }
       },
       "actual_home_score": 113,
@@ -28395,14 +28444,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 40.5,
-          "top1_pct": 23.2,
+          "avg_sdi": 40.3,
+          "top1_pct": 23.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Brandin Podziemski",
-              "times_top2": 12
+              "times_top2": 13
             },
             {
               "name": "Stephen Curry",
@@ -28412,27 +28461,33 @@
               "name": "Yaxel Lendeborg",
               "times_top2": 9
             }
-          ]
+          ],
+          "avg_off_share": 31.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "Curry Stephen"
         },
         "sdiA": {
-          "avg_sdi": 44.4,
-          "top1_pct": 26.1,
+          "avg_sdi": 44.8,
+          "top1_pct": 26.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jayson Tatum",
-              "times_top2": 20
+              "times_top2": 22
+            },
+            {
+              "name": "Paul George",
+              "times_top2": 10
             },
             {
               "name": "Jaylen Brown",
               "times_top2": 9
-            },
-            {
-              "name": "Paul George",
-              "times_top2": 9
             }
-          ]
+          ],
+          "avg_off_share": 44.4,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Jayson Tatum"
         }
       },
       "actual_home_score": 88,
@@ -31479,14 +31534,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 38.7,
-          "top1_pct": 20.8,
+          "avg_sdi": 37.6,
+          "top1_pct": 20.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Nick Martinelli",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Fletcher Loyer",
@@ -31496,11 +31551,14 @@
               "name": "Blake Wesley",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 40.2,
-          "top1_pct": 23.3,
+          "avg_sdi": 40.5,
+          "top1_pct": 23.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -31516,7 +31574,10 @@
               "name": "Jahmir Young",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 125,
@@ -47546,8 +47607,52 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 46.8,
+          "top1_pct": 28.8,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jaxon Olvera",
+              "times_top2": 5
+            },
+            {
+              "name": "RJ Nance Jr.",
+              "times_top2": 2
+            },
+            {
+              "name": "Hunter Adam",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 27.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Jaxon Olvera"
+        },
+        "sdiA": {
+          "avg_sdi": 47.6,
+          "top1_pct": 27.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Terry Coner Jr.",
+              "times_top2": 6
+            },
+            {
+              "name": "Justas Stonkus",
+              "times_top2": 4
+            },
+            {
+              "name": "Jordan Muller",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 49.8,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Terry Coner Jr."
+        }
       },
       "actual_home_score": 71,
       "actual_away_score": 79,
@@ -63575,8 +63680,52 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 42.0,
+          "top1_pct": 22.3,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Deuce Jones",
+              "times_top2": 6
+            },
+            {
+              "name": "Justyn Fernandez",
+              "times_top2": 4
+            },
+            {
+              "name": "Salim London",
+              "times_top2": 3
+            }
+          ],
+          "avg_off_share": 30.2,
+          "playmaker_risk": "LOW",
+          "top_creator": "Deuce Jones"
+        },
+        "sdiA": {
+          "avg_sdi": 42.3,
+          "top1_pct": 24.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jonah Hinton",
+              "times_top2": 4
+            },
+            {
+              "name": "Matas Deniušas",
+              "times_top2": 3
+            },
+            {
+              "name": "Dylan Williamson",
+              "times_top2": 3
+            }
+          ],
+          "avg_off_share": 35.5,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Dylan Williamson"
+        }
       },
       "actual_home_score": 64,
       "actual_away_score": 79,
@@ -79605,8 +79754,52 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 39.9,
+          "top1_pct": 24.4,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Trent Perry",
+              "times_top2": 3
+            },
+            {
+              "name": "Jaylen Petty",
+              "times_top2": 3
+            },
+            {
+              "name": "Nikola Kusturica",
+              "times_top2": 3
+            }
+          ],
+          "avg_off_share": 27.8,
+          "playmaker_risk": "LOW",
+          "top_creator": "Trent Perry"
+        },
+        "sdiA": {
+          "avg_sdi": 49.1,
+          "top1_pct": 29.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Kachi Nzeh",
+              "times_top2": 6
+            },
+            {
+              "name": "Chuck Bailey III",
+              "times_top2": 4
+            },
+            {
+              "name": "Nick Petronio",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 23.9,
+          "playmaker_risk": "LOW",
+          "top_creator": "DeShawn Harris-Smith"
+        }
       },
       "actual_home_score": 85,
       "actual_away_score": 48,
@@ -95614,26 +95807,51 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": {
-          "avg_sdi": 47.7,
-          "top1_pct": 27.2,
+        "sdiH": {
+          "avg_sdi": 47.3,
+          "top1_pct": 24.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Beckett Currie",
+              "name": "Alijah Arenas",
+              "times_top2": 6
+            },
+            {
+              "name": "Rodney Rice",
               "times_top2": 5
             },
             {
-              "name": "Cooper Kesler",
+              "name": "Adonis Ratliff",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 37.7,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Rodney Rice"
+        },
+        "sdiA": {
+          "avg_sdi": 46.4,
+          "top1_pct": 25.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jamyron Keller",
               "times_top2": 4
             },
             {
-              "name": "Shareef Jackson",
-              "times_top2": 2
+              "name": "Mekhi Cooper",
+              "times_top2": 1
+            },
+            {
+              "name": "De'Vion Lavergne",
+              "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 30.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "Jamyron Keller"
         }
       },
       "actual_home_score": 56,
@@ -111639,11 +111857,15 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 41.2,
-          "top1_pct": 21.8,
+          "avg_sdi": 42.0,
+          "top1_pct": 22.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Treysen Eaglestaff",
+              "times_top2": 3
+            },
             {
               "name": "Rahmir Barno",
               "times_top2": 2
@@ -111651,14 +111873,35 @@
             {
               "name": "Leo Beath",
               "times_top2": 2
+            }
+          ],
+          "avg_off_share": 30.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Treysen Eaglestaff"
+        },
+        "sdiA": {
+          "avg_sdi": 46.7,
+          "top1_pct": 25.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Will Heimbrodt",
+              "times_top2": 7
             },
             {
-              "name": "Treysen Eaglestaff",
+              "name": "Mason Williams",
+              "times_top2": 3
+            },
+            {
+              "name": "Tyler Boston",
               "times_top2": 2
             }
-          ]
-        },
-        "sdiA": null
+          ],
+          "avg_off_share": 35.1,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Mason Williams"
+        }
       },
       "actual_home_score": 64,
       "actual_away_score": 90,
@@ -127687,26 +127930,51 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 37.9,
+          "top1_pct": 21.9,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
+          "top_players": [
+            {
+              "name": "Jason Schofield",
+              "times_top2": 4
+            },
+            {
+              "name": "Ryan Agarwal",
+              "times_top2": 4
+            },
+            {
+              "name": "Dayan Nessah",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 30.1,
+          "playmaker_risk": "LOW",
+          "top_creator": "Guillaume Grotzinger"
+        },
         "sdiA": {
-          "avg_sdi": 48.1,
-          "top1_pct": 26.5,
+          "avg_sdi": 50.8,
+          "top1_pct": 28.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Joey Chammaa",
-              "times_top2": 3
+              "times_top2": 5
             },
             {
               "name": "Mekhi Mason",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
-              "name": "Mookie Cook",
-              "times_top2": 1
+              "name": "Zinou Bedri",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 43.5,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Mekhi Mason"
         }
       },
       "actual_home_score": 63,
@@ -143733,44 +144001,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 43.0,
-          "top1_pct": 24.8,
+          "avg_sdi": 47.6,
+          "top1_pct": 27.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Da'Mori Lytch",
-              "times_top2": 3
+              "name": "Jaylen Colon",
+              "times_top2": 4
             },
             {
-              "name": "Jaylen Colon",
+              "name": "Da'Mori Lytch",
               "times_top2": 3
             },
             {
               "name": "Mason Costello",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 42.2,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Ben Kopetzki"
         },
         "sdiA": {
-          "avg_sdi": 42.6,
-          "top1_pct": 24.4,
+          "avg_sdi": 44.3,
+          "top1_pct": 25.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ari Fulton",
-              "times_top2": 3
+              "times_top2": 4
+            },
+            {
+              "name": "Benjamin Bill",
+              "times_top2": 4
             },
             {
               "name": "Zach Philipkoski",
               "times_top2": 2
-            },
-            {
-              "name": "Benjamin Bill",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 42.0,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Benjamin Bill"
         }
       },
       "actual_home_score": 71,
@@ -159797,8 +160071,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 47.9,
-          "top1_pct": 25.7,
+          "avg_sdi": 48.5,
+          "top1_pct": 27.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -159807,34 +160081,40 @@
               "times_top2": 3
             },
             {
-              "name": "Sam Brown",
-              "times_top2": 2
+              "name": "Josh Scovens",
+              "times_top2": 3
             },
             {
-              "name": "Josh Scovens",
+              "name": "Sam Brown",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 43.6,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Josh Scovens"
         },
         "sdiA": {
-          "avg_sdi": 40.8,
-          "top1_pct": 22.8,
+          "avg_sdi": 42.4,
+          "top1_pct": 24.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Greyson Uelmen",
+              "times_top2": 6
+            },
             {
               "name": "Carson Vis",
               "times_top2": 5
             },
             {
-              "name": "Greyson Uelmen",
-              "times_top2": 5
-            },
-            {
               "name": "Isaiah Johnson-Arigu",
-              "times_top2": 1
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 37.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Greyson Uelmen"
         }
       },
       "actual_home_score": 48,
@@ -175777,14 +176057,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 38.2,
-          "top1_pct": 20.5,
+          "avg_sdi": 37.9,
+          "top1_pct": 22.4,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Antonio Shannon",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Mekhi Fitts",
@@ -175794,11 +176074,14 @@
               "name": "Dwayne Pierce",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 29.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Imoh Erims"
         },
         "sdiA": {
-          "avg_sdi": 44.4,
-          "top1_pct": 29.6,
+          "avg_sdi": 43.3,
+          "top1_pct": 28.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -175809,8 +176092,15 @@
             {
               "name": "Titus Lee",
               "times_top2": 1
+            },
+            {
+              "name": "Joshua Ourigou",
+              "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 26.7,
+          "playmaker_risk": "LOW",
+          "top_creator": "Joshua Ourigou"
         }
       },
       "actual_home_score": 126,
@@ -191799,44 +192089,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 52.6,
-          "top1_pct": 29.9,
+          "avg_sdi": 52.3,
+          "top1_pct": 29.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Trey Beamer",
-              "times_top2": 4
+              "times_top2": 6
             },
             {
               "name": "Tijan Saine",
-              "times_top2": 3
+              "times_top2": 5
             },
             {
               "name": "Corey Caulker",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 44.0,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Tijan Saine"
         },
         "sdiA": {
-          "avg_sdi": 50.3,
-          "top1_pct": 28.9,
+          "avg_sdi": 48.3,
+          "top1_pct": 26.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "McCaden Adams",
-              "times_top2": 2
+              "times_top2": 3
+            },
+            {
+              "name": "Jack Payne",
+              "times_top2": 3
             },
             {
               "name": "Yohann Sissoko",
               "times_top2": 2
-            },
-            {
-              "name": "Jack Payne",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 34.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Noah Amenhauser"
         }
       },
       "actual_home_score": 75,
@@ -207863,8 +208159,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 42.5,
-          "top1_pct": 25.2,
+          "avg_sdi": 42.6,
+          "top1_pct": 24.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -207877,12 +208173,37 @@
               "times_top2": 3
             },
             {
-              "name": "Elijah Brooks",
+              "name": "Darren Williams",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 26.1,
+          "playmaker_risk": "LOW",
+          "top_creator": "Bryson Lucas"
         },
-        "sdiA": null
+        "sdiA": {
+          "avg_sdi": 46.6,
+          "top1_pct": 30.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Keyshuan Tillery",
+              "times_top2": 5
+            },
+            {
+              "name": "Miguel Allen",
+              "times_top2": 2
+            },
+            {
+              "name": "Michael Walz",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 30.8,
+          "playmaker_risk": "LOW",
+          "top_creator": "Chaze Harris"
+        }
       },
       "actual_home_score": 71,
       "actual_away_score": 58,
@@ -223921,27 +224242,33 @@
               "name": "Xander Kuckuck",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 40.0,
-          "top1_pct": 23.5,
+          "avg_sdi": 43.2,
+          "top1_pct": 26.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Tahj Staveskie",
-              "times_top2": 3
+              "times_top2": 5
             },
             {
               "name": "Ty Pence",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Buddy Hammer Jr.",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 37.5,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Tahj Staveskie"
         }
       },
       "actual_home_score": 64,
@@ -239968,44 +240295,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 40.2,
-          "top1_pct": 22.0,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 38.8,
+          "top1_pct": 21.1,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Daniel Freitag",
+              "times_top2": 5
+            },
+            {
+              "name": "DeShawn Gory",
               "times_top2": 4
             },
             {
               "name": "Legend Smiley",
               "times_top2": 3
-            },
-            {
-              "name": "DeShawn Gory",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 40.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Josiah Lake"
         },
         "sdiA": {
-          "avg_sdi": 47.0,
-          "top1_pct": 27.4,
+          "avg_sdi": 45.4,
+          "top1_pct": 26.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jaylen Lawal",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Myles Rigsby",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
-              "name": "Denton Forsythe",
-              "times_top2": 1
+              "name": "Chris Loofe",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 30.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "Chris Loofe"
         }
       },
       "actual_home_score": 66,
@@ -256011,34 +256344,37 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 46.2,
+          "avg_sdi": 46.7,
           "top1_pct": 27.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ace Buckner",
-              "times_top2": 3
+              "times_top2": 5
             },
             {
               "name": "Liutauras Lelevicius",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Cole Certa",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 37.4,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Ace Buckner"
         },
         "sdiA": {
-          "avg_sdi": 34.9,
-          "top1_pct": 21.0,
+          "avg_sdi": 38.4,
+          "top1_pct": 22.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Adam Clark",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Patton Pinkins",
@@ -256048,7 +256384,10 @@
               "name": "Santiago Trouet",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 36.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Ben Henshall"
         }
       },
       "actual_home_score": 62,
@@ -272079,44 +272418,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 33.0,
-          "top1_pct": 18.0,
+          "avg_sdi": 34.6,
+          "top1_pct": 19.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "JaJuan Nicholls",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Anthony Breland",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
-              "name": "Mikhail Protsenko",
-              "times_top2": 1
+              "name": "Jaiden Feroah",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 24.5,
+          "playmaker_risk": "LOW",
+          "top_creator": "Jaiden Feroah"
         },
         "sdiA": {
-          "avg_sdi": 42.3,
-          "top1_pct": 23.9,
+          "avg_sdi": 41.6,
+          "top1_pct": 23.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Layne Taylor",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Chaz Watson",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Jordan Pyke",
-              "times_top2": 2
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 27.4,
+          "playmaker_risk": "LOW",
+          "top_creator": "Tameron Ferguson"
         }
       },
       "actual_home_score": 102,
@@ -288142,26 +288487,51 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": {
-          "avg_sdi": 37.8,
-          "top1_pct": 22.5,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+        "sdiH": {
+          "avg_sdi": 44.3,
+          "top1_pct": 26.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Billy Smith",
+              "times_top2": 4
+            },
+            {
+              "name": "Gus Etchison",
+              "times_top2": 3
+            },
+            {
+              "name": "Kameron Tinsley",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 28.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Billy Smith"
+        },
+        "sdiA": {
+          "avg_sdi": 41.2,
+          "top1_pct": 24.6,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Brian Carter Jr.",
+              "times_top2": 4
+            },
             {
               "name": "Stas Sivka",
               "times_top2": 3
             },
             {
-              "name": "Brian Carter Jr.",
-              "times_top2": 3
-            },
-            {
-              "name": "Will Feagles",
-              "times_top2": 1
+              "name": "Josh Baldwin",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 30.0,
+          "playmaker_risk": "LOW",
+          "top_creator": "Gavin Ward"
         }
       },
       "actual_home_score": 87,
@@ -304188,14 +304558,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 46.2,
-          "top1_pct": 26.6,
+          "avg_sdi": 45.3,
+          "top1_pct": 25.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jaden Jackson",
-              "times_top2": 4
+              "times_top2": 5
             },
             {
               "name": "Chris Jones",
@@ -304205,11 +304575,14 @@
               "name": "Jacolb Fredson-Cole",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 29.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Jacob Meyer"
         },
         "sdiA": {
-          "avg_sdi": 49.4,
-          "top1_pct": 28.6,
+          "avg_sdi": 49.9,
+          "top1_pct": 28.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -304218,14 +304591,17 @@
               "times_top2": 4
             },
             {
-              "name": "Carson Schwieger",
-              "times_top2": 2
+              "name": "Krystian Lewis",
+              "times_top2": 3
             },
             {
-              "name": "Krystian Lewis",
+              "name": "Carson Schwieger",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 33.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Josiah Moore"
         }
       },
       "actual_home_score": 63,
@@ -320252,26 +320628,51 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 40.8,
-          "top1_pct": 24.2,
+          "avg_sdi": 40.6,
+          "top1_pct": 23.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jack Smiley",
-              "times_top2": 4
+              "times_top2": 6
+            },
+            {
+              "name": "Vincent Neugebauer",
+              "times_top2": 3
             },
             {
               "name": "Aleksa Ristic",
               "times_top2": 2
+            }
+          ],
+          "avg_off_share": 32.4,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Jack Smiley"
+        },
+        "sdiA": {
+          "avg_sdi": 52.0,
+          "top1_pct": 28.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Riley Fox",
+              "times_top2": 5
             },
             {
-              "name": "Jabez Jenkins",
-              "times_top2": 1
+              "name": "Trevor Mullin",
+              "times_top2": 4
+            },
+            {
+              "name": "Courtney Wallace",
+              "times_top2": 3
             }
-          ]
-        },
-        "sdiA": null
+          ],
+          "avg_off_share": 33.6,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Riley Fox"
+        }
       },
       "actual_home_score": 60,
       "actual_away_score": 68,
@@ -336296,26 +336697,51 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 54.0,
+          "top1_pct": 30.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Ben Oosterbaan",
+              "times_top2": 3
+            },
+            {
+              "name": "Gustav Knudsen",
+              "times_top2": 3
+            },
+            {
+              "name": "Dylan Bordon",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 47.9,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Dylan Bordon"
+        },
         "sdiA": {
-          "avg_sdi": 46.8,
-          "top1_pct": 27.3,
+          "avg_sdi": 44.3,
+          "top1_pct": 25.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Styles Phipps",
+              "times_top2": 5
+            },
+            {
+              "name": "Vaughn Weems",
               "times_top2": 3
             },
             {
               "name": "Elijah Price",
               "times_top2": 2
-            },
-            {
-              "name": "Vaughn Weems",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 42.0,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Styles Phipps"
         }
       },
       "actual_home_score": 71,
@@ -352359,8 +352785,52 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 45.9,
+          "top1_pct": 29.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Robert Wright III",
+              "times_top2": 4
+            },
+            {
+              "name": "Collin Chandler",
+              "times_top2": 4
+            },
+            {
+              "name": "Bruce Branch III",
+              "times_top2": 3
+            }
+          ],
+          "avg_off_share": 44.0,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Collin Chandler"
+        },
+        "sdiA": {
+          "avg_sdi": 50.4,
+          "top1_pct": 28.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Nikola Dzepina",
+              "times_top2": 3
+            },
+            {
+              "name": "LeJuan Watts",
+              "times_top2": 3
+            },
+            {
+              "name": "Ryan Beasley",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": 37.1,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Ryan Beasley"
+        }
       },
       "actual_home_score": 83,
       "actual_away_score": 77,
@@ -368390,44 +368860,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 41.2,
-          "top1_pct": 23.1,
+          "avg_sdi": 42.6,
+          "top1_pct": 24.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Japhet Moupadele",
-              "times_top2": 2
-            },
-            {
-              "name": "Dom Aekins",
-              "times_top2": 2
+              "name": "Jeff Nwankwo",
+              "times_top2": 4
             },
             {
               "name": "Jaiden Haynes",
+              "times_top2": 3
+            },
+            {
+              "name": "Japhet Moupadele",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 35.7,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Dom Aekins"
         },
         "sdiA": {
-          "avg_sdi": 52.0,
-          "top1_pct": 34.1,
+          "avg_sdi": 53.1,
+          "top1_pct": 33.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Isaiah Griffin",
-              "times_top2": 5
+              "times_top2": 7
             },
             {
               "name": "Bobby Gardner",
-              "times_top2": 5
+              "times_top2": 7
             },
             {
               "name": "Alvin Cole",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 51.4,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Bobby Gardner"
         }
       },
       "actual_home_score": 69,
@@ -384351,34 +384827,37 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 38.5,
+          "avg_sdi": 39.3,
           "top1_pct": 22.3,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
-              "name": "Daniel Michelini-Jackson",
+              "name": "P.J. Haggerty",
+              "times_top2": 5
+            },
+            {
+              "name": "Jordan Pope",
+              "times_top2": 3
+            },
+            {
+              "name": "Jalen Shelley",
               "times_top2": 2
-            },
-            {
-              "name": "Binael Basil",
-              "times_top2": 1
-            },
-            {
-              "name": "Desmond Kent Jr.",
-              "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 46.3,
-          "top1_pct": 25.8,
+          "avg_sdi": 50.5,
+          "top1_pct": 27.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "DJ Shine",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Alex Godley Jr.",
@@ -384386,9 +384865,12 @@
             },
             {
               "name": "Jay King",
-              "times_top2": 1
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 45.9,
+          "playmaker_risk": "HIGH",
+          "top_creator": "DJ Shine"
         }
       },
       "actual_home_score": 68,
@@ -400332,26 +400814,51 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
+        "sdiH": {
+          "avg_sdi": 44.6,
+          "top1_pct": 25.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Jaxson Thompson",
+              "times_top2": 6
+            },
+            {
+              "name": "Jacob Dar",
+              "times_top2": 5
+            },
+            {
+              "name": "Dallas Hobbs",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 36.4,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Jaxson Thompson"
+        },
         "sdiA": {
-          "avg_sdi": 42.3,
+          "avg_sdi": 43.1,
           "top1_pct": 23.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Petar Majstorovic",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Anthony Robinson",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Evan Haywood",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 33.3,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Petar Majstorovic"
         }
       },
       "actual_home_score": 73,
@@ -416295,8 +416802,52 @@
           "rank": null,
           "prior_blended": false
         },
-        "sdiH": null,
-        "sdiA": null
+        "sdiH": {
+          "avg_sdi": 47.2,
+          "top1_pct": 27.7,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "David Burnett",
+              "times_top2": 5
+            },
+            {
+              "name": "Jordan Pennick",
+              "times_top2": 4
+            },
+            {
+              "name": "Jinwoo Kim",
+              "times_top2": 3
+            }
+          ],
+          "avg_off_share": 15.8,
+          "playmaker_risk": "LOW",
+          "top_creator": "Sean Griffin"
+        },
+        "sdiA": {
+          "avg_sdi": 42.3,
+          "top1_pct": 22.9,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Mynor Strong",
+              "times_top2": 6
+            },
+            {
+              "name": "Jaylan Ouwinga",
+              "times_top2": 4
+            },
+            {
+              "name": "Angel Montas",
+              "times_top2": 2
+            }
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
+        }
       },
       "actual_home_score": 51,
       "actual_away_score": 72,
@@ -432236,11 +432787,14 @@
               "name": "Jordan Scott",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 48.6,
-          "top1_pct": 29.7,
+          "avg_sdi": 47.1,
+          "top1_pct": 28.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -432256,7 +432810,10 @@
               "name": "Calvin Sirmans III",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 22.0,
+          "playmaker_risk": "LOW",
+          "top_creator": "Braylhan Thomas"
         }
       },
       "actual_home_score": 94,
@@ -448180,44 +448737,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 46.4,
-          "top1_pct": 25.1,
+          "avg_sdi": 45.5,
+          "top1_pct": 24.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Matt Hampton",
-              "times_top2": 4
+              "times_top2": 5
             },
             {
               "name": "Kobe McDowell-White",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Yonatan Levy",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 33.2,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Matt Hampton"
         },
         "sdiA": {
-          "avg_sdi": 42.6,
-          "top1_pct": 24.4,
+          "avg_sdi": 44.3,
+          "top1_pct": 25.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ari Fulton",
-              "times_top2": 3
+              "times_top2": 4
+            },
+            {
+              "name": "Benjamin Bill",
+              "times_top2": 4
             },
             {
               "name": "Zach Philipkoski",
               "times_top2": 2
-            },
-            {
-              "name": "Benjamin Bill",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 42.0,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Benjamin Bill"
         }
       },
       "actual_home_score": 55,
@@ -464162,8 +464725,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.2,
-          "top1_pct": 25.9,
+          "avg_sdi": 46.8,
+          "top1_pct": 26.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -464173,33 +464736,39 @@
             },
             {
               "name": "Quintero Barnett",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
-              "name": "Jarred Hall",
-              "times_top2": 1
+              "name": "Landyn Colyer",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 36.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Quintero Barnett"
         },
         "sdiA": {
-          "avg_sdi": 40.2,
-          "top1_pct": 22.0,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 38.8,
+          "top1_pct": 21.1,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Daniel Freitag",
+              "times_top2": 5
+            },
+            {
+              "name": "DeShawn Gory",
               "times_top2": 4
             },
             {
               "name": "Legend Smiley",
               "times_top2": 3
-            },
-            {
-              "name": "DeShawn Gory",
-              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 40.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Josiah Lake"
         }
       },
       "actual_home_score": 54,
@@ -480144,8 +480713,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 44.0,
-          "top1_pct": 24.3,
+          "avg_sdi": 42.8,
+          "top1_pct": 23.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -480155,33 +480724,39 @@
             },
             {
               "name": "Cooper Koch",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Trevin Jirak",
-              "times_top2": 2
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 29.6,
+          "playmaker_risk": "LOW",
+          "top_creator": "Trevin Jirak"
         },
         "sdiA": {
-          "avg_sdi": 47.7,
-          "top1_pct": 26.4,
+          "avg_sdi": 45.9,
+          "top1_pct": 25.6,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Taison Chatman",
+              "times_top2": 4
+            },
             {
               "name": "Alec Anigbata",
               "times_top2": 4
             },
             {
-              "name": "Taison Chatman",
-              "times_top2": 3
-            },
-            {
               "name": "Trey Campbell",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 35.3,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Trey Campbell"
         }
       },
       "actual_home_score": 75,
@@ -496126,34 +496701,37 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 38.7,
-          "top1_pct": 21.4,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+          "avg_sdi": 46.6,
+          "top1_pct": 27.6,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Collomb Diego",
-              "times_top2": 2
+              "name": "Davi Remagen",
+              "times_top2": 5
             },
             {
-              "name": "J. Gorosito",
-              "times_top2": 1
+              "name": "Aleksandr Savkov",
+              "times_top2": 3
             },
             {
-              "name": "L. Berra Fernandez",
+              "name": "Vladimir Khryapa",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 33.6,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Davi Remagen"
         },
         "sdiA": {
-          "avg_sdi": 43.9,
-          "top1_pct": 24.1,
+          "avg_sdi": 45.0,
+          "top1_pct": 24.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Ben Hammond",
-              "times_top2": 7
+              "times_top2": 8
             },
             {
               "name": "Amani Hansberry",
@@ -496161,9 +496739,12 @@
             },
             {
               "name": "Jaylen Curry",
-              "times_top2": 3
+              "times_top2": 4
             }
-          ]
+          ],
+          "avg_off_share": 41.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Jaylen Curry"
         }
       },
       "actual_home_score": 41,
@@ -512125,11 +512706,14 @@
               "name": "Chance Mallory",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 45.9,
-          "top1_pct": 24.7,
+          "avg_sdi": 46.4,
+          "top1_pct": 26.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -512139,13 +512723,16 @@
             },
             {
               "name": "Xzayvier Brown",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Derrion Reid",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 49.6,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Xzayvier Brown"
         }
       },
       "actual_home_score": 66,
@@ -528090,14 +528677,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 37.8,
-          "top1_pct": 21.0,
+          "avg_sdi": 38.5,
+          "top1_pct": 21.5,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Shelton Henderson",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Malik Reneau",
@@ -528107,27 +528694,33 @@
               "name": "Nick Dorn",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 30.0,
+          "playmaker_risk": "LOW",
+          "top_creator": "Caleb Gaskins"
         },
         "sdiA": {
-          "avg_sdi": 42.9,
-          "top1_pct": 23.3,
+          "avg_sdi": 43.6,
+          "top1_pct": 24.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "J.P. Estrella",
+              "times_top2": 3
+            },
             {
               "name": "Trey McKenney",
               "times_top2": 2
             },
             {
-              "name": "J.P. Estrella",
+              "name": "Moustapha Thiam",
               "times_top2": 2
-            },
-            {
-              "name": "Elliott Cadeau",
-              "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 36.0,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Trey McKenney"
         }
       },
       "actual_home_score": 58,
@@ -544072,14 +544665,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 44.6,
-          "top1_pct": 25.2,
+          "avg_sdi": 43.3,
+          "top1_pct": 24.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "CJ Brown",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Cam'Ron Fletcher",
@@ -544089,17 +544682,20 @@
               "name": "Jason Rivera-Torres",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 31.7,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "CJ Brown"
         },
         "sdiA": {
-          "avg_sdi": 34.7,
-          "top1_pct": 19.8,
+          "avg_sdi": 39.2,
+          "top1_pct": 21.6,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Jaden Henley",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Tre Holloman",
@@ -544109,7 +544705,10 @@
               "name": "Dylan Darling",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 38.0,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Jaden Henley"
         }
       },
       "actual_home_score": 54,
@@ -560054,44 +560653,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 46.7,
-          "top1_pct": 25.2,
+          "avg_sdi": 45.8,
+          "top1_pct": 25.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Tylik Weeks",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Luke Almodovar",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Jayden Reid",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 38.0,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Tylik Weeks"
         },
         "sdiA": {
-          "avg_sdi": 37.8,
-          "top1_pct": 21.3,
+          "avg_sdi": 38.2,
+          "top1_pct": 21.7,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Adante' Holiman",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Zacch Wiggins",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Scottie Hubbard",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 30.0,
+          "playmaker_risk": "LOW",
+          "top_creator": "Adante' Holiman"
         }
       },
       "actual_home_score": 79,
@@ -576036,14 +576641,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 50.3,
-          "top1_pct": 29.0,
+          "avg_sdi": 47.7,
+          "top1_pct": 27.6,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Nojus Indrusaitis",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Michael Cooper",
@@ -576053,11 +576658,14 @@
               "name": "Jordan Ross",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 29.9,
+          "playmaker_risk": "LOW",
+          "top_creator": "Nojus Indrusaitis"
         },
         "sdiA": {
-          "avg_sdi": 43.9,
-          "top1_pct": 23.7,
+          "avg_sdi": 41.1,
+          "top1_pct": 22.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -576066,14 +576674,17 @@
               "times_top2": 3
             },
             {
-              "name": "Braden Huff",
+              "name": "Isiah Harwell",
               "times_top2": 2
             },
             {
-              "name": "Isiah Harwell",
-              "times_top2": 1
+              "name": "Braden Huff",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 34.3,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Xaivian Lee"
         }
       },
       "actual_home_score": 71,
@@ -592018,34 +592629,37 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 52.2,
-          "top1_pct": 30.7,
+          "avg_sdi": 51.0,
+          "top1_pct": 29.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Caleb Holt",
-              "times_top2": 5
+              "times_top2": 7
             },
             {
               "name": "Ivan Kharchenkov",
-              "times_top2": 4
+              "times_top2": 5
             },
             {
               "name": "Motiejus Krivas",
-              "times_top2": 2
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 38.4,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Ivan Kharchenkov"
         },
         "sdiA": {
-          "avg_sdi": 42.5,
-          "top1_pct": 23.2,
+          "avg_sdi": 42.8,
+          "top1_pct": 23.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Tyler Tanner",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Ace Glass",
@@ -592053,9 +592667,12 @@
             },
             {
               "name": "Chandler Bing",
-              "times_top2": 2
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 39.7,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Tyler Tanner"
         }
       },
       "actual_home_score": 93,
@@ -608000,26 +608617,51 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 46.3,
-          "top1_pct": 25.9,
+          "avg_sdi": 43.9,
+          "top1_pct": 24.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Cristian Sanon",
+              "times_top2": 3
+            },
             {
               "name": "Duor Duor",
               "times_top2": 2
             },
             {
-              "name": "Cristian Sanon",
+              "name": "Ryan Archey",
               "times_top2": 2
+            }
+          ],
+          "avg_off_share": 29.7,
+          "playmaker_risk": "LOW",
+          "top_creator": "Darius Kane"
+        },
+        "sdiA": {
+          "avg_sdi": 40.9,
+          "top1_pct": 23.3,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
+          "top_players": [
+            {
+              "name": "Josh Dalton",
+              "times_top2": 4
             },
             {
-              "name": "Darius Kane",
-              "times_top2": 1
+              "name": "Randall Pettus II",
+              "times_top2": 3
+            },
+            {
+              "name": "Isaiah Mbeng",
+              "times_top2": 2
             }
-          ]
-        },
-        "sdiA": null
+          ],
+          "avg_off_share": 25.9,
+          "playmaker_risk": "LOW",
+          "top_creator": "Randall Pettus II"
+        }
       },
       "actual_home_score": 54,
       "actual_away_score": 74,
@@ -623980,11 +624622,14 @@
               "name": "Isaac Carr",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 46.6,
-          "top1_pct": 28.2,
+          "top1_pct": 27.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -623994,13 +624639,16 @@
             },
             {
               "name": "Cutter Sisk",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Chace Watley",
-              "times_top2": 3
+              "times_top2": 4
             }
-          ]
+          ],
+          "avg_off_share": 34.9,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Chace Watley"
         }
       },
       "actual_home_score": 84,
@@ -639925,14 +640573,14 @@
         },
         "sdiH": null,
         "sdiA": {
-          "avg_sdi": 51.9,
-          "top1_pct": 30.0,
+          "avg_sdi": 50.6,
+          "top1_pct": 29.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Alfred Worrell Jr.",
-              "times_top2": 7
+              "times_top2": 8
             },
             {
               "name": "Jeremiah Kwarteng",
@@ -639942,7 +640590,10 @@
               "name": "Keith Richard",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 35.9,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "David Bumpass"
         }
       },
       "actual_home_score": 65,
@@ -655904,27 +656555,33 @@
               "name": "J.C. Riley Jr",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 37.9,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Jordan Skyers"
         },
         "sdiA": {
-          "avg_sdi": 43.0,
-          "top1_pct": 24.8,
+          "avg_sdi": 47.6,
+          "top1_pct": 27.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Da'Mori Lytch",
-              "times_top2": 3
+              "name": "Jaylen Colon",
+              "times_top2": 4
             },
             {
-              "name": "Jaylen Colon",
+              "name": "Da'Mori Lytch",
               "times_top2": 3
             },
             {
               "name": "Mason Costello",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 42.2,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Ben Kopetzki"
         }
       },
       "actual_home_score": 58,
@@ -671869,34 +672526,37 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 40.3,
-          "top1_pct": 21.4,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 39.7,
+          "top1_pct": 20.9,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Kerem Konan",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Josh Smith",
               "times_top2": 3
             },
             {
-              "name": "Izaiah Pasha",
-              "times_top2": 1
+              "name": "Ege Demir",
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 24.4,
+          "playmaker_risk": "LOW",
+          "top_creator": "Yoav Berman"
         },
         "sdiA": {
-          "avg_sdi": 52.0,
-          "top1_pct": 30.2,
+          "avg_sdi": 53.9,
+          "top1_pct": 31.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Clinton Efinda",
-              "times_top2": 5
+              "times_top2": 6
             },
             {
               "name": "Michael Wilson Jr",
@@ -671906,7 +672566,10 @@
               "name": "Alex Mack",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 36.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Michael Wilson Jr"
         }
       },
       "actual_home_score": 59,
@@ -687851,8 +688514,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 37.5,
-          "top1_pct": 20.4,
+          "avg_sdi": 38.0,
+          "top1_pct": 21.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -687861,14 +688524,17 @@
               "times_top2": 4
             },
             {
-              "name": "Marcus Kell",
+              "name": "Abijah Franklin",
               "times_top2": 3
             },
             {
-              "name": "Jordan Butler",
-              "times_top2": 2
+              "name": "Marcus Kell",
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 30.7,
+          "playmaker_risk": "LOW",
+          "top_creator": "Cameron Elwer"
         },
         "sdiA": {
           "avg_sdi": 43.3,
@@ -687888,7 +688554,10 @@
               "name": "Jordyn Kee",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 40.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Mathieu Grujicic"
         }
       },
       "actual_home_score": 66,
@@ -690058,20 +690727,31 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 57.0,
-          "top1_pct": 31.4,
+          "avg_sdi": 56.4,
+          "top1_pct": 35.3,
           "risk": "RED",
           "risk_label": "HIGH DEPENDENCY",
           "top_players": [
             {
-              "name": "Egor Koulechov",
+              "name": "A. Siciliano",
               "times_top2": 1
             },
             {
-              "name": "Mirza Bulic",
+              "name": "Vignisdottir Anna",
+              "times_top2": 1
+            },
+            {
+              "name": "Agustsdottir Thelma",
+              "times_top2": 1
+            },
+            {
+              "name": "Svansdottir Anna",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 47.7,
@@ -690091,7 +690771,10 @@
               "name": "D. Lawrence",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 94,
@@ -690878,7 +691561,10 @@
               "name": "I. Siguroardottir",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 55.4,
@@ -690898,7 +691584,10 @@
               "name": "J. Karlsdottir",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 81,
@@ -691681,23 +692370,37 @@
               "name": "A. Beeman",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
-          "avg_sdi": 53.0,
-          "top1_pct": 32.2,
+          "avg_sdi": 42.5,
+          "top1_pct": 25.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Luka Gasic",
+              "name": "Svansdottir Agnes",
               "times_top2": 1
             },
             {
-              "name": "Hilmar Henningsson",
+              "name": "S. Almqvist",
+              "times_top2": 1
+            },
+            {
+              "name": "E. Eliasdottir",
+              "times_top2": 1
+            },
+            {
+              "name": "X. Dyer",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 96,
@@ -692476,7 +693179,10 @@
               "name": "Luwane Pipkins",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 59.4,
+          "playmaker_risk": "HIGH",
+          "top_creator": "M. Richards"
         },
         "sdiA": {
           "avg_sdi": 48.6,
@@ -692492,7 +693198,10 @@
               "name": "J. Guinn",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 94,
@@ -694214,7 +694923,10 @@
               "name": "E. Kazar",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 81,
@@ -694977,7 +695689,10 @@
               "name": "Jaleen Smith",
               "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 85,
@@ -695714,7 +696429,10 @@
               "name": "A. Pocek",
               "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 45.4,
@@ -695734,7 +696452,10 @@
               "name": "Caver Ahmad",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 68,
@@ -697585,7 +698306,10 @@
               "name": "Tao Hanlin",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 55.6,
@@ -697605,7 +698329,10 @@
               "name": "Crawford Tyshaun",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 99,
@@ -698691,7 +699418,10 @@
               "name": "Cui Xiaolong",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": {
           "avg_sdi": 43.3,
@@ -698715,7 +699445,10 @@
               "name": "Wu Yujia",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 64,
@@ -699801,7 +700534,10 @@
               "name": "Simpson Zavier",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         },
         "sdiA": null
       },
@@ -701287,7 +702023,10 @@
               "name": "Marcus Foster",
               "times_top2": 7
             }
-          ]
+          ],
+          "avg_off_share": null,
+          "playmaker_risk": null,
+          "top_creator": null
         }
       },
       "actual_home_score": 74,
@@ -717318,8 +718057,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.3,
-          "top1_pct": 25.1,
+          "avg_sdi": 49.8,
+          "top1_pct": 27.3,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -717329,33 +718068,39 @@
             },
             {
               "name": "Trevor Best",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
-              "name": "Kaseem Watson",
-              "times_top2": 2
+              "name": "Brycen Blaine",
+              "times_top2": 3
             }
-          ]
+          ],
+          "avg_off_share": 45.2,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Cian Medley"
         },
         "sdiA": {
-          "avg_sdi": 42.2,
-          "top1_pct": 24.3,
+          "avg_sdi": 43.8,
+          "top1_pct": 25.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Karmani Gregory",
-              "times_top2": 4
+              "times_top2": 5
             },
             {
               "name": "Jackson Cooper",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Maguire Mitchell",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 53.3,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Karmani Gregory"
         }
       },
       "actual_home_score": 76,
@@ -733385,14 +734130,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 56.3,
-          "top1_pct": 32.4,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 53.2,
+          "top1_pct": 31.4,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Jalen Haynes",
-              "times_top2": 4
+              "times_top2": 5
             },
             {
               "name": "Damien Mayo",
@@ -733402,11 +734147,14 @@
               "name": "Jeremiah Jackson",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 45.4,
+          "playmaker_risk": "HIGH",
+          "top_creator": "Jalen Haynes"
         },
         "sdiA": {
-          "avg_sdi": 45.2,
-          "top1_pct": 25.9,
+          "avg_sdi": 46.8,
+          "top1_pct": 26.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -733416,13 +734164,16 @@
             },
             {
               "name": "Quintero Barnett",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
-              "name": "Jarred Hall",
-              "times_top2": 1
+              "name": "Landyn Colyer",
+              "times_top2": 2
             }
-          ]
+          ],
+          "avg_off_share": 36.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Quintero Barnett"
         }
       },
       "actual_home_score": 77,
@@ -749463,44 +750214,50 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 38.7,
-          "top1_pct": 21.4,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+          "avg_sdi": 46.6,
+          "top1_pct": 27.6,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Collomb Diego",
-              "times_top2": 2
+              "name": "Davi Remagen",
+              "times_top2": 5
             },
             {
-              "name": "J. Gorosito",
-              "times_top2": 1
+              "name": "Aleksandr Savkov",
+              "times_top2": 3
             },
             {
-              "name": "L. Berra Fernandez",
+              "name": "Vladimir Khryapa",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 33.6,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Davi Remagen"
         },
         "sdiA": {
-          "avg_sdi": 51.5,
-          "top1_pct": 28.3,
+          "avg_sdi": 52.3,
+          "top1_pct": 30.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Cam Scott",
-              "times_top2": 3
+              "times_top2": 5
             },
             {
               "name": "Derrian Ford",
-              "times_top2": 3
+              "times_top2": 4
             },
             {
               "name": "Gavin Griffiths",
               "times_top2": 1
             }
-          ]
+          ],
+          "avg_off_share": 37.8,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "Dez White"
         }
       },
       "actual_home_score": 90,
