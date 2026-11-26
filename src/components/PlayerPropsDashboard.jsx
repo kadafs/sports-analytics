@@ -122,11 +122,49 @@ export default function PlayerPropsDashboard({ selectedDate }) {
   }
 
   if (error || !propsData) {
+    const displayDate = selectedDate ? String(selectedDate).replace(/_?v2_?/gi, '') : 'Selected Date'
     return (
       <div className="props-dashboard">
-        <div style={{ padding: '40px', textAlign: 'center', color: '#94a3b8' }}>
-          <div style={{ fontSize: '28px', marginBottom: '8px' }}>🎯</div>
-          <p>{error || 'No player props found for this date.'}</p>
+        <div style={{ padding: '60px 20px', textAlign: 'center', color: '#94a3b8' }}>
+          <div style={{ fontSize: '36px', marginBottom: '12px' }}>🎯</div>
+          <h3 style={{ color: '#f8fafc', margin: '0 0 8px 0', fontSize: '18px' }}>
+            No Player Props Found for {displayDate}
+          </h3>
+          <p style={{ maxWidth: '440px', margin: '0 auto 18px auto', fontSize: '13px', lineHeight: '1.6', color: '#94a3b8' }}>
+            Player props are evaluated for dates with active NBA schedules. You can load the most recent evaluated slate below.
+          </p>
+          <button
+            onClick={() => {
+              setLoading(true)
+              setError(null)
+              fetchPlayerProps('latest')
+                .then(res => {
+                  if (res) {
+                    setPropsData(res)
+                  } else {
+                    setError('No player props found.')
+                  }
+                  setLoading(false)
+                })
+                .catch(() => {
+                  setError('Failed to load latest props.')
+                  setLoading(false)
+                })
+            }}
+            style={{
+              background: '#7c3aed',
+              color: '#fff',
+              border: 'none',
+              padding: '9px 20px',
+              borderRadius: '6px',
+              fontWeight: 700,
+              fontSize: '13px',
+              cursor: 'pointer',
+              transition: 'all 0.15s ease'
+            }}
+          >
+            🎯 Load Latest Evaluated Props
+          </button>
         </div>
       </div>
     )

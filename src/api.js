@@ -74,18 +74,34 @@ export async function fetchBasketballSignalStats() {
 
 export async function fetchPlayerProps(date = 'latest') {
   try {
-    const filename = (date && date !== 'latest')
-      ? `nba_player_props_${date}.json`
-      : 'nba_player_props_latest.json'
-    const r = await fetch(`${DATA}/basketball/${filename}?t=${Date.now()}`)
-    if (!r.ok) {
-      if (date !== 'latest') {
-        const fallback = await fetch(`${DATA}/basketball/nba_player_props_latest.json?t=${Date.now()}`)
-        if (fallback.ok) return await fallback.json()
-      }
-      return null
+    // Strip _v2 or v2_ suffix from date (e.g. '2026-11-26_v2' -> '2026-11-26')
+    const cleanDate = date ? String(date).replace(/_?v2_?/gi, '').trim() : ''
+
+    const candidateFiles = []
+    if (cleanDate && cleanDate !== 'latest') {
+      candidateFiles.push(`nba_player_props_${cleanDate}.json`)
     }
-    return await r.json()
+    candidateFiles.push('nba_player_props_latest.json')
+
+    for (const file of candidateFiles) {
+      try {
+        const r = await fetch(`${DATA}/basketball/${file}?t=${Date.now()}`)
+        if (r.ok) {
+          const contentType = r.headers.get('content-type') || ''
+          // If Vercel rewrote missing file to index.html, skip it
+          if (contentType.includes('text/html')) {
+            continue
+          }
+          const data = await r.json()
+          if (data && (data.standard_value_plays || data.value_plays || data.all_props || data.total_evaluated)) {
+            return data
+          }
+        }
+      } catch (err) {
+        // Fall through to next candidate
+      }
+    }
+    return null
   } catch (e) {
     console.error('Error fetching player props:', e)
     return null
