@@ -1260625,7 +1260625,18 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 4657,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 124,
+      "actual_away_score": 54,
+      "actual_result": "HOME",
+      "halftime_home_score": 65,
+      "halftime_away_score": 26,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 53.5,
+      "total_delta": 8.04,
+      "signed_delta": 8.04,
+      "total_rpe": 4.52,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -1485652,7 +1485663,18 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 4300,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 67,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 33,
+      "halftime_away_score": 52,
+      "halftime_total": 85,
+      "halftime_pct_of_model": 50.3,
+      "total_delta": 12.88,
+      "signed_delta": -12.88,
+      "total_rpe": 8.26,
+      "accuracy_tier": "SOLID"
     },
     {
       "is_mismatch": true,
@@ -2300694,7 +2300716,18 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 4800,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 46,
+      "actual_away_score": 48,
+      "actual_result": "AWAY",
+      "halftime_home_score": 23,
+      "halftime_away_score": 24,
+      "halftime_total": 47,
+      "halftime_pct_of_model": 35.6,
+      "total_delta": 38.15,
+      "signed_delta": -38.15,
+      "total_rpe": 40.59,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -2409388,7 +2409421,7 @@
       "accuracy_tier": "EXCELLENT"
     }
   ],
-  "graded_at": "2026-11-26T03:53:53.455856",
+  "graded_at": "2026-11-26T05:57:03.744576",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 75,
