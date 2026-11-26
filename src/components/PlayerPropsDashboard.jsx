@@ -12,8 +12,9 @@ export default function PlayerPropsDashboard({ selectedDate }) {
   const [marketTier, setMarketTier] = useState('standard') // standard (1.60-2.30) | alt (>2.30) | all
   const [direction, setDirection] = useState('ALL') // ALL | OVER | UNDER
   const [conviction, setConviction] = useState('all') // all | high
+  const [selectedMatchup, setSelectedMatchup] = useState('ALL') // ALL | specific game or team
   const [search, setSearch] = useState('')
-  const [sortBy, setSortBy] = useState('ev') // ev | edge | win_prob | odds
+  const [sortBy, setSortBy] = useState('ev') // ev | edge | win_prob | odds | proj_desc | proj_asc | proj_diff
 
   useEffect(() => {
     let isMounted = true
@@ -55,6 +56,25 @@ export default function PlayerPropsDashboard({ selectedDate }) {
     ]
   }, [propsData, marketTier])
 
+  // Extract unique matchups and individual teams for dropdown filtering
+  const { uniqueMatchups, uniqueTeams } = useMemo(() => {
+    const mSet = new Set()
+    const tSet = new Set()
+    rawList.forEach(p => {
+      if (p.game) {
+        mSet.add(p.game)
+        const parts = p.game.split(' vs ')
+        parts.forEach(t => {
+          if (t && t.trim()) tSet.add(t.trim())
+        })
+      }
+    })
+    return {
+      uniqueMatchups: Array.from(mSet).sort(),
+      uniqueTeams: Array.from(tSet).sort()
+    }
+  }, [rawList])
+
   // Apply User Filters
   const filteredList = useMemo(() => {
     let list = [...rawList]
@@ -74,6 +94,16 @@ export default function PlayerPropsDashboard({ selectedDate }) {
       list = list.filter(p => p.is_high_conviction || (p.edge_pct >= 8.0 && p.ev_pct >= 10.0))
     }
 
+    // Matchup or Team
+    if (selectedMatchup !== 'ALL') {
+      if (selectedMatchup.startsWith('team:')) {
+        const teamName = selectedMatchup.replace('team:', '').toLowerCase()
+        list = list.filter(p => p.game && p.game.toLowerCase().includes(teamName))
+      } else {
+        list = list.filter(p => p.game === selectedMatchup)
+      }
+    }
+
     // Search query
     if (search.trim()) {
       const q = search.toLowerCase().trim()
@@ -87,13 +117,16 @@ export default function PlayerPropsDashboard({ selectedDate }) {
     list.sort((a, b) => {
       if (sortBy === 'ev') return b.ev_pct - a.ev_pct
       if (sortBy === 'edge') return b.edge_pct - a.edge_pct
+      if (sortBy === 'proj_desc') return b.projected_value - a.projected_value
+      if (sortBy === 'proj_asc') return a.projected_value - b.projected_value
+      if (sortBy === 'proj_diff') return Math.abs(b.projected_value - b.line) - Math.abs(a.projected_value - a.line)
       if (sortBy === 'win_prob') return b.win_probability - a.win_probability
       if (sortBy === 'odds') return a.odds - b.odds
       return 0
     })
 
     return list
-  }, [rawList, category, direction, conviction, search, sortBy])
+  }, [rawList, category, direction, conviction, selectedMatchup, search, sortBy])
 
   // Compute Live Graded Stats for filtered list
   const gradedStats = useMemo(() => {
@@ -335,10 +368,34 @@ export default function PlayerPropsDashboard({ selectedDate }) {
             </button>
           </div>
 
-          <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+            {/* Matchup / Team Filter */}
+            <select
+              className="matchup-select"
+              value={selectedMatchup}
+              onChange={e => setSelectedMatchup(e.target.value)}
+              title="Filter by Matchup or Team"
+            >
+              <option value="ALL">🏀 All Matchups ({uniqueMatchups.length} games)</option>
+              {uniqueMatchups.length > 0 && (
+                <optgroup label="── By Game Matchup ──">
+                  {uniqueMatchups.map(m => (
+                    <option key={m} value={m}>{m}</option>
+                  ))}
+                </optgroup>
+              )}
+              {uniqueTeams.length > 0 && (
+                <optgroup label="── By Individual Team ──">
+                  {uniqueTeams.map(t => (
+                    <option key={`team:${t}`} value={`team:${t}`}>{t}</option>
+                  ))}
+                </optgroup>
+              )}
+            </select>
+
             <input
               type="text"
-              placeholder="Search player or team…"
+              placeholder="Search player…"
               className="search-input"
               value={search}
               onChange={e => setSearch(e.target.value)}
@@ -351,6 +408,9 @@ export default function PlayerPropsDashboard({ selectedDate }) {
             >
               <option value="ev">Sort: Highest EV%</option>
               <option value="edge">Sort: Highest Edge%</option>
+              <option value="proj_desc">Sort: Model Projection (High → Low)</option>
+              <option value="proj_asc">Sort: Model Projection (Low → High)</option>
+              <option value="proj_diff">Sort: Projection Diff vs Line</option>
               <option value="win_prob">Sort: Win Probability</option>
               <option value="odds">Sort: Lowest Odds</option>
             </select>

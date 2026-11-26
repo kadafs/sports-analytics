@@ -171,6 +171,34 @@
   font-size: 10px;
 }
 
+.matchup-select {
+  background: var(--card-bg, #182030);
+  border: 1px solid var(--border, #2d3748);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  max-width: 250px;
+  text-overflow: ellipsis;
+}
+
+.matchup-select:focus {
+  border-color: #6366f1;
+}
+
+.matchup-select optgroup {
+  background: #111726;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.matchup-select option {
+  background: #1a2234;
+  color: #f8fafc;
+}
+
 .search-input {
   background: var(--card-bg, #182030);
   border: 1px solid var(--border, #2d3748);
@@ -178,7 +206,7 @@
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 12px;
-  min-width: 200px;
+  min-width: 150px;
   outline: none;
 }
 
