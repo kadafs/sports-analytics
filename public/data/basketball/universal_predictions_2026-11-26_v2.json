@@ -31,7 +31,7 @@
       "time": "05:00",
       "away_team": "Hong Kong",
       "home_team": "Fiji",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 147.81,
       "xpts_h": 79.4,
@@ -1559,7 +1559,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Jones Mason"
         }
-      }
+      },
+      "actual_home_score": 65,
+      "actual_away_score": 106,
+      "actual_result": "AWAY",
+      "halftime_home_score": 25,
+      "halftime_away_score": 56,
+      "halftime_total": 81,
+      "halftime_pct_of_model": 54.8,
+      "total_delta": 23.19,
+      "signed_delta": 23.19,
+      "total_rpe": 13.56,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -58761,7 +58772,7 @@
       "time": "03:00",
       "away_team": "Sacramento Kings",
       "home_team": "Golden State Warriors",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 218.64,
       "xpts_h": 115.1,
@@ -62993,7 +63004,18 @@
           "playmaker_risk": "HIGH",
           "top_creator": "J. D. Acuff"
         }
-      }
+      },
+      "actual_home_score": 129,
+      "actual_away_score": 110,
+      "actual_result": "HOME",
+      "halftime_home_score": 72,
+      "halftime_away_score": 53,
+      "halftime_total": 125,
+      "halftime_pct_of_model": 57.2,
+      "total_delta": 20.36,
+      "signed_delta": 20.36,
+      "total_rpe": 8.52,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -63023,7 +63045,7 @@
       "time": "03:00",
       "away_team": "San Antonio Spurs",
       "home_team": "Portland Trail Blazers",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 225.24,
       "xpts_h": 111.6,
@@ -67255,7 +67277,18 @@
           "playmaker_risk": "HIGH",
           "top_creator": "Castle Stephon"
         }
-      }
+      },
+      "actual_home_score": 116,
+      "actual_away_score": 111,
+      "actual_result": "HOME",
+      "halftime_home_score": 60,
+      "halftime_away_score": 57,
+      "halftime_total": 117,
+      "halftime_pct_of_model": 51.9,
+      "total_delta": 1.76,
+      "signed_delta": 1.76,
+      "total_rpe": 0.78,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -67285,7 +67318,7 @@
       "time": "00:00",
       "away_team": "Greensboro Swarm",
       "home_team": "Westchester",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 229.48,
       "xpts_h": 113.7,
@@ -70313,7 +70346,18 @@
           "playmaker_risk": null,
           "top_creator": null
         }
-      }
+      },
+      "actual_home_score": 109,
+      "actual_away_score": 122,
+      "actual_result": "AWAY",
+      "halftime_home_score": 53,
+      "halftime_away_score": 61,
+      "halftime_total": 114,
+      "halftime_pct_of_model": 49.7,
+      "total_delta": 1.52,
+      "signed_delta": 1.52,
+      "total_rpe": 0.66,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -70343,7 +70387,7 @@
       "time": "00:30",
       "away_team": "Osceola Magic",
       "home_team": "Laketown Squadron",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 234.38,
       "xpts_h": 118.2,
@@ -73371,7 +73415,18 @@
           "playmaker_risk": null,
           "top_creator": null
         }
-      }
+      },
+      "actual_home_score": 100,
+      "actual_away_score": 104,
+      "actual_result": "AWAY",
+      "halftime_home_score": 44,
+      "halftime_away_score": 48,
+      "halftime_total": 92,
+      "halftime_pct_of_model": 39.3,
+      "total_delta": 30.38,
+      "signed_delta": -30.38,
+      "total_rpe": 14.89,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -73415,7 +73470,7 @@
       "time": "00:30",
       "away_team": "Cleveland Charge",
       "home_team": "Sioux Falls Skyforce",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 250.0,
       "xpts_h": 129.2,
@@ -76443,7 +76498,18 @@
           "playmaker_risk": null,
           "top_creator": null
         }
-      }
+      },
+      "actual_home_score": 125,
+      "actual_away_score": 130,
+      "actual_result": "AWAY",
+      "halftime_home_score": 70,
+      "halftime_away_score": 71,
+      "halftime_total": 141,
+      "halftime_pct_of_model": 56.4,
+      "total_delta": 5.0,
+      "signed_delta": 5.0,
+      "total_rpe": 1.96,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -189698,7 +189764,18 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 4778,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 93,
+      "actual_away_score": 59,
+      "actual_result": "HOME",
+      "halftime_home_score": 43,
+      "halftime_away_score": 27,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 40.9,
+      "total_delta": 18.97,
+      "signed_delta": -18.97,
+      "total_rpe": 12.48,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": true,
@@ -286108,7 +286185,14 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 5100,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 77,
+      "actual_away_score": 100,
+      "actual_result": "AWAY",
+      "total_delta": 23.67,
+      "signed_delta": 23.67,
+      "total_rpe": 13.37,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -302208,7 +302292,7 @@
       "time": "03:30",
       "away_team": "Pacific",
       "home_team": "Jacksonville State",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 143.21,
       "xpts_h": 71.6,
@@ -318241,7 +318325,14 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Christian Jones"
         }
-      }
+      },
+      "actual_home_score": 76,
+      "actual_away_score": 83,
+      "actual_result": "AWAY",
+      "total_delta": 15.79,
+      "signed_delta": 15.79,
+      "total_rpe": 9.93,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -542845,7 +542936,7 @@
       "time": "02:00",
       "away_team": "San Diego W",
       "home_team": "Utah Tech W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 136.92,
       "xpts_h": 69.7,
@@ -558773,7 +558864,18 @@
       },
       "is_altitude_venue": true,
       "altitude_ft": 4657,
-      "altitude_tag": "AVOID - ALTITUDE"
+      "altitude_tag": "AVOID - ALTITUDE",
+      "actual_home_score": 71,
+      "actual_away_score": 89,
+      "actual_result": "AWAY",
+      "halftime_home_score": 27,
+      "halftime_away_score": 39,
+      "halftime_total": 66,
+      "halftime_pct_of_model": 48.2,
+      "total_delta": 23.08,
+      "signed_delta": 23.08,
+      "total_rpe": 14.43,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -909380,17 +909482,17 @@
       }
     }
   ],
-  "graded_at": "2026-11-26T04:11:59.691652",
+  "graded_at": "2026-11-26T08:09:31.525208",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 8,
-      "total": 12,
-      "pct": 66.7
+      "total": 14,
+      "pct": 57.1
     },
     "[ADVANCED]": {
-      "wins": 2,
-      "total": 10,
-      "pct": 20.0
+      "wins": 4,
+      "total": 16,
+      "pct": 25.0
     }
   }
 }
