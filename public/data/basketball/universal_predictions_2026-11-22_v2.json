@@ -606772,7 +606772,10 @@
       "total_delta": 16.68,
       "signed_delta": -16.68,
       "total_rpe": 11.35,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "is_altitude_venue": true,
+      "altitude_ft": 4657,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -671052,7 +671055,10 @@
       "halftime_pct_of_model": 35.4,
       "accuracy_tier": "OT WARP",
       "total_delta": null,
-      "total_rpe": null
+      "total_rpe": null,
+      "is_altitude_venue": true,
+      "altitude_ft": 5100,
+      "altitude_tag": "ALTITUDE - OVER ONLY"
     },
     {
       "is_mismatch": true,
@@ -1583217,7 +1583223,10 @@
       "total_delta": 9.57,
       "signed_delta": -9.57,
       "total_rpe": 7.2,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 5800,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": true,
@@ -1631160,7 +1631169,10 @@
       "total_delta": 4.0,
       "signed_delta": 4.0,
       "total_rpe": 2.96,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "is_altitude_venue": true,
+      "altitude_ft": 5360,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -1663136,7 +1663148,10 @@
       "total_delta": 21.01,
       "signed_delta": -21.01,
       "total_rpe": 20.6,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "is_altitude_venue": true,
+      "altitude_ft": 7220,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,

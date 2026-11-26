@@ -77880,7 +77880,10 @@
       "total_delta": 16.9,
       "signed_delta": -16.9,
       "total_rpe": 8.2,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "is_altitude_venue": true,
+      "altitude_ft": 5280,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -748940,7 +748943,10 @@
       "total_delta": 9.89,
       "signed_delta": -9.89,
       "total_rpe": 6.55,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 5360,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -781039,7 +781045,10 @@
       "total_delta": 9.71,
       "signed_delta": 9.71,
       "total_rpe": 5.65,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 4778,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": true,
@@ -813166,7 +813175,10 @@
       "total_delta": 21.24,
       "signed_delta": -21.24,
       "total_rpe": 15.73,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "is_altitude_venue": true,
+      "altitude_ft": 5360,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": true,
@@ -829198,7 +829210,10 @@
       "total_delta": 11.26,
       "signed_delta": -11.26,
       "total_rpe": 7.41,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 4551,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": true,
@@ -877336,7 +877351,10 @@
       "total_delta": 11.51,
       "signed_delta": 11.51,
       "total_rpe": 6.98,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 4505,
+      "altitude_tag": "ALTITUDE - OVER ONLY"
     },
     {
       "is_mismatch": false,
@@ -1356489,27 +1356507,27 @@
           "top_creator": "Jaylen Fenner"
         },
         "sdiA": {
-          "avg_sdi": 53.5,
-          "top1_pct": 28.7,
+          "avg_sdi": 43.8,
+          "top1_pct": 24.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Jalen Tatum",
-              "times_top2": 6
+              "name": "Jeremiah Wilkinson",
+              "times_top2": 4
             },
             {
-              "name": "Macaleab Rich",
+              "name": "Billy Richmond III",
+              "times_top2": 4
+            },
+            {
+              "name": "Jordan Smith Jr.",
               "times_top2": 3
-            },
-            {
-              "name": "Creed Williamson",
-              "times_top2": 2
             }
           ],
-          "avg_off_share": 36.0,
+          "avg_off_share": 38.2,
           "playmaker_risk": "MODERATE",
-          "top_creator": "Jalen Tatum"
+          "top_creator": "Davion Thompson"
         }
       },
       "actual_home_score": 85,
@@ -1436223,7 +1436241,10 @@
       "total_delta": 17.19,
       "signed_delta": -17.19,
       "total_rpe": 14.21,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "is_altitude_venue": true,
+      "altitude_ft": 6621,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -1468157,7 +1468178,10 @@
       "total_delta": 0.07,
       "signed_delta": 0.07,
       "total_rpe": 0.05,
-      "accuracy_tier": "BULLSEYE"
+      "accuracy_tier": "BULLSEYE",
+      "is_altitude_venue": true,
+      "altitude_ft": 5100,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,

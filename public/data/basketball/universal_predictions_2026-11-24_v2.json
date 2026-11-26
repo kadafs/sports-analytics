@@ -257634,7 +257634,10 @@
       "total_delta": 4.54,
       "signed_delta": -4.54,
       "total_rpe": 3.05,
-      "accuracy_tier": "EXCELLENT"
+      "accuracy_tier": "EXCELLENT",
+      "is_altitude_venue": true,
+      "altitude_ft": 4657,
+      "altitude_tag": "ALTITUDE - OVER ONLY"
     },
     {
       "is_mismatch": false,
@@ -402259,7 +402262,10 @@
       "total_delta": 19.66,
       "signed_delta": -19.66,
       "total_rpe": 14.35,
-      "accuracy_tier": "MISS"
+      "accuracy_tier": "MISS",
+      "is_altitude_venue": true,
+      "altitude_ft": 5100,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -434399,7 +434405,10 @@
       "total_delta": 21.21,
       "signed_delta": -21.21,
       "total_rpe": 16.32,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "is_altitude_venue": true,
+      "altitude_ft": 5360,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -1331450,7 +1331459,10 @@
       "total_delta": 9.33,
       "signed_delta": -9.33,
       "total_rpe": 6.43,
-      "accuracy_tier": "SOLID"
+      "accuracy_tier": "SOLID",
+      "is_altitude_venue": true,
+      "altitude_ft": 4800,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,
@@ -1491208,27 +1491220,27 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 53.5,
-          "top1_pct": 28.7,
+          "avg_sdi": 43.8,
+          "top1_pct": 24.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "Jalen Tatum",
-              "times_top2": 6
+              "name": "Jeremiah Wilkinson",
+              "times_top2": 4
             },
             {
-              "name": "Macaleab Rich",
+              "name": "Billy Richmond III",
+              "times_top2": 4
+            },
+            {
+              "name": "Jordan Smith Jr.",
               "times_top2": 3
-            },
-            {
-              "name": "Creed Williamson",
-              "times_top2": 2
             }
           ],
-          "avg_off_share": 36.0,
+          "avg_off_share": 38.2,
           "playmaker_risk": "MODERATE",
-          "top_creator": "Jalen Tatum"
+          "top_creator": "Davion Thompson"
         },
         "sdiA": {
           "avg_sdi": 39.5,
@@ -1636492,7 +1636504,10 @@
       "total_delta": 23.59,
       "signed_delta": -23.59,
       "total_rpe": 17.35,
-      "accuracy_tier": "BUST"
+      "accuracy_tier": "BUST",
+      "is_altitude_venue": true,
+      "altitude_ft": 4551,
+      "altitude_tag": "AVOID - ALTITUDE"
     },
     {
       "is_mismatch": false,

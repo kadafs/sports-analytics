@@ -204,6 +204,22 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
   const tierGap = primary.tier_gap ?? primary.conference_tier_gap ?? consolidatedGame?.tier_gap ?? consolidatedGame?.conference_tier_gap
   const isMismatch = Boolean(isNcaa && (primary.is_mismatch ?? consolidatedGame?.is_mismatch) && (tierGap == null || tierGap >= 2))
 
+  // High-Altitude Venue indicator (≥ 4,000 ft)
+  const ALTITUDE_MAP = {
+    'wyoming': 7220, 'air force': 6621, 'southern utah': 5800, 'colorado': 5360,
+    'denver': 5280, 'new mexico': 5100, 'colorado state': 5004, 'montana state': 4800,
+    'utah state': 4778, 'northern colorado': 4650, 'utah': 4657, 'byu': 4551,
+    'brigham young': 4551, 'nevada': 4505, 'utah valley': 4500, 'idaho state': 4500,
+    'weber state': 4300
+  }
+  const homeLower = (home_team || '').toLowerCase()
+  const matchedAltKey = isNcaa ? Object.keys(ALTITUDE_MAP).find(k => homeLower.includes(k)) : null
+  const isAltitudeVenue = Boolean(primary.is_altitude_venue || consolidatedGame?.is_altitude_venue || matchedAltKey)
+  const altitudeFt = primary.altitude_ft || consolidatedGame?.altitude_ft || (matchedAltKey ? ALTITUDE_MAP[matchedAltKey] : null)
+  const rawAltTag = primary.altitude_tag || consolidatedGame?.altitude_tag
+  const altitudeTag = rawAltTag || (isAltitudeVenue ? (market_total && market_total <= 145.5 ? 'ALTITUDE - OVER ONLY' : 'AVOID - ALTITUDE') : null)
+  const isAltitudeAvoid = altitudeTag === 'AVOID - ALTITUDE'
+
   const [signalStats, setSignalStats] = useState(_cachedSignalStats)
 
   useEffect(() => {
@@ -440,6 +456,27 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
               📊 EARLY
             </div>
           )}
+          {altitudeTag && !isFinished && (
+            <div
+              title={`High Altitude Venue (${altitudeFt ? `${altitudeFt.toLocaleString()} ft` : '≥4,000 ft'}) — ${altitudeTag}`}
+              style={{
+                marginTop: 2,
+                fontSize: 7,
+                fontWeight: 800,
+                padding: '1px 3px',
+                borderRadius: 2,
+                display: 'inline-block',
+                background: isAltitudeAvoid ? '#dc2626' : '#15803d',
+                color: '#fff',
+                opacity: 0.9,
+                textAlign: 'center',
+                lineHeight: 1,
+                cursor: 'help',
+              }}
+            >
+              {isAltitudeAvoid ? '🏔️ AVOID' : '🏔️ OVER'}
+            </div>
+          )}
         </div>
 
         {/* TEAMS COLUMN */}
@@ -599,6 +636,24 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                 title={`Models Diverge (${model_divergence ?? Math.abs((advTotal || 0) - (srsTotal || 0)).toFixed(1)} pts): ADV (${advTotal?.toFixed(1)}) vs SRS (${srsTotal?.toFixed(1)}). Conservative model selected.`}
               >
                 ⚡ DISCORDANT
+              </span>
+            )}
+            {altitudeTag && (
+              <span
+                style={{
+                  fontSize: '9.5px',
+                  lineHeight: 1,
+                  fontWeight: 800,
+                  background: isAltitudeAvoid ? 'rgba(239, 68, 68, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+                  color: isAltitudeAvoid ? '#ef4444' : '#10b981',
+                  border: `1px solid ${isAltitudeAvoid ? 'rgba(239, 68, 68, 0.35)' : 'rgba(16, 185, 129, 0.35)'}`,
+                  borderRadius: '3px',
+                  padding: '1px 4px',
+                  cursor: 'help'
+                }}
+                title={`High Altitude Venue (${altitudeFt ? `${altitudeFt.toLocaleString()} ft` : '≥4,000 ft'}): Empirical audit shows extreme scoring volatility (+4.6 pts avg) & market mispricing. ${isAltitudeAvoid ? 'Model Unders and high-total Overs have negative ROI. Default policy: PASS / AVOID.' : 'Market total ≤ 145.5 qualifies for model OVER.'}`}
+              >
+                {isAltitudeAvoid ? '🏔️ [AVOID - ALTITUDE]' : '🏔️ [ALTITUDE - OVER]'}
               </span>
             )}
 
@@ -778,6 +833,25 @@ export default function BasketballRow({ game: consolidatedGame, leagueHasAdv = f
                           }}>
                             <span>⚠️</span>
                             <span><strong>Playmaker Trap Risk:</strong> {isHighRiskH && isHighRiskA ? 'Both teams rely' : (isHighRiskH ? home_team : away_team) + ' relies'} on a single primary creator (≥38.8% offensive responsibility).</span>
+                          </div>
+                        )}
+                        {altitudeTag && (
+                          <div style={{
+                            margin: '4px 8px 8px',
+                            padding: '6px 10px',
+                            background: isAltitudeAvoid ? 'rgba(239, 68, 68, 0.12)' : 'rgba(16, 185, 129, 0.12)',
+                            border: `1px solid ${isAltitudeAvoid ? 'rgba(239, 68, 68, 0.3)' : 'rgba(16, 185, 129, 0.3)'}`,
+                            borderRadius: '6px',
+                            fontSize: '11px',
+                            color: isAltitudeAvoid ? '#fca5a5' : '#86efac',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '6px'
+                          }}>
+                            <span>🏔️</span>
+                            <span>
+                              <strong>{isAltitudeAvoid ? 'High Altitude Warning (AVOID):' : 'Altitude Opportunity:'}</strong> {home_team} plays at high elevation ({altitudeFt ? `${altitudeFt.toLocaleString()} ft` : '≥4,000 ft'}). {isAltitudeAvoid ? 'Audit reveals extreme total volatility (+4.6 pts avg) and negative ROI on Unders / high-total Overs. Recommendation: PASS.' : 'Market total ≤ 145.5 historical win rate: 83.3% (+15.8 pt cover margin).'}
+                            </span>
                           </div>
                         )}
                       </>
