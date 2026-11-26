@@ -5,6 +5,7 @@ import Scorecard from './components/Scorecard'
 import LeagueGroup from './components/LeagueGroup'
 import TeamTracker from './components/TeamTracker'
 import LiveDashboard from './components/LiveDashboard'
+import PlayerPropsDashboard from './components/PlayerPropsDashboard'
 
 function isWomensLeague(league = '') {
   const l = league.toLowerCase()
@@ -1140,6 +1141,7 @@ export default function App() {
         sport={sport}
         setSport={(s) => {
           setSport(s);
+          if (viewMode === 'props') setViewMode('matches');
           setData(null);
           setError(null);
           setFilterDecision('all');
@@ -1500,7 +1502,22 @@ export default function App() {
 
 
 
-            {/* Night Shift Toggle — sits next to Compact */}
+            {/* Props, Live & Night Shift Toggles */}
+            {sport === 'basketball' && (
+              <button
+                className={`control-btn ${viewMode === 'props' ? 'active' : ''}`}
+                onClick={() => setViewMode(viewMode === 'props' ? 'matches' : 'props')}
+                style={{
+                  background: viewMode === 'props' ? '#7c3aed' : '',
+                  color: viewMode === 'props' ? '#fff' : '',
+                  fontWeight: 700,
+                  border: viewMode === 'props' ? '1px solid #a855f7' : ''
+                }}
+                title="NBA Player Props Quantitative Engine"
+              >
+                🎯 PLAYER PROPS
+              </button>
+            )}
             <button
               className={`control-btn ${viewMode === 'live' ? 'active' : ''}`}
               onClick={() => setViewMode(viewMode === 'live' ? 'matches' : 'live')}
@@ -1532,6 +1549,10 @@ export default function App() {
 
         {viewMode === 'live' && (
           <LiveDashboard sport={sport} />
+        )}
+
+        {viewMode === 'props' && (
+          <PlayerPropsDashboard selectedDate={selectedDate} />
         )}
 
         {!loading && !error && viewMode === 'matches' && groups.length > 0 && (

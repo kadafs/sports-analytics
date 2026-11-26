@@ -72,6 +72,26 @@ export async function fetchBasketballSignalStats() {
   return null
 }
 
+export async function fetchPlayerProps(date = 'latest') {
+  try {
+    const filename = (date && date !== 'latest')
+      ? `nba_player_props_${date}.json`
+      : 'nba_player_props_latest.json'
+    const r = await fetch(`${DATA}/basketball/${filename}?t=${Date.now()}`)
+    if (!r.ok) {
+      if (date !== 'latest') {
+        const fallback = await fetch(`${DATA}/basketball/nba_player_props_latest.json?t=${Date.now()}`)
+        if (fallback.ok) return await fallback.json()
+      }
+      return null
+    }
+    return await r.json()
+  } catch (e) {
+    console.error('Error fetching player props:', e)
+    return null
+  }
+}
+
 export async function fetchSdiIndex() {
   try {
     const [sdiRes, aliasRes] = await Promise.all([
