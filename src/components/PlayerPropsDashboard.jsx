@@ -177,7 +177,6 @@ export default function PlayerPropsDashboard({ selectedDate }) {
         <div className="props-title-box">
           <h2>
             <span>🎯 NBA Quantitative Player Props</span>
-            <span className="props-badge-accent">API-Basketball</span>
           </h2>
           <div className="props-subtitle">
             <span>Date: <strong>{propsData.date}</strong></span>
