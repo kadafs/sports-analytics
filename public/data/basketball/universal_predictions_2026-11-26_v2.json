@@ -1600,7 +1600,7 @@
       "time": "08:00",
       "away_team": "Malaysia",
       "home_team": "Thailand",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.54,
       "xpts_h": 77.4,
@@ -3102,7 +3102,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 47,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 60.6,
+      "total_delta": 17.46,
+      "signed_delta": 17.46,
+      "total_rpe": 9.92,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -3132,7 +3143,7 @@
       "time": "11:00",
       "away_team": "Indonesia",
       "home_team": "Mongolia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.17,
       "xpts_h": 84.1,
@@ -4634,7 +4645,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 34,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 46.5,
+      "total_delta": 23.17,
+      "signed_delta": -23.17,
+      "total_rpe": 17.04,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -76539,7 +76561,7 @@
       "time": "08:00",
       "away_team": "Tasmania Jewels W",
       "home_team": "Bendigo W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 180.09,
       "xpts_h": 87.5,
@@ -77256,7 +77278,18 @@
           "playmaker_risk": "HIGH",
           "top_creator": "Reid Stephanie"
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 27,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 37.8,
+      "total_delta": 21.09,
+      "signed_delta": -21.09,
+      "total_rpe": 13.26,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -221953,7 +221986,7 @@
       "time": "00:30",
       "away_team": "Wake Forest",
       "home_team": "Mississippi St.",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.01,
       "xpts_h": 78.6,
@@ -237986,7 +238019,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Kevair Kennedy"
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 38,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 44.9,
+      "total_delta": 7.01,
+      "signed_delta": -7.01,
+      "total_rpe": 4.7,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -238016,7 +238060,7 @@
       "time": "01:00",
       "away_team": "Nebraska O.",
       "home_team": "UC Davis",
-      "status": "Over Time ",
+      "status": "AOT",
       "stage": "",
       "model_total": 152.89,
       "xpts_h": 78.9,
@@ -254049,7 +254093,17 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Cahmai Crosby"
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 29,
+      "halftime_away_score": 35,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 41.9,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -318362,7 +318416,7 @@
       "time": "04:59",
       "away_team": "Incarnate Word",
       "home_team": "Hawaii",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 151.16,
       "xpts_h": 80.0,
@@ -334373,7 +334427,17 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Godswill Erheriene"
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 25,
+      "halftime_away_score": 36,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 40.4,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -829746,7 +829810,7 @@
       "time": "11:30",
       "away_team": "Hebei W",
       "home_team": "Wuhan W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 163.28,
       "xpts_h": 82.9,
@@ -830815,7 +830879,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 39,
+      "halftime_away_score": 54,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 57.0,
+      "total_delta": 0.28,
+      "signed_delta": -0.28,
+      "total_rpe": 0.17,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -830845,7 +830920,7 @@
       "time": "11:30",
       "away_team": "Jiangsu Phoenix W",
       "home_team": "Sichuan W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 160.31,
       "xpts_h": 89.0,
@@ -831950,7 +832025,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "C. Zhihao"
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 40,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 51.2,
+      "total_delta": 4.31,
+      "signed_delta": -4.31,
+      "total_rpe": 2.76,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -831980,7 +832066,7 @@
       "time": "11:30",
       "away_team": "Shanghai W",
       "home_team": "Shanxi Xing Rui W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 163.34,
       "xpts_h": 90.7,
@@ -833093,7 +833179,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Russell D&apos;Angelo"
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 36,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 2.34,
+      "signed_delta": -2.34,
+      "total_rpe": 1.45,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -833123,7 +833220,7 @@
       "time": "13:00",
       "away_team": "China",
       "home_team": "Saudi Arabia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "3",
       "model_total": 159.64,
       "xpts_h": 75.8,
@@ -840702,7 +840799,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 43,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 57.0,
+      "total_delta": 2.36,
+      "signed_delta": 2.36,
+      "total_rpe": 1.46,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -973720,17 +973828,17 @@
       }
     }
   ],
-  "graded_at": "2026-11-26T08:09:31.525208",
+  "graded_at": "2026-11-26T16:04:03.375448",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 8,
-      "total": 14,
-      "pct": 57.1
+      "wins": 11,
+      "total": 21,
+      "pct": 52.4
     },
     "[ADVANCED]": {
-      "wins": 4,
-      "total": 16,
-      "pct": 25.0
+      "wins": 6,
+      "total": 19,
+      "pct": 31.6
     }
   }
 }
