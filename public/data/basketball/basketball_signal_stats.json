@@ -1,92 +1,92 @@
 {
-  "updated_at": "2026-11-26T16:04:41.819692",
+  "updated_at": "2026-11-26T20:49:10.886800",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10389,
+  "total_graded_games": 10429,
   "baseline": {
-    "moneyline_pct": 67.5,
+    "moneyline_pct": 67.4,
     "under_model_pct": 57.3,
     "avg_signed_delta": -3.1,
-    "under_market_pct": 50.5,
+    "under_market_pct": 50.4,
     "avg_market_delta": 0.1
   },
   "clash": {
-    "sample": 559,
-    "under_model_pct": 57.1,
-    "over_model_pct": 42.9,
-    "avg_score_delta": -4.1,
-    "moneyline_pct": 63.1,
+    "sample": 567,
+    "under_model_pct": 57.3,
+    "over_model_pct": 42.7,
+    "avg_score_delta": -4.2,
+    "moneyline_pct": 63.3,
     "sharp_over": {
-      "sample": 171,
-      "under_model_pct": 70.2,
-      "avg_score_delta": -10.1,
-      "mkt_sample": 171,
-      "under_mkt_pct": 46.8,
-      "avg_mkt_delta": 1.6
+      "sample": 172,
+      "under_model_pct": 70.3,
+      "avg_score_delta": -10.2,
+      "mkt_sample": 172,
+      "under_mkt_pct": 47.1,
+      "avg_mkt_delta": 1.5
     },
     "regular": {
-      "sample": 388,
-      "under_model_pct": 51.3,
-      "avg_score_delta": -1.5,
-      "mkt_sample": 350,
-      "under_mkt_pct": 54.3,
-      "avg_mkt_delta": -1.4
+      "sample": 395,
+      "under_model_pct": 51.6,
+      "avg_score_delta": -1.6,
+      "mkt_sample": 356,
+      "under_mkt_pct": 54.2,
+      "avg_mkt_delta": -1.5
     },
     "market_overall": {
-      "sample": 521,
-      "under_mkt_pct": 51.8,
-      "avg_mkt_delta": -0.4
+      "sample": 528,
+      "under_mkt_pct": 51.9,
+      "avg_mkt_delta": -0.5
     }
   },
   "shootout": {
-    "sample": 231,
-    "over_model_pct": 30.3,
-    "under_model_pct": 69.7,
-    "avg_score_delta": -6.4,
-    "moneyline_pct": 58.4,
-    "market_sample": 213,
-    "market_over_pct": 57.7,
-    "market_under_pct": 41.8,
-    "avg_market_delta": 3.2,
+    "sample": 235,
+    "over_model_pct": 31.1,
+    "under_model_pct": 68.9,
+    "avg_score_delta": -6.2,
+    "moneyline_pct": 57.9,
+    "market_sample": 217,
+    "market_over_pct": 57.6,
+    "market_under_pct": 41.9,
+    "avg_market_delta": 3.3,
     "sharp_shootout": {
-      "sample": 142,
-      "over_model_pct": 21.1,
-      "avg_score_delta": -10.7,
-      "mkt_sample": 142,
-      "over_mkt_pct": 63.4,
+      "sample": 144,
+      "over_model_pct": 21.5,
+      "avg_score_delta": -10.5,
+      "mkt_sample": 144,
+      "over_mkt_pct": 63.2,
       "avg_mkt_delta": 4.1
     },
     "regular": {
-      "sample": 89,
-      "over_model_pct": 44.9,
-      "avg_score_delta": 0.4,
-      "mkt_sample": 71,
-      "over_mkt_pct": 46.5,
-      "avg_mkt_delta": 1.4
+      "sample": 91,
+      "over_model_pct": 46.2,
+      "avg_score_delta": 0.5,
+      "mkt_sample": 73,
+      "over_mkt_pct": 46.6,
+      "avg_mkt_delta": 1.5
     }
   },
   "drag_down": {
-    "sample": 585,
-    "mkt_sample": 520,
-    "under_mkt_pct": 52.9,
-    "over_mkt_pct": 45.8,
+    "sample": 587,
+    "mkt_sample": 522,
+    "under_mkt_pct": 52.7,
+    "over_mkt_pct": 46.0,
     "avg_market_delta": -1.4,
     "under_model_pct": 61.0,
     "over_model_pct": 39.0,
     "avg_score_delta": -5.3,
-    "moneyline_pct": 68.5
+    "moneyline_pct": 68.7
   },
   "smart_edge": {
-    "sample": 328,
+    "sample": 329,
     "under": {
-      "sample": 123,
-      "mkt_sample": 122,
-      "market_under_pct": 61.5,
-      "avg_market_delta": -2.4,
+      "sample": 124,
+      "mkt_sample": 123,
+      "market_under_pct": 61.0,
+      "avg_market_delta": -2.3,
       "ultra": {
-        "mkt_sample": 40,
-        "under_mkt_pct": 65.0,
-        "avg_market_delta": -3.9
+        "mkt_sample": 41,
+        "under_mkt_pct": 63.4,
+        "avg_market_delta": -3.5
       },
       "elite": {
         "mkt_sample": 82,
@@ -681,17 +681,17 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5488,
-      "market_sample": 5134,
+      "sample": 5507,
+      "market_sample": 5152,
       "under": {
-        "sample": 123,
-        "mkt_sample": 122,
-        "market_under_pct": 61.5,
-        "avg_market_delta": -2.4,
+        "sample": 124,
+        "mkt_sample": 123,
+        "market_under_pct": 61.0,
+        "avg_market_delta": -2.3,
         "ultra": {
-          "mkt_sample": 40,
-          "under_mkt_pct": 65.0,
-          "avg_market_delta": -3.9
+          "mkt_sample": 41,
+          "under_mkt_pct": 63.4,
+          "avg_market_delta": -3.5
         },
         "elite": {
           "mkt_sample": 82,
@@ -745,8 +745,8 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 1035,
-      "market_sample": 777,
+      "sample": 1039,
+      "market_sample": 781,
       "under": {
         "sample": 54,
         "mkt_sample": 54,
