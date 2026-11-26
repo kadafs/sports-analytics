@@ -1600,7 +1600,7 @@
       "time": "08:00",
       "away_team": "Malaysia",
       "home_team": "Thailand",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 158.54,
       "xpts_h": 77.4,
@@ -3102,7 +3102,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 94,
+      "actual_away_score": 82,
+      "actual_result": "HOME",
+      "halftime_home_score": 49,
+      "halftime_away_score": 47,
+      "halftime_total": 96,
+      "halftime_pct_of_model": 60.6,
+      "total_delta": 17.46,
+      "signed_delta": 17.46,
+      "total_rpe": 9.92,
+      "accuracy_tier": "MISS"
     },
     {
       "is_mismatch": false,
@@ -3132,7 +3143,7 @@
       "time": "11:00",
       "away_team": "Indonesia",
       "home_team": "Mongolia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 159.17,
       "xpts_h": 84.1,
@@ -4634,7 +4645,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 72,
+      "actual_away_score": 64,
+      "actual_result": "HOME",
+      "halftime_home_score": 40,
+      "halftime_away_score": 34,
+      "halftime_total": 74,
+      "halftime_pct_of_model": 46.5,
+      "total_delta": 23.17,
+      "signed_delta": -23.17,
+      "total_rpe": 17.04,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": false,
@@ -4686,8 +4708,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_over": 1.87,
+      "odds_under": 1.87,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 26.7,
@@ -4713,7 +4735,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:54.371859+00:00",
+      "timestamp": "2026-11-26T16:19:57.374263+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -5605,8 +5627,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.85,
+      "odds_over": 1.86,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 37.3,
@@ -5632,7 +5654,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:58.329610+00:00",
+      "timestamp": "2026-11-26T16:20:02.057405+00:00",
       "match_center": {
         "h2h": [
           {
@@ -8585,7 +8607,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:58.524083+00:00",
+      "timestamp": "2026-11-26T16:20:02.201198+00:00",
       "match_center": {
         "h2h": [
           {
@@ -11484,7 +11506,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:58.733060+00:00",
+      "timestamp": "2026-11-26T16:20:02.374106+00:00",
       "match_center": {
         "h2h": [
           {
@@ -14425,7 +14447,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:58.942694+00:00",
+      "timestamp": "2026-11-26T16:20:02.532147+00:00",
       "match_center": {
         "h2h": [
           {
@@ -17345,7 +17367,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:59.140865+00:00",
+      "timestamp": "2026-11-26T16:20:02.686007+00:00",
       "match_center": {
         "h2h": [
           {
@@ -20247,7 +20269,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:59.348567+00:00",
+      "timestamp": "2026-11-26T16:20:02.810450+00:00",
       "match_center": {
         "h2h": [
           {
@@ -23162,15 +23184,15 @@
       "home_team_volatility": 10.26,
       "away_team_volatility": 9.91,
       "game_id": 506850,
-      "market_total": 139.0,
-      "edge": 1.7,
+      "market_total": 137.5,
+      "edge": 3.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.88,
-      "odds_under": 1.86,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 53.3,
@@ -23189,14 +23211,14 @@
       "selected_model": "SRS",
       "adv_total": 142.73,
       "srs_total": 140.74,
-      "adv_edge": 3.7,
-      "srs_edge": 1.7,
+      "adv_edge": 5.2,
+      "srs_edge": 3.2,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 1.99,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:59.598070+00:00",
+      "timestamp": "2026-11-26T16:20:03.021805+00:00",
       "match_center": {
         "h2h": [
           {
@@ -26116,7 +26138,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:11:59.787409+00:00",
+      "timestamp": "2026-11-26T16:20:03.175362+00:00",
       "match_center": {
         "h2h": [
           {
@@ -29916,7 +29938,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:00.567204+00:00",
+      "timestamp": "2026-11-26T16:20:03.733311+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -30792,7 +30814,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:01.151828+00:00",
+      "timestamp": "2026-11-26T16:20:04.167984+00:00",
       "match_center": {
         "h2h": [
           {
@@ -31998,7 +32020,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:01.348068+00:00",
+      "timestamp": "2026-11-26T16:20:04.303004+00:00",
       "match_center": {
         "h2h": [
           {
@@ -76539,7 +76561,7 @@
       "time": "08:00",
       "away_team": "Tasmania Jewels W",
       "home_team": "Bendigo W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "7",
       "model_total": 180.09,
       "xpts_h": 87.5,
@@ -77256,7 +77278,18 @@
           "playmaker_risk": "HIGH",
           "top_creator": "Reid Stephanie"
         }
-      }
+      },
+      "actual_home_score": 90,
+      "actual_away_score": 69,
+      "actual_result": "HOME",
+      "halftime_home_score": 41,
+      "halftime_away_score": 27,
+      "halftime_total": 68,
+      "halftime_pct_of_model": 37.8,
+      "total_delta": 21.09,
+      "signed_delta": -21.09,
+      "total_rpe": 13.26,
+      "accuracy_tier": "BUST"
     },
     {
       "is_mismatch": true,
@@ -221953,7 +221986,7 @@
       "time": "00:30",
       "away_team": "Wake Forest",
       "home_team": "Mississippi St.",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.01,
       "xpts_h": 78.6,
@@ -237986,7 +238019,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Kevair Kennedy"
         }
-      }
+      },
+      "actual_home_score": 71,
+      "actual_away_score": 78,
+      "actual_result": "AWAY",
+      "halftime_home_score": 32,
+      "halftime_away_score": 38,
+      "halftime_total": 70,
+      "halftime_pct_of_model": 44.9,
+      "total_delta": 7.01,
+      "signed_delta": -7.01,
+      "total_rpe": 4.7,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -238016,7 +238060,7 @@
       "time": "01:00",
       "away_team": "Nebraska O.",
       "home_team": "UC Davis",
-      "status": "Over Time ",
+      "status": "AOT",
       "stage": "",
       "model_total": 152.89,
       "xpts_h": 78.9,
@@ -254049,7 +254093,17 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Cahmai Crosby"
         }
-      }
+      },
+      "actual_home_score": 80,
+      "actual_away_score": 78,
+      "actual_result": "HOME",
+      "halftime_home_score": 29,
+      "halftime_away_score": 35,
+      "halftime_total": 64,
+      "halftime_pct_of_model": 41.9,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -318362,7 +318416,7 @@
       "time": "04:59",
       "away_team": "Incarnate Word",
       "home_team": "Hawaii",
-      "status": "Not Started",
+      "status": "AOT",
       "stage": "",
       "model_total": 151.16,
       "xpts_h": 80.0,
@@ -334373,7 +334427,17 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Godswill Erheriene"
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 81,
+      "actual_result": "HOME",
+      "halftime_home_score": 25,
+      "halftime_away_score": 36,
+      "halftime_total": 61,
+      "halftime_pct_of_model": 40.4,
+      "accuracy_tier": "OT WARP",
+      "total_delta": null,
+      "total_rpe": null
     },
     {
       "is_mismatch": false,
@@ -350481,15 +350545,15 @@
       "home_team_volatility": 15.11,
       "away_team_volatility": 15.37,
       "game_id": 515491,
-      "market_total": 142.0,
-      "edge": 9.4,
+      "market_total": 140.5,
+      "edge": 10.9,
       "side": "OVER",
       "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "confidence": "SOLID",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.88,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 42.7,
@@ -350507,15 +350571,15 @@
       "model_architecture": "[ADVANCED]",
       "selected_model": "ADV",
       "adv_total": 151.41,
-      "srs_total": 158.7,
-      "adv_edge": 9.4,
-      "srs_edge": 16.7,
+      "srs_total": 158.25,
+      "adv_edge": 10.9,
+      "srs_edge": 17.8,
       "model_agreement": "CONFIRMED_OVER",
-      "model_divergence": 7.29,
+      "model_divergence": 6.84,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:03.546219+00:00",
+      "timestamp": "2026-11-26T16:20:05.824711+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -352204,49 +352268,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -352283,7 +352304,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -352321,6 +352342,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -353752,6 +353816,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -353788,7 +353895,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -353831,7 +353938,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -353874,7 +353981,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -353912,49 +354019,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -366544,15 +366608,15 @@
       "home_team_volatility": 18.53,
       "away_team_volatility": 18.43,
       "game_id": 515493,
-      "market_total": 149.5,
-      "edge": 1.8,
+      "market_total": 150.5,
+      "edge": 0.8,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
-      "odds_source": "Bet365",
-      "bookmaker": "Bet365",
-      "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_source": "Pinnacle",
+      "bookmaker": "Pinnacle",
+      "odds_over": 1.93,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 52.0,
@@ -366571,14 +366635,14 @@
       "selected_model": "SRS",
       "adv_total": 153.15,
       "srs_total": 151.34,
-      "adv_edge": 3.7,
-      "srs_edge": 1.8,
+      "adv_edge": 2.7,
+      "srs_edge": 0.8,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 1.81,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:03.762487+00:00",
+      "timestamp": "2026-11-26T16:20:05.978591+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -368267,49 +368331,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -368346,7 +368367,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -368384,6 +368405,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -369815,6 +369879,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -369851,7 +369958,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -369894,7 +370001,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -369937,7 +370044,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -369975,49 +370082,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -382641,7 +382705,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:04.248143+00:00",
+      "timestamp": "2026-11-26T16:20:06.296508+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -384330,49 +384394,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -384409,7 +384430,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -384447,6 +384468,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -385878,6 +385942,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -385914,7 +386021,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -385957,7 +386064,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -386000,7 +386107,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -386038,49 +386145,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -398670,15 +398734,15 @@
       "home_team_volatility": 17.17,
       "away_team_volatility": 16.02,
       "game_id": 527217,
-      "market_total": 140.0,
-      "edge": 5.6,
+      "market_total": 139.5,
+      "edge": 6.1,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.9,
-      "odds_under": 1.9,
+      "odds_under": 1.92,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 41.3,
@@ -398697,14 +398761,14 @@
       "selected_model": "ADV",
       "adv_total": 145.62,
       "srs_total": 152.08,
-      "adv_edge": 5.6,
-      "srs_edge": 12.1,
+      "adv_edge": 6.1,
+      "srs_edge": 12.6,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 6.46,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:04.453535+00:00",
+      "timestamp": "2026-11-26T16:20:06.496992+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -400393,49 +400457,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -400472,7 +400493,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -400510,6 +400531,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -401941,6 +402005,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -401977,7 +402084,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -402020,7 +402127,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -402063,7 +402170,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -402101,49 +402208,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -414740,8 +414804,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.9,
+      "odds_over": 1.91,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[MODERATE]",
       "confidence_score": 58.7,
@@ -414767,7 +414831,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:04.655486+00:00",
+      "timestamp": "2026-11-26T16:20:06.643028+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -416456,49 +416520,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -416535,7 +416556,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -416573,6 +416594,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -418004,6 +418068,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -418040,7 +418147,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -418083,7 +418190,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -418126,7 +418233,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -418164,49 +418271,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -430796,15 +430860,15 @@
       "home_team_volatility": 17.08,
       "away_team_volatility": 18.03,
       "game_id": 527218,
-      "market_total": 162.0,
-      "edge": 0.2,
+      "market_total": 159.0,
+      "edge": 3.2,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.88,
-      "odds_under": 1.92,
+      "odds_over": 1.89,
+      "odds_under": 1.91,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 32.0,
@@ -430823,14 +430887,14 @@
       "selected_model": "ADV",
       "adv_total": 162.18,
       "srs_total": 166.13,
-      "adv_edge": 0.2,
-      "srs_edge": 4.1,
+      "adv_edge": 3.2,
+      "srs_edge": 7.1,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 3.95,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:05.289264+00:00",
+      "timestamp": "2026-11-26T16:20:07.089575+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -432519,49 +432583,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -432598,7 +432619,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -432636,6 +432657,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -434067,6 +434131,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -434103,7 +434210,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -434146,7 +434253,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -434189,7 +434296,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -434227,49 +434334,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -446866,8 +446930,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.92,
-      "odds_under": 1.9,
+      "odds_over": 1.88,
+      "odds_under": 1.93,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 32.0,
@@ -446893,7 +446957,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:05.495205+00:00",
+      "timestamp": "2026-11-26T16:20:07.256966+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -448582,49 +448646,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -448661,7 +448682,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -448699,6 +448720,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -450130,6 +450194,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -450166,7 +450273,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -450209,7 +450316,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -450252,7 +450359,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -450290,49 +450397,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -462956,7 +463020,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:05.727148+00:00",
+      "timestamp": "2026-11-26T16:20:07.416078+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -464645,49 +464709,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -464724,7 +464745,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -464762,6 +464783,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -466193,6 +466257,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -466229,7 +466336,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -466272,7 +466379,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -466315,7 +466422,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -466353,49 +466460,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -558940,7 +559004,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:07.318493+00:00",
+      "timestamp": "2026-11-26T16:20:08.774381+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -590894,7 +590958,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:07.112598+00:00",
+      "timestamp": "2026-11-26T16:20:08.633086+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -606871,7 +606935,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:07.719026+00:00",
+      "timestamp": "2026-11-26T16:20:08.929079+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -622826,7 +622890,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:08.133671+00:00",
+      "timestamp": "2026-11-26T16:20:09.216768+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -638803,7 +638867,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:07.931058+00:00",
+      "timestamp": "2026-11-26T16:20:09.070497+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -654780,7 +654844,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:08.337789+00:00",
+      "timestamp": "2026-11-26T16:20:09.357677+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -670757,7 +670821,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:08.552680+00:00",
+      "timestamp": "2026-11-26T16:20:09.501105+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -686737,7 +686801,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:08.824469+00:00",
+      "timestamp": "2026-11-26T16:20:09.640781+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -702714,7 +702778,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:09.030737+00:00",
+      "timestamp": "2026-11-26T16:20:09.793796+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -718691,7 +718755,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:09.255525+00:00",
+      "timestamp": "2026-11-26T16:20:09.942494+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -734671,7 +734735,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:09.754300+00:00",
+      "timestamp": "2026-11-26T16:20:10.152074+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -750648,7 +750712,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:09.959557+00:00",
+      "timestamp": "2026-11-26T16:20:10.289976+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -766625,7 +766689,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:10.179587+00:00",
+      "timestamp": "2026-11-26T16:20:10.452798+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -782602,7 +782666,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:10.410215+00:00",
+      "timestamp": "2026-11-26T16:20:10.775841+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -798579,7 +798643,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:10.631031+00:00",
+      "timestamp": "2026-11-26T16:20:10.958849+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -821450,7 +821514,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:12.408169+00:00",
+      "timestamp": "2026-11-26T16:20:11.417230+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -822592,7 +822656,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:12.608138+00:00",
+      "timestamp": "2026-11-26T16:20:11.543099+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -824682,7 +824746,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:13.378663+00:00",
+      "timestamp": "2026-11-26T16:20:12.113357+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -825648,7 +825712,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:14.052737+00:00",
+      "timestamp": "2026-11-26T16:20:12.516596+00:00",
       "match_center": {
         "h2h": [
           {
@@ -827313,15 +827377,15 @@
       "home_team_volatility": 10.28,
       "away_team_volatility": 20.93,
       "game_id": 518974,
-      "market_total": 156.0,
-      "edge": 8.7,
+      "market_total": 156.5,
+      "edge": 8.2,
       "side": "OVER",
       "decision": "PLAY OVER",
       "confidence": "HIGH",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.83,
-      "odds_under": 1.83,
+      "odds_over": 1.85,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 30.7,
@@ -827341,13 +827405,13 @@
       "adv_total": null,
       "srs_total": 164.73,
       "adv_edge": null,
-      "srs_edge": 8.7,
+      "srs_edge": 8.2,
       "model_agreement": "SINGLE_MODEL",
       "model_divergence": null,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:14.848831+00:00",
+      "timestamp": "2026-11-26T16:20:12.944381+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -828273,7 +828337,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:15.465524+00:00",
+      "timestamp": "2026-11-26T16:20:13.354143+00:00",
       "match_center": {
         "h2h": [
           {
@@ -829044,7 +829108,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:16.106111+00:00",
+      "timestamp": "2026-11-26T16:20:13.768062+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -829746,7 +829810,7 @@
       "time": "11:30",
       "away_team": "Hebei W",
       "home_team": "Wuhan W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 163.28,
       "xpts_h": 82.9,
@@ -830815,7 +830879,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 75,
+      "actual_away_score": 88,
+      "actual_result": "AWAY",
+      "halftime_home_score": 39,
+      "halftime_away_score": 54,
+      "halftime_total": 93,
+      "halftime_pct_of_model": 57.0,
+      "total_delta": 0.28,
+      "signed_delta": -0.28,
+      "total_rpe": 0.17,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -830845,7 +830920,7 @@
       "time": "11:30",
       "away_team": "Jiangsu Phoenix W",
       "home_team": "Sichuan W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 160.31,
       "xpts_h": 89.0,
@@ -831950,7 +832025,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "C. Zhihao"
         }
-      }
+      },
+      "actual_home_score": 83,
+      "actual_away_score": 73,
+      "actual_result": "HOME",
+      "halftime_home_score": 42,
+      "halftime_away_score": 40,
+      "halftime_total": 82,
+      "halftime_pct_of_model": 51.2,
+      "total_delta": 4.31,
+      "signed_delta": -4.31,
+      "total_rpe": 2.76,
+      "accuracy_tier": "EXCELLENT"
     },
     {
       "is_mismatch": false,
@@ -831980,7 +832066,7 @@
       "time": "11:30",
       "away_team": "Shanghai W",
       "home_team": "Shanxi Xing Rui W",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "5",
       "model_total": 163.34,
       "xpts_h": 90.7,
@@ -833093,7 +833179,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Russell D&apos;Angelo"
         }
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 79,
+      "actual_result": "HOME",
+      "halftime_home_score": 44,
+      "halftime_away_score": 36,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 49.0,
+      "total_delta": 2.34,
+      "signed_delta": -2.34,
+      "total_rpe": 1.45,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -833123,7 +833220,7 @@
       "time": "13:00",
       "away_team": "China",
       "home_team": "Saudi Arabia",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "3",
       "model_total": 159.64,
       "xpts_h": 75.8,
@@ -840702,7 +840799,18 @@
         },
         "sdiH": null,
         "sdiA": null
-      }
+      },
+      "actual_home_score": 82,
+      "actual_away_score": 80,
+      "actual_result": "HOME",
+      "halftime_home_score": 48,
+      "halftime_away_score": 43,
+      "halftime_total": 91,
+      "halftime_pct_of_model": 57.0,
+      "total_delta": 2.36,
+      "signed_delta": 2.36,
+      "total_rpe": 1.46,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -848395,8 +848503,8 @@
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.89,
-      "odds_under": 1.85,
+      "odds_over": 1.88,
+      "odds_under": 1.86,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 44.0,
@@ -848422,7 +848530,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:17.170271+00:00",
+      "timestamp": "2026-11-26T16:20:14.401883+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -856041,15 +856149,15 @@
       "home_team_volatility": 26.68,
       "away_team_volatility": 31.73,
       "game_id": 502707,
-      "market_total": 159.5,
-      "edge": 7.0,
+      "market_total": 158.5,
+      "edge": 8.0,
       "side": "OVER",
       "decision": "PASS",
-      "confidence": "MBET FILTER",
+      "confidence": "SOLID",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.88,
-      "odds_under": 1.85,
+      "odds_under": 1.86,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 2.7,
@@ -856068,14 +856176,14 @@
       "selected_model": "ADV",
       "adv_total": 166.53,
       "srs_total": 167.04,
-      "adv_edge": 7.0,
-      "srs_edge": 7.5,
+      "adv_edge": 8.0,
+      "srs_edge": 8.5,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 0.51,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:17.373882+00:00",
+      "timestamp": "2026-11-26T16:20:14.536755+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -863694,15 +863802,15 @@
       "home_team_volatility": 36.45,
       "away_team_volatility": 7.33,
       "game_id": 502709,
-      "market_total": 159.0,
-      "edge": 7.3,
+      "market_total": 159.5,
+      "edge": 6.8,
       "side": "OVER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
       "odds_over": 1.85,
-      "odds_under": 1.89,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 6.7,
@@ -863721,14 +863829,14 @@
       "selected_model": "ADV",
       "adv_total": 166.26,
       "srs_total": 169.01,
-      "adv_edge": 7.3,
-      "srs_edge": 10.0,
+      "adv_edge": 6.8,
+      "srs_edge": 9.5,
       "model_agreement": "CONFIRMED_OVER",
       "model_divergence": 2.75,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:17.584724+00:00",
+      "timestamp": "2026-11-26T16:20:14.691723+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -871347,15 +871455,15 @@
       "home_team_volatility": 9.7,
       "away_team_volatility": 16.63,
       "game_id": 502706,
-      "market_total": 169.5,
-      "edge": -1.5,
+      "market_total": 170.5,
+      "edge": -2.5,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.87,
-      "odds_under": 1.87,
+      "odds_over": 1.85,
+      "odds_under": 1.88,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 20.0,
@@ -871374,14 +871482,14 @@
       "selected_model": "ADV",
       "adv_total": 167.97,
       "srs_total": 165.68,
-      "adv_edge": -1.5,
-      "srs_edge": -3.8,
+      "adv_edge": -2.5,
+      "srs_edge": -4.8,
       "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 2.29,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:17.783698+00:00",
+      "timestamp": "2026-11-26T16:20:14.847010+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -878990,7 +879098,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:17.998426+00:00",
+      "timestamp": "2026-11-26T16:20:14.985085+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -886587,8 +886695,8 @@
       "is_drag_down": false,
       "is_clash": false,
       "clash_trigger": "",
-      "is_shootout": true,
-      "shootout_trigger": "SHOOTOUT",
+      "is_shootout": false,
+      "shootout_trigger": "",
       "smart_edge": {
         "signal": "UNDER",
         "tier": "ULTRA",
@@ -886618,28 +886726,28 @@
       "home_team": "Italy",
       "status": "Not Started",
       "stage": "3",
-      "model_total": 164.94,
-      "xpts_h": 82.5,
-      "xpts_a": 82.4,
+      "model_total": 158.64,
+      "xpts_h": 73.2,
+      "xpts_a": 85.4,
       "probs_1x2": {
-        "home": 50.5,
-        "away": 49.5
+        "home": 15.4,
+        "away": 84.6
       },
-      "predicted_result": "HOME",
-      "home_source": "ADVANCED",
-      "away_source": "ADVANCED",
+      "predicted_result": "AWAY",
+      "home_source": "SRS",
+      "away_source": "SRS",
       "home_team_volatility": 11.12,
       "away_team_volatility": 10.08,
       "game_id": 502768,
-      "market_total": 162.0,
-      "edge": 2.9,
-      "side": "OVER",
+      "market_total": 160.5,
+      "edge": -1.9,
+      "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.88,
+      "odds_over": 1.87,
+      "odds_under": 1.87,
       "baseline_total": null,
       "confidence_score_band": "[SOLID]",
       "confidence_score": 72.0,
@@ -886654,18 +886762,18 @@
       "graded_h": 2,
       "graded_a": 2,
       "mbet_threshold": 8.0,
-      "model_architecture": "[ADVANCED]",
-      "selected_model": "ADV",
+      "model_architecture": "[  SRS   ]",
+      "selected_model": "SRS",
       "adv_total": 164.94,
       "srs_total": 158.64,
-      "adv_edge": 2.9,
-      "srs_edge": -3.4,
+      "adv_edge": 4.4,
+      "srs_edge": -1.9,
       "model_agreement": "DISCORDANT",
       "model_divergence": 6.3,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:18.216080+00:00",
+      "timestamp": "2026-11-26T16:20:15.124925+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -894176,9 +894284,9 @@
           "current_season_games": 2,
           "model_games": 5,
           "win_pct": 0.4,
-          "scored": 103.2,
-          "conceded": 103.9,
-          "sos": -0.12,
+          "scored": 97.2,
+          "conceded": 101.5,
+          "sos": -4.26,
           "rank": null,
           "prior_blended": false
         },
@@ -894187,9 +894295,9 @@
           "current_season_games": 2,
           "model_games": 4,
           "win_pct": 1.0,
-          "scored": 106.4,
-          "conceded": 103.1,
-          "sos": -4.69,
+          "scored": 109.9,
+          "conceded": 95.3,
+          "sos": -7.43,
           "rank": null,
           "prior_blended": false
         },
@@ -894292,15 +894400,15 @@
       "home_team_volatility": 10.94,
       "away_team_volatility": 13.08,
       "game_id": 502769,
-      "market_total": 168.0,
-      "edge": -1.3,
+      "market_total": 167.5,
+      "edge": -0.8,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.85,
-      "odds_under": 1.89,
+      "odds_over": 1.89,
+      "odds_under": 1.85,
       "baseline_total": null,
       "confidence_score_band": "[LOW]",
       "confidence_score": 40.0,
@@ -894319,14 +894427,14 @@
       "selected_model": "ADV",
       "adv_total": 166.66,
       "srs_total": 164.31,
-      "adv_edge": -1.3,
-      "srs_edge": -3.7,
+      "adv_edge": -0.8,
+      "srs_edge": -3.2,
       "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 2.35,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:18.430573+00:00",
+      "timestamp": "2026-11-26T16:20:15.280701+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -901901,15 +902009,15 @@
       "home_team_volatility": 17.38,
       "away_team_volatility": 16.58,
       "game_id": 502772,
-      "market_total": 169.0,
-      "edge": -2.2,
+      "market_total": 170.0,
+      "edge": -3.2,
       "side": "UNDER",
       "decision": "PASS",
       "confidence": "MBET FILTER",
       "odds_source": "Pinnacle",
       "bookmaker": "Pinnacle",
-      "odds_over": 1.82,
-      "odds_under": 1.85,
+      "odds_over": 1.83,
+      "odds_under": 1.83,
       "baseline_total": null,
       "confidence_score_band": "[AVOID]",
       "confidence_score": 24.0,
@@ -901928,14 +902036,14 @@
       "selected_model": "SRS",
       "adv_total": 166.12,
       "srs_total": 166.82,
-      "adv_edge": -2.9,
-      "srs_edge": -2.2,
+      "adv_edge": -3.9,
+      "srs_edge": -3.2,
       "model_agreement": "CONFIRMED_UNDER",
       "model_divergence": 0.7,
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:18.637006+00:00",
+      "timestamp": "2026-11-26T16:20:15.410012+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -909544,7 +909652,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:03.973419+00:00",
+      "timestamp": "2026-11-26T16:20:06.124196+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -911233,49 +911341,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -911312,7 +911377,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -911350,6 +911415,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -912781,6 +912889,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -912817,7 +912968,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -912860,7 +913011,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -912903,7 +913054,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -912941,49 +913092,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -925607,7 +925715,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:04.873229+00:00",
+      "timestamp": "2026-11-26T16:20:06.798059+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -927296,49 +927404,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -927375,7 +927440,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -927413,6 +927478,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -928844,6 +928952,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -928880,7 +929031,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -928923,7 +929074,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -928966,7 +929117,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -929004,49 +929155,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -941670,7 +941778,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:05.080726+00:00",
+      "timestamp": "2026-11-26T16:20:06.947771+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -943359,49 +943467,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -943438,7 +943503,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -943476,6 +943541,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -944907,6 +945015,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -944943,7 +945094,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -944986,7 +945137,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -945029,7 +945180,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -945067,49 +945218,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -957733,7 +957841,7 @@
       "mode": "full",
       "config_source": "api-recalibrated",
       "tier": "top_domestic",
-      "timestamp": "2026-11-26T15:12:05.939082+00:00",
+      "timestamp": "2026-11-26T16:20:07.566915+00:00",
       "match_center": {
         "h2h": [],
         "recentH": [
@@ -959422,49 +959530,6 @@
                 "points": 0
               },
               "team": {
-                "id": 2179,
-                "name": "UConn",
-                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 6,
-                "win": {
-                  "total": 5,
-                  "percentage": "0.833"
-                },
-                "lose": {
-                  "total": 1,
-                  "percentage": "0.167"
-                }
-              },
-              "points": {
-                "for": 494,
-                "against": 380
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 7,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Big East",
-                "points": 0
-              },
-              "team": {
                 "id": 182,
                 "name": "Creighton",
                 "logo": "https://media.api-sports.io/basketball/teams/182.png"
@@ -959501,7 +959566,7 @@
               "description": null
             },
             {
-              "position": 8,
+              "position": 7,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Big East",
@@ -959539,6 +959604,49 @@
               "points": {
                 "for": 556,
                 "against": 467
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 8,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Big East",
+                "points": 0
+              },
+              "team": {
+                "id": 2179,
+                "name": "UConn",
+                "logo": "https://media.api-sports.io/basketball/teams/2179.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 6,
+                "win": {
+                  "total": 4,
+                  "percentage": "0.667"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.333"
+                }
+              },
+              "points": {
+                "for": 480,
+                "against": 394
               },
               "form": null,
               "description": null
@@ -960970,6 +961078,49 @@
                 "points": 0
               },
               "team": {
+                "id": 1890,
+                "name": "Duke",
+                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
+              },
+              "league": {
+                "id": 116,
+                "name": "NCAA",
+                "type": "League",
+                "season": "2026-2027",
+                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
+              },
+              "country": {
+                "id": 5,
+                "name": "USA",
+                "code": "US",
+                "flag": "https://media.api-sports.io/flags/us.svg"
+              },
+              "games": {
+                "played": 7,
+                "win": {
+                  "total": 5,
+                  "percentage": "0.714"
+                },
+                "lose": {
+                  "total": 2,
+                  "percentage": "0.286"
+                }
+              },
+              "points": {
+                "for": 593,
+                "against": 464
+              },
+              "form": null,
+              "description": null
+            },
+            {
+              "position": 14,
+              "stage": "NCAA - Regular Season",
+              "group": {
+                "name": "Atlantic Coast",
+                "points": 0
+              },
+              "team": {
                 "id": 1850,
                 "name": "California",
                 "logo": "https://media.api-sports.io/basketball/teams/1850.png"
@@ -961006,7 +961157,7 @@
               "description": null
             },
             {
-              "position": 14,
+              "position": 15,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -961049,7 +961200,7 @@
               "description": null
             },
             {
-              "position": 15,
+              "position": 16,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -961092,7 +961243,7 @@
               "description": null
             },
             {
-              "position": 16,
+              "position": 17,
               "stage": "NCAA - Regular Season",
               "group": {
                 "name": "Atlantic Coast",
@@ -961130,49 +961281,6 @@
               "points": {
                 "for": 586,
                 "against": 539
-              },
-              "form": null,
-              "description": null
-            },
-            {
-              "position": 17,
-              "stage": "NCAA - Regular Season",
-              "group": {
-                "name": "Atlantic Coast",
-                "points": 0
-              },
-              "team": {
-                "id": 1890,
-                "name": "Duke",
-                "logo": "https://media.api-sports.io/basketball/teams/1890.png"
-              },
-              "league": {
-                "id": 116,
-                "name": "NCAA",
-                "type": "League",
-                "season": "2026-2027",
-                "logo": "https://media.api-sports.io/basketball/leagues/116.png"
-              },
-              "country": {
-                "id": 5,
-                "name": "USA",
-                "code": "US",
-                "flag": "https://media.api-sports.io/flags/us.svg"
-              },
-              "games": {
-                "played": 7,
-                "win": {
-                  "total": 4,
-                  "percentage": "0.571"
-                },
-                "lose": {
-                  "total": 3,
-                  "percentage": "0.429"
-                }
-              },
-              "points": {
-                "for": 579,
-                "against": 478
               },
               "form": null,
               "description": null
@@ -973720,17 +973828,17 @@
       }
     }
   ],
-  "graded_at": "2026-11-26T08:09:31.525208",
+  "graded_at": "2026-11-26T16:04:03.375448",
   "grade_summary": {
     "[  SRS   ]": {
-      "wins": 8,
-      "total": 14,
-      "pct": 57.1
+      "wins": 11,
+      "total": 21,
+      "pct": 52.4
     },
     "[ADVANCED]": {
-      "wins": 4,
-      "total": 16,
-      "pct": 25.0
+      "wins": 6,
+      "total": 19,
+      "pct": 31.6
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T08:09:56.391721",
+  "updated_at": "2026-11-26T16:04:41.819692",
   "scope": "MULTI_SEGMENT_CALIBRATED",
   "scope_description": "Empirically audited basketball performance benchmarks partitioned by league archetype",
-  "total_graded_games": 10379,
+  "total_graded_games": 10389,
   "baseline": {
     "moneyline_pct": 67.5,
     "under_model_pct": 57.3,
@@ -11,18 +11,18 @@
     "avg_market_delta": 0.1
   },
   "clash": {
-    "sample": 558,
-    "under_model_pct": 57.0,
-    "over_model_pct": 43.0,
+    "sample": 559,
+    "under_model_pct": 57.1,
+    "over_model_pct": 42.9,
     "avg_score_delta": -4.1,
     "moneyline_pct": 63.1,
     "sharp_over": {
-      "sample": 170,
-      "under_model_pct": 70.0,
-      "avg_score_delta": -10.0,
-      "mkt_sample": 170,
-      "under_mkt_pct": 46.5,
-      "avg_mkt_delta": 1.7
+      "sample": 171,
+      "under_model_pct": 70.2,
+      "avg_score_delta": -10.1,
+      "mkt_sample": 171,
+      "under_mkt_pct": 46.8,
+      "avg_mkt_delta": 1.6
     },
     "regular": {
       "sample": 388,
@@ -33,8 +33,8 @@
       "avg_mkt_delta": -1.4
     },
     "market_overall": {
-      "sample": 520,
-      "under_mkt_pct": 51.7,
+      "sample": 521,
+      "under_mkt_pct": 51.8,
       "avg_mkt_delta": -0.4
     }
   },
@@ -66,10 +66,10 @@
     }
   },
   "drag_down": {
-    "sample": 584,
-    "mkt_sample": 519,
-    "under_mkt_pct": 52.8,
-    "over_mkt_pct": 45.9,
+    "sample": 585,
+    "mkt_sample": 520,
+    "under_mkt_pct": 52.9,
+    "over_mkt_pct": 45.8,
     "avg_market_delta": -1.4,
     "under_model_pct": 61.0,
     "over_model_pct": 39.0,
@@ -681,8 +681,8 @@
   "segments": {
     "FIBA_CORE": {
       "name": "FIBA Core (40m)",
-      "sample": 5485,
-      "market_sample": 5131,
+      "sample": 5488,
+      "market_sample": 5134,
       "under": {
         "sample": 123,
         "mkt_sample": 122,
@@ -745,8 +745,8 @@
     },
     "NCAA_MEN": {
       "name": "NCAA Men (College)",
-      "sample": 1033,
-      "market_sample": 776,
+      "sample": 1035,
+      "market_sample": 777,
       "under": {
         "sample": 54,
         "mkt_sample": 54,
