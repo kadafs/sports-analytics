@@ -463276,7 +463276,7 @@
       "time": "22:00",
       "away_team": "St. Marys (CA)",
       "home_team": "UCLA",
-      "status": "Not Started",
+      "status": "FT",
       "stage": "",
       "model_total": 156.8,
       "xpts_h": 78.5,
@@ -479309,7 +479309,18 @@
           "playmaker_risk": "MODERATE",
           "top_creator": "Joshua Dent"
         }
-      }
+      },
+      "actual_home_score": 70,
+      "actual_away_score": 85,
+      "actual_result": "AWAY",
+      "halftime_home_score": 35,
+      "halftime_away_score": 45,
+      "halftime_total": 80,
+      "halftime_pct_of_model": 51.0,
+      "total_delta": 1.8,
+      "signed_delta": -1.8,
+      "total_rpe": 1.16,
+      "accuracy_tier": "BULLSEYE"
     },
     {
       "is_mismatch": false,
@@ -974731,7 +974742,7 @@
       "accuracy_tier": "BUST"
     }
   ],
-  "graded_at": "2026-11-27T04:17:14.832718",
+  "graded_at": "2026-11-27T09:57:17.463538",
   "grade_summary": {
     "[  SRS   ]": {
       "wins": 36,
@@ -974740,8 +974751,8 @@
     },
     "[ADVANCED]": {
       "wins": 24,
-      "total": 48,
-      "pct": 50.0
+      "total": 49,
+      "pct": 49.0
     }
   }
 }
