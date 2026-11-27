@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T04:07:58.817147",
+  "generated_at": "2026-11-27T04:29:25.104137",
   "total_teams": 2586,
   "source": "api-sports + proballers_ncaa",
   "summary": {
     "red_high_dependency": 202,
-    "amber_moderate": 1886,
-    "green_balanced": 498,
-    "high_playmaker_risk": 494,
-    "low_playmaker_risk": 545
+    "amber_moderate": 1891,
+    "green_balanced": 493,
+    "high_playmaker_risk": 504,
+    "low_playmaker_risk": 567
   },
   "teams": [
     {
@@ -5878,17 +5878,17 @@
     },
     {
       "team": "Esgueira AVEIRO OLI",
-      "games_tracked": 14,
-      "avg_sdi": 54.4,
-      "avg_top1_pct": 30.7,
+      "games_tracked": 15,
+      "avg_sdi": 53.8,
+      "avg_top1_pct": 30.4,
       "max_sdi": 62.5,
-      "min_sdi": 47.4,
+      "min_sdi": 46.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Justin Bailey",
-          "times_top2": 9
+          "times_top2": 10
         },
         {
           "name": "Pedro Carvalhal",
@@ -5900,9 +5900,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 40.9,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Pedro Carvalhal"
     },
     {
       "team": "Mandurah",
@@ -6228,6 +6228,34 @@
       "avg_top1_off_share": 34.5,
       "playmaker_risk": "MODERATE",
       "top_creator": "N. Galette"
+    },
+    {
+      "team": "UCF Knights",
+      "games_tracked": 8,
+      "avg_sdi": 54.2,
+      "avg_top1_pct": 34.0,
+      "max_sdi": 63.2,
+      "min_sdi": 43.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Dior Johnson",
+          "times_top2": 8
+        },
+        {
+          "name": "Arturo Dean",
+          "times_top2": 3
+        },
+        {
+          "name": "Elijah Hulsewe",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 42.7,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Dior Johnson"
     },
     {
       "team": "AKK Branik",
@@ -6881,34 +6909,6 @@
       "playmaker_risk": "MODERATE",
       "top_creator": "Rougeau Rene",
       "source": "proballers_ncaa"
-    },
-    {
-      "team": "UCF Knights",
-      "games_tracked": 8,
-      "avg_sdi": 54.2,
-      "avg_top1_pct": 34.0,
-      "max_sdi": 63.2,
-      "min_sdi": 43.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Dior Johnson",
-          "times_top2": 8
-        },
-        {
-          "name": "Arturo Dean",
-          "times_top2": 3
-        },
-        {
-          "name": "Elijah Hulsewe",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 42.7,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Dior Johnson"
     },
     {
       "team": "AEL Limassol W",
@@ -8293,6 +8293,34 @@
       "top_creator": "C. Hall"
     },
     {
+      "team": "Arizona State Sun Devils",
+      "games_tracked": 8,
+      "avg_sdi": 52.9,
+      "avg_top1_pct": 31.9,
+      "max_sdi": 65.8,
+      "min_sdi": 47.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Paulius Murauskas",
+          "times_top2": 8
+        },
+        {
+          "name": "Joel Foxwell",
+          "times_top2": 4
+        },
+        {
+          "name": "Dillan Shaw",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 41.2,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Paulius Murauskas"
+    },
+    {
       "team": "Ancud",
       "games_tracked": 41,
       "avg_sdi": 52.8,
@@ -8510,9 +8538,9 @@
     },
     {
       "team": "Toulouse",
-      "games_tracked": 13,
-      "avg_sdi": 52.6,
-      "avg_top1_pct": 29.6,
+      "games_tracked": 14,
+      "avg_sdi": 52.2,
+      "avg_top1_pct": 29.4,
       "max_sdi": 61.1,
       "min_sdi": 45.5,
       "risk": "AMBER",
@@ -8520,7 +8548,7 @@
       "top_players": [
         {
           "name": "Dominique Toussaint",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Laetitia Guapo",
@@ -8532,9 +8560,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 38.8,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Shaina Pellington"
     },
     {
       "team": "Cearense",
@@ -9164,20 +9192,20 @@
     },
     {
       "team": "Vilniaus Stekas",
-      "games_tracked": 3,
-      "avg_sdi": 52.4,
-      "avg_top1_pct": 28.3,
+      "games_tracked": 4,
+      "avg_sdi": 48.3,
+      "avg_top1_pct": 26.1,
       "max_sdi": 56.9,
-      "min_sdi": 49.0,
+      "min_sdi": 36.1,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Darius Tarvydas",
-          "times_top2": 2
+          "name": "Elijah Anselm Stephens",
+          "times_top2": 3
         },
         {
-          "name": "Elijah Anselm Stephens",
+          "name": "Darius Tarvydas",
           "times_top2": 2
         },
         {
@@ -9186,9 +9214,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 31.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Elijah Anselm Stephens"
     },
     {
       "team": "Konya BBSK",
@@ -10570,6 +10598,34 @@
       "top_creator": "J. N. Johnson"
     },
     {
+      "team": "Boston College Eagles",
+      "games_tracked": 9,
+      "avg_sdi": 51.6,
+      "avg_top1_pct": 32.9,
+      "max_sdi": 66.2,
+      "min_sdi": 43.2,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Zak Smrekar",
+          "times_top2": 6
+        },
+        {
+          "name": "Money Williams",
+          "times_top2": 5
+        },
+        {
+          "name": "Armoni Zeigler",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 39.9,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Money Williams"
+    },
+    {
       "team": "Boston University Terriers",
       "games_tracked": 9,
       "avg_sdi": 51.5,
@@ -11027,34 +11083,6 @@
       "avg_top1_off_share": 43.7,
       "playmaker_risk": "HIGH",
       "top_creator": "M. Tomasevic"
-    },
-    {
-      "team": "Boston College Eagles",
-      "games_tracked": 9,
-      "avg_sdi": 51.6,
-      "avg_top1_pct": 32.9,
-      "max_sdi": 66.2,
-      "min_sdi": 43.2,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Zak Smrekar",
-          "times_top2": 6
-        },
-        {
-          "name": "Money Williams",
-          "times_top2": 5
-        },
-        {
-          "name": "Armoni Zeigler",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 39.9,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Money Williams"
     },
     {
       "team": "Kyoto",
@@ -11787,34 +11815,6 @@
       "source": "proballers_ncaa"
     },
     {
-      "team": "Arizona State Sun Devils",
-      "games_tracked": 8,
-      "avg_sdi": 52.9,
-      "avg_top1_pct": 31.9,
-      "max_sdi": 65.8,
-      "min_sdi": 47.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Paulius Murauskas",
-          "times_top2": 8
-        },
-        {
-          "name": "Joel Foxwell",
-          "times_top2": 4
-        },
-        {
-          "name": "Dillan Shaw",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 41.2,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Paulius Murauskas"
-    },
-    {
       "team": "Memphis Tigers",
       "games_tracked": 6,
       "avg_sdi": 51.1,
@@ -12463,20 +12463,20 @@
     },
     {
       "team": "Lucenec",
-      "games_tracked": 10,
-      "avg_sdi": 50.8,
-      "avg_top1_pct": 28.1,
+      "games_tracked": 11,
+      "avg_sdi": 50.9,
+      "avg_top1_pct": 28.0,
       "max_sdi": 59.8,
       "min_sdi": 36.0,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Jaden Campbell",
-          "times_top2": 4
+          "name": "Kalil Thomas",
+          "times_top2": 5
         },
         {
-          "name": "Kalil Thomas",
+          "name": "Jaden Campbell",
           "times_top2": 4
         },
         {
@@ -12485,9 +12485,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 34.8,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Tyrin Lawrence"
     },
     {
       "team": "Southern Districts W",
@@ -13580,17 +13580,17 @@
     },
     {
       "team": "Olimpas Plunge",
-      "games_tracked": 4,
-      "avg_sdi": 50.5,
-      "avg_top1_pct": 27.9,
+      "games_tracked": 5,
+      "avg_sdi": 49.1,
+      "avg_top1_pct": 27.1,
       "max_sdi": 57.3,
-      "min_sdi": 45.8,
+      "min_sdi": 43.6,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Thomas Miles",
-          "times_top2": 3
+          "times_top2": 4
         },
         {
           "name": "Najeeb Ali Muhammad",
@@ -13602,9 +13602,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 31.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "Thomas Miles"
     },
     {
       "team": "Diamond Dolphins",
@@ -15304,9 +15304,9 @@
     },
     {
       "team": "Spišskí Rytieri",
-      "games_tracked": 11,
-      "avg_sdi": 49.9,
-      "avg_top1_pct": 27.6,
+      "games_tracked": 12,
+      "avg_sdi": 50.1,
+      "avg_top1_pct": 27.7,
       "max_sdi": 59.0,
       "min_sdi": 41.2,
       "risk": "AMBER",
@@ -15314,11 +15314,11 @@
       "top_players": [
         {
           "name": "Caleb Kenney",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Elias Cato",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Cam Jones",
@@ -15326,9 +15326,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 39.3,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Jaylyn Richardson"
     },
     {
       "team": "Hidria",
@@ -15596,9 +15596,9 @@
     },
     {
       "team": "Landerneau",
-      "games_tracked": 16,
-      "avg_sdi": 49.8,
-      "avg_top1_pct": 29.1,
+      "games_tracked": 17,
+      "avg_sdi": 49.6,
+      "avg_top1_pct": 28.9,
       "max_sdi": 66.2,
       "min_sdi": 36.2,
       "risk": "AMBER",
@@ -15606,11 +15606,11 @@
       "top_players": [
         {
           "name": "Harmoni Turner",
-          "times_top2": 13
+          "times_top2": 14
         },
         {
           "name": "Masseny Kaba",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Dara Mabrey",
@@ -15618,9 +15618,37 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 41.7,
-      "playmaker_risk": "HIGH",
+      "avg_top1_off_share": 37.4,
+      "playmaker_risk": "MODERATE",
       "top_creator": "Harmoni Turner"
+    },
+    {
+      "team": "USC Trojans",
+      "games_tracked": 9,
+      "avg_sdi": 49.8,
+      "avg_top1_pct": 28.4,
+      "max_sdi": 66.7,
+      "min_sdi": 32.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Alijah Arenas",
+          "times_top2": 9
+        },
+        {
+          "name": "Rodney Rice",
+          "times_top2": 7
+        },
+        {
+          "name": "Adonis Ratliff",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 40.0,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Rodney Rice"
     },
     {
       "team": "Saarlouis Royals",
@@ -15860,9 +15888,9 @@
     },
     {
       "team": "Alytaus Alytus",
-      "games_tracked": 5,
-      "avg_sdi": 49.6,
-      "avg_top1_pct": 27.2,
+      "games_tracked": 6,
+      "avg_sdi": 50.0,
+      "avg_top1_pct": 27.6,
       "max_sdi": 56.9,
       "min_sdi": 43.5,
       "risk": "AMBER",
@@ -15870,7 +15898,7 @@
       "top_players": [
         {
           "name": "Channon Charles Hall Jr",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Marijus Uzupis",
@@ -15878,13 +15906,41 @@
         },
         {
           "name": "James Vadell Williams",
-          "times_top2": 1
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 52.8,
+      "avg_top1_off_share": 42.4,
       "playmaker_risk": "HIGH",
       "top_creator": "Channon Charles Hall Jr"
+    },
+    {
+      "team": "Pittsburgh Panthers",
+      "games_tracked": 9,
+      "avg_sdi": 49.6,
+      "avg_top1_pct": 28.3,
+      "max_sdi": 56.8,
+      "min_sdi": 42.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Baye Abdou Ndongo",
+          "times_top2": 7
+        },
+        {
+          "name": "Chase Foster",
+          "times_top2": 4
+        },
+        {
+          "name": "A'lahn Sumler",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 38.0,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Naithan George"
     },
     {
       "team": "Fairfield Stags",
@@ -15941,34 +15997,6 @@
       "avg_top1_off_share": 35.4,
       "playmaker_risk": "MODERATE",
       "top_creator": "Alfred Worrell Jr."
-    },
-    {
-      "team": "Pittsburgh Panthers",
-      "games_tracked": 9,
-      "avg_sdi": 49.6,
-      "avg_top1_pct": 28.3,
-      "max_sdi": 56.8,
-      "min_sdi": 42.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Baye Abdou Ndongo",
-          "times_top2": 7
-        },
-        {
-          "name": "Chase Foster",
-          "times_top2": 4
-        },
-        {
-          "name": "A'lahn Sumler",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 38.0,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Naithan George"
     },
     {
       "team": "Jezica",
@@ -16156,6 +16184,34 @@
       "avg_top1_off_share": 38.3,
       "playmaker_risk": "MODERATE",
       "top_creator": "Jacob Meyer"
+    },
+    {
+      "team": "Jacksonville State Gamecocks",
+      "games_tracked": 10,
+      "avg_sdi": 49.5,
+      "avg_top1_pct": 27.7,
+      "max_sdi": 65.0,
+      "min_sdi": 26.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jordan Stiemke",
+          "times_top2": 7
+        },
+        {
+          "name": "Chris Lockett",
+          "times_top2": 4
+        },
+        {
+          "name": "Leon Horner",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 38.8,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Chris Lockett"
     },
     {
       "team": "El Calor de Cancun",
@@ -16408,29 +16464,29 @@
     },
     {
       "team": "Silute",
-      "games_tracked": 5,
-      "avg_sdi": 53.1,
-      "avg_top1_pct": 32.2,
+      "games_tracked": 6,
+      "avg_sdi": 50.7,
+      "avg_top1_pct": 30.3,
       "max_sdi": 56.8,
-      "min_sdi": 49.3,
+      "min_sdi": 38.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Augustinas Mikstas",
+          "name": "Gerrale Gates",
           "times_top2": 3
         },
         {
-          "name": "Devin Hutchinson",
-          "times_top2": 2
+          "name": "Rokas Jocys",
+          "times_top2": 3
         },
         {
-          "name": "Gerrale Gates",
-          "times_top2": 2
+          "name": "Augustinas Mikstas",
+          "times_top2": 3
         }
       ],
-      "avg_top1_off_share": 40.3,
-      "playmaker_risk": "HIGH",
+      "avg_top1_off_share": 35.3,
+      "playmaker_risk": "MODERATE",
       "top_creator": "Gerrale Gates",
       "source": "proballers_ncaa"
     },
@@ -16752,9 +16808,9 @@
     },
     {
       "team": "Rioverde Clavijo",
-      "games_tracked": 13,
+      "games_tracked": 14,
       "avg_sdi": 49.3,
-      "avg_top1_pct": 26.7,
+      "avg_top1_pct": 27.0,
       "max_sdi": 57.4,
       "min_sdi": 37.6,
       "risk": "AMBER",
@@ -16762,7 +16818,7 @@
       "top_players": [
         {
           "name": "Kamdyn Curfman",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Chandler Jacobs",
@@ -16774,9 +16830,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 43.3,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Kamdyn Curfman"
     },
     {
       "team": "Allen Yellow Jackets",
@@ -17331,34 +17387,6 @@
       "avg_top1_off_share": 31.2,
       "playmaker_risk": "LOW",
       "top_creator": "Timmy Hambright"
-    },
-    {
-      "team": "Georgetown Hoyas",
-      "games_tracked": 7,
-      "avg_sdi": 48.8,
-      "avg_top1_pct": 27.5,
-      "max_sdi": 57.1,
-      "min_sdi": 38.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Vince Iwuchukwu",
-          "times_top2": 5
-        },
-        {
-          "name": "Jaland Lowe",
-          "times_top2": 4
-        },
-        {
-          "name": "Kayvaun Mulready",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 41.2,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Jaland Lowe"
     },
     {
       "team": "Hawai'i Rainbow Warriors",
@@ -18060,6 +18088,34 @@
       "top_creator": "A. Ngo Ndjock"
     },
     {
+      "team": "Georgetown Hoyas",
+      "games_tracked": 7,
+      "avg_sdi": 48.8,
+      "avg_top1_pct": 27.5,
+      "max_sdi": 57.1,
+      "min_sdi": 38.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Vince Iwuchukwu",
+          "times_top2": 5
+        },
+        {
+          "name": "Jaland Lowe",
+          "times_top2": 4
+        },
+        {
+          "name": "Kayvaun Mulready",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 41.2,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Jaland Lowe"
+    },
+    {
       "team": "Virginia-Lynchburg Dragons",
       "games_tracked": 10,
       "avg_sdi": 48.8,
@@ -18411,8 +18467,8 @@
     },
     {
       "team": "CA Queluz",
-      "games_tracked": 13,
-      "avg_sdi": 45.6,
+      "games_tracked": 14,
+      "avg_sdi": 45.9,
       "avg_top1_pct": 26.9,
       "max_sdi": 58.0,
       "min_sdi": 40.0,
@@ -18424,17 +18480,17 @@
           "times_top2": 8
         },
         {
-          "name": "Jelani Simmons",
-          "times_top2": 4
+          "name": "Justice Shoats",
+          "times_top2": 5
         },
         {
-          "name": "Justice Shoats",
+          "name": "Jelani Simmons",
           "times_top2": 4
         }
       ],
       "avg_top1_off_share": 37.3,
       "playmaker_risk": "MODERATE",
-      "top_creator": "J. Shoats",
+      "top_creator": "Justice Shoats",
       "source": "proballers_ncaa"
     },
     {
@@ -19315,11 +19371,11 @@
     },
     {
       "team": "Kretingos Kretinga",
-      "games_tracked": 7,
-      "avg_sdi": 48.5,
-      "avg_top1_pct": 27.3,
+      "games_tracked": 8,
+      "avg_sdi": 47.2,
+      "avg_top1_pct": 26.4,
       "max_sdi": 56.6,
-      "min_sdi": 42.2,
+      "min_sdi": 37.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -19332,13 +19388,13 @@
           "times_top2": 3
         },
         {
-          "name": "Julius Kazakauskas",
-          "times_top2": 2
+          "name": "Justin Young",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 35.2,
-      "playmaker_risk": "MODERATE",
+      "avg_top1_off_share": 30.0,
+      "playmaker_risk": "LOW",
       "top_creator": "Mantvydas Staniulis"
     },
     {
@@ -19665,34 +19721,6 @@
       "avg_top1_off_share": 37.3,
       "playmaker_risk": "MODERATE",
       "top_creator": "F. Lish"
-    },
-    {
-      "team": "Jacksonville State Gamecocks",
-      "games_tracked": 10,
-      "avg_sdi": 49.5,
-      "avg_top1_pct": 27.7,
-      "max_sdi": 65.0,
-      "min_sdi": 26.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jordan Stiemke",
-          "times_top2": 7
-        },
-        {
-          "name": "Chris Lockett",
-          "times_top2": 4
-        },
-        {
-          "name": "Leon Horner",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 38.8,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Chris Lockett"
     },
     {
       "team": "Northern Kentucky Norse",
@@ -20209,34 +20237,6 @@
       "source": "proballers_ncaa"
     },
     {
-      "team": "USC Trojans",
-      "games_tracked": 9,
-      "avg_sdi": 49.8,
-      "avg_top1_pct": 28.4,
-      "max_sdi": 66.7,
-      "min_sdi": 32.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Alijah Arenas",
-          "times_top2": 9
-        },
-        {
-          "name": "Rodney Rice",
-          "times_top2": 7
-        },
-        {
-          "name": "Adonis Ratliff",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 40.0,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Rodney Rice"
-    },
-    {
       "team": "Milwaukee Bucks",
       "games_tracked": 31,
       "avg_sdi": 40.4,
@@ -20690,9 +20690,9 @@
     },
     {
       "team": "Inter Basket",
-      "games_tracked": 8,
+      "games_tracked": 9,
       "avg_sdi": 48.0,
-      "avg_top1_pct": 27.4,
+      "avg_top1_pct": 27.9,
       "max_sdi": 65.9,
       "min_sdi": 36.0,
       "risk": "AMBER",
@@ -20700,7 +20700,7 @@
       "top_players": [
         {
           "name": "Nehemiah Benson",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Maros Golian",
@@ -20713,7 +20713,7 @@
       ],
       "avg_top1_off_share": 37.7,
       "playmaker_risk": "MODERATE",
-      "top_creator": "N. Benson",
+      "top_creator": "Nehemiah Benson",
       "source": "proballers_ncaa"
     },
     {
@@ -21842,10 +21842,10 @@
     },
     {
       "team": "BC Komárno",
-      "games_tracked": 11,
-      "avg_sdi": 47.7,
-      "avg_top1_pct": 27.7,
-      "max_sdi": 55.6,
+      "games_tracked": 12,
+      "avg_sdi": 48.4,
+      "avg_top1_pct": 28.1,
+      "max_sdi": 57.1,
       "min_sdi": 40.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -21864,9 +21864,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 46.4,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Arlandus Keyes"
     },
     {
       "team": "Resovia",
@@ -24487,6 +24487,34 @@
       "top_creator": "Vezenkov Aleksandar"
     },
     {
+      "team": "Cincinnati Bearcats",
+      "games_tracked": 8,
+      "avg_sdi": 47.1,
+      "avg_top1_pct": 28.6,
+      "max_sdi": 57.4,
+      "min_sdi": 32.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Tyler Tejada",
+          "times_top2": 5
+        },
+        {
+          "name": "Myles Colvin",
+          "times_top2": 3
+        },
+        {
+          "name": "Tylen Riley",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 34.6,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Tylen Riley"
+    },
+    {
       "team": "Princeton Tigers",
       "games_tracked": 8,
       "avg_sdi": 47.0,
@@ -24928,9 +24956,9 @@
     },
     {
       "team": "Vytis Sakiai",
-      "games_tracked": 8,
-      "avg_sdi": 46.9,
-      "avg_top1_pct": 26.3,
+      "games_tracked": 9,
+      "avg_sdi": 46.8,
+      "avg_top1_pct": 26.5,
       "max_sdi": 56.1,
       "min_sdi": 35.5,
       "risk": "AMBER",
@@ -24938,7 +24966,7 @@
       "top_players": [
         {
           "name": "Arunas Rimkus",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Paulius Velutis",
@@ -24950,7 +24978,7 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 29.8,
+      "avg_top1_off_share": 30.9,
       "playmaker_risk": "LOW",
       "top_creator": "Jokubas Rubinas"
     },
@@ -24984,9 +25012,9 @@
     },
     {
       "team": "Vitoria SC",
-      "games_tracked": 14,
-      "avg_sdi": 46.9,
-      "avg_top1_pct": 25.8,
+      "games_tracked": 15,
+      "avg_sdi": 46.5,
+      "avg_top1_pct": 25.5,
       "max_sdi": 57.0,
       "min_sdi": 38.5,
       "risk": "AMBER",
@@ -24997,18 +25025,18 @@
           "times_top2": 7
         },
         {
-          "name": "Tedoyame Simão",
-          "times_top2": 4
+          "name": "Malcolm Drumwright",
+          "times_top2": 5
         },
         {
-          "name": "Malcolm Drumwright",
+          "name": "Tedoyame Simão",
           "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 49.0,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Malcolm Drumwright"
     },
     {
       "team": "Spirou Basket",
@@ -26232,9 +26260,9 @@
     },
     {
       "team": "Lattes Montpellier",
-      "games_tracked": 14,
-      "avg_sdi": 46.6,
-      "avg_top1_pct": 25.6,
+      "games_tracked": 15,
+      "avg_sdi": 46.1,
+      "avg_top1_pct": 25.2,
       "max_sdi": 62.7,
       "min_sdi": 30.3,
       "risk": "AMBER",
@@ -26242,19 +26270,19 @@
       "top_players": [
         {
           "name": "Stella Johnson",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Sarah Cisse",
           "times_top2": 5
         },
         {
-          "name": "Garance Rabot",
+          "name": "Oumou Diarisso",
           "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 26.6,
+      "avg_top1_off_share": 29.6,
       "playmaker_risk": "LOW",
       "top_creator": "Sarah Cisse"
     },
@@ -27755,9 +27783,9 @@
     },
     {
       "team": "Kedainiai Sporto Centras",
-      "games_tracked": 4,
-      "avg_sdi": 46.3,
-      "avg_top1_pct": 25.8,
+      "games_tracked": 5,
+      "avg_sdi": 46.2,
+      "avg_top1_pct": 25.5,
       "max_sdi": 53.9,
       "min_sdi": 38.5,
       "risk": "AMBER",
@@ -27765,21 +27793,21 @@
       "top_players": [
         {
           "name": "Evaldas Dziaugys",
-          "times_top2": 4
+          "times_top2": 5
+        },
+        {
+          "name": "Medas Kuprijanovas",
+          "times_top2": 2
         },
         {
           "name": "Justas Tamulis",
           "times_top2": 2
-        },
-        {
-          "name": "Medas Kuprijanovas",
-          "times_top2": 1
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 26.9,
+      "playmaker_risk": "LOW",
+      "top_creator": "Evaldas Dziaugys"
     },
     {
       "team": "Fortitudo Bologna",
@@ -28220,8 +28248,8 @@
     },
     {
       "team": "Patrioti Levice",
-      "games_tracked": 18,
-      "avg_sdi": 46.2,
+      "games_tracked": 19,
+      "avg_sdi": 46.5,
       "avg_top1_pct": 26.9,
       "max_sdi": 64.8,
       "min_sdi": 34.3,
@@ -28230,7 +28258,7 @@
       "top_players": [
         {
           "name": "Tahlik Chavez",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Tony Hicks",
@@ -28238,13 +28266,13 @@
         },
         {
           "name": "Jelani Watson-Gayle",
-          "times_top2": 6
+          "times_top2": 7
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 36.5,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Tahlik Chavez"
     },
     {
       "team": "NKA Pecs W",
@@ -28402,9 +28430,9 @@
     },
     {
       "team": "Chartres",
-      "games_tracked": 11,
-      "avg_sdi": 46.2,
-      "avg_top1_pct": 26.4,
+      "games_tracked": 12,
+      "avg_sdi": 46.1,
+      "avg_top1_pct": 26.2,
       "max_sdi": 55.6,
       "min_sdi": 35.9,
       "risk": "AMBER",
@@ -28416,17 +28444,17 @@
         },
         {
           "name": "Javyn Nicholson",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Jasmine Bailey",
-          "times_top2": 2
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 38.7,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Jasmine Bailey"
+      "avg_top1_off_share": 39.2,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Javyn Nicholson"
     },
     {
       "team": "Miasto Szkla Krosno",
@@ -29442,6 +29470,34 @@
       "source": "proballers_ncaa"
     },
     {
+      "team": "Arkansas Razorbacks",
+      "games_tracked": 8,
+      "avg_sdi": 46.0,
+      "avg_top1_pct": 26.4,
+      "max_sdi": 61.2,
+      "min_sdi": 40.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Billy Richmond III",
+          "times_top2": 5
+        },
+        {
+          "name": "Jeremiah Wilkinson",
+          "times_top2": 4
+        },
+        {
+          "name": "Jordan Smith Jr.",
+          "times_top2": 4
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 39.0,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Davion Thompson"
+    },
+    {
       "team": "SYNTAINICS MBC",
       "games_tracked": 16,
       "avg_sdi": 43.5,
@@ -29468,34 +29524,6 @@
       "avg_top1_off_share": null,
       "playmaker_risk": null,
       "top_creator": null
-    },
-    {
-      "team": "Cincinnati Bearcats",
-      "games_tracked": 8,
-      "avg_sdi": 47.1,
-      "avg_top1_pct": 28.6,
-      "max_sdi": 57.4,
-      "min_sdi": 32.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Tyler Tejada",
-          "times_top2": 5
-        },
-        {
-          "name": "Myles Colvin",
-          "times_top2": 3
-        },
-        {
-          "name": "Tylen Riley",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 34.6,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Tylen Riley"
     },
     {
       "team": "Racing Luxembourg",
@@ -29887,6 +29915,34 @@
       "avg_top1_off_share": 37.0,
       "playmaker_risk": "MODERATE",
       "top_creator": "Tigkas Filippos"
+    },
+    {
+      "team": "Maryland Terrapins",
+      "games_tracked": 7,
+      "avg_sdi": 45.9,
+      "avg_top1_pct": 28.1,
+      "max_sdi": 61.3,
+      "min_sdi": 26.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Kaden House",
+          "times_top2": 4
+        },
+        {
+          "name": "Andre Mills",
+          "times_top2": 4
+        },
+        {
+          "name": "Pharrel Payne",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 32.0,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Pharrel Payne"
     },
     {
       "team": "Omega-Tauras",
@@ -30590,11 +30646,11 @@
     },
     {
       "team": "Angers",
-      "games_tracked": 11,
-      "avg_sdi": 45.7,
-      "avg_top1_pct": 27.2,
+      "games_tracked": 12,
+      "avg_sdi": 45.2,
+      "avg_top1_pct": 26.7,
       "max_sdi": 57.1,
-      "min_sdi": 44.0,
+      "min_sdi": 39.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -30603,18 +30659,18 @@
           "times_top2": 8
         },
         {
-          "name": "Dayshanette Harris",
+          "name": "Mariana Muadi Bulabula",
           "times_top2": 5
         },
         {
-          "name": "Mariana Muadi Bulabula",
-          "times_top2": 4
+          "name": "Dayshanette Harris",
+          "times_top2": 5
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "Trinity Baptiste"
     },
     {
       "team": "Utsunomiya",
@@ -30981,6 +31037,34 @@
       "top_creator": "C. Young"
     },
     {
+      "team": "South Carolina Gamecocks",
+      "games_tracked": 8,
+      "avg_sdi": 45.7,
+      "avg_top1_pct": 27.0,
+      "max_sdi": 55.0,
+      "min_sdi": 40.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Juan Fernandez",
+          "times_top2": 4
+        },
+        {
+          "name": "Aleksas Bieliauskas",
+          "times_top2": 4
+        },
+        {
+          "name": "Camden Heide",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 33.2,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Marcus Johnson"
+    },
+    {
       "team": "Loyola (MD) Greyhounds",
       "games_tracked": 8,
       "avg_sdi": 45.6,
@@ -31007,34 +31091,6 @@
       "avg_top1_off_share": 33.1,
       "playmaker_risk": "MODERATE",
       "top_creator": "Carter Berg-McLean"
-    },
-    {
-      "team": "Maryland Terrapins",
-      "games_tracked": 7,
-      "avg_sdi": 45.9,
-      "avg_top1_pct": 28.1,
-      "max_sdi": 61.3,
-      "min_sdi": 26.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Kaden House",
-          "times_top2": 4
-        },
-        {
-          "name": "Andre Mills",
-          "times_top2": 4
-        },
-        {
-          "name": "Pharrel Payne",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 32.0,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Pharrel Payne"
     },
     {
       "team": "Wetterbygden Stars",
@@ -31455,6 +31511,34 @@
       "source": "proballers_ncaa"
     },
     {
+      "team": "Utah State Aggies",
+      "games_tracked": 8,
+      "avg_sdi": 45.6,
+      "avg_top1_pct": 27.0,
+      "max_sdi": 53.8,
+      "min_sdi": 39.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Mason Falslev",
+          "times_top2": 5
+        },
+        {
+          "name": "Kingston Tosi",
+          "times_top2": 3
+        },
+        {
+          "name": "Will Hornseth",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 36.4,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Mason Falslev"
+    },
+    {
       "team": "Olimpia Milano",
       "games_tracked": 2,
       "avg_sdi": 45.5,
@@ -31518,9 +31602,9 @@
     },
     {
       "team": "Omega-Tauras Kauno",
-      "games_tracked": 5,
-      "avg_sdi": 45.5,
-      "avg_top1_pct": 24.6,
+      "games_tracked": 6,
+      "avg_sdi": 45.7,
+      "avg_top1_pct": 24.7,
       "max_sdi": 48.1,
       "min_sdi": 42.7,
       "risk": "AMBER",
@@ -31528,7 +31612,7 @@
       "top_players": [
         {
           "name": "Kyle Duke",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Ignas Vaitkus",
@@ -31540,7 +31624,7 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 37.0,
+      "avg_top1_off_share": 34.7,
       "playmaker_risk": "MODERATE",
       "top_creator": "Kyle Duke"
     },
@@ -31732,9 +31816,9 @@
     },
     {
       "team": "La Tronche Meylan",
-      "games_tracked": 11,
-      "avg_sdi": 45.5,
-      "avg_top1_pct": 24.8,
+      "games_tracked": 12,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 24.2,
       "max_sdi": 56.7,
       "min_sdi": 33.8,
       "risk": "AMBER",
@@ -31742,7 +31826,7 @@
       "top_players": [
         {
           "name": "Ashunae Durant",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Elena Zemoura",
@@ -31754,9 +31838,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 25.3,
+      "playmaker_risk": "LOW",
+      "top_creator": "Jasmine Thomas"
     },
     {
       "team": "Virtus Segafredo Bologna",
@@ -32257,31 +32341,59 @@
     },
     {
       "team": "Telsiai",
-      "games_tracked": 4,
-      "avg_sdi": 38.8,
-      "avg_top1_pct": 20.4,
-      "max_sdi": 41.9,
+      "games_tracked": 5,
+      "avg_sdi": 42.0,
+      "avg_top1_pct": 23.3,
+      "max_sdi": 54.6,
       "min_sdi": 35.2,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Keishawn Davidson",
+          "name": "Julius Kazakauskas",
           "times_top2": 3
         },
         {
-          "name": "Julius Kazakauskas",
-          "times_top2": 2
+          "name": "Keishawn Davidson",
+          "times_top2": 3
         },
         {
           "name": "Tadas Budrys",
           "times_top2": 2
         }
       ],
-      "avg_top1_off_share": 31.4,
-      "playmaker_risk": "LOW",
+      "avg_top1_off_share": 39.9,
+      "playmaker_risk": "HIGH",
       "top_creator": "Julius Kazakauskas",
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "Sioux Falls Skyforce",
+      "games_tracked": 5,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 25.3,
+      "max_sdi": 48.6,
+      "min_sdi": 40.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Lester Quinones",
+          "times_top2": 4
+        },
+        {
+          "name": "Vladislav Goldin",
+          "times_top2": 3
+        },
+        {
+          "name": "Gabe Madsen",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 38.3,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Gabe Madsen"
     },
     {
       "team": "Northwestern State Demons",
@@ -33208,9 +33320,9 @@
     },
     {
       "team": "Movistar Estudiantes 2",
-      "games_tracked": 9,
-      "avg_sdi": 45.2,
-      "avg_top1_pct": 26.0,
+      "games_tracked": 10,
+      "avg_sdi": 44.1,
+      "avg_top1_pct": 25.3,
       "max_sdi": 52.1,
       "min_sdi": 33.8,
       "risk": "AMBER",
@@ -33230,9 +33342,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 21.7,
+      "playmaker_risk": "LOW",
+      "top_creator": "Felipe Diaz Martinez"
     },
     {
       "team": "Saint Mary Pomeroys",
@@ -33799,9 +33911,9 @@
     },
     {
       "team": "Prievidza",
-      "games_tracked": 20,
-      "avg_sdi": 45.1,
-      "avg_top1_pct": 27.5,
+      "games_tracked": 21,
+      "avg_sdi": 44.7,
+      "avg_top1_pct": 27.3,
       "max_sdi": 60.2,
       "min_sdi": 25.0,
       "risk": "AMBER",
@@ -33812,18 +33924,18 @@
           "times_top2": 10
         },
         {
-          "name": "Jalen Smith",
+          "name": "Aamer Muhammad",
           "times_top2": 6
         },
         {
-          "name": "Johnathan Massie",
+          "name": "Jalen Smith",
           "times_top2": 6
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 23.6,
+      "playmaker_risk": "LOW",
+      "top_creator": "Jakub Mokran"
     },
     {
       "team": "Texas Legends",
@@ -33852,34 +33964,6 @@
       "avg_top1_off_share": null,
       "playmaker_risk": null,
       "top_creator": null
-    },
-    {
-      "team": "Sioux Falls Skyforce",
-      "games_tracked": 5,
-      "avg_sdi": 45.4,
-      "avg_top1_pct": 25.3,
-      "max_sdi": 48.6,
-      "min_sdi": 40.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Lester Quinones",
-          "times_top2": 4
-        },
-        {
-          "name": "Vladislav Goldin",
-          "times_top2": 3
-        },
-        {
-          "name": "Gabe Madsen",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 38.3,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Gabe Madsen"
     },
     {
       "team": "Arlington Baptist Patriots",
@@ -33991,9 +34075,9 @@
     },
     {
       "team": "Bourges",
-      "games_tracked": 13,
-      "avg_sdi": 45.0,
-      "avg_top1_pct": 26.4,
+      "games_tracked": 14,
+      "avg_sdi": 44.5,
+      "avg_top1_pct": 26.1,
       "max_sdi": 50.0,
       "min_sdi": 37.3,
       "risk": "AMBER",
@@ -34005,7 +34089,7 @@
         },
         {
           "name": "Sydney Wallace",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Marie Paule Dally",
@@ -34013,8 +34097,8 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 41.2,
-      "playmaker_risk": "HIGH",
+      "avg_top1_off_share": 38.5,
+      "playmaker_risk": "MODERATE",
       "top_creator": "Alix Duchet"
     },
     {
@@ -34686,17 +34770,17 @@
     },
     {
       "team": "C.B. Zaragoza",
-      "games_tracked": 12,
-      "avg_sdi": 44.9,
-      "avg_top1_pct": 27.9,
-      "max_sdi": 56.8,
+      "games_tracked": 13,
+      "avg_sdi": 46.0,
+      "avg_top1_pct": 29.2,
+      "max_sdi": 58.2,
       "min_sdi": 40.2,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Jay Medor",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Federico Copes",
@@ -34708,9 +34792,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 48.0,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Jay Medor"
     },
     {
       "team": "BC Parnu",
@@ -34854,9 +34938,9 @@
     },
     {
       "team": "MBK Baník Handlová",
-      "games_tracked": 11,
-      "avg_sdi": 44.9,
-      "avg_top1_pct": 25.9,
+      "games_tracked": 12,
+      "avg_sdi": 45.4,
+      "avg_top1_pct": 26.0,
       "max_sdi": 57.1,
       "min_sdi": 32.2,
       "risk": "AMBER",
@@ -34868,17 +34952,17 @@
         },
         {
           "name": "Walyn Napper",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
-          "name": "Jordan Harris",
-          "times_top2": 2
+          "name": "Wesley James Thomas Robinson",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 40.7,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Walyn Napper"
     },
     {
       "team": "Libertas Livorno 1947",
@@ -35550,10 +35634,66 @@
       "top_creator": "Kevon Vanderhorst"
     },
     {
+      "team": "Tennessee Volunteers",
+      "games_tracked": 8,
+      "avg_sdi": 44.7,
+      "avg_top1_pct": 24.2,
+      "max_sdi": 55.6,
+      "min_sdi": 37.8,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Terrence Hill Jr.",
+          "times_top2": 6
+        },
+        {
+          "name": "DeWayne Brown II",
+          "times_top2": 4
+        },
+        {
+          "name": "Dai-Dai Ames",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 33.0,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Terrence Hill Jr."
+    },
+    {
+      "team": "Cleveland Charge",
+      "games_tracked": 5,
+      "avg_sdi": 44.7,
+      "avg_top1_pct": 24.1,
+      "max_sdi": 50.0,
+      "min_sdi": 38.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Zack Austin",
+          "times_top2": 3
+        },
+        {
+          "name": "Curtis Jones",
+          "times_top2": 3
+        },
+        {
+          "name": "Rashaun Agee",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 32.9,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Curtis Jones"
+    },
+    {
       "team": "Jurbarkas-Karys",
-      "games_tracked": 6,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 24.4,
+      "games_tracked": 7,
+      "avg_sdi": 44.0,
+      "avg_top1_pct": 23.9,
       "max_sdi": 62.7,
       "min_sdi": 34.4,
       "risk": "AMBER",
@@ -35568,12 +35708,12 @@
           "times_top2": 2
         },
         {
-          "name": "Karolis Babusis",
-          "times_top2": 1
+          "name": "Saulius Kulvietis",
+          "times_top2": 2
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 30.0,
+      "avg_top1_off_share": 27.7,
       "playmaker_risk": "LOW",
       "top_creator": "Vytenis Cizauskas"
     },
@@ -35895,9 +36035,9 @@
     },
     {
       "team": "Badajoz",
-      "games_tracked": 10,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 26.0,
+      "games_tracked": 11,
+      "avg_sdi": 44.2,
+      "avg_top1_pct": 25.4,
       "max_sdi": 59.7,
       "min_sdi": 34.9,
       "risk": "AMBER",
@@ -35905,21 +36045,21 @@
       "top_players": [
         {
           "name": "Nikola Rakocevic",
-          "times_top2": 9
+          "times_top2": 10
         },
         {
           "name": "Uwais Danilo Abdul Razaque",
           "times_top2": 5
         },
         {
-          "name": "Joshua Ugochuwku Nwankwo",
-          "times_top2": 2
+          "name": "L.J. Bryan",
+          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 23.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Joseba Querejeta"
     },
     {
       "team": "Webster Gorloks",
@@ -36108,6 +36248,62 @@
       "playmaker_risk": "MODERATE",
       "top_creator": "Franz Wagner",
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "DePaul Blue Demons",
+      "games_tracked": 8,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 24.8,
+      "max_sdi": 53.1,
+      "min_sdi": 37.3,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Kruz McClure",
+          "times_top2": 3
+        },
+        {
+          "name": "Layden Blocker",
+          "times_top2": 3
+        },
+        {
+          "name": "Koree Cotton",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 33.7,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Noah Meeusen"
+    },
+    {
+      "team": "Iowa State Cyclones",
+      "games_tracked": 6,
+      "avg_sdi": 44.6,
+      "avg_top1_pct": 25.8,
+      "max_sdi": 51.6,
+      "min_sdi": 37.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Tre Singleton",
+          "times_top2": 4
+        },
+        {
+          "name": "Ryan Prather Jr",
+          "times_top2": 3
+        },
+        {
+          "name": "JaQuan Johnson",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 31.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Tre Singleton"
     },
     {
       "team": "Shenzhen",
@@ -36338,9 +36534,9 @@
     },
     {
       "team": "Villeneuve d'Ascq",
-      "games_tracked": 16,
-      "avg_sdi": 44.5,
-      "avg_top1_pct": 26.6,
+      "games_tracked": 17,
+      "avg_sdi": 44.3,
+      "avg_top1_pct": 26.5,
       "max_sdi": 52.5,
       "min_sdi": 33.7,
       "risk": "AMBER",
@@ -36348,11 +36544,11 @@
       "top_players": [
         {
           "name": "Steph Kostowicz",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Anna Ngo Ndjock",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Maria Jespersen",
@@ -36360,9 +36556,37 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 33.8,
+      "avg_top1_off_share": 35.3,
       "playmaker_risk": "MODERATE",
-      "top_creator": "Stella Colas"
+      "top_creator": "Anna Ngo Ndjock"
+    },
+    {
+      "team": "Michigan Wolverines",
+      "games_tracked": 7,
+      "avg_sdi": 44.5,
+      "avg_top1_pct": 24.8,
+      "max_sdi": 53.2,
+      "min_sdi": 26.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Trey McKenney",
+          "times_top2": 4
+        },
+        {
+          "name": "J.P. Estrella",
+          "times_top2": 4
+        },
+        {
+          "name": "Moustapha Thiam",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 35.8,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Elliott Cadeau"
     },
     {
       "team": "Kotwica Kolobrzeg",
@@ -36419,62 +36643,6 @@
       "avg_top1_off_share": 37.6,
       "playmaker_risk": "MODERATE",
       "top_creator": "Kennedy Todd-Williams"
-    },
-    {
-      "team": "South Carolina Gamecocks",
-      "games_tracked": 8,
-      "avg_sdi": 45.7,
-      "avg_top1_pct": 27.0,
-      "max_sdi": 55.0,
-      "min_sdi": 40.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Juan Fernandez",
-          "times_top2": 4
-        },
-        {
-          "name": "Aleksas Bieliauskas",
-          "times_top2": 4
-        },
-        {
-          "name": "Camden Heide",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 33.2,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Marcus Johnson"
-    },
-    {
-      "team": "Utah State Aggies",
-      "games_tracked": 8,
-      "avg_sdi": 45.6,
-      "avg_top1_pct": 27.0,
-      "max_sdi": 53.8,
-      "min_sdi": 39.6,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Mason Falslev",
-          "times_top2": 5
-        },
-        {
-          "name": "Kingston Tosi",
-          "times_top2": 3
-        },
-        {
-          "name": "Will Hornseth",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 36.4,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Mason Falslev"
     },
     {
       "team": "Portland Pilots",
@@ -37346,34 +37514,6 @@
       "avg_top1_off_share": 40.3,
       "playmaker_risk": "HIGH",
       "top_creator": "Normantas Margiris"
-    },
-    {
-      "team": "Tennessee Volunteers",
-      "games_tracked": 8,
-      "avg_sdi": 44.7,
-      "avg_top1_pct": 24.2,
-      "max_sdi": 55.6,
-      "min_sdi": 37.8,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Terrence Hill Jr.",
-          "times_top2": 6
-        },
-        {
-          "name": "DeWayne Brown II",
-          "times_top2": 4
-        },
-        {
-          "name": "Dai-Dai Ames",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 33.0,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Terrence Hill Jr."
     },
     {
       "team": "Providence Friars",
@@ -38381,34 +38521,6 @@
       "top_creator": "Lorenzo Washington"
     },
     {
-      "team": "Cleveland Charge",
-      "games_tracked": 5,
-      "avg_sdi": 44.7,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 50.0,
-      "min_sdi": 38.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Zack Austin",
-          "times_top2": 3
-        },
-        {
-          "name": "Curtis Jones",
-          "times_top2": 3
-        },
-        {
-          "name": "Rashaun Agee",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 32.9,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Curtis Jones"
-    },
-    {
       "team": "Westchester Knicks",
       "games_tracked": 3,
       "avg_sdi": 44.0,
@@ -38876,34 +38988,6 @@
       "avg_top1_off_share": 36.3,
       "playmaker_risk": "MODERATE",
       "top_creator": "Malachi Moreno"
-    },
-    {
-      "team": "Arkansas Razorbacks",
-      "games_tracked": 8,
-      "avg_sdi": 46.0,
-      "avg_top1_pct": 26.4,
-      "max_sdi": 61.2,
-      "min_sdi": 40.6,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Billy Richmond III",
-          "times_top2": 5
-        },
-        {
-          "name": "Jeremiah Wilkinson",
-          "times_top2": 4
-        },
-        {
-          "name": "Jordan Smith Jr.",
-          "times_top2": 4
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 39.0,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Davion Thompson"
     },
     {
       "team": "Belfius Mons",
@@ -40607,34 +40691,6 @@
       "top_creator": "J. Martinho"
     },
     {
-      "team": "DePaul Blue Demons",
-      "games_tracked": 8,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 24.8,
-      "max_sdi": 53.1,
-      "min_sdi": 37.3,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Kruz McClure",
-          "times_top2": 3
-        },
-        {
-          "name": "Layden Blocker",
-          "times_top2": 3
-        },
-        {
-          "name": "Koree Cotton",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 33.7,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Noah Meeusen"
-    },
-    {
       "team": "Tasmania Jewels W",
       "games_tracked": 2,
       "avg_sdi": 43.3,
@@ -41404,34 +41460,6 @@
       "top_creator": "Flash Burton"
     },
     {
-      "team": "Iowa State Cyclones",
-      "games_tracked": 6,
-      "avg_sdi": 44.6,
-      "avg_top1_pct": 25.8,
-      "max_sdi": 51.6,
-      "min_sdi": 37.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Tre Singleton",
-          "times_top2": 4
-        },
-        {
-          "name": "Ryan Prather Jr",
-          "times_top2": 3
-        },
-        {
-          "name": "JaQuan Johnson",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 31.4,
-      "playmaker_risk": "LOW",
-      "top_creator": "Tre Singleton"
-    },
-    {
       "team": "Toledo Rockets",
       "games_tracked": 7,
       "avg_sdi": 43.2,
@@ -41600,38 +41628,10 @@
       "top_creator": "Colby Garland"
     },
     {
-      "team": "Michigan Wolverines",
-      "games_tracked": 7,
-      "avg_sdi": 44.5,
-      "avg_top1_pct": 24.8,
-      "max_sdi": 53.2,
-      "min_sdi": 26.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Trey McKenney",
-          "times_top2": 4
-        },
-        {
-          "name": "J.P. Estrella",
-          "times_top2": 4
-        },
-        {
-          "name": "Moustapha Thiam",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 35.8,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Elliott Cadeau"
-    },
-    {
       "team": "Portimonense",
-      "games_tracked": 10,
-      "avg_sdi": 45.5,
-      "avg_top1_pct": 26.9,
+      "games_tracked": 11,
+      "avg_sdi": 45.2,
+      "avg_top1_pct": 26.8,
       "max_sdi": 53.6,
       "min_sdi": 39.2,
       "risk": "AMBER",
@@ -41639,7 +41639,7 @@
       "top_players": [
         {
           "name": "Giancarlo Rosado",
-          "times_top2": 10
+          "times_top2": 11
         },
         {
           "name": "Mason Landdeck",
@@ -41652,7 +41652,7 @@
       ],
       "avg_top1_off_share": 26.2,
       "playmaker_risk": "LOW",
-      "top_creator": "T. Coleman",
+      "top_creator": "Tyler Coleman",
       "source": "proballers_ncaa"
     },
     {
@@ -42114,6 +42114,34 @@
       "top_creator": "Petar Majstorovic"
     },
     {
+      "team": "Saint Mary's Gaels",
+      "games_tracked": 10,
+      "avg_sdi": 43.1,
+      "avg_top1_pct": 23.9,
+      "max_sdi": 56.8,
+      "min_sdi": 30.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Mantas Juzenas",
+          "times_top2": 7
+        },
+        {
+          "name": "Joshua Dent",
+          "times_top2": 4
+        },
+        {
+          "name": "Rory Hawke",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 34.2,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Joshua Dent"
+    },
+    {
       "team": "Florida Gulf Coast Eagles",
       "games_tracked": 9,
       "avg_sdi": 43.0,
@@ -42418,9 +42446,9 @@
     },
     {
       "team": "Cartagena",
-      "games_tracked": 12,
-      "avg_sdi": 43.0,
-      "avg_top1_pct": 23.8,
+      "games_tracked": 13,
+      "avg_sdi": 42.6,
+      "avg_top1_pct": 23.5,
       "max_sdi": 51.2,
       "min_sdi": 31.2,
       "risk": "AMBER",
@@ -42428,7 +42456,7 @@
       "top_players": [
         {
           "name": "Vitor Faverani",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Javier Garcia",
@@ -42440,9 +42468,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 31.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Javier Garcia"
     },
     {
       "team": "Cheshire Phoenix",
@@ -43425,34 +43453,6 @@
       "top_creator": "Sebastian Rancik"
     },
     {
-      "team": "Saint Mary's Gaels",
-      "games_tracked": 10,
-      "avg_sdi": 43.1,
-      "avg_top1_pct": 23.9,
-      "max_sdi": 56.8,
-      "min_sdi": 30.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Mantas Juzenas",
-          "times_top2": 7
-        },
-        {
-          "name": "Joshua Dent",
-          "times_top2": 4
-        },
-        {
-          "name": "Rory Hawke",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 34.2,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Joshua Dent"
-    },
-    {
       "team": "Sunshine Coast",
       "games_tracked": 12,
       "avg_sdi": 42.7,
@@ -44385,9 +44385,9 @@
     },
     {
       "team": "Bisbal Basquet",
-      "games_tracked": 12,
-      "avg_sdi": 42.5,
-      "avg_top1_pct": 23.1,
+      "games_tracked": 13,
+      "avg_sdi": 42.8,
+      "avg_top1_pct": 23.3,
       "max_sdi": 59.7,
       "min_sdi": 34.4,
       "risk": "AMBER",
@@ -44395,7 +44395,7 @@
       "top_players": [
         {
           "name": "Matthew Ragsdale",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Adria Dominguez Espelt",
@@ -44407,9 +44407,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 30.6,
+      "playmaker_risk": "LOW",
+      "top_creator": "Adria Dominguez Espelt"
     },
     {
       "team": "Tofas Bursa",
@@ -44441,8 +44441,8 @@
     },
     {
       "team": "SL Benfica",
-      "games_tracked": 24,
-      "avg_sdi": 42.5,
+      "games_tracked": 25,
+      "avg_sdi": 42.6,
       "avg_top1_pct": 23.4,
       "max_sdi": 50.0,
       "min_sdi": 34.3,
@@ -44455,7 +44455,7 @@
         },
         {
           "name": "Geno Crandall",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Aleksander Dziewa",
@@ -44463,9 +44463,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 33.8,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Geno Crandall"
     },
     {
       "team": "BC Vienna",
@@ -44743,30 +44743,30 @@
     },
     {
       "team": "M Basket-Delamode",
-      "games_tracked": 5,
-      "avg_sdi": 42.4,
-      "avg_top1_pct": 22.4,
+      "games_tracked": 6,
+      "avg_sdi": 41.1,
+      "avg_top1_pct": 21.6,
       "max_sdi": 48.1,
-      "min_sdi": 39.1,
+      "min_sdi": 34.7,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Arvydas Gydra",
-          "times_top2": 2
-        },
-        {
-          "name": "Artem Lopukhov",
-          "times_top2": 2
-        },
-        {
           "name": "Royce Jason Williams",
+          "times_top2": 3
+        },
+        {
+          "name": "Tautvydas Kupstas",
+          "times_top2": 3
+        },
+        {
+          "name": "Arvydas Gydra",
           "times_top2": 2
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 24.5,
-      "playmaker_risk": "LOW",
+      "avg_top1_off_share": 31.9,
+      "playmaker_risk": "MODERATE",
       "top_creator": "Ja'quavian Ty'Juan Florence"
     },
     {
@@ -45531,9 +45531,9 @@
     },
     {
       "team": "Sant Antoni",
-      "games_tracked": 11,
-      "avg_sdi": 42.3,
-      "avg_top1_pct": 24.5,
+      "games_tracked": 12,
+      "avg_sdi": 42.4,
+      "avg_top1_pct": 24.3,
       "max_sdi": 50.6,
       "min_sdi": 33.3,
       "risk": "AMBER",
@@ -45541,7 +45541,7 @@
       "top_players": [
         {
           "name": "Kai Andrew Johnson",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Daniel De La Rua",
@@ -45553,9 +45553,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 24.9,
+      "playmaker_risk": "LOW",
+      "top_creator": "Lamin Dibba"
     },
     {
       "team": "Mexico City Capitanes",
@@ -46116,6 +46116,34 @@
       "top_creator": "Mazurczak Andrzej"
     },
     {
+      "team": "Pyrintö Akatemia A",
+      "games_tracked": 11,
+      "avg_sdi": 42.2,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 50.0,
+      "min_sdi": 32.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Ville-Pekka Eskelinen",
+          "times_top2": 8
+        },
+        {
+          "name": "Aaron Montonen",
+          "times_top2": 5
+        },
+        {
+          "name": "Jaakko Nieminen",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 31.7,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Eetu Honkaniemi"
+    },
+    {
       "team": "Kedainiai BC",
       "games_tracked": 2,
       "avg_sdi": 42.1,
@@ -46537,11 +46565,11 @@
     },
     {
       "team": "Basket Landes",
-      "games_tracked": 17,
-      "avg_sdi": 42.0,
-      "avg_top1_pct": 23.4,
+      "games_tracked": 18,
+      "avg_sdi": 41.4,
+      "avg_top1_pct": 23.1,
       "max_sdi": 58.5,
-      "min_sdi": 33.0,
+      "min_sdi": 32.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -46559,7 +46587,7 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 28.2,
+      "avg_top1_off_share": 29.8,
       "playmaker_risk": "LOW",
       "top_creator": "Trinity San Antonio"
     },
@@ -47100,9 +47128,9 @@
     },
     {
       "team": "CAB Madeira",
-      "games_tracked": 9,
-      "avg_sdi": 45.5,
-      "avg_top1_pct": 25.8,
+      "games_tracked": 10,
+      "avg_sdi": 45.1,
+      "avg_top1_pct": 25.6,
       "max_sdi": 52.6,
       "min_sdi": 39.1,
       "risk": "AMBER",
@@ -47110,7 +47138,7 @@
       "top_players": [
         {
           "name": "Miguel Tomley",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Fred Thomas",
@@ -47123,7 +47151,7 @@
       ],
       "avg_top1_off_share": 30.8,
       "playmaker_risk": "LOW",
-      "top_creator": "M. Tomley",
+      "top_creator": "Miguel Tomley",
       "source": "proballers_ncaa"
     },
     {
@@ -47290,21 +47318,21 @@
     },
     {
       "team": "Lyon",
-      "games_tracked": 13,
+      "games_tracked": 14,
       "avg_sdi": 41.9,
-      "avg_top1_pct": 23.3,
+      "avg_top1_pct": 23.2,
       "max_sdi": 49.2,
       "min_sdi": 32.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Asianae Johnson",
+          "name": "Leck-Olivia Yale",
           "times_top2": 7
         },
         {
-          "name": "Leck-Olivia Yale",
-          "times_top2": 6
+          "name": "Asianae Johnson",
+          "times_top2": 7
         },
         {
           "name": "Samantha Peytour",
@@ -47312,9 +47340,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 40.5,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Ainhoa Risacher"
     },
     {
       "team": "Rostock Seawolves",
@@ -47450,9 +47478,9 @@
     },
     {
       "team": "Palangos Kuršiai",
-      "games_tracked": 4,
-      "avg_sdi": 41.9,
-      "avg_top1_pct": 24.9,
+      "games_tracked": 5,
+      "avg_sdi": 41.8,
+      "avg_top1_pct": 24.1,
       "max_sdi": 46.7,
       "min_sdi": 36.3,
       "risk": "AMBER",
@@ -47460,21 +47488,21 @@
       "top_players": [
         {
           "name": "Titas Janusevicius",
-          "times_top2": 3
+          "times_top2": 4
+        },
+        {
+          "name": "William Russell Jenkins III",
+          "times_top2": 2
         },
         {
           "name": "Antanas Udras",
           "times_top2": 2
-        },
-        {
-          "name": "William Russell Jenkins III",
-          "times_top2": 1
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 28.0,
+      "playmaker_risk": "LOW",
+      "top_creator": "Titas Janusevicius"
     },
     {
       "team": "Belmont Bruins",
@@ -47605,34 +47633,6 @@
       "avg_top1_off_share": 34.8,
       "playmaker_risk": "MODERATE",
       "top_creator": "Popovic Petar"
-    },
-    {
-      "team": "Pyrintö Akatemia A",
-      "games_tracked": 11,
-      "avg_sdi": 42.2,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 50.0,
-      "min_sdi": 32.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Ville-Pekka Eskelinen",
-          "times_top2": 8
-        },
-        {
-          "name": "Aaron Montonen",
-          "times_top2": 5
-        },
-        {
-          "name": "Jaakko Nieminen",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 31.7,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Eetu Honkaniemi"
     },
     {
       "team": "Green Bay Phoenix",
@@ -47860,9 +47860,9 @@
     },
     {
       "team": "Ovarense GAVEX",
-      "games_tracked": 14,
+      "games_tracked": 15,
       "avg_sdi": 41.8,
-      "avg_top1_pct": 24.3,
+      "avg_top1_pct": 24.1,
       "max_sdi": 53.8,
       "min_sdi": 32.3,
       "risk": "AMBER",
@@ -47870,21 +47870,21 @@
       "top_players": [
         {
           "name": "Leon Ayers III",
-          "times_top2": 10
+          "times_top2": 11
         },
         {
           "name": "Jay Heath",
           "times_top2": 3
         },
         {
-          "name": "Devan Cambridge",
+          "name": "Miguel Monteiro",
           "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 34.4,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Render Antonio Woods"
     },
     {
       "team": "Fresno Pacific Sunbirds",
@@ -48429,34 +48429,6 @@
       "top_creator": "Calix Cahill"
     },
     {
-      "team": "San Diego State Aztecs",
-      "games_tracked": 8,
-      "avg_sdi": 41.6,
-      "avg_top1_pct": 24.0,
-      "max_sdi": 50.0,
-      "min_sdi": 31.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Latrell Davis",
-          "times_top2": 8
-        },
-        {
-          "name": "Jeremiah Cherry",
-          "times_top2": 3
-        },
-        {
-          "name": "Elzie Harrington",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 30.8,
-      "playmaker_risk": "LOW",
-      "top_creator": "Latrell Davis"
-    },
-    {
       "team": "Spalding Pelicans",
       "games_tracked": 1,
       "avg_sdi": 41.7,
@@ -48660,6 +48632,62 @@
       "playmaker_risk": "MODERATE",
       "top_creator": "Holiday Aaron",
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "Miami Hurricanes",
+      "games_tracked": 8,
+      "avg_sdi": 41.7,
+      "avg_top1_pct": 23.8,
+      "max_sdi": 55.2,
+      "min_sdi": 30.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Shelton Henderson",
+          "times_top2": 5
+        },
+        {
+          "name": "Malik Reneau",
+          "times_top2": 2
+        },
+        {
+          "name": "Nick Dorn",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 31.7,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Shelton Henderson"
+    },
+    {
+      "team": "San Diego State Aztecs",
+      "games_tracked": 8,
+      "avg_sdi": 41.6,
+      "avg_top1_pct": 24.0,
+      "max_sdi": 50.0,
+      "min_sdi": 31.5,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Latrell Davis",
+          "times_top2": 8
+        },
+        {
+          "name": "Jeremiah Cherry",
+          "times_top2": 3
+        },
+        {
+          "name": "Elzie Harrington",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 30.8,
+      "playmaker_risk": "LOW",
+      "top_creator": "Latrell Davis"
     },
     {
       "team": "HBA-Marsky Helsinki W",
@@ -49006,34 +49034,6 @@
       "avg_top1_off_share": 44.7,
       "playmaker_risk": "HIGH",
       "top_creator": "Verge Alonzo"
-    },
-    {
-      "team": "Army Black Knights",
-      "games_tracked": 9,
-      "avg_sdi": 40.9,
-      "avg_top1_pct": 24.0,
-      "max_sdi": 54.4,
-      "min_sdi": 22.9,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Kevin McCarthy",
-          "times_top2": 6
-        },
-        {
-          "name": "Dillon Watt",
-          "times_top2": 4
-        },
-        {
-          "name": "Ryan Curry",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 35.3,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Ryan Curry"
     },
     {
       "team": "Le Mans",
@@ -49833,10 +49833,10 @@
     },
     {
       "team": "C.B. Moron",
-      "games_tracked": 12,
-      "avg_sdi": 41.3,
-      "avg_top1_pct": 22.5,
-      "max_sdi": 47.5,
+      "games_tracked": 13,
+      "avg_sdi": 42.0,
+      "avg_top1_pct": 22.8,
+      "max_sdi": 51.2,
       "min_sdi": 36.4,
       "risk": "AMBER",
       "risk_label": "MODERATE",
@@ -49846,18 +49846,18 @@
           "times_top2": 4
         },
         {
-          "name": "Miguel Ayesa Rodriguez",
+          "name": "Soulemane Chabi Yo",
           "times_top2": 4
         },
         {
-          "name": "Soulemane Chabi Yo",
-          "times_top2": 3
+          "name": "Miguel Ayesa Rodriguez",
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 36.8,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Pablo Sanchez"
     },
     {
       "team": "Whittier Poets",
@@ -50145,20 +50145,20 @@
     },
     {
       "team": "Clinica Ponferrada",
-      "games_tracked": 14,
-      "avg_sdi": 41.2,
-      "avg_top1_pct": 22.5,
+      "games_tracked": 15,
+      "avg_sdi": 41.6,
+      "avg_top1_pct": 22.6,
       "max_sdi": 54.7,
       "min_sdi": 28.9,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
-          "name": "Nndami Ikwunne Okeke",
-          "times_top2": 6
+          "name": "Carlos Hurtado Cervantes",
+          "times_top2": 7
         },
         {
-          "name": "Carlos Hurtado Cervantes",
+          "name": "Nndami Ikwunne Okeke",
           "times_top2": 6
         },
         {
@@ -50167,9 +50167,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 28.6,
+      "playmaker_risk": "LOW",
+      "top_creator": "Carlos Hurtado Cervantes"
     },
     {
       "team": "Saint-Chamond",
@@ -50631,6 +50631,34 @@
       "top_creator": "Foppossi Marie-Paule"
     },
     {
+      "team": "Texas Longhorns",
+      "games_tracked": 9,
+      "avg_sdi": 41.1,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 53.3,
+      "min_sdi": 31.6,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Matas Vokietaitis",
+          "times_top2": 8
+        },
+        {
+          "name": "Isaiah Johnson",
+          "times_top2": 6
+        },
+        {
+          "name": "Joe Sterling",
+          "times_top2": 1
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 29.3,
+      "playmaker_risk": "LOW",
+      "top_creator": "Isaiah Johnson"
+    },
+    {
       "team": "Kharkivski Sokoly",
       "games_tracked": 2,
       "avg_sdi": 41.0,
@@ -50867,6 +50895,34 @@
       "playmaker_risk": "LOW",
       "top_creator": "Marcus Zeigler Jr.",
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "Army Black Knights",
+      "games_tracked": 9,
+      "avg_sdi": 40.9,
+      "avg_top1_pct": 24.0,
+      "max_sdi": 54.4,
+      "min_sdi": 22.9,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Kevin McCarthy",
+          "times_top2": 6
+        },
+        {
+          "name": "Dillon Watt",
+          "times_top2": 4
+        },
+        {
+          "name": "Ryan Curry",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 35.3,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Ryan Curry"
     },
     {
       "team": "Hapoel Tel Aviv",
@@ -51288,34 +51344,6 @@
       "top_creator": "Yoav Berman"
     },
     {
-      "team": "Miami Hurricanes",
-      "games_tracked": 8,
-      "avg_sdi": 41.7,
-      "avg_top1_pct": 23.8,
-      "max_sdi": 55.2,
-      "min_sdi": 30.5,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Shelton Henderson",
-          "times_top2": 5
-        },
-        {
-          "name": "Malik Reneau",
-          "times_top2": 2
-        },
-        {
-          "name": "Nick Dorn",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 31.7,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Shelton Henderson"
-    },
-    {
       "team": "Greece",
       "games_tracked": 1,
       "avg_sdi": 40.9,
@@ -51665,11 +51693,11 @@
     },
     {
       "team": "Basquet Gandia",
-      "games_tracked": 13,
-      "avg_sdi": 40.8,
-      "avg_top1_pct": 23.5,
+      "games_tracked": 14,
+      "avg_sdi": 40.2,
+      "avg_top1_pct": 23.0,
       "max_sdi": 50.7,
-      "min_sdi": 36.6,
+      "min_sdi": 33.3,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
@@ -51687,9 +51715,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.3,
+      "playmaker_risk": "LOW",
+      "top_creator": "Luis Ferrando"
     },
     {
       "team": "Atomeromu SE",
@@ -52236,6 +52264,62 @@
       "top_creator": "Patrick Ngongba"
     },
     {
+      "team": "SMU Mustangs",
+      "games_tracked": 9,
+      "avg_sdi": 40.7,
+      "avg_top1_pct": 23.6,
+      "max_sdi": 51.3,
+      "min_sdi": 30.7,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Oziyah Sellers",
+          "times_top2": 6
+        },
+        {
+          "name": "Jacob Patrick",
+          "times_top2": 2
+        },
+        {
+          "name": "Jaden Toombs",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 32.7,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "David Terrell Jr"
+    },
+    {
+      "team": "Michigan State Spartans",
+      "games_tracked": 8,
+      "avg_sdi": 40.7,
+      "avg_top1_pct": 23.0,
+      "max_sdi": 60.9,
+      "min_sdi": 26.0,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jeremy Fears Jr.",
+          "times_top2": 6
+        },
+        {
+          "name": "Jasiah Jervis",
+          "times_top2": 3
+        },
+        {
+          "name": "Jordan Scott",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 45.9,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Jeremy Fears Jr."
+    },
+    {
       "team": "Umana Reyer Venezia",
       "games_tracked": 31,
       "avg_sdi": 40.6,
@@ -52385,9 +52469,9 @@
     },
     {
       "team": "Melilla Ciudad Del Deporte 1",
-      "games_tracked": 14,
-      "avg_sdi": 40.6,
-      "avg_top1_pct": 23.5,
+      "games_tracked": 15,
+      "avg_sdi": 41.1,
+      "avg_top1_pct": 23.6,
       "max_sdi": 50.0,
       "min_sdi": 31.5,
       "risk": "AMBER",
@@ -52399,17 +52483,17 @@
         },
         {
           "name": "Jahvaughn Powell",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Hector Figueroa",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 32.3,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Jahvaughn Powell"
     },
     {
       "team": "Apu Old Wild West Udine",
@@ -52612,9 +52696,9 @@
     },
     {
       "team": "CD Povoa",
-      "games_tracked": 10,
-      "avg_sdi": 41.0,
-      "avg_top1_pct": 22.9,
+      "games_tracked": 11,
+      "avg_sdi": 40.9,
+      "avg_top1_pct": 22.6,
       "max_sdi": 54.7,
       "min_sdi": 29.0,
       "risk": "AMBER",
@@ -52622,11 +52706,11 @@
       "top_players": [
         {
           "name": "Abdul Rahman Nayete Bah",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Brody Whitaker",
-          "times_top2": 8
+          "times_top2": 9
         },
         {
           "name": "Joao Gomes",
@@ -52635,7 +52719,7 @@
       ],
       "avg_top1_off_share": 26.1,
       "playmaker_risk": "LOW",
-      "top_creator": "A. Bah",
+      "top_creator": "Abdul Rahman Nayete Bah",
       "source": "proballers_ncaa"
     },
     {
@@ -52752,21 +52836,21 @@
     },
     {
       "team": "Logro Basket",
-      "games_tracked": 13,
-      "avg_sdi": 40.5,
-      "avg_top1_pct": 23.7,
+      "games_tracked": 14,
+      "avg_sdi": 39.8,
+      "avg_top1_pct": 23.2,
       "max_sdi": 50.6,
       "min_sdi": 29.6,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
       "top_players": [
         {
           "name": "Zack Rollins",
-          "times_top2": 5
+          "times_top2": 6
         },
         {
           "name": "Mohamed Fares Ochi",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Joseph Luke Reilly",
@@ -52774,9 +52858,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 25.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "Alec Jordan Plitzuweit"
     },
     {
       "team": "HAKRO Merlins Crailsheim",
@@ -53102,9 +53186,9 @@
     },
     {
       "team": "Ciudad Molina",
-      "games_tracked": 12,
-      "avg_sdi": 40.4,
-      "avg_top1_pct": 23.3,
+      "games_tracked": 13,
+      "avg_sdi": 40.5,
+      "avg_top1_pct": 23.5,
       "max_sdi": 49.3,
       "min_sdi": 31.9,
       "risk": "AMBER",
@@ -53124,9 +53208,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 32.7,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Francisco Hernandez Martinez"
     },
     {
       "team": "Mersin BBGSK",
@@ -53451,34 +53535,6 @@
       "avg_top1_off_share": 34.6,
       "playmaker_risk": "MODERATE",
       "top_creator": "J. Montgomery"
-    },
-    {
-      "team": "Texas Longhorns",
-      "games_tracked": 9,
-      "avg_sdi": 41.1,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 53.3,
-      "min_sdi": 31.6,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Matas Vokietaitis",
-          "times_top2": 8
-        },
-        {
-          "name": "Isaiah Johnson",
-          "times_top2": 6
-        },
-        {
-          "name": "Joe Sterling",
-          "times_top2": 1
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 29.3,
-      "playmaker_risk": "LOW",
-      "top_creator": "Isaiah Johnson"
     },
     {
       "team": "MLP Academics Heidelberg",
@@ -54152,6 +54208,34 @@
       "top_creator": "Josh Hubbard"
     },
     {
+      "team": "UCLA Bruins",
+      "games_tracked": 8,
+      "avg_sdi": 40.2,
+      "avg_top1_pct": 24.1,
+      "max_sdi": 49.3,
+      "min_sdi": 31.1,
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
+      "top_players": [
+        {
+          "name": "Jaylen Petty",
+          "times_top2": 5
+        },
+        {
+          "name": "Trent Perry",
+          "times_top2": 4
+        },
+        {
+          "name": "Nikola Kusturica",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 33.6,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Trent Perry"
+    },
+    {
       "team": "Northern Colorado Bears",
       "games_tracked": 8,
       "avg_sdi": 40.1,
@@ -54488,9 +54572,9 @@
     },
     {
       "team": "Charnay",
-      "games_tracked": 16,
-      "avg_sdi": 40.0,
-      "avg_top1_pct": 21.6,
+      "games_tracked": 17,
+      "avg_sdi": 40.2,
+      "avg_top1_pct": 21.8,
       "max_sdi": 49.4,
       "min_sdi": 33.0,
       "risk": "AMBER",
@@ -54510,8 +54594,8 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 27.3,
-      "playmaker_risk": "LOW",
+      "avg_top1_off_share": 32.5,
+      "playmaker_risk": "MODERATE",
       "top_creator": "Alberte Rimdal"
     },
     {
@@ -54857,62 +54941,6 @@
       "top_creator": "V. Zajicova"
     },
     {
-      "team": "UCLA Bruins",
-      "games_tracked": 8,
-      "avg_sdi": 40.2,
-      "avg_top1_pct": 24.1,
-      "max_sdi": 49.3,
-      "min_sdi": 31.1,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jaylen Petty",
-          "times_top2": 5
-        },
-        {
-          "name": "Trent Perry",
-          "times_top2": 4
-        },
-        {
-          "name": "Nikola Kusturica",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 33.6,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "Trent Perry"
-    },
-    {
-      "team": "Texas-San Antonio Roadrunners",
-      "games_tracked": 7,
-      "avg_sdi": 39.2,
-      "avg_top1_pct": 20.3,
-      "max_sdi": 47.8,
-      "min_sdi": 34.4,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Isaiah Watts",
-          "times_top2": 4
-        },
-        {
-          "name": "KJ Tenner",
-          "times_top2": 3
-        },
-        {
-          "name": "Shey Eberwein",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 30.5,
-      "playmaker_risk": "LOW",
-      "top_creator": "KJ Tenner"
-    },
-    {
       "team": "TCU Horned Frogs",
       "games_tracked": 6,
       "avg_sdi": 40.0,
@@ -55127,13 +55155,13 @@
     },
     {
       "team": "Biele ISB",
-      "games_tracked": 13,
-      "avg_sdi": 39.9,
-      "avg_top1_pct": 24.2,
+      "games_tracked": 14,
+      "avg_sdi": 40.0,
+      "avg_top1_pct": 24.0,
       "max_sdi": 47.0,
       "min_sdi": 33.3,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Jordan Matthew Jermain",
@@ -55149,9 +55177,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 33.4,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Bernardo Dias Marques Lisboa Santos"
     },
     {
       "team": "Vendée Challans Basket",
@@ -55239,17 +55267,17 @@
     },
     {
       "team": "CB Tres Cantos",
-      "games_tracked": 8,
-      "avg_sdi": 39.9,
-      "avg_top1_pct": 21.4,
+      "games_tracked": 9,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 21.8,
       "max_sdi": 47.2,
       "min_sdi": 32.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Charles Samuel Knowles",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Dayshaun Immanuel Truth Walton",
@@ -55257,13 +55285,13 @@
         },
         {
           "name": "Gonzalo Diaz Montero",
-          "times_top2": 3
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 39.8,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Gonzalo Diaz Montero"
     },
     {
       "team": "North Carolina Tar Heels",
@@ -55389,37 +55417,37 @@
     },
     {
       "team": "Charleville Mezieres",
-      "games_tracked": 14,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 22.2,
+      "games_tracked": 15,
+      "avg_sdi": 40.3,
+      "avg_top1_pct": 22.6,
       "max_sdi": 60.0,
       "min_sdi": 31.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Coline Franchelin",
-          "times_top2": 13
+          "times_top2": 14
+        },
+        {
+          "name": "Noemie Brochant",
+          "times_top2": 5
         },
         {
           "name": "Vaciana Gomis",
           "times_top2": 5
-        },
-        {
-          "name": "Noemie Brochant",
-          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 37.7,
+      "avg_top1_off_share": 38.1,
       "playmaker_risk": "MODERATE",
       "top_creator": "Coline Franchelin"
     },
     {
       "team": "Suduva",
-      "games_tracked": 6,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 20.8,
+      "games_tracked": 7,
+      "avg_sdi": 38.6,
+      "avg_top1_pct": 20.1,
       "max_sdi": 50.0,
       "min_sdi": 29.0,
       "risk": "GREEN",
@@ -55430,18 +55458,18 @@
           "times_top2": 4
         },
         {
-          "name": "Aurelijus Pukelis",
-          "times_top2": 2
+          "name": "Justinas Ramanauskas",
+          "times_top2": 3
         },
         {
-          "name": "Justinas Ramanauskas",
+          "name": "Aurelijus Pukelis",
           "times_top2": 2
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 36.5,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Justinas Ramanauskas"
     },
     {
       "team": "Enea Basket Poznan",
@@ -55501,17 +55529,17 @@
     },
     {
       "team": "SC de Braga",
-      "games_tracked": 15,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 22.3,
+      "games_tracked": 16,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 22.5,
       "max_sdi": 63.5,
       "min_sdi": 29.7,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Abou Gakou",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Delaney Blaylock",
@@ -55523,37 +55551,37 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 36.3,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Jordan Sibert"
     },
     {
       "team": "Caceres",
-      "games_tracked": 15,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 21.8,
-      "max_sdi": 45.1,
+      "games_tracked": 16,
+      "avg_sdi": 40.4,
+      "avg_top1_pct": 22.2,
+      "max_sdi": 49.0,
       "min_sdi": 28.9,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
+      "risk": "AMBER",
+      "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Antonio Burgos",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Albert Lafuente",
           "times_top2": 5
         },
         {
-          "name": "Volodymyr Orlov",
-          "times_top2": 4
+          "name": "James Potier",
+          "times_top2": 5
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 32.6,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "James Potier"
     },
     {
       "team": "Bertram Tortona",
@@ -55688,6 +55716,34 @@
       "avg_top1_off_share": 32.4,
       "playmaker_risk": "MODERATE",
       "top_creator": "Daniel Freitag"
+    },
+    {
+      "team": "LSU Tigers",
+      "games_tracked": 9,
+      "avg_sdi": 39.8,
+      "avg_top1_pct": 21.5,
+      "max_sdi": 50.5,
+      "min_sdi": 32.6,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Donovan Dent",
+          "times_top2": 6
+        },
+        {
+          "name": "Michael Ruzic",
+          "times_top2": 4
+        },
+        {
+          "name": "Abdi Bashir Jr",
+          "times_top2": 3
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 40.4,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Donovan Dent"
     },
     {
       "team": "Rutronik Stars Keltern",
@@ -56082,34 +56138,6 @@
           "times_top2": 1
         }
       ]
-    },
-    {
-      "team": "SMU Mustangs",
-      "games_tracked": 9,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 23.6,
-      "max_sdi": 51.3,
-      "min_sdi": 30.7,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Oziyah Sellers",
-          "times_top2": 6
-        },
-        {
-          "name": "Jacob Patrick",
-          "times_top2": 2
-        },
-        {
-          "name": "Jaden Toombs",
-          "times_top2": 2
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 32.7,
-      "playmaker_risk": "MODERATE",
-      "top_creator": "David Terrell Jr"
     },
     {
       "team": "Warren Wilson Owls",
@@ -56586,34 +56614,6 @@
       "playmaker_risk": "LOW",
       "top_creator": "Garland Darius",
       "source": "proballers_ncaa"
-    },
-    {
-      "team": "Michigan State Spartans",
-      "games_tracked": 8,
-      "avg_sdi": 40.7,
-      "avg_top1_pct": 23.0,
-      "max_sdi": 60.9,
-      "min_sdi": 26.0,
-      "risk": "AMBER",
-      "risk_label": "MODERATE",
-      "top_players": [
-        {
-          "name": "Jeremy Fears Jr.",
-          "times_top2": 6
-        },
-        {
-          "name": "Jasiah Jervis",
-          "times_top2": 3
-        },
-        {
-          "name": "Jordan Scott",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 45.9,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Jeremy Fears Jr."
     },
     {
       "team": "Beylikduzu",
@@ -57317,9 +57317,37 @@
       "top_creator": "S. Vescovi"
     },
     {
+      "team": "Texas-San Antonio Roadrunners",
+      "games_tracked": 7,
+      "avg_sdi": 39.2,
+      "avg_top1_pct": 20.3,
+      "max_sdi": 47.8,
+      "min_sdi": 34.4,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Isaiah Watts",
+          "times_top2": 4
+        },
+        {
+          "name": "KJ Tenner",
+          "times_top2": 3
+        },
+        {
+          "name": "Shey Eberwein",
+          "times_top2": 2
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 30.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "KJ Tenner"
+    },
+    {
       "team": "Sporting CP",
-      "games_tracked": 24,
-      "avg_sdi": 42.7,
+      "games_tracked": 25,
+      "avg_sdi": 42.6,
       "avg_top1_pct": 24.9,
       "max_sdi": 56.7,
       "min_sdi": 27.7,
@@ -57336,12 +57364,12 @@
         },
         {
           "name": "Gabe Kalscheur",
-          "times_top2": 7
+          "times_top2": 8
         }
       ],
       "avg_top1_off_share": 32.3,
       "playmaker_risk": "MODERATE",
-      "top_creator": "O&apos;Reilly Liam",
+      "top_creator": "Liam O'reilly",
       "source": "proballers_ncaa"
     },
     {
@@ -57792,9 +57820,9 @@
     },
     {
       "team": "UD Oliveirense",
-      "games_tracked": 12,
-      "avg_sdi": 39.1,
-      "avg_top1_pct": 21.2,
+      "games_tracked": 13,
+      "avg_sdi": 39.3,
+      "avg_top1_pct": 21.3,
       "max_sdi": 49.3,
       "min_sdi": 33.0,
       "risk": "GREEN",
@@ -57814,9 +57842,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 25.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Jay'den Turner"
     },
     {
       "team": "Colorado College Tigers",
@@ -58299,6 +58327,34 @@
       "playmaker_risk": "LOW",
       "top_creator": "Juwan Dawes",
       "source": "proballers_ncaa"
+    },
+    {
+      "team": "Georgia Bulldogs",
+      "games_tracked": 8,
+      "avg_sdi": 39.0,
+      "avg_top1_pct": 21.5,
+      "max_sdi": 53.8,
+      "min_sdi": 32.5,
+      "risk": "GREEN",
+      "risk_label": "BALANCED",
+      "top_players": [
+        {
+          "name": "Blue Cain",
+          "times_top2": 5
+        },
+        {
+          "name": "Kanon Catchings",
+          "times_top2": 5
+        },
+        {
+          "name": "Marcus Millender",
+          "times_top2": 4
+        }
+      ],
+      "source": "proballers_ncaa",
+      "avg_top1_off_share": 29.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "Blue Cain"
     },
     {
       "team": "Manresa",
@@ -58851,34 +58907,6 @@
       "avg_top1_off_share": 30.5,
       "playmaker_risk": "LOW",
       "top_creator": "Shamiere Green"
-    },
-    {
-      "team": "Georgia Bulldogs",
-      "games_tracked": 8,
-      "avg_sdi": 39.0,
-      "avg_top1_pct": 21.5,
-      "max_sdi": 53.8,
-      "min_sdi": 32.5,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Blue Cain",
-          "times_top2": 5
-        },
-        {
-          "name": "Kanon Catchings",
-          "times_top2": 5
-        },
-        {
-          "name": "Marcus Millender",
-          "times_top2": 4
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 29.5,
-      "playmaker_risk": "LOW",
-      "top_creator": "Blue Cain"
     },
     {
       "team": "George Mason Patriots",
@@ -59693,34 +59721,6 @@
       "top_creator": "Ramsey Jahmius"
     },
     {
-      "team": "LSU Tigers",
-      "games_tracked": 9,
-      "avg_sdi": 39.8,
-      "avg_top1_pct": 21.5,
-      "max_sdi": 50.5,
-      "min_sdi": 32.6,
-      "risk": "GREEN",
-      "risk_label": "BALANCED",
-      "top_players": [
-        {
-          "name": "Donovan Dent",
-          "times_top2": 6
-        },
-        {
-          "name": "Michael Ruzic",
-          "times_top2": 4
-        },
-        {
-          "name": "Abdi Bashir Jr",
-          "times_top2": 3
-        }
-      ],
-      "source": "proballers_ncaa",
-      "avg_top1_off_share": 40.4,
-      "playmaker_risk": "HIGH",
-      "top_creator": "Donovan Dent"
-    },
-    {
       "team": "Charnay Bourgogne Sud W",
       "games_tracked": 2,
       "avg_sdi": 38.3,
@@ -60118,17 +60118,17 @@
     },
     {
       "team": "Nadunet Refitel Basquet Llira",
-      "games_tracked": 12,
-      "avg_sdi": 38.2,
-      "avg_top1_pct": 21.0,
-      "max_sdi": 45.8,
+      "games_tracked": 13,
+      "avg_sdi": 39.6,
+      "avg_top1_pct": 22.7,
+      "max_sdi": 56.8,
       "min_sdi": 31.2,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
           "name": "Ezequiel Herrera",
-          "times_top2": 4
+          "times_top2": 5
         },
         {
           "name": "Luis Garcia",
@@ -60140,9 +60140,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 49.1,
+      "playmaker_risk": "HIGH",
+      "top_creator": "Ezequiel Herrera"
     },
     {
       "team": "Independiente de Oliva",
@@ -60383,9 +60383,9 @@
     },
     {
       "team": "Cultural Y Deportiva Leonesa",
-      "games_tracked": 14,
-      "avg_sdi": 38.1,
-      "avg_top1_pct": 20.0,
+      "games_tracked": 15,
+      "avg_sdi": 38.2,
+      "avg_top1_pct": 20.1,
       "max_sdi": 47.8,
       "min_sdi": 25.7,
       "risk": "GREEN",
@@ -60393,11 +60393,11 @@
       "top_players": [
         {
           "name": "Casey Simmons",
-          "times_top2": 7
+          "times_top2": 8
         },
         {
           "name": "Aitor Anabitarte Soroa",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Aboubacar Traore",
@@ -60405,9 +60405,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.1,
+      "playmaker_risk": "LOW",
+      "top_creator": "Aitor Anabitarte Soroa"
     },
     {
       "team": "Chalon",
@@ -61092,9 +61092,9 @@
     },
     {
       "team": "Baloncesto Toledo",
-      "games_tracked": 14,
-      "avg_sdi": 37.7,
-      "avg_top1_pct": 21.0,
+      "games_tracked": 15,
+      "avg_sdi": 38.2,
+      "avg_top1_pct": 21.6,
       "max_sdi": 51.5,
       "min_sdi": 32.5,
       "risk": "GREEN",
@@ -61114,9 +61114,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 37.4,
+      "playmaker_risk": "MODERATE",
+      "top_creator": "Gerard Blat"
     },
     {
       "team": "Andrew Fighting Tigers",
@@ -61326,9 +61326,9 @@
     },
     {
       "team": "Real Valladolid",
-      "games_tracked": 14,
-      "avg_sdi": 37.6,
-      "avg_top1_pct": 20.3,
+      "games_tracked": 15,
+      "avg_sdi": 37.9,
+      "avg_top1_pct": 20.7,
       "max_sdi": 48.2,
       "min_sdi": 31.2,
       "risk": "GREEN",
@@ -61343,14 +61343,14 @@
           "times_top2": 4
         },
         {
-          "name": "Wayne Dinkins Drenin",
+          "name": "Kevin Schutte",
           "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 26.5,
+      "playmaker_risk": "LOW",
+      "top_creator": "Jacob Corban Austin Hanna"
     },
     {
       "team": "Dinamo BDS Sassari",
@@ -62601,9 +62601,9 @@
     },
     {
       "team": "Jaen Paraiso Interior FS",
-      "games_tracked": 10,
-      "avg_sdi": 37.0,
-      "avg_top1_pct": 21.0,
+      "games_tracked": 11,
+      "avg_sdi": 36.9,
+      "avg_top1_pct": 20.9,
       "max_sdi": 44.0,
       "min_sdi": 29.4,
       "risk": "GREEN",
@@ -62614,18 +62614,18 @@
           "times_top2": 5
         },
         {
-          "name": "Curtis Larousse",
+          "name": "Joaquin Cebolla Herrera",
           "times_top2": 4
         },
         {
-          "name": "Joaquin Cebolla Herrera",
-          "times_top2": 3
+          "name": "Curtis Larousse",
+          "times_top2": 4
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.1,
+      "playmaker_risk": "LOW",
+      "top_creator": "Joaquin Cebolla Herrera"
     },
     {
       "team": "Santa Cruz Warriors",
@@ -62842,20 +62842,20 @@
     },
     {
       "team": "Vilkaviskio Perlas",
-      "games_tracked": 7,
-      "avg_sdi": 36.8,
-      "avg_top1_pct": 20.1,
+      "games_tracked": 8,
+      "avg_sdi": 37.4,
+      "avg_top1_pct": 20.8,
       "max_sdi": 43.8,
       "min_sdi": 29.3,
       "risk": "GREEN",
       "risk_label": "BALANCED",
       "top_players": [
         {
-          "name": "Jordan Nigel Stafford",
-          "times_top2": 2
+          "name": "Emilis Bartninkas",
+          "times_top2": 3
         },
         {
-          "name": "Emilis Bartninkas",
+          "name": "Jordan Nigel Stafford",
           "times_top2": 2
         },
         {
@@ -62864,7 +62864,7 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": 23.5,
+      "avg_top1_off_share": 28.1,
       "playmaker_risk": "LOW",
       "top_creator": "Jordan Nigel Stafford"
     },
@@ -62893,7 +62893,7 @@
     },
     {
       "team": "C.B. Prat",
-      "games_tracked": 10,
+      "games_tracked": 11,
       "avg_sdi": 36.8,
       "avg_top1_pct": 20.5,
       "max_sdi": 42.1,
@@ -62915,9 +62915,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.3,
+      "playmaker_risk": "LOW",
+      "top_creator": "Sergi Costa"
     },
     {
       "team": "Centenary (LA) Gentlemen",
@@ -63429,17 +63429,17 @@
     },
     {
       "team": "Nitra Blue Wings",
-      "games_tracked": 20,
-      "avg_sdi": 43.8,
-      "avg_top1_pct": 24.6,
+      "games_tracked": 21,
+      "avg_sdi": 43.5,
+      "avg_top1_pct": 24.4,
       "max_sdi": 51.4,
-      "min_sdi": 36.9,
+      "min_sdi": 36.5,
       "risk": "AMBER",
       "risk_label": "MODERATE",
       "top_players": [
         {
           "name": "Dale Bonner",
-          "times_top2": 10
+          "times_top2": 11
         },
         {
           "name": "Tamario Adley",
@@ -63452,7 +63452,7 @@
       ],
       "avg_top1_off_share": 27.6,
       "playmaker_risk": "LOW",
-      "top_creator": "D. Bonner",
+      "top_creator": "Dale Bonner",
       "source": "proballers_ncaa"
     },
     {
@@ -63685,8 +63685,8 @@
     },
     {
       "team": "Maderas Sorli Benicarlo",
-      "games_tracked": 12,
-      "avg_sdi": 36.4,
+      "games_tracked": 13,
+      "avg_sdi": 36.3,
       "avg_top1_pct": 19.7,
       "max_sdi": 42.0,
       "min_sdi": 29.2,
@@ -63694,22 +63694,22 @@
       "risk_label": "BALANCED",
       "top_players": [
         {
+          "name": "David Orrit",
+          "times_top2": 5
+        },
+        {
           "name": "Anthony Libroia",
           "times_top2": 4
         },
         {
-          "name": "David Orrit",
-          "times_top2": 4
-        },
-        {
-          "name": "Toto Fagbenle",
+          "name": "Patrick Spencer",
           "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.9,
+      "playmaker_risk": "LOW",
+      "top_creator": "David Orrit"
     },
     {
       "team": "Ginasio Olhanense",
@@ -64630,9 +64630,9 @@
     },
     {
       "team": "Algeciras",
-      "games_tracked": 10,
-      "avg_sdi": 35.6,
-      "avg_top1_pct": 19.4,
+      "games_tracked": 11,
+      "avg_sdi": 35.4,
+      "avg_top1_pct": 19.3,
       "max_sdi": 42.9,
       "min_sdi": 29.9,
       "risk": "GREEN",
@@ -64640,21 +64640,21 @@
       "top_players": [
         {
           "name": "Bernardo Garcia",
+          "times_top2": 5
+        },
+        {
+          "name": "Treydel Ross Fields",
           "times_top2": 4
         },
         {
           "name": "Alberto Artiles",
           "times_top2": 3
-        },
-        {
-          "name": "David Ramirez Sanchez",
-          "times_top2": 3
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 29.0,
+      "playmaker_risk": "LOW",
+      "top_creator": "Alejandro Marin"
     },
     {
       "team": "Capital University (OH) Crusaders",
@@ -65141,9 +65141,9 @@
     },
     {
       "team": "Atletas Kaunas",
-      "games_tracked": 4,
-      "avg_sdi": 35.1,
-      "avg_top1_pct": 18.7,
+      "games_tracked": 5,
+      "avg_sdi": 35.6,
+      "avg_top1_pct": 19.3,
       "max_sdi": 40.8,
       "min_sdi": 30.7,
       "risk": "GREEN",
@@ -65163,9 +65163,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 28.4,
+      "playmaker_risk": "LOW",
+      "top_creator": "Pavle Kuzmanovic"
     },
     {
       "team": "Kolossos Rhodes",
@@ -66503,10 +66503,10 @@
     },
     {
       "team": "Rytas Vilnius II",
-      "games_tracked": 4,
-      "avg_sdi": 33.3,
-      "avg_top1_pct": 18.4,
-      "max_sdi": 35.2,
+      "games_tracked": 5,
+      "avg_sdi": 34.9,
+      "avg_top1_pct": 19.1,
+      "max_sdi": 41.5,
       "min_sdi": 31.6,
       "risk": "GREEN",
       "risk_label": "BALANCED",
@@ -66517,7 +66517,7 @@
         },
         {
           "name": "Martynas Kancevicius",
-          "times_top2": 2
+          "times_top2": 3
         },
         {
           "name": "Erikas Sirgedas",
@@ -66525,9 +66525,9 @@
         }
       ],
       "source": "proballers_ncaa",
-      "avg_top1_off_share": null,
-      "playmaker_risk": null,
-      "top_creator": null
+      "avg_top1_off_share": 24.6,
+      "playmaker_risk": "LOW",
+      "top_creator": "Kaloyan Balkandzhiev"
     },
     {
       "team": "Emerson Lions",
@@ -66998,9 +66998,9 @@
     },
     {
       "team": "FC Porto",
-      "games_tracked": 15,
-      "avg_sdi": 37.8,
-      "avg_top1_pct": 21.1,
+      "games_tracked": 16,
+      "avg_sdi": 37.4,
+      "avg_top1_pct": 20.8,
       "max_sdi": 45.1,
       "min_sdi": 31.7,
       "risk": "GREEN",
@@ -67008,7 +67008,7 @@
       "top_players": [
         {
           "name": "Corey Allen-Williams",
-          "times_top2": 6
+          "times_top2": 7
         },
         {
           "name": "Thomas Bropleh",
@@ -67021,7 +67021,7 @@
       ],
       "avg_top1_off_share": 28.6,
       "playmaker_risk": "LOW",
-      "top_creator": "Allen-Williams Corey",
+      "top_creator": "Corey Allen-Williams",
       "source": "proballers_ncaa"
     },
     {
