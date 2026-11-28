@@ -597,7 +597,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
   return null
 }
 
-function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0, filterSegment = 'all') {
+function filterPredictions(predictions, decision, outcome, country, drawMin, sport, leaderboard = [], maxMape = 100, filterBttsHitRate = 0, filterWomen = 'all', hidePlayoffs = false, smartEdgeFilter = false, teamLeaderboard = [], filterCorner = 'all', filterO25 = 0, filterConfidence = 'all', filterClash = false, filterShootout = false, filterDragDown = false, filterBuffer = 'all', filterShots = 'all', filterSDI = 'all', sdiIndex = {}, filterNormalEdge = 'all', filterHsh = 'all', filterMinGames = 0, filterSegment = 'all', filterCreator = 'all') {
   // Pre-build O(1) lookup map for team leaderboard
   const teamLbMap = new Map(teamLeaderboard.map(t => [`${t.league_id}__${(t.name || '').toLowerCase()}`, t]))
   return predictions.filter(p => {
@@ -899,6 +899,34 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
           if (hRisk !== tier && aRisk !== tier) return false
         }
       }
+
+      // Creator Dependency Filter — uses playmaker_risk from sdiIndex
+      if (filterCreator !== 'all') {
+        const hRec = getSdiRecord(p.home_team, sdiIndex)
+        const aRec = getSdiRecord(p.away_team, sdiIndex)
+        const hCR = hRec?.playmaker_risk || null
+        const aCR = aRec?.playmaker_risk || null
+        if (filterCreator === 'low') {
+          // Both teams LOW (balanced playmaking)
+          if (hCR !== 'LOW' || aCR !== 'LOW') return false
+        } else if (filterCreator === 'low_either') {
+          // At least one team LOW
+          if (hCR !== 'LOW' && aCR !== 'LOW') return false
+        } else if (filterCreator === 'high') {
+          // At least one team HIGH creator dependency
+          if (hCR !== 'HIGH' && aCR !== 'HIGH') return false
+        } else if (filterCreator === 'high_both') {
+          // Both teams HIGH creator dependency
+          if (hCR !== 'HIGH' || aCR !== 'HIGH') return false
+        } else if (filterCreator === 'no_data') {
+          // Only games with no playmaker data
+          if (hCR || aCR) return false
+        } else {
+          // Exact tier match (LOW / MODERATE / HIGH) — at least one team
+          const tier = filterCreator.toUpperCase()
+          if (hCR !== tier && aCR !== tier) return false
+        }
+      }
     }
 
     // Normal (Raw) Edge Filter (Basketball only)
@@ -965,6 +993,7 @@ export default function App() {
   const [filterShootout, setFilterShootout] = useState(false) // 🔥 Shootout Over filter
   const [filterDragDown, setFilterDragDown] = useState(false) // ⚓ Drag-Down Under filter
   const [filterSDI, setFilterSDI] = useState('all') // ⭐ SDI tier filter: all | balanced | amber | red | volatile
+  const [filterCreator, setFilterCreator] = useState('all') // 🎯 Creator/Playmaker Risk: all | low | low_either | moderate | high | high_both | no_data
   const [filterNormalEdge, setFilterNormalEdge] = useState('all') // 📏 Normal Edge filter: all | 3 | 4 | 5 | 7 | 10 | 15 | over_4 | under_4
   const [filterSegment, setFilterSegment] = useState('all') // 'all' | 'FIBA_CORE' | 'NBA_MEN' | 'NCAA_MEN' | 'NBA_GLEAGUE' | 'ASIA' | 'WOMEN'
 
@@ -1111,9 +1140,9 @@ export default function App() {
 
   const filtered = useMemo(() => {
     if (!data) return []
-    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment
+    return filterPredictions(data.predictions, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment, filterCreator
     );
-  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment])
+  }, [data, filterDecision, filterOutcome, filterCountry, filterDraw, sport, leaderboard, filterMape, filterBttsHitRate, filterWomen, hidePlayoffs, smartEdgeFilter, teamLeaderboard, filterCorner, filterO25, filterConfidence, filterClash, filterShootout, filterDragDown, filterBuffer, filterShots, filterSDI, sdiIndex, filterNormalEdge, filterHsh, filterMinGames, filterSegment, filterCreator])
 
   const groups = useMemo(() => sortGroups(groupByLeague(filtered, sport), sortBy, sport, leaderboard), [filtered, sortBy, sport, leaderboard])
 
@@ -1174,6 +1203,7 @@ export default function App() {
           setFilterDragDown(false);
           setFilterNormalEdge('all');
           setFilterSegment('all');
+          setFilterCreator('all');
           setViewMode('matches');
         }}
         filterDecision={filterDecision}
@@ -1409,6 +1439,22 @@ export default function App() {
                 <option value="amber">🟡 Moderate (Has AMBER)</option>
                 <option value="red">🔴 High Dep (Has RED)</option>
                 <option value="volatile">⚠️ Any Volatile (≥1 RED)</option>
+              </select>
+
+              <select
+                className="filter-select"
+                style={{ width: '175px' }}
+                value={filterCreator}
+                onChange={e => setFilterCreator(e.target.value)}
+                title="Creator Dependency — filter by playmaker concentration risk tier"
+              >
+                <option value="all">🎯 Creator Risk: All</option>
+                <option value="low_either">🟢 Any Low Creator</option>
+                <option value="low">🟢 Both Low (Balanced)</option>
+                <option value="moderate">🟡 Any Moderate Creator</option>
+                <option value="high">🔴 Any High Creator</option>
+                <option value="high_both">🔴 Both High Creator</option>
+                <option value="no_data">⬜ No Creator Data</option>
               </select>
 
               <select
