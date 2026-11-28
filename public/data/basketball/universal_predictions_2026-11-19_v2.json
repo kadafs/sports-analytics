@@ -2730,29 +2730,33 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 51.6,
-          "top1_pct": 28.1,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 57.7,
+          "top1_pct": 30.0,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
           "top_players": [
             {
               "name": "V. Ferjancic",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "H. Jerkovic",
               "times_top2": 1
+            },
+            {
+              "name": "S. Vujacic",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 40.2,
+          "avg_off_share": 42.2,
           "playmaker_risk": "HIGH",
           "top_creator": "H. Jerkovic"
         },
         "sdiA": {
-          "avg_sdi": 57.5,
-          "top1_pct": 30.0,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 50.5,
+          "top1_pct": 27.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "R. Elgedawy",
@@ -2761,9 +2765,17 @@
             {
               "name": "I. Slonjsak",
               "times_top2": 1
+            },
+            {
+              "name": "Blagus Nika",
+              "times_top2": 1
+            },
+            {
+              "name": "Misjak Ziva",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 35.6,
+          "avg_off_share": 31.7,
           "playmaker_risk": "MODERATE",
           "top_creator": "I. Slonjsak"
         }
@@ -18832,21 +18844,25 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 34.5,
-          "top1_pct": 19.5,
+          "avg_sdi": 30.7,
+          "top1_pct": 16.8,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Sorkin Roman",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Madar Yam",
               "times_top2": 1
+            },
+            {
+              "name": "Rayman William",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 23.7,
+          "avg_off_share": 23.6,
           "playmaker_risk": "LOW",
           "top_creator": "K. Wallace"
         },
@@ -23829,7 +23845,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 28.4,
+          "avg_off_share": 26.8,
           "playmaker_risk": "LOW",
           "top_creator": "Micic Vasilije"
         }
@@ -39393,8 +39409,8 @@
               "times_top2": 9
             }
           ],
-          "avg_off_share": 37.0,
-          "playmaker_risk": "MODERATE",
+          "avg_off_share": 41.3,
+          "playmaker_risk": "HIGH",
           "top_creator": "Harden James"
         },
         "sdiA": {
@@ -43644,9 +43660,9 @@
               "times_top2": 5
             }
           ],
-          "avg_off_share": 28.0,
+          "avg_off_share": 26.8,
           "playmaker_risk": "LOW",
-          "top_creator": "Siakam Pascal"
+          "top_creator": "Nembhard Andrew"
         },
         "sdiA": {
           "avg_sdi": 41.9,
@@ -43667,7 +43683,7 @@
               "times_top2": 10
             }
           ],
-          "avg_off_share": 37.6,
+          "avg_off_share": 38.4,
           "playmaker_risk": "MODERATE",
           "top_creator": "Sengun Alperen"
         }
@@ -47918,7 +47934,7 @@
               "times_top2": 8
             }
           ],
-          "avg_off_share": 41.1,
+          "avg_off_share": 44.2,
           "playmaker_risk": "HIGH",
           "top_creator": "Herro Tyler"
         }
@@ -52169,7 +52185,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 37.6,
+          "avg_off_share": 36.6,
           "playmaker_risk": "MODERATE",
           "top_creator": "James LeBron"
         }
@@ -56411,7 +56427,7 @@
               "times_top2": 4
             }
           ],
-          "avg_off_share": 32.8,
+          "avg_off_share": 33.8,
           "playmaker_risk": "MODERATE",
           "top_creator": "Randle Julius"
         },
@@ -56434,7 +56450,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 34.3,
+          "avg_off_share": 32.9,
           "playmaker_risk": "MODERATE",
           "top_creator": "Jones Tre"
         }
@@ -60684,7 +60700,7 @@
               "times_top2": 9
             }
           ],
-          "avg_off_share": 43.4,
+          "avg_off_share": 40.6,
           "playmaker_risk": "HIGH",
           "top_creator": "Barnes Scott"
         },
@@ -64957,8 +64973,8 @@
               "times_top2": 5
             }
           ],
-          "avg_off_share": 37.5,
-          "playmaker_risk": "MODERATE",
+          "avg_off_share": 39.5,
+          "playmaker_risk": "HIGH",
           "top_creator": "Gilgeous-Alexander Shai"
         },
         "sdiA": {
@@ -64980,7 +64996,7 @@
               "times_top2": 13
             }
           ],
-          "avg_off_share": 27.2,
+          "avg_off_share": 31.1,
           "playmaker_risk": "LOW",
           "top_creator": "Alexander-Walker Nickeil"
         }
@@ -69208,7 +69224,7 @@
               "times_top2": 13
             }
           ],
-          "avg_off_share": 35.1,
+          "avg_off_share": 33.7,
           "playmaker_risk": "MODERATE",
           "top_creator": "Poole Jordan"
         },
@@ -81986,7 +82002,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 41.5,
+          "avg_off_share": 40.6,
           "playmaker_risk": "HIGH",
           "top_creator": "Doncic Luka"
         },
@@ -82009,7 +82025,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 35.7,
+          "avg_off_share": 36.1,
           "playmaker_risk": "MODERATE",
           "top_creator": "K. Filipowski"
         }
@@ -86237,7 +86253,7 @@
               "times_top2": 6
             }
           ],
-          "avg_off_share": 37.3,
+          "avg_off_share": 38.5,
           "playmaker_risk": "MODERATE",
           "top_creator": "J. D. Acuff"
         },
@@ -86260,7 +86276,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 34.1,
+          "avg_off_share": 31.6,
           "playmaker_risk": "MODERATE",
           "top_creator": "Booker Devin"
         }
@@ -1804189,8 +1804205,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 37.7,
-          "top1_pct": 21.7,
+          "avg_sdi": 39.2,
+          "top1_pct": 21.4,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -1804201,17 +1804217,25 @@
             {
               "name": "P. Kuzmanovic",
               "times_top2": 1
+            },
+            {
+              "name": "A. Hopenas",
+              "times_top2": 1
+            },
+            {
+              "name": "J. Sadauskas",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 28.4,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 31.8,
+          "playmaker_risk": "MODERATE",
           "top_creator": "P. Kuzmanovic"
         },
         "sdiA": {
-          "avg_sdi": 41.5,
-          "top1_pct": 22.0,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 37.2,
+          "top1_pct": 19.8,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "K. Balkandzhiev",
@@ -1804220,9 +1804244,17 @@
             {
               "name": "M. Kancevicius",
               "times_top2": 1
+            },
+            {
+              "name": "G. Buivydas",
+              "times_top2": 1
+            },
+            {
+              "name": "K. Snitka",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 24.6,
+          "avg_off_share": 27.7,
           "playmaker_risk": "LOW",
           "top_creator": "K. Balkandzhiev"
         }
@@ -1805348,14 +1805380,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 36.9,
-          "top1_pct": 18.4,
+          "avg_sdi": 39.5,
+          "top1_pct": 19.9,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "A. Lopukhov",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "T. Kupstas",
@@ -1805364,9 +1805396,13 @@
             {
               "name": "F. JaQuavian",
               "times_top2": 1
+            },
+            {
+              "name": "A. Gydra",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 31.9,
+          "avg_off_share": 32.9,
           "playmaker_risk": "MODERATE",
           "top_creator": "R. Williams"
         },
@@ -1806520,11 +1806556,15 @@
           "top_creator": "Remeikis Dziugas"
         },
         "sdiA": {
-          "avg_sdi": 38.5,
-          "top1_pct": 21.8,
+          "avg_sdi": 36.8,
+          "top1_pct": 21.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
+            {
+              "name": "J. Nigel Stafford",
+              "times_top2": 2
+            },
             {
               "name": "Bartninkas Emilis",
               "times_top2": 1
@@ -1806538,11 +1806578,11 @@
               "times_top2": 1
             },
             {
-              "name": "J. Nigel Stafford",
+              "name": "Pazarauskas Titas",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 28.1,
+          "avg_off_share": 30.6,
           "playmaker_risk": "LOW",
           "top_creator": "Bartninkas Emilis"
         }
@@ -1807677,14 +1807717,14 @@
           "top_creator": "Gerrale Gates"
         },
         "sdiA": {
-          "avg_sdi": 45.6,
-          "top1_pct": 25.6,
+          "avg_sdi": 45.8,
+          "top1_pct": 25.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "K. Simpson",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "N. Vydmantas",
@@ -1807693,11 +1807733,15 @@
             {
               "name": "J. Becker",
               "times_top2": 1
+            },
+            {
+              "name": "J. Levickas",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 34.7,
+          "avg_off_share": 35.3,
           "playmaker_risk": "MODERATE",
-          "top_creator": "Sliogeris Simas"
+          "top_creator": "K. Simpson"
         }
       },
       "actual_home_score": 71,
@@ -1808807,41 +1808851,49 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 31.2,
-          "top1_pct": 16.2,
+          "avg_sdi": 36.5,
+          "top1_pct": 18.8,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "Jogminas Justinas",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Ramanauskas Justinas",
               "times_top2": 1
+            },
+            {
+              "name": "Vilys Domantas",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 36.5,
-          "playmaker_risk": "MODERATE",
+          "avg_off_share": 30.2,
+          "playmaker_risk": "LOW",
           "top_creator": "Ramanauskas Justinas"
         },
         "sdiA": {
-          "avg_sdi": 43.6,
-          "top1_pct": 23.6,
+          "avg_sdi": 47.5,
+          "top1_pct": 26.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "M. Thomas",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Macijauskas Matas",
               "times_top2": 1
+            },
+            {
+              "name": "E. Jamias Byrd",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 31.5,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 33.9,
+          "playmaker_risk": "MODERATE",
           "top_creator": "M. Thomas"
         }
       },
@@ -1809975,26 +1810027,26 @@
           "top_creator": "Julius Kazakauskas"
         },
         "sdiA": {
-          "avg_sdi": 40.8,
-          "top1_pct": 23.2,
+          "avg_sdi": 46.0,
+          "top1_pct": 26.4,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "M. Staniulis",
+              "times_top2": 3
+            },
+            {
+              "name": "Warren Jalen",
               "times_top2": 2
             },
             {
               "name": "H. Pivorius",
               "times_top2": 1
-            },
-            {
-              "name": "Warren Jalen",
-              "times_top2": 1
             }
           ],
-          "avg_off_share": 30.0,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 34.7,
+          "playmaker_risk": "MODERATE",
           "top_creator": "M. Staniulis"
         }
       },
@@ -1811128,22 +1811180,26 @@
           "top_creator": "Vytenis Cizauskas"
         },
         "sdiA": {
-          "avg_sdi": 36.1,
-          "top1_pct": 19.4,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+          "avg_sdi": 46.5,
+          "top1_pct": 25.0,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "E. Stephens",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "T. Troska",
               "times_top2": 1
+            },
+            {
+              "name": "D. Tarvydas",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 31.4,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 36.3,
+          "playmaker_risk": "MODERATE",
           "top_creator": "E. Stephens"
         }
       }
@@ -1812243,46 +1812299,46 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.8,
-          "top1_pct": 24.1,
+          "avg_sdi": 42.1,
+          "top1_pct": 22.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Kuprijanovas Medas",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Dziaugys Evaldas",
-              "times_top2": 1
+              "times_top2": 2
             }
           ],
-          "avg_off_share": 26.9,
+          "avg_off_share": 25.8,
           "playmaker_risk": "LOW",
           "top_creator": "Dziaugys Evaldas"
         },
         "sdiA": {
-          "avg_sdi": 54.3,
-          "top1_pct": 30.6,
+          "avg_sdi": 52.9,
+          "top1_pct": 29.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "C. Hall",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "J. Williams",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Uzupis Marijus",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 42.3,
+          "avg_off_share": 42.5,
           "playmaker_risk": "HIGH",
-          "top_creator": "J. Williams"
+          "top_creator": "C. Hall"
         }
       },
       "actual_home_score": 89,
@@ -1813406,14 +1813462,14 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 45.3,
-          "top1_pct": 26.1,
+          "avg_sdi": 45.5,
+          "top1_pct": 26.2,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "Rimkus Arunas",
-              "times_top2": 2
+              "times_top2": 3
             },
             {
               "name": "Vilutis Arturas",
@@ -1813422,28 +1813478,32 @@
             {
               "name": "Velutis Paulius",
               "times_top2": 1
+            },
+            {
+              "name": "Vaivada Nojus",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 31.0,
+          "avg_off_share": 30.2,
           "playmaker_risk": "LOW",
           "top_creator": "Vilutis Arturas"
         },
         "sdiA": {
-          "avg_sdi": 41.8,
-          "top1_pct": 20.9,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 39.0,
+          "top1_pct": 20.2,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "W. Russell Jenkins III",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Janusevicius Titas",
-              "times_top2": 1
+              "times_top2": 2
             }
           ],
-          "avg_off_share": 28.0,
+          "avg_off_share": 24.7,
           "playmaker_risk": "LOW",
           "top_creator": "Janusevicius Titas"
         }

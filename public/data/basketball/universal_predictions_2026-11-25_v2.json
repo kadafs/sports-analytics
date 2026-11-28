@@ -604,40 +604,48 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 60.0,
-          "top1_pct": 38.2,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
-          "top_players": [
-            {
-              "name": "A. Saric",
-              "times_top2": 1
-            },
-            {
-              "name": "Kvrgic Alina",
-              "times_top2": 1
-            }
-          ],
-          "avg_off_share": 38.2,
-          "playmaker_risk": "MODERATE",
-          "top_creator": "A. Saric"
-        },
-        "sdiA": {
-          "avg_sdi": 51.6,
-          "top1_pct": 28.1,
+          "avg_sdi": 47.6,
+          "top1_pct": 27.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
             {
-              "name": "V. Ferjancic",
+              "name": "A. Saric",
+              "times_top2": 2
+            },
+            {
+              "name": "Kvrgic Alina",
               "times_top2": 1
+            },
+            {
+              "name": "Kozina Lara",
+              "times_top2": 1
+            }
+          ],
+          "avg_off_share": 33.0,
+          "playmaker_risk": "MODERATE",
+          "top_creator": "A. Saric"
+        },
+        "sdiA": {
+          "avg_sdi": 57.7,
+          "top1_pct": 30.0,
+          "risk": "RED",
+          "risk_label": "HIGH DEPENDENCY",
+          "top_players": [
+            {
+              "name": "V. Ferjancic",
+              "times_top2": 2
             },
             {
               "name": "H. Jerkovic",
               "times_top2": 1
+            },
+            {
+              "name": "S. Vujacic",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 40.2,
+          "avg_off_share": 42.2,
           "playmaker_risk": "HIGH",
           "top_creator": "H. Jerkovic"
         }
@@ -4938,21 +4946,25 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 41.9,
-          "top1_pct": 21.0,
+          "avg_sdi": 40.2,
+          "top1_pct": 20.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "L. Valkova",
+              "times_top2": 2
+            },
             {
               "name": "Kubickova Eliska",
               "times_top2": 1
             },
             {
-              "name": "L. Valkova",
+              "name": "K. Lass",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 38.3,
+          "avg_off_share": 33.1,
           "playmaker_risk": "MODERATE",
           "top_creator": "L. Valkova"
         },
@@ -10825,8 +10837,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 44.8,
-          "top1_pct": 26.7,
+          "avg_sdi": 41.2,
+          "top1_pct": 23.1,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
@@ -10837,28 +10849,40 @@
             {
               "name": "Badiane Marieme",
               "times_top2": 1
+            },
+            {
+              "name": "J. Simms",
+              "times_top2": 1
+            },
+            {
+              "name": "G. Duman",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 29.0,
+          "avg_off_share": 27.1,
           "playmaker_risk": "LOW",
           "top_creator": "J. Simms"
         },
         "sdiA": {
-          "avg_sdi": 50.9,
-          "top1_pct": 35.1,
+          "avg_sdi": 51.2,
+          "top1_pct": 33.5,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "M. Boyd",
+              "times_top2": 2
+            },
             {
               "name": "Kralova Tereza",
               "times_top2": 1
             },
             {
-              "name": "M. Boyd",
+              "name": "Hanusova Alena",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 46.4,
+          "avg_off_share": 40.8,
           "playmaker_risk": "HIGH",
           "top_creator": "Kralova Tereza"
         }
@@ -13779,10 +13803,10 @@
           "top_creator": "S. Puckett"
         },
         "sdiA": {
-          "avg_sdi": 57.5,
-          "top1_pct": 30.0,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 50.5,
+          "top1_pct": 27.5,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "R. Elgedawy",
@@ -13791,9 +13815,17 @@
             {
               "name": "I. Slonjsak",
               "times_top2": 1
+            },
+            {
+              "name": "Blagus Nika",
+              "times_top2": 1
+            },
+            {
+              "name": "Misjak Ziva",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 35.6,
+          "avg_off_share": 31.7,
           "playmaker_risk": "MODERATE",
           "top_creator": "I. Slonjsak"
         }
@@ -16691,21 +16723,25 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 50.0,
-          "top1_pct": 25.0,
+          "avg_sdi": 44.3,
+          "top1_pct": 23.9,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Ryan Robbi",
+              "times_top2": 2
+            },
             {
               "name": "Hamzova Eliska",
               "times_top2": 1
             },
             {
-              "name": "Ryan Robbi",
+              "name": "Fucikova Monika",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 35.8,
+          "avg_off_share": 34.1,
           "playmaker_risk": "MODERATE",
           "top_creator": "Hamzova Eliska"
         },
@@ -19645,10 +19681,10 @@
           "top_creator": "Kanyasi Veronika"
         },
         "sdiA": {
-          "avg_sdi": 55.1,
-          "top1_pct": 29.0,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 46.0,
+          "top1_pct": 24.4,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "L. Phelia",
@@ -19657,9 +19693,17 @@
             {
               "name": "Z. Green",
               "times_top2": 1
+            },
+            {
+              "name": "Vojtulek Ana",
+              "times_top2": 1
+            },
+            {
+              "name": "A. Virjoghe",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 38.3,
+          "avg_off_share": 33.3,
           "playmaker_risk": "MODERATE",
           "top_creator": "L. Phelia"
         }
@@ -22578,10 +22622,10 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 35.0,
-          "top1_pct": 17.5,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+          "avg_sdi": 49.3,
+          "top1_pct": 29.2,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "K. Todd-Williams",
@@ -22590,10 +22634,18 @@
             {
               "name": "Jankovic Masa",
               "times_top2": 1
+            },
+            {
+              "name": "N. Ezeigbo",
+              "times_top2": 1
+            },
+            {
+              "name": "Friskovec Zala",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 29.7,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 35.3,
+          "playmaker_risk": "MODERATE",
           "top_creator": "Friskovec Zala"
         },
         "sdiA": {
@@ -25509,27 +25561,31 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 51.4,
-          "top1_pct": 35.7,
+          "avg_sdi": 46.1,
+          "top1_pct": 29.7,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "G. Davis",
+              "times_top2": 2
+            },
             {
               "name": "F. Fitzgerald",
               "times_top2": 1
             },
             {
-              "name": "G. Davis",
+              "name": "J. Popovic",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 51.1,
+          "avg_off_share": 43.0,
           "playmaker_risk": "HIGH",
           "top_creator": "F. Fitzgerald"
         },
         "sdiA": {
-          "avg_sdi": 33.8,
-          "top1_pct": 16.9,
+          "avg_sdi": 36.0,
+          "top1_pct": 18.0,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -25540,10 +25596,18 @@
             {
               "name": "C. Fondren",
               "times_top2": 1
+            },
+            {
+              "name": "E. Dixon",
+              "times_top2": 1
+            },
+            {
+              "name": "K. Wnorowska",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 30.8,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 39.4,
+          "playmaker_risk": "HIGH",
           "top_creator": "Conte Anastasia"
         }
       },
@@ -31375,21 +31439,25 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 41.5,
-          "top1_pct": 23.2,
-          "risk": "AMBER",
-          "risk_label": "MODERATE",
+          "avg_sdi": 36.9,
+          "top1_pct": 20.2,
+          "risk": "GREEN",
+          "risk_label": "BALANCED",
           "top_players": [
             {
               "name": "N. Harris",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "Joris Ine",
               "times_top2": 1
+            },
+            {
+              "name": "T. Kapenga",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 26.7,
+          "avg_off_share": 25.6,
           "playmaker_risk": "LOW",
           "top_creator": "A. Asi"
         },
@@ -51486,7 +51554,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 28.4,
+          "avg_off_share": 26.8,
           "playmaker_risk": "LOW",
           "top_creator": "Micic Vasilije"
         }
@@ -54991,21 +55059,25 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 56.1,
-          "top1_pct": 33.7,
+          "avg_sdi": 55.4,
+          "top1_pct": 33.2,
           "risk": "RED",
           "risk_label": "HIGH DEPENDENCY",
           "top_players": [
             {
               "name": "Bulgak Adut",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "S. Mavunga",
               "times_top2": 1
+            },
+            {
+              "name": "C. Akpinar",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 39.4,
+          "avg_off_share": 39.5,
           "playmaker_risk": "HIGH",
           "top_creator": "Lelik Reka"
         },
@@ -57085,8 +57157,8 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 35.0,
-          "top1_pct": 21.2,
+          "avg_sdi": 33.7,
+          "top1_pct": 19.4,
           "risk": "GREEN",
           "risk_label": "BALANCED",
           "top_players": [
@@ -57097,9 +57169,17 @@
             {
               "name": "Howard Natasha",
               "times_top2": 1
+            },
+            {
+              "name": "Salaun Janelle",
+              "times_top2": 1
+            },
+            {
+              "name": "Hof Emese",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 29.3,
+          "avg_off_share": 25.6,
           "playmaker_risk": "LOW",
           "top_creator": "Kuier Awak"
         },
@@ -63187,40 +63267,44 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 50.0,
-          "top1_pct": 28.6,
+          "avg_sdi": 50.9,
+          "top1_pct": 29.8,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "V. Lukcova",
+              "times_top2": 2
+            },
             {
               "name": "N. Tomajkova",
               "times_top2": 1
             },
             {
-              "name": "V. Lukcova",
+              "name": "J. Matejcikova",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 34.4,
+          "avg_off_share": 36.4,
           "playmaker_risk": "MODERATE",
           "top_creator": "M. Maliarova"
         },
         "sdiA": {
-          "avg_sdi": 77.4,
-          "top1_pct": 39.6,
+          "avg_sdi": 67.8,
+          "top1_pct": 39.4,
           "risk": "RED",
           "risk_label": "HIGH DEPENDENCY",
           "top_players": [
             {
               "name": "K. Ransom",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "K. A. Blacksten",
-              "times_top2": 1
+              "times_top2": 2
             }
           ],
-          "avg_off_share": 51.8,
+          "avg_off_share": 55.6,
           "playmaker_risk": "HIGH",
           "top_creator": "K. Ransom"
         }
@@ -81457,7 +81541,7 @@
               "times_top2": 7
             }
           ],
-          "avg_off_share": 37.6,
+          "avg_off_share": 36.6,
           "playmaker_risk": "MODERATE",
           "top_creator": "James LeBron"
         },
@@ -2406303,21 +2406387,25 @@
           "top_creator": "K. Lasek"
         },
         "sdiA": {
-          "avg_sdi": 52.2,
-          "top1_pct": 29.9,
+          "avg_sdi": 41.7,
+          "top1_pct": 24.0,
           "risk": "AMBER",
           "risk_label": "MODERATE",
           "top_players": [
+            {
+              "name": "Ahlberg Matilda",
+              "times_top2": 2
+            },
             {
               "name": "N. Villaflor",
               "times_top2": 1
             },
             {
-              "name": "Ahlberg Matilda",
+              "name": "A. Tivenius",
               "times_top2": 1
             }
           ],
-          "avg_off_share": 52.3,
+          "avg_off_share": 39.5,
           "playmaker_risk": "HIGH",
           "top_creator": "N. Villaflor"
         }
@@ -2407892,22 +2407980,26 @@
           "prior_blended": false
         },
         "sdiH": {
-          "avg_sdi": 63.6,
-          "top1_pct": 33.3,
-          "risk": "RED",
-          "risk_label": "HIGH DEPENDENCY",
+          "avg_sdi": 52.9,
+          "top1_pct": 29.8,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "L. Hajdin",
-              "times_top2": 1
+              "times_top2": 2
             },
             {
               "name": "T. Thompson",
               "times_top2": 1
+            },
+            {
+              "name": "M. Ostojic",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 36.8,
-          "playmaker_risk": "MODERATE",
+          "avg_off_share": 40.0,
+          "playmaker_risk": "HIGH",
           "top_creator": "T. Thompson"
         },
         "sdiA": {
@@ -2408654,10 +2408746,10 @@
           "top_creator": "D. Stoyanovska"
         },
         "sdiA": {
-          "avg_sdi": 37.8,
-          "top1_pct": 20.3,
-          "risk": "GREEN",
-          "risk_label": "BALANCED",
+          "avg_sdi": 46.6,
+          "top1_pct": 29.8,
+          "risk": "AMBER",
+          "risk_label": "MODERATE",
           "top_players": [
             {
               "name": "N. Novak",
@@ -2408666,10 +2408758,18 @@
             {
               "name": "K. Skare",
               "times_top2": 1
+            },
+            {
+              "name": "L. Packovski",
+              "times_top2": 1
+            },
+            {
+              "name": "N. Rodek",
+              "times_top2": 1
             }
           ],
-          "avg_off_share": 23.2,
-          "playmaker_risk": "LOW",
+          "avg_off_share": 37.0,
+          "playmaker_risk": "MODERATE",
           "top_creator": "N. Novak"
         }
       },
