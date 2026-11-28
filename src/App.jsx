@@ -18,7 +18,7 @@ export function classifyBasketballSegment(country = '', league = '', isWomen = f
   const h = String(home || '').toUpperCase().trim()
   const a = String(away || '').toUpperCase().trim()
 
-  if (isWomen || l.includes('WOMEN') || l.includes('(W)') || l.includes('WNBA') || l.includes('FEMENIN') || l.includes('FRAUEN') || l.includes('KOBIET') || h.endsWith(' W') || a.endsWith(' W')) {
+  if (isWomen || l.includes('WOMEN') || l.includes('(W)') || l.includes('WNBA') || l.includes('FEMENIN') || l.includes('FRAUEN') || l.includes('KOBIET') || h.endsWith(' W') || a.endsWith(' W') || h.endsWith(' (W)') || a.endsWith(' (W)')) {
     return 'WOMEN'
   }
   if (l.includes('NBA G LEAGUE') || l.includes('G LEAGUE') || l.includes('G-LEAGUE')) {
@@ -34,6 +34,15 @@ export function classifyBasketballSegment(country = '', league = '', isWomen = f
     return 'ASIA'
   }
   return 'FIBA_CORE'
+}
+
+export function getLeagueSegment(p) {
+  if (!p) return 'FIBA_CORE'
+  if (p.league_segment && p.league_segment !== 'WOMEN') {
+    return p.league_segment
+  }
+  // If stamped 'WOMEN' or missing, verify via canonical rules to avoid false positives (e.g. 'George Washington', 'Merrimack Warriors')
+  return classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
 }
 
 function isPlayoffGame(stage = '') {
@@ -390,7 +399,7 @@ export function getSmartEdgeInfo(p, teamLbMap, teamLeaderboard) {
     return p.smart_edge
   }
 
-  const seg = p.league_segment || classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
+  const seg = getLeagueSegment(p)
   const segLabel = p.league_segment_label || (
     seg === 'NBA_MEN' ? 'NBA Men (48m)' :
       seg === 'NCAA_MEN' ? 'NCAA Men (College)' :
@@ -598,7 +607,7 @@ function filterPredictions(predictions, decision, outcome, country, drawMin, spo
 
     // League Segment Filter (Basketball only)
     if (sport === 'basketball' && filterSegment !== 'all') {
-      const seg = p.league_segment || classifyBasketballSegment(p.country, p.league, isWomensLeague(p.league), p.home_team, p.away_team)
+      const seg = getLeagueSegment(p)
       if (seg !== filterSegment) return false
     }
     // Sport-specific decision mapping
